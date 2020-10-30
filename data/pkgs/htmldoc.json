@@ -1,0 +1,75 @@
+{
+ "1.8.27": {
+  "meta": {
+   "description": "Converts HTML files to indexed HTML, PS or PDF",
+   "homepage": "http://www.htmldoc.org/",
+   "license": "GPLv2",
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "htmldoc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.8.29": {
+  "meta": {
+   "description": "Converts HTML files to PostScript and PDF",
+   "homepage": "https://michaelrsweet.github.io/htmldoc",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "HTMLDOC is a program that reads HTML source files or web pages and\ngenerates corresponding HTML, PostScript, or PDF files with an optional\ntable of contents.\n",
+   "maintainers": [
+    {
+     "email": "shanemikel1@gmail.com",
+     "github": "shanemikel",
+     "name": "Shane Pearlman"
+    }
+   ],
+   "name": "htmldoc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/typesetting/htmldoc/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

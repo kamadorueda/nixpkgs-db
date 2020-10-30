@@ -1,0 +1,95 @@
+{
+ "2.9.4": {
+  "meta": {
+   "description": "A Qt port of the Scintilla text editing library",
+   "homepage": "http://www.riverbankcomputing.com/software/qscintilla/intro",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0-only",
+     "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+    }
+   ],
+   "long_description": "QScintilla is a port to Qt of Neil Hodgson's Scintilla C++ editor\ncontrol.\n\nAs well as features found in standard text editing components,\nQScintilla includes features especially useful when editing and\ndebugging source code. These include support for syntax styling,\nerror indicators, code completion and call tips. The selection\nmargin can contain markers like those used in debuggers to\nindicate breakpoints and the current line. Styling choices are\nmore open than with many editors, allowing the use of\nproportional fonts, bold and italics, multiple foreground and\nbackground colours and multiple fonts.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "qscintilla-qt5",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/qscintilla/default.nix:48"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

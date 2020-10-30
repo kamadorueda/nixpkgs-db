@@ -1,0 +1,98 @@
+{
+ "1.7": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "spidermonkey",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "38.8.0": {
+  "meta": {
+   "description": "Mozilla's JavaScript engine written in C/C++",
+   "homepage": "https://developer.mozilla.org/en/SpiderMonkey",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "name": "Nikolay Amiantov"
+    }
+   ],
+   "name": "spidermonkey",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/spidermonkey/38.nix:53"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

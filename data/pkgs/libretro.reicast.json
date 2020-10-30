@@ -1,0 +1,97 @@
+{
+ "2017-06-04": {
+  "meta": {
+   "description": "Reicast libretro port",
+   "homepage": "https://www.libretro.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    },
+    {
+     "email": "c.nix@hrdinka.at",
+     "github": "hrdinka",
+     "name": "Christoph Hrdinka"
+    },
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "name": "Cray Elliott"
+    }
+   ],
+   "name": "libretro-reicast",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/misc/emulators/retroarch/cores.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

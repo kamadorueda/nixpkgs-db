@@ -1,0 +1,81 @@
+{
+ "2.0.0": {
+  "meta": {
+   "description": "Flexible contacts synchronization program",
+   "homepage": "http://asynk.io/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0",
+    "url": "http://spdx.org/licenses/AGPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "ASynK",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/asynk/default.nix:42"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+  ]
+ }
+}

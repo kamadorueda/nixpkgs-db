@@ -1,0 +1,84 @@
+{
+ "20150606": {
+  "meta": {
+   "description": "A clone of the good old TECO editor",
+   "homepage": "https://github.com/blakemcbride/TECOC",
+   "license": {
+    "url": "https://github.com/blakemcbride/TECOC/tree/master/doc/readme-1st.txt"
+   },
+   "long_description": "For those who don't know: TECO is the acronym of Tape Editor and COrrector\n(because it was a paper tape edition tool in its debut days). Now the\nacronym follows after Text Editor and Corrector, or Text Editor\nCharacter-Oriented.\n\nTECO is a character-oriented text editor, originally developed by Dan\nMurphy at MIT circa 1962. It is also a Turing-complete imperative\ninterpreted programming language for text manipulation, done via\nuser-loaded sets of macros. In fact, the venerable Emacs was born as a set\nof Editor MACroS for TECO.\n\nTECOC is a portable C implementation of TECO-11.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "tecoc-git",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/tecoc/default.nix:43"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

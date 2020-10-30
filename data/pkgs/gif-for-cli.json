@@ -1,0 +1,51 @@
+{
+ "2018-08-14": {
+  "meta": {
+   "description": "Render gifs as ASCII art in your cli",
+   "homepage": "https://github.com/google/gif-for-cli",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Takes in a GIF, short video, or a query to the Tenor GIF API and converts it to animated ASCII art.",
+   "maintainers": [
+    {
+     "email": "nixos@scriptkiddi.de",
+     "github": "scriptkiddi",
+     "name": "Fritz Otlinghaus"
+    }
+   ],
+   "name": "gif-for-cli-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/gif-for-cli/default.nix:19"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

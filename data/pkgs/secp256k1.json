@@ -1,0 +1,89 @@
+{
+ "2017-12-18": {
+  "meta": {
+   "description": "Optimized C library for EC operations on curve secp256k1",
+   "homepage": "https://github.com/bitcoin-core/secp256k1",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "Optimized C library for EC operations on curve secp256k1. Part of\nBitcoin Core. This library is a work in progress and is being used\nto research best practices. Use at your own risk.\n",
+   "maintainers": [
+    {
+     "email": "ch.martin@gmail.com",
+     "github": "chris-martin",
+     "name": "Chris Martin"
+    }
+   ],
+   "name": "secp256k1",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/secp256k1/default.nix:43"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "1.5.20160301": {
+  "meta": {
+   "description": "Small daemon to speed up UPnP device discoveries",
+   "homepage": "http://miniupnp.free.fr/minissdpd.html",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "MiniSSDPd receives NOTIFY packets and stores (caches) that information\nfor later use by UPnP Control Points on the machine. MiniSSDPd receives\nM-SEARCH packets and answers on behalf of the UPnP devices running on\nthe machine. Software must be patched in order to take advantage of\nMiniSSDPd, and MiniSSDPd must be started before any other UPnP program.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "minissdpd",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/networking/minissdpd/default.nix:22"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.5.20180223": {
+  "meta": {
+   "description": "Small daemon to speed up UPnP device discoveries",
+   "homepage": "http://miniupnp.free.fr/minissdpd.html",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "MiniSSDPd receives NOTIFY packets and stores (caches) that information\nfor later use by UPnP Control Points on the machine. MiniSSDPd receives\nM-SEARCH packets and answers on behalf of the UPnP devices running on\nthe machine. Software must be patched in order to take advantage of\nMiniSSDPd, and MiniSSDPd must be started before any other UPnP program.\n",
+   "maintainers": [],
+   "name": "minissdpd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/minissdpd/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

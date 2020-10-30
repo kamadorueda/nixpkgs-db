@@ -1,0 +1,74 @@
+{
+ "0.6": {
+  "meta": {
+   "description": "Simple sequence (iterator) datatype and combinators",
+   "homepage": "https://github.com/c-cube/sequence",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "Simple sequence datatype, intended to transfer a finite number of\nelements from one data structure to another. Some transformations on sequences,\nlike `filter`, `map`, `take`, `drop` and `append` can be performed before the\nsequence is iterated/folded on.\n",
+   "maintainers": [],
+   "name": "ocaml-sequence",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/sequence/default.nix:28"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.1": {
+  "meta": {
+   "description": "Simple sequence (iterator) datatype and combinators",
+   "homepage": "https://github.com/c-cube/sequence",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "Simple sequence datatype, intended to transfer a finite number of\nelements from one data structure to another. Some transformations on sequences,\nlike `filter`, `map`, `take`, `drop` and `append` can be performed before the\nsequence is iterated/folded on.\n",
+   "maintainers": [],
+   "name": "ocaml4.06.1-sequence",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/sequence/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

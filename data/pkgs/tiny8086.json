@@ -1,0 +1,41 @@
+{
+ "1.25": {
+  "meta": {
+   "description": "An open-source 8086 emulator",
+   "homepage": "http://www.megalith.co.uk/8086tiny/index.html",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "8086tiny is a tiny, open-source (MIT), portable (little-endian hosts) Intel PC emulator, powerful enough to run DOS, Windows 3.0, Excel, MS Flight Simulator, AutoCAD, Lotus 1-2-3, and similar applications. 8086tiny emulates a \"late 80's era\" PC XT-type machine.\n\n8086tiny is based on an IOCCC 2013 winning entry. In fact that is the \"unobfuscated\" version :)\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "8086tiny",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/8086tiny/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

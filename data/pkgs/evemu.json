@@ -1,0 +1,64 @@
+{
+ "2.0.0": {
+  "meta": {
+   "description": "Records and replays device descriptions and events to emulate input devices through the kernel's input system",
+   "homepage": "http://www.freedesktop.org/wiki/Evemu/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andrew Morsillo <andrew.morsillo@gmail.com>"
+   ],
+   "name": "evemu",
+   "platforms": null,
+   "position": "pkgs/tools/system/evemu/default.nix:31"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "2.6.0": {
+  "meta": {
+   "description": "Records and replays device descriptions and events to emulate input devices through the kernel's input system",
+   "homepage": "https://www.freedesktop.org/wiki/Evemu/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "andrew.morsillo@gmail.com",
+     "github": "AndrewMorsillo",
+     "name": "Andrew Morsillo"
+    }
+   ],
+   "name": "evemu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/system/evemu/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

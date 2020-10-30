@@ -1,0 +1,39 @@
+{
+ "2.7.1": {
+  "meta": {
+   "description": "Cryptographic library",
+   "homepage": "http://www.lysator.liu.se/~nisse/nettle/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Nettle is a cryptographic library that is designed to fit\neasily in more or less any context: In crypto toolkits for\nobject-oriented languages (C++, Python, Pike, ...), in\napplications like LSH or GNUPG, or even in kernel space.  In\nmost contexts, you need more than the basic cryptographic\nalgorithms, you also need some way to keep track of available\nalgorithms, their properties and variants.  You often have\nsome algorithm selection process, often dictated by a protocol\nyou want to implement.\n\nAnd as the requirements of applications differ in subtle and\nnot so subtle ways, an API that fits one application well can\nbe a pain to use in a different context.  And that is why\nthere are so many different cryptographic libraries around.\n\nNettle tries to avoid this problem by doing one thing, the\nlow-level crypto stuff, and providing a simple but general\ninterface to it.  In particular, Nettle doesn't do algorithm\nselection.  It doesn't do memory allocation. It doesn't do any\nI/O.\n",
+   "maintainers": [
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "nettle",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/development/libraries/nettle/generic.nix:26"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "000162daed5e6a854d1e034409002aee80e6d8ac"
+  ]
+ }
+}

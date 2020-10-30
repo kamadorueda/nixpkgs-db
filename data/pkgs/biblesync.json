@@ -1,0 +1,77 @@
+{
+ "1.1.2": {
+  "meta": {
+   "description": "A multicast protocol to Bible software shared conavigation",
+   "homepage": "http://www.crosswire.org/wiki/BibleSync",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "BibleSync is a multicast protocol to support Bible software\nshared co-navigation. It uses LAN multicast in either a\npersonal/small team mutual navigation motif or in a classroom\nenvironment where there are Speakers plus the Audience. The\nlibrary implementing the protocol is a single C++ class\nproviding a complete yet minimal public interface to support\nmode setting, setup for packet reception, transmit on local\nnavigation, and handling of incoming packets.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "biblesync",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/biblesync/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "2.1.0": {
+  "meta": {
+   "description": "A multicast protocol to Bible software shared conavigation",
+   "homepage": "https://wiki.crosswire.org/BibleSync",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "BibleSync is a multicast protocol to support Bible software shared\nco-navigation. It uses LAN multicast in either a personal/small team\nmutual navigation motif or in a classroom environment where there are\nSpeakers plus the Audience. The library implementing the protocol is a\nsingle C++ class providing a complete yet minimal public interface to\nsupport mode setting, setup for packet reception, transmit on local\nnavigation, and handling of incoming packets.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "biblesync",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/biblesync/default.nix:20"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

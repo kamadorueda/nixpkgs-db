@@ -1,0 +1,49 @@
+{
+ "3.6.2": {
+  "meta": {
+   "description": "pg_top is 'top' for PostgreSQL",
+   "homepage": "http://ptop.projects.postgresql.org/",
+   "license": null,
+   "long_description": "pg_top allows you to: \n<itemizedlist>\n  <listitem>View currently running SQL statement of a process.</listitem>\n  <listitem>View query plan of a currently running SQL statement.</listitem>\n  <listitem>View locks held by a process.</listitem>\n  <listitem>View user table statistics.</listitem>\n  <listitem>View user index statistics.</listitem>\n</itemizedlist>\n",
+   "maintainers": [],
+   "name": "pg_top",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "3.7.0": {
+  "meta": {
+   "description": "A 'top' like tool for PostgreSQL",
+   "homepage": "http://ptop.projects.postgresql.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "pg_top allows you to: \n * View currently running SQL statement of a process.\n * View query plan of a currently running SQL statement.\n * View locks held by a process.\n * View user table statistics.\n * View user index statistics.\n",
+   "maintainers": [],
+   "name": "pg_top",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/pg_top/default.nix:14"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

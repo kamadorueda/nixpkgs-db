@@ -1,0 +1,309 @@
+{
+ "3.10.1": {
+  "meta": {
+   "description": "Debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/valgrind/default.nix:52"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "000162daed5e6a854d1e034409002aee80e6d8ac"
+  ]
+ },
+ "3.11.0": {
+  "meta": {
+   "description": "Debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/valgrind/default.nix:56"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "3.14.0": {
+  "meta": {
+   "description": "Debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "valgrind",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/analysis/valgrind/default.nix:83"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "3.15.0": {
+  "meta": {
+   "description": "Debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/valgrind/default.nix:72"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+  ]
+ },
+ "3.16.1": {
+  "meta": {
+   "description": "Debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/valgrind/default.nix:69"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ },
+ "3.6.0": {
+  "meta": {
+   "description": "Valgrind, a debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": "GPLv2+",
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    "Eelco Dolstra <e.dolstra@tudelft.nl>"
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+  ]
+ },
+ "3.7.0": {
+  "meta": {
+   "description": "Valgrind, a debugging and profiling tool suite",
+   "homepage": "http://www.valgrind.org/",
+   "license": "GPLv2+",
+   "long_description": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+   "maintainers": [
+    "Eelco Dolstra <e.dolstra@tudelft.nl>",
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "valgrind",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ }
+}

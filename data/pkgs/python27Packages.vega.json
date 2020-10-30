@@ -1,0 +1,41 @@
+{
+ "1.4.0": {
+  "meta": {
+   "description": "An IPython/Jupyter widget for Vega and Vega-Lite",
+   "homepage": "https://github.com/vega/ipyvega",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "To use this you have to enter a nix-shell with vega. Then run:\n\njupyter nbextension install --user --py vega\njupyter nbextension enable --user vega\n",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "name": "Tom Hunger"
+    }
+   ],
+   "name": "python2.7-vega",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/vega/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

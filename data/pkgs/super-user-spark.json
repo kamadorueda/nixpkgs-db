@@ -1,0 +1,125 @@
+{
+ "0.2.0.3": {
+  "meta": {
+   "description": "Configure your dotfile deployment with a DSL",
+   "homepage": "https://github.com/NorfairKing/super-user-spark",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Badi' Abdul-Wahid <abdulwahidc@gmail.com>"
+   ],
+   "name": "super-user-spark",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/super_user_spark/default.nix:7"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "0.3.2.0-dev": {
+  "meta": {
+   "description": "Configure your dotfile deployment with a DSL",
+   "homepage": "https://github.com/NorfairKing/super-user-spark",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abdulwahidc@gmail.com",
+     "github": "badi",
+     "name": "Badi' Abdul-Wahid"
+    }
+   ],
+   "name": "super-user-spark",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/super_user_spark/default.nix:7"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+  ]
+ }
+}

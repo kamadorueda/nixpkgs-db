@@ -1,0 +1,210 @@
+{
+ "3.0.1": {
+  "meta": {
+   "description": "Build runner for buildkite.com",
+   "homepage": "https://buildkite.com/docs/agent",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The buildkite-agent is a small, reliable, and cross-platform build runner\nthat makes it easy to run automated builds on your own infrastructure.\nIt\u2019s main responsibilities are polling buildkite.com for work, running\nbuild jobs, reporting back the status code and output log of the job,\nand uploading the job's artifacts.\n",
+   "maintainers": [
+    {
+     "email": "pawel.pacana@gmail.com",
+     "github": "pawelpacana",
+     "name": "Pawe\u0142 Pacana"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "name": "Rodney Lorrimar"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "buildkite-agent",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/buildkite-agent/generic.nix:36"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+  ]
+ },
+ "3.8.4": {
+  "meta": {
+   "description": "Build runner for buildkite.com",
+   "homepage": "https://buildkite.com/docs/agent",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The buildkite-agent is a small, reliable, and cross-platform build runner\nthat makes it easy to run automated builds on your own infrastructure.\nIt\u2019s main responsibilities are polling buildkite.com for work, running\nbuild jobs, reporting back the status code and output log of the job,\nand uploading the job's artifacts.\n",
+   "maintainers": [
+    {
+     "email": "pawel.pacana@gmail.com",
+     "github": "pawelpacana",
+     "name": "Pawe\u0142 Pacana"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "name": "Rodney Lorrimar"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "buildkite-agent",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/buildkite-agent/generic.nix:32"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

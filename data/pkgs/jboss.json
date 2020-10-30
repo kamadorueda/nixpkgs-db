@@ -1,0 +1,105 @@
+{
+ "5.1.0.GA": {
+  "meta": {
+   "description": "JBoss, Open Source J2EE application server",
+   "homepage": "http://www.jboss.org/",
+   "license": "GPL/LGPL",
+   "long_description": "",
+   "maintainers": [
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "jboss",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "7.1.1.Final": {
+  "meta": {
+   "description": "Open Source J2EE application server",
+   "homepage": "http://www.jboss.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "jboss-as",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/jboss/default.nix:21"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

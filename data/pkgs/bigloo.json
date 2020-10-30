@@ -1,0 +1,111 @@
+{
+ "": {
+  "meta": {
+   "description": "Bigloo, an efficient Scheme compiler",
+   "homepage": "http://www-sop.inria.fr/indes/fp/Bigloo/",
+   "license": "GPLv2+",
+   "long_description": "Bigloo is a Scheme implementation devoted to one goal: enabling\nScheme based programming style where C(++) is usually\nrequired.  Bigloo attempts to make Scheme practical by offering\nfeatures usually presented by traditional programming languages\nbut not offered by Scheme and functional programming.  Bigloo\ncompiles Scheme modules.  It delivers small and fast stand alone\nbinary executables.  Bigloo enables full connections between\nScheme and C programs, between Scheme and Java programs, and\nbetween Scheme and C# programs.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "bigloo3.7a",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "4.1a-2": {
+  "meta": {
+   "description": "Efficient Scheme compiler",
+   "homepage": "http://www-sop.inria.fr/indes/fp/Bigloo/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Bigloo is a Scheme implementation devoted to one goal: enabling\nScheme based programming style where C(++) is usually\nrequired.  Bigloo attempts to make Scheme practical by offering\nfeatures usually presented by traditional programming languages\nbut not offered by Scheme and functional programming.  Bigloo\ncompiles Scheme modules.  It delivers small and fast stand alone\nbinary executables.  Bigloo enables full connections between\nScheme and C programs, between Scheme and Java programs, and\nbetween Scheme and C# programs.\n",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "bigloo",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/bigloo/default.nix:39"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

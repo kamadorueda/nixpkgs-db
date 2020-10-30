@@ -1,0 +1,51 @@
+{
+ "2018-10-14": {
+  "meta": {
+   "description": "A c/c++ language server powered by libclang",
+   "homepage": "https://github.com/cquery-project/cquery",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@tobim.fastmail.fm",
+     "github": "tobimpub",
+     "name": "Tobias Mayer"
+    }
+   ],
+   "name": "cquery",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/cquery/default.nix:58"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

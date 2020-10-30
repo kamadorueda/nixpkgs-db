@@ -1,0 +1,100 @@
+{
+ "3.21": {
+  "meta": {
+   "description": "CFITSIO, a library for reading and writing FITS data files",
+   "homepage": "http://heasarc.gsfc.nasa.gov/fitsio/",
+   "license": "permissive",
+   "long_description": "CFITSIO is a library of C and Fortran subroutines for reading and\n        writing data files in FITS (Flexible Image Transport System) data\n        format.  CFITSIO provides simple high-level routines for reading and\n        writing FITS files that insulate the programmer from the internal\n        complexities of the FITS format.  CFITSIO also provides many\n        advanced features for manipulating and filtering the information in\n        FITS files.\n",
+   "maintainers": [],
+   "name": "cfitsio",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "3.430": {
+  "meta": {
+   "description": "Library for reading and writing FITS data files",
+   "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
+   "license": "permissive",
+   "long_description": "CFITSIO is a library of C and Fortran subroutines for reading and\n        writing data files in FITS (Flexible Image Transport System) data\n        format.  CFITSIO provides simple high-level routines for reading and\n        writing FITS files that insulate the programmer from the internal\n        complexities of the FITS format.  CFITSIO also provides many\n        advanced features for manipulating and filtering the information in\n        FITS files.\n",
+   "maintainers": [],
+   "name": "cfitsio",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/cfitsio/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "3.47": {
+  "meta": {
+   "description": "Library for reading and writing FITS data files",
+   "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "CFITSIO is a library of C and Fortran subroutines for reading and\n        writing data files in FITS (Flexible Image Transport System) data\n        format.  CFITSIO provides simple high-level routines for reading and\n        writing FITS files that insulate the programmer from the internal\n        complexities of the FITS format.  CFITSIO also provides many\n        advanced features for manipulating and filtering the information in\n        FITS files.\n",
+   "maintainers": [
+    {
+     "email": "xbreak@alphaware.se",
+     "github": "xbreak",
+     "githubId": 13489144,
+     "name": "Calle Rosenquist"
+    }
+   ],
+   "name": "cfitsio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/libraries/cfitsio/default.nix:29"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

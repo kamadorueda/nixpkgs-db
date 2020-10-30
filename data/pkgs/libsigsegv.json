@@ -1,0 +1,120 @@
+{
+ "2.10": {
+  "meta": {
+   "description": "Library to handle page faults in user mode",
+   "homepage": "http://www.gnu.org/software/libsigsegv/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU libsigsegv is a library for handling page faults in user mode. A\npage fault occurs when a program tries to access to a region of memory\nthat is currently not available. Catching and handling a page fault is\na useful technique for implementing pageable virtual memory,\nmemory-mapped access to persistent databases, generational garbage\ncollectors, stack overflow handlers, distributed shared memory, and\nmore.\n",
+   "maintainers": [],
+   "name": "libsigsegv",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libsigsegv/default.nix:16"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "2.12": {
+  "meta": {
+   "description": "Library to handle page faults in user mode",
+   "homepage": "https://www.gnu.org/software/libsigsegv/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "GNU libsigsegv is a library for handling page faults in user mode. A\npage fault occurs when a program tries to access to a region of memory\nthat is currently not available. Catching and handling a page fault is\na useful technique for implementing pageable virtual memory,\nmemory-mapped access to persistent databases, generational garbage\ncollectors, stack overflow handlers, distributed shared memory, and\nmore.\n",
+   "maintainers": [],
+   "name": "libsigsegv",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libsigsegv/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ },
+ "2.8": {
+  "meta": {
+   "description": "GNU libsigsegv, a library to handle page faults in user mode",
+   "homepage": "http://www.gnu.org/software/libsigsegv/",
+   "license": "GPLv2+",
+   "long_description": "GNU libsigsegv is a library for handling page faults in user mode. A\npage fault occurs when a program tries to access to a region of memory\nthat is currently not available. Catching and handling a page fault is\na useful technique for implementing pageable virtual memory,\nmemory-mapped access to persistent databases, generational garbage\ncollectors, stack overflow handlers, distributed shared memory, and\nmore.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "libsigsegv",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ }
+}

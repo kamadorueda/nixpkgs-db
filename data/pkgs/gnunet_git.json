@@ -1,0 +1,82 @@
+{
+ "": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "https://gnunet.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [],
+   "name": "gnunet-git-ce2864cfaa27e55096b480bf35db5f8cee2a5e7e",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/p2p/gnunet/git.nix:68"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

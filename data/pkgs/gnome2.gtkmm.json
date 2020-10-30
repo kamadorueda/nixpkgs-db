@@ -1,0 +1,92 @@
+{
+ "2.24.5": {
+  "meta": {
+   "description": "C++ interface to the GTK+ graphical user interface library",
+   "homepage": "https://gtkmm.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "gtkmm is the official C++ interface for the popular GUI library\nGTK+.  Highlights include typesafe callbacks, and a\ncomprehensive set of widgets that are easily extensible via\ninheritance.  You can create user interfaces either in code or\nwith the Glade User Interface designer, using libglademm.\nThere's extensive documentation, including API reference and a\ntutorial.\n",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "gtkmm",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gtkmm/2.x.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

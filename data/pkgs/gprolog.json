@@ -1,0 +1,214 @@
+{
+ "1.3.1": {
+  "meta": {
+   "description": "GNU Prolog, a free Prolog compiler with constraint solving over finite domains",
+   "homepage": "http://www.gnu.org/software/gprolog/",
+   "license": "GPLv2+",
+   "long_description": "GNU Prolog is a free Prolog compiler with constraint solving\nover finite domains developed by Daniel Diaz.\n\nGNU Prolog accepts Prolog+constraint programs and produces\nnative binaries (like gcc does from a C source).  The obtained\nexecutable is then stand-alone.  The size of this executable can\nbe quite small since GNU Prolog can avoid to link the code of\nmost unused built-in predicates.  The performances of GNU Prolog\nare very encouraging (comparable to commercial systems).\n\nBeside the native-code compilation, GNU Prolog offers a\nclassical interactive interpreter (top-level) with a debugger.\n\nThe Prolog part conforms to the ISO standard for Prolog with\nmany extensions very useful in practice (global variables, OS\ninterface, sockets,...).\n\nGNU Prolog also includes an efficient constraint solver over\nFinite Domains (FD).  This opens contraint logic programming to\nthe user combining the power of constraint programming to the\ndeclarativity of logic programming.\n",
+   "maintainers": [],
+   "name": "gprolog",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+  ]
+ },
+ "1.4.0": {
+  "meta": {
+   "description": "GNU Prolog, a free Prolog compiler with constraint solving over finite domains",
+   "homepage": "http://www.gnu.org/software/gprolog/",
+   "license": "GPLv2+",
+   "long_description": "GNU Prolog is a free Prolog compiler with constraint solving\nover finite domains developed by Daniel Diaz.\n\nGNU Prolog accepts Prolog+constraint programs and produces\nnative binaries (like gcc does from a C source).  The obtained\nexecutable is then stand-alone.  The size of this executable can\nbe quite small since GNU Prolog can avoid to link the code of\nmost unused built-in predicates.  The performances of GNU Prolog\nare very encouraging (comparable to commercial systems).\n\nBeside the native-code compilation, GNU Prolog offers a\nclassical interactive interpreter (top-level) with a debugger.\n\nThe Prolog part conforms to the ISO standard for Prolog with\nmany extensions very useful in practice (global variables, OS\ninterface, sockets,...).\n\nGNU Prolog also includes an efficient constraint solver over\nFinite Domains (FD).  This opens contraint logic programming to\nthe user combining the power of constraint programming to the\ndeclarativity of logic programming.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gprolog",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "1.4.4": {
+  "meta": {
+   "description": "GNU Prolog, a free Prolog compiler with constraint solving over finite domains",
+   "homepage": "https://www.gnu.org/software/gprolog/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0+",
+    "url": "http://spdx.org/licenses/LGPL-3.0+.html"
+   },
+   "long_description": "GNU Prolog is a free Prolog compiler with constraint solving\nover finite domains developed by Daniel Diaz.\n\nGNU Prolog accepts Prolog+constraint programs and produces\nnative binaries (like gcc does from a C source).  The obtained\nexecutable is then stand-alone.  The size of this executable can\nbe quite small since GNU Prolog can avoid to link the code of\nmost unused built-in predicates.  The performances of GNU Prolog\nare very encouraging (comparable to commercial systems).\n\nBeside the native-code compilation, GNU Prolog offers a\nclassical interactive interpreter (top-level) with a debugger.\n\nThe Prolog part conforms to the ISO standard for Prolog with\nmany extensions very useful in practice (global variables, OS\ninterface, sockets,...).\n\nGNU Prolog also includes an efficient constraint solver over\nFinite Domains (FD).  This opens contraint logic programming to\nthe user combining the power of constraint programming to the\ndeclarativity of logic programming.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "gprolog",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/gprolog/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+  ]
+ },
+ "1.4.5": {
+  "meta": {
+   "description": "GNU Prolog, a free Prolog compiler with constraint solving over finite domains",
+   "homepage": "https://www.gnu.org/software/gprolog/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "GNU Prolog is a free Prolog compiler with constraint solving\nover finite domains developed by Daniel Diaz.\n\nGNU Prolog accepts Prolog+constraint programs and produces\nnative binaries (like gcc does from a C source).  The obtained\nexecutable is then stand-alone.  The size of this executable can\nbe quite small since GNU Prolog can avoid to link the code of\nmost unused built-in predicates.  The performances of GNU Prolog\nare very encouraging (comparable to commercial systems).\n\nBeside the native-code compilation, GNU Prolog offers a\nclassical interactive interpreter (top-level) with a debugger.\n\nThe Prolog part conforms to the ISO standard for Prolog with\nmany extensions very useful in practice (global variables, OS\ninterface, sockets,...).\n\nGNU Prolog also includes an efficient constraint solver over\nFinite Domains (FD).  This opens contraint logic programming to\nthe user combining the power of constraint programming to the\ndeclarativity of logic programming.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "gprolog",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/gprolog/default.nix:38"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

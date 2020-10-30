@@ -1,0 +1,68 @@
+{
+ "4.0.0": {
+  "meta": {
+   "description": "Golang implementation of Ethereum Classic",
+   "homepage": "https://github.com/ethereumproject/go-ethereum",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v3.0 only",
+     "shortName": "lgpl3",
+     "spdxId": "LGPL-3.0",
+     "url": "http://spdx.org/licenses/LGPL-3.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0",
+     "url": "http://spdx.org/licenses/GPL-3.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hi@that.world",
+     "github": "sorpaas",
+     "name": "Wei Tang"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "go-ethereum-classic",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/go-ethereum-classic/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "2.4.17": {
+  "meta": {
+   "description": "A C/C++ library for manipulating MIME messages",
+   "homepage": "http://spruce.sourceforge.net/gmime/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "gmime",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+  ]
+ },
+ "2.4.24": {
+  "meta": {
+   "description": "A C/C++ library for manipulating MIME messages",
+   "homepage": "http://spruce.sourceforge.net/gmime/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "gmime",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "2.6.20": {
+  "meta": {
+   "description": "A C/C++ library for manipulating MIME messages",
+   "homepage": "http://spruce.sourceforge.net/gmime/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "gmime",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gmime/default.nix:20"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "2.6.23": {
+  "meta": {
+   "description": "A C/C++ library for creating, editing and parsing MIME messages and structures",
+   "homepage": "https://github.com/jstedfast/gmime/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flo@chaoflow.net",
+     "github": "chaoflow",
+     "name": "Florian Friesdorf"
+    }
+   ],
+   "name": "gmime",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gmime/2.nix:33"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

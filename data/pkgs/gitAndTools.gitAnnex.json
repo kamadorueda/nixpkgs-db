@@ -1,0 +1,29 @@
+{
+ "3.20120123": {
+  "meta": {
+   "description": "Manage files with git without checking them into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 or later",
+    "shortName": "GPLv3+",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "Git-annex allows managing files with git, without checking the\nfile contents into git. While that may seem paradoxical, it is\nuseful when dealing with files larger than git can currently\neasily handle, whether due to limitations in memory, checksumming\ntime, or disk space.\n\nEven without file content tracking, being able to manage files\nwith git, move files around and delete files with versioned\ndirectory trees, and use branches and distributed clones, are all\nvery handy reasons to use git. And annexed files can co-exist in\nthe same git repository with regularly versioned files, which is\nconvenient for maintaining documents, Makefiles, etc that are\nassociated with annexed files but that benefit from full revision\ncontrol.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ }
+}

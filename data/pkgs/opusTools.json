@@ -1,0 +1,110 @@
+{
+ "0.1.9": {
+  "meta": {
+   "description": "Tools to work with opus encoded audio streams",
+   "homepage": "http://www.opus-codec.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Mateusz Kowalczyk <fuuzetsu@fuuzetsu.co.uk>"
+   ],
+   "name": "opus-tools",
+   "platforms": null,
+   "position": "pkgs/applications/audio/opus-tools/default.nix:13"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "0.2": {
+  "meta": {
+   "description": "Tools to work with opus encoded audio streams",
+   "homepage": "http://www.opus-codec.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fuuzetsu@fuuzetsu.co.uk",
+     "github": "fuuzetsu",
+     "name": "Mateusz Kowalczyk"
+    }
+   ],
+   "name": "opus-tools",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/opus-tools/default.nix:14"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

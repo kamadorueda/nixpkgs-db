@@ -1,0 +1,109 @@
+{
+ "2.4.1": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>"
+   ],
+   "name": "icecast",
+   "platforms": null,
+   "position": "pkgs/servers/icecast/default.nix:16"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "2.4.4": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    }
+   ],
+   "name": "icecast",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/icecast/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

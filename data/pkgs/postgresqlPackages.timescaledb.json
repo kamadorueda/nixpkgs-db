@@ -1,0 +1,41 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
+   "homepage": "https://www.timescale.com/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaroslavas@volth.com",
+     "github": "volth",
+     "name": "Jaroslavas Pocepko"
+    }
+   ],
+   "name": "timescaledb",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/ext/timescaledb.nix:45"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

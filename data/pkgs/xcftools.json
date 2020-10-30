@@ -1,0 +1,35 @@
+{
+ "1.0.7": {
+  "meta": {
+   "description": "Command-line tools for converting Gimp XCF files",
+   "homepage": "http://henning.makholm.net/software",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "A set of fast command-line tools for extracting information from\nthe Gimp's native file format XCF.\n\nThe tools are designed to allow efficient use of layered XCF\nfiles as sources in a build system that use 'make' and similar\ntools to manage automatic processing of the graphics.\n\nThese tools work independently of the Gimp engine and do not\nrequire the Gimp to even be installed.\n",
+   "maintainers": [],
+   "name": "xcftools",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/graphics/xcftools/default.nix:25"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

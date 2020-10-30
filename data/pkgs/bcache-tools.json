@@ -1,0 +1,41 @@
+{
+ "1.0.7": {
+  "meta": {
+   "description": "User-space tools required for bcache (Linux block layer cache)",
+   "homepage": "https://bcache.evilpiepirate.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Bcache is a Linux kernel block layer cache. It allows one or more fast\ndisk drives such as flash-based solid state drives (SSDs) to act as a\ncache for one or more slower hard disk drives.\n\nThis package contains the required user-space tools.\n\nUser documentation is in Documentation/bcache.txt in the Linux kernel\ntree.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "bcache-tools",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/bcache-tools/default.nix:41"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

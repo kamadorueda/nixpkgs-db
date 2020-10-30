@@ -1,0 +1,75 @@
+{
+ "1.8.16": {
+  "meta": {
+   "description": "A version control system intended to be a compelling replacement for CVS in the open source community",
+   "homepage": "http://subversion.apache.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Jason O'Conal <jason@oconal.id.au>"
+   ],
+   "name": "subversion",
+   "platforms": null,
+   "position": "pkgs/applications/version-management/subversion/default.nix:90"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.8.19": {
+  "meta": {
+   "description": "A version control system intended to be a compelling replacement for CVS in the open source community",
+   "homepage": "http://subversion.apache.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    }
+   ],
+   "name": "subversion",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/version-management/subversion/default.nix:98"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

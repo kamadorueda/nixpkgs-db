@@ -1,0 +1,46 @@
+{
+ "4.5.5": {
+  "meta": {
+   "description": "Xen hypervisor and related components (vanilla)",
+   "homepage": "http://www.xen.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Vanilla version of Xen. Uses forks of Qemu and Seabios bundled\nwith Xen. This gives vanilla experince, but wastes space and\nbuild time: typical NixOS setup that runs lots of VMs will\nbuild three different versions of Qemu when using this (two\nforks and upstream).\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* firmware/seabios-dir-remote: Xen's fork of Seabios.\n* qemu-xen: Xen's fork of upstream Qemu.\n* qemu-xen-traditional: Xen's fork of upstream Qemu that uses old device model.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+     "name": "Thomas Strobel"
+    },
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "keys": [
+      {
+       "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+       "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+      }
+     ],
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:230"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

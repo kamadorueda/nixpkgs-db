@@ -1,0 +1,50 @@
+{
+ "1.4.1": {
+  "meta": {
+   "description": "Ruby gems package collection",
+   "homepage": "",
+   "license": null,
+   "long_description": "Nix can create nix packages from gems.\n\nTo use it do the following:\n1. Install rubygems and rubyLibs.nix.\n2. Add $your_profile/lib/ruby/gems/1.8 to GEM_PATH.\n3. export RUBYLIB=$your_profile/lib RUBYOPT=rubygems\n4. See `gem nix --help` for the rest.\n",
+   "maintainers": [],
+   "name": "rubygems",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+  ]
+ },
+ "1.8.17": {
+  "meta": {
+   "description": "Ruby gems package collection",
+   "homepage": "",
+   "license": null,
+   "long_description": "Nix can create nix packages from gems.\n\nTo use it do the following:\n1. Install rubygems and rubyLibs.nix.\n2. Add $your_profile/lib/ruby/gems/1.9 to GEM_PATH.\n3. export RUBYLIB=$your_profile/lib RUBYOPT=rubygems.\n4. Run `gem nix --[no-]user-install gem1 gem2 ...` to generate Nix\nexpression from gem repository.\n5. Install rubyLibs.gem1 etc.\n",
+   "maintainers": [],
+   "name": "rubygems",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "2.4.1": {
+  "meta": {
+   "description": "Ruby gems package collection",
+   "homepage": "",
+   "license": null,
+   "long_description": "Nix can create nix packages from gems.\n\nTo use it by installing gem-nix package.\n",
+   "maintainers": [],
+   "name": "rubygems",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/ruby/rubygems.nix:28"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "000162daed5e6a854d1e034409002aee80e6d8ac"
+  ]
+ }
+}

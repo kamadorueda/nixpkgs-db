@@ -1,0 +1,149 @@
+{
+ "8.0.3": {
+  "meta": {
+   "description": "An unofficial version of the Tor Browser Bundle, built from source",
+   "homepage": "https://torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "name": "Joachim Fasting"
+    }
+   ],
+   "name": "tor-browser-bundle",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle/default.nix:320"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+  ]
+ },
+ "8.0.6": {
+  "meta": {
+   "description": "An unofficial version of the Tor Browser Bundle, built from source",
+   "homepage": "https://torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "name": "Joachim Fasting"
+    }
+   ],
+   "name": "tor-browser-bundle",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle/default.nix:320"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+  ]
+ },
+ "8.5.2": {
+  "meta": {
+   "description": "An unofficial version of the Tor Browser Bundle, built from source",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "name": "Joachim Fasting"
+    }
+   ],
+   "name": "tor-browser-bundle",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle/default.nix:320"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

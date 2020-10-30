@@ -1,0 +1,36 @@
+{
+ "5.1.14": {
+  "meta": {
+   "description": "Integration Services for running NixOS under HyperV",
+   "homepage": "https://kernel.org",
+   "license": null,
+   "long_description": "This packages contains the daemons that are used by the Hyper-V hypervisor\non the host.\n\nMicrosoft calls their guest agents \"Integration Services\" which is why\nwe use that name here.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "hyperv-daemons",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/hyperv-daemons/default.nix:97"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

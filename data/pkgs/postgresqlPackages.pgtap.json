@@ -1,0 +1,87 @@
+{
+ "0.99.0": {
+  "meta": {
+   "description": "pgTAP is a unit testing framework for PostgreSQL",
+   "homepage": "https://pgtap.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "pgTAP is a unit testing framework for PostgreSQL written in PL/pgSQL and PL/SQL.\nIt includes a comprehensive collection of TAP-emitting assertion functions,\nas well as the ability to integrate with other TAP-emitting test frameworks.\nIt can also be used in the xUnit testing style.\n",
+   "maintainers": [
+    {
+     "email": "willibutz@posteo.de",
+     "github": "willibutz",
+     "name": "Willi Butz"
+    }
+   ],
+   "name": "pgtap",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/ext/pgtap.nix:21"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ }
+}

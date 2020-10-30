@@ -1,0 +1,51 @@
+{
+ "2018-10-11": {
+  "meta": {
+   "description": "Last.fm and Libre.fm standalone scrobbler for the cmus music player",
+   "homepage": "https://github.com/Arkq/cmusfm/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Features:\n+ Listening now notification support\n+ Off-line played track cache for later submission\n+ POSIX ERE-based file name parser\n+ Desktop notification support (optionally)\n+ Customizable scrobbling service\n+ Small memory footprint\nConfiguration:\n+ run `cmusfm init` to generate configuration file under ~/.config/cmus/cmusfm.conf\n+ Inside cmus run `:set status_display_program=cmusfm` to set up cmusfm\n",
+   "maintainers": [
+    {
+     "email": "charleshdespointes@gmail.com",
+     "github": "CharlesHD",
+     "name": "Charles Huyghues-Despointes"
+    }
+   ],
+   "name": "cmusfm-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/cmusfm/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

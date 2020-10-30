@@ -1,0 +1,51 @@
+{
+ "0.8.0": {
+  "meta": {
+   "description": "Simple VTXXX-compatible linux terminal emulator",
+   "homepage": "https://github.com/selectel/pyte",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    }
+   ],
+   "name": "python3.7-pyte",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pyte/default.nix:21"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

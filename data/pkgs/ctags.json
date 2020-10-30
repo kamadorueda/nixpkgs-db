@@ -1,0 +1,97 @@
+{
+ "": {
+  "meta": {
+   "description": "Exuberant Ctags, a tool for fast source code browsing",
+   "homepage": "http://ctags.sourceforge.net/",
+   "license": "GPLv2+",
+   "long_description": "Ctags generates an index (or tag) file of language objects found\nin source files that allows these items to be quickly and easily\nlocated by a text editor or other utility.  A tag signifies a\nlanguage object for which an index entry is available (or,\nalternatively, the index entry created for that object).  Many\nprogramming languages are supported.\n",
+   "maintainers": [],
+   "name": "ctags-svn",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "816": {
+  "meta": {
+   "description": "A tool for fast source code browsing (exuberant ctags)",
+   "homepage": "http://ctags.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Ctags generates an index (or tag) file of language objects found\nin source files that allows these items to be quickly and easily\nlocated by a text editor or other utility.  A tag signifies a\nlanguage object for which an index entry is available (or,\nalternatively, the index entry created for that object).  Many\nprogramming languages are supported.\n",
+   "maintainers": [],
+   "name": "ctags",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/ctags/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}

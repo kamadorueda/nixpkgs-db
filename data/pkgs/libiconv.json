@@ -1,0 +1,76 @@
+{
+ "1.13.1": {
+  "meta": {
+   "description": "GNU libiconv, an iconv(3) implementation",
+   "homepage": "http://www.gnu.org/software/libiconv/",
+   "license": "LGPLv2+",
+   "long_description": "Some programs, like mailers and web browsers, must be able to convert\nbetween a given text encoding and the user's encoding.  Other programs\ninternally store strings in Unicode, to facilitate internal processing,\nand need to convert between internal string representation (Unicode)\nand external string representation (a traditional encoding) when they\nare doing I/O.  GNU libiconv is a conversion library for both kinds of\napplications.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "libiconv",
+   "platforms": [
+    "i686-cygwin",
+    "i686-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "000051b196b82d30d1008c8999502c484ea5bd7d"
+  ]
+ },
+ "2.21": {
+  "meta": {
+   "description": "The GNU C Library",
+   "homepage": "http://www.gnu.org/software/libc/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+"
+   },
+   "long_description": "Any Unix-like operating system needs a C library: the library which\n        defines the \"system calls\" and other basic facilities such as\n        open, malloc, printf, exit...\n\n        The GNU C library is used as the C library in the GNU system and\n        most systems with the Linux kernel.\n",
+   "maintainers": [],
+   "name": "glibc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/glibc/default.nix:44"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "000162daed5e6a854d1e034409002aee80e6d8ac"
+  ]
+ },
+ "2.27": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "glibc-iconv",
+   "platforms": null,
+   "position": "pkgs/build-support/trivial-builders.nix:7"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "2.31": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "glibc-iconv",
+   "platforms": null,
+   "position": "pkgs/build-support/trivial-builders.nix:7"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "000404944c6da404f013111563bcc0084b270e28"
+  ]
+ }
+}
