@@ -61,7 +61,7 @@
   },
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
-   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
+   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
   ]
  },
  "0.11.0": {
@@ -126,7 +126,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0030d391d229a2d5983752741d6bc0153dc82f1b"
+   "01826800d6d619c1e8134f63cd4a62a6906e611c"
   ]
  },
  "0.12.0": {
@@ -256,7 +256,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "008f2184d075a977473e5cb0b76526c45d0e5330"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "0.14.0": {
@@ -386,7 +386,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "0.16.0": {
@@ -517,7 +517,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0083824507f430127d35a225f90376fc6d8985b1"
+   "01c62532e19c0dd126318e44bdd7f283cf7e3cc5"
   ]
  },
  "0.18.1": {
@@ -583,7 +583,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "0079133e4248a855f6247854220e385ef62cd3be"
+   "0260afe5f570822bf5574b7dc0347990f6bf3bd6"
   ]
  },
  "0.19.0": {
@@ -649,7 +649,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "0.20.0": {
@@ -715,7 +715,66 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "0.6.0": {
+  "meta": {
+   "description": "A CLI utility for displaying current network utilization",
+   "homepage": "https://github.com/imsnif/bandwhich",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "bandwhich sniffs a given network interface and records IP packet size, cross\nreferencing it with the /proc filesystem on linux or lsof on MacOS. It is\nresponsive to the terminal window size, displaying less info if there is\nno room for it. It will also attempt to resolve ips to their host name in\nthe background using reverse DNS on a best effort basis.\n",
+   "maintainers": [
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "bandwhich",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/networking/bandwhich/default.nix:19"
+  },
+  "revs": [
+   "00b7680f28eeb335873303c4b745810da733aa95",
+   "0285a20b48e2f72a5592371009a08993d040037b"
   ]
  },
  "0.7.0": {
@@ -774,7 +833,72 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "00f74cdeafabbc3ae9f24e6ef419fbeed7ff107a"
+  ]
+ },
+ "0.8.0": {
+  "meta": {
+   "description": "A CLI utility for displaying current network utilization",
+   "homepage": "https://github.com/imsnif/bandwhich",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "bandwhich sniffs a given network interface and records IP packet size, cross\nreferencing it with the /proc filesystem on linux or lsof on MacOS. It is\nresponsive to the terminal window size, displaying less info if there is\nno room for it. It will also attempt to resolve ips to their host name in\nthe background using reverse DNS on a best effort basis.\n",
+   "maintainers": [
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "bandwhich",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/networking/bandwhich/default.nix:19"
+  },
+  "revs": [
+   "00c01e063091bdb91c5e55abee0bcb3d38ac9f24",
+   "01ce36f7883cd8fbbeeb3d023222ef031228f6bd"
   ]
  },
  "0.9.0": {

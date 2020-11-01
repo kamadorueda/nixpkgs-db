@@ -32,7 +32,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "01d1ec25f744eb6d7a12a6f1149321aa3688b2aa"
   ]
  },
  "2.0.3": {
@@ -72,7 +72,7 @@
   },
   "revs": [
    "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
-   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
+   "00b57f47c7272693a5272dd5d384ec99560d4b22"
   ]
  },
  "2.0.4": {
@@ -112,7 +112,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "000162daed5e6a854d1e034409002aee80e6d8ac"
+   "01dc343c2c613c263a2180d1850847f33653f94f"
   ]
  },
  "2.3.2": {
@@ -152,7 +152,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "0015a47229b681a0beeddf1e340d32aaf4831cbe"
+   "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
   ]
  },
  "2.4": {
@@ -192,7 +192,7 @@
   },
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
-   "00784ffde22c987c01418240b57c7755ed4c6942"
+   "026531a04a36d3577122e81f4e7864afd507850f"
   ]
  },
  "2.4.3": {
@@ -232,7 +232,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+   "01f19f54e046417ca52ef67f5277ffe11de91371"
   ]
  },
  "2.5.1": {
@@ -272,7 +272,7 @@
   },
   "revs": [
    "0069867c512263fe8ea331551f70fb0a80832ce3",
-   "0069867c512263fe8ea331551f70fb0a80832ce3"
+   "020f6cfadc0d95a91e441d9f24851e3a53c6a428"
   ]
  },
  "2.5.4": {
@@ -403,7 +403,7 @@
   },
   "revs": [
    "007500f2ece22ab43b6c73e33cb39c4c29221745",
-   "007500f2ece22ab43b6c73e33cb39c4c29221745"
+   "0263e6efec016a4698f9f70f53e86e5ecce3f17b"
   ]
  },
  "2.6.3": {
@@ -447,7 +447,7 @@
   },
   "revs": [
    "002d151ebe258a92e44e0a947b493105295b7e7f",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "027e666b34cd17c3138963acf2b82dd714e8dbab"
   ]
  },
  "2.6.4": {
@@ -491,7 +491,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "2.7.11": {
@@ -535,7 +535,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+   "014a1b430a0e52ad75922109ae5bf171720b1cb8"
   ]
  },
  "2.7.12": {
@@ -579,7 +579,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00444cbf25fcc7d1db64e6fe482815b52f699353"
+   "025555d7f1a0fc39ea152b03e942002e1bff1721"
   ]
  },
  "2.7.18": {
@@ -624,7 +624,51 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "027d0f0244d5bab2cba7e60cd0ae4cc32bc36c6a"
+  ]
+ },
+ "2.7.8": {
+  "meta": {
+   "description": "A lightweight Bitcoin wallet",
+   "homepage": "https://electrum.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "An easy-to-use Bitcoin client featuring wallets generated from\nmnemonic seeds (in addition to other, more advanced, wallet options)\nand the ability to perform transactions without downloading a copy\nof the blockchain.\n",
+   "maintainers": [
+    "Emery Hemingway <emery@vfemail.net>",
+    "Joachim Fasting <joachifm@fastmail.fm>",
+    "Nicolas Pouillard <np.nix@nicolaspouillard.fr>",
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "electrum",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/misc/electrum/default.nix:47"
+  },
+  "revs": [
+   "0240306d01f725a82dfcb6f83d4b9d96ce0b46c8",
+   "0240306d01f725a82dfcb6f83d4b9d96ce0b46c8"
   ]
  },
  "2.7.9": {
@@ -668,7 +712,7 @@
   },
   "revs": [
    "00659b83a3a6332d8f7d0f2d5b461a5d70668e63",
-   "00659b83a3a6332d8f7d0f2d5b461a5d70668e63"
+   "016d6eaa9d6e001c80f642df468037f4359faf40"
   ]
  },
  "2.8.1": {
@@ -712,7 +756,7 @@
   },
   "revs": [
    "00239ce8e9baeef0ea55fd0995a55e0b15a25ac9",
-   "00239ce8e9baeef0ea55fd0995a55e0b15a25ac9"
+   "017332fb74935a5f22aa1eda82b4b2f706910150"
   ]
  },
  "2.8.2": {
@@ -756,7 +800,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "00672dec8a1367a1d559660aa7a125b31f3f6562"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "2.8.3": {
@@ -800,7 +844,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "01e19386f7ed01ef4aef3e142da857def2c8d5be"
   ]
  },
  "2.9.3": {
@@ -844,7 +888,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
   ]
  },
  "3.0.5": {
@@ -878,7 +922,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "3.0.6": {
@@ -912,7 +956,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "006a6db0128766b32b5e681cedc0e837c4549824"
+   "01360a2845d68b7decdf5f0372f7bd0d140f533b"
   ]
  },
  "3.1.0": {
@@ -957,7 +1001,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "3.1.1": {
@@ -1073,7 +1117,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "3.2.3": {
@@ -1131,7 +1175,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
   ]
  },
  "3.2.4": {
@@ -1305,7 +1349,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
   ]
  },
  "3.3.5": {
@@ -1363,7 +1407,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "0153edf9a43e3ea24482e71095910338b83d4b1d"
   ]
  },
  "3.3.6": {
@@ -1421,7 +1465,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021f94354c5aac20f85d3430bd8c4615730b35e7"
   ]
  },
  "3.3.7": {
@@ -1473,7 +1517,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "00898f0adaac797612d9d447cc632a0238a20653"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "3.3.8": {
@@ -1556,7 +1600,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "4.0.2": {
@@ -1641,7 +1685,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "4.0.3": {
@@ -1726,7 +1770,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

@@ -1,4 +1,50 @@
 {
+ "2019.5-5.7.10": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:26"
+  },
+  "revs": [
+   "0149bdac53a2d86fdb148c88fd62a6ef11d550d5",
+   "0149bdac53a2d86fdb148c88fd62a6ef11d550d5"
+  ]
+ },
  "2019.5-5.8.1": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -42,7 +88,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "00524fa64d094f57eeadb5929c5e4f93b50bb97b"
+   "00ab5f18a61b5f6289d09eb34b78e2f1b9c66a53"
   ]
  },
  "2019.5-5.8.7": {
@@ -88,7 +134,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "2020.3-5.8.10": {
@@ -134,7 +180,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "004676ce9c8275598182884c9e5a823a34eaa173"
+   "00946dc283ad0b3018490331802b77e16731a1f1"
   ]
  },
  "2020.3-5.8.13": {
@@ -180,7 +226,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

@@ -1,4 +1,53 @@
 {
+ "0.0.20180413": {
+  "meta": {
+   "description": "A prerelease of an experimental VPN tunnel which is not to be depended upon for security",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/wireguard/default.nix:19"
+  },
+  "revs": [
+   "00e6e395d38ba8a4d6c23ed61aba2b5594b6c1b4",
+   "01db5220357ec6e726dc2fdf4b9199232915fd26"
+  ]
+ },
  "0.0.20180420": {
   "meta": {
    "description": "A prerelease of an experimental VPN tunnel which is not to be depended upon for security",
@@ -45,7 +94,56 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+  ]
+ },
+ "0.0.20180514": {
+  "meta": {
+   "description": " Tools for the WireGuard secure network tunnel",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/wireguard/default.nix:31"
+  },
+  "revs": [
+   "0106dfcbeb56742503a89309c60a95433514226e",
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "0.0.20180519": {
@@ -143,7 +241,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "003dd8588b9e756176533138ded6d09cafdbac0a"
+   "00e319318999df47008f8cc9b6ce7939679cd7a4"
   ]
  },
  "0.0.20180531": {
@@ -192,7 +290,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "011eda39e196fdc8f18de9e858da98e2b5e5c0ed"
   ]
  },
  "0.0.20180613": {
@@ -241,7 +339,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "0194f7fbe691616f635105426a9587e862a53b75"
   ]
  },
  "0.0.20180625": {
@@ -342,6 +440,55 @@
    "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
   ]
  },
+ "0.0.20180802": {
+  "meta": {
+   "description": "Kernel module for the WireGuard secure network tunnel",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/wireguard/default.nix:28"
+  },
+  "revs": [
+   "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
+   "01bbc716e23cb378012029faa87afc651f211abc"
+  ]
+ },
  "0.0.20180809": {
   "meta": {
    "description": "Kernel module for the WireGuard secure network tunnel",
@@ -388,7 +535,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "0075504e55abec4602db600bd8fa7b6948040c07"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "0.0.20180904": {

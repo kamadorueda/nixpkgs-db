@@ -19,7 +19,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00344162a7d1a4ed438e863b99652cf298b2ad00"
+   "01bf32deef9d80d49d0a34cee176e27dd2008b19"
   ]
  },
  "8.13.16": {
@@ -42,7 +42,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "011e69ea3f9f7855da5b5c8feab1c8f37b37b611"
   ]
  },
  "8.13.17": {
@@ -65,7 +65,7 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
   ]
  },
  "8.13.18": {
@@ -88,7 +88,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
   ]
  },
  "8.13.19": {
@@ -129,7 +129,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "00c59077e2156f92c4f0d9af0e9f3fb9cf9a02f8"
   ]
  },
  "8.13.20": {
@@ -225,7 +225,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "8.13.21": {
@@ -321,7 +321,7 @@
   },
   "revs": [
    "00349e27e5449e3243ba7525446900a16e1f4c2b",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "8.13.22": {
@@ -417,7 +417,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+   "0194f7fbe691616f635105426a9587e862a53b75"
   ]
  },
  "8.13.23": {
@@ -683,7 +683,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "8.14.1": {
@@ -853,7 +853,92 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+  ]
+ },
+ "8.14.3": {
+  "meta": {
+   "description": "A command line program which converts ABC to music sheet in PostScript or SVG format",
+   "homepage": "http://moinejf.free.fr/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "abcm2ps",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/audio/abcm2ps/default.nix:29"
+  },
+  "revs": [
+   "0125544e2a0552590c87dca1583768b49ba911c0",
+   "017f0e8043da8865ca318dbb37351c2c1bbc8ad3"
   ]
  },
  "8.14.4": {
@@ -953,7 +1038,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "8.14.6": {
@@ -1006,7 +1091,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "8.14.7": {
@@ -1112,7 +1197,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

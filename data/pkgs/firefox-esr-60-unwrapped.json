@@ -30,7 +30,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
   ]
  },
  "60.0.2esr": {
@@ -64,7 +64,41 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+   "0194f7fbe691616f635105426a9587e862a53b75"
+  ]
+ },
+ "60.0esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox-esr-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:74"
+  },
+  "revs": [
+   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d",
+   "020957716e2544db90628762f7561580b2b40d3a"
   ]
  },
  "60.1.0esr": {
@@ -98,7 +132,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "60.2.0esr": {
@@ -183,7 +217,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "02af3cd19ab53a56e9bbe49242d9f07442f33fd1"
   ]
  },
  "60.2.1esr": {
@@ -353,7 +387,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "60.3.0esr": {
@@ -438,7 +472,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "60.4.0esr": {
@@ -523,7 +557,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "60.5.0esr": {
@@ -968,7 +1002,97 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
+  ]
+ },
+ "60.6.2esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox-esr-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:92"
+  },
+  "revs": [
+   "0196d8f11cff9790531f7599153a077bb493b9cf",
+   "021a9342abe60ecce28b08738c824f6697b23282"
   ]
  },
  "60.6.3esr": {
@@ -1058,7 +1182,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "00972dc89ce01a025efe3e33b116b4722fc4ce4b"
   ]
  },
  "60.7.0esr": {
@@ -1201,7 +1325,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00078b99ee8baded7fc89e9e1e3501068a2c7fff"
+   "02128a8bb505c424b50a55559a4095027be90937"
   ]
  },
  "60.7.2esr": {
@@ -1291,7 +1415,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021f94354c5aac20f85d3430bd8c4615730b35e7"
   ]
  },
  "60.8.0esr": {
@@ -1347,7 +1471,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "02aad1f3734a986928dd5fcc622b62725c659690"
   ]
  },
  "60.9.0esr": {
@@ -1406,7 +1530,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  }
 }

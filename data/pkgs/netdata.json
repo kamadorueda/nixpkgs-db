@@ -26,7 +26,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "1.10.0": {
@@ -65,7 +65,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "1.11.0": {
@@ -235,7 +235,55 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+  ]
+ },
+ "1.15.0": {
+  "meta": {
+   "description": "Real-time performance monitoring tool",
+   "homepage": "https://my-netdata.io/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "netdata",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/system/netdata/default.nix:41"
+  },
+  "revs": [
+   "00b8139ca073e490e97aeb92fd33f2712fd2fc18",
+   "00d3312cd299c86ee0b23188e2b8b20f9e6490fa"
   ]
  },
  "1.16.0": {
@@ -286,7 +334,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "1.18.1": {
@@ -339,7 +387,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
   ]
  },
  "1.19.0": {
@@ -392,7 +440,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "1.20.0": {
@@ -445,7 +493,60 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "002b16d965bf4e097167a2077566299e5e96ab2e"
+   "024877e7b2ae4aca95c6867313414bdf6460b4f1"
+  ]
+ },
+ "1.21.0": {
+  "meta": {
+   "description": "Real-time performance monitoring tool",
+   "homepage": "https://my-netdata.io/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "netdata",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/system/netdata/default.nix:75"
+  },
+  "revs": [
+   "01144006a1182d0bc76616edae684fa60fd4307f",
+   "01144006a1182d0bc76616edae684fa60fd4307f"
   ]
  },
  "1.21.1": {
@@ -604,7 +705,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "00d8c11a5702868c0cf80ffc97cc896070bd3538"
   ]
  },
  "1.23.2": {
@@ -712,7 +813,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "1.25.0": {
@@ -766,7 +867,61 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "1.26.0": {
+  "meta": {
+   "description": "Real-time performance monitoring tool",
+   "homepage": "https://www.netdata.cloud/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "netdata",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/system/netdata/default.nix:78"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "0126c86672b7d14843225df16ddfefd7091eabe7"
   ]
  },
  "1.4.0": {
@@ -796,7 +951,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00444cbf25fcc7d1db64e6fe482815b52f699353"
+   "025555d7f1a0fc39ea152b03e942002e1bff1721"
   ]
  },
  "1.5.0": {
@@ -858,7 +1013,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "1.9.0": {
@@ -897,7 +1052,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  }
 }

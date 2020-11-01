@@ -86,7 +86,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "19.0": {
@@ -142,7 +142,7 @@
   },
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "19.1": {
@@ -201,7 +201,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00610756df9a235f2de907a18cd8fded638d24e0"
+   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
   ]
  },
  "20.0": {
@@ -260,7 +260,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "20111001": {
@@ -285,7 +285,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "00312d90b9ae42ae383174fcb6b4760d009606ed"
+   "01dfd5a44a1e787ed3b1deafef482376141c27df"
   ]
  },
  "20140301": {
@@ -314,7 +314,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "0144849f678f9ff611c2a2f1538a455bb8ebdf69"
   ]
  },
  "20150201": {
@@ -345,7 +345,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "20160501": {
@@ -384,7 +384,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "20161101": {
@@ -424,7 +424,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "022be78eb26de958e50e32ac40574e93ac81bee3"
   ]
  },
  "20170501": {
@@ -466,7 +466,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "20171101": {
@@ -567,7 +567,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "20180502": {
@@ -660,6 +660,65 @@
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
+ "21.0": {
+  "meta": {
+   "description": "An extensible and collaborative platform dedicated to source-code analysis of C software",
+   "homepage": "http://frama-c.com/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "amiddelk@gmail.com",
+     "github": "amiddelk",
+     "githubId": 1358320,
+     "name": "Arie Middelkoop"
+    }
+   ],
+   "name": "frama-c",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/frama-c/default.nix:75"
+  },
+  "revs": [
+   "00c6fa607cc564a1b64eaf56d0540607df7eca19",
+   "0242e11c53c2f5aa619e88f22096de4280dc420f"
+  ]
+ },
  "21.1": {
   "meta": {
    "description": "An extensible and collaborative platform dedicated to source-code analysis of C software",
@@ -716,7 +775,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

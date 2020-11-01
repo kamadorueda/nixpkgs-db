@@ -94,7 +94,56 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
+  ]
+ },
+ "0.9.18": {
+  "meta": {
+   "description": "Scripts to parse ELF, PE, Mach-O and OAT (Android Runtime)",
+   "homepage": "https://scoding.de/filebytes-introduction",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "benno.fuenfstueck@gmail.com",
+     "github": "bennofs",
+     "name": "Benno F\u00fcnfst\u00fcck"
+    }
+   ],
+   "name": "python3.6-filebytes",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/filebytes/default.nix:18"
+  },
+  "revs": [
+   "00adcec29a92570ea2ae1254223c03b6526dcd6f",
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  }
 }

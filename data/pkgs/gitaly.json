@@ -66,7 +66,7 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "01ce36f7883cd8fbbeeb3d023222ef031228f6bd"
   ]
  },
  "0.100.0": {
@@ -160,7 +160,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "0.120.0": {
@@ -254,7 +254,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "005f851d8577c4d84d3de06989c235714500d96e"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "0.125.0": {
@@ -442,7 +442,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "0.129.0": {
@@ -536,7 +536,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0043d907aea727d453680985897c189a4514a251"
+   "0232f5cb2d620bff140096580568d3e72afd1964"
   ]
  },
  "0.21.2": {
@@ -663,7 +663,7 @@
   },
   "revs": [
    "00422b227968b698c3f109c46b8cd1a4c8590b4e",
-   "00422b227968b698c3f109c46b8cd1a4c8590b4e"
+   "01d53df77f26d0e87fea568c612f3aec8280a266"
   ]
  },
  "0.38.0": {
@@ -706,7 +706,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
   ]
  },
  "0.43.1": {
@@ -749,7 +749,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
   ]
  },
  "0.59.2": {
@@ -803,7 +803,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0092cf65e9dec81d7425788c1e924037b6d00622"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "0.81.0": {
@@ -908,7 +908,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e"
   ]
  },
  "0.95.0": {
@@ -1299,6 +1299,100 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "1.27.2": {
+  "meta": {
+   "description": "",
+   "homepage": "http://www.gitlab.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:194"
+  },
+  "revs": [
+   "00f52f0134cf2be85029ab6b658e7123ff931280",
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
+  ]
+ },
  "1.34.1": {
   "meta": {
    "description": "",
@@ -1390,7 +1484,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "01966e8b799e60b58d31b439ec714de47f3a152f"
   ]
  },
  "1.34.3": {
@@ -1451,7 +1545,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "008418db348dfe68d20fa492480669a9a1bf2421"
+   "01b30bb99f3bd68b190d59ad637393233ddd4b96"
   ]
  },
  "1.47.0": {
@@ -1607,7 +1701,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.7.1": {
@@ -1701,7 +1795,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "1.72.1": {
@@ -1771,7 +1865,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
   ]
  },
  "1.77.1": {
@@ -1841,7 +1935,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "00610756df9a235f2de907a18cd8fded638d24e0"
+   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
   ]
  },
  "1.83.0": {
@@ -1911,7 +2005,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0030d391d229a2d5983752741d6bc0153dc82f1b"
+   "01a02ccd73f7936186454149c1b7ab4e4cba12bb"
   ]
  },
  "12.10.11": {
@@ -1981,7 +2075,77 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "02a83b10c68c24d4528361624545f42dc03415b1"
+  ]
+ },
+ "12.10.14": {
+  "meta": {
+   "description": "A Git RPC service for handling all the git calls made by GitLab",
+   "homepage": "https://gitlab.com/gitlab-org/gitaly",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/version-management/gitlab/gitaly/default.nix:65"
+  },
+  "revs": [
+   "009c50976b5b8edcf7d871d1565bb060ed12a29c",
+   "00c32cd3becf9ec84914041689318b1e7918ad6f"
   ]
  },
  "12.10.8": {
@@ -2045,7 +2209,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "001cf3f926af996ec6d779f861bcba4ed04c5411"
+   "024a7cec68b1cd9ea10f86124aa021ee806b04d8"
   ]
  },
  "12.10.9": {
@@ -2256,6 +2420,82 @@
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
    "004443143fb020a01f1c734bff59bb8815ac183c"
+  ]
+ },
+ "12.8.2": {
+  "meta": {
+   "description": "A Git RPC service for handling all the git calls made by GitLab",
+   "homepage": "https://gitlab.com/gitlab-org/gitaly",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "kim.lindberger@gmail.com",
+     "github": "talyz",
+     "githubId": 63433,
+     "name": "Kim Lindberger"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/version-management/gitlab/gitaly/default.nix:72"
+  },
+  "revs": [
+   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee",
+   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
   ]
  },
  "12.8.5": {
@@ -2477,7 +2717,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00373dacd36474dcab416d29a03b6ab45b61f79e"
+   "01c61f3923bbb704214a9a321960c879a1289636"
   ]
  },
  "12.8.8": {
@@ -2547,7 +2787,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "002b553b14280e69f9f6654bc806c16002756b0b"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "12.8.9": {
@@ -2675,7 +2915,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "13.0.14": {
@@ -2739,7 +2979,77 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "13.0.3": {
+  "meta": {
+   "description": "A Git RPC service for handling all the git calls made by GitLab",
+   "homepage": "https://gitlab.com/gitlab-org/gitaly",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/version-management/gitlab/gitaly/default.nix:58"
+  },
+  "revs": [
+   "020666f17a7a5234f9b96307235b02c313d21bed",
+   "020666f17a7a5234f9b96307235b02c313d21bed"
   ]
  },
  "13.0.4": {
@@ -2867,7 +3177,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "027cef0f9f10f6af97cec29b92f9ca941bcf96fb"
   ]
  },
  "13.0.8": {
@@ -2931,7 +3241,7 @@
   },
   "revs": [
    "008e7e3244ebc374d8f8df9632de0e821619319d",
-   "008e7e3244ebc374d8f8df9632de0e821619319d"
+   "01c4a388ee49f3df5c71fb2886c926beda660577"
   ]
  },
  "13.0.9": {
@@ -2995,7 +3305,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "00d8c11a5702868c0cf80ffc97cc896070bd3538"
   ]
  }
 }

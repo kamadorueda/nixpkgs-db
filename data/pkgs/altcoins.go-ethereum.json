@@ -25,7 +25,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "1.6.6": {
@@ -66,7 +66,7 @@
   },
   "revs": [
    "004463152a63f6ec7e31c972c0f6b50c2dc75802",
-   "00753e078d3ae073fdefb6130df0be7519e20576"
+   "02ad1fd89b8cece156a05885fbf21f5cadeb36a5"
   ]
  },
  "1.6.7": {
@@ -191,7 +191,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "017e9778ef613cbabcdc22072f196fe085626624"
   ]
  },
  "1.7.2": {
@@ -233,7 +233,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "0124cbdac8a8fe5a034f02a00a832eb643899659"
   ]
  },
  "1.7.3": {
@@ -275,7 +275,7 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "1.8.1": {
@@ -317,7 +317,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "01db5220357ec6e726dc2fdf4b9199232915fd26"
   ]
  },
  "1.8.11": {
@@ -515,7 +515,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "007dafc9a089e201838c6929933c6adfa06862b9"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "1.8.19": {
@@ -586,7 +586,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "1.8.2": {
@@ -639,7 +639,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.8.20": {
@@ -857,7 +857,83 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "002ad2e561109446ac729ec07556a05c20564e15"
+   "00de4d19c4ebec5bd0eafe30c3140bbba611fd57"
+  ]
+ },
+ "1.8.25": {
+  "meta": {
+   "description": "Official golang implementation of the Ethereum protocol",
+   "homepage": "https://ethereum.github.io/go-ethereum/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v3.0 only",
+     "shortName": "lgpl3",
+     "spdxId": "LGPL-3.0-only",
+     "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0-only",
+     "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adis@blad.is",
+     "github": "adisbladis",
+     "name": "Adam Hose"
+    },
+    {
+     "email": "lorenzo@mailbox.org",
+     "github": "asymmetric",
+     "name": "Lorenzo Manacorda"
+    },
+    {
+     "email": "lio@lunesu.com",
+     "github": "lionello",
+     "name": "Lionello Lunesu"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "go-ethereum",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/go-ethereum.nix:24"
+  },
+  "revs": [
+   "015888ce7f7bd8e5168390fc6a923972389f0727",
+   "015888ce7f7bd8e5168390fc6a923972389f0727"
   ]
  },
  "1.8.26": {
@@ -1009,7 +1085,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.8.3": {
@@ -1075,7 +1151,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "004111c27e11684d6945f82124110c5f17c1bf01"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
   ]
  },
  "1.8.6": {
@@ -1141,7 +1217,7 @@
   },
   "revs": [
    "00349e27e5449e3243ba7525446900a16e1f4c2b",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "1.8.8": {
@@ -1282,7 +1358,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "008418db348dfe68d20fa492480669a9a1bf2421"
+   "01422520124ac176e4b6c1e597a6eee2d11ccf43"
   ]
  },
  "1.9.1": {
@@ -1356,7 +1432,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "0047672d58ad13bd0a60e9114b6c91858c34b2a8"
+   "011fa89b92489f6126f38edb9b9a6dc921bf8aac"
   ]
  },
  "1.9.2": {
@@ -1430,7 +1506,7 @@
   },
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
-   "004e9b5b4186dad1c675415a4e166621874edb5b"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  }
 }

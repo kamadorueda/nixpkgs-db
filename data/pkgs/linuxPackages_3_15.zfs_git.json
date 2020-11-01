@@ -1,4 +1,32 @@
 {
+ "0.6.3-3.15.1": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development Distribution License ",
+    "shortName": "CDDL",
+    "url": "http://www.opensolaris.org/os/licensing/cddllicense.txt"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "zfs",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/git.nix:43"
+  },
+  "revs": [
+   "00d9b5dfeb606d08628384f70f32f3f42869b1b6",
+   "01449afa1b44fe193d79ae6488cd12f57908d4c4"
+  ]
+ },
  "0.6.3-3.15.10": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -24,7 +52,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "007f80c1d0440b89970000b92f78ce76186d99a5"
+   "020b204767bb099702b5f27e263b37a2ecc16f93"
   ]
  },
  "0.6.3-3.15.2": {
@@ -52,7 +80,7 @@
   },
   "revs": [
    "005322ec952a231e03810be87bfc61d1f4de0800",
-   "005322ec952a231e03810be87bfc61d1f4de0800"
+   "02266194ea2b9cc44a92b332d9033dcf8ee6be68"
   ]
  },
  "0.6.3-3.15.3": {
@@ -80,7 +108,7 @@
   },
   "revs": [
    "002d33b6ccdc90628799406c19b15648ca7e8349",
-   "003f93bb796f42005e7d13ec0c6b8e58ba92aff4"
+   "023b9094aa68a9cefbd678f2bafbf3d0e38735c2"
   ]
  },
  "0.6.3-3.15.5": {
@@ -111,6 +139,34 @@
    "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
   ]
  },
+ "0.6.3-3.15.7": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development Distribution License ",
+    "shortName": "CDDL",
+    "url": "http://www.opensolaris.org/os/licensing/cddllicense.txt"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "zfs",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/git.nix:43"
+  },
+  "revs": [
+   "00b63f66551e0b224bb4d883203bb92652235396",
+   "00b63f66551e0b224bb4d883203bb92652235396"
+  ]
+ },
  "0.6.3-3.15.8": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -136,7 +192,7 @@
   },
   "revs": [
    "004be1bf510aac2c0a7b2c14246766feb784a027",
-   "004be1bf510aac2c0a7b2c14246766feb784a027"
+   "01ecaf98a5120abe544532316babdb0ec6024278"
   ]
  },
  "0.6.3pre-3.15": {
@@ -164,7 +220,7 @@
   },
   "revs": [
    "0085a1aae33483dfaae3a4559d53cc1688791258",
-   "0085a1aae33483dfaae3a4559d53cc1688791258"
+   "0205ec7878f2fdf8338bfe39c01fd94b98474eaf"
   ]
  },
  "0.6.3pre-3.15.1": {
@@ -192,7 +248,36 @@
   },
   "revs": [
    "006eca8947013335011b8c1ef5e78562c097fee6",
-   "006eca8947013335011b8c1ef5e78562c097fee6"
+   "02a1e85ab17727544415d710fa781aa9aaf1a762"
+  ]
+ },
+ "0.6.3pre-3.15.10": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development Distribution License ",
+    "shortName": "CDDL",
+    "url": "http://www.opensolaris.org/os/licensing/cddllicense.txt"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "zfs",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/git.nix:41"
+  },
+  "revs": [
+   "0115853aa97ec5d6acbdb48fd2f0db0df43258c1",
+   "01dfd5a44a1e787ed3b1deafef482376141c27df"
   ]
  }
 }

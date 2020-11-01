@@ -36,7 +36,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "02757a6a45617f6ca6e1e2d9b82d3b7aff9d2cb4"
   ]
  },
  "17.3.6": {
@@ -76,7 +76,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "17.3.7": {
@@ -120,7 +120,7 @@
   },
   "revs": [
    "007525282b6dded8152ceebe5e7f81ecd785aff4",
-   "007525282b6dded8152ceebe5e7f81ecd785aff4"
+   "0132eaa86a1809454069adf92abd745718a761e4"
   ]
  },
  "17.3.8": {
@@ -164,7 +164,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "18.0.3": {
@@ -208,7 +208,51 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "0103ae2f6db2835708bf754d6332bbb740640b5d"
+  ]
+ },
+ "18.1.2": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "e.bachmakov@gmail.com",
+     "github": "eduarrrd",
+     "name": "Eduard Bachmakov"
+    },
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa-noglu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:271"
+  },
+  "revs": [
+   "02acff883991e6a1275a04c9838e72bcc5b17120",
+   "02acff883991e6a1275a04c9838e72bcc5b17120"
   ]
  },
  "18.1.4": {
@@ -252,7 +296,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "004e7fb6fd112ec29446312a89f7b1b265164127"
+   "01a8fa1a723cca9d31ae3ad6c49c8654a824ea1d"
   ]
  },
  "18.1.5": {
@@ -291,7 +335,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
+   "00a879ccda2c34e385c811a84619718d114d660b"
   ]
  },
  "18.1.7": {
@@ -331,6 +375,55 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "18.1.8": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa-noglu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:269"
+  },
+  "revs": [
+   "017d86be7495669990373ecad8e526d0014fc2b5",
+   "017d86be7495669990373ecad8e526d0014fc2b5"
   ]
  },
  "18.2.1": {
@@ -379,7 +472,7 @@
   },
   "revs": [
    "002a2a8d399902acff6ea1d362ec374006858db8",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "18.2.2": {
@@ -428,7 +521,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "008612f0221e1aee920422ff27395e448212beab"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "18.2.3": {
@@ -477,7 +570,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "00a51a9669c0883b13a7bb5273641c3f8cd29694"
   ]
  },
  "18.2.4": {
@@ -526,7 +619,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "014f1c9d7f81e0d8a7ab7e7ff6d34d00213db91b"
   ]
  },
  "18.2.5": {
@@ -575,7 +668,7 @@
   },
   "revs": [
    "003a96c04c0ff4a5c2e2e3edbb1d87ce8d2d7908",
-   "007e177f90408bc0f549731642c6fddf88f399ec"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "18.2.6": {
@@ -624,7 +717,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
+   "0173194e4f28dcce269a39eb216877eba77f834c"
   ]
  },
  "18.3.1": {
@@ -673,7 +766,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
   ]
  },
  "18.3.3": {
@@ -777,7 +870,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  }
 }

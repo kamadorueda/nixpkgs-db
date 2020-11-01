@@ -18,7 +18,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
+   "0183490c70887b625a3ef9a7d2670d933146f07f"
   ]
  },
  "4.8.2": {
@@ -40,7 +40,40 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
+  ]
+ },
+ "4.8.3": {
+  "meta": {
+   "description": "Xen hypervisor and related components (light)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+     "name": "Thomas Strobel"
+    },
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00a44c0c8cd396da43a9b973d5b1119c0fb1f945",
+   "02757a6a45617f6ca6e1e2d9b82d3b7aff9d2cb4"
   ]
  }
 }

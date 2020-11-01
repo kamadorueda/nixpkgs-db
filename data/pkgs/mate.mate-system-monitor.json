@@ -39,7 +39,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "0153599164e7ef2266c9de4979369daadb3a3cad"
   ]
  },
  "1.20.0": {
@@ -137,7 +137,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.20.1": {
@@ -235,7 +235,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "013ba3955736f77c81c86af01c877dbaa692342a"
   ]
  },
  "1.20.2": {
@@ -322,7 +322,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.21.0": {
@@ -409,7 +409,94 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
+  ]
+ },
+ "1.22.0": {
+  "meta": {
+   "description": "System monitor for the MATE desktop",
+   "homepage": "https://mate-desktop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0-or-later",
+     "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "mate-system-monitor",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/mate/mate-system-monitor/default.nix:31"
+  },
+  "revs": [
+   "0094dd6eaaff9a4911497c637c3d3950929e147a",
+   "013ddbebb1dd25368b30849547baf79fbe2cd15e"
   ]
  },
  "1.22.1": {
@@ -459,7 +546,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "1.22.2": {
@@ -514,7 +601,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "1.24.0": {
@@ -569,7 +656,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "1.24.1": {
@@ -625,7 +712,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

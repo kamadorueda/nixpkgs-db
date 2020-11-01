@@ -36,7 +36,7 @@
   },
   "revs": [
    "008c9a70a57f0448b275179bfbc10c8750f29069",
-   "008c9a70a57f0448b275179bfbc10c8750f29069"
+   "013ddbebb1dd25368b30849547baf79fbe2cd15e"
   ]
  },
  "4.0.0-5.1-rc7": {
@@ -76,7 +76,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "4.0.0-5.2-rc1": {
@@ -116,7 +116,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "0202d6db56d9cb2bedc1541f826e52589f642bf9"
   ]
  },
  "4.0.0-5.2-rc2": {
@@ -234,7 +234,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00078b99ee8baded7fc89e9e1e3501068a2c7fff"
+   "01725fdec88dd000a242ffaa6fbb50781ca62caf"
   ]
  },
  "4.0.0-5.2-rc6": {
@@ -273,7 +273,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "00e914cb83295a28c8d4f50c3b070a27a14ad597"
   ]
  },
  "4.0.0-5.2-rc7": {
@@ -312,7 +312,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "4.0.5-5.5-rc2": {
@@ -394,7 +394,48 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+  ]
+ },
+ "4.0.5-5.5-rc5": {
+  "meta": {
+   "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
+   "homepage": "https://www.jool.mx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "jool",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/jool/default.nix:29"
+  },
+  "revs": [
+   "0129b95b13e2cb9a5c304915712692c212f3dec5",
+   "0129b95b13e2cb9a5c304915712692c212f3dec5"
   ]
  },
  "4.0.5-5.5-rc6": {
@@ -476,7 +517,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "003af9cac8ab25090f7d5a8188db438a5310229b"
+   "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
  "4.0.5-5.6-rc1": {
@@ -558,7 +599,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0029baca2ba2b52706f1ff160058128ddcff5575"
+   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
   ]
  },
  "4.0.5-5.6-rc3": {
@@ -599,7 +640,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "004325edcef0cf16ce4f56d4de2a2ce2eac622c2"
+   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
   ]
  },
  "4.0.5-5.6-rc5": {
@@ -640,7 +681,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "009214203f77cfa0abae79889b68b44d7067939f"
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
   ]
  },
  "4.0.5-5.6-rc7": {
@@ -681,7 +722,89 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "00222dbb0efd3234b471207aa329025cf38d7d8b"
+   "0228046eec7ce930d6532e205ad92435a2983f98"
+  ]
+ },
+ "4.0.9-5.5-rc7": {
+  "meta": {
+   "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
+   "homepage": "https://www.jool.mx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "jool",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/jool/default.nix:29"
+  },
+  "revs": [
+   "00e7d8757f818b5965d31686fedf10660f128eb5",
+   "00e7d8757f818b5965d31686fedf10660f128eb5"
+  ]
+ },
+ "4.0.9-5.8-rc1": {
+  "meta": {
+   "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
+   "homepage": "https://www.jool.mx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "jool",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/jool/default.nix:29"
+  },
+  "revs": [
+   "02a83b10c68c24d4528361624545f42dc03415b1",
+   "02a83b10c68c24d4528361624545f42dc03415b1"
   ]
  },
  "4.0.9-5.8-rc2": {
@@ -722,7 +845,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  }
 }

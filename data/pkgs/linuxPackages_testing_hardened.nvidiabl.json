@@ -26,7 +26,7 @@
   },
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
-   "0083ca12664a4fbda9a8716267c5173676a8194a"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "2017-09-26-4.19-rc7": {
@@ -56,7 +56,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "019da05d0811b4ff7fa8bf874fbeb86b277ebce2"
   ]
  },
  "2017-09-26-4.19-rc8": {
@@ -86,7 +86,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "2017-09-26-4.20-rc1": {
@@ -116,7 +116,7 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+   "0217c2980d9eb5859fa6098f06ed5faa1e1d755c"
   ]
  },
  "2017-09-26-4.20-rc2": {
@@ -146,7 +146,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  },
  "2017-09-26-4.20-rc3": {
@@ -176,7 +176,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "02114b5f598809c5e74116df8a2c3d878e8af20b"
   ]
  },
  "2017-09-26-4.20-rc4": {
@@ -206,7 +206,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "007dafc9a089e201838c6929933c6adfa06862b9"
+   "01d864c705110b05f1b116ad9f8f4b4a37f6730a"
   ]
  },
  "2017-09-26-4.20-rc5": {
@@ -236,7 +236,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "2017-09-26-4.20-rc6": {
@@ -266,7 +266,7 @@
   },
   "revs": [
    "004cb5a694e39bd91b27b0adddc127daf2cb76cb",
-   "004cb5a694e39bd91b27b0adddc127daf2cb76cb"
+   "0289f4adf032d402d95a438ed18a966eeffda5cd"
   ]
  },
  "2017-09-26-4.20-rc7": {
@@ -359,6 +359,36 @@
    "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
+ "2017-09-26-5.0-rc3": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "016128dd93eb6dd7689a37333432a60502bf9899",
+   "02a3a15bfd26674f408da197a879d19f38672df8"
+  ]
+ },
  "2017-09-26-5.0-rc4": {
   "meta": {
    "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
@@ -386,7 +416,7 @@
   },
   "revs": [
    "004e3816dcffb49f4e296a16b00334153a90ed3e",
-   "004e3816dcffb49f4e296a16b00334153a90ed3e"
+   "027d4188b27fc7139edfa4b2c463497c731f66a2"
   ]
  },
  "2017-09-26-5.0-rc5": {
@@ -416,7 +446,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "01a1cb913e007f096cbf7d962c7e3a048c5cfa18"
   ]
  },
  "2017-09-26-5.0-rc6": {
@@ -447,6 +477,36 @@
   "revs": [
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+  ]
+ },
+ "2017-09-26-5.0-rc7": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "0094157f86b6a8e82bb97e5ef8c46847daaca841",
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
   ]
  },
  "2017-09-26-5.0-rc8": {
@@ -506,7 +566,7 @@
   },
   "revs": [
    "005fb92d32c9d5b636846ce30ae01aab81454161",
-   "005fb92d32c9d5b636846ce30ae01aab81454161"
+   "0215ee052502b6aa9cad0db9b35382f45124c620"
   ]
  },
  "2017-09-26-5.1-rc3": {
@@ -536,7 +596,7 @@
   },
   "revs": [
    "00541faa4a91b68adc18c7b62e954e839dcacc5c",
-   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
+   "00a52224997a32cd95a43c40e94e20d53bb52628"
   ]
  },
  "2017-09-26-5.1-rc4": {
@@ -566,7 +626,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "2017-09-26-5.1-rc5": {
@@ -626,7 +686,7 @@
   },
   "revs": [
    "008c9a70a57f0448b275179bfbc10c8750f29069",
-   "008c9a70a57f0448b275179bfbc10c8750f29069"
+   "013ddbebb1dd25368b30849547baf79fbe2cd15e"
   ]
  },
  "2017-09-26-5.1-rc7": {
@@ -656,7 +716,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "2017-09-26-5.2-rc1": {
@@ -686,7 +746,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "0202d6db56d9cb2bedc1541f826e52589f642bf9"
   ]
  },
  "2017-09-26-5.2-rc2": {
@@ -776,7 +836,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00078b99ee8baded7fc89e9e1e3501068a2c7fff"
+   "01725fdec88dd000a242ffaa6fbb50781ca62caf"
   ]
  },
  "2017-09-26-5.2-rc6": {
@@ -806,7 +866,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "00e914cb83295a28c8d4f50c3b070a27a14ad597"
   ]
  },
  "2017-09-26-5.2-rc7": {
@@ -836,7 +896,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "2017-09-26-5.5-rc2": {
@@ -898,7 +958,38 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+  ]
+ },
+ "2017-09-26-5.5-rc5": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "0129b95b13e2cb9a5c304915712692c212f3dec5",
+   "0129b95b13e2cb9a5c304915712692c212f3dec5"
   ]
  },
  "2017-09-26-5.5-rc6": {
@@ -960,7 +1051,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "003af9cac8ab25090f7d5a8188db438a5310229b"
+   "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
  "2017-09-26-5.6-rc1": {
@@ -1022,7 +1113,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0029baca2ba2b52706f1ff160058128ddcff5575"
+   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
   ]
  },
  "2017-09-26-5.6-rc3": {
@@ -1053,7 +1144,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "004325edcef0cf16ce4f56d4de2a2ce2eac622c2"
+   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
   ]
  },
  "2017-09-26-5.6-rc5": {
@@ -1084,7 +1175,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "009214203f77cfa0abae79889b68b44d7067939f"
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
   ]
  },
  "2017-09-26-5.6-rc7": {
@@ -1115,7 +1206,38 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "00222dbb0efd3234b471207aa329025cf38d7d8b"
+   "0228046eec7ce930d6532e205ad92435a2983f98"
+  ]
+ },
+ "2017-09-26-5.8-rc1": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "02a83b10c68c24d4528361624545f42dc03415b1",
+   "02a83b10c68c24d4528361624545f42dc03415b1"
   ]
  },
  "2017-09-26-5.8-rc2": {
@@ -1146,7 +1268,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  }
 }

@@ -1,4 +1,32 @@
 {
+ "6.1.1": {
+  "meta": {
+   "description": "Network packet analyzer that ships data to Elasticsearch",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "Packetbeat is an open source network packet analyzer that ships the\ndata to Elasticsearch.\n\nThink of it like a distributed real-time Wireshark with a lot more\nanalytics features. The Packetbeat shippers sniff the traffic between\nyour application processes, parse on the fly protocols like HTTP, MySQL,\nPostgreSQL, Redis or Thrift and correlate the messages into transactions.\n",
+   "maintainers": [
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "packetbeat",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/misc/logging/beats/6.x.nix:31"
+  },
+  "revs": [
+   "02393338dc8852b30f5ea04eb0307c3dc266e424",
+   "02393338dc8852b30f5ea04eb0307c3dc266e424"
+  ]
+ },
  "6.1.2": {
   "meta": {
    "description": "Network packet analyzer that ships data to Elasticsearch",
@@ -44,7 +72,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "6.2.4": {

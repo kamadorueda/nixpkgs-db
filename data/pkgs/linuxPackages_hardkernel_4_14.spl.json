@@ -54,7 +54,65 @@
   },
   "revs": [
    "0052a756d29cb1803bdd667abe991ff0fc75abef",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "00ba14dcb7c394999b7acfef7d812125aa4480bb"
+  ]
+ },
+ "0.7.11-4.14.66-147": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "00c7f76c849ff1a6e23fdcc1c599ae2a1edce0e9",
+   "012b9e6c219ef721d06f9d219924108fd8606220"
   ]
  },
  "0.7.11-4.14.69-148": {
@@ -170,7 +228,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "00a51a9669c0883b13a7bb5273641c3f8cd29694"
   ]
  },
  "0.7.11-4.14.78-150": {
@@ -228,7 +286,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "0.7.12-4.14.66-147": {
@@ -344,7 +402,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "0.7.12-4.14.85-152": {
@@ -402,7 +460,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
+   "01a6191107ef67c32e749edf8857271cd0cba60b"
   ]
  },
  "0.7.12-4.14.87-153": {
@@ -519,7 +577,7 @@
   },
   "revs": [
    "004d1422922beb2b6801eff6c0195fa8b9aacf77",
-   "004d1422922beb2b6801eff6c0195fa8b9aacf77"
+   "019969495f850dad6740a072c480e55f06b3f3c0"
   ]
  },
  "0.7.13-4.14.102-156": {
@@ -637,7 +695,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "0.7.13-4.14.94-155": {
@@ -696,7 +754,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
   ]
  },
  "0.7.9-4.14.47-139": {
@@ -870,7 +928,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "18.09pre-git-4.14.55-146": {
@@ -928,7 +986,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "01fc00cc816d974056b788dc0014b4908869b3b2"
   ]
  }
 }

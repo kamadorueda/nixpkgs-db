@@ -67,7 +67,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "023c219aa311c11a6f155b15ead00af1cbe41a65"
   ]
  },
  "10.0.1": {
@@ -138,7 +138,71 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "10.0.2": {
+  "meta": {
+   "description": "Tor Browser Bundle built by torproject.org",
+   "homepage": "https://www.torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "cotman.matej@gmail.com",
+     "github": "matejc",
+     "githubId": 854770,
+     "name": "Matej Cotman"
+    },
+    {
+     "email": "chris.double@double.co.nz",
+     "github": "doublec",
+     "name": "Chris Double"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "githubId": 41977,
+     "name": "Joachim Fasting"
+    },
+    {
+     "email": "hax404foogit@hax404.de",
+     "github": "hax404",
+     "githubId": 1379411,
+     "name": "Georg Haas"
+    },
+    {
+     "email": "nixos_xasenw9@digitalpostkasten.de",
+     "github": "scaredmushroom",
+     "githubId": 45340040,
+     "name": "cap"
+    }
+   ],
+   "name": "tor-browser-bundle-bin",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle-bin/default.nix:394"
+  },
+  "revs": [
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9",
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "3.5": {
@@ -160,7 +224,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "0008a4b6c467977469b9b3bdec15fcc580204145"
+   "028d2479dde2945aced89a8341bb9fd58ffe768f"
   ]
  },
  "3.6.1": {
@@ -182,7 +246,7 @@
   },
   "revs": [
    "00312d90b9ae42ae383174fcb6b4760d009606ed",
-   "00312d90b9ae42ae383174fcb6b4760d009606ed"
+   "0276eb144c1625624c60a6fb105731c3c300f178"
   ]
  },
  "3.6.2": {
@@ -204,7 +268,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "007f80c1d0440b89970000b92f78ce76186d99a5"
+   "020b204767bb099702b5f27e263b37a2ecc16f93"
   ]
  },
  "4.0.1": {
@@ -227,7 +291,7 @@
   },
   "revs": [
    "00146e3e086c61add917958e0697cc4507960933",
-   "00913e355e2028b2b7f3923c07dd2c40d6263880"
+   "01886aef225a5fb03dc1ee08fb606899d87f6dcf"
   ]
  },
  "4.0.2": {
@@ -283,7 +347,7 @@
   },
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "02712cc3f1443e0b1d6ff6a9d18daab59f98b005"
   ]
  },
  "4.0.4": {
@@ -342,6 +406,34 @@
    "0067ccbfdf0c61b14e0f7611d99212ecade407dc"
   ]
  },
+ "4.0.6": {
+  "meta": {
+   "description": "Tor Browser Bundle",
+   "homepage": "https://www.torproject.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Matej Cotman <cotman.matej@gmail.com>",
+    "Chris Double <chris.double@double.co.nz>",
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "tor-browser",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/tor/torbrowser.nix:68"
+  },
+  "revs": [
+   "00c3a9751a2acbd16144b5ffab68daa0daef09f5",
+   "0115d512fe04aa25fa3ebb5542d0587358ed6edf"
+  ]
+ },
  "4.0.8": {
   "meta": {
    "description": "Tor Browser Bundle",
@@ -367,7 +459,7 @@
   },
   "revs": [
    "001ea3b455c9c1eca44210dac25eb09ca4b7f908",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "0144849f678f9ff611c2a2f1538a455bb8ebdf69"
   ]
  },
  "4.5": {
@@ -395,7 +487,7 @@
   },
   "revs": [
    "007dfb8438cc360acfe4a43dec68f7f08c04196a",
-   "007dfb8438cc360acfe4a43dec68f7f08c04196a"
+   "00cbf82c01da23780ef75a9d34dd89f57c4ace91"
   ]
  },
  "4.5.1": {
@@ -423,7 +515,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "000162daed5e6a854d1e034409002aee80e6d8ac"
+   "01dc343c2c613c263a2180d1850847f33653f94f"
   ]
  },
  "4.5.2": {
@@ -451,7 +543,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "0015a47229b681a0beeddf1e340d32aaf4831cbe"
+   "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
   ]
  },
  "4.5.3": {
@@ -479,7 +571,35 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00784ffde22c987c01418240b57c7755ed4c6942"
+   "026531a04a36d3577122e81f4e7864afd507850f"
+  ]
+ },
+ "5.0.3": {
+  "meta": {
+   "description": "Tor Browser Bundle",
+   "homepage": "https://www.torproject.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Matej Cotman <cotman.matej@gmail.com>",
+    "Chris Double <chris.double@double.co.nz>",
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "tor-browser",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/tor/torbrowser.nix:64"
+  },
+  "revs": [
+   "00a1c28c4583029b59894181147eeca65091af69",
+   "00a1c28c4583029b59894181147eeca65091af69"
   ]
  },
  "5.0.4": {
@@ -507,7 +627,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "000fe587692e2db8829ebd0894e7204f12a86859"
+   "00aec448aba9e9d5d7edd53504f824dc4156b779"
   ]
  },
  "5.0.6": {
@@ -591,7 +711,7 @@
   },
   "revs": [
    "0024c10a5c974ee41c7bc69cd61faaa920f3a9d4",
-   "007c558be8a488e49fd1c00f8c800f5f67604e36"
+   "024f3e8d2954ab6472cb78a1b6f22356ddc4dbc0"
   ]
  },
  "5.5.2": {
@@ -647,7 +767,7 @@
   },
   "revs": [
    "00793f07563c693b78945a93272634d503de0ccf",
-   "00793f07563c693b78945a93272634d503de0ccf"
+   "014223bd00d5ee96fce6b6ac75b60a556be7ac8f"
   ]
  },
  "5.5.4": {
@@ -675,7 +795,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "0170599d55a28407b91bb6e470a4cf3fb4afaa3a"
   ]
  },
  "5.5.5": {
@@ -704,7 +824,35 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0067fa05388829050c926bded9b360ce15fb9b22"
+   "0202cf7b2ef75f124fd7a642ca9badf2be2460b5"
+  ]
+ },
+ "6.0": {
+  "meta": {
+   "description": "Tor Browser Bundle",
+   "homepage": "https://www.torproject.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Matej Cotman <cotman.matej@gmail.com>",
+    "Chris Double <chris.double@double.co.nz>",
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "tor-browser",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/tor/torbrowser.nix:85"
+  },
+  "revs": [
+   "00d22e311ca2157a46d9674705ae506ad6087b07",
+   "00d22e311ca2157a46d9674705ae506ad6087b07"
   ]
  },
  "6.0.1": {
@@ -733,7 +881,7 @@
   },
   "revs": [
    "0060a0f3df1279e9445828f5d2bc4d8572065159",
-   "0060a0f3df1279e9445828f5d2bc4d8572065159"
+   "02515e88f644fdd56b7a08253ae2ff9cbc1de3c9"
   ]
  },
  "6.0.2": {
@@ -762,7 +910,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "008f88ae6f0aa43cf0dc4e36f059ee03e1a0b99b"
+   "023b486d55e0c3814cf2e5322ecf67a995485630"
   ]
  },
  "6.0.4": {
@@ -791,7 +939,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "00891f783b201772257bee0862b5241619a06fe6"
+   "0227c99c1582ce362449f086502037605fe6cf07"
   ]
  },
  "6.0.5": {
@@ -820,7 +968,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "008399e9de050842f67361fdc911d6b526fca287"
+   "0195ab84607ac3a3aa07a79d2d6c2781b1bb6731"
   ]
  },
  "6.0.6": {
@@ -849,7 +997,7 @@
   },
   "revs": [
    "0028abeb4ed1432b99c0b977825c577b3baff3d1",
-   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+   "00c7e462825d5630bb64fa24d4aeabff956773b4"
   ]
  },
  "6.0.7": {
@@ -937,7 +1085,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
+   "02546ff81736399809cf6d90ee290484c8559ce7"
   ]
  },
  "6.5.1": {
@@ -965,7 +1113,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "027d0f0244d5bab2cba7e60cd0ae4cc32bc36c6a"
   ]
  },
  "6.5.2": {
@@ -993,7 +1141,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "0059131f54c82e7714d458c0b17335c3364033a4"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "7.5.6": {
@@ -1041,7 +1189,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "8.0": {
@@ -1089,7 +1237,7 @@
   },
   "revs": [
    "0052a756d29cb1803bdd667abe991ff0fc75abef",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "0214f9e25e832b4d9d6bbcbf74d75b087b9ee7bc"
   ]
  },
  "8.0.1": {
@@ -1233,7 +1381,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "8.0.4": {
@@ -1281,7 +1429,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "8.0.5": {
@@ -1425,7 +1573,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
   ]
  },
  "8.0.9": {
@@ -1473,7 +1621,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "00972dc89ce01a025efe3e33b116b4722fc4ce4b"
   ]
  },
  "8.5": {
@@ -1617,7 +1765,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021f94354c5aac20f85d3430bd8c4615730b35e7"
   ]
  },
  "8.5.4": {
@@ -1665,7 +1813,55 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "02aad1f3734a986928dd5fcc622b62725c659690"
+  ]
+ },
+ "8.5.5": {
+  "meta": {
+   "description": "Tor Browser Bundle built by torproject.org",
+   "homepage": "https://www.torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "cotman.matej@gmail.com",
+     "github": "matejc",
+     "name": "Matej Cotman"
+    },
+    {
+     "email": "chris.double@double.co.nz",
+     "github": "doublec",
+     "name": "Chris Double"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "name": "Joachim Fasting"
+    }
+   ],
+   "name": "tor-browser-bundle-bin",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle-bin/default.nix:390"
+  },
+  "revs": [
+   "021d733ea3f87b8c9232020b4e606d08eaca160b",
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "9.0.2": {
@@ -1729,7 +1925,71 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+  ]
+ },
+ "9.0.3": {
+  "meta": {
+   "description": "Tor Browser Bundle built by torproject.org",
+   "homepage": "https://www.torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "cotman.matej@gmail.com",
+     "github": "matejc",
+     "githubId": 854770,
+     "name": "Matej Cotman"
+    },
+    {
+     "email": "chris.double@double.co.nz",
+     "github": "doublec",
+     "name": "Chris Double"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "githubId": 41977,
+     "name": "Joachim Fasting"
+    },
+    {
+     "email": "hax404foogit@hax404.de",
+     "github": "hax404",
+     "githubId": 1379411,
+     "name": "Georg Haas"
+    },
+    {
+     "email": "nixos_xasenw9@digitalpostkasten.de",
+     "github": "scaredmushroom",
+     "githubId": 45340040,
+     "name": "cap"
+    }
+   ],
+   "name": "tor-browser-bundle-bin",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle-bin/default.nix:396"
+  },
+  "revs": [
+   "01d93cbbe15dc7d29b09ac5a362a289a81f28ebd",
+   "01d93cbbe15dc7d29b09ac5a362a289a81f28ebd"
   ]
  },
  "9.0.4": {
@@ -1793,7 +2053,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938"
+   "028effdd17e0f24faf5e9e84c95cb02ae181789c"
   ]
  },
  "9.0.5": {
@@ -1921,7 +2181,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "009214203f77cfa0abae79889b68b44d7067939f"
+   "00d69b87a471cf240a511e5a5566ca475bbfe029"
   ]
  },
  "9.0.7": {
@@ -1985,7 +2245,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "002b16d965bf4e097167a2077566299e5e96ab2e"
+   "01ac831e03f20b534d2cc8dfe0b60357ff5342b4"
   ]
  },
  "9.0.9": {
@@ -2115,7 +2375,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "00c32cd3becf9ec84914041689318b1e7918ad6f"
   ]
  },
  "9.5.3": {
@@ -2186,7 +2446,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "00347e9537d6e6ddef599094429a1ac5392d6f28"
+   "027cef0f9f10f6af97cec29b92f9ca941bcf96fb"
   ]
  },
  "9.5.4": {

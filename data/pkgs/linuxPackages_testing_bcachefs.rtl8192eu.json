@@ -31,7 +31,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "4.15.2018.03.22-4.4.1": {
@@ -70,7 +70,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
   ]
  },
  "4.15.2018.04.14-4.4.1": {
@@ -148,7 +148,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "0075504e55abec4602db600bd8fa7b6948040c07"
+   "00a879ccda2c34e385c811a84619718d114d660b"
   ]
  },
  "4.18.2018.08.31-4.4.1": {
@@ -187,7 +187,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "4.18.2018.09.21-4.4.1": {
@@ -226,7 +226,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "4.18.2018.10.12-4.4.1": {
@@ -307,6 +307,45 @@
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
+ "4.20.2019.02.09-4.4.1": {
+  "meta": {
+   "description": "Realtek rtl8192eu driver",
+   "homepage": "https://github.com/Mange/rtl8192eu-linux-driver",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "d.geurkov@gmail.com",
+     "github": "troydm",
+     "name": "Dmitry Geurkov"
+    }
+   ],
+   "name": "rtl8192eu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/rtl8192eu/default.nix:33"
+  },
+  "revs": [
+   "0094157f86b6a8e82bb97e5ef8c46847daaca841",
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
+  ]
+ },
  "4.20.2019.02.20-4.4.1": {
   "meta": {
    "description": "Realtek rtl8192eu driver",
@@ -343,7 +382,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+   "0176a3c950f605d6bdaa1840505c64a851c4c576"
   ]
  },
  "4.20.2019.02.20-4.4.1.20190319": {
@@ -382,7 +421,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "4.20.2019.03.13-4.4.1": {
@@ -460,7 +499,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "5.0.2019.05.08-4.4.1": {
@@ -499,7 +538,46 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "00972dc89ce01a025efe3e33b116b4722fc4ce4b"
+  ]
+ },
+ "5.0.2019.05.08-4.4.1.20190319": {
+  "meta": {
+   "description": "Realtek rtl8192eu driver",
+   "homepage": "https://github.com/Mange/rtl8192eu-linux-driver",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "d.geurkov@gmail.com",
+     "github": "troydm",
+     "name": "Dmitry Geurkov"
+    }
+   ],
+   "name": "rtl8192eu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/rtl8192eu/default.nix:33"
+  },
+  "revs": [
+   "00932b9d08983847214b811a6673130bf6646d81",
+   "024a383d64036dab02157927369ca680427aa61d"
   ]
  },
  "5.0.2019.05.29-4.4.1.20190319": {
@@ -540,6 +618,44 @@
    "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
+ "5.1.2019.07.11-4.4.1.20190319": {
+  "meta": {
+   "description": "Realtek rtl8192eu driver",
+   "homepage": "https://github.com/Mange/rtl8192eu-linux-driver",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "d.geurkov@gmail.com",
+     "github": "troydm",
+     "name": "Dmitry Geurkov"
+    }
+   ],
+   "name": "rtl8192eu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8192eu/default.nix:33"
+  },
+  "revs": [
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc",
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc"
+  ]
+ },
  "5.1.2019.07.13-4.4.1.20190319": {
   "meta": {
    "description": "Realtek rtl8192eu driver",
@@ -575,7 +691,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "5.1.2019.08.21-4.4.1.20190319": {
@@ -654,7 +770,47 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+  ]
+ },
+ "5.3.2020.03.25-4.4.1.20190319": {
+  "meta": {
+   "description": "Realtek rtl8192eu driver",
+   "homepage": "https://github.com/Mange/rtl8192eu-linux-driver",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "d.geurkov@gmail.com",
+     "github": "troydm",
+     "githubId": 483735,
+     "name": "Dmitry Geurkov"
+    }
+   ],
+   "name": "rtl8192eu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8192eu/default.nix:33"
+  },
+  "revs": [
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3",
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
   ]
  },
  "5.3.2020.04.04-4.4.1.20190319": {
@@ -734,7 +890,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "5.8.0-2020.09.07-4.4.1.20200620": {
@@ -774,7 +930,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

@@ -45,7 +45,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
   ]
  },
  "1.22.1": {
@@ -99,7 +99,7 @@
   },
   "revs": [
    "0052a756d29cb1803bdd667abe991ff0fc75abef",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "00c7f76c849ff1a6e23fdcc1c599ae2a1edce0e9"
   ]
  },
  "1.23.1": {
@@ -153,7 +153,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "1.23.3": {
@@ -208,6 +208,98 @@
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.24.0": {
+  "meta": {
+   "description": "Distributed computation in Python.",
+   "homepage": "http://distributed.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "name": "Tom Hunger"
+    },
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.6-distributed",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/distributed/default.nix:55"
+  },
+  "revs": [
+   "0124dd601ac9b09cce3b28709092bafcc848431a",
+   "01502a04e56fa8f9720935bdf990e3f7628a23aa"
+  ]
+ },
+ "1.24.1": {
+  "meta": {
+   "description": "Distributed computation in Python.",
+   "homepage": "http://distributed.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "name": "Tom Hunger"
+    },
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.6-distributed",
+   "platforms": [
+    {
+     "cpu": {
+      "family": "x86"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/distributed/default.nix:55"
+  },
+  "revs": [
+   "00adcec29a92570ea2ae1254223c03b6526dcd6f",
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  }
 }

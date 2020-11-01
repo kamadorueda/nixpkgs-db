@@ -36,7 +36,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00bf522d586ba5945831cd78589a284fd3d8137c"
   ]
  },
  "0.2.12": {
@@ -132,7 +132,103 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
+  ]
+ },
+ "0.2.13": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "micheleguerinirocco@me.com",
+     "github": "rnhmjoj",
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:20"
+  },
+  "revs": [
+   "00b4ab22a474571e2b9f6f389825421815fb4936",
+   "0194f7fbe691616f635105426a9587e862a53b75"
   ]
  },
  "0.3.1": {
@@ -313,7 +409,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "0.3.3": {
@@ -398,7 +494,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "0.3.4": {
@@ -634,7 +730,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

@@ -26,7 +26,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "0078bc5d8f87512104902eab00c8a44bef286067"
+   "01c0be6ece84ff168a33feef08f1f69d1ce91ad7"
   ]
  },
  "0.36.3": {
@@ -56,7 +56,38 @@
   },
   "revs": [
    "00298c7bba49c3f81be4d748f5f3c903d69e0b9c",
-   "007f80c1d0440b89970000b92f78ce76186d99a5"
+   "026d004a367826616d20c518dd4e589acab95c2c"
+  ]
+ },
+ "0.38.0": {
+  "meta": {
+   "description": "A library implementing a terminal emulator widget for GTK+",
+   "homepage": "http://www.gnome.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "VTE is a library (libvte) implementing a terminal emulator widget for\nGTK+, and a minimal sample application (vte) using that.  Vte is\nmainly used in gnome-terminal, but can also be used to embed a\nconsole/terminal in games, editors, IDEs, etc. VTE supports Unicode and\ncharacter set conversion, as well as emulating any terminal known to\nthe system's terminfo database.\n",
+   "maintainers": [
+    "Alexander Tsamutali <astsmtl@yandex.ru>",
+    "Antono Vasiljev <self@antono.info>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "vte",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/desktops/gnome-3/3.12/core/vte/default.nix:32"
+  },
+  "revs": [
+   "020b204767bb099702b5f27e263b37a2ecc16f93",
+   "020b204767bb099702b5f27e263b37a2ecc16f93"
   ]
  }
 }

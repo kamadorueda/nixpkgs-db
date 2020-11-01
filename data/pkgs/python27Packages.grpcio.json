@@ -1,4 +1,33 @@
 {
+ "1.12.0": {
+  "meta": {
+   "description": "HTTP/2-based RPC framework",
+   "homepage": "https://grpc.io/grpc/python/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "klaas@vanschelven.com",
+     "github": "vanschelven",
+     "name": "Klaas van Schelven"
+    }
+   ],
+   "name": "python2.7-grpcio",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/grpcio/default.nix:18"
+  },
+  "revs": [
+   "0127c4295f985515ebd6381d42210118632455b9",
+   "0194f7fbe691616f635105426a9587e862a53b75"
+  ]
+ },
  "1.12.1": {
   "meta": {
    "description": "HTTP/2-based RPC framework",
@@ -25,7 +54,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+   "02b7eef8084487ef284b3ef612c54413b6e55701"
   ]
  },
  "1.13.0": {
@@ -54,7 +83,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "003b15132c1a88503376eeb23d02310c8181f622"
+   "00a879ccda2c34e385c811a84619718d114d660b"
   ]
  },
  "1.14.1": {
@@ -112,7 +141,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "1.16.1": {
@@ -170,7 +199,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.22.0": {
@@ -234,7 +263,7 @@
   },
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "1.23.0": {
@@ -366,7 +395,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
   ]
  },
  "1.26.0": {
@@ -434,7 +463,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
+   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
   ]
  },
  "1.27.1": {
@@ -496,7 +525,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "1.28.1": {
@@ -624,7 +653,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "00d8c11a5702868c0cf80ffc97cc896070bd3538"
   ]
  },
  "1.31.0": {
@@ -690,7 +719,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "1.32.0": {
@@ -756,7 +785,48 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "1.8.2": {
+  "meta": {
+   "description": "HTTP/2-based RPC framework",
+   "homepage": "https://grpc.io/grpc/python/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Klaas van Schelven <klaas@vanschelven.com>"
+   ],
+   "name": "python2.7-grpcio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/python-modules/grpcio/default.nix:18"
+  },
+  "revs": [
+   "02393338dc8852b30f5ea04eb0307c3dc266e424",
+   "02393338dc8852b30f5ea04eb0307c3dc266e424"
   ]
  },
  "1.8.3": {
@@ -800,6 +870,47 @@
    "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
+ "1.8.4": {
+  "meta": {
+   "description": "HTTP/2-based RPC framework",
+   "homepage": "https://grpc.io/grpc/python/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Klaas van Schelven <klaas@vanschelven.com>"
+   ],
+   "name": "python2.7-grpcio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/python-modules/grpcio/default.nix:18"
+  },
+  "revs": [
+   "00cafb4c8d48641a7048d9652b70ec12234601a4",
+   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
+  ]
+ },
  "1.9.0": {
   "meta": {
    "description": "HTTP/2-based RPC framework",
@@ -838,7 +949,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "00c59077e2156f92c4f0d9af0e9f3fb9cf9a02f8"
   ]
  },
  "1.9.1": {
@@ -867,7 +978,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  }
 }

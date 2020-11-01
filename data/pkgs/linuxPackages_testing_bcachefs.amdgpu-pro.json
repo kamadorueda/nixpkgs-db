@@ -26,7 +26,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "17.10-4.15.2018.02.09": {
@@ -60,7 +60,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "17.40-4.15.2018.02.09": {
@@ -136,7 +136,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
   ]
  },
  "17.40-4.15.2018.04.14": {
@@ -174,7 +174,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
+   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
   ]
  },
  "17.40-4.16.2018.08.03": {
@@ -212,7 +212,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "0075504e55abec4602db600bd8fa7b6948040c07"
+   "00a879ccda2c34e385c811a84619718d114d660b"
   ]
  },
  "17.40-4.18.2018.08.31": {
@@ -250,7 +250,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "17.40-4.18.2018.09.21": {
@@ -288,7 +288,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "17.40-4.18.2018.10.12": {
@@ -367,6 +367,44 @@
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
+ "17.40-4.20.2019.02.09": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "corngood@gmail.com",
+     "github": "corngood",
+     "name": "David McFarland"
+    }
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:175"
+  },
+  "revs": [
+   "0094157f86b6a8e82bb97e5ef8c46847daaca841",
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
+  ]
+ },
  "17.40-4.20.2019.02.20": {
   "meta": {
    "description": "AMDGPU-PRO drivers",
@@ -402,7 +440,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "17.40-4.20.2019.03.13": {
@@ -478,7 +516,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "17.40-5.0.2019.05.08": {
@@ -516,7 +554,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "024a383d64036dab02157927369ca680427aa61d"
   ]
  },
  "17.40-5.0.2019.05.29": {
@@ -556,6 +594,43 @@
    "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
+ "17.40-5.1.2019.07.11": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "corngood@gmail.com",
+     "github": "corngood",
+     "name": "David McFarland"
+    }
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:175"
+  },
+  "revs": [
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc",
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc"
+  ]
+ },
  "17.40-5.1.2019.07.13": {
   "meta": {
    "description": "AMDGPU-PRO drivers",
@@ -590,7 +665,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "17.40-5.1.2019.08.21": {
@@ -667,7 +742,46 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+  ]
+ },
+ "17.40-5.3.2020.03.25": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "corngood@gmail.com",
+     "github": "corngood",
+     "githubId": 3077118,
+     "name": "David McFarland"
+    }
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:175"
+  },
+  "revs": [
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3",
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
   ]
  },
  "17.40-5.3.2020.04.04": {
@@ -706,7 +820,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "17.40-5.8.0-2020.09.07": {
@@ -745,7 +859,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

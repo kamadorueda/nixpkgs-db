@@ -29,7 +29,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "0082f5536c82689e0864907932853e68d34cf4a1"
+   "021b287b846fcd70804abec125100f5fd52f8f76"
   ]
  },
  "1.0.7": {
@@ -95,7 +95,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "1.1.0": {
@@ -128,7 +128,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "024a383d64036dab02157927369ca680427aa61d"
   ]
  },
  "1.2.1": {
@@ -194,7 +194,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "008418db348dfe68d20fa492480669a9a1bf2421"
+   "00eef848b29730b286914e3902c58209265a59f6"
   ]
  },
  "1.3.0": {
@@ -232,7 +232,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "1.3.3": {
@@ -392,7 +392,47 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "009214203f77cfa0abae79889b68b44d7067939f"
+   "00d69b87a471cf240a511e5a5566ca475bbfe029"
+  ]
+ },
+ "1.5.14": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://about.riot.im/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "riot-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/riot/riot-desktop.nix:78"
+  },
+  "revs": [
+   "00ca0c486957f2e95b5757d52330b2c2c76d7246",
+   "00ca0c486957f2e95b5757d52330b2c2c76d7246"
   ]
  },
  "1.5.15": {
@@ -432,7 +472,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "008f2184d075a977473e5cb0b76526c45d0e5330"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "1.5.6": {
@@ -472,7 +512,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938"
+   "028effdd17e0f24faf5e9e84c95cb02ae181789c"
   ]
  },
  "1.5.9": {
@@ -512,7 +552,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0030d391d229a2d5983752741d6bc0153dc82f1b"
+   "01a02ccd73f7936186454149c1b7ab4e4cba12bb"
   ]
  },
  "1.6.0": {
@@ -644,7 +684,53 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "001cf3f926af996ec6d779f861bcba4ed04c5411"
+   "01377fc6ef7ab5092fd96a02a660c69805bbdc31"
+  ]
+ },
+ "1.6.3": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://about.riot.im/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "riot-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/riot/riot-desktop.nix:78"
+  },
+  "revs": [
+   "00952e12c81520a7e65385ea9fa9b0111becf6e5",
+   "00952e12c81520a7e65385ea9fa9b0111becf6e5"
   ]
  },
  "1.6.4": {
@@ -757,6 +843,70 @@
    "0006326d35ed4774d7936aea721ce1a5c8f0b775"
   ]
  },
+ "1.6.6": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://about.riot.im/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "riot-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/riot/riot-desktop.nix:78"
+  },
+  "revs": [
+   "00aebe90110f0c8e8d9381b2f02c307df36dc94d",
+   "02a83b10c68c24d4528361624545f42dc03415b1"
+  ]
+ },
  "1.6.7": {
   "meta": {
    "description": "A feature-rich client for Matrix.org",
@@ -864,7 +1014,99 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "003f88de6502c3a7c07edb3d29f395ca0db5fe5c"
+   "01ce25515e7f2b49788c31eb8fa5bc5b30a695c9"
+  ]
+ },
+ "1.7.10": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9",
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "00c32cd3becf9ec84914041689318b1e7918ad6f",
+   "00c32cd3becf9ec84914041689318b1e7918ad6f"
   ]
  },
  "1.7.7": {
@@ -956,7 +1198,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "023c219aa311c11a6f155b15ead00af1cbe41a65"
   ]
  }
 }

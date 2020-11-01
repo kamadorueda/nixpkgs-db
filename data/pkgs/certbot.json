@@ -38,7 +38,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "01ea8a548603394009ece1d065f09ecf4d0ee6ea"
   ]
  },
  "0.19.0": {
@@ -80,7 +80,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "0.22.2": {
@@ -176,7 +176,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
   ]
  },
  "0.23.0": {
@@ -272,7 +272,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+   "01b274ce0d9923eb960b1a55e13527545f381f41"
   ]
  },
  "0.24.0": {
@@ -360,6 +360,91 @@
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
+ "0.30.2": {
+  "meta": {
+   "description": "ACME client that can obtain certs and extensibly update server configurations",
+   "homepage": "https://github.com/certbot/certbot",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "certbot",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/admin/certbot/default.nix:47"
+  },
+  "revs": [
+   "017a7a1df2e68160ea0c631608a086a94d254332",
+   "017a7a1df2e68160ea0c631608a086a94d254332"
+  ]
+ },
  "0.31.0": {
   "meta": {
    "description": "ACME client that can obtain certs and extensibly update server configurations",
@@ -442,7 +527,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "0.39.0": {
@@ -495,7 +580,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
   ]
  },
  "0.6.0": {
@@ -535,7 +620,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "0.9.3": {
@@ -628,7 +713,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "1.3.0": {
@@ -794,7 +879,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "1.9.0": {
@@ -850,7 +935,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

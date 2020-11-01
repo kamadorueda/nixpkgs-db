@@ -12,7 +12,7 @@
   },
   "revs": [
    "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
-   "006528b42d39183b6ad5b198b97dc5c2ab642027"
+   "02bd68fa15861f28b6f65db7b98873c4c5b9e644"
   ]
  },
  "0.9.25": {
@@ -77,7 +77,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "00784ffde22c987c01418240b57c7755ed4c6942"
+   "026531a04a36d3577122e81f4e7864afd507850f"
   ]
  },
  "0.9.27": {
@@ -106,7 +106,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  },
  "0.9.27pre-20160328": {
@@ -180,7 +180,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "0.9.27pre-20170108": {
@@ -222,6 +222,31 @@
    "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
   ]
  },
+ "0.9.27pre-20170220": {
+  "meta": {
+   "description": "Small, fast, and embeddable C compiler and interpreter",
+   "homepage": "http://www.tinycc.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "TinyCC (aka TCC) is a small but hyper fast C compiler.  Unlike\nother C compilers, it is meant to be self-sufficient: you do not\nneed an external assembler or linker because TCC does that for\nyou.\n\nTCC compiles so fast that even for big projects Makefiles may not\nbe necessary.\n\nTCC not only supports ANSI C, but also most of the new ISO C99\nstandard and many GNU C extensions.\n\nTCC can also be used to make C scripts, i.e. pieces of C source\nthat you run as a Perl or Python script.  Compilation is so fast\nthat your script will be as fast as if it was an executable.\n\nTCC can also automatically generate memory and bound checks while\nallowing all C pointers operations.  TCC can do these checks even\nif non patched libraries are used.\n\nWith libtcc, you can use TCC as a backend for dynamic code\ngeneration.\n",
+   "maintainers": [
+    "Joachim Fasting <joachifm@fastmail.fm>"
+   ],
+   "name": "tcc",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/tinycc/default.nix:47"
+  },
+  "revs": [
+   "00f16e3d7c4239bcb4c0b55302e4956adf69d691",
+   "02546ff81736399809cf6d90ee290484c8559ce7"
+  ]
+ },
  "0.9.27pre-20170225": {
   "meta": {
    "description": "Small, fast, and embeddable C compiler and interpreter",
@@ -244,7 +269,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "0.9.27pre-20170527": {
@@ -269,7 +294,32 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "01e19386f7ed01ef4aef3e142da857def2c8d5be"
+  ]
+ },
+ "0.9.27pre-20170710": {
+  "meta": {
+   "description": "Small, fast, and embeddable C compiler and interpreter",
+   "homepage": "http://www.tinycc.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "TinyCC (aka TCC) is a small but hyper fast C compiler.  Unlike\nother C compilers, it is meant to be self-sufficient: you do not\nneed an external assembler or linker because TCC does that for\nyou.\n\nTCC compiles so fast that even for big projects Makefiles may not\nbe necessary.\n\nTCC not only supports ANSI C, but also most of the new ISO C99\nstandard and many GNU C extensions.\n\nTCC can also be used to make C scripts, i.e. pieces of C source\nthat you run as a Perl or Python script.  Compilation is so fast\nthat your script will be as fast as if it was an executable.\n\nTCC can also automatically generate memory and bound checks while\nallowing all C pointers operations.  TCC can do these checks even\nif non patched libraries are used.\n\nWith libtcc, you can use TCC as a backend for dynamic code\ngeneration.\n",
+   "maintainers": [
+    "Joachim Fasting <joachifm@fastmail.fm>"
+   ],
+   "name": "tcc",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/tinycc/default.nix:47"
+  },
+  "revs": [
+   "02ad1fd89b8cece156a05885fbf21f5cadeb36a5",
+   "02ad1fd89b8cece156a05885fbf21f5cadeb36a5"
   ]
  },
  "0.9.27pre-20170821": {
@@ -319,7 +369,7 @@
   },
   "revs": [
    "00422b227968b698c3f109c46b8cd1a4c8590b4e",
-   "00422b227968b698c3f109c46b8cd1a4c8590b4e"
+   "0208f5422971782898bbbfa7647c128ee6547228"
   ]
  },
  "0.9.27pre-20170924": {
@@ -344,7 +394,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "0.9.27pre-20171016": {
@@ -369,7 +419,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
   ]
  }
 }

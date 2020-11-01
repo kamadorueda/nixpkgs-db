@@ -1,4 +1,53 @@
 {
+ "3.4.10": {
+  "meta": {
+   "description": "A high-level dynamically-typed programming language",
+   "homepage": "http://python.org",
+   "license": {
+    "fullName": "Python Software Foundation License version 2",
+    "shortName": "psfl",
+    "spdxId": "Python-2.0",
+    "url": "http://spdx.org/licenses/Python-2.0.html"
+   },
+   "long_description": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
+   "maintainers": [
+    {
+     "email": "fridh@fridh.nl",
+     "github": "fridh",
+     "name": "Frederik Rietdijk"
+    }
+   ],
+   "name": "python3",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/python/cpython/3.4/default.nix:200"
+  },
+  "revs": [
+   "02ab2b87724e9254da3ea6c8862ca3227ee3cb2f",
+   "02ab2b87724e9254da3ea6c8862ca3227ee3cb2f"
+  ]
+ },
  "3.4.5": {
   "meta": {
    "description": "A high-level dynamically-typed programming language",
@@ -63,7 +112,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "3.4.7": {
@@ -97,7 +146,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
   ]
  },
  "3.4.8": {
@@ -146,7 +195,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "3.4.9": {

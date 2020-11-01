@@ -1,4 +1,38 @@
 {
+ "60.0.1esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:165"
+  },
+  "revs": [
+   "0286c2b2e172faa4c2e895f50daba4873a39ca12",
+   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+  ]
+ },
  "60.1.0esr": {
   "meta": {
    "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
@@ -31,6 +65,40 @@
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
    "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "60.2.0esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:164"
+  },
+  "revs": [
+   "01f5e794913a18494642b5f237bd76c054339d61",
+   "02af3cd19ab53a56e9bbe49242d9f07442f33fd1"
   ]
  },
  "60.2.2esr": {
@@ -120,7 +188,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "02aad1f3734a986928dd5fcc622b62725c659690"
   ]
  },
  "60.9.0esr": {
@@ -179,7 +247,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  }
 }

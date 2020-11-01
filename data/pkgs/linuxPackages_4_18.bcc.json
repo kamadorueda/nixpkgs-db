@@ -1,4 +1,58 @@
 {
+ "0.6.0": {
+  "meta": {
+   "description": "Dynamic Tracing Tools for Linux",
+   "homepage": "https://iovisor.github.io/bcc/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "r.dahlen@gmail.com",
+     "github": "ragnard",
+     "name": "Ragnar Dahlen"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "bcc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/bcc/default.nix:73"
+  },
+  "revs": [
+   "01bbc716e23cb378012029faa87afc651f211abc",
+   "01fc00cc816d974056b788dc0014b4908869b3b2"
+  ]
+ },
  "0.6.1": {
   "meta": {
    "description": "Dynamic Tracing Tools for Linux",
@@ -50,7 +104,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
   ]
  },
  "0.7.0": {
@@ -104,7 +158,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  }
 }

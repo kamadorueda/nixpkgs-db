@@ -45,7 +45,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "01fc00cc816d974056b788dc0014b4908869b3b2"
   ]
  },
  "0.10.2": {
@@ -94,7 +94,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  },
  "0.8.0": {
@@ -143,7 +143,56 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
+  ]
+ },
+ "0.9.0": {
+  "meta": {
+   "description": "A linter for prose",
+   "homepage": "http://proselint.com",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "alistair.bill@gmail.com",
+     "github": "alibabzo",
+     "name": "Alistair Bill"
+    }
+   ],
+   "name": "proselint",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/text/proselint/default.nix:17"
+  },
+  "revs": [
+   "02ba14dbd2e08bbd5f065fd9cc0e47028d946a9f",
+   "02ba14dbd2e08bbd5f065fd9cc0e47028d946a9f"
   ]
  }
 }

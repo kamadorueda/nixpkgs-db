@@ -41,7 +41,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.56.0": {
@@ -138,6 +138,104 @@
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.58.1": {
+  "meta": {
+   "description": "A middleware layer between C libraries and language bindings",
+   "homepage": "http://live.gnome.org/GObjectIntrospection",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2",
+     "spdxId": "LGPL-2.0",
+     "url": "http://spdx.org/licenses/LGPL-2.0.html"
+    }
+   ],
+   "long_description": "GObject introspection is a middleware layer between C libraries (using\nGObject) and language bindings. The C library can be scanned at compile\ntime and generate a metadata file, in addition to the actual native C\nlibrary. Then at runtime, language bindings can read this metadata and\nautomatically provide bindings to call into the C library.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gobject-introspection",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gobject-introspection/default.nix:68"
+  },
+  "revs": [
+   "011c890a62fe4db4d4bb239ce232442bfc541715",
+   "011c890a62fe4db4d4bb239ce232442bfc541715"
   ]
  }
 }

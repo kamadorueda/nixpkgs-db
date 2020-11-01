@@ -23,7 +23,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "005a147f925d782271cd828e3a108471dbf9bfa0"
+   "0187c7df7cc7f4d7cb54624728f7a62137b47906"
   ]
  },
  "2.0.1": {
@@ -50,7 +50,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "00891f783b201772257bee0862b5241619a06fe6"
+   "01fa907b968639d7b29ee9bb604fc3e9fd2ebe5d"
   ]
  },
  "2.0.2": {
@@ -77,7 +77,7 @@
   },
   "revs": [
    "004a5a20470c87199daae1339197184b560cc256",
-   "00659b83a3a6332d8f7d0f2d5b461a5d70668e63"
+   "0195ab84607ac3a3aa07a79d2d6c2781b1bb6731"
   ]
  },
  "2.0.3": {
@@ -131,7 +131,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
+   "0157385807cc588905e0bb8a4c12a67354829b5b"
   ]
  },
  "2.1": {
@@ -158,7 +158,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "027d0f0244d5bab2cba7e60cd0ae4cc32bc36c6a"
   ]
  },
  "2.1.1": {
@@ -185,7 +185,114 @@
   },
   "revs": [
    "002a2b479a245d10691a394454f29e27d95de719",
-   "0059131f54c82e7714d458c0b17335c3364033a4"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
+  ]
+ },
+ "2.10.0": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "https://hackage.haskell.org/package/cabal2nix",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "cabal2nix",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:40977"
+  },
+  "revs": [
+   "0103ae2f6db2835708bf754d6332bbb740640b5d",
+   "0262431889319d92ffd926cee79e00b00d85219e"
   ]
  },
  "2.10.1": {
@@ -591,7 +698,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "2.12": {
@@ -783,7 +890,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "004e3816dcffb49f4e296a16b00334153a90ed3e"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "2.14.1": {
@@ -975,7 +1082,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "2.14.3": {
@@ -1123,7 +1230,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "2.15.0": {
@@ -1180,7 +1287,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "008f2184d075a977473e5cb0b76526c45d0e5330"
+   "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
  "2.15.1": {
@@ -1249,7 +1356,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "2.15.3": {
@@ -1320,7 +1427,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "2.15.5": {
@@ -1391,7 +1498,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  },
  "2.2": {
@@ -1418,7 +1525,7 @@
   },
   "revs": [
    "0054865f7ee3b4c344e59536587a22fa68d76dd3",
-   "0054865f7ee3b4c344e59536587a22fa68d76dd3"
+   "01bbdae2fea6b68c05ff1c5b14a0243854861600"
   ]
  },
  "2.2.1": {
@@ -1445,7 +1552,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "01e19386f7ed01ef4aef3e142da857def2c8d5be"
   ]
  },
  "2.5": {
@@ -1472,7 +1579,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "0264c64ebb5a1d49f95e568ccaeaec18dc83d6fc"
   ]
  },
  "2.6": {
@@ -1499,7 +1606,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "01bf32deef9d80d49d0a34cee176e27dd2008b19"
   ]
  },
  "2.7": {
@@ -1526,7 +1633,36 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
+  ]
+ },
+ "2.7.2": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "https://github.com/nixos/cabal2nix#readme",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "cabal2nix",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:39805"
+  },
+  "revs": [
+   "00975280f169b1e7be00c426ad96203a2f0798cf",
+   "00975280f169b1e7be00c426ad96203a2f0798cf"
   ]
  },
  "2.8": {
@@ -1555,7 +1691,36 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
+  ]
+ },
+ "2.8.1": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "https://github.com/nixos/cabal2nix#readme",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "cabal2nix",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:40522"
+  },
+  "revs": [
+   "00970f76f9f5d494d8a1fea790acac31e3578cf7",
+   "0153599164e7ef2266c9de4979369daadb3a3cad"
   ]
  },
  "2.8.2": {
@@ -1584,7 +1749,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "006a6db0128766b32b5e681cedc0e837c4549824"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "2.9": {
@@ -1617,7 +1782,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "015dc13f54f3f8380e0c0d971e41962c87d478a2"
   ]
  },
  "2.9.1": {
@@ -1650,7 +1815,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "002b46082276693574dc7d13f1d4950106b963f3"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "2.9.2": {
@@ -1760,6 +1925,113 @@
    "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
+ "2.9.3": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "https://hackage.haskell.org/package/cabal2nix",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "cabal2nix",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:40920"
+  },
+  "revs": [
+   "012eefa4f2c68686446e88c9171a07a5cc1be423",
+   "012eefa4f2c68686446e88c9171a07a5cc1be423"
+  ]
+ },
  "20150423": {
   "meta": {
    "description": "Convert Cabal files into Nix build instructions",
@@ -1782,7 +2054,7 @@
   },
   "revs": [
    "00230c92402bb3d94eae0db63cd6d2ba237b541f",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "00cbf82c01da23780ef75a9d34dd89f57c4ace91"
   ]
  },
  "20150505": {
@@ -1807,7 +2079,32 @@
   },
   "revs": [
    "007dfb8438cc360acfe4a43dec68f7f08c04196a",
-   "007dfb8438cc360acfe4a43dec68f7f08c04196a"
+   "01d7d24dbb2df5e70c460dc7e5c59f30979cd82a"
+  ]
+ },
+ "20150518": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/NixOS/cabal2nix/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cabal2nix",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/tools/haskell/cabal2nix/default.nix:9"
+  },
+  "revs": [
+   "0197da662d8c5d849d6cb83d2f94193e4b409b69",
+   "01dc343c2c613c263a2180d1850847f33653f94f"
   ]
  },
  "20150525": {
@@ -1832,7 +2129,7 @@
   },
   "revs": [
    "002c687edf9a7aca64660f3ef67db88b0ad46c85",
-   "002c687edf9a7aca64660f3ef67db88b0ad46c85"
+   "022f3067f0715b5be1ad4ec1b54523a2b518e3ac"
   ]
  },
  "20150531": {
@@ -1857,7 +2154,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "0031120921eef7baaa23340e22675a00d842a72e"
+   "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
   ]
  },
  "20150807-6-g9f58996": {
@@ -1882,7 +2179,7 @@
   },
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
-   "00137438459949bfbd2c0311e8664a9da8bb1e53"
+   "012515ef2fecbd7e3b4028aa21dfcbd073a68801"
   ]
  },
  "20150824": {
@@ -1909,7 +2206,7 @@
   },
   "revs": [
    "0059984294a06fbc23417a50a9ab23180ed763df",
-   "0059984294a06fbc23417a50a9ab23180ed763df"
+   "02a7cb17e671fb6c106c8209ad7eca3ff2443a87"
   ]
  },
  "20150903": {
@@ -1936,7 +2233,7 @@
   },
   "revs": [
    "00163a09d37c6c9e07837ebb8aa75ebb3e347244",
-   "00163a09d37c6c9e07837ebb8aa75ebb3e347244"
+   "0094d74ca76b43f86b022e097b0eec9a660a7502"
   ]
  },
  "20150922": {
@@ -1963,7 +2260,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "018c272a2a5da58f1ec86f29cd0282762a33b462"
   ]
  },
  "20151217": {
@@ -1990,7 +2287,7 @@
   },
   "revs": [
    "001341f8c98af998da57d5b15a279b64efff4689",
-   "00784ffde22c987c01418240b57c7755ed4c6942"
+   "026531a04a36d3577122e81f4e7864afd507850f"
   ]
  },
  "20160308": {
@@ -2017,7 +2314,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "008f88ae6f0aa43cf0dc4e36f059ee03e1a0b99b"
+   "023b486d55e0c3814cf2e5322ecf67a995485630"
   ]
  },
  "20160406": {
@@ -2044,7 +2341,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0265285b9636c5d900aded5d17073d8538ae60ba"
   ]
  },
  "20160611": {
@@ -2071,7 +2368,7 @@
   },
   "revs": [
    "0072cb8ff1aaf5e1808fa282c88f912860c1547e",
-   "0072cb8ff1aaf5e1808fa282c88f912860c1547e"
+   "02a1408d9cecb80672aa4a8a14071ea36235e3a3"
   ]
  },
  "20160613": {
@@ -2098,7 +2395,7 @@
   },
   "revs": [
    "0060a0f3df1279e9445828f5d2bc4d8572065159",
-   "006f25f732243d18c177f0a4a55cb565bb6ae630"
+   "00f35e6653a30fc2c90db96d1f50ac3e04160575"
   ]
  },
  "20160613-10-g57dddc7": {
@@ -2125,7 +2422,34 @@
   },
   "revs": [
    "0056f5a6d4992d63ed1e16636c63315e62197f51",
-   "0056f5a6d4992d63ed1e16636c63315e62197f51"
+   "00e67f0df000268a0bd5cefb81f4c32068a33420"
+  ]
+ },
+ "20180903": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "https://github.com/nixos/cabal2nix#readme",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "cabal2nix",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/tools/haskell/cabal2nix/cabal2nix.nix:7"
+  },
+  "revs": [
+   "023c12bc9ad9f78b4b6e395aa9740bfd4c10dfc0",
+   "023c12bc9ad9f78b4b6e395aa9740bfd4c10dfc0"
   ]
  }
 }

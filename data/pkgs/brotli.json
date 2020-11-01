@@ -36,7 +36,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "0.5.2": {
@@ -77,7 +77,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "0.6.0": {
@@ -118,7 +118,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "1.0.1": {
@@ -159,7 +159,7 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
   ]
  },
  "1.0.2": {
@@ -200,7 +200,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "0092cf65e9dec81d7425788c1e924037b6d00622"
+   "0184e3f8cce49b05731dd4f653b1c07a765bf56b"
   ]
  },
  "1.0.3": {
@@ -229,7 +229,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.0.4": {
@@ -258,7 +258,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "0103ae2f6db2835708bf754d6332bbb740640b5d"
   ]
  },
  "1.0.5": {
@@ -345,7 +345,86 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+  ]
+ },
+ "1.0.9": {
+  "meta": {
+   "description": "A generic-purpose lossless compression algorithm and tool",
+   "homepage": "https://github.com/google/brotli",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Brotli is a generic-purpose lossless compression algorithm that\n        compresses data using a combination of a modern variant of the LZ77\n        algorithm, Huffman coding and 2nd order context modeling, with a\n        compression ratio comparable to the best currently available\n        general-purpose compression methods. It is similar in speed with\n        deflate but offers more dense compression.\n\n        The specification of the Brotli Compressed Data Format is defined\n        in the following internet draft:\n        http://www.ietf.org/id/draft-alakuijala-brotli\n",
+   "maintainers": [
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "brotli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/compression/brotli/default.nix:55"
+  },
+  "revs": [
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea",
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

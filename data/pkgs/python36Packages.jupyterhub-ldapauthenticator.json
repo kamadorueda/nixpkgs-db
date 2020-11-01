@@ -45,7 +45,56 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
+  ]
+ },
+ "1.2.1": {
+  "meta": {
+   "description": "Simple LDAP Authenticator Plugin for JupyterHub",
+   "homepage": "https://github.com/jupyterhub/ldapauthenticator",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "matan@fluxcraft.net",
+     "github": "ixxie",
+     "name": "Matan Bendix Shenhav"
+    }
+   ],
+   "name": "python3.6-jupyterhub-ldapauthenticator",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/jupyterhub-ldapauthenticator/default.nix:23"
+  },
+  "revs": [
+   "01d5a6cc4db66a5f4b4ed511f7d1207b6da4ab43",
+   "01dda9dcb94cd1ae6f98c1d5d03368ad499dc16c"
   ]
  },
  "1.2.2": {

@@ -1,4 +1,20 @@
 {
+ "1.0.10": {
+  "meta": {
+   "description": "Sysprof, a system-wide profiler for Linux",
+   "homepage": "http://www.daimi.au.dk/~sandmann/sysprof/",
+   "license": "GPLv2+",
+   "long_description": "Sysprof is a sampling CPU profiler for Linux that uses a kernel\nmodule to profile the entire system, not just a single\napplication.  Sysprof handles shared libraries and applications\ndo not need to be recompiled.  In fact they don't even have to\nbe restarted.\n",
+   "maintainers": [],
+   "name": "sysprof",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "01979f7940b818117a3c4454f836a2684edd68b5",
+   "01da550b5377044605afd717a7c442c802ca5845"
+  ]
+ },
  "1.2.0": {
   "meta": {
    "description": "System-wide profiler for Linux",
@@ -17,7 +33,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "3.28.1": {
@@ -83,7 +99,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "00f570005752e41a15d34b213a962b0f16bfac1d"
   ]
  },
  "3.30.2": {
@@ -137,7 +153,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "3.31.1": {
@@ -275,7 +291,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "3.36.0": {
@@ -333,7 +349,123 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
+  ]
+ },
+ "3.38.0": {
+  "meta": {
+   "description": "System-wide profiler for Linux",
+   "homepage": "https://wiki.gnome.org/Apps/Sysprof",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Sysprof is a sampling CPU profiler for Linux that uses the perf_event_open\nsystem call to profile the entire system, not just a single\napplication.  Sysprof handles shared libraries and applications\ndo not need to be recompiled.  In fact they don't even have to\nbe restarted.\n",
+   "maintainers": [
+    {
+     "email": "torhedinbronner@gmail.com",
+     "github": "hedning",
+     "githubId": 71978,
+     "name": "Tor Hedin Br\u00f8nner"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "daniel@serbanescu.dk",
+     "github": "dasj19",
+     "githubId": 7589338,
+     "name": "Daniel \u0218erb\u0103nescu"
+    }
+   ],
+   "name": "sysprof",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/profiling/sysprof/default.nix:57"
+  },
+  "revs": [
+   "00aedd87ad66b21dcba627515db831395b333152",
+   "00aedd87ad66b21dcba627515db831395b333152"
+  ]
+ },
+ "3.38.1": {
+  "meta": {
+   "description": "System-wide profiler for Linux",
+   "homepage": "https://wiki.gnome.org/Apps/Sysprof",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Sysprof is a sampling CPU profiler for Linux that uses the perf_event_open\nsystem call to profile the entire system, not just a single\napplication.  Sysprof handles shared libraries and applications\ndo not need to be recompiled.  In fact they don't even have to\nbe restarted.\n",
+   "maintainers": [
+    {
+     "email": "torhedinbronner@gmail.com",
+     "github": "hedning",
+     "githubId": 71978,
+     "name": "Tor Hedin Br\u00f8nner"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "daniel@serbanescu.dk",
+     "github": "dasj19",
+     "githubId": 7589338,
+     "name": "Daniel \u0218erb\u0103nescu"
+    }
+   ],
+   "name": "sysprof",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/profiling/sysprof/default.nix:57"
+  },
+  "revs": [
+   "00b055d68eaad0145f1d32cde0820c612a91e487",
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

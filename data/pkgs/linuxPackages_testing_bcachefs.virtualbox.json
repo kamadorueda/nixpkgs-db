@@ -22,7 +22,33 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
+  ]
+ },
+ "5.1.32-4.11.2017.08.23": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "http://www.virtualbox.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:23"
+  },
+  "revs": [
+   "01a664e7793158b434fefac9217ec48313b2dd45",
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "5.2.0-4.11.2017.08.23": {
@@ -48,7 +74,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "0124cbdac8a8fe5a034f02a00a832eb643899659"
   ]
  },
  "5.2.10-4.15.2018.04.14": {
@@ -83,7 +109,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+   "01b274ce0d9923eb960b1a55e13527545f381f41"
   ]
  },
  "5.2.12-4.15.2018.04.14": {
@@ -118,7 +144,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "5.2.14-4.15.2018.02.09": {
@@ -223,7 +249,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "0075504e55abec4602db600bd8fa7b6948040c07"
+   "00a879ccda2c34e385c811a84619718d114d660b"
   ]
  },
  "5.2.14-4.18.2018.08.31": {
@@ -258,7 +284,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "5.2.14-4.18.2018.09.21": {
@@ -293,7 +319,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "5.2.14-4.18.2018.10.12": {
@@ -354,7 +380,7 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "00a6d849f815c66f14fe37ea97300ff264f509fc"
   ]
  },
  "5.2.22-4.18.2018.10.12": {
@@ -389,7 +415,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "004e3816dcffb49f4e296a16b00334153a90ed3e"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "5.2.22-4.20.2019.01.23": {
@@ -425,6 +451,76 @@
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+  ]
+ },
+ "5.2.22-4.20.2019.02.09": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "0094157f86b6a8e82bb97e5ef8c46847daaca841",
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
+  ]
+ },
+ "5.2.26-4.20.2019.02.09": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "00a41ebbc15b2345819612b8f917e1d69d853f5a",
+   "0185daf3abe725881cb88c448770841cab36491a"
   ]
  },
  "5.2.26-4.20.2019.02.20": {
@@ -529,7 +625,7 @@
   },
   "revs": [
    "00361eece32480071fab54bf53d57b8d81dd57f5",
-   "00361eece32480071fab54bf53d57b8d81dd57f5"
+   "018e5ff1be4597288e6a2a7955b3a49ca2f160f8"
   ]
  },
  "5.2.28-4.20.2019.02.20": {
@@ -564,7 +660,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "5.2.28-5.0.2019.04.04": {
@@ -599,7 +695,7 @@
   },
   "revs": [
    "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa",
-   "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa"
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "5.2.4-4.11.2017.08.23": {
@@ -626,7 +722,34 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
+  ]
+ },
+ "5.2.6-4.11.2017.08.23": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Florian Klink <flokli@flokli.de>",
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "00970f76f9f5d494d8a1fea790acac31e3578cf7",
+   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
   ]
  },
  "5.2.6-4.15.2018.02.09": {
@@ -696,7 +819,7 @@
   },
   "revs": [
    "001db3951d2817af4707bb87eef2536bd445cfd4",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "5.2.8-4.15.2018.03.22": {
@@ -731,7 +854,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
   ]
  },
  "5.2.8-4.15.2018.04.14": {
@@ -766,7 +889,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "004111c27e11684d6945f82124110c5f17c1bf01"
+   "024efc950923730bc3e7e05a87b90c157324e912"
   ]
  },
  "6.0.14-5.2.2019.10.12": {
@@ -795,7 +918,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "004325edcef0cf16ce4f56d4de2a2ce2eac622c2"
+   "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
  "6.0.6-5.0.2019.04.04": {
@@ -829,7 +952,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "0153edf9a43e3ea24482e71095910338b83d4b1d"
   ]
  },
  "6.0.6-5.0.2019.05.08": {
@@ -863,7 +986,41 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "00972dc89ce01a025efe3e33b116b4722fc4ce4b"
+  ]
+ },
+ "6.0.8-5.0.2019.05.08": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "00932b9d08983847214b811a6673130bf6646d81",
+   "024a383d64036dab02157927369ca680427aa61d"
   ]
  },
  "6.0.8-5.0.2019.05.29": {
@@ -900,6 +1057,40 @@
    "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
+ "6.0.8-5.1.2019.07.11": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc",
+   "02466bea79469ba946bbb81dfbb06efff7fd1cbc"
+  ]
+ },
  "6.0.8-5.1.2019.07.13": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -931,7 +1122,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "6.0.8-5.1.2019.08.21": {
@@ -996,7 +1187,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0083824507f430127d35a225f90376fc6d8985b1"
+   "01c62532e19c0dd126318e44bdd7f283cf7e3cc5"
   ]
  },
  "6.1.10-5.8.0-2020.09.07": {
@@ -1026,7 +1217,7 @@
   },
   "revs": [
    "008de9ca3cd22658df19276032f5d3f403a51090",
-   "008de9ca3cd22658df19276032f5d3f403a51090"
+   "00946dc283ad0b3018490331802b77e16731a1f1"
   ]
  },
  "6.1.14-5.3.2020.04.04": {
@@ -1056,7 +1247,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "6.1.14-5.8.0-2020.09.07": {
@@ -1086,7 +1277,37 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+  ]
+ },
+ "6.1.16-5.8.0-2020.09.07": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "githubId": 1153271,
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "0126c86672b7d14843225df16ddfefd7091eabe7"
   ]
  },
  "6.1.4-5.2.2019.10.12": {
@@ -1118,6 +1339,35 @@
    "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
+ "6.1.4-5.3.2020.03.25": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3",
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
+  ]
+ },
  "6.1.4-5.3.2020.04.04": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -1145,7 +1395,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "00823d47e7df6fecbf54d99721cac06c6bf2312c"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "6.1.6-5.2.2019.10.12": {
@@ -1174,7 +1424,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "6.1.6-5.3.2020.04.04": {

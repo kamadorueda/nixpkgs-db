@@ -40,7 +40,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
   ]
  },
  "1.13.0": {
@@ -84,7 +84,7 @@
   },
   "revs": [
    "003ae42ae66d21756f42079b52b5c8982ae0f293",
-   "00444cbf25fcc7d1db64e6fe482815b52f699353"
+   "025555d7f1a0fc39ea152b03e942002e1bff1721"
   ]
  },
  "1.14.1": {
@@ -129,7 +129,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
   ]
  },
  "1.15.1": {
@@ -217,7 +217,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "1.19.0": {
@@ -261,7 +261,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
   ]
  },
  "1.2.2": {
@@ -300,7 +300,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "005837d85ff9d62d4c74e6f1574b48336fb85271"
+   "01dc343c2c613c263a2180d1850847f33653f94f"
   ]
  },
  "1.21.0": {
@@ -354,7 +354,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.22.1": {
@@ -387,7 +387,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "1.23.0": {
@@ -420,7 +420,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
+   "01bbc716e23cb378012029faa87afc651f211abc"
   ]
  },
  "1.24.0": {
@@ -531,7 +531,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.26.0": {
@@ -632,7 +632,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  },
  "1.4": {
@@ -672,7 +672,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "0031120921eef7baaa23340e22675a00d842a72e"
+   "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
   ]
  },
  "1.4.2": {
@@ -712,7 +712,47 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00784ffde22c987c01418240b57c7755ed4c6942"
+   "026531a04a36d3577122e81f4e7864afd507850f"
+  ]
+ },
+ "1.6.1": {
+  "meta": {
+   "description": "Browse Reddit from your Terminal",
+   "homepage": "https://github.com/michael-lazar/rtv",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Matthias Beyer <mail@beyermatthias.de>",
+    "Jascha Geerds <jg@ekby.de>",
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "python2.7-rtv",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/applications/misc/rtv/default.nix:25"
+  },
+  "revs": [
+   "00a919bb7d5afea39b70953631d569a28b04853d",
+   "016e88b2d2497a9e237c986eeaaff84f894a6859"
   ]
  },
  "1.7.0": {
@@ -755,7 +795,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "000fe587692e2db8829ebd0894e7204f12a86859"
+   "00aec448aba9e9d5d7edd53504f824dc4156b779"
   ]
  },
  "1.8.0": {
@@ -798,7 +838,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "008f88ae6f0aa43cf0dc4e36f059ee03e1a0b99b"
+   "023b486d55e0c3814cf2e5322ecf67a995485630"
   ]
  },
  "1.9.0": {
@@ -842,7 +882,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "00e8e4c2ed98ed915e54ee2ee8c402573588adee"
   ]
  }
 }

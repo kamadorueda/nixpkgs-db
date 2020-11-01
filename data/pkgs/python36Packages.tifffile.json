@@ -31,6 +31,38 @@
    "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
+ "0.13.4": {
+  "meta": {
+   "description": "Read and write image data from and to TIFF files.",
+   "homepage": "https://github.com/blink1073/tifffile",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Alexander Lebedev <lebastr@gmail.com>"
+   ],
+   "name": "python3.6-tifffile",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/python-modules/tifffile/default.nix:23"
+  },
+  "revs": [
+   "00cafb4c8d48641a7048d9652b70ec12234601a4",
+   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
+  ]
+ },
  "0.13.5": {
   "meta": {
    "description": "Read and write image data from and to TIFF files.",
@@ -113,7 +145,56 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003d4d089e24b113eea983f51e45c2ccc8e5e689"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
+  ]
+ },
+ "0.15.0": {
+  "meta": {
+   "description": "Read and write image data from and to TIFF files.",
+   "homepage": "https://github.com/blink1073/tifffile",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lebastr@gmail.com",
+     "github": "lebastr",
+     "name": "Alexander Lebedev"
+    }
+   ],
+   "name": "python3.6-tifffile",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/tifffile/default.nix:23"
+  },
+  "revs": [
+   "024b636ad97b47290740d57ddf7880ae533b9d9a",
+   "02b1cc96009bacd7fd9513c92505f223900dd53d"
   ]
  },
  "0.15.1": {

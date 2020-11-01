@@ -82,7 +82,50 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
+  ]
+ },
+ "0.6.0.6": {
+  "meta": {
+   "description": "Python compiler with full language support and CPython compatibility",
+   "homepage": "http://nuitka.net/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.6-Nuitka",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/nuitka/default.nix:49"
+  },
+  "revs": [
+   "00adcec29a92570ea2ae1254223c03b6526dcd6f",
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  }
 }

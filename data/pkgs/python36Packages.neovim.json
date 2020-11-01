@@ -29,7 +29,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "0.2.0": {
@@ -62,7 +62,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "007cd5262f12a9883cbac44c4f894d3469966f7e"
+   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
   ]
  },
  "0.2.1": {
@@ -98,7 +98,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0092cf65e9dec81d7425788c1e924037b6d00622"
+   "0184e3f8cce49b05731dd4f653b1c07a765bf56b"
   ]
  },
  "0.2.3": {
@@ -147,7 +147,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "002b46082276693574dc7d13f1d4950106b963f3"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "0.2.4": {
@@ -246,6 +246,55 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "0.3.0": {
+  "meta": {
+   "description": "Python client for Neovim",
+   "homepage": "https://github.com/neovim/python-client",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rok@garbas.si",
+     "github": "garbas",
+     "name": "Rok Garbas"
+    }
+   ],
+   "name": "python3.6-neovim",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/neovim/default.nix:36"
+  },
+  "revs": [
+   "00adcec29a92570ea2ae1254223c03b6526dcd6f",
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  }
 }

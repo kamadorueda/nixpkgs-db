@@ -26,7 +26,7 @@
   },
   "revs": [
    "002f3c8760db7d37356209c51328c4d61745b661",
-   "002f3c8760db7d37356209c51328c4d61745b661"
+   "0108c31e22ea9500c8f81da436e8756cefec83ed"
   ]
  },
  "4.10-rc2": {
@@ -56,7 +56,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "000fb9be33528f867e2355ddedde0836ba7f7a3a"
+   "025555d7f1a0fc39ea152b03e942002e1bff1721"
   ]
  },
  "4.10-rc4": {
@@ -86,7 +86,7 @@
   },
   "revs": [
    "003ae42ae66d21756f42079b52b5c8982ae0f293",
-   "00517f1779f8a8514aec6c0f539f895a1b730e54"
+   "023c3c77ee0d043a1324039d23e42db66b4845a8"
   ]
  },
  "4.10-rc7": {
@@ -117,7 +117,38 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
+   "02546ff81736399809cf6d90ee290484c8559ce7"
+  ]
+ },
+ "4.11-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:198"
+  },
+  "revs": [
+   "019350ac01d5ea2acf00c6552eae7425ea633280",
+   "019350ac01d5ea2acf00c6552eae7425ea633280"
   ]
  },
  "4.11-rc2": {
@@ -148,7 +179,7 @@
   },
   "revs": [
    "00239ce8e9baeef0ea55fd0995a55e0b15a25ac9",
-   "00239ce8e9baeef0ea55fd0995a55e0b15a25ac9"
+   "02187c0319faab178f127578d07d50aa90cea4dd"
   ]
  },
  "4.11-rc3": {
@@ -179,7 +210,7 @@
   },
   "revs": [
    "006d9380bb31549037213c8df11b01060613a26f",
-   "006d9380bb31549037213c8df11b01060613a26f"
+   "027d0f0244d5bab2cba7e60cd0ae4cc32bc36c6a"
   ]
  },
  "4.11-rc4": {
@@ -210,7 +241,38 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "0062dd2f14526107bce0d78f39eea18f705fc2bd"
+   "02a188c9199e6dfdbd92176d090b30365c400c97"
+  ]
+ },
+ "4.11-rc5": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:200"
+  },
+  "revs": [
+   "00be1f982f8ed0b000dcfe67f8c047439a2cf414",
+   "0168e48186bd5bbb5915bf3c591179cedd28802d"
   ]
  },
  "4.11-rc6": {
@@ -272,7 +334,38 @@
   },
   "revs": [
    "0054865f7ee3b4c344e59536587a22fa68d76dd3",
-   "0059131f54c82e7714d458c0b17335c3364033a4"
+   "022be78eb26de958e50e32ac40574e93ac81bee3"
+  ]
+ },
+ "4.12-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:202"
+  },
+  "revs": [
+   "029125b973e4c44b20e288d43dfb9a46b18e3ef7",
+   "029125b973e4c44b20e288d43dfb9a46b18e3ef7"
   ]
  },
  "4.12-rc2": {
@@ -303,7 +396,7 @@
   },
   "revs": [
    "00572d595c2aaec1d8196fb913a018696326e824",
-   "00672dec8a1367a1d559660aa7a125b31f3f6562"
+   "02032dbda4968c7ec65a6ead0e8619792d4a9145"
   ]
  },
  "4.12-rc3": {
@@ -334,7 +427,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "01e19386f7ed01ef4aef3e142da857def2c8d5be"
   ]
  },
  "4.12-rc4": {
@@ -365,7 +458,7 @@
   },
   "revs": [
    "003710748f1fab5dd407258cee5f9db7b705c67e",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "02184088468e1d540070bdb91dc7c387cba14a6b"
   ]
  },
  "4.13-rc7": {
@@ -396,7 +489,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
+   "0269045390b240c73706ad18bf03cf8b140dab5f"
   ]
  },
  "4.14-rc1": {
@@ -427,7 +520,7 @@
   },
   "revs": [
    "00422b227968b698c3f109c46b8cd1a4c8590b4e",
-   "00422b227968b698c3f109c46b8cd1a4c8590b4e"
+   "00bc46b72271c26d4af8df98c653335d38a18b6d"
   ]
  },
  "4.14-rc2": {
@@ -458,7 +551,7 @@
   },
   "revs": [
    "003102c41127dabf90349235964b6e4714114ae7",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "017e9778ef613cbabcdc22072f196fe085626624"
   ]
  },
  "4.14-rc3": {
@@ -489,7 +582,7 @@
   },
   "revs": [
    "0034f9e52c581e2f3dc924c3ff73630fae555024",
-   "0034f9e52c581e2f3dc924c3ff73630fae555024"
+   "01bf32deef9d80d49d0a34cee176e27dd2008b19"
   ]
  },
  "4.14-rc4": {
@@ -520,7 +613,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "02a23b7b24d753baec14a860404a93de6d62931d"
   ]
  },
  "4.14-rc5": {
@@ -551,7 +644,7 @@
   },
   "revs": [
    "00669df0c164f0d97c785b1fe48e1ba30b56a6ac",
-   "00669df0c164f0d97c785b1fe48e1ba30b56a6ac"
+   "0134ccb4dddecd3c5e22289d4665e34f2e6a9510"
   ]
  },
  "4.14-rc6": {
@@ -582,7 +675,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "0054183cc6b857ea08865162bbcfeecca29e9dbc"
+   "00c03e90038a4935da17fa0d5f5ca9d08fc19676"
   ]
  },
  "4.14-rc7": {
@@ -613,7 +706,7 @@
   },
   "revs": [
    "00269f660c4da075bd931555845161cafc5d6758",
-   "00269f660c4da075bd931555845161cafc5d6758"
+   "01a7d7038bf18a29133a79c6d5c3facfc10f0923"
   ]
  },
  "4.14-rc8": {
@@ -644,7 +737,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "0124cbdac8a8fe5a034f02a00a832eb643899659"
   ]
  },
  "4.15-rc1": {
@@ -675,7 +768,7 @@
   },
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
-   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+   "01a664e7793158b434fefac9217ec48313b2dd45"
   ]
  },
  "4.15-rc8": {
@@ -709,6 +802,37 @@
    "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
+ "4.15-rc9": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:235"
+  },
+  "revs": [
+   "00970f76f9f5d494d8a1fea790acac31e3578cf7",
+   "0153599164e7ef2266c9de4979369daadb3a3cad"
+  ]
+ },
  "4.16-rc1": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -737,7 +861,42 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "006a6db0128766b32b5e681cedc0e837c4549824"
+   "018f66020fe1b5d13643521a5087bae8a4c26010"
+  ]
+ },
+ "4.16-rc3": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:236"
+  },
+  "revs": [
+   "010f2df1470ddc24b70c844aed7da8ccaa8d4651",
+   "010f2df1470ddc24b70c844aed7da8ccaa8d4651"
   ]
  },
  "4.16-rc4": {
@@ -772,7 +931,7 @@
   },
   "revs": [
    "0058e51c8cbff3256bc0f55ca800a427780d1cca",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
   ]
  },
  "4.16-rc5": {
@@ -807,7 +966,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "004490605a8b0a14b0b63b38a87820e4b2a5d9df"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "4.16-rc6": {
@@ -885,7 +1044,46 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "01a4d957dd46bfffd792fea07bb9784a8f2931af"
+  ]
+ },
+ "4.17-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "00bf1150473dedb02f22696450b250e04875faab",
+   "00bf1150473dedb02f22696450b250e04875faab"
   ]
  },
  "4.17-rc2": {
@@ -963,7 +1161,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "005d803762403effdd0d27bb5c2bb71d3c31d7d4"
+   "024efc950923730bc3e7e05a87b90c157324e912"
   ]
  },
  "4.17-rc4": {
@@ -1002,7 +1200,46 @@
   },
   "revs": [
    "006422d08d7f0576d745baa23328e951e0f7b4c2",
-   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+  ]
+ },
+ "4.17-rc5": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
+   "015052f484e3f47bc2039aaacbbea3ec57aeac93"
   ]
  },
  "4.17-rc6": {
@@ -1041,7 +1278,7 @@
   },
   "revs": [
    "00349e27e5449e3243ba7525446900a16e1f4c2b",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "4.17-rc7": {
@@ -1080,7 +1317,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "011eda39e196fdc8f18de9e858da98e2b5e5c0ed"
   ]
  },
  "4.18-rc1": {
@@ -1119,7 +1356,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "0194f7fbe691616f635105426a9587e862a53b75"
   ]
  },
  "4.18-rc2": {
@@ -1158,7 +1395,7 @@
   },
   "revs": [
    "0068fea88cf6d9e1efe031753f9e48a424967ef8",
-   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+   "02b7eef8084487ef284b3ef612c54413b6e55701"
   ]
  },
  "4.18-rc3": {
@@ -1200,6 +1437,45 @@
    "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
   ]
  },
+ "4.18-rc4": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "0103ae2f6db2835708bf754d6332bbb740640b5d",
+   "0103ae2f6db2835708bf754d6332bbb740640b5d"
+  ]
+ },
  "4.18-rc5": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -1236,7 +1512,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "003d4d089e24b113eea983f51e45c2ccc8e5e689"
+   "0186ec73291fd009c05294126cc097fb757ec509"
   ]
  },
  "4.18-rc6": {
@@ -1275,7 +1551,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "006e2981070061bbd18eef266bf8ec8cbded860d"
+   "01183f3c89d2c3e1b1691d4157941e3e9dd07570"
   ]
  },
  "4.18-rc7": {
@@ -1314,7 +1590,7 @@
   },
   "revs": [
    "003055a670470f678e376be7f9b9051fb242ec0f",
-   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
+   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
   ]
  },
  "4.18-rc8": {
@@ -1431,7 +1707,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "028164ef057119ee37c99bcb98224672441d2d81"
   ]
  },
  "4.19-rc3": {
@@ -1470,7 +1746,46 @@
   },
   "revs": [
    "0052a756d29cb1803bdd667abe991ff0fc75abef",
-   "0052a756d29cb1803bdd667abe991ff0fc75abef"
+   "00c7f76c849ff1a6e23fdcc1c599ae2a1edce0e9"
+  ]
+ },
+ "4.19-rc4": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:237"
+  },
+  "revs": [
+   "012682222fc733ad52a28d58eb69b255779e4810",
+   "0214f9e25e832b4d9d6bbcbf74d75b087b9ee7bc"
   ]
  },
  "4.19-rc5": {
@@ -1548,7 +1863,7 @@
   },
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
-   "0083ca12664a4fbda9a8716267c5173676a8194a"
+   "027ee440b5b0d48ecadd089fde4d36427f378460"
   ]
  },
  "4.19-rc7": {
@@ -1587,7 +1902,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "019da05d0811b4ff7fa8bf874fbeb86b277ebce2"
   ]
  },
  "4.19-rc8": {
@@ -1626,7 +1941,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "0266996a8db7cc41c7951fda993fe8eb7c386695"
   ]
  },
  "4.20-rc1": {
@@ -1665,7 +1980,7 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+   "0217c2980d9eb5859fa6098f06ed5faa1e1d755c"
   ]
  },
  "4.20-rc2": {
@@ -1704,7 +2019,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "024ee18ff62c5f48c1106b0a7300e821029d4563"
   ]
  },
  "4.20-rc3": {
@@ -1743,7 +2058,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "02114b5f598809c5e74116df8a2c3d878e8af20b"
   ]
  },
  "4.20-rc4": {
@@ -1782,7 +2097,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "007dafc9a089e201838c6929933c6adfa06862b9"
+   "01d864c705110b05f1b116ad9f8f4b4a37f6730a"
   ]
  },
  "4.20-rc5": {
@@ -1821,7 +2136,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
+   "01e78db6b12a33767c577d150c21f2696cbc007b"
   ]
  },
  "4.20-rc6": {
@@ -1860,7 +2175,7 @@
   },
   "revs": [
    "004cb5a694e39bd91b27b0adddc127daf2cb76cb",
-   "004cb5a694e39bd91b27b0adddc127daf2cb76cb"
+   "0289f4adf032d402d95a438ed18a966eeffda5cd"
   ]
  },
  "4.20-rc7": {
@@ -1929,7 +2244,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "001bde3df0766f83c04efa607e63c56e675f172c"
+   "0195ab84607ac3a3aa07a79d2d6c2781b1bb6731"
   ]
  },
  "4.8-rc6": {
@@ -1959,7 +2274,37 @@
   },
   "revs": [
    "001d314e874e7fcf819847f88051346684d22e32",
-   "004a5a20470c87199daae1339197184b560cc256"
+   "0240306d01f725a82dfcb6f83d4b9d96ce0b46c8"
+  ]
+ },
+ "4.9-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:200"
+  },
+  "revs": [
+   "00e2bc22db915bf393dab343719ef6e20c97e9f4",
+   "016d6eaa9d6e001c80f642df468037f4359faf40"
   ]
  },
  "4.9-rc2": {
@@ -2019,7 +2364,37 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0033f6076ee5c462722bf6077c40ff7949ae6020"
+   "01fe648552a295b89474cd10ad4890219973d71f"
+  ]
+ },
+ "4.9-rc4": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:200"
+  },
+  "revs": [
+   "00a6087d507065ca8190147e77295912717bc3da",
+   "00a6087d507065ca8190147e77295912717bc3da"
   ]
  },
  "4.9-rc5": {
@@ -2049,7 +2424,37 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "00e76dd81eef2316330d5434d27c18db0cd7192f"
+  ]
+ },
+ "4.9-rc6": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:200"
+  },
+  "revs": [
+   "01172c2ccffd9f6cf646ec270ed5e4dbba48d166",
+   "01172c2ccffd9f6cf646ec270ed5e4dbba48d166"
   ]
  },
  "4.9-rc7": {
@@ -2079,7 +2484,7 @@
   },
   "revs": [
    "0028abeb4ed1432b99c0b977825c577b3baff3d1",
-   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+   "014a1b430a0e52ad75922109ae5bf171720b1cb8"
   ]
  },
  "4.9-rc8": {
@@ -2109,7 +2514,7 @@
   },
   "revs": [
    "0063c8acb4a5de8d90c0cbadf54ce337bd921e76",
-   "007fa632c0089175a2891fb7a375acf827df71bf"
+   "02a839bffc2544ab2764d3573b24c2ffd763d233"
   ]
  },
  "5.0-rc1": {
@@ -2190,6 +2595,45 @@
    "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
+ "5.0-rc3": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:253"
+  },
+  "revs": [
+   "016128dd93eb6dd7689a37333432a60502bf9899",
+   "02a3a15bfd26674f408da197a879d19f38672df8"
+  ]
+ },
  "5.0-rc4": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -2226,7 +2670,7 @@
   },
   "revs": [
    "004e3816dcffb49f4e296a16b00334153a90ed3e",
-   "004e3816dcffb49f4e296a16b00334153a90ed3e"
+   "027d4188b27fc7139edfa4b2c463497c731f66a2"
   ]
  },
  "5.0-rc5": {
@@ -2265,7 +2709,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "01a1cb913e007f096cbf7d962c7e3a048c5cfa18"
   ]
  },
  "5.0-rc6": {
@@ -2305,6 +2749,45 @@
   "revs": [
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+  ]
+ },
+ "5.0-rc7": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:253"
+  },
+  "revs": [
+   "0094157f86b6a8e82bb97e5ef8c46847daaca841",
+   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
   ]
  },
  "5.0-rc8": {
@@ -2382,7 +2865,7 @@
   },
   "revs": [
    "005fb92d32c9d5b636846ce30ae01aab81454161",
-   "005fb92d32c9d5b636846ce30ae01aab81454161"
+   "0215ee052502b6aa9cad0db9b35382f45124c620"
   ]
  },
  "5.1-rc3": {
@@ -2421,7 +2904,7 @@
   },
   "revs": [
    "00541faa4a91b68adc18c7b62e954e839dcacc5c",
-   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
+   "00a52224997a32cd95a43c40e94e20d53bb52628"
   ]
  },
  "5.1-rc4": {
@@ -2460,7 +2943,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "5.1-rc5": {
@@ -2538,7 +3021,7 @@
   },
   "revs": [
    "008c9a70a57f0448b275179bfbc10c8750f29069",
-   "008c9a70a57f0448b275179bfbc10c8750f29069"
+   "013ddbebb1dd25368b30849547baf79fbe2cd15e"
   ]
  },
  "5.1-rc7": {
@@ -2577,7 +3060,47 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "01d805a432048c8f7da870e971c7993781761c9d"
+  ]
+ },
+ "5.10-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:264"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "0126c86672b7d14843225df16ddfefd7091eabe7"
   ]
  },
  "5.2-rc1": {
@@ -2616,7 +3139,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+   "0202d6db56d9cb2bedc1541f826e52589f642bf9"
   ]
  },
  "5.2-rc2": {
@@ -2731,7 +3254,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00078b99ee8baded7fc89e9e1e3501068a2c7fff"
+   "01725fdec88dd000a242ffaa6fbb50781ca62caf"
   ]
  },
  "5.2-rc6": {
@@ -2769,7 +3292,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "00e914cb83295a28c8d4f50c3b070a27a14ad597"
   ]
  },
  "5.2-rc7": {
@@ -2807,7 +3330,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "5.5-rc2": {
@@ -2887,7 +3410,47 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "007761d3cdad573a29003980ffc3aed59257e922"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+  ]
+ },
+ "5.5-rc5": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:265"
+  },
+  "revs": [
+   "0129b95b13e2cb9a5c304915712692c212f3dec5",
+   "0129b95b13e2cb9a5c304915712692c212f3dec5"
   ]
  },
  "5.5-rc6": {
@@ -2967,7 +3530,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "003af9cac8ab25090f7d5a8188db438a5310229b"
+   "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
  "5.6-rc1": {
@@ -3047,7 +3610,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0029baca2ba2b52706f1ff160058128ddcff5575"
+   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
   ]
  },
  "5.6-rc3": {
@@ -3087,7 +3650,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "004325edcef0cf16ce4f56d4de2a2ce2eac622c2"
+   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
   ]
  },
  "5.6-rc5": {
@@ -3127,7 +3690,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "009214203f77cfa0abae79889b68b44d7067939f"
+   "00e7a675f77a11c7a42c7b94fc95feb645f317c3"
   ]
  },
  "5.6-rc7": {
@@ -3167,7 +3730,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "00823d47e7df6fecbf54d99721cac06c6bf2312c"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "5.7-rc2": {
@@ -3208,6 +3771,46 @@
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
    "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8"
+  ]
+ },
+ "5.7-rc3": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:265"
+  },
+  "revs": [
+   "00f35a4397c39c5e7f5f0c3ec3eb9e9c7001a668",
+   "01ff33cad71ff4baf29a89417abda02d7bd9f652"
   ]
  },
  "5.7-rc4": {
@@ -3327,7 +3930,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "02a83b10c68c24d4528361624545f42dc03415b1"
   ]
  },
  "5.8-rc2": {
@@ -3367,7 +3970,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "5.8-rc4": {
@@ -3407,7 +4010,7 @@
   },
   "revs": [
    "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
-   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2"
+   "016595d931bef6334a7dd7b70146378499b69c72"
   ]
  },
  "5.8-rc5": {
@@ -3447,7 +4050,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "00e56c1d535cb9dd4857b538b4844b537052ecf9"
   ]
  },
  "5.8-rc6": {
@@ -3487,7 +4090,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "003f88de6502c3a7c07edb3d29f395ca0db5fe5c"
+   "01ce25515e7f2b49788c31eb8fa5bc5b30a695c9"
   ]
  },
  "5.8-rc7": {
@@ -3567,7 +4170,7 @@
   },
   "revs": [
    "003fa57c6484a63af1e72470fa2b101f4de7a79e",
-   "003fa57c6484a63af1e72470fa2b101f4de7a79e"
+   "026269906fe4efa84e7d6b54c63fc69c6abff92b"
   ]
  },
  "5.9-rc2": {
@@ -3607,7 +4210,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1"
+   "00ab5f18a61b5f6289d09eb34b78e2f1b9c66a53"
   ]
  },
  "5.9-rc3": {
@@ -3647,7 +4250,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "5.9-rc4": {
@@ -3727,7 +4330,7 @@
   },
   "revs": [
    "008de9ca3cd22658df19276032f5d3f403a51090",
-   "008de9ca3cd22658df19276032f5d3f403a51090"
+   "00946dc283ad0b3018490331802b77e16731a1f1"
   ]
  },
  "5.9-rc6": {
@@ -3770,6 +4373,46 @@
    "004676ce9c8275598182884c9e5a823a34eaa173"
   ]
  },
+ "5.9-rc7": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:264"
+  },
+  "revs": [
+   "01835945ca8a3db30c044b7d1f2c880f42ecf448",
+   "01835945ca8a3db30c044b7d1f2c880f42ecf448"
+  ]
+ },
  "5.9-rc8": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
@@ -3807,7 +4450,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }

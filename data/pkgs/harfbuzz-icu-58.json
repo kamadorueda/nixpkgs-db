@@ -23,7 +23,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
+   "0124cbdac8a8fe5a034f02a00a832eb643899659"
   ]
  },
  "1.7.1": {
@@ -98,7 +98,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
  "1.7.6": {
@@ -142,7 +142,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "016922f88ba9d86b611115463c45ee84f238f64e"
   ]
  },
  "1.8.0": {
@@ -230,7 +230,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "0073c30dbf260df65089da565c25601d74b3cadd"
+   "013e96de0a514e60ffe5daa196feed7319fba03b"
   ]
  },
  "1.8.2": {
@@ -275,6 +275,50 @@
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
    "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
+ },
+ "1.8.8": {
+  "meta": {
+   "description": "An OpenType text shaping engine",
+   "homepage": "http://www.freedesktop.org/wiki/Software/HarfBuzz",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "harfbuzz-icu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/harfbuzz/default.nix:55"
+  },
+  "revs": [
+   "01fc00cc816d974056b788dc0014b4908869b3b2",
+   "01fc00cc816d974056b788dc0014b4908869b3b2"
   ]
  }
 }

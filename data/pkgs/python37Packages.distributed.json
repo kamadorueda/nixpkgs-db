@@ -50,7 +50,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "00a51a9669c0883b13a7bb5273641c3f8cd29694"
   ]
  },
  "1.24.0": {
@@ -180,7 +180,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
+   "01a6191107ef67c32e749edf8857271cd0cba60b"
   ]
  },
  "1.25.1": {
@@ -256,7 +256,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "1.25.3": {
@@ -294,7 +294,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "1.26.0": {
@@ -333,6 +333,44 @@
   "revs": [
    "0017a06717bb18706ac3cb99432034caad0c8b91",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "1.26.1": {
+  "meta": {
+   "description": "Distributed computation in Python.",
+   "homepage": "http://distributed.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "name": "Tom Hunger"
+    },
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.7-distributed",
+   "platforms": [
+    {
+     "cpu": {
+      "family": "x86"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/distributed/default.nix:56"
+  },
+  "revs": [
+   "00b1b116ac9872b2d4006abd9630587cf653cf01",
+   "01d805a432048c8f7da870e971c7993781761c9d"
   ]
  },
  "1.27.1": {
@@ -419,7 +457,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
+   "00e09d301624a46f687f7b1dd928c4fafb47c5bf"
   ]
  },
  "2.18.0": {
@@ -527,7 +565,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
  "2.3.0": {
@@ -579,7 +617,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "2.30.0": {
@@ -634,7 +672,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  },
  "2.6.0": {
@@ -686,7 +724,59 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+  ]
+ },
+ "2.9.0": {
+  "meta": {
+   "description": "Distributed computation in Python.",
+   "homepage": "https://distributed.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "githubId": 139251,
+     "name": "Tom Hunger"
+    },
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "githubId": 1740337,
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.7-distributed",
+   "platforms": [
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "i686-none",
+    "x86_64-none"
+   ],
+   "position": "pkgs/development/python-modules/distributed/default.nix:56"
+  },
+  "revs": [
+   "01b720484ce4bdaddeb7012050bcd5716e7391e7",
+   "01b720484ce4bdaddeb7012050bcd5716e7391e7"
   ]
  },
  "2.9.1": {
@@ -738,7 +828,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "2.9.3": {

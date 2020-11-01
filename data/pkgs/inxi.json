@@ -91,7 +91,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
  "3.0.32-1": {
@@ -186,7 +186,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
  "3.0.33-1": {
@@ -400,7 +400,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "0047672d58ad13bd0a60e9114b6c91858c34b2a8"
+   "01cd4663d67b061e9ad580e0e2c689d093b8ae10"
   ]
  },
  "3.0.36-1": {
@@ -462,7 +462,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "00b8bf416c2ea237dede0a469916ab03bad4351b"
   ]
  },
  "3.0.37-1": {
@@ -525,7 +525,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0056f627a0203501c82a74a59c7553b158cc9642"
+   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
   ]
  },
  "3.0.38-1": {
@@ -588,7 +588,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00823d47e7df6fecbf54d99721cac06c6bf2312c"
+   "02b3cac1090c3925096e7ff1c58cb0b41c233f09"
   ]
  },
  "3.1.00-1": {
@@ -843,6 +843,70 @@
    "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
+ "3.1.05-1": {
+  "meta": {
+   "description": "A full featured CLI system information tool",
+   "homepage": "https://smxi.org/docs/inxi.htm",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "inxi is a command line system information script built for console and\nIRC. It is also used a debugging tool for forum technical support to\nquickly ascertain users' system configurations and hardware. inxi shows\nsystem hardware, CPU, drivers, Xorg, Desktop, Kernel, gcc version(s),\nProcesses, RAM usage, and a wide variety of other useful information.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "inxi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/system/inxi/default.nix:47"
+  },
+  "revs": [
+   "00971ea07b592b32a67a8efcadefa1e7a1f49af3",
+   "00971ea07b592b32a67a8efcadefa1e7a1f49af3"
+  ]
+ },
  "3.1.05-2": {
   "meta": {
    "description": "A full featured CLI system information tool",
@@ -904,7 +968,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "00d8c11a5702868c0cf80ffc97cc896070bd3538"
   ]
  },
  "3.1.05-4": {
@@ -1032,7 +1096,71 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "012e55a4606cd7290a0248313659eef1be9988ef"
+  ]
+ },
+ "3.1.07-1": {
+  "meta": {
+   "description": "A full featured CLI system information tool",
+   "homepage": "https://smxi.org/docs/inxi.htm",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "inxi is a command line system information script built for console and\nIRC. It is also used a debugging tool for forum technical support to\nquickly ascertain users' system configurations and hardware. inxi shows\nsystem hardware, CPU, drivers, Xorg, Desktop, Kernel, gcc version(s),\nProcesses, RAM usage, and a wide variety of other useful information.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "inxi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/system/inxi/default.nix:47"
+  },
+  "revs": [
+   "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
+   "01ec8c0999449ec9b44c002cf91541186aab7e06"
   ]
  },
  "3.1.08-1": {
@@ -1096,7 +1224,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
+   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
   ]
  }
 }
