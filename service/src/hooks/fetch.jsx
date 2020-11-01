@@ -10,7 +10,7 @@ export const useFetchJSON = (url, defaultData) => {
   const [data, setData] = useState(defaultData);
 
   useEffect(() => {
-    setData(fetchJSON(url));
+    (async () => setData(await fetchJSON(url)))();
   }, [url]);
 
   return data;

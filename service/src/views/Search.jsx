@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {
   Accordion,
-  Alert,
   Button,
   Card,
   Col,
@@ -17,7 +16,6 @@ import { ProgressBar } from '../components/ProgressBar';
 import { DATA_SOURCE, NIXPKGS_SOURCE } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
 
-const DEFAULT_PKG_NAME = "";
 const RESULTS_PER_PAGE = 10;
 
 const filterPkgs = (pkgs, pkgName) => (
@@ -120,11 +118,10 @@ const Pkg = (props) => {
 
 const Results = (props) => {
   const pkgs = props.pkgs;
-  const revs = props.revs;
 
   const [page, setPage] = useState(1);
-  const [pkgName, setPkgName] = useState(DEFAULT_PKG_NAME);
-  const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, DEFAULT_PKG_NAME));
+  const [pkgName, setPkgName] = useState("");
+  const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
 
   const onPkgNameChange = (event) => {
     setPkgName(event.target.value);
@@ -156,7 +153,6 @@ const Results = (props) => {
             <FormControl
               aria-label="pkgName"
               aria-describedby="pkgName"
-              defaultValue={DEFAULT_PKG_NAME}
               onChange={onPkgNameChange}
             />
             <Button onClick={onSearchButtonClick} variant="outline-primary" >
@@ -204,9 +200,9 @@ const Results = (props) => {
   );
 }
 
-export const Search = () => {
-  const pkgs = useFetchJSON(`${DATA_SOURCE}/data/pkgs.json`, []);
-  const revs = useFetchJSON(`${DATA_SOURCE}/data/revs.json`, []);
+export const Search = (props) => {
+  const pkgs = props.pkgs;
+  const revs = props.revs;
 
   return (
     <React.Fragment>

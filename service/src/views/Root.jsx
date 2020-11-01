@@ -58,9 +58,15 @@ export const Root = () => {
           </Row>
           <br />
           <Switch>
-            <Route exact={true} path="/search" component={Search} />
-            <Route exact={true} path="/about" component={markdownTab(contentAbout)} />
-            <Route exact={true} path="/contributing" component={markdownTab(contentContributing)} />
+            <Route exact={true} path="/search">
+              <Search pkgs={pkgs} revs={revs} />
+            </Route>
+            <Route exact={true} path="/about">
+              {markdownTab(contentAbout)}
+            </Route>
+            <Route exact={true} path="/contributing">
+              {markdownTab(contentContributing)}
+            </Route>
             <Redirect to="/search" />
           </Switch>
           <hr />
