@@ -70,6 +70,69 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "2.3.0": {
+  "meta": {
+   "description": "A tool for managing the installation of multiple software packages in the same run-time directory tree",
+   "homepage": "https://www.gnu.org/software/stow/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "GNU Stow is a symlink farm manager which takes distinct packages\nof software and/or data located in separate directories on the\nfilesystem, and makes them appear to be installed in the same\nplace. For example, /usr/local/bin could contain symlinks to\nfiles within /usr/local/stow/emacs/bin, /usr/local/stow/perl/bin\netc., and likewise recursively for any other subdirectories such\nas .../share, .../man, and so on.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "stow",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "aarch64-ios",
+    "armv7a-ios",
+    "x86_64-ios",
+    "i686-ios",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/tools/misc/stow/default.nix:28"
+  },
+  "revs": [
+   "0033313ebf6b595e24032f2798797a470311977b",
+   "0033313ebf6b595e24032f2798797a470311977b"
+  ]
+ },
  "2.3.1": {
   "meta": {
    "description": "A tool for managing the installation of multiple software packages in the same run-time directory tree",

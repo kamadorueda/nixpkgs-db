@@ -97,6 +97,55 @@
    "0009ae3d5e1ad620215c2b8409eeec668de60552"
   ]
  },
+ "0.0.20180519": {
+  "meta": {
+   "description": "Kernel module for the WireGuard secure network tunnel",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/wireguard/default.nix:29"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+  ]
+ },
  "0.0.20180524": {
   "meta": {
    "description": "Kernel module for the WireGuard secure network tunnel",

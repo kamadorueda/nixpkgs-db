@@ -1,4 +1,110 @@
 {
+ "0.0.20180519": {
+  "meta": {
+   "description": "Tools for the WireGuard secure network tunnel",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard-tools",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/wireguard-tools/default.nix:37"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+  ]
+ },
  "0.0.20180524": {
   "meta": {
    "description": "Tools for the WireGuard secure network tunnel",
@@ -1096,7 +1202,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
+   "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
   ]
  },
  "0.0.20190123": {
@@ -1998,7 +2104,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
+   "00347e9537d6e6ddef599094429a1ac5392d6f28"
   ]
  },
  "1.0.20200820": {

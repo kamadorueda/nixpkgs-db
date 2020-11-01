@@ -19,7 +19,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00269f660c4da075bd931555845161cafc5d6758"
+   "00344162a7d1a4ed438e863b99652cf298b2ad00"
   ]
  },
  "8.13.16": {
@@ -203,6 +203,102 @@
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "8.13.21": {
+  "meta": {
+   "description": "abcm2ps is a command line program which converts ABC to music sheet in PostScript or SVG format",
+   "homepage": "http://moinejf.free.fr/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "abcm2ps",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/audio/abcm2ps/default.nix:31"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
   ]
  },
  "8.13.22": {

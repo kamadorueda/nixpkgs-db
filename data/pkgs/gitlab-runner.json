@@ -118,7 +118,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0018599a26747abc03457cf67c8cbc5d351661a3"
+   "0033f6076ee5c462722bf6077c40ff7949ae6020"
   ]
  },
  "1.7.1": {
@@ -599,6 +599,126 @@
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
+ "10.7.1": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:60"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
   ]
  },
  "10.8.0": {
@@ -1130,7 +1250,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "0033313ebf6b595e24032f2798797a470311977b"
   ]
  },
  "11.2.0": {
@@ -2989,7 +3109,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
+   "00347e9537d6e6ddef599094429a1ac5392d6f28"
   ]
  },
  "13.3.0": {

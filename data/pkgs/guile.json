@@ -336,7 +336,7 @@
   },
   "revs": [
    "00251af1911f4b7c8f19b832a288fec737a8aa99",
-   "00251af1911f4b7c8f19b832a288fec737a8aa99"
+   "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c"
   ]
  },
  "2.0.9": {
@@ -454,6 +454,79 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "2.2.4": {
+  "meta": {
+   "description": "Embeddable Scheme implementation",
+   "homepage": "https://www.gnu.org/software/guile/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "GNU Guile is an implementation of the Scheme programming language, with\nsupport for many SRFIs, packaged for use in a wide variety of\nenvironments.  In addition to implementing the R5RS Scheme standard\nand a large subset of R6RS, Guile includes a module system, full access\nto POSIX system calls, networking support, multiple threads, dynamic\nlinking, a foreign function call interface, and powerful string\nprocessing.\n",
+   "maintainers": [
+    {
+     "email": "ludo@gnu.org",
+     "github": "civodul",
+     "name": "Ludovic Court\u00e8s"
+    },
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "guile",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "aarch64-ios",
+    "armv7a-ios",
+    "x86_64-ios",
+    "i686-ios",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/development/interpreters/guile/default.nix:95"
+  },
+  "revs": [
+   "0033313ebf6b595e24032f2798797a470311977b",
+   "0033313ebf6b595e24032f2798797a470311977b"
   ]
  },
  "2.2.6": {

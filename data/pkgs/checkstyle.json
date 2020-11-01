@@ -411,6 +411,45 @@
    "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
+ "8.10": {
+  "meta": {
+   "description": "Checks Java source against a coding standard",
+   "homepage": "http://checkstyle.sourceforge.net/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "checkstyle is a development tool to help programmers write Java code that\nadheres to a coding standard. By default it supports the Sun Code\nConventions, but is highly configurable.\n",
+   "maintainers": [
+    {
+     "email": "mail@pascal-wittmann.de",
+     "github": "pSub",
+     "name": "Pascal Wittmann"
+    }
+   ],
+   "name": "checkstyle",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/analysis/checkstyle/default.nix:18"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+  ]
+ },
  "8.10.1": {
   "meta": {
    "description": "Checks Java source against a coding standard",
@@ -681,7 +720,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
+   "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
   ]
  },
  "8.17": {

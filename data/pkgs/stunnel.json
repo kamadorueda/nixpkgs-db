@@ -28,7 +28,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "00251af1911f4b7c8f19b832a288fec737a8aa99"
+   "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c"
   ]
  },
  "4.56": {
@@ -437,7 +437,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0018599a26747abc03457cf67c8cbc5d351661a3"
+   "0033f6076ee5c462722bf6077c40ff7949ae6020"
   ]
  },
  "5.37": {
@@ -690,6 +690,102 @@
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "5.45": {
+  "meta": {
+   "description": "Universal tls/ssl wrapper",
+   "homepage": "http://www.stunnel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "stunnel",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/stunnel/default.nix:27"
+  },
+  "revs": [
+   "00349e27e5449e3243ba7525446900a16e1f4c2b",
+   "00349e27e5449e3243ba7525446900a16e1f4c2b"
   ]
  },
  "5.46": {
