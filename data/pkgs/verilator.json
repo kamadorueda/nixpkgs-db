@@ -56,7 +56,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "3.884": {
@@ -117,7 +117,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "3.920": {
@@ -287,7 +287,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "3.926": {
@@ -372,7 +372,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "4.002": {
@@ -542,7 +542,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "4.006": {
@@ -712,7 +712,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "4.010": {
@@ -933,6 +933,57 @@
    "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
+ "4.016": {
+  "meta": {
+   "description": "Fast and robust (System)Verilog simulator/compiler",
+   "homepage": "https://www.veripool.org/wiki/verilator",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "verilator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/science/electronics/verilator/default.nix:20"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
  "4.022": {
   "meta": {
    "description": "Fast and robust (System)Verilog simulator/compiler",
@@ -1037,6 +1088,59 @@
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "4.028": {
+  "meta": {
+   "description": "Fast and robust (System)Verilog simulator/compiler",
+   "homepage": "https://www.veripool.org/wiki/verilator",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "verilator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/science/electronics/verilator/default.nix:16"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
  "4.030": {
@@ -1248,7 +1352,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "4.040": {
@@ -1302,7 +1406,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0023908b4ecef4e889a9bb524394f53c014950fe"
+   "0026c20ea11225292578b2a2e2bde96749e24ae9"
   ]
  },
  "4.100": {

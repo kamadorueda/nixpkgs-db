@@ -203,7 +203,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "000fe587692e2db8829ebd0894e7204f12a86859"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "1.0.1": {
@@ -264,7 +264,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "1.0.3": {
@@ -303,7 +303,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "1.1.4": {
@@ -422,6 +422,46 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.2.7-rc4": {
+  "meta": {
+   "description": "The transport-independent Sun RPC implementation (TI-RPC)",
+   "homepage": "https://sourceforge.net/projects/libtirpc/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "Currently, NFS commands use the SunRPC routines provided by the\nglibc.  These routines do not support IPv6 addresses.  Ulrich\nDrepper, who is the maintainer of the glibc, refuses any change in\nthe glibc concerning the RPC.  He wants the RPC to become a separate\nlibrary.  Other OS (NetBSD, FreeBSD, Solarix, HP-UX, AIX) have\nmigrated their SunRPC library to a TI-RPC (Transport Independent\nRPC) implementation.  This implementation allows the support of\nother transports than UDP and TCP over IPv4.  FreeBSD provides a\nTI-RPC library ported from NetBSD with improvements.  This library\nalready supports IPv6.  So, the FreeBSD release 5.2.1 TI-RPC has\nbeen ported to replace the SunRPC of the glibc.\n",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "githubId": 1174810,
+     "name": "Nikolay Amiantov"
+    }
+   ],
+   "name": "libtirpc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/ti-rpc/default.nix:33"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

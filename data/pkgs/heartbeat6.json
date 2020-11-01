@@ -94,5 +94,53 @@
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
    "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
+ },
+ "6.3.2": {
+  "meta": {
+   "description": "Lightweight shipper for uptime monitoring",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "heartbeat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/misc/logging/beats/6.x.nix:27"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
  }
 }

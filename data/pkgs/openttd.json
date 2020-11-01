@@ -15,6 +15,61 @@
    "0013b8faa5a0824212ff1f107a089ed74ee915ad"
   ]
  },
+ "1.10.0": {
+  "meta": {
+   "description": "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"",
+   "homepage": "https://www.openttd.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "OpenTTD is a transportation economics simulator. In single player mode,\nplayers control a transportation business, and use rail, road, sea, and air\ntransport to move goods and people around the simulated world.\n\nIn multiplayer networked mode, players may:\n  - play competitively as different businesses\n  - play cooperatively controlling the same business\n  - observe as spectators\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "openttd",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/openttd/default.nix:78"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
+  ]
+ },
  "1.10.1": {
   "meta": {
    "description": "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"",
@@ -272,7 +327,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "0008a4b6c467977469b9b3bdec15fcc580204145"
+   "00312d90b9ae42ae383174fcb6b4760d009606ed"
   ]
  },
  "1.4.1": {
@@ -309,6 +364,40 @@
    "0005e1896d9bdef48aedcff9e86843351ac024e9"
   ]
  },
+ "1.4.2": {
+  "meta": {
+   "description": "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"",
+   "homepage": "http://www.openttd.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "OpenTTD is a transportation economics simulator. In single player mode,\nplayers control a transportation business, and use rail, road, sea, and air\ntransport to move goods and people around the simulated world.\n\nIn multiplayer networked mode, players may:\n  - play competitively as different businesses\n  - play cooperatively controling the same business\n  - observe as spectators\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "openttd",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/games/openttd/default.nix:27"
+  },
+  "revs": [
+   "00298c7bba49c3f81be4d748f5f3c903d69e0b9c",
+   "002d771763e9b05cb91ab752829a90e3008451e6"
+  ]
+ },
  "1.4.4": {
   "meta": {
    "description": "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"",
@@ -342,7 +431,7 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "002c687edf9a7aca64660f3ef67db88b0ad46c85"
   ]
  },
  "1.5.1": {
@@ -378,7 +467,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "0021233808c325a2f13557afd3c6d3a93b3b45d3"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "1.5.2": {
@@ -454,7 +543,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "00078e317e63d1d934806efd62f56e48150a4f64"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "1.6.0": {
@@ -494,7 +583,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "00278ef685beeb102c0f247251b08e4ae8db3443"
   ]
  },
  "1.6.1": {
@@ -559,7 +648,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "1.7.2": {
@@ -759,6 +848,59 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "1.9.2": {
+  "meta": {
+   "description": "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"",
+   "homepage": "https://www.openttd.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "OpenTTD is a transportation economics simulator. In single player mode,\nplayers control a transportation business, and use rail, road, sea, and air\ntransport to move goods and people around the simulated world.\n\nIn multiplayer networked mode, players may:\n  - play competitively as different businesses\n  - play cooperatively controlling the same business\n  - observe as spectators\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "openttd",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/openttd/default.nix:78"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "1.9.3": {

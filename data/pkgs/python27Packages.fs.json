@@ -31,7 +31,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "0008a4b6c467977469b9b3bdec15fcc580204145"
+   "00312d90b9ae42ae383174fcb6b4760d009606ed"
   ]
  },
  "0.5.0": {
@@ -68,7 +68,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "001341f8c98af998da57d5b15a279b64efff4689"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "0.5.4": {
@@ -278,7 +278,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "2.3.1": {
@@ -504,6 +504,91 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "2.4.5": {
+  "meta": {
+   "description": "Filesystem abstraction",
+   "homepage": "https://github.com/PyFilesystem/pyfilesystem2",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    }
+   ],
+   "name": "python2.7-fs",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/fs/default.nix:44"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "2.4.8": {
   "meta": {
    "description": "Filesystem abstraction",
@@ -549,7 +634,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  }
 }

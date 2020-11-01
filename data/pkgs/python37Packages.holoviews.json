@@ -97,6 +97,55 @@
    "0015e885ce6c6bac448b639191123fb39a94aa92"
   ]
  },
+ "1.12.2": {
+  "meta": {
+   "description": "Python data analysis and visualization seamless and simple",
+   "homepage": "http://www.holoviews.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.7-holoviews",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/holoviews/default.nix:42"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "1.12.3": {
   "meta": {
    "description": "Python data analysis and visualization seamless and simple",
@@ -133,7 +182,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "1.12.6": {
@@ -310,6 +359,50 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.13.4": {
+  "meta": {
+   "description": "Python data analysis and visualization seamless and simple",
+   "homepage": "http://www.holoviews.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "githubId": 1740337,
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.7-holoviews",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/python-modules/holoviews/default.nix:42"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

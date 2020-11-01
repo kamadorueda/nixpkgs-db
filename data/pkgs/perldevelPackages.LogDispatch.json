@@ -1,4 +1,83 @@
 {
+ "2.67": {
+  "meta": {
+   "description": "Dispatches messages to one or more outputs",
+   "homepage": "https://metacpan.org/release/Log-Dispatch",
+   "license": {
+    "fullName": "Artistic License 2.0",
+    "shortName": "artistic2",
+    "spdxId": "Artistic-2.0",
+    "url": "http://spdx.org/licenses/Artistic-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl5.29.3-Log-Dispatch",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:335"
+  },
+  "revs": [
+   "00262d7d073921566464a200a9aef985a4cd50ed",
+   "00262d7d073921566464a200a9aef985a4cd50ed"
+  ]
+ },
  "2.68": {
   "meta": {
    "description": "Dispatches messages to one or more outputs",
@@ -75,7 +154,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+   "002ad2e561109446ac729ec07556a05c20564e15"
   ]
  }
 }

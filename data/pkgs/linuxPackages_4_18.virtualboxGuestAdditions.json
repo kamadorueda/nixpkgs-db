@@ -30,7 +30,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "5.2.14-4.18.16": {
@@ -65,6 +65,40 @@
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+  ]
+ },
+ "5.2.14-4.18.18": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:151"
+  },
+  "revs": [
+   "002c411f45a9bcea367cd664be231ac75793a83e",
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "5.2.14-4.18.19": {
@@ -133,6 +167,40 @@
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+  ]
+ },
+ "5.2.14-4.18.3": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "5.2.14-4.18.7": {

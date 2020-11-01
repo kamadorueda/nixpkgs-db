@@ -104,7 +104,56 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
+ "2.12.1": {
+  "meta": {
+   "description": "A generic and open source machine emulator and virtualizer",
+   "homepage": "http://www.qemu.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "qemu-xen-host-cpu-only",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/qemu/default.nix:152"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "3.0.0": {
@@ -241,7 +290,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "4.1.0": {
@@ -373,7 +422,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "5.1.0": {

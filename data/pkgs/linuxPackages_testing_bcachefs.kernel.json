@@ -27,7 +27,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "4.15.2018.02.09": {
@@ -150,7 +150,51 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
+ "4.16.2018.08.03": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "post@davidak.de",
+     "github": "davidak",
+     "name": "David Kleuker"
+    },
+    {
+     "email": "okinan@protonmail.com",
+     "github": "chiiruno",
+     "name": "Okina Matara"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:235"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "4.18.2018.08.31": {
@@ -218,7 +262,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "4.18.2018.10.12": {
@@ -253,6 +297,40 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "4.20.2019.01.23": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "post@davidak.de",
+     "github": "davidak",
+     "name": "David Kleuker"
+    },
+    {
+     "email": "okinan@protonmail.com",
+     "github": "chiiruno",
+     "name": "Okina Matara"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:253"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "4.20.2019.02.20": {
@@ -357,6 +435,40 @@
    "0015e885ce6c6bac448b639191123fb39a94aa92"
   ]
  },
+ "5.0.2019.05.08": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "post@davidak.de",
+     "github": "davidak",
+     "name": "David Kleuker"
+    },
+    {
+     "email": "okinan@protonmail.com",
+     "github": "chiiruno",
+     "name": "Okina Matara"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:260"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
+  ]
+ },
  "5.0.2019.05.29": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -389,6 +501,40 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
+ "5.1.2019.07.13": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "post@davidak.de",
+     "github": "davidak",
+     "name": "David Kleuker"
+    },
+    {
+     "email": "okinan@protonmail.com",
+     "github": "chiiruno",
+     "name": "Okina Matara"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:260"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "5.2.2019.10.12": {
@@ -461,6 +607,42 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "5.8.0-2020.09.07": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "post@davidak.de",
+     "github": "davidak",
+     "githubId": 91113,
+     "name": "David Kleuker"
+    },
+    {
+     "email": "okinan@protonmail.com",
+     "github": "chiiruno",
+     "githubId": 30435868,
+     "name": "Okina Matara"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:264"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

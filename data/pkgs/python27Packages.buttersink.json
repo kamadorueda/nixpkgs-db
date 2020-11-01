@@ -28,7 +28,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "0.6.7": {
@@ -60,7 +60,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "0.6.8": {
@@ -92,7 +92,40 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003102c41127dabf90349235964b6e4714114ae7"
+  ]
+ },
+ "0.6.9": {
+  "meta": {
+   "description": "Synchronise btrfs snapshots",
+   "homepage": "https://github.com/AmesCornish/buttersink/wiki",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "ButterSink is like rsync, but for btrfs subvolumes instead of files,\nwhich makes it much more efficient for things like archiving backup\nsnapshots. It is built on top of btrfs send and receive capabilities.\nSources and destinations can be local btrfs file systems, remote btrfs\nfile systems over SSH, or S3 buckets.\n",
+   "maintainers": [],
+   "name": "python2.7-buttersink",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/buttersink/default.nix:16"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  }
 }

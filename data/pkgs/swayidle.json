@@ -1,4 +1,43 @@
 {
+ "1.1": {
+  "meta": {
+   "description": "Idle management daemon for Wayland",
+   "homepage": "https://github.com/swaywm/swayidle",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Sway's idle management daemon. It is compatible with any Wayland\ncompositor which implements the KDE idle protocol.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "swayidle",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/window-managers/sway/idle.nix:21"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
+  ]
+ },
  "1.2": {
   "meta": {
    "description": "Idle management daemon for Wayland",

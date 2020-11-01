@@ -72,7 +72,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "1.6.62": {
@@ -334,6 +334,91 @@
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+  ]
+ },
+ "1.6.66": {
+  "meta": {
+   "description": "A library for handling the COLLADA file format",
+   "homepage": "https://github.com/KhronosGroup/OpenCOLLADA/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "opencollada",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/opencollada/default.nix:32"
+  },
+  "revs": [
+   "002c411f45a9bcea367cd664be231ac75793a83e",
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "1.6.67": {

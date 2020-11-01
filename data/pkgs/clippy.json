@@ -1,4 +1,65 @@
 {
+ "1.40.0": {
+  "meta": {
+   "description": "A bunch of lints to catch common mistakes and improve your Rust code",
+   "homepage": "https://rust-lang.github.io/rust-clippy/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "githubId": 576355,
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "clippy",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/rust/clippy.nix:30"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
+  ]
+ },
  "1.41.0": {
   "meta": {
    "description": "A bunch of lints to catch common mistakes and improve your Rust code",
@@ -118,7 +179,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
   ]
  },
  "1.43.0": {
@@ -365,6 +426,68 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.46.0": {
+  "meta": {
+   "description": "A bunch of lints to catch common mistakes and improve your Rust code",
+   "homepage": "https://rust-lang.github.io/rust-clippy/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "githubId": 576355,
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "clippy",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/rust/clippy.nix:29"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

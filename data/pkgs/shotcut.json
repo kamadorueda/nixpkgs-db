@@ -24,7 +24,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "0005e1896d9bdef48aedcff9e86843351ac024e9"
+   "002b067750c88d0e7bc451a05a85f973534f18c2"
   ]
  },
  "14.09": {
@@ -84,7 +84,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "001d314e874e7fcf819847f88051346684d22e32"
+   "0027c7119d7775598c3483a3f85a9b6c038e17e7"
   ]
  },
  "16.10": {
@@ -145,7 +145,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "17.09": {
@@ -176,7 +176,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
   ]
  },
  "17.11": {
@@ -303,7 +303,51 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
+ "18.08": {
+  "meta": {
+   "description": "A free, open source, cross-platform video editor",
+   "homepage": "https://shotcut.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "An official binary for Shotcut, which includes all the\ndependencies pinned to specific versions, is provided on\nhttp://shotcut.org.\n\nIf you encounter problems with this version, please contact the\nnixpkgs maintainer(s). If you wish to report any bugs upstream,\nplease use the official build from shotcut.org instead.\n",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "github@woffs.de",
+     "github": "woffs",
+     "name": "Frank Doepper"
+    }
+   ],
+   "name": "shotcut",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/video/shotcut/default.nix:45"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "18.08.14": {
@@ -391,7 +435,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "18.10.08": {
@@ -570,6 +614,49 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "19.07.15": {
+  "meta": {
+   "description": "A free, open source, cross-platform video editor",
+   "homepage": "https://shotcut.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "An official binary for Shotcut, which includes all the\ndependencies pinned to specific versions, is provided on\nhttp://shotcut.org.\n\nIf you encounter problems with this version, please contact the\nnixpkgs maintainer(s). If you wish to report any bugs upstream,\nplease use the official build from shotcut.org instead.\n",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "github@woffs.de",
+     "github": "woffs",
+     "name": "Frank Doepper"
+    }
+   ],
+   "name": "shotcut",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/video/shotcut/default.nix:45"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
  "19.09.14": {
   "meta": {
    "description": "A free, open source, cross-platform video editor",
@@ -717,7 +804,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "20.04.01": {
@@ -873,7 +960,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0023908b4ecef4e889a9bb524394f53c014950fe"
+   "0026c20ea11225292578b2a2e2bde96749e24ae9"
   ]
  },
  "20.09.13": {

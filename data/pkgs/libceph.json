@@ -35,6 +35,42 @@
    "00230c92402bb3d94eae0db63cd6d2ba237b541f"
   ]
  },
+ "0.94.1.1": {
+  "meta": {
+   "description": "Distributed storage system",
+   "homepage": "http://ceph.com/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Alexander Kjeldaas <ak@formalprivacy.com>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "ceph",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/tools/filesystems/ceph/generic.nix:226"
+  },
+  "revs": [
+   "002c687edf9a7aca64660f3ef67db88b0ad46c85",
+   "002c687edf9a7aca64660f3ef67db88b0ad46c85"
+  ]
+ },
  "0.94.1.2": {
   "meta": {
    "description": "Distributed storage system",
@@ -140,7 +176,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "12.2.2": {
@@ -344,6 +380,84 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "14.2.10": {
+  "meta": {
+   "description": "Distributed storage system",
+   "homepage": "https://ceph.com/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Public Domain",
+     "shortName": "publicDomain"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adev@adev.name",
+     "github": "adevress",
+     "githubId": 1773511,
+     "name": "Adrien Devresse"
+    },
+    {
+     "email": "ak@formalprivacy.com",
+     "github": "alexanderkjeldaas",
+     "githubId": 339369,
+     "name": "Alexander Kjeldaas"
+    },
+    {
+     "email": "kristoffer@microdisko.no",
+     "github": "krav",
+     "githubId": 4032,
+     "name": "Kristoffer Th\u00f8mt Ravneberg"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "sbrofeldt@gmail.com",
+     "github": "srhb",
+     "githubId": 219362,
+     "name": "Sarah Brofeldt"
+    }
+   ],
+   "name": "ceph",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/filesystems/ceph/default.nix:178"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "002b700fb597bc670ea4d19597444c43d31cf556"
+  ]
+ },
  "14.2.4": {
   "meta": {
    "description": "Distributed storage system",
@@ -415,6 +529,77 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "14.2.6": {
+  "meta": {
+   "description": "Distributed storage system",
+   "homepage": "https://ceph.com/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Public Domain",
+     "shortName": "publicDomain"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adev@adev.name",
+     "github": "adevress",
+     "githubId": 1773511,
+     "name": "Adrien Devresse"
+    },
+    {
+     "email": "ak@formalprivacy.com",
+     "github": "alexanderkjeldaas",
+     "name": "Alexander Kjeldaas"
+    },
+    {
+     "email": "kristoffer@microdisko.no",
+     "github": "krav",
+     "githubId": 4032,
+     "name": "Kristoffer Th\u00f8mt Ravneberg"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    }
+   ],
+   "name": "ceph",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/filesystems/ceph/default.nix:178"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
+  ]
+ },
  "14.2.7": {
   "meta": {
    "description": "Distributed storage system",
@@ -483,7 +668,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "14.2.8": {
@@ -702,6 +887,78 @@
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
+ "15.2.5": {
+  "meta": {
+   "description": "Distributed storage system",
+   "homepage": "https://ceph.com/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Public Domain",
+     "shortName": "publicDomain"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adev@adev.name",
+     "github": "adevress",
+     "githubId": 1773511,
+     "name": "Adrien Devresse"
+    },
+    {
+     "email": "ak@formalprivacy.com",
+     "github": "alexanderkjeldaas",
+     "githubId": 339369,
+     "name": "Alexander Kjeldaas"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "kristoffer@microdisko.no",
+     "github": "krav",
+     "githubId": 4032,
+     "name": "Kristoffer Th\u00f8mt Ravneberg"
+    }
+   ],
+   "name": "ceph",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/filesystems/ceph/default.nix:80"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
+  ]
+ },
  "9.2.0": {
   "meta": {
    "description": "Distributed storage system",
@@ -738,7 +995,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  }
 }

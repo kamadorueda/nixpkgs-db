@@ -1,4 +1,34 @@
 {
+ "2017.1.1": {
+  "meta": {
+   "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
+   "homepage": "https://www.jetbrains.com/idea/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "IDE for Java SE, Groovy & Scala development Powerful\nenvironment for building Google Android apps Integration\nwith JUnit, TestNG, popular SCMs, Ant & Maven.\n",
+   "maintainers": [
+    "Edward Tj\u00f6rnhammar <ed@cflags.cc>"
+   ],
+   "name": "idea-ultimate",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/editors/jetbrains/default.nix:70"
+  },
+  "revs": [
+   "002a2b479a245d10691a394454f29e27d95de719",
+   "002a2b479a245d10691a394454f29e27d95de719"
+  ]
+ },
  "2017.1.2": {
   "meta": {
    "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
@@ -116,7 +146,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "2017.2.6": {
@@ -146,7 +176,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
   ]
  },
  "2017.3": {
@@ -210,7 +240,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "002b46082276693574dc7d13f1d4950106b963f3"
   ]
  },
  "2017.3.5": {
@@ -403,6 +433,44 @@
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
   ]
  },
+ "2018.2": {
+  "meta": {
+   "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
+   "homepage": "https://www.jetbrains.com/idea/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "IDE for Java SE, Groovy & Scala development Powerful\nenvironment for building Google Android apps Integration\nwith JUnit, TestNG, popular SCMs, Ant & Maven.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "idea-ultimate",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/jetbrains/default.nix:129"
+  },
+  "revs": [
+   "003055a670470f678e376be7f9b9051fb242ec0f",
+   "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
  "2018.2.1": {
   "meta": {
    "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
@@ -552,7 +620,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "2018.2.6": {
@@ -667,6 +735,44 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "0008aa73eb0dec898c4e2e6913af645abd253c35"
+  ]
+ },
+ "2018.3.2": {
+  "meta": {
+   "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
+   "homepage": "https://www.jetbrains.com/idea/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "IDE for Java SE, Groovy & Scala development Powerful\nenvironment for building Google Android apps Integration\nwith JUnit, TestNG, popular SCMs, Ant & Maven. Also known\nas IntelliJ.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "idea-ultimate",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/jetbrains/default.nix:129"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "2018.3.3": {
@@ -818,7 +924,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
   ]
  },
  "2019.1.3": {
@@ -855,7 +961,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "2019.2.4": {
@@ -1027,7 +1133,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "2020.1": {
@@ -1114,6 +1220,49 @@
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
    "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+  ]
+ },
+ "2020.1.2": {
+  "meta": {
+   "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
+   "homepage": "https://www.jetbrains.com/idea/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "IDE for Java SE, Groovy & Scala development Powerful\nenvironment for building Google Android apps Integration\nwith JUnit, TestNG, popular SCMs, Ant & Maven. Also known\nas IntelliJ.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "idea-ultimate",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/editors/jetbrains/default.nix:129"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "002b700fb597bc670ea4d19597444c43d31cf556"
   ]
  },
  "2020.1.3": {
@@ -1243,6 +1392,49 @@
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "2020.2.2": {
+  "meta": {
+   "description": "Integrated Development Environment (IDE) by Jetbrains, requires paid license",
+   "homepage": "https://www.jetbrains.com/idea/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "IDE for Java SE, Groovy & Scala development Powerful\nenvironment for building Google Android apps Integration\nwith JUnit, TestNG, popular SCMs, Ant & Maven. Also known\nas IntelliJ.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "idea-ultimate",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/editors/jetbrains/default.nix:129"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

@@ -1,4 +1,98 @@
 {
+ "0.15.1": {
+  "meta": {
+   "description": "SSO authentication provider for the auth_request nginx module",
+   "homepage": "https://github.com/Luzifer/nginx-sso",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "delroth@gmail.com",
+     "github": "delroth",
+     "name": "Pierre Bourdon"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "nginx-sso",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/nginx-sso/default.nix:23"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "0028bad962d0184f190474244b9e51d4b840443d"
+  ]
+ },
  "0.16.0": {
   "meta": {
    "description": "SSO authentication provider for the auth_request nginx module",
@@ -271,7 +365,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "0.24.1": {

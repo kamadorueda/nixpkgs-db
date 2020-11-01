@@ -39,6 +39,46 @@
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
   ]
  },
+ "0.11.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "http://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "Tadas Barzd\u017eius <retrry@gmail.com>"
+   ],
+   "name": "cargo",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:59"
+  },
+  "revs": [
+   "00278ef685beeb102c0f247251b08e4ae8db3443",
+   "00278ef685beeb102c0f247251b08e4ae8db3443"
+  ]
+ },
  "0.12.0": {
   "meta": {
    "description": "Downloads your Rust project's dependencies and builds your project",
@@ -117,6 +157,46 @@
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
    "0018599a26747abc03457cf67c8cbc5d351661a3"
+  ]
+ },
+ "0.14.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "http://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "Tadas Barzd\u017eius <retrry@gmail.com>"
+   ],
+   "name": "cargo",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:68"
+  },
+  "revs": [
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1",
+   "002f3c8760db7d37356209c51328c4d61745b661"
   ]
  },
  "0.15.0": {
@@ -238,7 +318,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "0.22.0": {
@@ -478,7 +558,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "00163a09d37c6c9e07837ebb8aa75ebb3e347244"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "0.5.0": {
@@ -630,7 +710,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "1.26.2": {
@@ -838,6 +918,104 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.29.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "https://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "retrry@gmail.com",
+     "github": "retrry",
+     "name": "Tadas Barzd\u017eius"
+    }
+   ],
+   "name": "cargo",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:63"
+  },
+  "revs": [
+   "002a2a8d399902acff6ea1d362ec374006858db8",
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "1.29.1": {
@@ -1131,7 +1309,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "1.32.0": {
@@ -1489,6 +1667,70 @@
    "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
+ "1.36.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "https://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "retrry@gmail.com",
+     "github": "retrry",
+     "name": "Tadas Barzd\u017eius"
+    }
+   ],
+   "name": "cargo",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:58"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
  "1.39.0": {
   "meta": {
    "description": "Downloads your Rust project's dependencies and builds your project",
@@ -1548,6 +1790,67 @@
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "1.40.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "https://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "retrry@gmail.com",
+     "github": "retrry",
+     "githubId": 500703,
+     "name": "Tadas Barzd\u017eius"
+    }
+   ],
+   "name": "cargo",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:51"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
   ]
  },
  "1.41.0": {
@@ -1669,7 +1972,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
   ]
  },
  "1.43.0": {
@@ -1916,6 +2219,68 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.46.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "https://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "retrry@gmail.com",
+     "github": "retrry",
+     "githubId": 500703,
+     "name": "Tadas Barzd\u017eius"
+    }
+   ],
+   "name": "cargo",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/rust/cargo.nix:59"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  },
  "2015-05-13": {

@@ -102,6 +102,91 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.8": {
+  "meta": {
+   "description": "Lua binding for OpenSSL library to provide TLS/SSL communication",
+   "homepage": "https://github.com/brunoos/luasec",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@markus-kohlhase.de",
+     "github": "flosse",
+     "name": "Markus Kohlhase"
+    }
+   ],
+   "name": "lua5.2-sec",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:405"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "0.8-1": {
   "meta": {
    "description": "A binding for OpenSSL library to provide TLS/SSL communication over LuaSocket.",

@@ -113,7 +113,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "1.0.0": {
@@ -191,7 +191,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "1.0.10": {
@@ -274,6 +274,45 @@
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
+ "1.0.2": {
+  "meta": {
+   "description": "Tool to build flatpaks from source",
+   "homepage": "https://flatpak.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "flatpak-builder",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/flatpak-builder/default.nix:101"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "0028bad962d0184f190474244b9e51d4b840443d"
+  ]
+ },
  "1.0.5": {
   "meta": {
    "description": "Tool to build flatpaks from source",
@@ -349,7 +388,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
   ]
  },
  "1.0.7": {
@@ -388,6 +427,44 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
+ "1.0.8": {
+  "meta": {
+   "description": "Tool to build flatpaks from source",
+   "homepage": "https://flatpak.org/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "flatpak-builder",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/flatpak-builder/default.nix:137"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "1.0.9": {

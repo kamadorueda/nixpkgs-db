@@ -18,6 +18,25 @@
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
   ]
  },
+ "20110715": {
+  "meta": {
+   "description": "Ur/Web supports construction of dynamic web applications backed by SQL databases.",
+   "homepage": "http://www.impredicative.com/ur/",
+   "license": "bsd",
+   "long_description": "Ur is a programming language in the tradition of ML and Haskell, but\nfeaturing a significantly richer type system. Ur is functional, pure,\nstatically-typed, and strict. Ur supports a powerful kind of\nmetaprogramming based on row types.\n\nUr/Web is Ur plus a special standard library and associated rules for\nparsing and optimization. Ur/Web supports construction of dynamic web\napplications backed by SQL databases. The signature of the standard\nlibrary is such that well-typed Ur/Web programs \"don't go wrong\" in a\nvery broad sense. Not only do they not crash during particular page\ngenerations, but they also may not:\n\n* Suffer from any kinds of code-injection attacks\n* Return invalid HTML\n* Contain dead intra-application links\n* Have mismatches between HTML forms and the fields expected by their handlers\n* Include client-side code that makes incorrect assumptions about the \"AJAX\"-style services that the remote web server provides\n* Attempt invalid SQL queries\n* Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers\n\nThis type safety is just the foundation of the Ur/Web methodology. It is\nalso possible to use metaprogramming to build significant application pieces\nby analysis of type structure. For instance, the demo includes an ML-style\nfunctor for building an admin interface for an arbitrary SQL table. The\ntype system guarantees that the admin interface sub-application that comes\nout will always be free of the above-listed bugs, no matter which well-typed\ntable description is given as input.\n\nThe Ur/Web compiler also produces very efficient object code that does not use\ngarbage collection. These compiled programs will often be even more efficient\nthan what most programmers would bother to write in C. For example, the\nstandalone web server generated for the demo uses less RAM than the bash shell.\nThe compiler also generates JavaScript versions of client-side code, with no need\nto write those parts of applications in a different language.\n",
+   "maintainers": [],
+   "name": "urweb",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0026458089ed4a754f75b182b5e903f2242127cc",
+   "0026458089ed4a754f75b182b5e903f2242127cc"
+  ]
+ },
  "20111127": {
   "meta": {
    "description": "Ur/Web supports construction of dynamic web applications backed by SQL databases.",
@@ -99,7 +118,7 @@
   },
   "revs": [
    "00081d1873148a8ec642d5c912d04875c4ee4a66",
-   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+   "00312d90b9ae42ae383174fcb6b4760d009606ed"
   ]
  },
  "20140531": {
@@ -122,7 +141,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "0005e1896d9bdef48aedcff9e86843351ac024e9"
+   "002b067750c88d0e7bc451a05a85f973534f18c2"
   ]
  },
  "20140830": {
@@ -195,6 +214,30 @@
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
    "00137438459949bfbd2c0311e8664a9da8bb1e53"
+  ]
+ },
+ "20150520": {
+  "meta": {
+   "description": "Construct dynamic web applications backed by SQL databases",
+   "homepage": "http://www.impredicative.com/ur/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "Ur is a programming language in the tradition of ML and Haskell, but\nfeaturing a significantly richer type system. Ur is functional, pure,\nstatically-typed, and strict. Ur supports a powerful kind of\nmetaprogramming based on row types.\n\nUr/Web is Ur plus a special standard library and associated rules for\nparsing and optimization. Ur/Web supports construction of dynamic web\napplications backed by SQL databases. The signature of the standard\nlibrary is such that well-typed Ur/Web programs \"don't go wrong\" in a\nvery broad sense. Not only do they not crash during particular page\ngenerations, but they also may not:\n\n* Suffer from any kinds of code-injection attacks\n* Return invalid HTML\n* Contain dead intra-application links\n* Have mismatches between HTML forms and the fields expected by their handlers\n* Include client-side code that makes incorrect assumptions about the \"AJAX\"-style services that the remote web server provides\n* Attempt invalid SQL queries\n* Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers\n\nThis type safety is just the foundation of the Ur/Web methodology. It is\nalso possible to use metaprogramming to build significant application pieces\nby analysis of type structure. For instance, the demo includes an ML-style\nfunctor for building an admin interface for an arbitrary SQL table. The\ntype system guarantees that the admin interface sub-application that comes\nout will always be free of the above-listed bugs, no matter which well-typed\ntable description is given as input.\n\nThe Ur/Web compiler also produces very efficient object code that does not use\ngarbage collection. These compiled programs will often be even more efficient\nthan what most programmers would bother to write in C. For example, the\nstandalone web server generated for the demo uses less RAM than the bash shell.\nThe compiler also generates JavaScript versions of client-side code, with no need\nto write those parts of applications in a different language.\n",
+   "maintainers": [],
+   "name": "urweb",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/urweb/default.nix:35"
+  },
+  "revs": [
+   "002da098e1e44f8150034af7d87b7e751cd476f8",
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "20150819": {
@@ -284,7 +327,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "20160621": {

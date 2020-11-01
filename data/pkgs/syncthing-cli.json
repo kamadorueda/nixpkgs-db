@@ -840,7 +840,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "1.0.1": {
@@ -1067,6 +1067,121 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "1.1.3": {
+  "meta": {
+   "description": "Open Source Continuous File Synchronization",
+   "homepage": "https://www.syncthing.net/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "paul@pshendry.com",
+     "github": "pshendry",
+     "name": "Paul Hendry"
+    },
+    {
+     "email": "ioannis.koutras@gmail.com",
+     "github": "jokogr",
+     "keys": [
+      {
+       "fingerprint": "B154 A8F9 0610 DB45 0CA8  CF39 85EA E7D9 DF56 C5CA",
+       "longkeyid": "rsa2048/0x85EAE7D9DF56C5CA"
+      }
+     ],
+     "name": "Ioannis Koutras"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "andrew@du.nham.ca",
+     "github": "andrew-d",
+     "name": "Andrew Dunham"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "syncthing-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/syncthing/default.nix:46"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "1.1.4": {
   "meta": {
    "description": "Open Source Continuous File Synchronization",
@@ -1142,7 +1257,91 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
+ "1.10.0": {
+  "meta": {
+   "description": "Open Source Continuous File Synchronization",
+   "homepage": "https://syncthing.net/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "paul@pshendry.com",
+     "github": "pshendry",
+     "githubId": 1829032,
+     "name": "Paul Hendry"
+    },
+    {
+     "email": "ioannis.koutras@gmail.com",
+     "github": "jokogr",
+     "githubId": 1252547,
+     "keys": [
+      {
+       "fingerprint": "B154 A8F9 0610 DB45 0CA8  CF39 85EA E7D9 DF56 C5CA",
+       "longkeyid": "rsa2048/0x85EAE7D9DF56C5CA"
+      }
+     ],
+     "name": "Ioannis Koutras"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "andrew@du.nham.ca",
+     "github": "andrew-d",
+     "githubId": 1079173,
+     "name": "Andrew Dunham"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "syncthing-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/syncthing/default.nix:47"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  },
  "1.3.2": {
@@ -1391,7 +1590,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "1.4.2": {
@@ -1557,7 +1756,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
   ]
  },
  "1.6.1": {
@@ -1975,7 +2174,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "0023908b4ecef4e889a9bb524394f53c014950fe"
+   "0026c20ea11225292578b2a2e2bde96749e24ae9"
   ]
  }
 }

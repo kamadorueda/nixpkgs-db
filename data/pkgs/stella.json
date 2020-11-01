@@ -1,4 +1,32 @@
 {
+ "4.0": {
+  "meta": {
+   "description": "An open-source Atari 2600 VCS emulator",
+   "homepage": "http://stella.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Stella is a multi-platform Atari 2600 VCS emulator released under\nthe GNU General Public License (GPL). Stella was originally\ndeveloped for Linux by Bradford W. Mott, and is currently\nmaintained by Stephen Anthony.\nAs of its 3.5 release, Stella is officialy donationware. \n",
+   "maintainers": [
+    "Anderson Torres <torres.anderson.85@gmail.com>"
+   ],
+   "name": "stella",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/misc/emulators/stella/default.nix:18"
+  },
+  "revs": [
+   "00298c7bba49c3f81be4d748f5f3c903d69e0b9c",
+   "002d771763e9b05cb91ab752829a90e3008451e6"
+  ]
+ },
  "4.2": {
   "meta": {
    "description": "An open-source Atari 2600 VCS emulator",
@@ -256,6 +284,46 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "6.3": {
+  "meta": {
+   "description": "An open-source Atari 2600 VCS emulator",
+   "homepage": "https://stella-emu.github.io/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Stella is a multi-platform Atari 2600 VCS emulator released under\nthe GNU General Public License (GPL). Stella was originally\ndeveloped for Linux by Bradford W. Mott, and is currently\nmaintained by Stephen Anthony.\nAs of its 3.5 release, Stella is officially donationware.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "stella",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/emulators/stella/default.nix:20"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

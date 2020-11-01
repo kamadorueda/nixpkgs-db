@@ -84,6 +84,97 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "20181207": {
+  "meta": {
+   "description": "Comprehensive binding to OpenSSL for Lua 5.1+",
+   "homepage": "https://www.25thandclement.com/~william/projects/luaossl.html",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "lua5.1-luaossl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:340"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "20190612-0": {
   "meta": {
    "description": "Most comprehensive OpenSSL module in the Lua universe.",
@@ -132,7 +223,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "20190731-0": {

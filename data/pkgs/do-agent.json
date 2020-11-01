@@ -42,7 +42,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "002ecd07e128b7ee5dc4ed23f1da4abbe9007880"
   ]
  },
  "3.6.0": {
@@ -89,6 +89,52 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "3.7.1": {
+  "meta": {
+   "description": "DigitalOcean droplet system metrics agent",
+   "homepage": "https://github.com/digitalocean/do-agent",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "do-agent is a program provided by DigitalOcean that collects system\nmetrics from a DigitalOcean Droplet (on which the program runs) and sends\nthem to DigitalOcean to provide resource usage graphs and alerting.\n",
+   "maintainers": [
+    {
+     "email": "i@yvt.jp",
+     "github": "yvt",
+     "githubId": 5253988,
+     "name": "yvt"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "do-agent",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/monitoring/do-agent/default.nix:28"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

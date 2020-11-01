@@ -1,4 +1,52 @@
 {
+ "1.14.1": {
+  "meta": {
+   "description": "Open Container Initiative-based implementation of the\n                    Kubernetes Container Runtime Interface",
+   "homepage": "https://cri-o.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "name": "Sascha Grunert"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "cri-o",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/cri-o/default.nix:69"
+  },
+  "revs": [
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "1.14.2": {
   "meta": {
    "description": "Open Container Initiative-based implementation of the\n                    Kubernetes Container Runtime Interface",
@@ -44,6 +92,53 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
+ "1.15.0": {
+  "meta": {
+   "description": "Open Container Initiative-based implementation of the\n                    Kubernetes Container Runtime Interface",
+   "homepage": "https://cri-o.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "name": "Sascha Grunert"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "cri-o",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/cri-o/default.nix:63"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "1.16.1": {
@@ -95,7 +190,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
   ]
  },
  "1.17.0": {
@@ -144,6 +239,52 @@
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
   ]
  },
+ "1.17.1": {
+  "meta": {
+   "description": "Open Container Initiative-based implementation of the\n                    Kubernetes Container Runtime Interface",
+   "homepage": "https://cri-o.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "cri-o",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/cri-o/default.nix:57"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
+  ]
+ },
  "1.17.3": {
   "meta": {
    "description": "Open Container Initiative-based implementation of the\n                    Kubernetes Container Runtime Interface",
@@ -187,7 +328,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "00222dbb0efd3234b471207aa329025cf38d7d8b"
+   "002b553b14280e69f9f6654bc806c16002756b0b"
   ]
  },
  "1.18.0": {
@@ -438,6 +579,70 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.19.0": {
+  "meta": {
+   "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
+   "homepage": "https://cri-o.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adis@blad.is",
+     "github": "adisbladis",
+     "githubId": 63286,
+     "name": "Adam Hose"
+    },
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    },
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "cri-o-wrapper",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/cri-o/default.nix:61"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

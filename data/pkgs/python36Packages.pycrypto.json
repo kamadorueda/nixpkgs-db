@@ -66,7 +66,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "3.4.9": {
@@ -271,6 +271,91 @@
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+  ]
+ },
+ "3.6.4": {
+  "meta": {
+   "description": "Python Cryptography Toolkit",
+   "homepage": "http://www.pycrypto.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.6-pycrypto",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pycrypto/default.nix:25"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "3.6.6": {

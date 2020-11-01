@@ -46,7 +46,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
+   "002a2b479a245d10691a394454f29e27d95de719"
   ]
  },
  "0.24.0": {
@@ -96,7 +96,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "0.31.1": {
@@ -377,6 +377,59 @@
    "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
+ "0.51.0": {
+  "meta": {
+   "description": "C and C++ binding generator",
+   "homepage": "https://github.com/rust-lang/rust-bindgen",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "Bindgen takes a c or c++ header file and turns them into\nrust ffi declarations.\nAs with most compiler related software, this will only work\ninside a nix-shell with the required libraries as buildInputs.\n",
+   "maintainers": [
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "rust-bindgen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/rust/bindgen/default.nix:52"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
  "0.51.1": {
   "meta": {
    "description": "C and C++ binding generator",
@@ -487,6 +540,61 @@
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
   ]
  },
+ "0.53.1": {
+  "meta": {
+   "description": "C and C++ binding generator",
+   "homepage": "https://github.com/rust-lang/rust-bindgen",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "Bindgen takes a c or c++ header file and turns them into\nrust ffi declarations.\nAs with most compiler related software, this will only work\ninside a nix-shell with the required libraries as buildInputs.\n",
+   "maintainers": [
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "rust-bindgen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/rust/bindgen/default.nix:54"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
+  ]
+ },
  "0.53.2": {
   "meta": {
    "description": "C and C++ binding generator",
@@ -539,7 +647,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "0.54.1": {
@@ -602,6 +710,68 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "0.55.1": {
+  "meta": {
+   "description": "Automatically generates Rust FFI bindings to C (and some C++) libraries",
+   "homepage": "https://github.com/rust-lang/rust-bindgen",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "Bindgen takes a c or c++ header file and turns them into\nrust ffi declarations.\nAs with most compiler related software, this will only work\ninside a nix-shell with the required libraries as buildInputs.\n",
+   "maintainers": [
+    {
+     "email": "huyuumi.dev@gmail.com",
+     "github": "JohnTitor",
+     "githubId": 25030997,
+     "name": "Yuki Okushi"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "rust-bindgen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/rust/bindgen/default.nix:54"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

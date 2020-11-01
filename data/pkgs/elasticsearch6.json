@@ -200,5 +200,106 @@
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
    "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
+ },
+ "6.3.2": {
+  "meta": {
+   "description": "Open Source, Distributed, RESTful Search Engine",
+   "homepage": "",
+   "license": {
+    "free": false,
+    "fullName": "ELASTIC LICENSE",
+    "shortName": "elastic",
+    "url": "https://github.com/elastic/elasticsearch/blob/master/licenses/ELASTIC-LICENSE.txt"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "albert@peschar.net",
+     "github": "apeschar",
+     "name": "Albert Peschar"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "elasticsearch",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/search/elasticsearch/6.x.nix:50"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
  }
 }

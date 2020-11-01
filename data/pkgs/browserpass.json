@@ -118,6 +118,80 @@
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
   ]
  },
+ "2.0.13": {
+  "meta": {
+   "description": "A Chrome & Firefox extension for zx2c4's pass",
+   "homepage": "https://github.com/dannyvankooten/browserpass",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "browserpass",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "openbsd"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/browserpass/default.nix:32"
+  },
+  "revs": [
+   "002b46082276693574dc7d13f1d4950106b963f3",
+   "002b46082276693574dc7d13f1d4950106b963f3"
+  ]
+ },
  "2.0.17": {
   "meta": {
    "description": "A Chrome & Firefox extension for zx2c4's pass",
@@ -264,7 +338,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+   "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
  "2.0.22": {
@@ -374,7 +448,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "2017-04-11": {
@@ -408,6 +482,49 @@
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+  ]
+ },
+ "3.0.1": {
+  "meta": {
+   "description": "Browserpass native client app",
+   "homepage": "https://github.com/browserpass/browserpass-native",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "infinisil@icloud.com",
+     "github": "infinisil",
+     "name": "Silvan Mosberger"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "browserpass",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/tools/security/browserpass/default.nix:59"
+  },
+  "revs": [
+   "002ad2e561109446ac729ec07556a05c20564e15",
+   "002ad2e561109446ac729ec07556a05c20564e15"
   ]
  },
  "3.0.6": {

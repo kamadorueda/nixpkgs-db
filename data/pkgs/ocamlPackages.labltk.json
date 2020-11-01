@@ -1,4 +1,53 @@
 {
+ "8.06.3": {
+  "meta": {
+   "description": "OCaml interface to Tcl/Tk, including OCaml library explorer OCamlBrowser",
+   "homepage": "http://labltk.forge.ocamlcore.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "ocaml4.05.0-labltk",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/labltk/default.nix:51"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
+ },
  "8.06.4": {
   "meta": {
    "description": "OCaml interface to Tcl/Tk, including OCaml library explorer OCamlBrowser",
@@ -89,7 +138,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
  "8.06.7": {

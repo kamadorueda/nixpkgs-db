@@ -27,7 +27,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "1.6.16": {
@@ -69,6 +69,27 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.6.3": {
+  "meta": {
+   "description": "ESC/P-R Driver (generic driver)",
+   "homepage": "https://github.com/artuuge/NixOS-files/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "        Epson Inkjet Printer Driver (ESC/P-R) for Linux and the\n\tcorresponding PPD files. The list of supported printers\n\tcan be found at http://www.openprinting.org/driver/epson-escpr/ .\n\n\tTo use the driver adjust your configuration.nix file:\n\t  services.printing = {\n\t    enable = true;\n\t    drivers = [ pkgs.epson-escpr ];\n\t  };\n",
+   "maintainers": [],
+   "name": "epson-escpr",
+   "platforms": null,
+   "position": "pkgs/misc/drivers/epson-escpr/default.nix:21"
+  },
+  "revs": [
+   "002d151ebe258a92e44e0a947b493105295b7e7f",
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
+  ]
+ },
  "1.6.4": {
   "meta": {
    "description": "ESC/P-R Driver (generic driver)",
@@ -96,7 +117,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "002f5e24b48d047e67a79470b777bd10fa64a6c7"
   ]
  },
  "1.6.5": {

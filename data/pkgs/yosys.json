@@ -19,7 +19,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "2016.05.21": {
@@ -42,7 +42,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "00278ef685beeb102c0f247251b08e4ae8db3443"
   ]
  },
  "2016.08.18": {
@@ -102,7 +102,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "2017.09.01": {
@@ -165,7 +165,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "00269f660c4da075bd931555845161cafc5d6758"
   ]
  },
  "2017.11.05": {
@@ -339,7 +339,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "002b46082276693574dc7d13f1d4950106b963f3"
   ]
  },
  "2018.03.21": {
@@ -484,7 +484,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "2018.08.08": {
@@ -574,7 +574,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "2018.09.30": {
@@ -755,6 +755,96 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "0008aa73eb0dec898c4e2e6913af645abd253c35"
+  ]
+ },
+ "2019.01.08": {
+  "meta": {
+   "description": "Framework for RTL synthesis tools",
+   "homepage": "http://www.clifford.at/yosys/",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "Yosys is a framework for RTL synthesis tools. It currently has\nextensive Verilog-2005 support and provides a basic set of\nsynthesis algorithms for various application domains.\nYosys can be adapted to perform any synthesis job by combining\nthe existing passes (algorithms) using synthesis scripts and\nadding additional passes as needed by extending the yosys C++\ncode base.\n",
+   "maintainers": [
+    {
+     "email": "cam.turn@gmail.com",
+     "github": "VShell",
+     "name": "Shell Turner"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "yosys",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/yosys/default.nix:62"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "2019.02.22": {
@@ -987,7 +1077,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "2019.10.18": {
@@ -1394,6 +1484,89 @@
    "0006326d35ed4774d7936aea721ce1a5c8f0b775"
   ]
  },
+ "2020.06.19": {
+  "meta": {
+   "description": "Open RTL synthesis framework and tools",
+   "homepage": "http://www.clifford.at/yosys/",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "https://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cam.turn@gmail.com",
+     "github": "VShell",
+     "githubId": 251028,
+     "name": "Shell Turner"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "nixpkgs@emily.moe",
+     "github": "emilazy",
+     "githubId": 18535642,
+     "name": "Emily"
+    }
+   ],
+   "name": "yosys",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/compilers/yosys/default.nix:77"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "002b700fb597bc670ea4d19597444c43d31cf556"
+  ]
+ },
  "2020.07.07": {
   "meta": {
    "description": "Open RTL synthesis framework and tools",
@@ -1474,7 +1647,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "2020.08.22": {
@@ -1560,6 +1733,91 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "2020.10.20": {
+  "meta": {
+   "description": "Open RTL synthesis framework and tools",
+   "homepage": "http://www.clifford.at/yosys/",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "https://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cam.turn@gmail.com",
+     "github": "VShell",
+     "githubId": 251028,
+     "name": "Shell Turner"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "nixpkgs@emily.moe",
+     "github": "emilazy",
+     "githubId": 18535642,
+     "name": "Emily"
+    }
+   ],
+   "name": "yosys",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/compilers/yosys/default.nix:77"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

@@ -46,7 +46,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
   ]
  },
  "0.13.1": {
@@ -299,6 +299,56 @@
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
+ "0.15.0": {
+  "meta": {
+   "description": "A project for generating C bindings from Rust code",
+   "homepage": "https://github.com/eqrion/cbindgen",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "rust-cbindgen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/rust/cbindgen/default.nix:24"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
+  ]
+ },
  "0.6.0": {
   "meta": {
    "description": "A project for generating C bindings from Rust code",
@@ -324,6 +374,33 @@
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+  ]
+ },
+ "0.6.1": {
+  "meta": {
+   "description": "A project for generating C bindings from Rust code",
+   "homepage": "https://github.com/eqrion/cbindgen",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "rust-cbindgen",
+   "platforms": null,
+   "position": "pkgs/development/tools/rust/cbindgen/default.nix:17"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "0.6.2": {
@@ -377,7 +454,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "0.6.7": {
@@ -436,7 +513,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "0000bf730b94c299b586b36cd73b2c25d5d7f0e3"
+   "002ad2e561109446ac729ec07556a05c20564e15"
   ]
  },
  "0.8.3": {
@@ -469,6 +546,53 @@
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "0.8.7": {
+  "meta": {
+   "description": "A project for generating C bindings from Rust code",
+   "homepage": "https://github.com/eqrion/cbindgen",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "rust-cbindgen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/rust/cbindgen/default.nix:22"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "0.9.1": {

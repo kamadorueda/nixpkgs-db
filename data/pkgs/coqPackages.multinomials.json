@@ -110,5 +110,90 @@
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
+ },
+ "1.8.0-multinomials-1.2": {
+  "meta": {
+   "description": "A Coq/SSReflect Library for Monoidal Rings and Multinomials",
+   "homepage": "https://github.com/math-comp/multinomials",
+   "license": {
+    "fullName": "CeCILL-B Free Software License Agreement",
+    "shortName": "cecill-b",
+    "spdxId": "CECILL-B",
+    "url": "http://spdx.org/licenses/CECILL-B.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "coq8.8-mathcomp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/coq-modules/mathcomp/extra.nix:98"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
  }
 }

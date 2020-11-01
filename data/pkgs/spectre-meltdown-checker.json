@@ -109,7 +109,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "0.39": {
@@ -187,7 +187,46 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+   "002ad2e561109446ac729ec07556a05c20564e15"
+  ]
+ },
+ "0.41": {
+  "meta": {
+   "description": "Spectre & Meltdown vulnerability/mitigation checker for Linux",
+   "homepage": "https://github.com/speed47/spectre-meltdown-checker",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "spectre-meltdown-checker",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/spectre-meltdown-checker/default.nix:32"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
   ]
  },
  "0.42": {

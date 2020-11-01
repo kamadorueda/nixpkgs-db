@@ -41,7 +41,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "002b46082276693574dc7d13f1d4950106b963f3"
   ]
  },
  "3.27.91": {
@@ -291,7 +291,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "3.30.2": {
@@ -531,6 +531,64 @@
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "3.36.0": {
+  "meta": {
+   "description": "Screen reader",
+   "homepage": "https://wiki.gnome.org/Projects/Orca",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "A free, open source, flexible and extensible screen reader that provides\naccess to the graphical desktop via speech and refreshable braille.\nIt works with applications and toolkits that support the Assistive\nTechnology Service Provider Interface (AT-SPI). That includes the GNOME\nGTK toolkit, the Java platform's Swing toolkit, LibreOffice, Gecko, and\nWebKitGtk. AT-SPI support for the KDE Qt toolkit is being pursued.\n\nNeeds `services.gnome3.at-spi2-core.enable = true;` in `configuration.nix`.\n",
+   "maintainers": [
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    },
+    {
+     "email": "torhedinbronner@gmail.com",
+     "github": "hedning",
+     "githubId": 71978,
+     "name": "Tor Hedin Br\u00f8nner"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "orca",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/orca/default.nix:102"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "3.36.1": {

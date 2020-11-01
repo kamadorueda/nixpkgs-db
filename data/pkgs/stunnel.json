@@ -77,7 +77,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "0008a4b6c467977469b9b3bdec15fcc580204145"
+   "00312d90b9ae42ae383174fcb6b4760d009606ed"
   ]
  },
  "5.03": {
@@ -110,7 +110,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "0005e1896d9bdef48aedcff9e86843351ac024e9"
+   "002d771763e9b05cb91ab752829a90e3008451e6"
   ]
  },
  "5.05": {
@@ -250,7 +250,7 @@
   },
   "revs": [
    "0015a47229b681a0beeddf1e340d32aaf4831cbe",
-   "0015a47229b681a0beeddf1e340d32aaf4831cbe"
+   "0031120921eef7baaa23340e22675a00d842a72e"
   ]
  },
  "5.22": {
@@ -285,7 +285,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "5.26": {
@@ -361,7 +361,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "5.31": {
@@ -440,6 +440,44 @@
    "0018599a26747abc03457cf67c8cbc5d351661a3"
   ]
  },
+ "5.37": {
+  "meta": {
+   "description": "Universal tls/ssl wrapper",
+   "homepage": "http://www.stunnel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "stunnel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/networking/stunnel/default.nix:25"
+  },
+  "revs": [
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1",
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+  ]
+ },
  "5.38": {
   "meta": {
    "description": "Universal tls/ssl wrapper",
@@ -514,7 +552,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
+   "002a2b479a245d10691a394454f29e27d95de719"
   ]
  },
  "5.41": {
@@ -555,7 +593,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "5.44": {
@@ -1005,6 +1043,91 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "5.54": {
+  "meta": {
+   "description": "Universal tls/ssl wrapper",
+   "homepage": "http://www.stunnel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "stunnel",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/stunnel/default.nix:32"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "5.55": {
   "meta": {
    "description": "Universal tls/ssl wrapper",
@@ -1050,7 +1173,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "5.56": {

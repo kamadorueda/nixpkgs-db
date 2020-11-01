@@ -27,7 +27,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "00269f660c4da075bd931555845161cafc5d6758"
   ]
  },
  "0.15.0": {
@@ -59,6 +59,45 @@
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
    "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
+ "1.2": {
+  "meta": {
+   "description": "Screen locker for Wayland",
+   "homepage": "https://github.com/swaywm/swaylock",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "swaylock is a screen locking utility for Wayland compositors.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "swaylock",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/window-managers/sway/lock.nix:25"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "1.3": {

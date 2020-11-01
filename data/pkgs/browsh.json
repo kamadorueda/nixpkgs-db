@@ -54,7 +54,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "1.4.13": {
@@ -113,6 +113,64 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "1.5.0": {
+  "meta": {
+   "description": "A fully-modern text-based browser, rendering to TTY and browsers",
+   "homepage": "https://www.brow.sh/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "browsh",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/browsh/default.nix:55"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
   ]
  },
  "1.5.2": {

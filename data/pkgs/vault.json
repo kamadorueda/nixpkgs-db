@@ -32,7 +32,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "0.1.2": {
@@ -69,7 +69,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "0015a47229b681a0beeddf1e340d32aaf4831cbe"
+   "0031120921eef7baaa23340e22675a00d842a72e"
   ]
  },
  "0.10.3": {
@@ -128,7 +128,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "0.10.4": {
@@ -256,7 +256,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "0.11.2": {
@@ -356,7 +356,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "001d314e874e7fcf819847f88051346684d22e32"
+   "0027c7119d7775598c3483a3f85a9b6c038e17e7"
   ]
  },
  "0.6.1": {
@@ -538,7 +538,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "0.8.3": {
@@ -839,7 +839,71 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
+  ]
+ },
+ "1.0.2": {
+  "meta": {
+   "description": "A tool for managing secrets",
+   "homepage": "https://www.vaultproject.io",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rushmore@webenchanter.com",
+     "github": "rushmorem",
+     "name": "Rushmore Mushambi"
+    },
+    {
+     "email": "daiderd@gmail.com",
+     "github": "lnl7",
+     "name": "Daiderd Jordan"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "pradeep.chhetri89@gmail.com",
+     "github": "pradeepchhetri",
+     "name": "Pradeep Chhetri"
+    }
+   ],
+   "name": "vault",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/vault/default.nix:38"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "1.0.3": {
@@ -970,6 +1034,70 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "1.1.2": {
+  "meta": {
+   "description": "A tool for managing secrets",
+   "homepage": "https://www.vaultproject.io",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rushmore@webenchanter.com",
+     "github": "rushmorem",
+     "name": "Rushmore Mushambi"
+    },
+    {
+     "email": "daiderd@gmail.com",
+     "github": "lnl7",
+     "name": "Daiderd Jordan"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "pradeep.chhetri89@gmail.com",
+     "github": "pradeepchhetri",
+     "name": "Pradeep Chhetri"
+    }
+   ],
+   "name": "vault",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/vault/default.nix:39"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+  ]
+ },
  "1.1.3": {
   "meta": {
    "description": "A tool for managing secrets",
@@ -1021,7 +1149,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "1.3.0": {
@@ -1312,6 +1440,74 @@
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+  ]
+ },
+ "1.3.4": {
+  "meta": {
+   "description": "A tool for managing secrets",
+   "homepage": "https://www.vaultproject.io/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rushmore@webenchanter.com",
+     "github": "rushmorem",
+     "githubId": 4958190,
+     "name": "Rushmore Mushambi"
+    },
+    {
+     "email": "daiderd@gmail.com",
+     "github": "lnl7",
+     "githubId": 689294,
+     "name": "Daiderd Jordan"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "pradeep.chhetri89@gmail.com",
+     "github": "pradeepchhetri",
+     "githubId": 2232667,
+     "name": "Pradeep Chhetri"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "vault",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/security/vault/default.nix:30"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "1.4.0": {
@@ -1621,7 +1817,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "1.5.2": {
@@ -1746,6 +1942,68 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.5.4": {
+  "meta": {
+   "description": "A tool for managing secrets",
+   "homepage": "https://www.vaultproject.io/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rushmore@webenchanter.com",
+     "github": "rushmorem",
+     "githubId": 4958190,
+     "name": "Rushmore Mushambi"
+    },
+    {
+     "email": "daiderd@gmail.com",
+     "github": "lnl7",
+     "githubId": 689294,
+     "name": "Daiderd Jordan"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "pradeep.chhetri89@gmail.com",
+     "github": "pradeepchhetri",
+     "githubId": 2232667,
+     "name": "Pradeep Chhetri"
+    }
+   ],
+   "name": "vault",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/security/vault/default.nix:29"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

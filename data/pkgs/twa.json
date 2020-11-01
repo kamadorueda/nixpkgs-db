@@ -23,7 +23,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "1.5.1": {
@@ -193,7 +193,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+   "002c411f45a9bcea367cd664be231ac75793a83e"
   ]
  },
  "1.6.2": {
@@ -279,6 +279,91 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "0008aa73eb0dec898c4e2e6913af645abd253c35"
+  ]
+ },
+ "1.7.0": {
+  "meta": {
+   "description": "A tiny web auditor with strong opinions",
+   "homepage": "https://github.com/trailofbits/twa",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avaq+nixos@xs4all.nl",
+     "github": "avaq",
+     "name": "Aldwin Vlasblom"
+    }
+   ],
+   "name": "twa",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/twa/default.nix:39"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "1.7.1": {

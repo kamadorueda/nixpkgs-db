@@ -115,7 +115,7 @@
   },
   "revs": [
    "0022f639f31161766b8f2604388015e8b05c4a0d",
-   "0022f639f31161766b8f2604388015e8b05c4a0d"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "1.0.0": {
@@ -277,7 +277,47 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "003102c41127dabf90349235964b6e4714114ae7"
+  ]
+ },
+ "1.0.2": {
+  "meta": {
+   "description": "A deduplicating backup program (attic fork)",
+   "homepage": "https://borgbackup.github.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>",
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "borgbackup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/backup/borg/default.nix:39"
+  },
+  "revs": [
+   "002f5e24b48d047e67a79470b777bd10fa64a6c7",
+   "002f5e24b48d047e67a79470b777bd10fa64a6c7"
   ]
  },
  "1.0.3": {
@@ -320,6 +360,46 @@
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
   ]
  },
+ "1.0.5": {
+  "meta": {
+   "description": "A deduplicating backup program (attic fork)",
+   "homepage": "https://borgbackup.github.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>",
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "borgbackup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/backup/borg/default.nix:40"
+  },
+  "revs": [
+   "00278ef685beeb102c0f247251b08e4ae8db3443",
+   "00278ef685beeb102c0f247251b08e4ae8db3443"
+  ]
+ },
  "1.0.7": {
   "meta": {
    "description": "A deduplicating backup program (attic fork)",
@@ -357,7 +437,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "001d314e874e7fcf819847f88051346684d22e32"
+   "0027c7119d7775598c3483a3f85a9b6c038e17e7"
   ]
  },
  "1.0.8": {
@@ -575,7 +655,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
  "1.1.11": {
@@ -640,7 +720,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "001cf3f926af996ec6d779f861bcba4ed04c5411"
+   "002e3cfbce62a8b55eba52af9c72d770e5b31547"
   ]
  },
  "1.1.13": {
@@ -706,6 +786,72 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.1.14": {
+  "meta": {
+   "description": "Deduplicating archiver with compression and encryption",
+   "homepage": "https://www.borgbackup.org",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "githubId": 183879,
+     "name": "Florian Klink"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "githubId": 6806011,
+     "name": "Robert Sch\u00fctz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "borgbackup",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/backup/borg/default.nix:65"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  },
  "1.1.4": {
@@ -942,7 +1088,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "1.1.7": {
@@ -1122,7 +1268,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "1.1.9": {

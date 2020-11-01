@@ -208,7 +208,46 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
+ "18.1.5": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa-noglu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:264"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
   ]
  },
  "18.1.7": {
@@ -248,6 +287,55 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "18.2.1": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa-noglu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:269"
+  },
+  "revs": [
+   "002a2a8d399902acff6ea1d362ec374006858db8",
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "18.2.2": {
@@ -394,7 +482,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+   "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
  "18.2.6": {
@@ -492,7 +580,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "18.3.4": {

@@ -48,6 +48,55 @@
    "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  },
+ "0.6.0": {
+  "meta": {
+   "description": "Python library for NETCONF clients",
+   "homepage": "http://ncclient.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "xnaveira@gmail.com",
+     "github": "xnaveira",
+     "name": "Xavier Naveira"
+    }
+   ],
+   "name": "python3.6-ncclient",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/ncclient/default.nix:36"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
+ },
  "0.6.2": {
   "meta": {
    "description": "Python library for NETCONF clients",

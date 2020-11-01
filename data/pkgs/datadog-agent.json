@@ -140,7 +140,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8"
   ]
  },
  "6.11.2": {
@@ -272,6 +272,54 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+  ]
+ },
+ "6.8.3": {
+  "meta": {
+   "description": "Event collector for the DataDog analysis service\n-- v6 new golang implementation.\n",
+   "homepage": "https://www.datadoghq.com",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "name": "Rodney Lorrimar"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "datadog-agent",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/tools/networking/dd-agent/6.nix:71"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "6.9.0": {

@@ -1,4 +1,42 @@
 {
+ "6.30.223.271-4.15.11": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/broadcom-sta/default.nix:58"
+  },
+  "revs": [
+   "002b46082276693574dc7d13f1d4950106b963f3",
+   "002b46082276693574dc7d13f1d4950106b963f3"
+  ]
+ },
  "6.30.223.271-4.15.12": {
   "meta": {
    "description": "Kernel module driver for some Broadcom's wireless cards",

@@ -27,7 +27,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "4.0.4": {
@@ -113,6 +113,91 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "4.1.0": {
+  "meta": {
+   "description": "A C++ library for arithmetic and algebraic computations",
+   "homepage": "",
+   "license": {
+    "fullName": "CeCILL-B Free Software License Agreement",
+    "shortName": "cecill-b",
+    "spdxId": "CECILL-B",
+    "url": "http://spdx.org/licenses/CECILL-B.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "givaro",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/givaro/default.nix:40"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
   ]
  },
  "4.1.1": {

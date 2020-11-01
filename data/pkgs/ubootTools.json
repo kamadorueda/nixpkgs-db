@@ -26,7 +26,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "00137438459949bfbd2c0311e8664a9da8bb1e53"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "2015.07": {
@@ -116,7 +116,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
   ]
  },
  "2016.05": {
@@ -238,7 +238,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "2017.11": {
@@ -467,7 +467,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "2019.10": {
@@ -670,6 +670,58 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "2020.10": {
+  "meta": {
+   "description": "Boot loader for embedded systems",
+   "homepage": "http://www.denx.de/wiki/U-Boot/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "githubId": 579369,
+     "name": "Tuomas Tynkkynen"
+    },
+    {
+     "email": "samuel@dionne-riel.com",
+     "github": "samueldr",
+     "githubId": 132835,
+     "name": "Samuel Dionne-Riel"
+    },
+    {
+     "email": "benwolsieffer@gmail.com",
+     "github": "lopsided98",
+     "githubId": 5624721,
+     "name": "Ben Wolsieffer"
+    }
+   ],
+   "name": "uboot-tools-only_defconfig",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/uboot/default.nix:96"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

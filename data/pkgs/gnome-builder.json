@@ -138,7 +138,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "3.30.3": {
@@ -246,6 +246,59 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "3.32.3": {
+  "meta": {
+   "description": "An IDE for writing GNOME-based software",
+   "homepage": "https://wiki.gnome.org/Apps/Builder",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Global search, auto-completion, source code map, documentation\nreference, and other features expected in an IDE, but with a focus\non streamlining GNOME-based development projects.\n\nThis package does not pull in the dependencies needed for every\nplugin. If you find that a plugin you wish to use doesn't work, we\ncurrently recommend running gnome-builder inside a nix-shell with\nappropriate dependencies loaded.\n",
+   "maintainers": [
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "torhedinbronner@gmail.com",
+     "github": "hedning",
+     "name": "Tor Hedin Br\u00f8nner"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "gnome-builder",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/gnome-builder/default.nix:143"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "3.34.1": {

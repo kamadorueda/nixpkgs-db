@@ -91,6 +91,51 @@
    "00230c92402bb3d94eae0db63cd6d2ba237b541f"
   ]
  },
+ "1.10.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "http://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Georges Dubus <georges.dubus@compiletoi.net>",
+    "Charles Strahan <charles@cstrahan.com>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "Robin Gloster <mail@glob.in>",
+    "Ryan Scheel <ryan.havvy@gmail.com>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Tadas Barzd\u017eius <retrry@gmail.com>"
+   ],
+   "name": "rustc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:31"
+  },
+  "revs": [
+   "00278ef685beeb102c0f247251b08e4ae8db3443",
+   "00278ef685beeb102c0f247251b08e4ae8db3443"
+  ]
+ },
  "1.11.0": {
   "meta": {
    "description": "A safe, concurrent, practical language",
@@ -179,6 +224,51 @@
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
    "0018599a26747abc03457cf67c8cbc5d351661a3"
+  ]
+ },
+ "1.13": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "http://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Georges Dubus <georges.dubus@compiletoi.net>",
+    "Charles Strahan <charles@cstrahan.com>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "Robin Gloster <mail@glob.in>",
+    "Ryan Scheel <ryan.havvy@gmail.com>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Tadas Barzd\u017eius <retrry@gmail.com>"
+   ],
+   "name": "rustc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:33"
+  },
+  "revs": [
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1",
+   "002f3c8760db7d37356209c51328c4d61745b661"
   ]
  },
  "1.14": {
@@ -360,7 +450,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "1.20.0": {
@@ -405,7 +495,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
   ]
  },
  "1.21.0": {
@@ -768,6 +858,88 @@
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
+ "1.29.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "name": "Ryan Scheel"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:176"
+  },
+  "revs": [
+   "002a2a8d399902acff6ea1d362ec374006858db8",
+   "002a2a8d399902acff6ea1d362ec374006858db8"
+  ]
+ },
  "1.29.1": {
   "meta": {
    "description": "A safe, concurrent, practical language",
@@ -929,7 +1101,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+   "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
  "1.30.1": {
@@ -1093,7 +1265,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
   ]
  },
  "1.32.0": {
@@ -1394,6 +1566,76 @@
    "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
+ "1.36.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "name": "Ryan Scheel"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:215"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
  "1.39.0": {
   "meta": {
    "description": "A safe, concurrent, practical language",
@@ -1462,6 +1704,76 @@
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "1.40.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "githubId": 109141,
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "githubId": 731722,
+     "name": "Ryan Scheel"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:160"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a"
   ]
  },
  "1.41.0": {
@@ -1601,7 +1913,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
   ]
  },
  "1.43.0": {
@@ -1882,6 +2194,76 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.46.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "githubId": 109141,
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "githubId": 731722,
+     "name": "Ryan Scheel"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:165"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

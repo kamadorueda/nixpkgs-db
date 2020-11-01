@@ -33,6 +33,40 @@
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
   ]
  },
+ "0.11.1": {
+  "meta": {
+   "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices.",
+   "homepage": "https://github.com/gruntwork-io/terragrunt/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Hoeg <peter@hoeg.com>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "terragrunt",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/networking/cluster/terragrunt/default.nix:30"
+  },
+  "revs": [
+   "002a2b479a245d10691a394454f29e27d95de719",
+   "002a2b479a245d10691a394454f29e27d95de719"
+  ]
+ },
  "0.12.16": {
   "meta": {
    "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices.",
@@ -98,7 +132,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "0.14.0": {
@@ -260,7 +294,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "0.16.6": {
@@ -376,7 +410,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+   "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
  "0.17.3": {
@@ -493,6 +527,62 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "0.21.11": {
+  "meta": {
+   "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices.",
+   "homepage": "https://github.com/gruntwork-io/terragrunt/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "terragrunt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/networking/cluster/terragrunt/default.nix:31"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
  "0.23.14": {
@@ -742,7 +832,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "0.23.33": {
@@ -843,6 +933,112 @@
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "0.25.4": {
+  "meta": {
+   "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices",
+   "homepage": "https://github.com/gruntwork-io/terragrunt/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "terragrunt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/networking/cluster/terragrunt/default.nix:28"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002750572a39758aabf552e90b4d0ce65092ba58"
+  ]
+ },
+ "0.25.5": {
+  "meta": {
+   "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices",
+   "homepage": "https://github.com/gruntwork-io/terragrunt/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "hello+nixpkgs@j-k.io",
+     "github": "06kellyjac",
+     "githubId": 9866621,
+     "name": "Jack"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "terragrunt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/networking/cluster/terragrunt/default.nix:28"
+  },
+  "revs": [
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  },
  "0.9.9": {

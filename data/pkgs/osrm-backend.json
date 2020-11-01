@@ -17,7 +17,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "00078e317e63d1d934806efd62f56e48150a4f64"
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "4.9.1": {
@@ -38,7 +38,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "5.15.0": {
@@ -74,6 +74,45 @@
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
    "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "5.16.0": {
+  "meta": {
+   "description": "Open Source Routing Machine computes shortest paths in a graph. It was designed to run well with map data from the Openstreetmap Project",
+   "homepage": "https://github.com/Project-OSRM/osrm-backend/wiki",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "justin.humm@posteo.de",
+     "github": "erictapen",
+     "name": "Justin Humm"
+    }
+   ],
+   "name": "osrm-backend",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/osrm-backend/default.nix:21"
+  },
+  "revs": [
+   "002b46082276693574dc7d13f1d4950106b963f3",
+   "002b46082276693574dc7d13f1d4950106b963f3"
   ]
  },
  "5.16.3": {
@@ -268,7 +307,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
  "5.22.0": {
@@ -314,6 +353,52 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "5.23.0": {
+  "meta": {
+   "description": "Open Source Routing Machine computes shortest paths in a graph. It was designed to run well with map data from the Openstreetmap Project",
+   "homepage": "https://github.com/Project-OSRM/osrm-backend/wiki",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "justin.humm@posteo.de",
+     "github": "erictapen",
+     "githubId": 11532355,
+     "keys": [
+      {
+       "fingerprint": "984E 4BAD 9127 4D0E AE47  FF03 4388 71E0 00AA 178E",
+       "longkeyid": "rsa4096/0x438871E000AA178E"
+      }
+     ],
+     "name": "Justin Humm"
+    }
+   ],
+   "name": "osrm-backend",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/osrm-backend/default.nix:23"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

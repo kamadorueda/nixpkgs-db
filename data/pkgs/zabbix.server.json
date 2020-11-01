@@ -164,7 +164,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+   "00312d90b9ae42ae383174fcb6b4760d009606ed"
   ]
  },
  "1.8.21": {
@@ -248,6 +248,30 @@
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+  ]
+ },
+ "1.8.4": {
+  "meta": {
+   "description": "An enterprise-class open source distributed monitoring solution",
+   "homepage": "http://www.zabbix.com/",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <e.dolstra@tudelft.nl>"
+   ],
+   "name": "zabbix",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0026458089ed4a754f75b182b5e903f2242127cc",
+   "0026458089ed4a754f75b182b5e903f2242127cc"
   ]
  },
  "1.8.7": {
@@ -409,7 +433,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "4.4.7": {
@@ -501,7 +525,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "5.0.2": {
@@ -594,6 +618,52 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "5.0.4": {
+  "meta": {
+   "description": "An enterprise-class open source distributed monitoring solution",
+   "homepage": "https://www.zabbix.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marek.mahut@gmail.com",
+     "github": "mmahut",
+     "githubId": 104795,
+     "name": "Marek Mahut"
+    },
+    {
+     "email": "iuns@outlook.fr",
+     "github": "PsyanticY",
+     "githubId": 20524473,
+     "name": "Psyanticy"
+    }
+   ],
+   "name": "zabbix-server",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/monitoring/zabbix/server.nix:87"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
   ]
  }
 }

@@ -85,6 +85,29 @@
    "00230c92402bb3d94eae0db63cd6d2ba237b541f"
   ]
  },
+ "117": {
+  "meta": {
+   "description": "Log machine checks (memory, IO, and CPU hardware errors)",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "mcelog",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:25"
+  },
+  "revs": [
+   "002c687edf9a7aca64660f3ef67db88b0ad46c85",
+   "002c687edf9a7aca64660f3ef67db88b0ad46c85"
+  ]
+ },
  "120": {
   "meta": {
    "description": "Log machine checks (memory, IO, and CPU hardware errors)",
@@ -152,6 +175,36 @@
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
    "00137438459949bfbd2c0311e8664a9da8bb1e53"
+  ]
+ },
+ "124": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "mcelog",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:25"
+  },
+  "revs": [
+   "002da098e1e44f8150034af7d87b7e751cd476f8",
+   "002da098e1e44f8150034af7d87b7e751cd476f8"
   ]
  },
  "125": {
@@ -304,6 +357,36 @@
    "0022f639f31161766b8f2604388015e8b05c4a0d"
   ]
  },
+ "132": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "mcelog",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:28"
+  },
+  "revs": [
+   "002d151ebe258a92e44e0a947b493105295b7e7f",
+   "002d151ebe258a92e44e0a947b493105295b7e7f"
+  ]
+ },
  "133": {
   "meta": {
    "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
@@ -362,6 +445,36 @@
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
    "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+  ]
+ },
+ "136": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "mcelog",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:28"
+  },
+  "revs": [
+   "002f5e24b48d047e67a79470b777bd10fa64a6c7",
+   "002f5e24b48d047e67a79470b777bd10fa64a6c7"
   ]
  },
  "137": {
@@ -513,7 +626,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0022708d6d369527aa4ff5da07806203c21533d5"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "154": {
@@ -674,7 +787,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
  "160": {

@@ -121,6 +121,86 @@
    "0018599a26747abc03457cf67c8cbc5d351661a3"
   ]
  },
+ "1.7.1": {
+  "meta": {
+   "description": "GitLab Runner the continous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Pascal Bach <pascal.bach@nextrem.ch>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "go1.7-gitlab-runner",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:60"
+  },
+  "revs": [
+   "0031e01e07a9c2aee4cb3ae1f6693417200ffe61",
+   "0031e01e07a9c2aee4cb3ae1f6693417200ffe61"
+  ]
+ },
+ "1.8.0": {
+  "meta": {
+   "description": "GitLab Runner the continous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Pascal Bach <pascal.bach@nextrem.ch>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "go1.7-gitlab-runner",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:60"
+  },
+  "revs": [
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1",
+   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+  ]
+ },
  "1.9.0": {
   "meta": {
    "description": "GitLab Runner the continuous integration executor of GitLab",
@@ -203,7 +283,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "003102c41127dabf90349235964b6e4714114ae7"
   ]
  },
  "10.1.0": {
@@ -248,7 +328,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
   ]
  },
  "10.2.0": {
@@ -761,6 +841,126 @@
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
   ]
  },
+ "11.1.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:45"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "002ae44fa1ef54363a1f16974117dc7f87136549"
+  ]
+ },
  "11.10.1": {
   "meta": {
    "description": "GitLab Runner the continuous integration executor of GitLab",
@@ -867,7 +1067,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
   ]
  },
  "11.11.2": {
@@ -1148,7 +1348,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "00262d7d073921566464a200a9aef985a4cd50ed"
+   "002a2a8d399902acff6ea1d362ec374006858db8"
   ]
  },
  "11.3.1": {
@@ -1366,7 +1566,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+   "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
  "11.5.0": {
@@ -1802,7 +2002,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+   "002ad2e561109446ac729ec07556a05c20564e15"
   ]
  },
  "11.9.2": {
@@ -1912,6 +2112,150 @@
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "12.1.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:45"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
+ "12.10.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "githubId": 333807,
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "githubId": 3248,
+     "name": "zimbatm"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:45"
+  },
+  "revs": [
+   "002b553b14280e69f9f6654bc806c16002756b0b",
+   "002b553b14280e69f9f6654bc806c16002756b0b"
   ]
  },
  "12.10.1": {
@@ -2049,7 +2393,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
   ]
  },
  "12.5.0": {
@@ -2508,6 +2852,76 @@
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
   ]
  },
+ "13.2.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "githubId": 333807,
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "githubId": 3248,
+     "name": "zimbatm"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:45"
+  },
+  "revs": [
+   "002ecd07e128b7ee5dc4ed23f1da4abbe9007880",
+   "002ecd07e128b7ee5dc4ed23f1da4abbe9007880"
+  ]
+ },
  "13.2.2": {
   "meta": {
    "description": "GitLab Runner the continuous integration executor of GitLab",
@@ -2575,7 +2989,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4"
   ]
  },
  "13.3.0": {
@@ -2715,7 +3129,118 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "0023908b4ecef4e889a9bb524394f53c014950fe"
+   "0026c20ea11225292578b2a2e2bde96749e24ae9"
+  ]
+ },
+ "13.5.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "githubId": 333807,
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "githubId": 3248,
+     "name": "zimbatm"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:45"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
+  ]
+ },
+ "9.0.0": {
+  "meta": {
+   "description": "GitLab Runner the continuous integration executor of GitLab",
+   "homepage": "https://about.gitlab.com/gitlab-ci/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Pascal Bach <pascal.bach@nextrem.ch>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "gitlab-runner",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:60"
+  },
+  "revs": [
+   "002a2b479a245d10691a394454f29e27d95de719",
+   "002a2b479a245d10691a394454f29e27d95de719"
   ]
  },
  "9.2.0": {

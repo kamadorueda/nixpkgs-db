@@ -27,7 +27,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+   "0029c7051e02eee6730c7f67ea9ebe199b0937a7"
   ]
  },
  "3.26.2": {
@@ -342,7 +342,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "002b853782e939c50da3fa7d424b08346f39eb6f"
   ]
  },
  "3.34.2": {
@@ -400,7 +400,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
  "3.34.4": {
@@ -453,6 +453,58 @@
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "3.36.0": {
+  "meta": {
+   "description": "Simple scanning utility",
+   "homepage": "https://gitlab.gnome.org/GNOME/simple-scan",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "A really easy way to scan both documents and photos. You can crop out the\nbad parts of a photo and rotate it if it is the wrong way round. You can\nprint your scans, export them to pdf, or save them in a range of image\nformats. Basically a frontend for SANE - which is the same backend as\nXSANE uses. This means that all existing scanners will work and the\ninterface is well tested.\n",
+   "maintainers": [
+    {
+     "email": "torhedinbronner@gmail.com",
+     "github": "hedning",
+     "githubId": 71978,
+     "name": "Tor Hedin Br\u00f8nner"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "simple-scan",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/gnome-3/core/simple-scan/default.nix:37"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
  "3.36.1": {
