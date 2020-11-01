@@ -1,4 +1,89 @@
 {
+ "18.09pre-git": {
+  "meta": {
+   "description": "The EC2 discovery plugin uses the AWS API for unicast discovery.",
+   "homepage": "https://github.com/elastic/elasticsearch/tree/master/plugins/discovery-ec2",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "elasticsearch-discovery-ec2",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/search/elasticsearch/plugins.nix:51"
+  },
+  "revs": [
+   "003b15132c1a88503376eeb23d02310c8181f622",
+   "003b15132c1a88503376eeb23d02310c8181f622"
+  ]
+ },
  "6.3.2": {
   "meta": {
    "description": "The EC2 discovery plugin uses the AWS API for unicast discovery.",
@@ -389,7 +474,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

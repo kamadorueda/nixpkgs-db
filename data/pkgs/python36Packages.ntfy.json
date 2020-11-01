@@ -47,5 +47,54 @@
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
+ },
+ "2.6.0": {
+  "meta": {
+   "description": "A utility for sending notifications, on demand and when commands finish",
+   "homepage": "http://ntfy.rtfd.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "kamil.chm@gmail.com",
+     "github": "kamilchm",
+     "name": "Kamil Chmielewski"
+    }
+   ],
+   "name": "python3.6-ntfy",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/ntfy/default.nix:33"
+  },
+  "revs": [
+   "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
+   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+  ]
  }
 }

@@ -239,6 +239,55 @@
    "0015e526c7a3a70db5055b9e68c951a21cc3519f"
   ]
  },
+ "2.1.15": {
+  "meta": {
+   "description": "Graphical Network Simulator 3 GUI (stable release)",
+   "homepage": "https://www.gns3.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Graphical user interface for controlling the GNS3 network simulator. This\nrequires access to a local or remote GNS3 server (it's recommended to\ndownload the official GNS3 VM).\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "python3.7-gns3-gui",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/gns3/gui.nix:28"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
+  ]
+ },
  "2.1.16": {
   "meta": {
    "description": "Graphical Network Simulator 3 GUI (stable release)",
@@ -383,7 +432,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "2.1.21": {
@@ -431,7 +480,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "2.1.3": {
@@ -466,7 +515,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "2.1.4": {
@@ -544,7 +593,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "0009ae3d5e1ad620215c2b8409eeec668de60552"
+   "004111c27e11684d6945f82124110c5f17c1bf01"
   ]
  },
  "2.1.6": {
@@ -622,7 +671,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "003055a670470f678e376be7f9b9051fb242ec0f"
+   "004e7fb6fd112ec29446312a89f7b1b265164127"
   ]
  },
  "2.1.9": {
@@ -814,6 +863,56 @@
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
+ "2.2.14": {
+  "meta": {
+   "description": "Graphical Network Simulator 3 GUI (stable release)",
+   "homepage": "https://www.gns3.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Graphical user interface for controlling the GNS3 network simulator. This\nrequires access to a local or remote GNS3 server (it's recommended to\ndownload the official GNS3 VM).\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "python3.8-gns3-gui",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/gns3/gui.nix:37"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "004676ce9c8275598182884c9e5a823a34eaa173"
+  ]
+ },
  "2.2.15": {
   "meta": {
    "description": "Graphical Network Simulator 3 GUI (stable release)",
@@ -961,7 +1060,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "2.2.6": {
@@ -1061,7 +1160,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "2.2.8": {
@@ -1111,7 +1210,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  }
 }

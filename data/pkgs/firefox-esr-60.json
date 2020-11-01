@@ -33,6 +33,40 @@
    "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  },
+ "60.2.2esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:164"
+  },
+  "revs": [
+   "003af0c6d300ac515658b25a9210d3689ecce554",
+   "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
  "60.8.0esr": {
   "meta": {
    "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
@@ -86,7 +120,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "60.9.0esr": {

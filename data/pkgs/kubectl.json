@@ -187,7 +187,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "0052a756d29cb1803bdd667abe991ff0fc75abef"
   ]
  },
  "1.11.3": {
@@ -368,6 +368,96 @@
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.12.0": {
+  "meta": {
+   "description": "Production-Grade Container Scheduling and Management",
+   "homepage": "https://kubernetes.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/kubernetes/default.nix:71"
+  },
+  "revs": [
+   "003c20e02cff0430873b3a10d1cac57116b8b27e",
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "1.12.1": {
@@ -730,6 +820,96 @@
    "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
   ]
  },
+ "1.13.2": {
+  "meta": {
+   "description": "Kubernetes CLI",
+   "homepage": "https://github.com/kubernetes/kubectl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/kubectl/default.nix:30"
+  },
+  "revs": [
+   "004e3816dcffb49f4e296a16b00334153a90ed3e",
+   "0058ce53693fbdbb516e72804a4f49ad168aac72"
+  ]
+ },
  "1.13.3": {
   "meta": {
    "description": "Kubernetes CLI",
@@ -817,7 +997,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
  "1.13.4": {
@@ -1180,6 +1360,96 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.14.0": {
+  "meta": {
+   "description": "Kubernetes CLI",
+   "homepage": "https://github.com/kubernetes/kubectl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/kubectl/default.nix:30"
+  },
+  "revs": [
+   "00361eece32480071fab54bf53d57b8d81dd57f5",
+   "00361eece32480071fab54bf53d57b8d81dd57f5"
+  ]
+ },
  "1.14.1": {
   "meta": {
    "description": "Kubernetes CLI",
@@ -1320,7 +1590,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "1.16.3": {
@@ -1386,6 +1656,71 @@
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "1.16.4": {
+  "meta": {
+   "description": "Kubernetes CLI",
+   "homepage": "https://github.com/kubernetes/kubectl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/cluster/kubectl/default.nix:28"
+  },
+  "revs": [
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4",
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
   ]
  },
  "1.16.5": {
@@ -1518,6 +1853,71 @@
    "002b16d965bf4e097167a2077566299e5e96ab2e"
   ]
  },
+ "1.17.5": {
+  "meta": {
+   "description": "Kubernetes CLI",
+   "homepage": "https://github.com/kubernetes/kubectl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/cluster/kubectl/default.nix:28"
+  },
+  "revs": [
+   "003af9cac8ab25090f7d5a8188db438a5310229b",
+   "003af9cac8ab25090f7d5a8188db438a5310229b"
+  ]
+ },
  "1.17.8": {
   "meta": {
    "description": "Kubernetes CLI",
@@ -1583,6 +1983,71 @@
    "0023aaef48e31444eeb22fc7c982c43b9782eef9"
   ]
  },
+ "1.17.9": {
+  "meta": {
+   "description": "Kubernetes CLI",
+   "homepage": "https://github.com/kubernetes/kubectl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    }
+   ],
+   "name": "kubectl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/cluster/kubectl/default.nix:28"
+  },
+  "revs": [
+   "0056f627a0203501c82a74a59c7553b158cc9642",
+   "0056f627a0203501c82a74a59c7553b158cc9642"
+  ]
+ },
  "1.18.1": {
   "meta": {
    "description": "Kubernetes CLI",
@@ -1645,7 +2110,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "1.18.3": {
@@ -1775,7 +2240,7 @@
   },
   "revs": [
    "002b700fb597bc670ea4d19597444c43d31cf556",
-   "002b700fb597bc670ea4d19597444c43d31cf556"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "1.18.6": {
@@ -1906,7 +2371,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "00524fa64d094f57eeadb5929c5e4f93b50bb97b"
   ]
  },
  "1.19.1": {
@@ -2134,7 +2599,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
  "1.9.7": {
@@ -2327,7 +2792,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  }
 }

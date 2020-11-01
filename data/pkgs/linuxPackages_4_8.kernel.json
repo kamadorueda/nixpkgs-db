@@ -1,4 +1,34 @@
 {
+ "4.8": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper)",
+   "homepage": "http://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:200"
+  },
+  "revs": [
+   "004a5a20470c87199daae1339197184b560cc256",
+   "004a5a20470c87199daae1339197184b560cc256"
+  ]
+ },
  "4.8.10": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -116,7 +146,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "000fb9be33528f867e2355ddedde0836ba7f7a3a"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  },
  "4.8.6": {

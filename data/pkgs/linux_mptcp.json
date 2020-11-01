@@ -80,7 +80,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  },
  "4.1.35-mptcp_v0.91.2": {
@@ -110,7 +110,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "002a2b479a245d10691a394454f29e27d95de719"
+   "0059131f54c82e7714d458c0b17335c3364033a4"
   ]
  },
  "4.1.38-mptcp_v0.91.3": {
@@ -141,7 +141,51 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
+  ]
+ },
+ "4.14.105-mptcp_v0.94.3": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mcoudron@hotmail.com",
+     "github": "teto",
+     "name": "Matthieu Coudron"
+    },
+    {
+     "email": "layus.on@gmail.com",
+     "github": "layus",
+     "name": "Guillaume Maudoux"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:253"
+  },
+  "revs": [
+   "00431493c011af62e2dc1f393e9327b148facd72",
+   "00431493c011af62e2dc1f393e9327b148facd72"
   ]
  },
  "4.14.110-mptcp_v0.94.4": {
@@ -318,7 +362,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "4.9.60-mptcp_v0.93": {

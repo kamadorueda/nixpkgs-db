@@ -35,7 +35,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
   ]
  },
  "0.7.1": {
@@ -121,7 +121,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "0.7.4": {
@@ -313,7 +313,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "003055a670470f678e376be7f9b9051fb242ec0f"
+   "004e7fb6fd112ec29446312a89f7b1b265164127"
   ]
  },
  "0.8.0": {
@@ -763,7 +763,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
+   "0058ce53693fbdbb516e72804a4f49ad168aac72"
   ]
  },
  "0.8.5": {
@@ -854,6 +854,96 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "0.8.6": {
+  "meta": {
+   "description": "Dock-style app launcher based on Plasma frameworks",
+   "homepage": "https://github.com/psifidotos/Latte-Dock",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "benley@gmail.com",
+     "github": "benley",
+     "name": "Benjamin Staffin"
+    },
+    {
+     "email": "me@ysndr.de",
+     "github": "ysndr",
+     "name": "Yannik Sander"
+    }
+   ],
+   "name": "latte-dock",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/latte-dock/default.nix:23"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
   ]
  },
  "0.8.8": {
@@ -962,7 +1052,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "0.9.10": {
@@ -1021,7 +1111,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+   "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8"
   ]
  },
  "0.9.11": {
@@ -1198,7 +1288,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "0.9.8.1": {
@@ -1316,7 +1406,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "00373dacd36474dcab416d29a03b6ab45b61f79e"
   ]
  }
 }

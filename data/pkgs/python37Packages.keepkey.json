@@ -48,6 +48,55 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "6.0.2": {
+  "meta": {
+   "description": "KeepKey Python client",
+   "homepage": "https://github.com/keepkey/python-keepkey",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "np.nix@nicolaspouillard.fr",
+     "github": "np",
+     "name": "Nicolas Pouillard"
+    }
+   ],
+   "name": "python3.7-keepkey",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/keepkey/default.nix:28"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
+  ]
+ },
  "6.0.3": {
   "meta": {
    "description": "KeepKey Python client",
@@ -89,7 +138,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

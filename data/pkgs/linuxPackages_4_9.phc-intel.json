@@ -28,5 +28,35 @@
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
    "000fb9be33528f867e2355ddedde0836ba7f7a3a"
   ]
+ },
+ "0.4.0-rev22-4.9.4": {
+  "meta": {
+   "description": "Undervolting kernel driver for Intel processors",
+   "homepage": "http://www.linux-phc.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "PHC is a Linux kernel patch to undervolt processors. This can divide the\npower consumption of the CPU by two or more, increasing battery life\nwhile noticably reducing fan noise. This driver works only on supported\nIntel architectures.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "linux-phc-intel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/phc-intel/default.nix:43"
+  },
+  "revs": [
+   "003ae42ae66d21756f42079b52b5c8982ae0f293",
+   "003ae42ae66d21756f42079b52b5c8982ae0f293"
+  ]
  }
 }

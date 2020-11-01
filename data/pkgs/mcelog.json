@@ -128,7 +128,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "000162daed5e6a854d1e034409002aee80e6d8ac"
+   "005837d85ff9d62d4c74e6f1574b48336fb85271"
   ]
  },
  "121": {
@@ -324,7 +324,7 @@
   },
   "revs": [
    "001341f8c98af998da57d5b15a279b64efff4689",
-   "0024c10a5c974ee41c7bc69cd61faaa920f3a9d4"
+   "0055c6aa94484ef30d9541c3b21bc2b653561c84"
   ]
  },
  "131": {
@@ -534,7 +534,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  },
  "144": {
@@ -564,7 +564,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00105162f413ea8e8a419da0fc5b556e3737e82f"
+   "003fa8fed5480d3e22d518aeeba1d62809809279"
   ]
  },
  "148": {
@@ -595,7 +595,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
   ]
  },
  "153": {
@@ -655,7 +655,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "156": {
@@ -787,7 +787,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "003055a670470f678e376be7f9b9051fb242ec0f"
+   "004e7fb6fd112ec29446312a89f7b1b265164127"
   ]
  },
  "160": {
@@ -888,6 +888,38 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "164": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [],
+   "name": "mcelog",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:38"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
+  ]
+ },
  "166": {
   "meta": {
    "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
@@ -921,6 +953,39 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "167": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [],
+   "name": "mcelog",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:38"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
+  ]
+ },
  "168": {
   "meta": {
    "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
@@ -951,7 +1016,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "169": {

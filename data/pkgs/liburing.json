@@ -1,4 +1,43 @@
 {
+ "0.1": {
+  "meta": {
+   "description": "Userspace library for the Linux io_uring API",
+   "homepage": "http://git.kernel.dk/cgit/liburing/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "liburing",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/liburing/default.nix:76"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
+  ]
+ },
  "0.2": {
   "meta": {
    "description": "Userspace library for the Linux io_uring API",
@@ -36,7 +75,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "0.4pre514_2454d630": {
@@ -116,7 +155,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "0.7": {
@@ -234,7 +273,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "1.0.0pre137_91dde5c": {
@@ -275,6 +314,44 @@
    "0033313ebf6b595e24032f2798797a470311977b"
   ]
  },
+ "1.0.0pre150_93f3e8d": {
+  "meta": {
+   "description": "Userspace library for the Linux io_uring API",
+   "homepage": "http://git.kernel.dk/cgit/liburing/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "liburing",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/liburing/default.nix:35"
+  },
+  "revs": [
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0"
+  ]
+ },
  "1.0.0pre156_c31c7ec": {
   "meta": {
    "description": "Userspace library for the Linux io_uring API",
@@ -310,7 +387,46 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+  ]
+ },
+ "1.0.0pre821_39e0ebd": {
+  "meta": {
+   "description": "Userspace library for the Linux io_uring API",
+   "homepage": "http://git.kernel.dk/cgit/liburing/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "liburing",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/liburing/default.nix:33"
+  },
+  "revs": [
+   "00361eece32480071fab54bf53d57b8d81dd57f5",
+   "00361eece32480071fab54bf53d57b8d81dd57f5"
   ]
  },
  "1.0.0pre92_7b989f3": {
@@ -349,7 +465,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
   ]
  }
 }

@@ -22,7 +22,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00105162f413ea8e8a419da0fc5b556e3737e82f"
+   "003fa8fed5480d3e22d518aeeba1d62809809279"
   ]
  },
  "1.11.0": {
@@ -49,7 +49,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "002a2b479a245d10691a394454f29e27d95de719"
+   "00572d595c2aaec1d8196fb913a018696326e824"
   ]
  },
  "1.12.0": {
@@ -76,7 +76,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
   ]
  },
  "1.13.1": {
@@ -103,7 +103,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
   ]
  },
  "1.14.1": {
@@ -215,7 +215,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
  "1.19.2": {
@@ -259,7 +259,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "1.20.2": {
@@ -347,7 +347,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f"
   ]
  },
  "1.21.0": {
@@ -435,7 +435,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "1.23.1": {
@@ -557,6 +557,81 @@
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
+ "1.24.1": {
+  "meta": {
+   "description": "A multi-platform support library with a focus on asynchronous I/O",
+   "homepage": "https://github.com/libuv/libuv",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "ISC License",
+     "shortName": "isc",
+     "spdxId": "ISC",
+     "url": "http://spdx.org/licenses/ISC.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "Creative Commons Attribution 4.0",
+     "shortName": "cc-by-40",
+     "spdxId": "CC-BY-4.0",
+     "url": "http://spdx.org/licenses/CC-BY-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    }
+   ],
+   "name": "libuv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libuv/default.nix:59"
+  },
+  "revs": [
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
+   "004d1422922beb2b6801eff6c0195fa8b9aacf77"
+  ]
+ },
  "1.26.0": {
   "meta": {
    "description": "A multi-platform support library with a focus on asynchronous I/O",
@@ -632,6 +707,81 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.27.0": {
+  "meta": {
+   "description": "A multi-platform support library with a focus on asynchronous I/O",
+   "homepage": "https://github.com/libuv/libuv",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "ISC License",
+     "shortName": "isc",
+     "spdxId": "ISC",
+     "url": "http://spdx.org/licenses/ISC.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "Creative Commons Attribution 4.0",
+     "shortName": "cc-by-40",
+     "spdxId": "CC-BY-4.0",
+     "url": "http://spdx.org/licenses/CC-BY-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    }
+   ],
+   "name": "libuv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libuv/default.nix:59"
+  },
+  "revs": [
+   "00361eece32480071fab54bf53d57b8d81dd57f5",
+   "00361eece32480071fab54bf53d57b8d81dd57f5"
+  ]
+ },
  "1.28.0": {
   "meta": {
    "description": "A multi-platform support library with a focus on asynchronous I/O",
@@ -704,7 +854,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "1.29.1": {
@@ -838,6 +988,74 @@
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
    "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
+ "1.30.1": {
+  "meta": {
+   "description": "A multi-platform support library with a focus on asynchronous I/O",
+   "homepage": "https://github.com/libuv/libuv",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "ISC License",
+     "shortName": "isc",
+     "spdxId": "ISC",
+     "url": "http://spdx.org/licenses/ISC.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "Creative Commons Attribution 4.0",
+     "shortName": "cc-by-40",
+     "spdxId": "CC-BY-4.0",
+     "url": "http://spdx.org/licenses/CC-BY-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    }
+   ],
+   "name": "libuv",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/libraries/libuv/default.nix:68"
+  },
+  "revs": [
+   "0035a337da464b1d534858fe230dbb669f49dc7e",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "1.33.1": {
@@ -977,7 +1195,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00355c593a62114a8541e9c7535c20e9b6a00f46"
   ]
  },
  "1.34.1": {
@@ -1117,7 +1335,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.35.0": {
@@ -1187,7 +1405,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "1.37.0": {
@@ -1257,7 +1475,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "002e3cfbce62a8b55eba52af9c72d770e5b31547"
+   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
   ]
  },
  "1.38.0": {
@@ -1327,7 +1545,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "1.38.1": {
@@ -1571,7 +1789,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  }
 }

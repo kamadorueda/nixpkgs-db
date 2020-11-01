@@ -70,7 +70,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "000fb9be33528f867e2355ddedde0836ba7f7a3a"
+   "003ae42ae66d21756f42079b52b5c8982ae0f293"
   ]
  },
  "11.0.1": {
@@ -146,7 +146,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
   ]
  },
  "12.0.2": {
@@ -186,7 +186,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
   ]
  },
  "12.0.3": {
@@ -317,7 +317,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
  "13.0.1": {
@@ -417,7 +417,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "13.0.2": {
@@ -517,7 +517,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "003dd8588b9e756176533138ded6d09cafdbac0a"
   ]
  },
  "13.0.3": {
@@ -817,7 +817,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "0051772890908ec8323d4fe1c4ffdb8498f3b759"
   ]
  },
  "13.0.6": {
@@ -907,6 +907,105 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "002a2a8d399902acff6ea1d362ec374006858db8"
+  ]
+ },
+ "14.0.1": {
+  "meta": {
+   "description": "Sharing solution for files, calendars, contacts and more",
+   "homepage": "https://nextcloud.com",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 or later",
+    "shortName": "agpl3Plus",
+    "url": "http://spdx.org/licenses/AGPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "schneefux+nixos_pkg@schneefux.xyz",
+     "github": "schneefux",
+     "name": "schneefux"
+    },
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "nextcloud",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/nextcloud/default.nix:24"
+  },
+  "revs": [
+   "003c20e02cff0430873b3a10d1cac57116b8b27e",
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "14.0.3": {
@@ -1203,7 +1302,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
+   "0043d907aea727d453680985897c189a4514a251"
   ]
  },
  "15.0.2": {
@@ -1302,7 +1401,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
  "15.0.4": {
@@ -1719,7 +1818,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
   ]
  },
  "15.0.8": {
@@ -1894,7 +1993,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0033313ebf6b595e24032f2798797a470311977b"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "16.0.3": {
@@ -1966,7 +2065,83 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+  ]
+ },
+ "16.0.4": {
+  "meta": {
+   "description": "Sharing solution for files, calendars, contacts and more",
+   "homepage": "https://nextcloud.com",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 or later",
+    "shortName": "agpl3Plus",
+    "spdxId": "AGPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/AGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "schneefux+nixos_pkg@schneefux.xyz",
+     "github": "schneefux",
+     "githubId": 15379000,
+     "name": "schneefux"
+    },
+    {
+     "email": "pascal.bach@nextrem.ch",
+     "github": "bachp",
+     "githubId": 333807,
+     "name": "Pascal Bach"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "nextcloud",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/nextcloud/default.nix:18"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "17.0.1": {
@@ -2120,7 +2295,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
   ]
  },
  "18.0.0": {
@@ -2274,7 +2449,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0029baca2ba2b52706f1ff160058128ddcff5575"
+   "004325edcef0cf16ce4f56d4de2a2ce2eac622c2"
   ]
  },
  "18.0.2": {

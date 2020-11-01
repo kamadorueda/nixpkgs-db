@@ -30,7 +30,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
+   "003d4d089e24b113eea983f51e45c2ccc8e5e689"
   ]
  },
  "3.13-staging": {
@@ -64,7 +64,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
   ]
  },
  "3.14-staging": {
@@ -99,6 +99,40 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "3.17-staging": {
+  "meta": {
+   "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix",
+   "homepage": "http://www.winehq.org/",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "herwig@bendlas.net",
+     "github": "bendlas",
+     "name": "Herwig Hochleitner"
+    }
+   ],
+   "name": "wine-wow",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/misc/emulators/wine/base.nix:119"
+  },
+  "revs": [
+   "003c20e02cff0430873b3a10d1cac57116b8b27e",
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "3.18-staging": {
@@ -234,7 +268,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
  "4.12.1-staging": {
@@ -275,7 +309,51 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "004e9b5b4186dad1c675415a4e166621874edb5b"
+  ]
+ },
+ "4.14-staging": {
+  "meta": {
+   "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix",
+   "homepage": "https://www.winehq.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 or later",
+     "shortName": "lgpl21Plus",
+     "spdxId": "LGPL-2.1-or-later",
+     "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "githubId": 153538,
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "herwig@bendlas.net",
+     "github": "bendlas",
+     "githubId": 214787,
+     "name": "Herwig Hochleitner"
+    }
+   ],
+   "name": "wine-wow",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/misc/emulators/wine/base.nix:136"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "4.17-staging": {
@@ -455,7 +533,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "4.9-staging": {
@@ -496,7 +574,51 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0033313ebf6b595e24032f2798797a470311977b"
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0"
+  ]
+ },
+ "5.0-rc6-staging": {
+  "meta": {
+   "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix",
+   "homepage": "https://www.winehq.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 or later",
+     "shortName": "lgpl21Plus",
+     "spdxId": "LGPL-2.1-or-later",
+     "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "githubId": 153538,
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "herwig@bendlas.net",
+     "github": "bendlas",
+     "githubId": 214787,
+     "name": "Herwig Hochleitner"
+    }
+   ],
+   "name": "wine-wow",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/misc/emulators/wine/base.nix:141"
+  },
+  "revs": [
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4",
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
   ]
  },
  "5.0-staging": {
@@ -540,7 +662,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "5.10-staging": {
@@ -628,7 +750,7 @@
   },
   "revs": [
    "002b700fb597bc670ea4d19597444c43d31cf556",
-   "002b700fb597bc670ea4d19597444c43d31cf556"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "5.12-staging": {
@@ -848,7 +970,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0026092213b837bbefeb5cb3ccb46c975ca79284"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  }
 }

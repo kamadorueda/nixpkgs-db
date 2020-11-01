@@ -87,6 +87,41 @@
    "000162daed5e6a854d1e034409002aee80e6d8ac"
   ]
  },
+ "4.3.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:22"
+  },
+  "revs": [
+   "005837d85ff9d62d4c74e6f1574b48336fb85271",
+   "005837d85ff9d62d4c74e6f1574b48336fb85271"
+  ]
+ },
  "4.3.1": {
   "meta": {
    "description": "A window manager that multiplexes a physical terminal",
@@ -163,7 +198,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  },
  "4.5.0": {
@@ -204,7 +239,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "00105162f413ea8e8a419da0fc5b556e3737e82f"
+   "003fa8fed5480d3e22d518aeeba1d62809809279"
   ]
  },
  "4.5.1": {
@@ -245,7 +280,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
   ]
  },
  "4.6.1": {
@@ -288,7 +323,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "00078afb1f6c383405fa4bef9646d575f70b092f"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
   ]
  },
  "4.6.2": {
@@ -442,7 +477,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
   ]
  },
  "4.8.0": {
@@ -501,7 +536,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

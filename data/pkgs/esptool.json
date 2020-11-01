@@ -28,7 +28,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
   ]
  },
  "2.1": {
@@ -104,7 +104,51 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
+ "2.4.1": {
+  "meta": {
+   "description": "ESP8266 and ESP32 serial bootloader utility",
+   "homepage": "https://github.com/espressif/esptool",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "name": "Tuomas Tynkkynen"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "esptool",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/esptool/default.nix:18"
+  },
+  "revs": [
+   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
+   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f"
   ]
  },
  "2.5.0": {
@@ -282,7 +326,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

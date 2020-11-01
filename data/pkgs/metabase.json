@@ -57,7 +57,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "0009ae3d5e1ad620215c2b8409eeec668de60552"
+   "004111c27e11684d6945f82124110c5f17c1bf01"
   ]
  },
  "0.29.3": {
@@ -159,7 +159,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00064c21cc328fb96b631917220acbc26f232f96"
+   "0052a756d29cb1803bdd667abe991ff0fc75abef"
   ]
  },
  "0.30.3": {
@@ -193,7 +193,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "0.30.4": {
@@ -296,7 +296,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "0.32.2": {
@@ -361,6 +361,73 @@
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "0.32.9": {
+  "meta": {
+   "description": "The easy, open source way for everyone in your company to ask questions and learn from data.",
+   "homepage": "https://metabase.com",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "schneefux+nixos_pkg@schneefux.xyz",
+     "github": "schneefux",
+     "name": "schneefux"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "metabase",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/servers/metabase/default.nix:21"
+  },
+  "revs": [
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0"
   ]
  },
  "0.33.6": {
@@ -442,6 +509,86 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "0.34.1": {
+  "meta": {
+   "description": "The easy, open source way for everyone in your company to ask questions and learn from data",
+   "homepage": "https://metabase.com",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "schneefux+nixos_pkg@schneefux.xyz",
+     "github": "schneefux",
+     "githubId": 15379000,
+     "name": "schneefux"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "marek.mahut@gmail.com",
+     "github": "mmahut",
+     "githubId": 104795,
+     "name": "Marek Mahut"
+    }
+   ],
+   "name": "metabase",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/servers/metabase/default.nix:21"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
+  ]
+ },
  "0.34.2": {
   "meta": {
    "description": "The easy, open source way for everyone in your company to ask questions and learn from data",
@@ -520,7 +667,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "0.34.3": {
@@ -684,7 +831,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "0.35.3": {
@@ -767,7 +914,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0026092213b837bbefeb5cb3ccb46c975ca79284"
+   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
   ]
  },
  "0.35.4": {
@@ -850,7 +997,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "0.36.0": {

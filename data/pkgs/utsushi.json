@@ -1,4 +1,25 @@
 {
+ "3.57.0": {
+  "meta": {
+   "description": "SANE utsushi backend for some Epson scanners",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "ImageScanV3 (aka utsushi) scanner driver.\nNon-free plugins are not included so no network support.\nTo use the SANE backend, in /etc/nixos/configuration.nix:\n\nhardware.sane = {\n  enable = true;\n  extraBackends = [ pkgs.utsushi ];\n};\nservices.udev.packages = [ pkgs.utsushi ];\n\nSupported hardware: \n- DS-40\n- DS-70\n- DS-80W\n- DS-410\n- DS-510\n- DS-520\n- DS-530\n- DS-535\n- DS-535H\n- DS-560\n- DS-575W\n- DS-760\n- DS-775\n- DS-780N\n- DS-860\n- DS-1630\n- DS-5500\n- DS-6500\n- DS-7500\n- DS-50000\n- DS-60000\n- DS-70000\n- EP-10VA Series\n- EP-808A Series\n- EP-978A3 Series\n- ES-50\n- ES-55R\n- ES-60W\n- ES-65WR\n- ES-300WR\n- ES-400\n- ES-500WR\n- ES-8500\n- ET-2500 Series\n- ET-2550 Series\n- ET-4500 Series\n- ET-4550 Series\n- Expression 1640XL\n- FF-680W\n- L220/L360 Series\n- L365/L366 Series\n- L380 Series\n- L455 Series\n- L565/L566 Series\n- L655 Series\n- PX-M840FX\n- PX-M860F\n- PX-M884F\n- PX-M7050 Series\n- PX-M7050FX Series\n- WF-4720\n- WF-6530 Series\n- WF-6590 Series\n- WF-8510/8590 Series\n- WF-R8590 Series\n- XP-220 Series\n- XP-230 Series\n- XP-235 Series\n- XP-332 335 Series\n- XP-430 Series\n- XP-432 435 Series\n- XP-530 Series\n- XP-540\n- XP-630 Series\n- XP-640\n- XP-830 Series\n- XP-960 Series\n",
+   "maintainers": [],
+   "name": "utsushi",
+   "platforms": null,
+   "position": "pkgs/misc/drivers/utsushi/default.nix:71"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
+  ]
+ },
  "3.59.2": {
   "meta": {
    "description": "SANE utsushi backend for some Epson scanners",
@@ -36,7 +57,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

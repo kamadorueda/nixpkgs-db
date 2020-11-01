@@ -1,4 +1,43 @@
 {
+ "2.2.0": {
+  "meta": {
+   "description": "Efficient querying of 'top values' for PostgreSQL",
+   "homepage": "https://www.citusdata.com/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "pg_topn",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/ext/pg_topn.nix:26"
+  },
+  "revs": [
+   "004e3816dcffb49f4e296a16b00334153a90ed3e",
+   "004e3816dcffb49f4e296a16b00334153a90ed3e"
+  ]
+ },
  "2.2.2": {
   "meta": {
    "description": "Efficient querying of 'top values' for PostgreSQL",

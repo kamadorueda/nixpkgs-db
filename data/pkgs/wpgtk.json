@@ -153,7 +153,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
   ]
  },
  "6.0.12": {
@@ -193,7 +193,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "6.0.13": {
@@ -233,7 +233,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "6.0.3": {
@@ -349,7 +349,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0033313ebf6b595e24032f2798797a470311977b"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "6.0.8": {
@@ -387,7 +387,46 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+  ]
+ },
+ "6.0.9": {
+  "meta": {
+   "description": "Template based wallpaper/colorscheme generator and manager",
+   "homepage": "https://github.com/deviantfero/wpgtk",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "In short, wpgtk is a colorscheme/wallpaper manager with a template system attached which lets you create templates from any textfile and will replace keywords on it on the fly, allowing for great styling and theming possibilities.\n\nwpgtk uses pywal as its colorscheme generator, but builds upon it with a UI and other features, such as the abilty to mix and edit the colorschemes generated and save them with their respective wallpapers, having light and dark themes, hackable and fast GTK+ theme made specifically for wpgtk and custom keywords and values to replace in templates.\n\nINFO: To work properly, this tool needs \"programs.dconf.enable = true\" on nixos or dconf installed. A reboot may be required after installing dconf.\n",
+   "maintainers": [
+    {
+     "email": "samuel@ton-kunst.ch",
+     "github": "melkor333",
+     "githubId": 6412377,
+     "name": "Samuel Ruprecht"
+    }
+   ],
+   "name": "wpgtk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/X11/wpgtk/default.nix:38"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "6.1.0": {

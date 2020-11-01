@@ -128,7 +128,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "000fb9be33528f867e2355ddedde0836ba7f7a3a"
+   "00444cbf25fcc7d1db64e6fe482815b52f699353"
   ]
  },
  "1.10.2": {
@@ -301,7 +301,81 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
+  ]
+ },
+ "1.13.2": {
+  "meta": {
+   "description": "The plugin-driven server agent for collecting & reporting metrics.",
+   "homepage": "https://www.influxdata.com/time-series-platform/telegraf/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "o4nsxy05@gmail.com",
+     "github": "foxit64",
+     "githubId": 56247270,
+     "name": "Foxit"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "telegraf",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/monitoring/telegraf/default.nix:29"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
   ]
  },
  "1.13.3": {
@@ -375,7 +449,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.13.4": {
@@ -443,7 +517,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "00373dacd36474dcab416d29a03b6ab45b61f79e"
   ]
  },
  "1.14.0": {
@@ -579,7 +653,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "1.14.2": {
@@ -647,7 +721,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
+   "0045730c57d7d705dcc568c6e420dc6a226d1266"
   ]
  },
  "1.14.3": {
@@ -715,7 +789,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "0026092213b837bbefeb5cb3ccb46c975ca79284"
+   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
   ]
  },
  "1.14.4": {
@@ -783,7 +857,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
   ]
  },
  "1.14.5": {
@@ -851,7 +925,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "00436f01f86c7aba22ea7299d0bb2ec848731104"
   ]
  },
  "1.15.1": {
@@ -990,6 +1064,40 @@
    "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
+ "1.2.0": {
+  "meta": {
+   "description": "The plugin-driven server agent for collecting & reporting metrics.",
+   "homepage": "https://www.influxdata.com/time-series-platform/telegraf/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "J\u00f6rg Thalheim <joerg@higgsboson.tk>",
+    "Robin Lambertz <robinlambertz+dev@gmail.com>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "telegraf",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/servers/monitoring/telegraf/default.nix:21"
+  },
+  "revs": [
+   "00517f1779f8a8514aec6c0f539f895a1b730e54",
+   "00517f1779f8a8514aec6c0f539f895a1b730e54"
+  ]
+ },
  "1.2.1": {
   "meta": {
    "description": "The plugin-driven server agent for collecting & reporting metrics.",
@@ -1021,7 +1129,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "002a2b479a245d10691a394454f29e27d95de719"
+   "0059131f54c82e7714d458c0b17335c3364033a4"
   ]
  },
  "1.3.0": {
@@ -1055,7 +1163,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
   ]
  },
  "1.4.1": {
@@ -1206,7 +1314,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "004490605a8b0a14b0b63b38a87820e4b2a5d9df"
   ]
  },
  "1.5.3": {
@@ -1259,7 +1367,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "1.6.1": {

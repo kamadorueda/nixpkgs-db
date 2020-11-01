@@ -59,7 +59,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "1.14.0": {
@@ -123,7 +123,50 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0013bc3056604b25299e8601caf4f99cc1f4a910"
+   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+  ]
+ },
+ "1.14.4": {
+  "meta": {
+   "description": "Python bindings for GStreamer",
+   "homepage": "https://gstreamer.freedesktop.org",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.6-gst-python",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/gst-python/default.nix:56"
+  },
+  "revs": [
+   "00584f50a4e0e567b61fbd4cbb13d1529b335c84",
+   "00584f50a4e0e567b61fbd4cbb13d1529b335c84"
   ]
  }
 }

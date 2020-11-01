@@ -31,7 +31,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "20180311": {
@@ -148,7 +148,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "0009ae3d5e1ad620215c2b8409eeec668de60552"
+   "004111c27e11684d6945f82124110c5f17c1bf01"
   ]
  },
  "20180514": {
@@ -187,7 +187,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "00349e27e5449e3243ba7525446900a16e1f4c2b"
+   "003dd8588b9e756176533138ded6d09cafdbac0a"
   ]
  },
  "20180531": {
@@ -266,6 +266,45 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "002a2a8d399902acff6ea1d362ec374006858db8"
+  ]
+ },
+ "20180920": {
+  "meta": {
+   "description": "Osinfo database of information about operating systems for virtualization provisioning tools",
+   "homepage": "https://libosinfo.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "osinfo-db",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/data/misc/osinfo-db/default.nix:20"
+  },
+  "revs": [
+   "003c20e02cff0430873b3a10d1cac57116b8b27e",
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "20181011": {
@@ -498,7 +537,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0024cfcc49560645359f1a709a2f2af625962d3c"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "20190611": {
@@ -537,6 +576,83 @@
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
    "002b853782e939c50da3fa7d424b08346f39eb6f"
+  ]
+ },
+ "20190726": {
+  "meta": {
+   "description": "Osinfo database of information about operating systems for virtualization provisioning tools",
+   "homepage": "https://libosinfo.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "osinfo-db",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/data/misc/osinfo-db/default.nix:21"
+  },
+  "revs": [
+   "0035a337da464b1d534858fe230dbb669f49dc7e",
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+  ]
+ },
+ "20190805": {
+  "meta": {
+   "description": "Osinfo database of information about operating systems for virtualization provisioning tools",
+   "homepage": "https://libosinfo.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "githubId": 133602,
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "osinfo-db",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/data/misc/osinfo-db/default.nix:21"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "20190920": {
@@ -656,7 +772,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "20200214": {
@@ -696,7 +812,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "20200515": {
@@ -736,7 +852,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "0026092213b837bbefeb5cb3ccb46c975ca79284"
+   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
   ]
  },
  "20200529": {

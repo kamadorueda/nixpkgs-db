@@ -21,7 +21,32 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
+  ]
+ },
+ "1.22.0": {
+  "meta": {
+   "description": "A small open source library for using 3D graphics hardware for rendering",
+   "homepage": "",
+   "license": null,
+   "long_description": "Cogl is a small open source library for using 3D graphics hardware for\nrendering. The API departs from the flat state machine style of OpenGL\nand is designed to make it easy to write orthogonal components that can\nrender without stepping on each other's toes.\n",
+   "maintainers": [
+    "Jason O'Conal <jason@oconal.id.au>"
+   ],
+   "name": "cogl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux"
+   ],
+   "position": "pkgs/development/libraries/cogl/default.nix:44"
+  },
+  "revs": [
+   "004a5a20470c87199daae1339197184b560cc256",
+   "004a5a20470c87199daae1339197184b560cc256"
   ]
  },
  "1.22.2": {
@@ -187,6 +212,61 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.22.8": {
+  "meta": {
+   "description": "A small open source library for using 3D graphics hardware for rendering",
+   "homepage": "",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "Public Domain",
+     "shortName": "publicDomain"
+    },
+    {
+     "fullName": "SGI Free Software License B v2.0",
+     "shortName": "sgi-b-20",
+     "spdxId": "SGI-B-2.0",
+     "url": "http://spdx.org/licenses/SGI-B-2.0.html"
+    }
+   ],
+   "long_description": "Cogl is a small open source library for using 3D graphics hardware for\nrendering. The API departs from the flat state machine style of OpenGL\nand is designed to make it easy to write orthogonal components that can\nrender without stepping on each other's toes.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    }
+   ],
+   "name": "cogl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "armv7a-linux",
+    "aarch64-linux",
+    "powerpc64le-linux"
+   ],
+   "position": "pkgs/development/libraries/cogl/default.nix:68"
+  },
+  "revs": [
+   "0056f627a0203501c82a74a59c7553b158cc9642",
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.8.0": {

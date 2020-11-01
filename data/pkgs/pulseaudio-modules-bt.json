@@ -74,7 +74,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.4": {
@@ -153,7 +153,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "2018-10-16": {
@@ -271,6 +271,45 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "2019-03-15": {
+  "meta": {
+   "description": "LDAC, aptX, aptX HD, AAC codecs (A2DP Audio) support for Linux PulseAudio",
+   "homepage": "https://github.com/EHfive/pulseaudio-modules-bt",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adis@blad.is",
+     "github": "adisbladis",
+     "name": "Adam Hose"
+    }
+   ],
+   "name": "pulseaudio-modules-bt-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/pulseaudio-modules-bt/default.nix:77"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "00541faa4a91b68adc18c7b62e954e839dcacc5c"
   ]
  }
 }

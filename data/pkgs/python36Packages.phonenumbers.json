@@ -29,7 +29,40 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
+  ]
+ },
+ "8.8.0": {
+  "meta": {
+   "description": "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers",
+   "homepage": "https://github.com/daviddrysdale/python-phonenumbers",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tristan Helmich <tristan.helmich+nixos@gmail.com>",
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "python3.6-phonenumbers",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/python-modules/phonenumbers/default.nix:14"
+  },
+  "revs": [
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095",
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
   ]
  },
  "8.8.1": {
@@ -62,7 +95,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00422b227968b698c3f109c46b8cd1a4c8590b4e"
   ]
  },
  "8.8.2": {
@@ -229,7 +262,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "8.9.0": {
@@ -327,7 +360,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
   ]
  },
  "8.9.12": {
@@ -425,7 +458,56 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0013bc3056604b25299e8601caf4f99cc1f4a910"
+   "00584f50a4e0e567b61fbd4cbb13d1529b335c84"
+  ]
+ },
+ "8.9.16": {
+  "meta": {
+   "description": "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers",
+   "homepage": "https://github.com/daviddrysdale/python-phonenumbers",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "name": "Tristan Helmich"
+    }
+   ],
+   "name": "python3.6-phonenumbers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/phonenumbers/default.nix:13"
+  },
+  "revs": [
+   "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
+   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
   ]
  },
  "8.9.3": {
@@ -474,7 +556,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "004111c27e11684d6945f82124110c5f17c1bf01"
   ]
  },
  "8.9.5": {

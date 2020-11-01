@@ -19,7 +19,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0044ba7256aae191b3a5bb3d4b4f28c3cf9a99c5"
   ]
  },
  "0.13.12": {
@@ -57,7 +57,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "00428231f8f4a454a832e4d0cedea148951e93c4"
   ]
  },
  "0.13.13": {
@@ -134,7 +134,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+   "003710748f1fab5dd407258cee5f9db7b705c67e"
   ]
  },
  "0.13.5": {
@@ -266,7 +266,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00364fa6bd5d0172fd502acd7cc9e5e32ef59095"
   ]
  },
  "1.0.2": {
@@ -307,7 +307,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
   ]
  },
  "1.0.3": {
@@ -482,7 +482,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "001db3951d2817af4707bb87eef2536bd445cfd4"
+   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
  "1.1.2": {
@@ -788,6 +788,107 @@
    "003055a670470f678e376be7f9b9051fb242ec0f"
   ]
  },
+ "1.2.0": {
+  "meta": {
+   "description": "A build tool for Scala, Java and more",
+   "homepage": "https://www.scala-sbt.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "name": "Tim Steinbach"
+    },
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    }
+   ],
+   "name": "sbt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/sbt/default.nix:29"
+  },
+  "revs": [
+   "004e7fb6fd112ec29446312a89f7b1b265164127",
+   "004e7fb6fd112ec29446312a89f7b1b265164127"
+  ]
+ },
  "1.2.1": {
   "meta": {
    "description": "A build tool for Scala, Java and more",
@@ -875,7 +976,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "1.2.3": {
@@ -966,6 +1067,96 @@
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
    "002a2a8d399902acff6ea1d362ec374006858db8"
+  ]
+ },
+ "1.2.4": {
+  "meta": {
+   "description": "A build tool for Scala, Java and more",
+   "homepage": "https://www.scala-sbt.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "name": "Tim Steinbach"
+    },
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    }
+   ],
+   "name": "sbt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/sbt/default.nix:29"
+  },
+  "revs": [
+   "0041d742aba89f035b3740b94a457a90e806f312",
+   "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
  "1.2.6": {
@@ -1450,6 +1641,112 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "1.3.5": {
+  "meta": {
+   "description": "A build tool for Scala, Java and more",
+   "homepage": "https://www.scala-sbt.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "githubId": 628342,
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "sbt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/sbt/default.nix:28"
+  },
+  "revs": [
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4",
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
+  ]
+ },
+ "1.3.7": {
+  "meta": {
+   "description": "A build tool for Scala, Java and more",
+   "homepage": "https://www.scala-sbt.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "githubId": 628342,
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "sbt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/sbt/default.nix:28"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "0036573d305dc724ad3acd8f6a406bc6113866cc"
+  ]
+ },
  "1.3.8": {
   "meta": {
    "description": "A build tool for Scala, Java and more",
@@ -1500,7 +1797,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.3.9": {
@@ -1553,7 +1850,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "1.4.0": {

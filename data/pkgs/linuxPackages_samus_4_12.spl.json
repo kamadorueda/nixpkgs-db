@@ -31,7 +31,65 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "0016d925e42c28df8666293bb38a440b10101fd8"
+   "00412fdfa72b96c90fcd63f4b0bfda60f9f857e5"
+  ]
+ },
+ "0.7.10-4.12.2": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "0052a756d29cb1803bdd667abe991ff0fc75abef",
+   "0052a756d29cb1803bdd667abe991ff0fc75abef"
   ]
  },
  "0.7.11-4.12.2": {
@@ -182,7 +240,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "000b68c22606fc244456e09c92c83663614a96d9"
+   "0054183cc6b857ea08865162bbcfeecca29e9dbc"
   ]
  },
  "0.7.3-4.12.2": {
@@ -329,7 +387,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0"
+   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
  "0.7.8-4.12.2": {
@@ -445,7 +503,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
  "18.09pre-git-4.12.2": {

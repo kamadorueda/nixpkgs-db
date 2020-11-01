@@ -77,6 +77,45 @@
    "00349e27e5449e3243ba7525446900a16e1f4c2b"
   ]
  },
+ "4.16.12": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long, bcm2835_mmal_v4l2_camera_driver)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "003a0b7ccdb003cef54f4c7a1ccce1630a954ece",
+   "003a0b7ccdb003cef54f4c7a1ccce1630a954ece"
+  ]
+ },
  "4.16.13": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long, bcm2835_mmal_v4l2_camera_driver)",
@@ -113,7 +152,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "001a84f22adb50971c5d3898012eb92a5c90d503"
+   "003dd8588b9e756176533138ded6d09cafdbac0a"
   ]
  },
  "4.16.14": {
@@ -269,7 +308,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "0009ae3d5e1ad620215c2b8409eeec668de60552"
+   "004111c27e11684d6945f82124110c5f17c1bf01"
   ]
  }
 }

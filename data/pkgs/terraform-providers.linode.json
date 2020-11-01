@@ -1,4 +1,52 @@
 {
+ "1.1.0": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/terraform-providers/terraform-provider-linode",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "terraform-provider-linode",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/go-modules/generic/default.nix:80"
+  },
+  "revs": [
+   "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
+   "0045ea5b10edd00f00a5077fb3b0107f5b242e89"
+  ]
+ },
  "1.12.3": {
   "meta": {
    "description": "",
@@ -258,7 +306,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "0033313ebf6b595e24032f2798797a470311977b"
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
   ]
  },
  "1.8.0": {
@@ -299,7 +347,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "1.9.1": {
@@ -338,7 +386,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.9.2": {
@@ -402,7 +450,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "002e3cfbce62a8b55eba52af9c72d770e5b31547"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  }
 }

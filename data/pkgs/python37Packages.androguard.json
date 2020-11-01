@@ -48,6 +48,55 @@
    "0028bad962d0184f190474244b9e51d4b840443d"
   ]
  },
+ "3.3.4": {
+  "meta": {
+   "description": "Tool and python library to interact with Android Files",
+   "homepage": "https://github.com/androguard/androguard",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pmidden@secure.mailbox.org",
+     "github": "pmiddend",
+     "name": "Philipp Middendorf"
+    }
+   ],
+   "name": "python3.7-androguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/androguard/default.nix:32"
+  },
+  "revs": [
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
+   "004d1422922beb2b6801eff6c0195fa8b9aacf77"
+  ]
+ },
  "3.3.5": {
   "meta": {
    "description": "Tool and python library to interact with Android Files",
@@ -94,7 +143,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  }
 }

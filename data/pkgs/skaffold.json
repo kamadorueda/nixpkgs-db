@@ -112,7 +112,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0028bad962d0184f190474244b9e51d4b840443d"
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
  "0.21.1": {
@@ -231,6 +231,64 @@
    "0015e526c7a3a70db5055b9e68c951a21cc3519f"
   ]
  },
+ "0.25.0": {
+  "meta": {
+   "description": "Easy and Repeatable Kubernetes Development",
+   "homepage": "https://github.com/GoogleContainerTools/skaffold",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "skaffold",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/skaffold/default.nix:27"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "00431493c011af62e2dc1f393e9327b148facd72"
+  ]
+ },
  "0.26.0": {
   "meta": {
    "description": "Easy and Repeatable Kubernetes Development",
@@ -344,7 +402,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
   ]
  },
  "0.29.0": {
@@ -450,7 +508,111 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "002b853782e939c50da3fa7d424b08346f39eb6f"
+   "0047672d58ad13bd0a60e9114b6c91858c34b2a8"
+  ]
+ },
+ "0.35.0": {
+  "meta": {
+   "description": "Easy and Repeatable Kubernetes Development",
+   "homepage": "https://github.com/GoogleContainerTools/skaffold",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "skaffold",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/skaffold/default.nix:27"
+  },
+  "revs": [
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab",
+   "004e9b5b4186dad1c675415a4e166621874edb5b"
+  ]
+ },
+ "0.36.0": {
+  "meta": {
+   "description": "Easy and Repeatable Kubernetes Development",
+   "homepage": "https://github.com/GoogleContainerTools/skaffold",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "skaffold",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/skaffold/default.nix:27"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "003697b32a3f049058f3e921a7e586023dbcfe10"
   ]
  },
  "1.0.1": {
@@ -506,7 +668,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00355c593a62114a8541e9c7535c20e9b6a00f46"
   ]
  },
  "1.10.1": {
@@ -550,7 +712,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "0026092213b837bbefeb5cb3ccb46c975ca79284"
+   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
   ]
  },
  "1.11.0": {
@@ -638,7 +800,51 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+  ]
+ },
+ "1.12.1": {
+  "meta": {
+   "description": "Easy and Repeatable Kubernetes Development",
+   "homepage": "https://skaffold.dev/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    }
+   ],
+   "name": "skaffold",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/skaffold/default.nix:34"
+  },
+  "revs": [
+   "00436f01f86c7aba22ea7299d0bb2ec848731104",
+   "00501bd13401228b0f198da0cded5c4c08a19e83"
   ]
  },
  "1.13.1": {
@@ -726,7 +932,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "00524fa64d094f57eeadb5929c5e4f93b50bb97b"
   ]
  },
  "1.14.0": {
@@ -870,7 +1076,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
  "1.3.1": {
@@ -976,7 +1182,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+   "00373dacd36474dcab416d29a03b6ab45b61f79e"
   ]
  },
  "1.6.0": {
@@ -1070,7 +1276,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "004443143fb020a01f1c734bff59bb8815ac183c"
   ]
  },
  "1.9.1": {
@@ -1114,7 +1320,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "002d38783ab0b570b296dadd4ee1ecfad21a9367"
+   "0045730c57d7d705dcc568c6e420dc6a226d1266"
   ]
  }
 }
