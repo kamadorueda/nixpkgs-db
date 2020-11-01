@@ -47,7 +47,40 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "0026458089ed4a754f75b182b5e903f2242127cc"
+   "0069e583cd6c53ca840cfeb39157739cb43a920d"
+  ]
+ },
+ "2.2": {
+  "meta": {
+   "description": "GNU Nettle, a cryptographic library",
+   "homepage": "http://www.lysator.liu.se/~nisse/nettle/",
+   "license": "GPLv2+",
+   "long_description": "Nettle is a cryptographic library that is designed to fit\neasily in more or less any context: In crypto toolkits for\nobject-oriented languages (C++, Python, Pike, ...), in\napplications like LSH or GNUPG, or even in kernel space.  In\nmost contexts, you need more than the basic cryptographic\nalgorithms, you also need some way to keep track of available\nalgorithms, their properties and variants.  You often have\nsome algorithm selection process, often dictated by a protocol\nyou want to implement.\n\nAnd as the requirements of applications differ in subtle and\nnot so subtle ways, an API that fits one application well can\nbe a pain to use in a different context.  And that is why\nthere are so many different cryptographic libraries around.\n\nNettle tries to avoid this problem by doing one thing, the\nlow-level crypto stuff, and providing a simple but general\ninterface to it.  In particular, Nettle doesn't do algorithm\nselection.  It doesn't do memory allocation. It doesn't do any\nI/O.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "nettle",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85",
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85"
   ]
  },
  "2.4": {
@@ -331,7 +364,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
   ]
  },
  "3.4.1": {
@@ -480,7 +513,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  }
 }

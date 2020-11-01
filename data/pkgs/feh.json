@@ -1,4 +1,28 @@
 {
+ "1.11.2": {
+  "meta": {
+   "description": "A light-weight image viewer",
+   "homepage": "https://derf.homelinux.org/projects/feh/",
+   "license": "BSD",
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viriketo@gmail.com>"
+   ],
+   "name": "feh",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0069aa0637dc1eab64c876e1d9b10117c3cac2e3",
+   "0069aa0637dc1eab64c876e1d9b10117c3cac2e3"
+  ]
+ },
  "1.14.2": {
   "meta": {
    "description": "A light-weight image viewer",
@@ -20,7 +44,7 @@
   },
   "revs": [
    "0026458089ed4a754f75b182b5e903f2242127cc",
-   "0026458089ed4a754f75b182b5e903f2242127cc"
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85"
   ]
  },
  "1.3.4": {
@@ -156,7 +180,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc"
   ]
  },
  "2.12.1": {
@@ -264,7 +288,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "0067fa05388829050c926bded9b360ce15fb9b22"
   ]
  },
  "2.15.2": {
@@ -494,7 +518,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "2.19.3": {
@@ -747,6 +771,48 @@
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
    "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ },
+ "2.23.2": {
+  "meta": {
+   "description": "A light-weight image viewer",
+   "homepage": "https://feh.finalrewind.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>",
+    "Willi Butz <willibutz@posteo.de>"
+   ],
+   "name": "feh",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/graphics/feh/default.nix:46"
+  },
+  "revs": [
+   "006a6db0128766b32b5e681cedc0e837c4549824",
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "2.24": {
@@ -1040,7 +1106,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "004111c27e11684d6945f82124110c5f17c1bf01"
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
   ]
  },
  "2.26.3": {
@@ -1144,6 +1210,107 @@
    "0011f10b5754963a7a993390f1c64a89d883e06d"
   ]
  },
+ "2.26.4": {
+  "meta": {
+   "description": "A light-weight image viewer",
+   "homepage": "https://feh.finalrewind.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "willibutz@posteo.de",
+     "github": "willibutz",
+     "name": "Willi Butz"
+    }
+   ],
+   "name": "feh",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/graphics/feh/default.nix:46"
+  },
+  "revs": [
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8",
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+  ]
+ },
  "2.27": {
   "meta": {
    "description": "A light-weight image viewer",
@@ -1242,7 +1409,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f"
+   "0073c30dbf260df65089da565c25601d74b3cadd"
   ]
  },
  "2.27.1": {
@@ -1537,7 +1704,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "000791e74a511f862081aff90ab27304c88f0aba"
+   "006afee7be0a9285942a4d550a4e381ab9b0ca3d"
   ]
  },
  "2.8": {
@@ -2091,7 +2258,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "002b16d965bf4e097167a2077566299e5e96ab2e"
+   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
  "3.4": {
@@ -2305,7 +2472,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  }
 }

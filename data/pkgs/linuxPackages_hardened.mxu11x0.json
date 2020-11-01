@@ -27,7 +27,7 @@
   },
   "revs": [
    "004463152a63f6ec7e31c972c0f6b50c2dc75802",
-   "004463152a63f6ec7e31c972c0f6b50c2dc75802"
+   "00753e078d3ae073fdefb6130df0be7519e20576"
   ]
  },
  "1.3.11+git2017-07-13-4.13": {
@@ -309,6 +309,37 @@
    "00078afb1f6c383405fa4bef9646d575f70b092f"
   ]
  },
+ "1.3.11+git2017-07-13-4.13.7": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Svintsov Dmitry <root@uralbash.ru>"
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "00669df0c164f0d97c785b1fe48e1ba30b56a6ac",
+   "00669df0c164f0d97c785b1fe48e1ba30b56a6ac"
+  ]
+ },
  "1.3.11+git2017-07-13-4.13.9": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -555,7 +586,7 @@
   },
   "revs": [
    "0046994b0cc52b9ddc300efd604cf6dfac68308b",
-   "0046994b0cc52b9ddc300efd604cf6dfac68308b"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "1.3.11+git2017-07-13-4.14.23": {
@@ -695,7 +726,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "002b46082276693574dc7d13f1d4950106b963f3"
+   "006332d8acf011bb119448f3b58db24e00366f63"
   ]
  },
  "1.3.11+git2017-07-13-4.14.29": {
@@ -804,7 +835,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0"
+   "007525282b6dded8152ceebe5e7f81ecd785aff4"
   ]
  },
  "1.3.11+git2017-07-13-4.14.34": {
@@ -883,6 +914,45 @@
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
    "004111c27e11684d6945f82124110c5f17c1bf01"
+  ]
+ },
+ "1.3.11+git2017-07-13-4.14.39": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
   ]
  },
  "1.3.11+git2017-07-13-4.14.43": {
@@ -1080,6 +1150,45 @@
    "0011f10b5754963a7a993390f1c64a89d883e06d"
   ]
  },
+ "1.3.11+git2017-07-13-4.14.52": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8",
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+  ]
+ },
  "1.3.11+git2017-07-13-4.14.54": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -1194,7 +1303,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "0015c34f9c1be8776a3ca86d2ce86b3304c34525"
+   "006e2981070061bbd18eef266bf8ec8cbded860d"
   ]
  },
  "1.3.11+git2017-07-13-4.14.59": {
@@ -1467,7 +1576,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "005f851d8577c4d84d3de06989c235714500d96e"
   ]
  },
  "1.3.11+git2017-07-13-4.14.74": {
@@ -2016,6 +2125,45 @@
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
+ "1.3.11+git2017-07-13-4.19.12": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0-only",
+    "url": "http://spdx.org/licenses/GPL-1.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "0063acf4dff8a53cb889b788d594d1acd09f602d",
+   "0063acf4dff8a53cb889b788d594d1acd09f602d"
+  ]
+ },
  "1.3.11+git2017-07-13-4.19.13": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -2367,6 +2515,45 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "1.3.11+git2017-07-13-4.19.37": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0-only",
+    "url": "http://spdx.org/licenses/GPL-1.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "005eedeb5f5612b291184b96c39b6f612f59efbf",
+   "005eedeb5f5612b291184b96c39b6f612f59efbf"
+  ]
+ },
  "1.3.11+git2017-07-13-4.19.48": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -2684,7 +2871,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa"
   ]
  },
  "1.4-4.19.43": {
@@ -2801,7 +2988,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
   ]
  },
  "1.4-4.19.49": {
@@ -2840,6 +3027,44 @@
   "revs": [
    "003b42f33241229dc9094d713f4e88bff9d72d14",
    "003b42f33241229dc9094d713f4e88bff9d72d14"
+  ]
+ },
+ "1.4-4.19.50": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
+   "00622f144e01b3afb88a572d87f4d8f6afc4a5af"
   ]
  },
  "1.4-4.19.53": {
@@ -3265,6 +3490,46 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "1.4-4.19.95": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "00610756df9a235f2de907a18cd8fded638d24e0",
+   "00610756df9a235f2de907a18cd8fded638d24e0"
+  ]
+ },
  "1.4-4.19.97": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -3425,6 +3690,46 @@
    "0030d391d229a2d5983752741d6bc0153dc82f1b"
   ]
  },
+ "1.4-5.4.21": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "006aeb5704123f259d5cda435a991b3d72225b32",
+   "006aeb5704123f259d5cda435a991b3d72225b32"
+  ]
+ },
  "1.4-5.4.23": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -3462,7 +3767,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "0029baca2ba2b52706f1ff160058128ddcff5575"
+   "0072d12b60fa1ce11bce8478710ee6c33565e279"
   ]
  },
  "1.4-5.4.24": {
@@ -3542,7 +3847,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "001be890f78f04df86938f44c0761676e299ceac"
+   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
  "1.4-5.4.28": {
@@ -3862,7 +4167,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "006e6b052f04b36d79651397725bb3359ac61198"
   ]
  },
  "1.4-5.4.42": {
@@ -4342,7 +4647,7 @@
   },
   "revs": [
    "00436f01f86c7aba22ea7299d0bb2ec848731104",
-   "00501bd13401228b0f198da0cded5c4c08a19e83"
+   "005d12190152e3bc534a315568dffcbeecff424f"
   ]
  },
  "1.4-5.4.56": {
@@ -4585,6 +4890,46 @@
    "00524fa64d094f57eeadb5929c5e4f93b50bb97b"
   ]
  },
+ "1.4-5.4.64": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "0065551641cccec146f6232df213d5cd30109e09",
+   "0065551641cccec146f6232df213d5cd30109e09"
+  ]
+ },
  "1.4-5.4.65": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -4623,6 +4968,46 @@
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
    "0051c0a4a506f5b21e5923a873fbc91a107e1300"
+  ]
+ },
+ "1.4-5.4.66": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "00740317ecb53f941d76edd18878a9cb04f608c9",
+   "00740317ecb53f941d76edd18878a9cb04f608c9"
   ]
  },
  "1.4-5.4.67": {
@@ -4703,6 +5088,46 @@
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
    "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.4-5.4.70": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "006e716e79dba72df07d2d52580e883f13b525ea",
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "1.4-5.4.72": {

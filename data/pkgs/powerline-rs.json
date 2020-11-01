@@ -1,4 +1,95 @@
 {
+ "0.1.6": {
+  "meta": {
+   "description": "powerline-shell rewritten in Rust, inspired by powerline-go",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "me@krake.one",
+     "github": "jD91mZM2",
+     "name": "jD91mZM2"
+    }
+   ],
+   "name": "powerline-rs",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/powerline-rs/default.nix:21"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4"
+  ]
+ },
  "0.1.7": {
   "meta": {
    "description": "powerline-shell rewritten in Rust, inspired by powerline-go",

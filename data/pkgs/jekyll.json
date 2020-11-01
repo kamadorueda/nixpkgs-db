@@ -69,7 +69,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "3.4.1": {
@@ -152,7 +152,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "0046994b0cc52b9ddc300efd604cf6dfac68308b"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "3.7.3": {
@@ -457,6 +457,107 @@
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
    "004111c27e11684d6945f82124110c5f17c1bf01"
+  ]
+ },
+ "3.8.1": {
+  "meta": {
+   "description": "A blog-aware, static site generator, written in Ruby",
+   "homepage": "https://jekyllrb.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Jekyll is a simple, blog-aware, static site generator, written in Ruby.\nThink of it like a file-based CMS, without all the complexity. Jekyll\ntakes your content, renders Markdown and Liquid templates, and spits out a\ncomplete, static website ready to be served by Apache, Nginx or another\nweb server. Jekyll is the engine behind GitHub Pages, which you can use to\nhost sites right from your GitHub repositories.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "pesterhazy@gmail.com",
+     "github": "pesterhazy",
+     "name": "Paulus Esterhazy"
+    }
+   ],
+   "name": "jekyll",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/jekyll/default.nix:22"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
   ]
  },
  "3.8.2": {
@@ -893,7 +994,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
   ]
  },
  "4.0.0": {
@@ -1169,7 +1270,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  }
 }

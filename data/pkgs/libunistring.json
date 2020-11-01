@@ -58,6 +58,37 @@
    "0056f627a0203501c82a74a59c7553b158cc9642"
   ]
  },
+ "0.9.2.1": {
+  "meta": {
+   "description": "GNU Libunistring, a Unicode string library",
+   "homepage": "http://www.gnu.org/software/libunistring/",
+   "license": "LGPLv3+",
+   "long_description": "This library provides functions for manipulating Unicode strings\nand for manipulating C strings according to the Unicode\nstandard.\n\nGNU libunistring is for you if your application involves\nnon-trivial text processing, such as upper/lower case\nconversions, line breaking, operations on words, or more\nadvanced analysis of text.  Text provided by the user can, in\ngeneral, contain characters of all kinds of scripts.  The text\nprocessing functions provided by this library handle all scripts\nand all languages.\n\nlibunistring is for you if your application already uses the ISO\nC / POSIX <ctype.h>, <wctype.h> functions and the text it\noperates on is provided by the user and can be in any language.\n\nlibunistring is also for you if your application uses Unicode\nstrings as internal in-memory representation.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "libunistring",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00726e62fc3298a89dfa89c0233c49b7477d8702",
+   "00726e62fc3298a89dfa89c0233c49b7477d8702"
+  ]
+ },
  "0.9.3": {
   "meta": {
    "description": "GNU Libunistring, a Unicode string library",
@@ -88,7 +119,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "005837d85ff9d62d4c74e6f1574b48336fb85271"
+   "006e7ae04e8b99020f192310a77eccd93e841633"
   ]
  },
  "0.9.6": {
@@ -204,7 +235,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "0.9.9": {

@@ -86,6 +86,36 @@
    "002d771763e9b05cb91ab752829a90e3008451e6"
   ]
  },
+ "0.31.0": {
+  "meta": {
+   "description": "A virtual guitar amplifier for Linux running with JACK",
+   "homepage": "http://guitarix.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "  guitarix is a virtual guitar amplifier for Linux running with\nJACK (Jack Audio Connection Kit). It is free as in speech and\nfree as in beer. Its free sourcecode allows to build it for\nother UNIX-like systems also, namely for BSD and for MacOSX.\n\n  It takes the signal from your guitar as any real amp would do:\nas a mono-signal from your sound card. Your tone is processed by\na main amp and a rack-section. Both can be routed separately and\ndeliver a processed stereo-signal via JACK. You may fill the\nrack with effects from more than 25 built-in modules spanning\nfrom a simple noise-gate to brain-slashing modulation-fx like\nflanger, phaser or auto-wah. Your signal is processed with\nminimum latency. On any properly set-up Linux-system you do not\nneed to wait for more than 10 milli-seconds for your playing to\nbe delivered, processed by guitarix.\n\n  guitarix offers the range of sounds you would expect from a\nfull-featured universal guitar-amp. You can get crisp\nclean-sounds, nice overdrive, fat distortion and a diversity of\ncrazy sounds never heard before.\n",
+   "maintainers": [
+    "Alexander Tsamutali <astsmtl@yandex.ru>",
+    "Cillian de R\u00f3iste <cillian.deroiste@gmail.com>"
+   ],
+   "name": "guitarix",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/audio/guitarix/default.nix:26"
+  },
+  "revs": [
+   "005bb796e68b3f69e54ab0c6bc631723eb545136",
+   "005bb796e68b3f69e54ab0c6bc631723eb545136"
+  ]
+ },
  "0.32.0": {
   "meta": {
    "description": "A virtual guitar amplifier for Linux running with JACK",
@@ -176,7 +206,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc"
   ]
  },
  "0.32.3": {
@@ -331,7 +361,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "0.35.3": {
@@ -483,7 +513,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
   ]
  },
  "0.37.1": {
@@ -752,7 +782,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  }
 }

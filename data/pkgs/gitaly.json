@@ -184,7 +184,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "005f851d8577c4d84d3de06989c235714500d96e"
   ]
  },
  "0.125.0": {
@@ -469,6 +469,47 @@
    "0043d907aea727d453680985897c189a4514a251"
   ]
  },
+ "0.21.2": {
+  "meta": {
+   "description": "",
+   "homepage": "http://www.gitlab.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Robin Lambertz <robinlambertz+dev@gmail.com>"
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/version-management/gitaly/default.nix:5"
+  },
+  "revs": [
+   "00753e078d3ae073fdefb6130df0be7519e20576",
+   "00753e078d3ae073fdefb6130df0be7519e20576"
+  ]
+ },
  "0.33.0": {
   "meta": {
    "description": "",
@@ -692,7 +733,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "002b46082276693574dc7d13f1d4950106b963f3"
+   "006332d8acf011bb119448f3b58db24e00366f63"
   ]
  },
  "0.81.0": {
@@ -1091,7 +1132,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "002ad2e561109446ac729ec07556a05c20564e15"
+   "005eedeb5f5612b291184b96c39b6f612f59efbf"
   ]
  },
  "1.27.1": {
@@ -1416,7 +1457,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "004a2b9ed0161aaddcce72b280be9062dbadfbab"
+   "00606f548fd761f3e788c5a5da2c11a513eb8cde"
   ]
  },
  "1.53.2": {
@@ -1730,7 +1771,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "00355c593a62114a8541e9c7535c20e9b6a00f46"
+   "00610756df9a235f2de907a18cd8fded638d24e0"
   ]
  },
  "1.83.0": {
@@ -2007,6 +2048,82 @@
    "003af9cac8ab25090f7d5a8188db438a5310229b"
   ]
  },
+ "12.8.1": {
+  "meta": {
+   "description": "A Git RPC service for handling all the git calls made by GitLab",
+   "homepage": "https://gitlab.com/gitlab-org/gitaly",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "kim.lindberger@gmail.com",
+     "github": "talyz",
+     "githubId": 63433,
+     "name": "Kim Lindberger"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/version-management/gitlab/gitaly/default.nix:72"
+  },
+  "revs": [
+   "0072d12b60fa1ce11bce8478710ee6c33565e279",
+   "0072d12b60fa1ce11bce8478710ee6c33565e279"
+  ]
+ },
  "12.8.10": {
   "meta": {
    "description": "A Git RPC service for handling all the git calls made by GitLab",
@@ -2220,7 +2337,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "001be890f78f04df86938f44c0761676e299ceac"
+   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
  "12.8.7": {
@@ -2552,7 +2669,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "13.0.4": {

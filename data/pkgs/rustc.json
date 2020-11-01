@@ -59,6 +59,37 @@
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
   ]
  },
+ "1.0.0-alpha.2": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "http://www.rust-lang.org/",
+   "license": [
+    "mit",
+    "asl20"
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Georges Dubus <georges.dubus@compiletoi.net>",
+    "Charles Strahan <charles.c.strahan@gmail.com>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "Robin Gloster <robin@glob.in>"
+   ],
+   "name": "rustc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/compilers/rustc/makeRustcDerivation.nix:63"
+  },
+  "revs": [
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc",
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc"
+  ]
+ },
  "1.0.0-beta": {
   "meta": {
    "description": "A safe, concurrent, practical language",
@@ -163,7 +194,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "005b644b30b823c4fa39f03263e8d7dc613807f8"
   ]
  },
  "1.11.0": {
@@ -435,7 +466,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "1.17.0": {
@@ -640,6 +671,88 @@
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
    "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
+ "1.24.1": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "name": "Ryan Scheel"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/rust/rustc.nix:164"
+  },
+  "revs": [
+   "007525282b6dded8152ceebe5e7f81ecd785aff4",
+   "007525282b6dded8152ceebe5e7f81ecd785aff4"
   ]
  },
  "1.25.0": {
@@ -2294,7 +2407,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "1.46.0": {

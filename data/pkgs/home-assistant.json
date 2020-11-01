@@ -96,7 +96,7 @@
   },
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
-   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
+   "00610756df9a235f2de907a18cd8fded638d24e0"
   ]
  },
  "0.104.3": {
@@ -556,7 +556,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+   "006e6b052f04b36d79651397725bb3359ac61198"
   ]
  },
  "0.110.1": {
@@ -884,7 +884,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "00501bd13401228b0f198da0cded5c4c08a19e83"
+   "005d12190152e3bc534a315568dffcbeecff424f"
   ]
  },
  "0.113.3": {
@@ -1224,7 +1224,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "0.116.4": {
@@ -1333,7 +1333,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "0.65.5": {
@@ -1496,6 +1496,60 @@
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
    "004111c27e11684d6945f82124110c5f17c1bf01"
+  ]
+ },
+ "0.68.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:104"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
   ]
  },
  "0.69.1": {
@@ -1982,6 +2036,60 @@
   "revs": [
    "003b15132c1a88503376eeb23d02310c8181f622",
    "003b15132c1a88503376eeb23d02310c8181f622"
+  ]
+ },
+ "0.77.2": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:120"
+  },
+  "revs": [
+   "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4",
+   "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4"
   ]
  },
  "0.77.3": {
@@ -2683,7 +2791,61 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "0015e526c7a3a70db5055b9e68c951a21cc3519f"
+   "005c3cffc15c1f15bb72d9bef25002f8027ca1c8"
+  ]
+ },
+ "0.89.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:141"
+  },
+  "revs": [
+   "006a699e693da92bc9f31775a7e0825a33a5063c",
+   "006a699e693da92bc9f31775a7e0825a33a5063c"
   ]
  },
  "0.89.2": {
@@ -2792,6 +2954,114 @@
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
    "00431493c011af62e2dc1f393e9327b148facd72"
+  ]
+ },
+ "0.90.2": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:143"
+  },
+  "revs": [
+   "005fb92d32c9d5b636846ce30ae01aab81454161",
+   "005fb92d32c9d5b636846ce30ae01aab81454161"
+  ]
+ },
+ "0.91.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:143"
+  },
+  "revs": [
+   "00684128ea4b92719f2f30f318a7e29b1213f5fb",
+   "00684128ea4b92719f2f30f318a7e29b1213f5fb"
   ]
  },
  "0.91.3": {

@@ -86,7 +86,7 @@
   },
   "revs": [
    "005837d85ff9d62d4c74e6f1574b48336fb85271",
-   "005837d85ff9d62d4c74e6f1574b48336fb85271"
+   "006e7ae04e8b99020f192310a77eccd93e841633"
   ]
  },
  "0.4.0-rev17-4.2-rc2": {
@@ -207,6 +207,36 @@
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
    "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+  ]
+ },
+ "0.4.0-rev18-4.3-rc7": {
+  "meta": {
+   "description": "Undervolting kernel driver for Intel processors",
+   "homepage": "http://www.linux-phc.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "PHC is a Linux kernel patch to undervolt processors. This can divide the\npower consumption of the CPU by two or more, increasing battery life\nwhile noticably reducing fan noise. This driver works only on supported\nIntel architectures.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "linux-phc-intel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/phc-intel/default.nix:42"
+  },
+  "revs": [
+   "0069867c512263fe8ea331551f70fb0a80832ce3",
+   "0069867c512263fe8ea331551f70fb0a80832ce3"
   ]
  },
  "0.4.0-rev18-4.4-rc4": {
@@ -356,7 +386,7 @@
   },
   "revs": [
    "002d151ebe258a92e44e0a947b493105295b7e7f",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "0067fa05388829050c926bded9b360ce15fb9b22"
   ]
  },
  "0.4.0-rev19-4.5-rc7": {
@@ -386,7 +416,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "00078e317e63d1d934806efd62f56e48150a4f64"
+   "007500f2ece22ab43b6c73e33cb39c4c29221745"
   ]
  },
  "0.4.0-rev19-4.6-rc3": {
@@ -446,7 +476,7 @@
   },
   "revs": [
    "002f5e24b48d047e67a79470b777bd10fa64a6c7",
-   "002f5e24b48d047e67a79470b777bd10fa64a6c7"
+   "005dab1a7afee27358e011906231ad7eed7c4120"
   ]
  },
  "0.4.0-rev19-4.6-rc6": {
@@ -536,7 +566,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "005b644b30b823c4fa39f03263e8d7dc613807f8"
   ]
  },
  "0.4.0-rev19-4.8-rc3": {

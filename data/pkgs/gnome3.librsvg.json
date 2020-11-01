@@ -116,6 +116,107 @@
    "00349e27e5449e3243ba7525446900a16e1f4c2b"
   ]
  },
+ "2.42.3": {
+  "meta": {
+   "description": "A small library to render SVG images to Cairo surfaces",
+   "homepage": "https://wiki.gnome.org/Projects/LibRsvg",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "librsvg",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/librsvg/default.nix:71"
+  },
+  "revs": [
+   "006422d08d7f0576d745baa23328e951e0f7b4c2",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+  ]
+ },
  "2.42.4": {
   "meta": {
    "description": "A small library to render SVG images to Cairo surfaces",
@@ -593,7 +694,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
   ]
  },
  "2.44.14": {
@@ -1254,7 +1355,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  }
 }

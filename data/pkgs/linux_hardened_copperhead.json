@@ -27,7 +27,7 @@
   },
   "revs": [
    "004463152a63f6ec7e31c972c0f6b50c2dc75802",
-   "004463152a63f6ec7e31c972c0f6b50c2dc75802"
+   "00753e078d3ae073fdefb6130df0be7519e20576"
   ]
  },
  "4.13-a": {
@@ -307,6 +307,37 @@
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
    "00078afb1f6c383405fa4bef9646d575f70b092f"
+  ]
+ },
+ "4.13.7-a": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, modinst-arglist-too-long, cpu-cgroup-v2-4.11.patch, tag-hardened)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:205"
+  },
+  "revs": [
+   "00669df0c164f0d97c785b1fe48e1ba30b56a6ac",
+   "00669df0c164f0d97c785b1fe48e1ba30b56a6ac"
   ]
  },
  "4.13.9-a": {

@@ -12,7 +12,7 @@
   },
   "revs": [
    "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
-   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c"
+   "006528b42d39183b6ad5b198b97dc5c2ab642027"
   ]
  },
  "1.18.0": {
@@ -28,7 +28,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "0026458089ed4a754f75b182b5e903f2242127cc"
+   "0069e583cd6c53ca840cfeb39157739cb43a920d"
   ]
  },
  "1.19.0": {
@@ -150,7 +150,7 @@
   },
   "revs": [
    "000b1ad43accf62263ef519bc0b0d4056c3e80b5",
-   "0047f42663f5e55b77a604def3d83bad61ba28b1"
+   "005dad6f3a655d8bf92753c6f1d8779524fd9ec2"
   ]
  },
  "1.22.1": {
@@ -329,7 +329,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "1.27.2": {
@@ -427,6 +427,45 @@
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
    "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
+ "1.28.2": {
+  "meta": {
+   "description": "Tiny versions of common UNIX utilities in a single small executable",
+   "homepage": "https://busybox.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "busybox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/busybox/default.nix:102"
+  },
+  "revs": [
+   "007525282b6dded8152ceebe5e7f81ecd785aff4",
+   "007525282b6dded8152ceebe5e7f81ecd785aff4"
   ]
  },
  "1.28.3": {

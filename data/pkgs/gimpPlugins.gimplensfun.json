@@ -128,7 +128,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "0067fa05388829050c926bded9b360ce15fb9b22"
   ]
  },
  "0.1.1-gimp-2.8.18-plugin": {
@@ -263,6 +263,54 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.2.4-gimp-2.10.0-plugin": {
+  "meta": {
+   "description": "GIMP plugin to correct lens distortion using the lensfun library and database",
+   "homepage": "http://lensfun.sebastiankraft.net/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "gimplensfun",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/graphics/gimp/plugins/default.nix:193"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+  ]
+ },
  "0.2.4-gimp-2.10.2-plugin": {
   "meta": {
    "description": "GIMP plugin to correct lens distortion using the lensfun library and database",
@@ -338,7 +386,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "00572d595c2aaec1d8196fb913a018696326e824"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "0.2.4-gimp-2.8.22-plugin": {

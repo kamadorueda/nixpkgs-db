@@ -107,7 +107,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "10.4.1": {
@@ -268,6 +268,49 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+  ]
+ },
+ "9.2.0": {
+  "meta": {
+   "description": "A Python library for Dropbox's HTTP-based Core and Datastore APIs",
+   "homepage": "https://www.dropbox.com/developers/core/docs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.7-dropbox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/dropbox/default.nix:20"
+  },
+  "revs": [
+   "0063acf4dff8a53cb889b788d594d1acd09f602d",
+   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
   ]
  },
  "9.3.0": {

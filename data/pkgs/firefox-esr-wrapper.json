@@ -230,7 +230,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "52.7.1esr": {
@@ -430,7 +430,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
   ]
  },
  "60.1.0esr": {
@@ -464,7 +464,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
+   "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4"
   ]
  },
  "60.2.0esr": {
@@ -634,7 +634,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "005f851d8577c4d84d3de06989c235714500d96e"
   ]
  },
  "60.2.2esr": {
@@ -1334,7 +1334,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "002ad2e561109446ac729ec07556a05c20564e15"
+   "005eedeb5f5612b291184b96c39b6f612f59efbf"
   ]
  },
  "60.6.3esr": {
@@ -1951,6 +1951,65 @@
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  },
+ "68.4.1esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "00610756df9a235f2de907a18cd8fded638d24e0",
+   "00610756df9a235f2de907a18cd8fded638d24e0"
+  ]
+ },
  "68.4.2esr": {
   "meta": {
    "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
@@ -2125,7 +2184,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00373dacd36474dcab416d29a03b6ab45b61f79e"
+   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
  "68.6.1esr": {
@@ -2541,7 +2600,67 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
+  ]
+ },
+ "78.3.1esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "007126eef72271480cb7670e19e501a1ad2c1ff2",
+   "007126eef72271480cb7670e19e501a1ad2c1ff2"
   ]
  },
  "78.4.0esr": {

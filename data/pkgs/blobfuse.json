@@ -1,4 +1,43 @@
 {
+ "1.0.1-RC-Preview": {
+  "meta": {
+   "description": "Mount an Azure Blob storage as filesystem through FUSE",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jb@giraudeau.info",
+     "github": "jbgi",
+     "name": "Jean-Baptiste Giraudeau"
+    }
+   ],
+   "name": "blobfuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/blobfuse/default.nix:18"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4"
+  ]
+ },
  "1.0.2": {
   "meta": {
    "description": "Mount an Azure Blob storage as filesystem through FUSE",

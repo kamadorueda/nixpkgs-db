@@ -1,4 +1,36 @@
 {
+ "0.20110401": {
+  "meta": {
+   "description": "Manage files with git, without checking the file contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": "GPLv3+",
+   "long_description": "Git-annex allows managing files with git, without checking the\nfile contents into git. While that may seem paradoxical, it is\nuseful when dealing with files larger than git can currently\neasily handle, whether due to limitations in memory, checksumming\ntime, or disk space.\n\nEven without file content tracking, being able to manage files\nwith git, move files around and delete files with versioned\ndirectory trees, and use branches and distributed clones, are all\nvery handy reasons to use git. And annexed files can co-exist in\nthe same git repository with regularly versioned files, which is\nconvenient for maintaining documents, Makefiles, etc that are\nassociated with annexed files but that benefit from full revision\ncontrol.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0069aa0637dc1eab64c876e1d9b10117c3cac2e3",
+   "0069aa0637dc1eab64c876e1d9b10117c3cac2e3"
+  ]
+ },
  "3.20110719": {
   "meta": {
    "description": "Manage files with git without checking them into git",
@@ -18,7 +50,29 @@
   },
   "revs": [
    "0026458089ed4a754f75b182b5e903f2242127cc",
-   "0026458089ed4a754f75b182b5e903f2242127cc"
+   "0069e583cd6c53ca840cfeb39157739cb43a920d"
+  ]
+ },
+ "3.20110819": {
+  "meta": {
+   "description": "Manage files with git without checking them into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": "GPLv3+",
+   "long_description": "Git-annex allows managing files with git, without checking the\nfile contents into git. While that may seem paradoxical, it is\nuseful when dealing with files larger than git can currently\neasily handle, whether due to limitations in memory, checksumming\ntime, or disk space.\n\nEven without file content tracking, being able to manage files\nwith git, move files around and delete files with versioned\ndirectory trees, and use branches and distributed clones, are all\nvery handy reasons to use git. And annexed files can co-exist in\nthe same git repository with regularly versioned files, which is\nconvenient for maintaining documents, Makefiles, etc that are\nassociated with annexed files but that benefit from full revision\ncontrol.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "i686-darwin",
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85",
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85"
   ]
  },
  "3.20111203": {
@@ -174,7 +228,7 @@
   },
   "revs": [
    "001fb53524b030427c0c0c5460910f667bd85e0a",
-   "003ea37724749c813d500f7e0145040119fdd04a"
+   "006e3fbf46537fa8e14d33a33ceeb66c2a4cd354"
   ]
  },
  "3.20120825": {
@@ -202,6 +256,58 @@
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
    "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "3.20121010": {
+  "meta": {
+   "description": "Manage files with git without checking them into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 or later",
+    "shortName": "GPLv3+",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "Git-annex allows managing files with git, without checking the\nfile contents into git. While that may seem paradoxical, it is\nuseful when dealing with files larger than git can currently\neasily handle, whether due to limitations in memory, checksumming\ntime, or disk space.\n\nEven without file content tracking, being able to manage files\nwith git, move files around and delete files with versioned\ndirectory trees, and use branches and distributed clones, are all\nvery handy reasons to use git. And annexed files can co-exist in\nthe same git repository with regularly versioned files, which is\nconvenient for maintaining documents, Makefiles, etc that are\nassociated with annexed files but that benefit from full revision\ncontrol.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006af75c174f76a6722a22641afd6f369f5f32a8",
+   "006af75c174f76a6722a22641afd6f369f5f32a8"
+  ]
+ },
+ "3.20121127": {
+  "meta": {
+   "description": "Manage files with git without checking them into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 or later",
+    "shortName": "GPLv3+",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "Git-annex allows managing files with git, without checking the\nfile contents into git. While that may seem paradoxical, it is\nuseful when dealing with files larger than git can currently\neasily handle, whether due to limitations in memory, checksumming\ntime, or disk space.\n\nEven without file content tracking, being able to manage files\nwith git, move files around and delete files with versioned\ndirectory trees, and use branches and distributed clones, are all\nvery handy reasons to use git. And annexed files can co-exist in\nthe same git repository with regularly versioned files, which is\nconvenient for maintaining documents, Makefiles, etc that are\nassociated with annexed files but that benefit from full revision\ncontrol.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006afee7be0a9285942a4d550a4e381ab9b0ca3d",
+   "006afee7be0a9285942a4d550a4e381ab9b0ca3d"
   ]
  },
  "3.20130107": {
@@ -276,7 +382,7 @@
   },
   "revs": [
    "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c",
-   "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c"
+   "00674a8608874241c43e3dc957255c4f455d071a"
   ]
  },
  "4.20130405": {
@@ -383,6 +489,60 @@
    "0021d4495ee90e96081950034b7bd70b54e66a03"
   ]
  },
+ "4.20130909": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 only",
+    "shortName": "GPLv3",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0072786c84beef130412f873e987b46e33f68755",
+   "0072786c84beef130412f873e987b46e33f68755"
+  ]
+ },
+ "4.20130927": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 only",
+    "shortName": "GPLv3",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00718b5dd30e11be24e437b41332bace46610c2a",
+   "00718b5dd30e11be24e437b41332bace46610c2a"
+  ]
+ },
  "4.20131002": {
   "meta": {
    "description": "manage files with git, without checking their contents into git",
@@ -408,6 +568,33 @@
   "revs": [
    "003c93eef3df6b8134af5f15c9d98dee0cb4ddc5",
    "003c93eef3df6b8134af5f15c9d98dee0cb4ddc5"
+  ]
+ },
+ "4.20131024": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 only",
+    "shortName": "GPLv3",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006a11d26e0db66bf3c1fcda74bd9062474e9624",
+   "006a11d26e0db66bf3c1fcda74bd9062474e9624"
   ]
  },
  "4.20131101": {
@@ -545,6 +732,33 @@
    "0047f42663f5e55b77a604def3d83bad61ba28b1"
   ]
  },
+ "5.20140402": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License version 3 only",
+    "shortName": "GPLv3",
+    "url": "http://www.fsf.org/licensing/licenses/gpl.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git-annex/default.nix:60"
+  },
+  "revs": [
+   "005dad6f3a655d8bf92753c6f1d8779524fd9ec2",
+   "005dad6f3a655d8bf92753c6f1d8779524fd9ec2"
+  ]
+ },
  "5.20140405": {
   "meta": {
    "description": "manage files with git, without checking their contents into git",
@@ -623,7 +837,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "0008a4b6c467977469b9b3bdec15fcc580204145"
+   "00692e725504840facdb67e46fe23dc42db6a3b2"
   ]
  },
  "5.20140517": {
@@ -704,7 +918,7 @@
   },
   "revs": [
    "0031a036ca6a32bc380c7b52c5e4de8fc142373c",
-   "004be1bf510aac2c0a7b2c14246766feb784a027"
+   "006ebdfe7853002299ebf8b14e175eb68f37a31f"
   ]
  },
  "5.20140817": {
@@ -815,6 +1029,32 @@
    "002d771763e9b05cb91ab752829a90e3008451e6"
   ]
  },
+ "5.20141013": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git-annex/default.nix:47"
+  },
+  "revs": [
+   "005bb796e68b3f69e54ab0c6bc631723eb545136",
+   "005bb796e68b3f69e54ab0c6bc631723eb545136"
+  ]
+ },
  "5.20141125": {
   "meta": {
    "description": "manage files with git, without checking their contents into git",
@@ -893,7 +1133,7 @@
   },
   "revs": [
    "001f2110bdb2300df5d600628a62a8969ff14aa5",
-   "001f2110bdb2300df5d600628a62a8969ff14aa5"
+   "006dceba1433a5d88cd71a9101edf569a528cfc5"
   ]
  },
  "5.20141231": {
@@ -971,6 +1211,31 @@
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
+ "5.20150327": {
+  "meta": {
+   "description": "manage files with git, without checking their contents into git",
+   "homepage": "http://git-annex.branchable.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "git-annex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:50558"
+  },
+  "revs": [
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc",
+   "0067ccbfdf0c61b14e0f7611d99212ecade407dc"
   ]
  },
  "5.20150409": {

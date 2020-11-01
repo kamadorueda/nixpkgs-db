@@ -74,7 +74,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0015e885ce6c6bac448b639191123fb39a94aa92"
+   "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa"
   ]
  },
  "2018-09-08-5.0.16": {
@@ -191,7 +191,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
   ]
  },
  "2018-09-08-5.0.21": {
@@ -308,6 +308,45 @@
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
    "00431493c011af62e2dc1f393e9327b148facd72"
+  ]
+ },
+ "2018-09-08-5.0.5": {
+  "meta": {
+   "description": "Anbox ashmem and binder drivers.",
+   "homepage": "https://github.com/anbox/anbox-modules",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "anbox-modules",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/anbox/kmod.nix:35"
+  },
+  "revs": [
+   "005fb92d32c9d5b636846ce30ae01aab81454161",
+   "005fb92d32c9d5b636846ce30ae01aab81454161"
   ]
  },
  "2018-09-08-5.0.7": {

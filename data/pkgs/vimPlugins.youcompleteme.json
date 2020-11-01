@@ -359,6 +359,96 @@
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
   ]
  },
+ "2018-12-23": {
+  "meta": {
+   "description": "A code-completion engine for Vim",
+   "homepage": "https://github.com/Valloric/YouCompleteMe",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco-oweber@gmx.de",
+     "github": "marcweber",
+     "name": "Marc Weber"
+    },
+    {
+     "email": "ars.seroka@gmail.com",
+     "github": "jagajaga",
+     "name": "Arseniy Seroka"
+    }
+   ],
+   "name": "vimplugin-youcompleteme",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/misc/vim-plugins/overrides.nix:350"
+  },
+  "revs": [
+   "0063acf4dff8a53cb889b788d594d1acd09f602d",
+   "0063acf4dff8a53cb889b788d594d1acd09f602d"
+  ]
+ },
  "2018-12-28": {
   "meta": {
    "description": "A code-completion engine for Vim",
@@ -1256,7 +1346,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0"
+   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
   ]
  },
  "2019-06-02": {
@@ -1598,7 +1688,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "00355c593a62114a8541e9c7535c20e9b6a00f46"
+   "00610756df9a235f2de907a18cd8fded638d24e0"
   ]
  },
  "2020-01-26": {

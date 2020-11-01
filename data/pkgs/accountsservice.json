@@ -31,6 +31,28 @@
    "002d771763e9b05cb91ab752829a90e3008451e6"
   ]
  },
+ "0.6.38": {
+  "meta": {
+   "description": "D-Bus interface for user account query and manipulation",
+   "homepage": "http://www.freedesktop.org/wiki/Software/AccountsService",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Pascal Wittmann <mail@pascal-wittmann.de>"
+   ],
+   "name": "accountsservice",
+   "platforms": null,
+   "position": "pkgs/development/libraries/accountsservice/default.nix:29"
+  },
+  "revs": [
+   "005bb796e68b3f69e54ab0c6bc631723eb545136",
+   "005bb796e68b3f69e54ab0c6bc631723eb545136"
+  ]
+ },
  "0.6.39": {
   "meta": {
    "description": "D-Bus interface for user account query and manipulation",
@@ -134,7 +156,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "003710748f1fab5dd407258cee5f9db7b705c67e"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "0.6.45": {
@@ -207,6 +229,45 @@
    "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
+ "0.6.47": {
+  "meta": {
+   "description": "D-Bus interface for user account query and manipulation",
+   "homepage": "https://www.freedesktop.org/wiki/Software/AccountsService",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@pascal-wittmann.de",
+     "github": "pSub",
+     "name": "Pascal Wittmann"
+    }
+   ],
+   "name": "accountsservice",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/accountsservice/default.nix:40"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
+  ]
+ },
  "0.6.49": {
   "meta": {
    "description": "D-Bus interface for user account query and manipulation",
@@ -243,7 +304,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f"
+   "0073c30dbf260df65089da565c25601d74b3cadd"
   ]
  },
  "0.6.50": {

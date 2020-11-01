@@ -160,7 +160,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00572d595c2aaec1d8196fb913a018696326e824"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "1.13.8": {
@@ -192,6 +192,45 @@
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
    "003102c41127dabf90349235964b6e4714114ae7"
+  ]
+ },
+ "1.14.0": {
+  "meta": {
+   "description": "The Battle for Wesnoth, a free, turn-based strategy game with a fantasy theme",
+   "homepage": "http://www.wesnoth.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "The Battle for Wesnoth is a Free, turn-based tactical strategy\ngame with a high fantasy theme, featuring both single-player, and\nonline/hotseat multiplayer combat. Fight a desperate battle to\nreclaim the throne of Wesnoth, or take hand in any number of other\nadventures.\n",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "name": "Nikolay Amiantov"
+    }
+   ],
+   "name": "wesnoth",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/games/wesnoth/dev.nix:27"
+  },
+  "revs": [
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
+   "005d803762403effdd0d27bb5c2bb71d3c31d7d4"
   ]
  }
 }

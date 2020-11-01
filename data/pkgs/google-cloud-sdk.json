@@ -139,7 +139,45 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "0067fa05388829050c926bded9b360ce15fb9b22"
+  ]
+ },
+ "106.0.0": {
+  "meta": {
+   "description": "Tools for the google cloud platform",
+   "homepage": "https://cloud.google.com/sdk/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "The Google Cloud SDK. This package has the programs: gcloud, gsutil, and bq",
+   "maintainers": [
+    "Stephen Weinberg <stephen@q5comm.com>"
+   ],
+   "name": "google-cloud-sdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/admin/google-cloud-sdk/default.nix:44"
+  },
+  "revs": [
+   "006f6d9437bdb56b3e189df056b831068e61ae42",
+   "006f6d9437bdb56b3e189df056b831068e61ae42"
   ]
  },
  "109.0.0": {
@@ -197,7 +235,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "005b644b30b823c4fa39f03263e8d7dc613807f8"
   ]
  },
  "122.0.0": {
@@ -255,7 +293,7 @@
   },
   "revs": [
    "0028abeb4ed1432b99c0b977825c577b3baff3d1",
-   "0028abeb4ed1432b99c0b977825c577b3baff3d1"
+   "0063c8acb4a5de8d90c0cbadf54ce337bd921e76"
   ]
  },
  "138.0.0": {
@@ -284,7 +322,38 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "006d9380bb31549037213c8df11b01060613a26f"
+  ]
+ },
+ "148.0.1": {
+  "meta": {
+   "description": "Tools for the google cloud platform",
+   "homepage": "https://cloud.google.com/sdk/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "The Google Cloud SDK. This package has the programs: gcloud, gsutil, and bq",
+   "maintainers": [
+    "Stephen Weinberg <stephen@q5comm.com>",
+    "zimbatm <zimbatm@zimbatm.com>"
+   ],
+   "name": "google-cloud-sdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/tools/admin/google-cloud-sdk/default.nix:59"
+  },
+  "revs": [
+   "0062dd2f14526107bce0d78f39eea18f705fc2bd",
+   "0062dd2f14526107bce0d78f39eea18f705fc2bd"
   ]
  },
  "151.0.0": {
@@ -455,7 +524,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "004a59f18e9b82b5130e95c8dfc1156f99bb7f9e"
+   "006a6db0128766b32b5e681cedc0e837c4549824"
   ]
  },
  "190.0.1": {
@@ -935,7 +1004,54 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
+  ]
+ },
+ "314.0.0": {
+  "meta": {
+   "description": "Tools for the google cloud platform",
+   "homepage": "https://cloud.google.com/sdk/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "The Google Cloud SDK. This package has the programs: gcloud, gsutil, and bq",
+   "maintainers": [
+    {
+     "email": "me@pradyuman.co",
+     "github": "pradyuman",
+     "githubId": 9904569,
+     "keys": [
+      {
+       "fingerprint": "240B 57DE 4271 2480 7CE3  EAC8 4F74 D536 1C4C A31E",
+       "longkeyid": "rsa4096/4F74D5361C4CA31E"
+      }
+     ],
+     "name": "Pradyuman Vig"
+    },
+    {
+     "email": "stephen@q5comm.com",
+     "github": "stephenmw",
+     "githubId": 231788,
+     "name": "Stephen Weinberg"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "githubId": 3248,
+     "name": "zimbatm"
+    }
+   ],
+   "name": "google-cloud-sdk",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/tools/admin/google-cloud-sdk/default.nix:97"
+  },
+  "revs": [
+   "007126eef72271480cb7670e19e501a1ad2c1ff2",
+   "007126eef72271480cb7670e19e501a1ad2c1ff2"
   ]
  },
  "315.0.0": {

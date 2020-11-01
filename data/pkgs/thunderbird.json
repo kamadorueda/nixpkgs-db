@@ -52,7 +52,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "000791e74a511f862081aff90ab27304c88f0aba"
+   "006af75c174f76a6722a22641afd6f369f5f32a8"
   ]
  },
  "17.0": {
@@ -198,7 +198,7 @@
   },
   "revs": [
    "000962c3fb53dcbe07e365875623d2d19fb4cdf6",
-   "004b8d24f603670edc1ee45ceb170cb32974088c"
+   "006a11d26e0db66bf3c1fcda74bd9062474e9624"
   ]
  },
  "2.0.0.16": {
@@ -265,6 +265,22 @@
    "004057ea50b225f0585a969510b6ec7c09eba67d"
   ]
  },
+ "3.1.2": {
+  "meta": {
+   "description": "Mozilla Thunderbird, a full-featured email client",
+   "homepage": "http://www.mozilla.com/en-US/thunderbird/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "thunderbird",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "006528b42d39183b6ad5b198b97dc5c2ab642027",
+   "006528b42d39183b6ad5b198b97dc5c2ab642027"
+  ]
+ },
  "3.1.6": {
   "meta": {
    "description": "Mozilla Thunderbird, a full-featured email client",
@@ -294,7 +310,7 @@
   },
   "revs": [
    "0026458089ed4a754f75b182b5e903f2242127cc",
-   "0026458089ed4a754f75b182b5e903f2242127cc"
+   "006c7c854a95db3497b61c3f80ba58ed29ed5d85"
   ]
  },
  "31.0": {
@@ -353,6 +369,36 @@
   "revs": [
    "00298c7bba49c3f81be4d748f5f3c903d69e0b9c",
    "002d771763e9b05cb91ab752829a90e3008451e6"
+  ]
+ },
+ "31.1.2": {
+  "meta": {
+   "description": "A full-featured e-mail client",
+   "homepage": "http://www.mozilla.org/thunderbird/",
+   "license": {
+    "fullName": "Mozilla Public License 1.1",
+    "shortName": "MPL-1.1",
+    "url": "http://spdx.org/licenses/MPL-1.1"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Nicolas B. Pierron <nixos@nbp.name>",
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "thunderbird",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/networking/mailreaders/thunderbird/default.nix:104"
+  },
+  "revs": [
+   "005bb796e68b3f69e54ab0c6bc631723eb545136",
+   "005bb796e68b3f69e54ab0c6bc631723eb545136"
   ]
  },
  "31.2.0": {
@@ -569,7 +615,7 @@
   },
   "revs": [
    "002d151ebe258a92e44e0a947b493105295b7e7f",
-   "002d151ebe258a92e44e0a947b493105295b7e7f"
+   "006c8b35cfd9a2c7f292befb5e4278d5ba399fd2"
   ]
  },
  "38.7.1": {
@@ -600,7 +646,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "002f5e24b48d047e67a79470b777bd10fa64a6c7"
+   "005dab1a7afee27358e011906231ad7eed7c4120"
   ]
  },
  "45.0": {
@@ -631,7 +677,7 @@
   },
   "revs": [
    "0051ef90def3b391f24f60a7efd141f2bdfe1f1f",
-   "0051ef90def3b391f24f60a7efd141f2bdfe1f1f"
+   "005e2148c33957df9ae7d91ade9e55cb5c6aa058"
   ]
  },
  "45.1.0": {
@@ -662,7 +708,38 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0067fa05388829050c926bded9b360ce15fb9b22"
+  ]
+ },
+ "45.1.1": {
+  "meta": {
+   "description": "A full-featured e-mail client",
+   "homepage": "http://www.mozilla.org/thunderbird/",
+   "license": {
+    "fullName": "Mozilla Public License 1.1",
+    "shortName": "mpl11",
+    "spdxId": "MPL-1.1",
+    "url": "http://spdx.org/licenses/MPL-1.1"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Nicolas B. Pierron <nixos@nbp.name>",
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "thunderbird",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/networking/mailreaders/thunderbird/default.nix:117"
+  },
+  "revs": [
+   "006f25f732243d18c177f0a4a55cb565bb6ae630",
+   "006f25f732243d18c177f0a4a55cb565bb6ae630"
   ]
  },
  "45.2.0": {
@@ -912,7 +989,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0045f932bba018345cbb2f03bb5d4d17d01850b1"
+   "007380362c5fe8b678a62f7e1ccca562a995e5d4"
   ]
  },
  "45.8.0": {
@@ -944,7 +1021,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
+   "006d9380bb31549037213c8df11b01060613a26f"
   ]
  },
  "52.0.1": {
@@ -1220,7 +1297,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "004111c27e11684d6945f82124110c5f17c1bf01"
+   "006422d08d7f0576d745baa23328e951e0f7b4c2"
   ]
  },
  "52.8.0": {
@@ -1264,7 +1341,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "0068fea88cf6d9e1efe031753f9e48a424967ef8"
   ]
  },
  "52.9.0": {
@@ -1396,7 +1473,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "002a2a8d399902acff6ea1d362ec374006858db8"
+   "005f851d8577c4d84d3de06989c235714500d96e"
   ]
  },
  "60.2.1": {
@@ -1792,7 +1869,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "0015e526c7a3a70db5055b9e68c951a21cc3519f"
+   "005c3cffc15c1f15bb72d9bef25002f8027ca1c8"
   ]
  },
  "60.6.0": {
@@ -2195,7 +2272,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "004676ce9c8275598182884c9e5a823a34eaa173"
+   "00740317ecb53f941d76edd18878a9cb04f608c9"
   ]
  },
  "68.3.0": {
@@ -2309,7 +2386,7 @@
   },
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
-   "00482247e1a649194dc66ac264c5532a3ef9a9a4"
+   "00610756df9a235f2de907a18cd8fded638d24e0"
   ]
  },
  "68.4.2": {
@@ -2480,7 +2557,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "002b16d965bf4e097167a2077566299e5e96ab2e"
+   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
   ]
  },
  "68.7.0": {
@@ -2810,7 +2887,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "001334b47c6cdfc35e94805380484e75004cdbf5"
+   "006e716e79dba72df07d2d52580e883f13b525ea"
   ]
  },
  "78.3.2": {
