@@ -8,9 +8,13 @@ const renderers = {
   break: () => <br />,
   heading: (props) => React.createElement("h".concat(props.level + 1), {}, props.children),
   code: (props) => (
-    <SyntaxHighlighter language={props.language} style={style}>
-      {props.value}
-    </SyntaxHighlighter>
+    <React.Fragment>
+      <hr />
+      <SyntaxHighlighter language={props.language} style={style}>
+        {props.value}
+      </SyntaxHighlighter>
+      <hr />
+    </React.Fragment>
   )
   // paragraph: (props) => <p>{props.children}</p>,
   // emphasis: (props) => <em>{props.children}</em>,
