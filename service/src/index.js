@@ -52,7 +52,12 @@ const Root = () => (
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="https://github.com/kamadorueda/nixpkgs-db">
-                  Source Code
+                  Source
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="https://www.patreon.com/kamadorueda">
+                  Sponsor
                 </Nav.Link>
               </Nav.Item>
             </Nav>

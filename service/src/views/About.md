@@ -33,9 +33,8 @@ $ nix-env -q --available --description | grep helm
   helm-3.3.4  A package manager for kubernetes
 ```
 
-Problem is that nix-channels usually offer a single version of a package.
-
-So ¿What to do?
+Problem is that nix-channels usually offer a single version of a package,
+so ¿What to do?
 
 Sadly,
 there is no native way of searching the Nix history for all versions of a package.
