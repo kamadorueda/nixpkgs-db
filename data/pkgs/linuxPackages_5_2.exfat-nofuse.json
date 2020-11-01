@@ -153,6 +153,45 @@
    "02aad1f3734a986928dd5fcc622b62725c659690"
   ]
  },
+ "2018-04-16-5.2.13": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/dorimanx/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:40"
+  },
+  "revs": [
+   "03dcb3dee477df2764b15697fece1549c8450af2",
+   "03dcb3dee477df2764b15697fece1549c8450af2"
+  ]
+ },
  "2018-04-16-5.2.15": {
   "meta": {
    "description": "exfat kernel module",
@@ -266,7 +305,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "0300fc5cf2c59f8dafe8acf8897d270bd3fa8790"
+   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
   ]
  },
  "2018-04-16-5.2.21": {

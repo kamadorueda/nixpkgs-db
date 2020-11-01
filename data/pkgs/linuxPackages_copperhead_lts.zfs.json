@@ -866,7 +866,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "0262431889319d92ffd926cee79e00b00d85219e"
+   "03d49258f67041c58f7941c50542dd2550730fa0"
   ]
  },
  "0.7.9-4.14.56": {
@@ -1272,7 +1272,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "030760a99441a0f9057cb95a6fa6eef22f1c7985"
+   "03eebd770c1dc311e1364361626d2392e34a529a"
   ]
  },
  "0.7.9-4.14.63": {
@@ -1795,6 +1795,64 @@
   "revs": [
    "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
    "036164bd637d848620e20786e86cf9d8e902a9db"
+  ]
+ },
+ "0.7.9-4.14.85": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:133"
+  },
+  "revs": [
+   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2",
+   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  }
 }

@@ -674,7 +674,7 @@
   },
   "revs": [
    "002ad2e561109446ac729ec07556a05c20564e15",
-   "012e05a9945cba6b5895231dc00a59d2e1e36b9f"
+   "03ec02a89e510f1948840f95a59bcafa3fedae28"
   ]
  },
  "2.10.5-4.14.112": {
@@ -1883,7 +1883,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "019c13616b512d0f8b3bd3e5e17356401a8e4457"
+   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
   ]
  },
  "2.10.5-4.14.135": {
@@ -2250,6 +2250,59 @@
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
    "02aad1f3734a986928dd5fcc622b62725c659690"
+  ]
+ },
+ "2.10.5-4.14.142": {
+  "meta": {
+   "description": "Linux kernel modules for LTTng tracing",
+   "homepage": "https://lttng.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "lttng-modules",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/lttng-modules/default.nix:29"
+  },
+  "revs": [
+   "03dcb3dee477df2764b15697fece1549c8450af2",
+   "03dcb3dee477df2764b15697fece1549c8450af2"
   ]
  },
  "2.10.5-4.14.145": {
@@ -2994,7 +3047,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
+   "03ffda3d1e5db136543f4d5c1aa196bb8cd93774"
   ]
  },
  "2.10.5-4.14.17": {

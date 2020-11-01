@@ -542,7 +542,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "0394b177c709c869f9bf34fc3aa10b4e4d2bc121"
+   "03f0e463c105c2c729ba80b349028bc80e68bca9"
   ]
  },
  "4.4.176-8.046.00": {
@@ -1122,6 +1122,45 @@
    "02aad1f3734a986928dd5fcc622b62725c659690"
   ]
  },
+ "4.4.191-8.046.00": {
+  "meta": {
+   "description": "Realtek r8168 driver",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A kernel module for Realtek 8168 network cards.\nIf you want to use this driver, you might need to blacklist the r8169 driver\nby adding \"r8169\" to boot.blacklistedKernelModules.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "r8168",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/r8168/default.nix:46"
+  },
+  "revs": [
+   "03dcb3dee477df2764b15697fece1549c8450af2",
+   "03dcb3dee477df2764b15697fece1549c8450af2"
+  ]
+ },
  "4.4.193-8.046.00": {
   "meta": {
    "description": "Realtek r8168 driver",
@@ -1477,7 +1516,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "017926a8b3e8a3daa49313ec5520cce7fc20569e"
+   "03f246620d2e6cf5fa47b44b43c35bcc7aaaebde"
   ]
  },
  "4.4.213-8.047.04": {

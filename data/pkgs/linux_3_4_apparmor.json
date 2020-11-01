@@ -130,7 +130,7 @@
   },
   "revs": [
    "0180e2aa0a4e8d3da0c10c310a00be3af1904563",
-   "0180e2aa0a4e8d3da0c10c310a00be3af1904563"
+   "03c9a1fb337c10fbf5a5e0287b5c6a340efd8b0a"
   ]
  },
  "3.4.60": {
@@ -261,6 +261,32 @@
   "revs": [
    "00f380dee5c395704b8b83c462d0d735ff0e810e",
    "00f380dee5c395704b8b83c462d0d735ff0e810e"
+  ]
+ },
+ "3.4.66": {
+  "meta": {
+   "description": "The Linux kernel (with patches: apparmor-3.4)",
+   "homepage": "http://www.kernel.org/",
+   "license": "GPLv2",
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "03e1178f805455578819752caa1a9420728eec08",
+   "03e1178f805455578819752caa1a9420728eec08"
   ]
  },
  "3.4.67": {
@@ -532,7 +558,7 @@
   },
   "revs": [
    "012006bd961a0255ee5107a04c937dba7ebc5830",
-   "012006bd961a0255ee5107a04c937dba7ebc5830"
+   "03ee174032530af70b3deb278cd37c393dcaf096"
   ]
  },
  "3.4.79": {
@@ -730,7 +756,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "00af817900763a995ba66d4732c44bd028934fca"
+   "03cc78bbde687ce116e250d421c8d1a312283e87"
   ]
  },
  "3.4.89": {
@@ -781,6 +807,31 @@
   "revs": [
    "00312d90b9ae42ae383174fcb6b4760d009606ed",
    "0276eb144c1625624c60a6fb105731c3c300f178"
+  ]
+ },
+ "3.4.91": {
+  "meta": {
+   "description": "The Linux kernel (with patches: apparmor-3.4)",
+   "homepage": "http://www.kernel.org/",
+   "license": "GPLv2",
+   "long_description": "",
+   "maintainers": [
+    "Shea Levy <shea@shealevy.com>",
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:195"
+  },
+  "revs": [
+   "03f1e336c786ba4099a1173ef005558583ecf389",
+   "03f1e336c786ba4099a1173ef005558583ecf389"
   ]
  }
 }

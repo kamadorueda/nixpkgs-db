@@ -360,7 +360,7 @@
   },
   "revs": [
    "002ad2e561109446ac729ec07556a05c20564e15",
-   "012e05a9945cba6b5895231dc00a59d2e1e36b9f"
+   "03ec02a89e510f1948840f95a59bcafa3fedae28"
   ]
  },
  "15.12-4.14.112": {
@@ -1492,7 +1492,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "019c13616b512d0f8b3bd3e5e17356401a8e4457"
+   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
   ]
  },
  "15.12-4.14.135": {
@@ -1861,6 +1861,59 @@
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
    "02aad1f3734a986928dd5fcc622b62725c659690"
+  ]
+ },
+ "15.12-4.14.142": {
+  "meta": {
+   "description": "ATI Catalyst display drivers",
+   "homepage": "http://support.amd.com/us/gpudownload/Pages/index.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco-oweber@gmx.de",
+     "github": "marcweber",
+     "name": "Marc Weber"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "github@matt.mchenryfamily.org",
+     "github": "jerith666",
+     "name": "Matt McHenry"
+    }
+   ],
+   "name": "ati-drivers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ati-drivers/default.nix:130"
+  },
+  "revs": [
+   "03dcb3dee477df2764b15697fece1549c8450af2",
+   "03dcb3dee477df2764b15697fece1549c8450af2"
   ]
  },
  "15.12-4.14.145": {
@@ -2593,7 +2646,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
+   "03ffda3d1e5db136543f4d5c1aa196bb8cd93774"
   ]
  },
  "15.12-4.14.17": {

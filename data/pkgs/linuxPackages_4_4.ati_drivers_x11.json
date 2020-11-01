@@ -1477,7 +1477,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "0262431889319d92ffd926cee79e00b00d85219e"
+   "03d49258f67041c58f7941c50542dd2550730fa0"
   ]
  },
  "15.12-4.4.141": {
@@ -1848,7 +1848,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "030760a99441a0f9057cb95a6fa6eef22f1c7985"
+   "03eebd770c1dc311e1364361626d2392e34a529a"
   ]
  },
  "15.12-4.4.148": {
@@ -2855,7 +2855,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
  "15.12-4.4.167": {
@@ -3332,7 +3332,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "0394b177c709c869f9bf34fc3aa10b4e4d2bc121"
+   "03f0e463c105c2c729ba80b349028bc80e68bca9"
   ]
  },
  "15.12-4.4.176": {
@@ -4064,6 +4064,59 @@
    "02aad1f3734a986928dd5fcc622b62725c659690"
   ]
  },
+ "15.12-4.4.191": {
+  "meta": {
+   "description": "ATI Catalyst display drivers",
+   "homepage": "http://support.amd.com/us/gpudownload/Pages/index.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco-oweber@gmx.de",
+     "github": "marcweber",
+     "name": "Marc Weber"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "github@matt.mchenryfamily.org",
+     "github": "jerith666",
+     "name": "Matt McHenry"
+    }
+   ],
+   "name": "ati-drivers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ati-drivers/default.nix:130"
+  },
+  "revs": [
+   "03dcb3dee477df2764b15697fece1549c8450af2",
+   "03dcb3dee477df2764b15697fece1549c8450af2"
+  ]
+ },
  "15.12-4.4.193": {
   "meta": {
    "description": "ATI Catalyst display drivers",
@@ -4524,7 +4577,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "017926a8b3e8a3daa49313ec5520cce7fc20569e"
+   "03f246620d2e6cf5fa47b44b43c35bcc7aaaebde"
   ]
  },
  "15.12-4.4.213": {

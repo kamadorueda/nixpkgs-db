@@ -119,7 +119,7 @@
   },
   "revs": [
    "00db6a67f1a0d4b1604b050397115f9bb41727af",
-   "03bdf8f03cbc9157bd04aa786d366bdbb2acd234"
+   "03df731fb5cb318592382e33928504a52e894746"
   ]
  },
  "2016-03-24": {
@@ -1181,7 +1181,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "036164bd637d848620e20786e86cf9d8e902a9db"
+   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
  "2018-09-03": {
@@ -1997,7 +1997,7 @@
   },
   "revs": [
    "0073c1fb0b4d230a305f703f2e2056b432c64cf6",
-   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
+   "03d6c406fc6ac48a04cb6d290eca7ea7136cbdc4"
   ]
  },
  "2019-06-08": {
@@ -2519,7 +2519,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "019c13616b512d0f8b3bd3e5e17356401a8e4457"
+   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
   ]
  },
  "2019-07-31": {
@@ -3462,7 +3462,7 @@
   },
   "revs": [
    "0036573d305dc724ad3acd8f6a406bc6113866cc",
-   "01852d5b8be26b91be590621fcf3dfeafdbad2e8"
+   "03f246620d2e6cf5fa47b44b43c35bcc7aaaebde"
   ]
  },
  "2020-02-04": {
@@ -3536,7 +3536,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
+   "03ffda3d1e5db136543f4d5c1aa196bb8cd93774"
   ]
  },
  "2020-02-07": {
@@ -3833,7 +3833,7 @@
   },
   "revs": [
    "00bd95722590ec718ca53b95a6ad544189e42d42",
-   "00bd95722590ec718ca53b95a6ad544189e42d42"
+   "03fbecff083adf7bf2063b5e46b9ef251aec60be"
   ]
  },
  "2020-02-28": {
@@ -3907,7 +3907,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "035a65d074074a6f30514093b4dde6ed6ce08aed"
+   "03ed5af8596c4729708b6c0536bd2fd670bd514b"
   ]
  },
  "2020-03-02": {
@@ -3981,7 +3981,7 @@
   },
   "revs": [
    "01e352ac449d51480ca4750f5637bc7ad156ceb4",
-   "01e352ac449d51480ca4750f5637bc7ad156ceb4"
+   "03f3d67e94d11e58204178f04b46478277c2432f"
   ]
  },
  "2020-03-03": {
@@ -7697,7 +7697,7 @@
   },
   "revs": [
    "0051c0a4a506f5b21e5923a873fbc91a107e1300",
-   "01fed03489631636e90b1d376fbfc194d93622fd"
+   "040059b5d5b6db5def40be2d797188c89bd585b6"
   ]
  },
  "2020-09-20": {
@@ -8014,6 +8014,85 @@
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
    "0331c39d4e5b7a285b7336bc7c206ab125d32bc3"
+  ]
+ },
+ "2020-10-08": {
+  "meta": {
+   "description": "A framework for managing your zsh configuration",
+   "homepage": "https://ohmyz.sh/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Oh My Zsh is a framework for managing your zsh configuration.\n\nTo copy the Oh My Zsh configuration file to your home directory, run\nthe following command:\n\n  $ cp -v $(nix-env -q --out-path oh-my-zsh | cut -d' ' -f3)/share/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc\n",
+   "maintainers": [
+    {
+     "email": "sivanov@colimite.fr",
+     "github": "scolobb",
+     "githubId": 11320,
+     "name": "Sergiu Ivanov"
+    },
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "githubId": 628342,
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "oh-my-zsh",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/shells/zsh/oh-my-zsh/default.nix:69"
+  },
+  "revs": [
+   "03c9f6a647b45bf8d9b03094c43ba0467269fba4",
+   "03c9f6a647b45bf8d9b03094c43ba0467269fba4"
   ]
  },
  "2020-10-09": {
