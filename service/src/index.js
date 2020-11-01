@@ -8,9 +8,10 @@ import {
   Row,
 } from 'react-bootstrap';
 import {
-  BrowserRouter as Router,
-  Switch,
+  HashRouter,
+  Link,
   Route,
+  Switch,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +19,7 @@ import { Search } from './views/Search';
 
 const Root = () => (
   <React.Fragment>
-    <Router>
+    <HashRouter>
       <Navbar>
         <Navbar.Brand>
           <h1>Nixpkgs Database!</h1>
@@ -31,31 +32,31 @@ const Root = () => (
           <Col sm={12}>
             <Nav variant="tabs">
               <Nav.Item>
-                <Nav.Link href="/nixpkgs-db">Search</Nav.Link>
+                <Nav.Link>
+                  <Link to="/">Search</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/nixpkgs-db/about">About</Nav.Link>
+                <Nav.Link>
+                  <Link to="/about">About</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/nixpkgs-db/contributing">Contributing</Nav.Link>
+                <Nav.Link>
+                  <Link to="/contributing">Contributing</Link>
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
         </Row>
         <br />
         <Switch>
-          <Route exact={true} path="/nixpkgs-db">
-            <Search />
-          </Route>
-          <Route exact={true} path="/nixpkgs-db/about">
-            ...
-          </Route>
-          <Route exact={true} path="/nixpkgs-db/contributing">
-            ...
-          </Route>
+          <Route exact={true} path="/" component={Search} />
+          <Route exact={true} path="/about">...</Route>
+          <Route exact={true} path="/contributing">...</Route>
         </Switch>
       </Container>
-    </Router>
+    </HashRouter>
   </React.Fragment>
 );
 
