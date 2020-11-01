@@ -95,6 +95,102 @@
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
+ "1.8.6": {
+  "meta": {
+   "description": "A tool that helps controlling nvim processes from a terminal",
+   "homepage": "https://github.com/mhinz/neovim-remote/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nixos@edanaher.net",
+     "github": "edanaher",
+     "name": "Evan Danaher"
+    }
+   ],
+   "name": "python3.6-neovim-remote",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/neovim/neovim-remote.nix:20"
+  },
+  "revs": [
+   "0450c7f5f3b197a27e3d75544ec062adc46ef47e",
+   "0450c7f5f3b197a27e3d75544ec062adc46ef47e"
+  ]
+ },
  "2.0.5": {
   "meta": {
    "description": "A tool that helps controlling nvim processes from a terminal",

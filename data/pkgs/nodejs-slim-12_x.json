@@ -1,4 +1,63 @@
 {
+ "12.0.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "name": "Christine Koppelt"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/web/nodejs/v12.nix:8"
+  },
+  "revs": [
+   "042a01efbff62c99d4c39c7a185e258db5306335",
+   "042a01efbff62c99d4c39c7a185e258db5306335"
+  ]
+ },
  "12.1.0": {
   "meta": {
    "description": "Event-driven I/O framework for the V8 JavaScript engine",

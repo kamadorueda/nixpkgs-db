@@ -603,7 +603,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
+   "0406721734fbf8fa28950911ca00edf09032b8ee"
   ]
  },
  "18.08.0": {
@@ -1031,6 +1031,91 @@
    "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
+ "19.04.0": {
+  "meta": {
+   "description": "A Qt GUI to visualize profiling data",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "theopompos@gmail.com",
+     "github": "periklis",
+     "name": "Periklis Tsirakidis"
+    }
+   ],
+   "name": "qcachegrind",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/analysis/qcachegrind/default.nix:35"
+  },
+  "revs": [
+   "044cd208b7507afc4d086493de392c35dfb88298",
+   "044cd208b7507afc4d086493de392c35dfb88298"
+  ]
+ },
  "19.04.1": {
   "meta": {
    "description": "A Qt GUI to visualize profiling data",
@@ -1396,7 +1481,7 @@
   },
   "revs": [
    "008f45f5916dd0fe3d9a591833fb92dce92dc777",
-   "038e86ffbb76bd54b922e68f5514102e36bec96b"
+   "041bf6e6ba377fc41601a6b73063acd480927430"
   ]
  },
  "20.08.1": {

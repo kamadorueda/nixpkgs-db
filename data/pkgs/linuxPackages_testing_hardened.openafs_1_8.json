@@ -84,7 +84,51 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "03a19a19d9b72738d7b8885759875b2387e25245"
+   "04169f4c3cb27c82997c451ee03704e2ec8a4771"
+  ]
+ },
+ "1.8.0-4.19-rc8": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "043ed2ee6b172ae15f23fced1d99cc58d703044b",
+   "043ed2ee6b172ae15f23fced1d99cc58d703044b"
   ]
  },
  "1.8.2-4.19.0-rc8": {
@@ -216,7 +260,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "030eda93950754ca9b31e1ab0e1f700afbf0ec6b"
+   "042e81ae533b38bfa3f7cace6090c4638a63876f"
   ]
  },
  "1.8.2-4.20.0-rc3": {
@@ -524,7 +568,7 @@
   },
   "revs": [
    "003132c2dd95110a30fc7b28dc71d77ca11d6298",
-   "003132c2dd95110a30fc7b28dc71d77ca11d6298"
+   "0450d28a1ef6610654de845c40504dd1b9951870"
   ]
  },
  "1.8.2-5.0.0-rc3": {
@@ -1096,7 +1140,7 @@
   },
   "revs": [
    "00361eece32480071fab54bf53d57b8d81dd57f5",
-   "01d805a432048c8f7da870e971c7993781761c9d"
+   "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
   ]
  },
  "1.8.3-5.1.0-rc7": {
@@ -1532,7 +1576,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "02f92455c43d229cb53c7c65018fdab15632d98f"
+   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
   ]
  },
  "1.8.5-5.5.0-rc3-hardened": {

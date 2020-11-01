@@ -1,4 +1,20 @@
 {
+ "1.1.23": {
+  "meta": {
+   "description": "The GNU Transport Layer Security Library",
+   "homepage": "http://www.gnu.org/software/gnutls/",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "gnutls",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "04698c55dad5a88baa53af0712965fa027875bf7",
+   "04698c55dad5a88baa53af0712965fa027875bf7"
+  ]
+ },
  "2.1.5": {
   "meta": {
    "description": "The GNU Transport Layer Security Library",
@@ -192,7 +208,7 @@
   },
   "revs": [
    "0026458089ed4a754f75b182b5e903f2242127cc",
-   "01d9831f4b0f49fb8bb0ec49b91ba47c2f7eda4e"
+   "0466e94091803a2b67dd710e0a6b6becf5074e7c"
   ]
  },
  "2.4.1": {
@@ -326,7 +342,7 @@
   },
   "revs": [
    "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
-   "026aa52fdd5193d0290a111b0ddde6ba8c91901d"
+   "04082d00f31043ef0971ca106d4244dccdb62d87"
   ]
  },
  "3.0.1": {
@@ -578,7 +594,7 @@
   },
   "revs": [
    "003b4a099746077305e5281735b95a3781a84460",
-   "01fc3e5153e0dd3dea3318f52bd52bdc0a1e11d0"
+   "042f85cdd0586da8b7649f48389e6ac607c8b416"
   ]
  },
  "3.2.12.1": {
@@ -642,7 +658,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "01dfd5a44a1e787ed3b1deafef482376141c27df"
+   "0420a025e3d702df17a672f36627d32b488b4bfc"
   ]
  },
  "3.2.17": {
@@ -716,7 +732,7 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "01e9dfb44988ca0d205582e914c4249abb4253de"
+   "0449962869a473d546da9aee34d0c10da34308fe"
   ]
  },
  "3.2.21": {
@@ -946,7 +962,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "031b32104c84cac9fc168be5eeb8fd60a34e253d"
+   "04403e4c67fb89dd12b93902c3cbd37171d6690b"
   ]
  },
  "3.4.13": {
@@ -987,7 +1003,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "018c04c7acae57081a3f88b87c60e7481e0bd0ae"
+   "044ceae2806480555a44c91c386546cffb46ba74"
   ]
  },
  "3.4.14": {
@@ -1028,7 +1044,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "00428231f8f4a454a832e4d0cedea148951e93c4"
+   "0468ae176ea2da2923fa2c107a95b6b7cb18a11c"
   ]
  },
  "3.4.15": {
@@ -2110,6 +2126,45 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "3.6.5": {
+  "meta": {
+   "description": "The GNU Transport Layer Security Library",
+   "homepage": "https://www.gnu.org/software/gnutls/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "GnuTLS is a project that aims to develop a library which\nprovides a secure layer, over a reliable transport\nlayer. Currently the GnuTLS library implements the proposed standards by\nthe IETF's TLS working group.\n\nQuoting from the TLS protocol specification:\n\n\"The TLS protocol provides communications privacy over the\nInternet. The protocol allows client/server applications to\ncommunicate in a way that is designed to prevent eavesdropping,\ntampering, or message forgery.\"\n",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "gnutls",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/gnutls/generic.nix:69"
+  },
+  "revs": [
+   "0450d28a1ef6610654de845c40504dd1b9951870",
+   "0450d28a1ef6610654de845c40504dd1b9951870"
   ]
  },
  "3.6.6": {

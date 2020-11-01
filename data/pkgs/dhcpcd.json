@@ -153,7 +153,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "037f300184dd2a52399f9b75421e2374d36ab39a"
+   "044ceae2806480555a44c91c386546cffb46ba74"
   ]
  },
  "6.11.3": {
@@ -266,7 +266,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "01dfd5a44a1e787ed3b1deafef482376141c27df"
+   "0420a025e3d702df17a672f36627d32b488b4bfc"
   ]
  },
  "6.4.0": {
@@ -413,7 +413,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "02fdd3840081ffa9f3178a8ddd7ce72d505d3851"
+   "0449962869a473d546da9aee34d0c10da34308fe"
   ]
  },
  "6.6.7": {
@@ -463,7 +463,7 @@
   },
   "revs": [
    "032859faba7174ef69f96b53bc07d544fba5e871",
-   "032859faba7174ef69f96b53bc07d544fba5e871"
+   "041e3b46adde5404a568b6476f2648aa58cda12c"
   ]
  },
  "6.8.1": {
@@ -613,7 +613,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "01f2389e2d07a63815a9666748b04e15e04c6d98"
+   "043227980573481e49b3a51667268879c3fd094b"
   ]
  },
  "7.0.1": {
@@ -735,6 +735,56 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "7.2.0": {
+  "meta": {
+   "description": "A client for the Dynamic Host Configuration Protocol (DHCP)",
+   "homepage": "https://roy.marples.name/projects/dhcpcd",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "dhcpcd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/dhcpcd/default.nix:40"
+  },
+  "revs": [
+   "042a01efbff62c99d4c39c7a185e258db5306335",
+   "042a01efbff62c99d4c39c7a185e258db5306335"
   ]
  },
  "7.2.1": {
@@ -934,7 +984,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "02f92455c43d229cb53c7c65018fdab15632d98f"
+   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
   ]
  },
  "8.1.4": {
