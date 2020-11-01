@@ -56,6 +56,337 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.0.20181222": {
+  "meta": {
+   "description": "Userspace Go implementation of WireGuard",
+   "homepage": "https://git.zx2c4.com/wireguard-go/about/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elseym@me.com",
+     "github": "elseym",
+     "name": "Simon Waibl"
+    },
+    {
+     "email": "kirelagin@gmail.com",
+     "github": "kirelagin",
+     "name": "Kirill Elagin"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "name": "Yegor Timoshenko"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "wireguard-go",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/wireguard-go/default.nix:17"
+  },
+  "revs": [
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "0.0.20190517": {
+  "meta": {
+   "description": "Userspace Go implementation of WireGuard",
+   "homepage": "https://git.zx2c4.com/wireguard-go/about/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elseym@me.com",
+     "github": "elseym",
+     "name": "Simon Waibl"
+    },
+    {
+     "email": "kirelagin@gmail.com",
+     "github": "kirelagin",
+     "name": "Kirill Elagin"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "name": "Yegor Timoshenko"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "wireguard-go",
+   "platforms": [
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/tools/networking/wireguard-go/default.nix:19"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
+ "0.0.20190908": {
+  "meta": {
+   "description": "Userspace Go implementation of WireGuard",
+   "homepage": "https://git.zx2c4.com/wireguard-go/about/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elseym@me.com",
+     "github": "elseym",
+     "githubId": 907478,
+     "name": "Simon Waibl"
+    },
+    {
+     "email": "kirelagin@gmail.com",
+     "github": "kirelagin",
+     "githubId": 451835,
+     "name": "Kirill Elagin"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "githubId": 1643293,
+     "name": "Yegor Timoshenko"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "githubId": 10643,
+     "name": "Jason A. Donenfeld"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "wireguard-go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/networking/wireguard-go/default.nix:19"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "0.0.20191012": {
+  "meta": {
+   "description": "Userspace Go implementation of WireGuard",
+   "homepage": "https://git.zx2c4.com/wireguard-go/about/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elseym@me.com",
+     "github": "elseym",
+     "githubId": 907478,
+     "name": "Simon Waibl"
+    },
+    {
+     "email": "kirelagin@gmail.com",
+     "github": "kirelagin",
+     "githubId": 451835,
+     "name": "Kirill Elagin"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "githubId": 1643293,
+     "name": "Yegor Timoshenko"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "githubId": 10643,
+     "name": "Jason A. Donenfeld"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "wireguard-go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/networking/wireguard-go/default.nix:25"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "0.0.20200121": {
+  "meta": {
+   "description": "Userspace Go implementation of WireGuard",
+   "homepage": "https://git.zx2c4.com/wireguard-go/about/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elseym@me.com",
+     "github": "elseym",
+     "githubId": 907478,
+     "name": "Simon Waibl"
+    },
+    {
+     "email": "kirelagin@gmail.com",
+     "github": "kirelagin",
+     "githubId": 451835,
+     "name": "Kirill Elagin"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "githubId": 1643293,
+     "name": "Yegor Timoshenko"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "githubId": 10643,
+     "name": "Jason A. Donenfeld"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "wireguard-go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/networking/wireguard-go/default.nix:21"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+  ]
+ },
  "0.0.20200320": {
   "meta": {
    "description": "Userspace Go implementation of WireGuard",
@@ -115,7 +446,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

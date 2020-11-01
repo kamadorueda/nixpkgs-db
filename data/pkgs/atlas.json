@@ -1,4 +1,24 @@
 {
+ "3.10.1": {
+  "meta": {
+   "description": "Automatically Tuned Linear Algebra Software (ATLAS)",
+   "homepage": "http://math-atlas.sourceforge.net/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "The ATLAS (Automatically Tuned Linear Algebra Software) project is an ongoing\nresearch effort focusing on applying empirical techniques in order to provide\nportable performance. At present, it provides C and Fortran77 interfaces to a\nportably efficient BLAS implementation, as well as a few routines from LAPACK.\n",
+   "maintainers": [],
+   "name": "atlas",
+   "platforms": null,
+   "position": "pkgs/development/libraries/science/math/atlas/default.nix:61"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
  "3.10.2": {
   "meta": {
    "description": "Automatically Tuned Linear Algebra Software (ATLAS)",
@@ -26,7 +46,108 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "3.10.3": {
+  "meta": {
+   "description": "Automatically Tuned Linear Algebra Software (ATLAS)",
+   "homepage": "http://math-atlas.sourceforge.net/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "The ATLAS (Automatically Tuned Linear Algebra Software) project is an\nongoing research effort focusing on applying empirical techniques in\norder to provide portable performance. At present, it provides C and\nFortran77 interfaces to a portably efficient BLAS implementation, as well\nas a few routines from LAPACK.\n",
+   "maintainers": [
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "atlas",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/science/math/atlas/default.nix:111"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "3.8.2": {
+  "meta": {
+   "description": "Atlas library",
+   "homepage": "http://math-atlas.sourceforge.net/",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "atlas",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "000ba6536350b58079484fc64b467ec227e73e26"
   ]
  },
  "3.9.11": {
@@ -42,7 +163,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
+   "0009c1f650ba619de97df36322fbd0346db0c099"
   ]
  },
  "3.9.67": {
@@ -58,7 +179,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "00258a362d6d9571d1e16524c5ee17fe0ef824a2"
   ]
  }
 }

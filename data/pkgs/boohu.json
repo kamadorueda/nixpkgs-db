@@ -1,4 +1,98 @@
 {
+ "0.10.0": {
+  "meta": {
+   "description": "A new roguelike game",
+   "homepage": "https://download.tuxfamily.org/boohu/index.html",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "Break Out Of Hareka's Underground (Boohu) is a roguelike game mainly\ninspired from DCSS and its tavern, with some ideas from Brogue, but\naiming for very short games, almost no character building, and a\nsimplified inventory.\n",
+   "maintainers": [
+    {
+     "email": "freepotion@protonmail.com",
+     "github": "freepotion",
+     "name": "Free Potion"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "boohu",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/games/boohu/default.nix:20"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+  ]
+ },
  "0.11.1": {
   "meta": {
    "description": "A new roguelike game",
@@ -237,7 +331,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

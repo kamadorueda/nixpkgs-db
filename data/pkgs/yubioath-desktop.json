@@ -19,7 +19,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "4.3.4": {
@@ -53,6 +53,139 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "4.3.6": {
+  "meta": {
+   "description": "Yubikey Desktop Authenticator",
+   "homepage": "https://www.yubico.com/support/knowledge-base/categories/articles/yubico-authenticator-download/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "yubioath-desktop",
+   "platforms": null,
+   "position": "pkgs/applications/misc/yubioath-desktop/default.nix:50"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "5.0.2": {
+  "meta": {
+   "description": "Yubico Authenticator",
+   "homepage": "https://developers.yubico.com/yubioath-desktop",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "Application for generating Open Authentication (OATH) time-based TOTP and\nevent-based HOTP one-time password codes, with the help of a YubiKey that\nprotects the shared secrets.\n",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "marc.schmitt@risson.space",
+     "github": "rissson",
+     "githubId": 18313093,
+     "keys": [
+      {
+       "fingerprint": "8A0E 6A7C 08AB B9DE 67DE  2A13 F6FD 87B1 5C26 3EC9",
+       "longkeyid": "rsa4096/0xF6FD87B15C263EC9"
+      },
+      {
+       "fingerprint": "C0A7 A9BB 115B C857 4D75  EA99 BBB7 A680 1DF1 E03F",
+       "longkeyid": "ed25519/0xBBB7A6801DF1E03F"
+      }
+     ],
+     "name": "Marc Schmitt"
+    }
+   ],
+   "name": "yubioath-desktop",
+   "platforms": null,
+   "position": "pkgs/applications/misc/yubioath-desktop/default.nix:51"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+  ]
+ },
+ "5.0.3": {
+  "meta": {
+   "description": "Yubico Authenticator",
+   "homepage": "https://developers.yubico.com/yubioath-desktop",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "Application for generating Open Authentication (OATH) time-based TOTP and\nevent-based HOTP one-time password codes, with the help of a YubiKey that\nprotects the shared secrets.\n",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "marc.schmitt@risson.space",
+     "github": "rissson",
+     "githubId": 18313093,
+     "keys": [
+      {
+       "fingerprint": "8A0E 6A7C 08AB B9DE 67DE  2A13 F6FD 87B1 5C26 3EC9",
+       "longkeyid": "rsa4096/0xF6FD87B15C263EC9"
+      },
+      {
+       "fingerprint": "C0A7 A9BB 115B C857 4D75  EA99 BBB7 A680 1DF1 E03F",
+       "longkeyid": "ed25519/0xBBB7A6801DF1E03F"
+      }
+     ],
+     "name": "Marc Schmitt"
+    }
+   ],
+   "name": "yubioath-desktop",
+   "platforms": null,
+   "position": "pkgs/applications/misc/yubioath-desktop/default.nix:51"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "0010ae4960d35243e7abb046cd26ddda904a4c63"
   ]
  },
  "5.0.4": {
@@ -102,7 +235,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

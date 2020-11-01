@@ -12,7 +12,84 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "001fb53524b030427c0c0c5460910f667bd85e0a"
+  ]
+ },
+ "0.25-rc1-107-96c6fa2": {
+  "meta": {
+   "description": "efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [],
+   "name": "bup",
+   "platforms": null,
+   "position": "pkgs/tools/backup/bup/default.nix:50"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "000c24a43fef598f04cc9435de09a818dfedfdba"
+  ]
+ },
+ "0.25-rc1-107-g96c6fa2": {
+  "meta": {
+   "description": "efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": "GPLv2+",
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "bup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
+ "0.25git20120722": {
+  "meta": {
+   "description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "homepage": "https://github.com/apenwarr/bup",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "bup",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "0.25git20121224": {
+  "meta": {
+   "description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "homepage": "https://github.com/bup/bup",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "bup",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "00251af1911f4b7c8f19b832a288fec737a8aa99",
+   "00251af1911f4b7c8f19b832a288fec737a8aa99"
   ]
  },
  "0.26": {
@@ -35,7 +112,117 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "0.28.1": {
+  "meta": {
+   "description": "Efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [
+    "Stefan Dorn <mail@muflax.com>"
+   ],
+   "name": "bup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/backup/bup/default.nix:53"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "00105162f413ea8e8a419da0fc5b556e3737e82f"
+  ]
+ },
+ "0.29": {
+  "meta": {
+   "description": "Efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [
+    "Stefan Dorn <mail@muflax.com>"
+   ],
+   "name": "bup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/backup/bup/default.nix:53"
+  },
+  "revs": [
+   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
+   "0018cd5a2ddd858f78cffd0bd8a2412d5b507088"
+  ]
+ },
+ "0.29.1": {
+  "meta": {
+   "description": "Efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [
+    {
+     "email": "mail@muflax.com",
+     "github": "muflax",
+     "name": "Stefan Dorn"
+    }
+   ],
+   "name": "bup",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/backup/bup/default.nix:54"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "0.29.2": {
@@ -87,6 +274,50 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.30": {
+  "meta": {
+   "description": "Efficient file backup system based on the git packfile format",
+   "homepage": "https://github.com/bup/bup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Highly efficient file backup system based on the git packfile format.\nCapable of doing *fast* incremental backups of virtual machine images.\n",
+   "maintainers": [
+    {
+     "email": "mail@muflax.com",
+     "github": "muflax",
+     "githubId": 69918,
+     "name": "Stefan Dorn"
+    }
+   ],
+   "name": "bup",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/backup/bup/default.nix:55"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "0.30.1": {
   "meta": {
    "description": "Efficient file backup system based on the git packfile format",
@@ -128,7 +359,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
   ]
  },
  "0.31": {
@@ -172,7 +403,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

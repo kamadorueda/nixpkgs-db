@@ -1,4 +1,51 @@
 {
+ "3.0.2": {
+  "meta": {
+   "description": "A open source visual database applications creator, a long-awaited competitor for programs like MS Access or Filemaker",
+   "homepage": "http://kexi-project.org/",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2",
+     "spdxId": "LGPL-2.0",
+     "url": "http://spdx.org/licenses/LGPL-2.0.html"
+    }
+   ],
+   "long_description": "Kexi is a visual database applications creator.\nIt can be used for creating database schemas,\ninserting data, performing queries, and processing data.\nForms can be created to provide a custom interface to your data.\nAll database objects - tables, queries and forms - are stored in the database,\nmaking it easy to share data and design.\n",
+   "maintainers": [
+    {
+     "email": "zraexy@gmail.com",
+     "github": "zraexy",
+     "name": "David Mell"
+    }
+   ],
+   "name": "kexi",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/office/kexi/default.nix:33"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "3.1.0": {
   "meta": {
    "description": "A open source visual database applications creator, a long-awaited competitor for programs like MS Access or Filemaker",
@@ -91,7 +138,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

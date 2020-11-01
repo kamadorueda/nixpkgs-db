@@ -1,4 +1,72 @@
 {
+ "0.7.19": {
+  "meta": {
+   "description": "Python is Not a CAS -- modified version of Ginac",
+   "homepage": "http://pynac.org",
+   "license": null,
+   "long_description": "Pynac -- \"Python is Not a CAS\" is a modified version of Ginac that\nreplaces the depency of GiNaC on CLN by a dependency instead of Python.\nIt is a lite version of GiNaC as well, not implementing all the features\nof the full GiNaC, and it is *only* meant to be used as a Python library.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "pynac",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/math/pynac/default.nix:36"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "001a84f22adb50971c5d3898012eb92a5c90d503"
+  ]
+ },
+ "0.7.21": {
+  "meta": {
+   "description": "Python is Not a CAS -- modified version of Ginac",
+   "homepage": "http://pynac.org",
+   "license": null,
+   "long_description": "Pynac -- \"Python is Not a CAS\" is a modified version of Ginac that\nreplaces the depency of GiNaC on CLN by a dependency instead of Python.\nIt is a lite version of GiNaC as well, not implementing all the features\nof the full GiNaC, and it is *only* meant to be used as a Python library.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "pynac",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/math/pynac/default.nix:36"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "0011f10b5754963a7a993390f1c64a89d883e06d"
+  ]
+ },
  "0.7.22": {
   "meta": {
    "description": "Python is Not a CAS -- modified version of Ginac",
@@ -35,7 +103,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "0.7.23": {
@@ -75,6 +143,83 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "0.7.24": {
+  "meta": {
+   "description": "Python is Not a CAS -- modified version of Ginac",
+   "homepage": "http://pynac.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Pynac -- \"Python is Not a CAS\" is a modified version of Ginac that\nreplaces the depency of GiNaC on CLN by a dependency instead of Python.\nIt is a lite version of GiNaC as well, not implementing all the features\nof the full GiNaC, and it is *only* meant to be used as a Python library.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "pynac",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/math/pynac/default.nix:36"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "0.7.25": {
+  "meta": {
+   "description": "Python is Not a CAS -- modified version of Ginac",
+   "homepage": "http://pynac.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Pynac -- \"Python is Not a CAS\" is a modified version of Ginac that\nreplaces the depency of GiNaC on CLN by a dependency instead of Python.\nIt is a lite version of GiNaC as well, not implementing all the features\nof the full GiNaC, and it is *only* meant to be used as a Python library.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "pynac",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/science/math/pynac/default.nix:36"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
  "0.7.26": {
@@ -127,7 +272,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

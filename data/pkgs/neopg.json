@@ -1,4 +1,43 @@
 {
+ "": {
+  "meta": {
+   "description": "Modern replacement for GnuPG 2",
+   "homepage": "https://neopg.io/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "NeoPG starts as an opiniated fork of GnuPG 2 to clean up the code and make it easier to develop.\nIt is written in C++11.\n",
+   "maintainers": [
+    {
+     "email": "justin.humm@posteo.de",
+     "github": "erictapen",
+     "name": "Justin Humm"
+    }
+   ],
+   "name": "neopg",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/neopg/default.nix:38"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
  "0.0.4": {
   "meta": {
    "description": "Modern replacement for GnuPG 2",
@@ -126,7 +165,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

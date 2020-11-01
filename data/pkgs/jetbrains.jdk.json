@@ -1,4 +1,44 @@
 {
+ "11.0.6-b774": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    },
+    {
+     "email": "me@pbb.lc",
+     "github": "petabyteboy",
+     "githubId": 3250809,
+     "name": "Milan P\u00e4ssler"
+    }
+   ],
+   "name": "jetbrains-jdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "aarch64-linux",
+    "armv7l-linux",
+    "armv6l-linux"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:14"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+  ]
+ },
  "11.0.7-b64": {
   "meta": {
    "description": "An OpenJDK fork to better support Jetbrains's products.",
@@ -36,7 +76,56 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "152b1036.1": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": null,
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    "Edward Tj\u00f6rnhammar <ed@cflags.cc>"
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:63"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0"
+  ]
+ },
+ "152b1136.20": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:63"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "001a84f22adb50971c5d3898012eb92a5c90d503"
   ]
  },
  "152b1248.6": {
@@ -68,6 +157,55 @@
    "0000a86d7cd47005096a292a797d2e02ce29e8d8"
   ]
  },
+ "152b970.2": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": null,
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    "Edward Tj\u00f6rnhammar <ed@cflags.cc>"
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:63"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "00078afb1f6c383405fa4bef9646d575f70b092f"
+  ]
+ },
+ "164": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:50"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
  "202b1483.37": {
   "meta": {
    "description": "An OpenJDK fork to better support Jetbrains's products.",
@@ -95,6 +233,99 @@
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "485.1": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:53"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "520.30": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:53"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "520.38": {
+  "meta": {
+   "description": "An OpenJDK fork to better support Jetbrains's products.",
+   "homepage": "https://bintray.com/jetbrains/intellij-jdk/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "JetBrains Runtime is a runtime environment for running IntelliJ Platform\nbased products on Windows, Mac OS X, and Linux. JetBrains Runtime is\nbased on OpenJDK project with some modifications. These modifications\ninclude: Subpixel Anti-Aliasing, enhanced font rendering on Linux, HiDPI\nsupport, ligatures, some fixes for native crashes not presented in\nofficial build, and other small enhancements.\n\nJetBrains Runtime is not a certified build of OpenJDK. Please, use at\nyour own risk.\n",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "jetbrainsjdk",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/jetbrains-jdk/default.nix:53"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "001be890f78f04df86938f44c0761676e299ceac"
   ]
  }
 }

@@ -28,7 +28,53 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "001fb53524b030427c0c0c5460910f667bd85e0a"
+  ]
+ },
+ "2.19.2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl-DBD-Pg",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "2.19.3": {
+  "meta": {
+   "description": "DBI PostgreSQL interface",
+   "homepage": "http://search.cpan.org/dist/DBD-Pg/",
+   "license": "perl",
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl-DBD-Pg",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
   ]
  },
  "3.0.0": {
@@ -64,7 +110,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "000162daed5e6a854d1e034409002aee80e6d8ac"
+   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
   ]
  },
  "3.5.3": {
@@ -108,7 +154,105 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "3.7.4": {
+  "meta": {
+   "description": "DBI PostgreSQL interface",
+   "homepage": "https://metacpan.org/release/DBD-Pg",
+   "license": [
+    {
+     "fullName": "Artistic License 1.0",
+     "shortName": "artistic1",
+     "spdxId": "Artistic-1.0",
+     "url": "http://spdx.org/licenses/Artistic-1.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v1.0 or later",
+     "shortName": "gpl1Plus",
+     "spdxId": "GPL-1.0+",
+     "url": "http://spdx.org/licenses/GPL-1.0+.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl-DBD-Pg",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:335"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
   ]
  }
 }

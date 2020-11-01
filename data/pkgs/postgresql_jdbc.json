@@ -1,4 +1,94 @@
 {
+ "42.2.2": {
+  "meta": {
+   "description": "JDBC driver for PostgreSQL allowing Java programs to connect to a PostgreSQL database",
+   "homepage": "https://jdbc.postgresql.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "postgresql-jdbc",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/jdbc/default.nix:22"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "42.2.5": {
   "meta": {
    "description": "JDBC driver for PostgreSQL allowing Java programs to connect to a PostgreSQL database",
@@ -75,7 +165,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
  "8.2": {
@@ -91,7 +181,23 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "001fb53524b030427c0c0c5460910f667bd85e0a"
+  ]
+ },
+ "9.1-902": {
+  "meta": {
+   "description": "JDBC driver for PostgreSQL allowing Java programs to connect to a PostgreSQL database",
+   "homepage": "http://jdbc.postgresql.org/",
+   "license": "bsd",
+   "long_description": "",
+   "maintainers": [],
+   "name": "postgresql-jdbc",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
   ]
  },
  "9.3-1100": {
@@ -112,7 +218,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  }
 }

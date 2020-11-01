@@ -1,4 +1,35 @@
 {
+ "0.02": {
+  "meta": {
+   "description": "Extend File::ShareDir to Local Libraries",
+   "homepage": "http://github.com/ingydotnet/file-share-pm/tree",
+   "license": "perl",
+   "long_description": "",
+   "maintainers": [
+    "Oliver Charles <ollie@ocharles.org.uk>"
+   ],
+   "name": "perl-File-Share",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
  "0.03": {
   "meta": {
    "description": "Extend File::ShareDir to Local Libraries",
@@ -40,7 +71,105 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "0.25": {
+  "meta": {
+   "description": "Extend File::ShareDir to Local Libraries",
+   "homepage": "https://github.com/ingydotnet/file-share-pm/tree",
+   "license": [
+    {
+     "fullName": "Artistic License 1.0",
+     "shortName": "artistic1",
+     "spdxId": "Artistic-1.0",
+     "url": "http://spdx.org/licenses/Artistic-1.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v1.0 or later",
+     "shortName": "gpl1Plus",
+     "spdxId": "GPL-1.0+",
+     "url": "http://spdx.org/licenses/GPL-1.0+.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl-File-Share",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/top-level/perl-packages.nix:6169"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05"
   ]
  }
 }

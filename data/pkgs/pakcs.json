@@ -1,4 +1,104 @@
 {
+ "1.14.0": {
+  "meta": {
+   "description": "An implementation of the multi-paradigm declarative language Curry",
+   "homepage": "http://www.informatik.uni-kiel.de/~pakcs/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "PAKCS is an implementation of the multi-paradigm declarative language\nCurry jointly developed by the Portland State University, the Aachen\nUniversity of Technology, and the University of Kiel. Although this is\nnot a highly optimized implementation but based on a high-level\ncompilation of Curry programs into Prolog programs, it is not a toy\nimplementation but has been used for a variety of applications (e.g.,\ngraphical programming environments, an object-oriented front-end for\nCurry, partial evaluators, database applications, HTML programming\nwith dynamic web pages, prototyping embedded systems).\n",
+   "maintainers": [
+    {
+     "email": "tierpluspluslists@gmail.com",
+     "name": "Karn Kallio"
+    },
+    {
+     "email": "yourbestfriend@opmbx.org",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "pakcs",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/pakcs/default.nix:141"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "2.0.2": {
   "meta": {
    "description": "An implementation of the multi-paradigm declarative language Curry",
@@ -42,6 +142,48 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "2.1.1": {
+  "meta": {
+   "description": "An implementation of the multi-paradigm declarative language Curry",
+   "homepage": "http://www.informatik.uni-kiel.de/~pakcs/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "PAKCS is an implementation of the multi-paradigm declarative language\nCurry jointly developed by the Portland State University, the Aachen\nUniversity of Technology, and the University of Kiel. Although this is\nnot a highly optimized implementation but based on a high-level\ncompilation of Curry programs into Prolog programs, it is not a toy\nimplementation but has been used for a variety of applications (e.g.,\ngraphical programming environments, an object-oriented front-end for\nCurry, partial evaluators, database applications, HTML programming\nwith dynamic web pages, prototyping embedded systems).\n",
+   "maintainers": [
+    {
+     "email": "tierpluspluslists@gmail.com",
+     "name": "Karn Kallio"
+    },
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "pakcs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/pakcs/default.nix:76"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
  "2.2.0": {
   "meta": {
    "description": "An implementation of the multi-paradigm declarative language Curry",
@@ -83,7 +225,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

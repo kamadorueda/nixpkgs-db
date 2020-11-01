@@ -1,4 +1,29 @@
 {
+ "0.16": {
+  "meta": {
+   "description": "Interactive development tool for Elm programs",
+   "homepage": "http://elm-lang.org",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "elm-reactor",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/elm/packages/elm-reactor.nix:7"
+  },
+  "revs": [
+   "00078e317e63d1d934806efd62f56e48150a4f64",
+   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+  ]
+ },
  "0.17": {
   "meta": {
    "description": "Interactive development tool for Elm programs",
@@ -22,6 +47,132 @@
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "0.17.1": {
+  "meta": {
+   "description": "Interactive development tool for Elm programs",
+   "homepage": "http://elm-lang.org",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "elm-reactor",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/elm/packages/elm-reactor.nix:8"
+  },
+  "revs": [
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "0.18": {
+  "meta": {
+   "description": "Interactive development tool for Elm programs",
+   "homepage": "http://elm-lang.org",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "elm-reactor",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/elm/packages/elm-reactor.nix:8"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  }
 }

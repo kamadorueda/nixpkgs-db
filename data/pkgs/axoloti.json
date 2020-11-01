@@ -1,4 +1,31 @@
 {
+ "1.0.12-1": {
+  "meta": {
+   "description": "Sketching embedded digital audio algorithms.\n\nTo fix permissions of the Axoloti USB device node, add a similar udev rule to <literal>services.udev.extraRules</literal>:\n<literal>SUBSYSTEM==\"usb\", ATTR{idVendor}==\"16c0\", ATTR{idProduct}==\"0442\", OWNER=\"someuser\", GROUP=\"somegroup\"</literal>\n",
+   "homepage": "http://www.axoloti.com",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "~@Teal.Gr",
+     "github": "TealG",
+     "name": "Teal Gaure"
+    }
+   ],
+   "name": "axoloti",
+   "platforms": null,
+   "position": "pkgs/applications/audio/axoloti/default.nix:92"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "1.0.12-2": {
   "meta": {
    "description": "Sketching embedded digital audio algorithms.\n\nTo fix permissions of the Axoloti USB device node, add a similar udev rule to <literal>services.udev.extraRules</literal>:\n<literal>SUBSYSTEM==\"usb\", ATTR{idVendor}==\"16c0\", ATTR{idProduct}==\"0442\", OWNER=\"someuser\", GROUP=\"somegroup\"</literal>\n",
@@ -17,7 +44,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

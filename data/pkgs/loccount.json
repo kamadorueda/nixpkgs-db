@@ -1,4 +1,70 @@
 {
+ "1.0": {
+  "meta": {
+   "description": "Re-implementation of sloccount in Go",
+   "homepage": "https://gitlab.com/esr/loccount",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "loccount is a re-implementation of David A. Wheeler's sloccount tool\nin Go.  It is faster and handles more different languages. Because\nit's one source file in Go, it is easier to maintain and extend than the\nmulti-file, multi-language implementation of the original.\n\nThe algorithms are largely unchanged and can be expected to produce\nidentical numbers for languages supported by both tools.  Python is\nan exception; loccount corrects buggy counting of single-quote multiline\nliterals in sloccount 2.26.\n",
+   "maintainers": [
+    "Victor Calvert <calvertvl@gmail.com>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "loccount",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/loccount/default.nix:17"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+  ]
+ },
+ "1.1": {
+  "meta": {
+   "description": "Re-implementation of sloccount in Go",
+   "homepage": "https://gitlab.com/esr/loccount",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "loccount is a re-implementation of David A. Wheeler's sloccount tool\nin Go.  It is faster and handles more different languages. Because\nit's one source file in Go, it is easier to maintain and extend than the\nmulti-file, multi-language implementation of the original.\n\nThe algorithms are largely unchanged and can be expected to produce\nidentical numbers for languages supported by both tools.  Python is\nan exception; loccount corrects buggy counting of single-quote multiline\nliterals in sloccount 2.26.\n",
+   "maintainers": [
+    "Victor Calvert <calvertvl@gmail.com>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "loccount",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/loccount/default.nix:17"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
  "1.2": {
   "meta": {
    "description": "Re-implementation of sloccount in Go",
@@ -44,7 +110,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

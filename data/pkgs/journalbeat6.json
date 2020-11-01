@@ -47,6 +47,54 @@
    "0000a86d7cd47005096a292a797d2e02ce29e8d8"
   ]
  },
+ "6.7.1": {
+  "meta": {
+   "description": "Journalbeat is an open source data collector to read and forward\njournal entries from Linuxes with systemd.\n",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "journalbeat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/misc/logging/beats/6.x.nix:43"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
  "6.7.2": {
   "meta": {
    "description": "Journalbeat is an open source data collector to read and forward\njournal entries from Linuxes with systemd.\n",

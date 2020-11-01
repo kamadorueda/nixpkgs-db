@@ -1,4 +1,35 @@
 {
+ "13.2": {
+  "meta": {
+   "description": "Media center",
+   "homepage": "http://xbmc.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>",
+    "Jonathan Rudenberg <jonathan@titanous.com>"
+   ],
+   "name": "xbmc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/video/xbmc/default.nix:104"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
  "17.6": {
   "meta": {
    "description": "Media center",
@@ -50,7 +81,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "18.0": {
@@ -171,6 +202,70 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "18.5": {
+  "meta": {
+   "description": "Media center",
+   "homepage": "https://kodi.tv/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "jonathan@titanous.com",
+     "github": "titanous",
+     "githubId": 13026,
+     "name": "Jonathan Rudenberg"
+    },
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "me@sephalon.net",
+     "github": "sephalon",
+     "githubId": 893474,
+     "name": "Stefan Wiehler"
+    }
+   ],
+   "name": "kodi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/video/kodi/default.nix:243"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "18.6": {
   "meta": {
    "description": "Media center",
@@ -232,7 +327,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
   ]
  },
  "18.8": {
@@ -296,7 +391,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

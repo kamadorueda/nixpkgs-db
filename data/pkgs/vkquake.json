@@ -1,4 +1,38 @@
 {
+ "0.97.3": {
+  "meta": {
+   "description": "Vulkan Quake port based on QuakeSpasm",
+   "homepage": "https://github.com/Novum/vkQuake",
+   "license": null,
+   "long_description": "vkQuake is a Quake 1 port using Vulkan instead of OpenGL for rendering.\nIt is based on the popular QuakeSpasm port and runs all mods compatible with it\nlike Arcane Dimensions or In The Shadows. vkQuake also serves as a Vulkan demo\napplication that shows basic usage of the API. For example it demonstrates render\npasses & sub passes, pipeline barriers & synchronization, compute shaders, push &\nspecialization constants, CPU/GPU parallelism and memory pooling.\n",
+   "maintainers": [
+    {
+     "email": "yourbestfriend@opmbx.org",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "vkquake",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/games/quakespasm/vulkan.nix:33"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "1.00.0": {
   "meta": {
    "description": "Vulkan Quake port based on QuakeSpasm",
@@ -30,7 +64,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.01.0": {
@@ -67,6 +101,41 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.03.0": {
+  "meta": {
+   "description": "Vulkan Quake port based on QuakeSpasm",
+   "homepage": "https://github.com/Novum/vkQuake",
+   "license": null,
+   "long_description": "vkQuake is a Quake 1 port using Vulkan instead of OpenGL for rendering.\nIt is based on the popular QuakeSpasm port and runs all mods compatible with it\nlike Arcane Dimensions or In The Shadows. vkQuake also serves as a Vulkan demo\napplication that shows basic usage of the API. For example it demonstrates render\npasses & sub passes, pipeline barriers & synchronization, compute shaders, push &\nspecialization constants, CPU/GPU parallelism and memory pooling.\n",
+   "maintainers": [
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "githubId": 12064730,
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "vkquake",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/quakespasm/vulkan.nix:39"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
  "1.04.1": {
   "meta": {
    "description": "Vulkan Quake port based on QuakeSpasm",
@@ -99,7 +168,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

@@ -1,4 +1,45 @@
 {
+ "0.7": {
+  "meta": {
+   "description": "A collection of hacks to efficiently run LaTeX via ssh",
+   "homepage": "https://github.com/iblech/sshlatex",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "sshlatex is a tool which uploads LaTeX source files to a remote, runs\nLaTeX there, and streams the resulting PDF file to the local host.\nBecause sshlatex prestarts LaTeX with the previous run's preamble,\nthereby preloading the required LaTeX packages, it is also useful in a\npurely local setting.\n",
+   "maintainers": [
+    "Ingo Blechschmidt <iblech@speicherleck.de>"
+   ],
+   "name": "sshlatex",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/typesetting/sshlatex/default.nix:25"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
  "0.8": {
   "meta": {
    "description": "A collection of hacks to efficiently run LaTeX via ssh",
@@ -25,7 +66,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

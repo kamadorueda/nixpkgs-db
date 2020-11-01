@@ -1,4 +1,47 @@
 {
+ "0.10": {
+  "meta": {
+   "description": "Simple sequence (iterator) datatype and combinators",
+   "homepage": "https://github.com/c-cube/sequence",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "Simple sequence datatype, intended to transfer a finite number of\nelements from one data structure to another. Some transformations on sequences,\nlike `filter`, `map`, `take`, `drop` and `append` can be performed before the\nsequence is iterated/folded on.\n",
+   "maintainers": [],
+   "name": "ocaml4.05.0-sequence",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/sequence/default.nix:28"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "0.6": {
   "meta": {
    "description": "Simple sequence (iterator) datatype and combinators",
@@ -25,7 +68,36 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "0.8": {
+  "meta": {
+   "description": "Simple sequence (iterator) datatype and combinators",
+   "homepage": "https://github.com/c-cube/sequence",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "Simple sequence datatype, intended to transfer a finite number of\nelements from one data structure to another. Some transformations on sequences,\nlike `filter`, `map`, `take`, `drop` and `append` can be performed before the\nsequence is iterated/folded on.\n",
+   "maintainers": [],
+   "name": "ocaml-sequence",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/sequence/default.nix:28"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
   ]
  },
  "1.1": {

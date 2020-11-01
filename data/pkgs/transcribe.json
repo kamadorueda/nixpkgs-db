@@ -1,4 +1,42 @@
 {
+ "8.40": {
+  "meta": {
+   "description": "Software to help transcribe recorded music",
+   "homepage": "https://www.seventhstring.com/xscribe/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "The Transcribe! application is an assistant for people who want\nto work out a piece of music from a recording, in order to write\nit out, or play it themselves, or both. It doesn't do the\ntranscribing for you, but it is essentially a specialised player\nprogram which is optimised for the purpose of transcription. It\nhas many transcription-specific features not found on\nconventional music players.\n",
+   "maintainers": [
+    {
+     "email": "m@michalrus.com",
+     "github": "michalrus",
+     "name": "Michal Rus"
+    }
+   ],
+   "name": "transcribe",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/transcribe/default.nix:54"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "8.72": {
   "meta": {
    "description": "Software to help transcribe recorded music",
@@ -34,7 +72,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

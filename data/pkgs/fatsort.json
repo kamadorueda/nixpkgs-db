@@ -1,4 +1,27 @@
 {
+ "": {
+  "meta": {
+   "description": "Sorts FAT partition table, for devices that don't do sorting of files.",
+   "homepage": "http://fatsort.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Kovacsics Robert <kovirobi@gmail.com>"
+   ],
+   "name": "fatsort",
+   "platforms": null,
+   "position": "pkgs/tools/filesystems/fatsort/default.nix:16"
+  },
+  "revs": [
+   "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
+   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
  "1.3.365": {
   "meta": {
    "description": "Sorts FAT partition table, for devices that don't do sorting of files",
@@ -19,7 +42,46 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "1.4.2.439": {
+  "meta": {
+   "description": "Sorts FAT partition table, for devices that don't do sorting of files",
+   "homepage": "http://fatsort.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "kovirobi@gmail.com",
+     "github": "kovirobi",
+     "name": "Kovacsics Robert"
+    }
+   ],
+   "name": "fatsort",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/fatsort/default.nix:18"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.5.0.456": {
@@ -58,7 +120,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
   ]
  },
  "1.6.2.605": {
@@ -98,7 +160,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
   ]
  },
  "1.6.3.622": {
@@ -138,7 +200,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

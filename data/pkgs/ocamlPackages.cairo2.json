@@ -48,6 +48,60 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.6": {
+  "meta": {
+   "description": "Binding to Cairo, a 2D Vector Graphics Library",
+   "homepage": "https://github.com/Chris00/ocaml-cairo",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "This is a binding to Cairo, a 2D graphics library with support for\nmultiple output devices. Currently supported output targets include\nthe X Window System, Quartz, Win32, image buffers, PostScript, PDF,\nand SVG file output.\n",
+   "maintainers": [
+    {
+     "email": "jiri.marsik89@gmail.com",
+     "github": "jirkamarsik",
+     "name": "Jirka Marsik"
+    },
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "ocaml4.06.1-cairo2",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/cairo2/default.nix:21"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
  "0.6.1": {
   "meta": {
    "description": "Binding to Cairo, a 2D Vector Graphics Library",
@@ -95,7 +149,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

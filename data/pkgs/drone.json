@@ -1,4 +1,125 @@
 {
+ "0.5-20161104-232df35": {
+  "meta": {
+   "description": "Continuous Integration platform built on container technology",
+   "homepage": "https://github.com/drone/drone",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "drone.io",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/drone/default.nix:66"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "0.8.5-20180329-81103a9": {
+  "meta": {
+   "description": "Continuous Integration platform built on container technology",
+   "homepage": "https://github.com/drone/drone",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "drone.io",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/drone/default.nix:25"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "0.8.6-20180727-c481507": {
   "meta": {
    "description": "Continuous Integration platform built on container technology",
@@ -62,6 +183,62 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.6.0": {
+  "meta": {
+   "description": "Continuous Integration platform built on container technology",
+   "homepage": "",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elo-nixos@nerdworks.de",
+     "github": "elohmeier",
+     "githubId": 2536303,
+     "name": "Enno Lohmeier"
+    },
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "drone.io",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/drone/default.nix:20"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "1.6.5": {
   "meta": {
    "description": "Continuous Integration platform built on container technology",
@@ -115,7 +292,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
   ]
  },
  "1.9.0": {
@@ -171,7 +348,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

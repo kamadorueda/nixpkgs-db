@@ -1,4 +1,202 @@
 {
+ "6.5.2": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But its\nnot a problem since you should run browsers in separate\nusers/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:71"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+  ]
+ },
+ "7.0.1": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But its\nnot a problem since you should run browsers in separate\nusers/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:70"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
+ "7.5.2": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:78"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "7.5.4": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:105"
+  },
+  "revs": [
+   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
+   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81"
+  ]
+ },
+ "7.5.5": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:105"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "0011f10b5754963a7a993390f1c64a89d883e06d"
+  ]
+ },
+ "7.5.6": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:113"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "8.0.2": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:123"
+  },
+  "revs": [
+   "00209911b0cdb76b8ec53c4be595e5a0349ba472",
+   "00209911b0cdb76b8ec53c4be595e5a0349ba472"
+  ]
+ },
  "8.0.3": {
   "meta": {
    "description": "A web browser built from TorBrowser source tree",
@@ -29,7 +227,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "8.0.6": {
@@ -119,6 +317,230 @@
    "0000a86d7cd47005096a292a797d2e02ce29e8d8"
   ]
  },
+ "8.0.8": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:195"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "8.0.9": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:195"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "0015e885ce6c6bac448b639191123fb39a94aa92"
+  ]
+ },
+ "8.5.0": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:195"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff"
+  ]
+ },
  "8.5.2": {
   "meta": {
    "description": "A web browser built from TorBrowser source tree",
@@ -204,6 +626,60 @@
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "8.5.6": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But it\nshould not be a problem because you should run browsers in\nseparate users/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n\nOr just use `tor-browser-bundle` package that packs this\n`tor-browser` back into a sanely-built bundle.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:216"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
   ]
  }
 }

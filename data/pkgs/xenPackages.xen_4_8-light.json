@@ -1,0 +1,46 @@
+{
+ "4.8.1": {
+  "meta": {
+   "description": "Xen hypervisor and related components (light)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Thomas Strobel <4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains>",
+    "Jan Malakhovski <oxij@oxij.org>"
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "000b68c22606fc244456e09c92c83663614a96d9"
+  ]
+ },
+ "4.8.2": {
+  "meta": {
+   "description": "Xen hypervisor and related components (light)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Thomas Strobel <4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains>",
+    "Jan Malakhovski <oxij@oxij.org>"
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ }
+}

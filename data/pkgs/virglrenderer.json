@@ -1,4 +1,43 @@
 {
+ "0.6.0": {
+  "meta": {
+   "description": "A virtual 3D GPU library that allows a qemu guest to use the host GPU for accelerated 3D rendering",
+   "homepage": "https://virgil3d.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "xeji@cat3.de",
+     "github": "xeji",
+     "name": "xeji"
+    }
+   ],
+   "name": "virglrenderer",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/virglrenderer/default.nix:24"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "0.7.0": {
   "meta": {
    "description": "A virtual 3D GPU library that allows a qemu guest to use the host GPU for accelerated 3D rendering",
@@ -35,7 +74,47 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000463186d471107324c67faecb5c85e9f06521a"
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
+ "0.8.1": {
+  "meta": {
+   "description": "A virtual 3D GPU library that allows a qemu guest to use the host GPU for accelerated 3D rendering",
+   "homepage": "https://virgil3d.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "xeji@cat3.de",
+     "github": "xeji",
+     "githubId": 36407913,
+     "name": "Uli Baum"
+    }
+   ],
+   "name": "virglrenderer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/virglrenderer/default.nix:21"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "001be890f78f04df86938f44c0761676e299ceac"
   ]
  },
  "0.8.2": {
@@ -75,7 +154,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

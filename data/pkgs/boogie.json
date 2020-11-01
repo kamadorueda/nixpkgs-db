@@ -1,4 +1,53 @@
 {
+ "2017-01-03": {
+  "meta": {
+   "description": "An intermediate verification language",
+   "homepage": "https://github.com/boogie-org/boogie",
+   "license": {
+    "fullName": "Microsoft Public License",
+    "shortName": "mspl",
+    "spdxId": "MS-PL",
+    "url": "http://spdx.org/licenses/MS-PL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "taktoa@gmail.com",
+     "github": "taktoa",
+     "name": "Remy Goldschmidt"
+    }
+   ],
+   "name": "Boogie-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/dotnet-packages.nix:324"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "2018-05-28": {
   "meta": {
    "description": "An intermediate verification language",
@@ -89,7 +138,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

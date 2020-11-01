@@ -81,7 +81,35 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.6.2": {
+  "meta": {
+   "description": "C library to generate ICMP echo requests (a.k.a. ping packets)",
+   "homepage": "http://verplant.org/liboping/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1"
+   },
+   "long_description": "liboping is a C library to generate ICMP echo requests, better known as\n\"ping packets\". It is intended for use in network monitoring applications\nor applications that would otherwise need to fork ping(1) frequently.\nIncluded is a sample application, called oping, which demonstrates the\nlibrary's abilities.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "liboping",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/libraries/liboping/default.nix:16"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00146e3e086c61add917958e0697cc4507960933"
   ]
  },
  "1.8.0": {
@@ -111,7 +139,38 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "C library to generate ICMP echo requests (a.k.a. ping packets)",
+   "homepage": "http://noping.cc/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1"
+   },
+   "long_description": "liboping is a C library to generate ICMP echo requests, better known as\n\"ping packets\". It is intended for use in network monitoring applications\nor applications that would otherwise need to fork ping(1) frequently.\nIncluded is a sample application, called oping, which demonstrates the\nlibrary's abilities.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "liboping",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/libraries/liboping/default.nix:16"
+  },
+  "revs": [
+   "00105162f413ea8e8a419da0fc5b556e3737e82f",
+   "0016d925e42c28df8666293bb38a440b10101fd8"
   ]
  }
 }

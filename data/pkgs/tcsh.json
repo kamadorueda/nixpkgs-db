@@ -1,4 +1,20 @@
 {
+ "6.15.00": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "tcsh",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "000ba6536350b58079484fc64b467ec227e73e26"
+  ]
+ },
  "6.16.00": {
   "meta": {
    "description": "An enhanced version of the Berkeley UNIX C shell (csh)",
@@ -12,7 +28,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "001fb53524b030427c0c0c5460910f667bd85e0a"
   ]
  },
  "6.18.01": {
@@ -29,6 +45,36 @@
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "6.19.00": {
+  "meta": {
+   "description": "An enhanced version of the Berkeley UNIX C shell (csh)",
+   "homepage": "http://www.tcsh.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "tcsh is an enhanced but completely compatible version of the\nBerkeley UNIX C shell, csh. It is a command language interpreter\nusable both as an interactive login shell and a shell script\ncommand processor.\nIt includes:\n- command-line editor\n- programmable word completion\n- spelling correction\n- history mechanism\n- job control\n",
+   "maintainers": [
+    "Anderson Torres <torres.anderson.85@gmail.com>"
+   ],
+   "name": "tcsh",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/shells/tcsh/default.nix:22"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
   ]
  },
  "6.20.00": {
@@ -80,6 +126,50 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "6.21.00": {
+  "meta": {
+   "description": "An enhanced version of the Berkeley UNIX C shell (csh)",
+   "homepage": "https://www.tcsh.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "tcsh is an enhanced but completely compatible version of the\nBerkeley UNIX C shell, csh. It is a command language interpreter\nusable both as an interactive login shell and a shell script\ncommand processor.\nIt includes:\n- command-line editor\n- programmable word completion\n- spelling correction\n- history mechanism\n- job control\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "tcsh",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/shells/tcsh/default.nix:27"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "6.22.02": {
   "meta": {
    "description": "An enhanced version of the Berkeley UNIX C shell (csh)",
@@ -121,7 +211,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

@@ -1,4 +1,84 @@
 {
+ "1.2.9": {
+  "meta": {
+   "description": "Rime Input Method Engine, the core library",
+   "homepage": "http://rime.im/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Ming Chuan <ming@culpring.com>"
+   ],
+   "name": "librime",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/librime/default.nix:23"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "1.3.0": {
+  "meta": {
+   "description": "Rime Input Method Engine, the core library",
+   "homepage": "http://rime.im/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ming@culpring.com",
+     "github": "sifmelcara",
+     "name": "Ming Chuan"
+    }
+   ],
+   "name": "librime",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/librime/default.nix:23"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
  "1.3.1": {
   "meta": {
    "description": "Rime Input Method Engine, the core library",
@@ -35,7 +115,46 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.3.2": {
+  "meta": {
+   "description": "Rime Input Method Engine, the core library",
+   "homepage": "https://rime.im/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ming@culpring.com",
+     "github": "sifmelcara",
+     "name": "Ming Chuan"
+    }
+   ],
+   "name": "librime",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/librime/default.nix:23"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "1.4.0": {
@@ -77,6 +196,44 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.5.0": {
+  "meta": {
+   "description": "Rime Input Method Engine, the core library",
+   "homepage": "https://rime.im/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ming@culpring.com",
+     "github": "sifmelcara",
+     "name": "Ming Chuan"
+    }
+   ],
+   "name": "librime",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/librime/default.nix:23"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
  "1.5.3": {
   "meta": {
    "description": "Rime Input Method Engine, the core library",
@@ -114,7 +271,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

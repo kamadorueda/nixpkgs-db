@@ -1,4 +1,129 @@
 {
+ "1.2.1": {
+  "meta": {
+   "description": "Jabber Alarmcallback Plugin for Graylog",
+   "homepage": "https://github.com/Graylog2/graylog-plugin-jabber",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Tristan Helmich <tristan.helmich+nixos@gmail.com>"
+   ],
+   "name": "graylog-jabber",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/graylog/plugins.nix:74"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+  ]
+ },
+ "2.0.0": {
+  "meta": {
+   "description": "Jabber Alarmcallback Plugin for Graylog",
+   "homepage": "https://github.com/graylog-labs/graylog-plugin-jabber",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "name": "Tristan Helmich"
+    }
+   ],
+   "name": "graylog-jabber",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/graylog/plugins.nix:113"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "2.4.0": {
   "meta": {
    "description": "Jabber Alarmcallback Plugin for Graylog",
@@ -76,7 +201,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

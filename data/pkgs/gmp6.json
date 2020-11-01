@@ -1,0 +1,42 @@
+{
+ "6.1.0": {
+  "meta": {
+   "description": "GNU multiple precision arithmetic library",
+   "homepage": "http://gmplib.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gmp",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/gmp/6.x.nix:44"
+  },
+  "revs": [
+   "00078e317e63d1d934806efd62f56e48150a4f64",
+   "00078e317e63d1d934806efd62f56e48150a4f64"
+  ]
+ }
+}

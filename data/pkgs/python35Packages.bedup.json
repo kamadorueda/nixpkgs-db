@@ -28,7 +28,39 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "001d314e874e7fcf819847f88051346684d22e32"
+  ]
+ },
+ "20140413": {
+  "meta": {
+   "description": "Deduplication for Btrfs",
+   "homepage": "https://github.com/g2p/bedup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Deduplication for Btrfs. bedup looks for new and changed files, making sure that multiple\ncopies of identical files share space on disk. It integrates deeply with btrfs so that scans\nare incremental and low-impact.\n",
+   "maintainers": [
+    "Mathijs Kwik <mathijs@bluescreen303.nl>",
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "python3.5-bedup",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/top-level/python-packages.nix:1752"
+  },
+  "revs": [
+   "00078e317e63d1d934806efd62f56e48150a4f64",
+   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
   ]
  }
 }

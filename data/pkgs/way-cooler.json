@@ -1,4 +1,47 @@
 {
+ "0.5.2": {
+  "meta": {
+   "description": "Customizable Wayland compositor (window manager)",
+   "homepage": "http://way-cooler.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT"
+    }
+   ],
+   "long_description": "Way Cooler is a customizable tiling window manager written in Rust\nfor Wayland and configurable using Lua. It is heavily inspired by\nthe tiling and extensibility of both i3 and awesome. While Lua is\nused for the configuration, like awesome, extensions for Way Cooler\nare implemented as totally separate client programs using D-Bus.\nThis means that you can use virtually any language to extend the\nwindow manager, with much better guarantees about interoperability\nbetween extensions.\n",
+   "maintainers": [
+    "Vasiliy Solovey <miltador@yandex.ua>"
+   ],
+   "name": "way-cooler",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/window-managers/way-cooler/default.nix:25"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
  "0.8.0": {
   "meta": {
    "description": "Customizable Wayland compositor (window manager)",
@@ -26,7 +69,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "0.8.1": {

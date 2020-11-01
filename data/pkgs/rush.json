@@ -1,4 +1,35 @@
 {
+ "1.6": {
+  "meta": {
+   "description": "GNU Rush, Restricted User Shell",
+   "homepage": "http://www.gnu.org/software/rush/",
+   "license": "GPLv3+",
+   "long_description": "GNU Rush is a Restricted User Shell, designed for sites\n        providing limited remote access to their resources, such as\n        svn or git repositories, scp, or the like.  Using a\n        sophisticated configuration file, Rush gives you complete\n        control over the command lines that users execute, as well as\n        over the usage of system resources, such as virtual memory,\n        CPU time, etc.\n\n        In particular, it allows remote programs to be run in a chrooted\n        environment, which is important with such programs as\n        sftp-server or scp, that lack this ability.\n",
+   "maintainers": [
+    "Brian Gough <bjg@gnu.org>"
+   ],
+   "name": "rush",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c"
+  ]
+ },
  "1.7": {
   "meta": {
    "description": "GNU Rush, Restricted User Shell",
@@ -29,7 +60,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0018599a26747abc03457cf67c8cbc5d351661a3"
   ]
  },
  "1.8": {
@@ -58,6 +89,64 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "1.9": {
+  "meta": {
+   "description": "Restricted User Shell",
+   "homepage": "https://www.gnu.org/software/rush/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "GNU Rush is a Restricted User Shell, designed for sites\n        providing limited remote access to their resources, such as\n        svn or git repositories, scp, or the like.  Using a\n        sophisticated configuration file, Rush gives you complete\n        control over the command lines that users execute, as well as\n        over the usage of system resources, such as virtual memory,\n        CPU time, etc.\n\n        In particular, it allows remote programs to be run in a chrooted\n        environment, which is important with such programs as\n        sftp-server or scp, that lack this ability.\n",
+   "maintainers": [
+    {
+     "email": "bjg@gnu.org",
+     "name": "Brian Gough"
+    }
+   ],
+   "name": "rush",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/shells/rush/default.nix:15"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
  "2.1": {
@@ -126,7 +215,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

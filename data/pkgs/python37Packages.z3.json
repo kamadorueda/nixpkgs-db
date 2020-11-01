@@ -1,4 +1,129 @@
 {
+ "4.7.1": {
+  "meta": {
+   "description": "A high-performance theorem prover and SMT solver",
+   "homepage": "https://github.com/Z3Prover/z3",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "z3",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/z3/default.nix:36"
+  },
+  "revs": [
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b"
+  ]
+ },
+ "4.8.1": {
+  "meta": {
+   "description": "A high-performance theorem prover and SMT solver",
+   "homepage": "https://github.com/Z3Prover/z3",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "z3",
+   "platforms": [
+    {
+     "cpu": {
+      "_type": "cpu-type",
+      "bits": 64,
+      "family": "x86",
+      "name": "x86_64",
+      "significantByte": {
+       "_type": "significant-byte",
+       "name": "littleEndian"
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/z3/default.nix:36"
+  },
+  "revs": [
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+  ]
+ },
  "4.8.3": {
   "meta": {
    "description": "A high-performance theorem prover and SMT solver",
@@ -36,7 +161,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "4.8.4": {
@@ -71,6 +196,43 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "000463186d471107324c67faecb5c85e9f06521a"
+  ]
+ },
+ "4.8.5": {
+  "meta": {
+   "description": "A high-performance theorem prover and SMT solver",
+   "homepage": "https://github.com/Z3Prover/z3",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "z3",
+   "platforms": [
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-windows",
+    "x86_64-none"
+   ],
+   "position": "pkgs/applications/science/logic/z3/default.nix:36"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  },
  "4.8.7": {
@@ -109,7 +271,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
   ]
  },
  "4.8.8": {
@@ -155,7 +317,53 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "4.8.9": {
+  "meta": {
+   "description": "A high-performance theorem prover and SMT solver",
+   "homepage": "https://github.com/Z3Prover/z3",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "githubId": 563054,
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "z3",
+   "platforms": [
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "x86_64-windows",
+    "x86_64-redox",
+    "x86_64-none",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/logic/z3/default.nix:45"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "0023908b4ecef4e889a9bb524394f53c014950fe"
   ]
  }
 }

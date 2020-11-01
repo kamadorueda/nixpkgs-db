@@ -1,4 +1,64 @@
 {
+ "1.129": {
+  "meta": {
+   "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
+   "homepage": "http://anonscm.debian.org/cgit/d-i/console-setup.git",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tuomas Tynkkynen <tuomas.tynkkynen@iki.fi>"
+   ],
+   "name": "ckbcomp",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/X11/ckbcomp/default.nix:30"
+  },
+  "revs": [
+   "00111ad79d7e58149141311628a602190fd69233",
+   "0015a47229b681a0beeddf1e340d32aaf4831cbe"
+  ]
+ },
+ "1.131": {
+  "meta": {
+   "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
+   "homepage": "http://anonscm.debian.org/cgit/d-i/console-setup.git",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Tuomas Tynkkynen <tuomas.tynkkynen@iki.fi>"
+   ],
+   "name": "ckbcomp",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/X11/ckbcomp/default.nix:30"
+  },
+  "revs": [
+   "000a2108ba10df725065004e1f3d2fb793078f71",
+   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+  ]
+ },
  "1.133": {
   "meta": {
    "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
@@ -34,7 +94,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.187": {
@@ -122,6 +182,91 @@
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
   ]
  },
+ "1.188": {
+  "meta": {
+   "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
+   "homepage": "https://salsa.debian.org/installer-team/console-setup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "name": "Tuomas Tynkkynen"
+    }
+   ],
+   "name": "ckbcomp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/X11/ckbcomp/default.nix:30"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+  ]
+ },
  "1.190": {
   "meta": {
    "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
@@ -207,6 +352,107 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.191": {
+  "meta": {
+   "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
+   "homepage": "https://salsa.debian.org/installer-team/console-setup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "name": "Tuomas Tynkkynen"
+    }
+   ],
+   "name": "ckbcomp",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/X11/ckbcomp/default.nix:30"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "1.194": {
+  "meta": {
+   "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
+   "homepage": "https://salsa.debian.org/installer-team/console-setup",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "githubId": 579369,
+     "name": "Tuomas Tynkkynen"
+    }
+   ],
+   "name": "ckbcomp",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/X11/ckbcomp/default.nix:30"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "1.195": {
   "meta": {
    "description": "Compiles a XKB keyboard description to a keymap suitable for loadkeys",
@@ -257,7 +503,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1"
   ]
  },
  "1.196": {
@@ -311,7 +557,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

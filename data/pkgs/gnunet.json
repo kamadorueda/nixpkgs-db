@@ -1,4 +1,29 @@
 {
+ "0.10.0": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/networking/p2p/gnunet/default.nix:58"
+  },
+  "revs": [
+   "000b1ad43accf62263ef519bc0b0d4056c3e80b5",
+   "000b1ad43accf62263ef519bc0b0d4056c3e80b5"
+  ]
+ },
  "0.10.1": {
   "meta": {
    "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
@@ -85,6 +110,105 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.11.0": {
+  "meta": {
+   "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "https://gnunet.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "aarch64-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/p2p/gnunet/default.nix:54"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "0.11.8": {
+  "meta": {
+   "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "https://gnunet.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "aarch64-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/p2p/gnunet/default.nix:50"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
  "0.12.1": {
   "meta": {
    "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
@@ -133,7 +257,62 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+  ]
+ },
+ "0.13.1": {
+  "meta": {
+   "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "https://gnunet.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 or later",
+    "shortName": "agpl3Plus",
+    "spdxId": "AGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+   },
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    {
+     "email": "philipp@xndr.de",
+     "name": "Philipp Steinpa\u00df"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "aarch64-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/p2p/gnunet/default.nix:50"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
   ]
  },
  "0.13.2": {
@@ -188,7 +367,41 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "0.8.0b": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [],
+   "name": "gnunet",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "00205597095260f4a031391cf0e7e04e7f8ab3d7"
+  ]
+ },
+ "0.8.1": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "gnunet",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25"
   ]
  },
  "0.8.1b": {
@@ -215,6 +428,30 @@
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6"
   ]
  },
+ "0.9.0": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0009c1f650ba619de97df36322fbd0346db0c099",
+   "0009c1f650ba619de97df36322fbd0346db0c099"
+  ]
+ },
  "0.9.1": {
   "meta": {
    "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
@@ -236,7 +473,84 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "0017d80aa50f8729b5a1e6c65c2f08971cafe526"
+  ]
+ },
+ "0.9.3": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "0.9.5": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00251af1911f4b7c8f19b832a288fec737a8aa99",
+   "00251af1911f4b7c8f19b832a288fec737a8aa99"
+  ]
+ },
+ "0.9.5a": {
+  "meta": {
+   "description": "GNUnet, GNU's decentralized anonymous and censorship-resistant P2P framework",
+   "homepage": "http://gnunet.org/",
+   "license": "GPLv2+",
+   "long_description": "GNUnet is a framework for secure peer-to-peer networking that\ndoes not use any centralized or otherwise trusted services.  A\nfirst service implemented on top of the networking layer\nallows anonymous censorship-resistant file-sharing.  Anonymity\nis provided by making messages originating from a peer\nindistinguishable from messages that the peer is routing.  All\npeers act as routers and use link-encrypted connections with\nstable bandwidth utilization to communicate with each other.\nGNUnet uses a simple, excess-based economic model to allocate\nresources.  Peers in GNUnet monitor each others behavior with\nrespect to resource usage; peers that contribute to the\nnetwork are rewarded with better service.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "gnunet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
   ]
  }
 }

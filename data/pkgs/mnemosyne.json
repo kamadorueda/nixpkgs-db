@@ -1,4 +1,35 @@
 {
+ "2.2.1": {
+  "meta": {
+   "description": "Spaced-repetition software.",
+   "homepage": "http://mnemosyne-proj.org/",
+   "license": null,
+   "long_description": "The Mnemosyne Project has two aspects:\n\n  * It's a free flash-card tool which optimizes your learning process.\n  * It's a research project into the nature of long-term memory.\n\nWe strive to provide a clear, uncluttered piece of software, easy to use\nand to understand for newbies, but still infinitely customisable through\nplugins and scripts for power users.\n\n## Efficient learning\n\nMnemosyne uses a sophisticated algorithm to schedule the best time for\na card to come up for review. Difficult cards that you tend to forget\nquickly will be scheduled more often, while Mnemosyne won't waste your\ntime on things you remember well.\n\n## Memory research\n\nIf you want, anonymous statistics on your learning process can be\nuploaded to a central server for analysis. This data will be valuable to\nstudy the behaviour of our memory over a very long time period. The\nresults will be used to improve the scheduling algorithms behind the\nsoftware even further.  \n",
+   "maintainers": [
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "python2.7-mnemosyne",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/games/mnemosyne/default.nix:30"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
  "2.3.2": {
   "meta": {
    "description": "Spaced-repetition software",
@@ -32,7 +63,45 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
+ "2.6": {
+  "meta": {
+   "description": "Spaced-repetition software",
+   "homepage": "https://mnemosyne-proj.org/",
+   "license": null,
+   "long_description": "The Mnemosyne Project has two aspects:\n\n  * It's a free flash-card tool which optimizes your learning process.\n  * It's a research project into the nature of long-term memory.\n\nWe strive to provide a clear, uncluttered piece of software, easy to use\nand to understand for newbies, but still infinitely customisable through\nplugins and scripts for power users.\n\n## Efficient learning\n\nMnemosyne uses a sophisticated algorithm to schedule the best time for\na card to come up for review. Difficult cards that you tend to forget\nquickly will be scheduled more often, while Mnemosyne won't waste your\ntime on things you remember well.\n\n## Memory research\n\nIf you want, anonymous statistics on your learning process can be\nuploaded to a central server for analysis. This data will be valuable to\nstudy the behaviour of our memory over a very long time period. The\nresults will be used to improve the scheduling algorithms behind the\nsoftware even further.\n",
+   "maintainers": [],
+   "name": "mnemosyne",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/games/mnemosyne/default.nix:40"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  },
  "2.6.1": {
@@ -73,6 +142,38 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "2.7": {
+  "meta": {
+   "description": "Spaced-repetition software",
+   "homepage": "https://mnemosyne-proj.org/",
+   "license": null,
+   "long_description": "The Mnemosyne Project has two aspects:\n\n  * It's a free flash-card tool which optimizes your learning process.\n  * It's a research project into the nature of long-term memory.\n\nWe strive to provide a clear, uncluttered piece of software, easy to use\nand to understand for newbies, but still infinitely customisable through\nplugins and scripts for power users.\n\n## Efficient learning\n\nMnemosyne uses a sophisticated algorithm to schedule the best time for\na card to come up for review. Difficult cards that you tend to forget\nquickly will be scheduled more often, while Mnemosyne won't waste your\ntime on things you remember well.\n\n## Memory research\n\nIf you want, anonymous statistics on your learning process can be\nuploaded to a central server for analysis. This data will be valuable to\nstudy the behaviour of our memory over a very long time period. The\nresults will be used to improve the scheduling algorithms behind the\nsoftware even further.\n",
+   "maintainers": [],
+   "name": "mnemosyne",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/games/mnemosyne/default.nix:54"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "2.7.1": {
   "meta": {
    "description": "Spaced-repetition software",
@@ -102,7 +203,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
   ]
  },
  "2.7.2": {
@@ -134,7 +235,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

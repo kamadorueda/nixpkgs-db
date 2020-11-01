@@ -1,4 +1,45 @@
 {
+ "1.0.0": {
+  "meta": {
+   "description": "GnuPG's interface to passphrase input",
+   "homepage": "http://gnupg.org/aegypten2/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Pinentry provides a console and (optional) GTK+ and Qt GUIs allowing users\nto enter a passphrase when `gpg' or `gpg2' is run and needs it.\n",
+   "maintainers": [
+    "Thomas Tuegel <ttuegel@mailbox.org>"
+   ],
+   "name": "pinentry",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/security/pinentry/default.nix:54"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
  "1.1.0": {
   "meta": {
    "description": "GnuPG\u2019s interface to passphrase input",
@@ -25,7 +66,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

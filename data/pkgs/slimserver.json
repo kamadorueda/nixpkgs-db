@@ -1,4 +1,42 @@
 {
+ "7.9.0": {
+  "meta": {
+   "description": "Server for Logitech Squeezebox players. This server is also called Logitech Media Server",
+   "homepage": "https://github.com/Logitech/slimserver",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@314.ch",
+     "github": "phile314",
+     "name": "Philipp Hausmann"
+    }
+   ],
+   "name": "perl-slimserver",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/slimserver/default.nix:90"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "7.9.1": {
   "meta": {
    "description": "Server for Logitech Squeezebox players. This server is also called Logitech Media Server",
@@ -34,7 +72,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

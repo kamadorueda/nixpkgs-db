@@ -12,7 +12,69 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "0017d80aa50f8729b5a1e6c65c2f08971cafe526"
+  ]
+ },
+ "0.9.33.2": {
+  "meta": {
+   "description": "A small implementation of the C library",
+   "homepage": "http://www.uclibc.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "uclibc",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/uclibc/default.nix:98"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
+ "0.9.34-pre-20141029": {
+  "meta": {
+   "description": "A small implementation of the C library",
+   "homepage": "http://www.uclibc.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "uclibc",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/uclibc/default.nix:96"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "0021ffab7a55237200bc9dd9e7096e70e28cdd0e"
+  ]
+ },
+ "0.9.34-pre-20141215": {
+  "meta": {
+   "description": "A small implementation of the C library",
+   "homepage": "http://www.uclibc.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "uclibc",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/uclibc/default.nix:96"
+  },
+  "revs": [
+   "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
+   "001befaa6fb54b780254e7a7a6a5fc38051ccda0"
   ]
  },
  "0.9.34-pre-20150131": {
@@ -33,7 +95,46 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
+ "1.0.30": {
+  "meta": {
+   "description": "A small implementation of the C library",
+   "homepage": "https://uclibc-ng.org",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "uclibc-ng",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/uclibc/default.nix:109"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.0.31": {
@@ -75,6 +176,37 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.0.32": {
+  "meta": {
+   "description": "A small implementation of the C library",
+   "homepage": "https://uclibc-ng.org",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0-only",
+    "url": "http://spdx.org/licenses/LGPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "githubId": 1366419,
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "uclibc-ng",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/uclibc/default.nix:109"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "1.0.34": {
   "meta": {
    "description": "A small implementation of the C library",
@@ -103,7 +235,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

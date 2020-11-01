@@ -1,4 +1,48 @@
 {
+ "1.0-beta.1": {
+  "meta": {
+   "description": "i3-compatible window manager for Wayland",
+   "homepage": "https://swaywm.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    }
+   ],
+   "name": "sway",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/window-managers/sway/beta.nix:37"
+  },
+  "revs": [
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+  ]
+ },
  "1.0-beta.2": {
   "meta": {
    "description": "i3-compatible window manager for Wayland",
@@ -40,7 +84,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "1.0-rc3": {
@@ -95,6 +139,60 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+  ]
+ },
+ "1.0-rc5": {
+  "meta": {
+   "description": "i3-compatible window manager for Wayland",
+   "homepage": "https://swaywm.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    }
+   ],
+   "name": "sway",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/window-managers/sway/beta.nix:43"
+  },
+  "revs": [
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f",
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f"
   ]
  }
 }

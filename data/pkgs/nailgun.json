@@ -1,4 +1,43 @@
 {
+ "0.9.1": {
+  "meta": {
+   "description": "Client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead",
+   "homepage": "http://martiansoftware.com/nailgun/",
+   "license": {
+    "fullName": "Apple Public Source License 2.0",
+    "shortName": "apsl20",
+    "spdxId": "APSL-2.0",
+    "url": "http://spdx.org/licenses/APSL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaroslavas@volth.com",
+     "github": "volth",
+     "name": "Jaroslavas Pocepko"
+    }
+   ],
+   "name": "nailgun",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/nailgun/default.nix:34"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "1.0.0": {
   "meta": {
    "description": "Client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead",
@@ -35,7 +74,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

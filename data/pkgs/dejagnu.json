@@ -45,7 +45,35 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "0021d4495ee90e96081950034b7bd70b54e66a03"
+  ]
+ },
+ "1.5.1": {
+  "meta": {
+   "description": "Framework for testing other programs",
+   "homepage": "http://www.gnu.org/software/dejagnu/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "DejaGnu is a framework for testing other programs.  Its purpose\nis to provide a single front end for all tests.  Think of it as a\ncustom library of Tcl procedures crafted to support writing a\ntest harness.  A test harness is the testing infrastructure that\nis created to support a specific program or tool.  Each program\ncan have multiple testsuites, all supported by a single test\nharness.  DejaGnu is written in Expect, which in turn uses Tcl --\nTool command language.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "dejagnu",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/misc/dejagnu/default.nix:36"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
   ]
  },
  "1.5.3": {
@@ -76,6 +104,50 @@
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.6": {
+  "meta": {
+   "description": "Framework for testing other programs",
+   "homepage": "http://www.gnu.org/software/dejagnu/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "DejaGnu is a framework for testing other programs.  Its purpose\nis to provide a single front end for all tests.  Think of it as a\ncustom library of Tcl procedures crafted to support writing a\ntest harness.  A test harness is the testing infrastructure that\nis created to support a specific program or tool.  Each program\ncan have multiple testsuites, all supported by a single test\nharness.  DejaGnu is written in Expect, which in turn uses Tcl --\nTool command language.\n",
+   "maintainers": [
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "dejagnu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/dejagnu/default.nix:36"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  },
  "1.6.1": {
@@ -165,7 +237,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.6.2": {
@@ -250,7 +322,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

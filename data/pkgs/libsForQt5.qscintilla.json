@@ -1,4 +1,108 @@
 {
+ "2.10.3": {
+  "meta": {
+   "description": "A Qt port of the Scintilla text editing library",
+   "homepage": "http://www.riverbankcomputing.com/software/qscintilla/intro",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0",
+     "url": "http://spdx.org/licenses/GPL-3.0.html"
+    }
+   ],
+   "long_description": "QScintilla is a port to Qt of Neil Hodgson's Scintilla C++ editor\ncontrol.\n\nAs well as features found in standard text editing components,\nQScintilla includes features especially useful when editing and\ndebugging source code. These include support for syntax styling,\nerror indicators, code completion and call tips. The selection\nmargin can contain markers like those used in debuggers to\nindicate breakpoints and the current line. Styling choices are\nmore open than with many editors, allowing the use of\nproportional fonts, bold and italics, multiple foreground and\nbackground colours and multiple fonts.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "qscintilla-qt5",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/qscintilla/default.nix:48"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "0009ae3d5e1ad620215c2b8409eeec668de60552"
+  ]
+ },
  "2.11.2": {
   "meta": {
    "description": "A Qt port of the Scintilla text editing library",
@@ -57,7 +161,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
  "2.9.4": {

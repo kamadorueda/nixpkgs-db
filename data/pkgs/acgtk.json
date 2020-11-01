@@ -1,4 +1,53 @@
 {
+ "1.3.1": {
+  "meta": {
+   "description": "A toolkit for developing ACG signatures and lexicon",
+   "homepage": "http://calligramme.loria.fr/acg/",
+   "license": {
+    "fullName": "CeCILL Free Software License Agreement v2.0",
+    "shortName": "cecill20",
+    "spdxId": "CECILL-2.0",
+    "url": "http://spdx.org/licenses/CECILL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jiri.marsik89@gmail.com",
+     "github": "jirkamarsik",
+     "name": "Jirka Marsik"
+    }
+   ],
+   "name": "acgtk",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/acgtk/default.nix:53"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "1.5.0": {
   "meta": {
    "description": "A toolkit for developing ACG signatures and lexicon",
@@ -89,7 +138,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

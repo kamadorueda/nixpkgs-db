@@ -35,7 +35,370 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "0.13.2.1": {
+  "meta": {
+   "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
+   "homepage": "https://litecoin.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Anderson Torres <torres.anderson.85@gmail.com>"
+   ],
+   "name": "litecoin",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/altcoins/litecoin.nix:29"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba"
+  ]
+ },
+ "0.14.2": {
+  "meta": {
+   "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
+   "homepage": "https://litecoin.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Anderson Torres <torres.anderson.85@gmail.com>"
+   ],
+   "name": "litecoin",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/altcoins/litecoin.nix:29"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ },
+ "0.15.1": {
+  "meta": {
+   "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
+   "homepage": "https://litecoin.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "torres.anderson.85@gmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "litecoin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/litecoin.nix:29"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "0.16.0": {
+  "meta": {
+   "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
+   "homepage": "https://litecoin.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "torres.anderson.85@gmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "litecoin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/litecoin.nix:29"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "0.16.2": {
+  "meta": {
+   "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
+   "homepage": "https://litecoin.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "litecoin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/litecoin.nix:35"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "00209911b0cdb76b8ec53c4be595e5a0349ba472"
   ]
  },
  "0.16.3": {
@@ -128,6 +491,22 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.8.5.3-rc3": {
+  "meta": {
+   "description": "Litecoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.",
+   "homepage": "https://litecoin.org/",
+   "license": null,
+   "long_description": "Litecoin is a peer-to-peer Internet currency that enables instant payments\nto anyone in the world. It is based on the Bitcoin protocol but differs\nfrom Bitcoin in that it can be efficiently mined with consumer-grade hardware.\nLitecoin provides faster transaction confirmations (2.5 minutes on average)\nand uses a memory-hard, scrypt-based mining proof-of-work algorithm to target\nthe regular computers and GPUs most people already have.\nThe Litecoin network is scheduled to produce 84 million currency units.\n",
+   "maintainers": [],
+   "name": "litecoin",
+   "platforms": null,
+   "position": "pkgs/applications/misc/bitcoin/altcoins.nix:47"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00146e3e086c61add917958e0697cc4507960933"
+  ]
+ },
  "0.9.3-preview5": {
   "meta": {
    "description": "A lite version of Bitcoin using scrypt as a proof-of-work algorithm",
@@ -161,7 +540,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "000162daed5e6a854d1e034409002aee80e6d8ac"
+   "00111ad79d7e58149141311628a602190fd69233"
   ]
  }
 }

@@ -1,4 +1,52 @@
 {
+ "4.80": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": [],
+   "name": "lsof",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "000ba6536350b58079484fc64b467ec227e73e26"
+  ]
+ },
+ "4.81": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": [],
+   "name": "lsof",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25"
+  ]
+ },
+ "4.83": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": [],
+   "name": "lsof",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c"
+  ]
+ },
  "4.84": {
   "meta": {
    "description": "A tool to list open files",
@@ -28,7 +76,39 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "0017d80aa50f8729b5a1e6c65c2f08971cafe526"
+  ]
+ },
+ "4.86": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": [],
+   "name": "lsof",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "00251af1911f4b7c8f19b832a288fec737a8aa99"
+  ]
+ },
+ "4.87": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": "Petr Ro\u010dkai <me@mornfall.net>",
+   "name": "lsof",
+   "platforms": null,
+   "position": "pkgs/development/tools/misc/lsof/default.nix:27"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
   ]
  },
  "4.88": {
@@ -64,7 +144,98 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "4.90": {
+  "meta": {
+   "description": "A tool to list open files",
+   "homepage": "ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/",
+   "license": null,
+   "long_description": "List open files. Can show what process has opened some file,\nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file\nfrom it).\n",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "name": "Tuomas Tynkkynen"
+    }
+   ],
+   "name": "lsof",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/lsof/default.nix:52"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
   ]
  },
  "4.91": {
@@ -200,7 +371,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

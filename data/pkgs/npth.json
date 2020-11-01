@@ -1,4 +1,103 @@
 {
+ "": {
+  "meta": {
+   "description": "The New GNU Portable Threads Library",
+   "homepage": "http://www.gnupg.org",
+   "license": "LGPLv3",
+   "long_description": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+   "maintainers": [],
+   "name": "npth-git20120407",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "0.91": {
+  "meta": {
+   "description": "The New GNU Portable Threads Library",
+   "homepage": "http://www.gnupg.org",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0"
+   },
+   "long_description": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+   "maintainers": [],
+   "name": "npth",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/development/libraries/npth/default.nix:12"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
+ "1.1": {
+  "meta": {
+   "description": "The New GNU Portable Threads Library",
+   "homepage": "http://www.gnupg.org",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0"
+   },
+   "long_description": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+   "maintainers": [],
+   "name": "npth",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/development/libraries/npth/default.nix:12"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+  ]
+ },
  "1.2": {
   "meta": {
    "description": "The New GNU Portable Threads Library",
@@ -34,7 +133,69 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+  ]
+ },
+ "1.3": {
+  "meta": {
+   "description": "The New GNU Portable Threads Library",
+   "homepage": "http://www.gnupg.org",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0"
+   },
+   "long_description": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+   "maintainers": [],
+   "name": "npth",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/npth/default.nix:12"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
+ "1.5": {
+  "meta": {
+   "description": "The New GNU Portable Threads Library",
+   "homepage": "http://www.gnupg.org",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+   "maintainers": [],
+   "name": "npth",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/npth/default.nix:14"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
   ]
  },
  "1.6": {
@@ -57,7 +218,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

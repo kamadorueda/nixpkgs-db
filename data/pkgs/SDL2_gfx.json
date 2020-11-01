@@ -1,4 +1,35 @@
 {
+ "1.0.1": {
+  "meta": {
+   "description": "SDL graphics drawing primitives and support functions",
+   "homepage": "https://sourceforge.net/projects/sdlgfx/",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib"
+   },
+   "long_description": "The SDL_gfx library evolved out of the SDL_gfxPrimitives code\nwhich provided basic drawing routines such as lines, circles or\npolygons and SDL_rotozoom which implemented a interpolating\nrotozoomer for SDL surfaces.\n\nThe current components of the SDL_gfx library are:\n\n    * Graphic Primitives (SDL_gfxPrimitves.h)\n    * Rotozoomer (SDL_rotozoom.h)\n    * Framerate control (SDL_framerate.h)\n    * MMX image filters (SDL_imageFilter.h)\n    * Custom Blit functions (SDL_gfxBlitFunc.h)\n\nThe library is backwards compatible to the above mentioned\ncode. Its is written in plain C and can be used in C++ code.\n",
+   "maintainers": [
+    "Brian Gough <bjg@gnu.org>"
+   ],
+   "name": "SDL2_gfx",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/SDL2_gfx/default.nix:17"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ },
  "1.0.4": {
   "meta": {
    "description": "SDL graphics drawing primitives and support functions",
@@ -81,7 +112,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  },
  "5": {

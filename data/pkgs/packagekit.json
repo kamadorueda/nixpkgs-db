@@ -1,4 +1,34 @@
 {
+ "1.0.8": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "packagekit",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:56"
+  },
+  "revs": [
+   "00078e317e63d1d934806efd62f56e48150a4f64",
+   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+  ]
+ },
  "1.1.1": {
   "meta": {
    "description": "System to facilitate installing and updating packages",
@@ -27,6 +57,176 @@
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "1.1.10": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "packagekit",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:55"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.1.11": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "packagekit",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:57"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "0023e1d0de7c0a61f884f286a1a25326f0c0a568"
   ]
  },
  "1.1.12": {
@@ -164,7 +364,145 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "1.1.3": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <github@tobias.gr>",
+    "Matthew Bauer <mjbauer95@gmail.com>"
+   ],
+   "name": "packagekit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:53"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "000b68c22606fc244456e09c92c83663614a96d9"
+  ]
+ },
+ "1.1.7": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <github@tobias.gr>",
+    "Matthew Bauer <mjbauer95@gmail.com>"
+   ],
+   "name": "packagekit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:53"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ },
+ "1.1.8": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "packagekit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:53"
+  },
+  "revs": [
+   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "1.1.9": {
+  "meta": {
+   "description": "System to facilitate installing and updating packages",
+   "homepage": "http://www.packagekit.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "packagekit",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/package-management/packagekit/default.nix:53"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
   ]
  }
 }

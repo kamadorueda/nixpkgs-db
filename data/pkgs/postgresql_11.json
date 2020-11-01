@@ -1,4 +1,89 @@
 {
+ "11.0": {
+  "meta": {
+   "description": "A powerful, open source object-relational database system",
+   "homepage": "https://www.postgresql.org",
+   "license": {
+    "fullName": "PostgreSQL License",
+    "shortName": "postgresql",
+    "spdxId": "PostgreSQL",
+    "url": "http://spdx.org/licenses/PostgreSQL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ollie@ocharles.org.uk",
+     "github": "ocharles",
+     "name": "Oliver Charles"
+    }
+   ],
+   "name": "postgresql",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/default.nix:93"
+  },
+  "revs": [
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d"
+  ]
+ },
  "11.1": {
   "meta": {
    "description": "A powerful, open source object-relational database system",
@@ -86,7 +171,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "11.2": {
@@ -184,6 +269,64 @@
    "0000a86d7cd47005096a292a797d2e02ce29e8d8"
   ]
  },
+ "11.3": {
+  "meta": {
+   "description": "A powerful, open source object-relational database system",
+   "homepage": "https://www.postgresql.org",
+   "license": {
+    "fullName": "PostgreSQL License",
+    "shortName": "postgresql",
+    "spdxId": "PostgreSQL",
+    "url": "http://spdx.org/licenses/PostgreSQL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ollie@ocharles.org.uk",
+     "github": "ocharles",
+     "name": "Oliver Charles"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "name": "Danylo Hlynskyi"
+    }
+   ],
+   "name": "postgresql",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/sql/postgresql/default.nix:131"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
  "11.4": {
   "meta": {
    "description": "A powerful, open source object-relational database system",
@@ -279,6 +422,148 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "11.6": {
+  "meta": {
+   "description": "A powerful, open source object-relational database system",
+   "homepage": "https://www.postgresql.org",
+   "license": {
+    "fullName": "PostgreSQL License",
+    "shortName": "postgresql",
+    "spdxId": "PostgreSQL",
+    "url": "http://spdx.org/licenses/PostgreSQL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ollie@ocharles.org.uk",
+     "github": "ocharles",
+     "githubId": 20878,
+     "name": "Oliver Charles"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "postgresql",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/sql/postgresql/default.nix:146"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "11.7": {
+  "meta": {
+   "description": "A powerful, open source object-relational database system",
+   "homepage": "https://www.postgresql.org",
+   "license": {
+    "fullName": "PostgreSQL License",
+    "shortName": "postgresql",
+    "spdxId": "PostgreSQL",
+    "url": "http://spdx.org/licenses/PostgreSQL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ollie@ocharles.org.uk",
+     "github": "ocharles",
+     "githubId": 20878,
+     "name": "Oliver Charles"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "postgresql",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/sql/postgresql/default.nix:145"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "11.8": {
   "meta": {
    "description": "A powerful, open source object-relational database system",
@@ -347,7 +632,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
   ]
  },
  "11.9": {
@@ -419,7 +704,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

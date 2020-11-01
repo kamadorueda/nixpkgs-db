@@ -1,4 +1,43 @@
 {
+ "1.0.0": {
+  "meta": {
+   "description": "Terminal emulator which mimics the old cathode display",
+   "homepage": "https://github.com/Swordifish90/cool-retro-term",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0",
+     "url": "http://spdx.org/licenses/GPL-3.0"
+    }
+   ],
+   "long_description": "cool-retro-term is a terminal emulator which tries to mimic the look and\nfeel of the old cathode tube screens. It has been designed to be\neye-candy, customizable, and reasonably lightweight.\n",
+   "maintainers": [
+    "Sven Keidel <svenkeidel@gmail.com>"
+   ],
+   "name": "cool-retro-term",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/misc/cool-retro-term/default.nix:33"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+  ]
+ },
  "1.0.1": {
   "meta": {
    "description": "Terminal emulator which mimics the old cathode display",
@@ -45,7 +84,56 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
+ "1.1.0": {
+  "meta": {
+   "description": "Terminal emulator which mimics the old cathode display",
+   "homepage": "https://github.com/Swordfish90/cool-retro-term",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "cool-retro-term is a terminal emulator which tries to mimic the look and\nfeel of the old cathode tube screens. It has been designed to be\neye-candy, customizable, and reasonably lightweight.\n",
+   "maintainers": [
+    {
+     "email": "svenkeidel@gmail.com",
+     "github": "svenkeidel",
+     "name": "Sven Keidel"
+    }
+   ],
+   "name": "cool-retro-term",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/cool-retro-term/default.nix:35"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "1.1.1": {
@@ -94,7 +182,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

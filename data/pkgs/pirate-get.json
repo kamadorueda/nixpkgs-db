@@ -1,4 +1,236 @@
 {
+ "0.2.10": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Michele Guerini Rocco <micheleguerinirocco@me.com>",
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:20"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "0016d925e42c28df8666293bb38a440b10101fd8"
+  ]
+ },
+ "0.2.12": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "micheleguerinirocco@me.com",
+     "github": "rnhmjoj",
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:20"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "0.3.1": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "micheleguerinirocco@me.com",
+     "github": "rnhmjoj",
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:19"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "0.3.2": {
   "meta": {
    "description": "A command line interface for The Pirate Bay",
@@ -81,7 +313,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "0008aa73eb0dec898c4e2e6913af645abd253c35"
   ]
  },
  "0.3.3": {
@@ -169,6 +401,124 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.3.4": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0-only",
+    "url": "http://spdx.org/licenses/GPL-1.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rnhmjoj@inventati.org",
+     "github": "rnhmjoj",
+     "githubId": 2817565,
+     "keys": [
+      {
+       "fingerprint": "92B2 904F D293 C94D C4C9  3E6B BFBA F4C9 75F7 6450",
+       "longkeyid": "ed25519/0xBFBAF4C975F76450"
+      }
+     ],
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:19"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc"
+  ]
+ },
+ "0.3.5": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0-only",
+    "url": "https://spdx.org/licenses/GPL-1.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rnhmjoj@inventati.org",
+     "github": "rnhmjoj",
+     "githubId": 2817565,
+     "keys": [
+      {
+       "fingerprint": "92B2 904F D293 C94D C4C9  3E6B BFBA F4C9 75F7 6450",
+       "longkeyid": "ed25519/0xBFBAF4C975F76450"
+      }
+     ],
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:19"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "0010ae4960d35243e7abb046cd26ddda904a4c63"
+  ]
+ },
  "0.4.0": {
   "meta": {
    "description": "A command line interface for The Pirate Bay",
@@ -225,7 +575,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

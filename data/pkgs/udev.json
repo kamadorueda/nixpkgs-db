@@ -1,4 +1,52 @@
 {
+ "125": {
+  "meta": {
+   "description": "Udev manages the /dev filesystem",
+   "homepage": "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "udev",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "000ba6536350b58079484fc64b467ec227e73e26"
+  ]
+ },
+ "145": {
+  "meta": {
+   "description": "Udev manages the /dev filesystem",
+   "homepage": "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "udev",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "001a74368fc68b7365b395892eeee80a06c2e15c"
+  ]
+ },
+ "154": {
+  "meta": {
+   "description": "Udev manages the /dev filesystem",
+   "homepage": "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "udev",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c"
+  ]
+ },
  "160": {
   "meta": {
    "description": "Udev manages the /dev filesystem",
@@ -28,7 +76,41 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "000791e74a511f862081aff90ab27304c88f0aba"
+  ]
+ },
+ "238": {
+  "meta": {
+   "description": "A system and service manager for Linux",
+   "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "systemd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/systemd/default.nix:213"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "0011f10b5754963a7a993390f1c64a89d883e06d"
   ]
  }
 }

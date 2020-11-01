@@ -1,4 +1,99 @@
 {
+ "4.40.1": {
+  "meta": {
+   "description": "A clean fixed width TTF font",
+   "homepage": "http://files.ax86.net/terminus-ttf",
+   "license": {
+    "fullName": "SIL Open Font License 1.1",
+    "shortName": "ofl",
+    "spdxId": "OFL-1.1",
+    "url": "http://spdx.org/licenses/OFL-1.1.html"
+   },
+   "long_description": "Monospaced bitmap font designed for long work with computers\n(TTF version, mainly for Java applications)\n",
+   "maintainers": [
+    {
+     "email": "oka.sux@gmail.com",
+     "name": "Okasu"
+    }
+   ],
+   "name": "terminus-font-ttf",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/fonts/terminus-font-ttf/default.nix:24"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+  ]
+ },
  "4.46.0": {
   "meta": {
    "description": "A clean fixed width TTF font",
@@ -106,7 +201,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

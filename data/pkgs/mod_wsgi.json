@@ -20,7 +20,35 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "000051b196b82d30d1008c8999502c484ea5bd7d"
+   "00081d1873148a8ec642d5c912d04875c4ee4a66"
+  ]
+ },
+ "3.4": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "http://code.google.com/p/modwsgi/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "mod_wsgi",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:21"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "0005e1896d9bdef48aedcff9e86843351ac024e9"
   ]
  },
  "3.5": {
@@ -48,7 +76,135 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "0000d4029e264262dcf45a822ccf3b48bcacf209"
+   "0022708d6d369527aa4ff5da07806203c21533d5"
+  ]
+ },
+ "4.5.24": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "4.6.2": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "001db3951d2817af4707bb87eef2536bd445cfd4",
+   "001db3951d2817af4707bb87eef2536bd445cfd4"
+  ]
+ },
+ "4.6.3": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
+ "4.6.4": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "4.6.5": {
@@ -84,6 +240,104 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "4.6.6": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
+  ]
+ },
+ "4.6.8": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "4.7.0": {
+  "meta": {
+   "description": "Host Python applications in Apache through the WSGI interface",
+   "homepage": "https://github.com/GrahamDumpleton/mod_wsgi",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mod_wsgi",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/http/apache-modules/mod_wsgi/default.nix:22"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+  ]
+ },
  "4.7.1": {
   "meta": {
    "description": "Host Python applications in Apache through the WSGI interface",
@@ -114,7 +368,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

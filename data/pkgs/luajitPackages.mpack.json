@@ -1,4 +1,34 @@
 {
+ "1.0.3-rev80bd55ea677e70b041f65a4b99438c1f059cce4b": {
+  "meta": {
+   "description": "Simple implementation of msgpack in C Lua 5.1",
+   "homepage": "https://github.com/tarruda/libmpack",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.1-lua-mpack",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:538"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "000b68c22606fc244456e09c92c83663614a96d9"
+  ]
+ },
  "1.0.7": {
   "meta": {
    "description": "Lua bindings for libmpack",
@@ -45,7 +75,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00242aa4da43e7e0ba7051d50f700af70f37c952"
   ]
  },
  "1.0.7-0": {
@@ -88,6 +118,72 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "1.0.7_ef025224a799066b818120fb1f30a308543a6e99": {
+  "meta": {
+   "description": "Lua bindings for libmpack",
+   "homepage": "https://github.com/libmpack/libmpack-lua",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "vyp <elisp.vim@gmail.com>"
+   ],
+   "name": "lua5.1-lua-mpack",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:648"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98"
+  ]
+ },
+ "2.1.0-2020-03-20-mpack-1.0.7-0": {
+  "meta": {
+   "description": "Lua binding to libmpack",
+   "homepage": "https://github.com/libmpack/libmpack-lua/releases/download/1.0.7/libmpack-lua-1.0.7.tar.gz",
+   "license": {
+    "fullName": "MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "luajit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:1407"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "001cf3f926af996ec6d779f861bcba4ed04c5411"
+  ]
+ },
  "2.1.0-2020-03-20-mpack-1.0.8-0": {
   "meta": {
    "description": "Lua binding to libmpack",
@@ -119,7 +215,41 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00022fbeda385d7b6ae2eee44f07eecfc6d92015"
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64"
+  ]
+ },
+ "2.1.0-2020-08-05-mpack-1.0.8-0": {
+  "meta": {
+   "description": "Lua binding to libmpack",
+   "homepage": "https://github.com/libmpack/libmpack-lua/releases/download/1.0.8/libmpack-lua-1.0.8.tar.gz",
+   "license": {
+    "fullName": "MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "luajit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:1338"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1"
   ]
  },
  "2.1.0-2020-08-27-mpack-1.0.8-0": {
@@ -153,7 +283,41 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "2.1.0-beta3-mpack-1.0.7-0": {
+  "meta": {
+   "description": "Lua binding to libmpack",
+   "homepage": "https://github.com/libmpack/libmpack-lua/releases/download/1.0.7/libmpack-lua-1.0.7.tar.gz",
+   "license": {
+    "fullName": "MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "luajit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:1407"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
   ]
  }
 }

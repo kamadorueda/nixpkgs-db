@@ -1,4 +1,34 @@
 {
+ "3.1.2": {
+  "meta": {
+   "description": "HTTP benchmarking tool.",
+   "homepage": "http://github.com/wg/wrk",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "wrk is a modern HTTP benchmarking tool capable of generating\nsignificant load when run on a single multi-core CPU. It\ncombines a multithreaded design with scalable event notification\nsystems such as epoll and kqueue.\n",
+   "maintainers": [
+    "Ragnar Dahlen <r.dahlen@gmail.com>"
+   ],
+   "name": "wrk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/networking/wrk/default.nix:24"
+  },
+  "revs": [
+   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
+   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+  ]
+ },
  "4.0.0": {
   "meta": {
    "description": "HTTP benchmarking tool",
@@ -27,6 +57,47 @@
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
    "0000d4029e264262dcf45a822ccf3b48bcacf209"
+  ]
+ },
+ "4.0.2": {
+  "meta": {
+   "description": "HTTP benchmarking tool",
+   "homepage": "https://github.com/wg/wrk",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "wrk is a modern HTTP benchmarking tool capable of generating\nsignificant load when run on a single multi-core CPU. It\ncombines a multithreaded design with scalable event notification\nsystems such as epoll and kqueue.\n",
+   "maintainers": [
+    "Ragnar Dahlen <r.dahlen@gmail.com>"
+   ],
+   "name": "wrk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/networking/wrk/default.nix:33"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0022708d6d369527aa4ff5da07806203c21533d5"
   ]
  },
  "4.1.0": {
@@ -111,7 +182,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

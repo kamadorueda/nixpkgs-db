@@ -1,4 +1,36 @@
 {
+ "0.11.0": {
+  "meta": {
+   "description": "A build system with builtin rules to easily build most OCaml projects",
+   "homepage": "https://github.com/ocaml/ocamlbuild/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Vincent Laporte <Vincent.Laporte@gmail.com>"
+   ],
+   "name": "ocamlbuild",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/tools/ocaml/ocamlbuild/default.nix:30"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
  "0.12.0": {
   "meta": {
    "description": "A build system with builtin rules to easily build most OCaml projects",
@@ -48,6 +80,55 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "0.13.0": {
+  "meta": {
+   "description": "A build system with builtin rules to easily build most OCaml projects",
+   "homepage": "https://github.com/ocaml/ocamlbuild/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "ocamlbuild",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/ocaml/ocamlbuild/default.nix:30"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "0013bc3056604b25299e8601caf4f99cc1f4a910"
+  ]
+ },
  "0.14.0": {
   "meta": {
    "description": "A build system with builtin rules to easily build most OCaml projects",
@@ -89,7 +170,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
   ]
  }
 }

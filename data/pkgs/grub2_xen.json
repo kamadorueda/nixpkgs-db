@@ -120,7 +120,49 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "000404944c6da404f013111563bcc0084b270e28"
+   "001334b47c6cdfc35e94805380484e75004cdbf5"
+  ]
+ },
+ "2.04-rc1": {
+  "meta": {
+   "description": "GNU GRUB, the Grand Unified Boot Loader (2.x beta)",
+   "homepage": "https://www.gnu.org/software/grub/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "GNU GRUB is a Multiboot boot loader. It was derived from GRUB, GRand\n        Unified Bootloader, which was originally designed and implemented by\n        Erich Stefan Boleyn.\n\n        Briefly, the boot loader is the first software program that runs when a\n        computer starts.  It is responsible for loading and transferring\n        control to the operating system kernel software (such as the Hurd or\n        the Linux).  The kernel, in turn, initializes the rest of the\n        operating system (e.g., GNU).\n",
+   "maintainers": [],
+   "name": "grub",
+   "platforms": [
+    "aarch64-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/grub/2.0x.nix:116"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "0024cfcc49560645359f1a709a2f2af625962d3c"
   ]
  }
 }
