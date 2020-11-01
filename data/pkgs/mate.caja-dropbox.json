@@ -45,7 +45,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "0153599164e7ef2266c9de4979369daadb3a3cad"
+   "035f3363cbdb93f7e7d298e56bf285899a3bbc29"
   ]
  },
  "1.20.0": {
@@ -139,7 +139,101 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "1.22.0": {
+  "meta": {
+   "description": "Dropbox extension for Caja file manager",
+   "homepage": "https://github.com/mate-desktop/caja-dropbox",
+   "license": [
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0-only",
+     "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution-No Derivative Works v3.00",
+     "shortName": "cc-by-nd-30",
+     "spdxId": "CC-BY-ND-3.0",
+     "url": "http://spdx.org/licenses/CC-BY-ND-3.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "caja-dropbox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/mate/caja-dropbox/default.nix:27"
+  },
+  "revs": [
+   "03beb43379809892d505933e6c28e2c54ae40ccd",
+   "03bfaa15ca4c990b480ef88bc7034845ad270e01"
   ]
  },
  "1.22.1": {

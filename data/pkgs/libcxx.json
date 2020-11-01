@@ -78,7 +78,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "02301a96db5b5d3aac0d28b753705ad49267ac99"
+   "02fdd3840081ffa9f3178a8ddd7ce72d505d3851"
   ]
  },
  "3.5.0": {
@@ -196,7 +196,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "026531a04a36d3577122e81f4e7864afd507850f"
+   "037f300184dd2a52399f9b75421e2374d36ab39a"
   ]
  },
  "3.7.0": {
@@ -227,7 +227,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "00aec448aba9e9d5d7edd53504f824dc4156b779"
+   "0338199544a7df4ce8dde1b6dc987f17760863f3"
   ]
  },
  "3.7.1": {
@@ -552,7 +552,94 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "7.0.1": {
+  "meta": {
+   "description": "A new implementation of the C++ standard library, targeting C++11",
+   "homepage": "http://libcxx.llvm.org/",
+   "license": [
+    {
+     "fullName": "University of Illinois/NCSA Open Source License",
+     "shortName": "ncsa",
+     "spdxId": "NCSA",
+     "url": "http://spdx.org/licenses/NCSA.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "libc++",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/llvm/7/libc++/default.nix:46"
+  },
+  "revs": [
+   "037f62bbadb96c3587054613a9f107e34f6011c9",
+   "037f62bbadb96c3587054613a9f107e34f6011c9"
   ]
  },
  "7.1.0": {

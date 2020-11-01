@@ -383,7 +383,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "02a3726a1256fa0e144c302537c8b0876bfee77f"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "1.6": {
@@ -481,7 +481,61 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "1.8": {
+  "meta": {
+   "description": "NVM-Express user space tooling for Linux",
+   "homepage": "https://github.com/linux-nvme/nvme-cli",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "octavian.cerna@gmail.com",
+     "github": "tavyc",
+     "name": "Octavian Cerna"
+    }
+   ],
+   "name": "nvme-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/nvme-cli/default.nix:18"
+  },
+  "revs": [
+   "03653d68a9779941bea05f0ffb5eb71ba0228c4f",
+   "03653d68a9779941bea05f0ffb5eb71ba0228c4f"
   ]
  },
  "1.8.1": {

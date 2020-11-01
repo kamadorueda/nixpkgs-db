@@ -177,7 +177,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "0.4.14": {
@@ -762,6 +762,102 @@
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
    "01fc00cc816d974056b788dc0014b4908869b3b2"
+  ]
+ },
+ "0.4.6": {
+  "meta": {
+   "description": "Graph-based image processing framework",
+   "homepage": "http://www.gegl.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "gegl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gegl/4.0.nix:32"
+  },
+  "revs": [
+   "0320769991e29f1fb7d1d4c56ccbc71bc0266258",
+   "035906ce6601fe12254ead3349e8a95c7b5ac54e"
   ]
  },
  "0.4.8": {

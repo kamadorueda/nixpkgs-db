@@ -208,7 +208,7 @@
   },
   "revs": [
    "00ddd6a8ae9989ada2cb1a70b0c6cfb1022f6b1e",
-   "015052f484e3f47bc2039aaacbbea3ec57aeac93"
+   "03b44ad3ed96c5cb20e5ca7dd2b55edd21846fb9"
   ]
  },
  "15.12-4.14.42-a": {
@@ -314,7 +314,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "02c42d0883ebb4c4c9e891de9a1368b9925dca91"
   ]
  },
  "15.12-4.14.48": {
@@ -897,7 +897,7 @@
   },
   "revs": [
    "018c66537f65c5e29bb1640e91d4411bdceddbed",
-   "018c66537f65c5e29bb1640e91d4411bdceddbed"
+   "038263eedc93b2faf23a7dd285f6202e78f9b741"
   ]
  },
  "15.12-4.14.59": {
@@ -950,7 +950,7 @@
   },
   "revs": [
    "003055a670470f678e376be7f9b9051fb242ec0f",
-   "003055a670470f678e376be7f9b9051fb242ec0f"
+   "0323ac91d84d99efae0d9b8d69052e40d3bf8bd0"
   ]
  },
  "15.12-4.14.60": {
@@ -1056,7 +1056,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "026ec8cfb5b1dc9d0ab3edf9346b9e974a370471"
+   "0317cc052579a4990619297811a5c1878feade62"
   ]
  },
  "15.12-4.14.62": {
@@ -1109,7 +1109,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "01bbc716e23cb378012029faa87afc651f211abc"
+   "030760a99441a0f9057cb95a6fa6eef22f1c7985"
   ]
  },
  "15.12-4.14.63": {
@@ -1162,7 +1162,7 @@
   },
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
-   "01fc00cc816d974056b788dc0014b4908869b3b2"
+   "0353772874892ba5cd4cdd4f59b0f622d0798ad8"
   ]
  },
  "15.12-4.14.64": {
@@ -1268,7 +1268,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "038a45f598ef90aa63f27498c77510528079af05"
   ]
  },
  "15.12-4.14.66": {
@@ -1534,6 +1534,59 @@
   "revs": [
    "003af0c6d300ac515658b25a9210d3689ecce554",
    "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
+ "15.12-4.14.78": {
+  "meta": {
+   "description": "ATI Catalyst display drivers",
+   "homepage": "http://support.amd.com/us/gpudownload/Pages/index.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco-oweber@gmx.de",
+     "github": "marcweber",
+     "name": "Marc Weber"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "github@matt.mchenryfamily.org",
+     "github": "jerith666",
+     "name": "Matt McHenry"
+    }
+   ],
+   "name": "ati-drivers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ati-drivers/default.nix:130"
+  },
+  "revs": [
+   "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  }
 }

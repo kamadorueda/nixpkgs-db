@@ -15,6 +15,22 @@
    "012b942ca39375276e396bb9c492273c22bb37a5"
   ]
  },
+ "1.0.alpha2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dovecot",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "02d12c9ff68b3bcae1d53e6de422c0d5aa750158",
+   "02d12c9ff68b3bcae1d53e6de422c0d5aa750158"
+  ]
+ },
  "2.1.17": {
   "meta": {
    "description": "Open source IMAP and POP3 email server written with security primarily in mind",
@@ -31,7 +47,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "026531a04a36d3577122e81f4e7864afd507850f"
+   "037f300184dd2a52399f9b75421e2374d36ab39a"
   ]
  },
  "2.1.8": {
@@ -235,7 +251,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "0264c64ebb5a1d49f95e568ccaeaec18dc83d6fc"
+   "036bcb7f6df8e01753ed6ec3c24a277bcfdf3b3f"
   ]
  },
  "2.2.34": {
@@ -473,7 +489,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "2.3.10": {
@@ -1257,7 +1273,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "02a1d3b24a94a21844ae545a9eb9ee00b61e0f63"
+   "03071af31c2672e22e9fe6696f78a2ba70d7689d"
   ]
  },
  "2.3.5.1": {
@@ -1570,7 +1586,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "01422520124ac176e4b6c1e597a6eee2d11ccf43"
+   "0300fc5cf2c59f8dafe8acf8897d270bd3fa8790"
   ]
  },
  "2.3.7.1": {
@@ -1705,6 +1721,102 @@
    "021d733ea3f87b8c9232020b4e606d08eaca160b"
   ]
  },
+ "2.3.8": {
+  "meta": {
+   "description": "Open source IMAP and POP3 email server written with security primarily in mind",
+   "homepage": "https://dovecot.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    },
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "dovecot",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/mail/dovecot/default.nix:85"
+  },
+  "revs": [
+   "02dbdcddcd305680af69e9f9245a04605db18f88",
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
  "2.3.9.2": {
   "meta": {
    "description": "Open source IMAP and POP3 email server written with security primarily in mind",
@@ -1773,7 +1885,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00afca09295db93bf8bffe3f6f2d92a74eb97b38"
+   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
   ]
  },
  "2.3.9.3": {

@@ -432,7 +432,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "00215e5bc0f046b0da8af5f5955b13ee8d915d51"
+   "037ef70d5cbacc9850f5c52d19b16cc41cd5efae"
   ]
  },
  "0.109.0": {
@@ -1156,7 +1156,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "00ab5f18a61b5f6289d09eb34b78e2f1b9c66a53"
+   "038e86ffbb76bd54b922e68f5514102e36bec96b"
   ]
  },
  "0.114.4": {
@@ -1292,7 +1292,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "02a318d3f3cc62ba3ef2cbe6ed7b484d2f185871"
+   "0331c39d4e5b7a285b7336bc7c206ab125d32bc3"
   ]
  },
  "0.116.2": {
@@ -1496,7 +1496,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "0126c86672b7d14843225df16ddfefd7091eabe7"
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33"
   ]
  },
  "0.62.1": {
@@ -1529,7 +1529,40 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "026719f5c243500e44cb183ccef37e9a26db2f89"
+   "03a35ac9c06c48b15160cadecfb33deeaee984d0"
+  ]
+ },
+ "0.63": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Breidenstein <mail@felixbreidenstein.de>",
+    "Robert Sch\u00fctz <rschuetz17@gmail.com>"
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:87"
+  },
+  "revs": [
+   "038b893338f78bbb879eb6a7c28d8dcd9f9064d2",
+   "038b893338f78bbb879eb6a7c28d8dcd9f9064d2"
   ]
  },
  "0.63.1": {
@@ -1562,7 +1595,7 @@
   },
   "revs": [
    "0153599164e7ef2266c9de4979369daadb3a3cad",
-   "0153599164e7ef2266c9de4979369daadb3a3cad"
+   "035f3363cbdb93f7e7d298e56bf285899a3bbc29"
   ]
  },
  "0.63.2": {
@@ -1693,6 +1726,60 @@
    "02a3726a1256fa0e144c302537c8b0876bfee77f"
   ]
  },
+ "0.66.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:104"
+  },
+  "revs": [
+   "02dfbab3bed6c1a2acf594c3245baada7e4ed6d1",
+   "02dfbab3bed6c1a2acf594c3245baada7e4ed6d1"
+  ]
+ },
  "0.67.0": {
   "meta": {
    "description": "Open-source home automation platform running on Python 3",
@@ -1798,7 +1885,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "004111c27e11684d6945f82124110c5f17c1bf01"
+   "02d34f7d9e72bc8c4373784d3d23a2c86cc25cef"
   ]
  },
  "0.68.0": {
@@ -1852,7 +1939,7 @@
   },
   "revs": [
    "024efc950923730bc3e7e05a87b90c157324e912",
-   "024efc950923730bc3e7e05a87b90c157324e912"
+   "03948901836086fdc2e78a1721d2151db052a673"
   ]
  },
  "0.68.1": {
@@ -1907,6 +1994,60 @@
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
    "01b274ce0d9923eb960b1a55e13527545f381f41"
+  ]
+ },
+ "0.69.0": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:119"
+  },
+  "revs": [
+   "032c04ebd7ba9f45ea0ce402ee00deb055653029",
+   "032c04ebd7ba9f45ea0ce402ee00deb055653029"
   ]
  },
  "0.69.1": {
@@ -2608,7 +2749,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "0.80.3": {
@@ -2717,6 +2858,60 @@
   "revs": [
    "00a51a9669c0883b13a7bb5273641c3f8cd29694",
    "00a51a9669c0883b13a7bb5273641c3f8cd29694"
+  ]
+ },
+ "0.81.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:124"
+  },
+  "revs": [
+   "03062770972b33703f17cc016b7551d03445e34e",
+   "03062770972b33703f17cc016b7551d03445e34e"
   ]
  },
  "0.81.2": {
@@ -2878,7 +3073,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "002c411f45a9bcea367cd664be231ac75793a83e"
+   "030eda93950754ca9b31e1ab0e1f700afbf0ec6b"
   ]
  },
  "0.82.1": {
@@ -2932,7 +3127,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "007e177f90408bc0f549731642c6fddf88f399ec"
+   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
   ]
  },
  "0.83.3": {
@@ -3094,7 +3289,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "02b1b8eaf33d8574d8e29c4394fe99d79c47be17"
+   "03072036937c250976f0522b070eefe96e8ab0f1"
   ]
  },
  "0.85.0": {
@@ -3256,7 +3451,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "0.87.1": {
@@ -3418,7 +3613,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "028a4b6a53b9295281f5cdb1349367528cf98234"
+   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
   ]
  },
  "0.90.1": {
@@ -3472,7 +3667,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "02a1d3b24a94a21844ae545a9eb9ee00b61e0f63"
+   "03071af31c2672e22e9fe6696f78a2ba70d7689d"
   ]
  },
  "0.90.2": {
@@ -3634,7 +3829,7 @@
   },
   "revs": [
    "015888ce7f7bd8e5168390fc6a923972389f0727",
-   "023b3a5730e8354b869d61c16c42fa729adc4125"
+   "038b2f5e9f34060dfbbdbab9b764817d21a6687e"
   ]
  },
  "0.91.3": {

@@ -94,6 +94,101 @@
    "02a3a15bfd26674f408da197a879d19f38672df8"
   ]
  },
+ "3.0.31-1": {
+  "meta": {
+   "description": "A full featured CLI system information tool",
+   "homepage": "https://smxi.org/docs/inxi.htm",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "inxi",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/system/inxi/default.nix:24"
+  },
+  "revs": [
+   "03674f4128547d6a97e2bce840b761a3c62843c8",
+   "03674f4128547d6a97e2bce840b761a3c62843c8"
+  ]
+ },
  "3.0.32-1": {
   "meta": {
    "description": "A full featured CLI system information tool",
@@ -186,7 +281,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "3.0.33-1": {
@@ -400,7 +495,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "01cd4663d67b061e9ad580e0e2c689d093b8ae10"
+   "02db164e6c3013fadcf27852f166d63f5b96234f"
   ]
  },
  "3.0.36-1": {
@@ -777,7 +872,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "02d82b5ac437fba6c2369a80c84b475065bd2a2f"
   ]
  },
  "3.1.04-1": {

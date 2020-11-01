@@ -113,7 +113,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "003a96c04c0ff4a5c2e2e3edbb1d87ce8d2d7908"
+   "035ae7a5c8e182226340781f55fc2c947826cd99"
   ]
  },
  "4.9.138-8.046.00": {
@@ -269,7 +269,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "01a7fa88139b5da9d6ad8920486f756176d2b34a"
+   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
   ]
  },
  "4.9.143-8.046.00": {
@@ -425,7 +425,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "02f47920b56bd29b55b1578a31377627872bf07b"
   ]
  },
  "4.9.147-8.046.00": {
@@ -464,7 +464,7 @@
   },
   "revs": [
    "0063acf4dff8a53cb889b788d594d1acd09f602d",
-   "0267a5a33e2083ccd90d8d6dc6f1ccf8ceb56d53"
+   "0312ef11d63b32273ac86a1ad7e7416582a08e1b"
   ]
  },
  "4.9.148-8.046.00": {
@@ -776,7 +776,7 @@
   },
   "revs": [
    "012b43dfbb63ce3f453a726cfbd6226a25ed283a",
-   "017a7a1df2e68160ea0c631608a086a94d254332"
+   "0382f5ef4426ac3b8284408229cad1f8703e60a6"
   ]
  },
  "4.9.156-8.046.00": {
@@ -893,7 +893,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "0267483ac3cb907c0094b8890d381050469826e2"
+   "0394b177c709c869f9bf34fc3aa10b4e4d2bc121"
   ]
  },
  "4.9.160-8.046.00": {
@@ -932,7 +932,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "029adf961995c69fe929fa7dcf5e67582ff2c0f7"
+   "02fbed348a8a4a4616b84d70c058ac7a9e378710"
   ]
  },
  "4.9.161-8.046.00": {
@@ -1127,7 +1127,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "02a1d3b24a94a21844ae545a9eb9ee00b61e0f63"
+   "02cd5530926f893c1138edd5a8ad12d337c4d330"
   ]
  },
  "4.9.166-8.046.00": {
@@ -1517,7 +1517,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "0153edf9a43e3ea24482e71095910338b83d4b1d"
+   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
   ]
  },
  "4.9.176-8.046.00": {
@@ -1556,7 +1556,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "032d0bafce2afe4e6aeebf745cc868e9456cd247"
   ]
  },
  "4.9.177-8.046.00": {
@@ -1712,7 +1712,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "00322ccb73ed5d5204b7d9e4fad41573337f1470"
+   "035d45a91a090232bbd4dc9cb5cdc9dbac72b8ea"
   ]
  },
  "4.9.181-8.046.00": {
@@ -1788,7 +1788,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "01725fdec88dd000a242ffaa6fbb50781ca62caf"
+   "03be9e385be14406fef94bdb865e70a456a87930"
   ]
  },
  "4.9.183-8.046.00": {
@@ -2134,6 +2134,45 @@
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
    "021d733ea3f87b8c9232020b4e606d08eaca160b"
+  ]
+ },
+ "4.9.196-8.046.00": {
+  "meta": {
+   "description": "Realtek r8168 driver",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A kernel module for Realtek 8168 network cards.\nIf you want to use this driver, you might need to blacklist the r8169 driver\nby adding \"r8169\" to boot.blacklistedKernelModules.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "r8168",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/r8168/default.nix:46"
+  },
+  "revs": [
+   "02dbdcddcd305680af69e9f9245a04605db18f88",
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "4.9.206-8.047.04": {
@@ -2493,7 +2532,7 @@
   },
   "revs": [
    "0030d391d229a2d5983752741d6bc0153dc82f1b",
-   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
+   "0302cbf42bde897a275087bc3d18dcdd7c4b4db5"
   ]
  },
  "4.9.215-8.047.04": {
@@ -2893,7 +2932,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "009284cd4cc1ee62b45d13f9c67e7a5549024102"
+   "0367fa630d59673624d6742e2758b87eb12fff4c"
   ]
  },
  "4.9.225-8.047.04": {
@@ -3133,7 +3172,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00e56c1d535cb9dd4857b538b4844b537052ecf9"
+   "02d1989f8c1cf8afddd155d4097f9c3708f6b859"
   ]
  },
  "4.9.231-8.047.04": {
@@ -3253,7 +3292,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "026b4765bada7437c679693491ca2c6b6a1cc35c"
+   "038e86ffbb76bd54b922e68f5514102e36bec96b"
   ]
  },
  "4.9.234-8.047.04": {
@@ -3333,7 +3372,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "01c62532e19c0dd126318e44bdd7f283cf7e3cc5"
+   "0337f17edd604a023c03846067c8af9bd6584850"
   ]
  },
  "4.9.236-8.047.04": {
@@ -3453,7 +3492,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "023936e84ccc18f28f392c74362c674c02f0f56e"
+   "03416d8eaeb0bd895663a88b41fb614894d939d4"
   ]
  },
  "4.9.239-8.047.04": {
@@ -3573,7 +3612,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "0126c86672b7d14843225df16ddfefd7091eabe7"
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33"
   ]
  }
 }

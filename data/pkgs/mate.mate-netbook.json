@@ -45,7 +45,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "0153599164e7ef2266c9de4979369daadb3a3cad"
+   "035f3363cbdb93f7e7d298e56bf285899a3bbc29"
   ]
  },
  "1.20.0": {
@@ -149,7 +149,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "02a3726a1256fa0e144c302537c8b0876bfee77f"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "1.20.1": {
@@ -242,7 +242,100 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "1.22.0": {
+  "meta": {
+   "description": "MATE utilities for netbooks",
+   "homepage": "https://mate-desktop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0-only",
+     "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 or later",
+     "shortName": "lgpl2Plus",
+     "spdxId": "LGPL-2.0-or-later",
+     "url": "http://spdx.org/licenses/LGPL-2.0-or-later.html"
+    }
+   ],
+   "long_description": "MATE utilities for netbooks are an applet and a daemon to maximize\nwindows and move their titles on the panel.\n\nInstalling these utilities is recommended for netbooks and similar\ndevices with low resolution displays.\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "mate-netbook",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/mate/mate-netbook/default.nix:27"
+  },
+  "revs": [
+   "03bfaa15ca4c990b480ef88bc7034845ad270e01",
+   "03bfaa15ca4c990b480ef88bc7034845ad270e01"
   ]
  },
  "1.22.1": {

@@ -1,4 +1,32 @@
 {
+ "1.8.0": {
+  "meta": {
+   "description": "Trusted Boot (tboot) is an open source, pre-kernel/VMM module that uses\n                    Intel(R) Trusted Execution Technology (Intel(R) TXT) to perform a measured\n                    and verified launch of an OS kernel/VMM.",
+   "homepage": "http://sourceforge.net/projects/tboot/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Alexander Kjeldaas <ak@formalprivacy.com>"
+   ],
+   "name": "tboot",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/tboot/default.nix:24"
+  },
+  "revs": [
+   "02cb604fd6d77c2768df484219e752d7fbe5b877",
+   "02cb604fd6d77c2768df484219e752d7fbe5b877"
+  ]
+ },
  "1.8.2": {
   "meta": {
    "description": "A pre-kernel/VMM module that uses Intel(R) TXT to perform a measured and verified launch of an OS kernel/VMM",
@@ -56,7 +84,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "1.9.8": {

@@ -1,4 +1,20 @@
 {
+ "0.99.5": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "wireshark",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "02d12c9ff68b3bcae1d53e6de422c0d5aa750158",
+   "02d12c9ff68b3bcae1d53e6de422c0d5aa750158"
+  ]
+ },
  "0.99.6": {
   "meta": {
    "description": "",
@@ -60,7 +76,7 @@
   },
   "revs": [
    "00d58458c8329794b00fe4082f2abb136afb3012",
-   "00d58458c8329794b00fe4082f2abb136afb3012"
+   "03844a3d9b3ffed245d6c933a25ae3cff2428137"
   ]
  },
  "1.1.3": {
@@ -100,7 +116,7 @@
   },
   "revs": [
    "008992619f0ca5a61d6cd91394c818c5da345050",
-   "00ff5466d3408efba24e02b54d74b1da53409c81"
+   "02f7e85d9993b40b6578ed30550dca9ea0bd745a"
   ]
  },
  "1.10.5": {
@@ -124,7 +140,7 @@
   },
   "revs": [
    "01291d331c859128285ccc0f33cf89086713c66c",
-   "017a91257bf372192594956e32c0045ca5b6c652"
+   "03ad7a081c6a8053f1ac891ce28c8a198a90dc4f"
   ]
  },
  "1.11.2": {
@@ -339,7 +355,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "026531a04a36d3577122e81f4e7864afd507850f"
+   "037f300184dd2a52399f9b75421e2374d36ab39a"
   ]
  },
  "1.3.0": {
@@ -435,7 +451,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "01df54f5cc19244915417a606e23d4b0b8c94c06"
+   "03aae985bc8430e06c0d41d055fab359a689bfca"
   ]
  },
  "1.6.2": {
@@ -575,7 +591,7 @@
   },
   "revs": [
    "000fddd10e079f147769f686e5661bd6d7c1db5a",
-   "0163789e021bd33338166e0a751d4f8d175e10e8"
+   "0353c8225ae1498bb627f8d3b1b2dbc3bc8cb8bf"
   ]
  },
  "1.8.7": {
@@ -787,7 +803,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0195ab84607ac3a3aa07a79d2d6c2781b1bb6731"
+   "030ffa95c8579905e3dcbcbc1ecc04afa36381d2"
   ]
  },
  "2.2.2": {
@@ -857,7 +873,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "025555d7f1a0fc39ea152b03e942002e1bff1721"
+   "02cc6797343958c957e476ace2edaf2c6566008a"
   ]
  },
  "2.2.4": {
@@ -1019,7 +1035,7 @@
   },
   "revs": [
    "003833f1ce59207a082714ba88ccaa950a927138",
-   "00bf522d586ba5945831cd78589a284fd3d8137c"
+   "038580c0c9523c414e0e5781e70c8232625f9f70"
   ]
  },
  "2.4.1": {
@@ -1052,6 +1068,61 @@
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
    "0183490c70887b625a3ef9a7d2670d933146f07f"
+  ]
+ },
+ "2.4.10": {
+  "meta": {
+   "description": "Powerful network protocol analyzer",
+   "homepage": "https://www.wireshark.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Wireshark (formerly known as \"Ethereal\") is a powerful network\nprotocol analyzer developed by an international team of networking\nexperts. It runs on UNIX, macOS and Windows.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "wireshark-qt",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/sniffers/wireshark/default.nix:87"
+  },
+  "revs": [
+   "036164bd637d848620e20786e86cf9d8e902a9db",
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "2.4.2": {
@@ -1319,7 +1390,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02fc3d36198868e2a86ba2e192842ebcbc238ca7"
   ]
  },
  "2.6.1": {
@@ -1373,7 +1444,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0262431889319d92ffd926cee79e00b00d85219e"
+   "030cbaff7fe7b003acf2f117ad0867dfb473310b"
   ]
  },
  "2.6.2": {
@@ -1481,7 +1552,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "2.6.4": {
@@ -1535,7 +1606,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "015541ea6a35096e134c37f2fdf4dc88dc682b1c"
+   "0352694373125b207f1ccbc5d7d0925da87c7637"
   ]
  },
  "2.6.5": {
@@ -1709,7 +1780,7 @@
   },
   "revs": [
    "009d35a682d4f4b2f6160ece98cea09bf1f69db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "3.0.1": {
@@ -1928,7 +1999,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "02f92455c43d229cb53c7c65018fdab15632d98f"
   ]
  },
  "3.2.0": {
@@ -2264,7 +2335,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "01c62532e19c0dd126318e44bdd7f283cf7e3cc5"
+   "0337f17edd604a023c03846067c8af9bd6584850"
   ]
  },
  "3.2.7": {

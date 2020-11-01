@@ -108,7 +108,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "032a3286fd88df8e073dad17f9424c06057c3079"
   ]
  },
  "0.7.6-4.15.3-a": {
@@ -684,6 +684,64 @@
    "022b17cb683dbbf309c20794a71e767506d4de99"
   ]
  },
+ "0.7.7-4.15.16-a": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:129"
+  },
+  "revs": [
+   "03667476e330f91aefe717a3e36e56015d23f848",
+   "03667476e330f91aefe717a3e36e56015d23f848"
+  ]
+ },
  "0.7.8-4.14.36-a": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -797,7 +855,7 @@
   },
   "revs": [
    "023feb5fe6070ee862e5496fbe6ae209b01d58f7",
-   "023feb5fe6070ee862e5496fbe6ae209b01d58f7"
+   "0397525876057b1e495c9fe2b69faabbf747eec8"
   ]
  },
  "0.7.8-4.15.17-a": {

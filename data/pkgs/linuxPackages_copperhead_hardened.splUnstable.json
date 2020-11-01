@@ -108,7 +108,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "032a3286fd88df8e073dad17f9424c06057c3079"
   ]
  },
  "2018-01-24-4.15.12-a": {
@@ -684,6 +684,64 @@
    "022b17cb683dbbf309c20794a71e767506d4de99"
   ]
  },
+ "2018-03-09-4.15.16-a": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:45"
+  },
+  "revs": [
+   "03667476e330f91aefe717a3e36e56015d23f848",
+   "03667476e330f91aefe717a3e36e56015d23f848"
+  ]
+ },
  "2018-04-10-4.14.36-a": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -797,7 +855,7 @@
   },
   "revs": [
    "023feb5fe6070ee862e5496fbe6ae209b01d58f7",
-   "023feb5fe6070ee862e5496fbe6ae209b01d58f7"
+   "0397525876057b1e495c9fe2b69faabbf747eec8"
   ]
  },
  "2018-04-10-4.15.17-a": {

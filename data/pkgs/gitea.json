@@ -828,7 +828,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "00a6d849f815c66f14fe37ea97300ff264f509fc"
+   "039cb6291de0358fe89fb455c219a0ab891060be"
   ]
  },
  "1.3.2": {
@@ -978,7 +978,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "024efc950923730bc3e7e05a87b90c157324e912"
+   "03948901836086fdc2e78a1721d2151db052a673"
   ]
  },
  "1.4.1": {
@@ -1152,7 +1152,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "00df25ee57fcc2227ffdbbff2280b13d898bfd7d"
+   "038263eedc93b2faf23a7dd285f6202e78f9b741"
   ]
  },
  "1.5.0": {
@@ -1269,7 +1269,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "1.5.2": {
@@ -1327,7 +1327,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0266996a8db7cc41c7951fda993fe8eb7c386695"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "1.5.3": {
@@ -1385,7 +1385,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "01a7fa88139b5da9d6ad8920486f756176d2b34a"
+   "02f47920b56bd29b55b1578a31377627872bf07b"
   ]
  },
  "1.6.0": {
@@ -1791,7 +1791,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "005c3cffc15c1f15bb72d9bef25002f8027ca1c8"
+   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
   ]
  },
  "1.7.5": {
@@ -2200,7 +2200,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "01cd4663d67b061e9ad580e0e2c689d093b8ae10"
+   "02db164e6c3013fadcf27852f166d63f5b96234f"
   ]
  },
  "1.9.1": {
@@ -2379,6 +2379,69 @@
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
    "021d733ea3f87b8c9232020b4e606d08eaca160b"
+  ]
+ },
+ "1.9.4": {
+  "meta": {
+   "description": "Git with a cup of tea",
+   "homepage": "https://gitea.io",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "disasm@gmail.com",
+     "github": "disassembler",
+     "name": "Samuel Leathers"
+    },
+    {
+     "email": "k@knt.li",
+     "github": "kolaente",
+     "name": "Konrad Langenberg"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitea",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/version-management/gitea/default.nix:58"
+  },
+  "revs": [
+   "02dbdcddcd305680af69e9f9245a04605db18f88",
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  }
 }

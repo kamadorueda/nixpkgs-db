@@ -308,7 +308,7 @@
   },
   "revs": [
    "023feb5fe6070ee862e5496fbe6ae209b01d58f7",
-   "023feb5fe6070ee862e5496fbe6ae209b01d58f7"
+   "0397525876057b1e495c9fe2b69faabbf747eec8"
   ]
  },
  "0.11.0-4.14.34": {
@@ -620,7 +620,7 @@
   },
   "revs": [
    "00ddd6a8ae9989ada2cb1a70b0c6cfb1022f6b1e",
-   "015052f484e3f47bc2039aaacbbea3ec57aeac93"
+   "03b44ad3ed96c5cb20e5ca7dd2b55edd21846fb9"
   ]
  },
  "0.11.0-4.14.42": {
@@ -815,7 +815,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "02c42d0883ebb4c4c9e891de9a1368b9925dca91"
   ]
  },
  "0.11.0-4.14.49": {
@@ -1205,7 +1205,7 @@
   },
   "revs": [
    "018c66537f65c5e29bb1640e91d4411bdceddbed",
-   "018c66537f65c5e29bb1640e91d4411bdceddbed"
+   "038263eedc93b2faf23a7dd285f6202e78f9b741"
   ]
  },
  "0.11.0-4.14.59": {
@@ -1244,7 +1244,7 @@
   },
   "revs": [
    "003055a670470f678e376be7f9b9051fb242ec0f",
-   "003055a670470f678e376be7f9b9051fb242ec0f"
+   "0323ac91d84d99efae0d9b8d69052e40d3bf8bd0"
   ]
  },
  "0.11.0-4.14.60": {
@@ -1283,7 +1283,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
+   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
   ]
  },
  "0.11.0-4.14.61": {
@@ -1322,7 +1322,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "026ec8cfb5b1dc9d0ab3edf9346b9e974a370471"
+   "0317cc052579a4990619297811a5c1878feade62"
   ]
  },
  "0.11.0-4.14.62": {
@@ -1361,7 +1361,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "01bbc716e23cb378012029faa87afc651f211abc"
+   "030760a99441a0f9057cb95a6fa6eef22f1c7985"
   ]
  },
  "0.11.0-4.14.63": {
@@ -1400,7 +1400,7 @@
   },
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
-   "01fc00cc816d974056b788dc0014b4908869b3b2"
+   "0353772874892ba5cd4cdd4f59b0f622d0798ad8"
   ]
  },
  "0.11.0-4.14.64": {
@@ -1478,7 +1478,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "002ae44fa1ef54363a1f16974117dc7f87136549"
+   "038a45f598ef90aa63f27498c77510528079af05"
   ]
  },
  "0.11.0-4.14.66": {
@@ -1673,7 +1673,7 @@
   },
   "revs": [
    "00c7f76c849ff1a6e23fdcc1c599ae2a1edce0e9",
-   "02429f790b60e7ee074b581ae032f18cd5f0c242"
+   "0329e26f895aeb6bf405014b70c96a582f861eaf"
   ]
  },
  "0.11.0-4.14.71": {
@@ -1829,7 +1829,85 @@
   },
   "revs": [
    "003af0c6d300ac515658b25a9210d3689ecce554",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
+  ]
+ },
+ "0.11.0-4.14.75": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "03bf8cd4870c281bddc959a799a320e66306e5cd",
+   "03bf8cd4870c281bddc959a799a320e66306e5cd"
+  ]
+ },
+ "0.11.0-4.14.78": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "0.11.0-4.14.81": {
@@ -1910,6 +1988,45 @@
    "012b9e6c219ef721d06f9d219924108fd8606220"
   ]
  },
+ "0.11.0-4.14.84": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "0375fe783fb24748ef13767cd492dab77a701b66",
+   "0375fe783fb24748ef13767cd492dab77a701b66"
+  ]
+ },
  "0.11.0-4.14.85": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -1949,6 +2066,84 @@
    "022eb6afaf84d11097e51b101a270e45a080bc36"
   ]
  },
+ "0.11.0-4.14.87": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "03c552a37b89f439ebfbae0e48efd109fd7edd98",
+   "03c552a37b89f439ebfbae0e48efd109fd7edd98"
+  ]
+ },
+ "0.11.0-4.14.89": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02f47920b56bd29b55b1578a31377627872bf07b",
+   "02f47920b56bd29b55b1578a31377627872bf07b"
+  ]
+ },
  "0.11.0-4.14.90": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -1985,7 +2180,7 @@
   },
   "revs": [
    "0267a5a33e2083ccd90d8d6dc6f1ccf8ceb56d53",
-   "0267a5a33e2083ccd90d8d6dc6f1ccf8ceb56d53"
+   "0312ef11d63b32273ac86a1ad7e7416582a08e1b"
   ]
  },
  "0.11.0-4.14.91": {
@@ -2180,7 +2375,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "0267483ac3cb907c0094b8890d381050469826e2"
+   "0394b177c709c869f9bf34fc3aa10b4e4d2bc121"
   ]
  },
  "0.12.0-4.14.103": {
@@ -2219,7 +2414,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "029adf961995c69fe929fa7dcf5e67582ff2c0f7"
+   "02fbed348a8a4a4616b84d70c058ac7a9e378710"
   ]
  },
  "0.12.0-4.14.104": {
@@ -2414,7 +2609,7 @@
   },
   "revs": [
    "00807a645f18b9138fa3369968a6b68729f48d41",
-   "019da05d0811b4ff7fa8bf874fbeb86b277ebce2"
+   "03a19a19d9b72738d7b8885759875b2387e25245"
   ]
  },
  "0.12.0-4.14.76": {
@@ -2453,7 +2648,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+   "031083b564d2c11cb87630e0be1a7ca1f2d6e349"
   ]
  },
  "0.12.0-4.14.77": {
@@ -2648,7 +2843,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "003a96c04c0ff4a5c2e2e3edbb1d87ce8d2d7908"
+   "035ae7a5c8e182226340781f55fc2c947826cd99"
   ]
  },
  "0.12.0-4.14.82": {
@@ -2804,7 +2999,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "01a7fa88139b5da9d6ad8920486f756176d2b34a"
+   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
   ]
  },
  "0.12.0-4.14.86": {
@@ -2999,7 +3194,7 @@
   },
   "revs": [
    "013927f93cbca5c823710042e469d573d17859c8",
-   "013927f93cbca5c823710042e469d573d17859c8"
+   "02fdc64be3f7b0bcd1ec829b3d9d8cd2b0ff1595"
   ]
  },
  "0.12.0-4.14.97": {
@@ -3080,6 +3275,45 @@
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
   ]
  },
+ "0.12.0-4.14.99": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "0354db279ab959b89aa41f79c0185f4537572ced",
+   "0354db279ab959b89aa41f79c0185f4537572ced"
+  ]
+ },
  "0.12.0-4.19.12": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -3155,7 +3389,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "03072036937c250976f0522b070eefe96e8ab0f1"
   ]
  },
  "0.12.0-4.19.14": {
@@ -3392,6 +3626,45 @@
    "027d4188b27fc7139edfa4b2c463497c731f66a2"
   ]
  },
+ "0.12.0-4.19.29": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "03050e9749e1548f1648aae5c062c954eaad546e",
+   "03050e9749e1548f1648aae5c062c954eaad546e"
+  ]
+ },
  "0.12.0-4.19.30": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -3428,7 +3701,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "028a4b6a53b9295281f5cdb1349367528cf98234"
+   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
   ]
  },
  "0.12.0-4.19.31": {
@@ -3467,7 +3740,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "02a1d3b24a94a21844ae545a9eb9ee00b61e0f63"
+   "02cd5530926f893c1138edd5a8ad12d337c4d330"
   ]
  },
  "0.12.0-4.19.32": {
@@ -3896,7 +4169,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "0153edf9a43e3ea24482e71095910338b83d4b1d"
+   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
   ]
  },
  "0.12.0-4.19.43": {
@@ -3935,7 +4208,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "032d0bafce2afe4e6aeebf745cc868e9456cd247"
   ]
  },
  "0.12.0-4.19.44": {
@@ -4130,7 +4403,7 @@
   },
   "revs": [
    "00322ccb73ed5d5204b7d9e4fad41573337f1470",
-   "00322ccb73ed5d5204b7d9e4fad41573337f1470"
+   "035d45a91a090232bbd4dc9cb5cdc9dbac72b8ea"
   ]
  },
  "0.12.0-4.19.49": {
@@ -4247,6 +4520,44 @@
    "021257e5989717a2430a05c271350ab8038f3d23"
   ]
  },
+ "0.12.0-4.19.52": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02ea0d3959ba5a8f2108d3bc8f5a57635d758713",
+   "02ea0d3959ba5a8f2108d3bc8f5a57635d758713"
+  ]
+ },
  "0.12.0-4.19.53": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -4282,7 +4593,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "01725fdec88dd000a242ffaa6fbb50781ca62caf"
+   "03be9e385be14406fef94bdb865e70a456a87930"
   ]
  },
  "0.12.0-4.19.55": {
@@ -4473,7 +4784,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "00eef848b29730b286914e3902c58209265a59f6"
+   "031c6151dd282572bdf3fb3a8c2a5af677c83d7b"
   ]
  },
  "0.12.0-4.19.60": {
@@ -4511,7 +4822,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "01422520124ac176e4b6c1e597a6eee2d11ccf43"
+   "0300fc5cf2c59f8dafe8acf8897d270bd3fa8790"
   ]
  },
  "0.12.0-4.19.62": {
@@ -4701,7 +5012,7 @@
   },
   "revs": [
    "0047672d58ad13bd0a60e9114b6c91858c34b2a8",
-   "029961f63df8923e5cd665fb4a9bcdc33d554fd1"
+   "02db164e6c3013fadcf27852f166d63f5b96234f"
   ]
  },
  "0.12.0-4.19.67": {
@@ -4896,6 +5207,45 @@
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
    "021d733ea3f87b8c9232020b4e606d08eaca160b"
+  ]
+ },
+ "0.12.0-4.19.79": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02dbdcddcd305680af69e9f9245a04605db18f88",
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "0.12.2-4.19.89": {
@@ -5095,7 +5445,7 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "00f74cdeafabbc3ae9f24e6ef419fbeed7ff107a"
+   "03b6800bd0a99dbb77187da602da46e19ee6b28b"
   ]
  },
  "0.12.2-4.19.94": {
@@ -5216,6 +5566,46 @@
   "revs": [
    "00a8de028e93ffc3a2b4bab0c90da3a9d1c62669",
    "00a8de028e93ffc3a2b4bab0c90da3a9d1c62669"
+  ]
+ },
+ "0.12.2-4.19.97": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02e892c48dba5927fb4d7b84b50b7c1a885ea079",
+   "02e892c48dba5927fb4d7b84b50b7c1a885ea079"
   ]
  },
  "0.12.3-4.19.100": {
@@ -5415,7 +5805,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "01505d11e08649f59942b9888160f9d10da8f20c"
+   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
   ]
  },
  "0.12.3-5.4.18": {
@@ -5575,7 +5965,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "006aeb5704123f259d5cda435a991b3d72225b32"
+   "0302cbf42bde897a275087bc3d18dcdd7c4b4db5"
   ]
  },
  "0.12.3-5.4.22": {
@@ -5978,6 +6368,46 @@
    "023042cd26f6600b01776ba205a84434007a3118"
   ]
  },
+ "0.12.3-5.4.35": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "0364b92be6d2a6c0ad5acb08641b168e22eea73a",
+   "0364b92be6d2a6c0ad5acb08641b168e22eea73a"
+  ]
+ },
  "0.12.4-5.4.31": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -6015,7 +6445,7 @@
   },
   "revs": [
    "01d351651973d1ff51fca4d784db56cacdc1a28e",
-   "01d351651973d1ff51fca4d784db56cacdc1a28e"
+   "03c76d470a3ccbf05dcafaf1f91bba1974434529"
   ]
  },
  "0.12.4-5.4.32": {
@@ -6055,7 +6485,7 @@
   },
   "revs": [
    "01144006a1182d0bc76616edae684fa60fd4307f",
-   "01144006a1182d0bc76616edae684fa60fd4307f"
+   "03bfda019602b633f1b640ed8ed2933bca4a1922"
   ]
  },
  "0.12.4-5.4.33": {
@@ -6135,7 +6565,7 @@
   },
   "revs": [
    "002817019b3b7999c0169b801561e0425fc4c715",
-   "018aadcfa17397699f72e8c882a23e44b091b31a"
+   "037ef70d5cbacc9850f5c52d19b16cc41cd5efae"
   ]
  },
  "0.12.4-5.4.36": {
@@ -6216,6 +6646,86 @@
   "revs": [
    "02507811494b231ef130d2e10548fd65e7c6b148",
    "02507811494b231ef130d2e10548fd65e7c6b148"
+  ]
+ },
+ "0.12.4-5.4.39": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02faf44f52d0ac04efd738497e5cdc43463f0455",
+   "02faf44f52d0ac04efd738497e5cdc43463f0455"
+  ]
+ },
+ "0.12.4-5.4.40": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02d2ab3cc13e99dbea2fff183beae5fd1b45c068",
+   "02d2ab3cc13e99dbea2fff183beae5fd1b45c068"
   ]
  },
  "0.12.4-5.4.41": {
@@ -6375,7 +6885,7 @@
   },
   "revs": [
    "00e7d8757f818b5965d31686fedf10660f128eb5",
-   "00e7d8757f818b5965d31686fedf10660f128eb5"
+   "039c3c9ea7f1119e63600547edd0480777b6765c"
   ]
  },
  "0.12.4-5.4.48": {
@@ -6455,7 +6965,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0023aaef48e31444eeb22fc7c982c43b9782eef9"
+   "038a87ee11de5133917b0354836c025cdab92caf"
   ]
  },
  "0.12.4-5.4.50": {
@@ -6536,6 +7046,46 @@
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
    "014f823beb235a257661135da525adf2e14955d5"
+  ]
+ },
+ "0.12.4-5.4.52": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "02d1989f8c1cf8afddd155d4097f9c3708f6b859",
+   "02d1989f8c1cf8afddd155d4097f9c3708f6b859"
   ]
  },
  "0.12.4-5.4.54": {
@@ -6975,7 +7525,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "009284cd4cc1ee62b45d13f9c67e7a5549024102"
+   "0367fa630d59673624d6742e2758b87eb12fff4c"
   ]
  },
  "0.12.5-5.4.43": {
@@ -7255,7 +7805,7 @@
   },
   "revs": [
    "00c6fa607cc564a1b64eaf56d0540607df7eca19",
-   "0269421b7b63157a6414cd64e1a4a0b4dd44abe8"
+   "02d82b5ac437fba6c2369a80c84b475065bd2a2f"
   ]
  },
  "0.12.5-5.4.50": {
@@ -7695,7 +8245,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "026b4765bada7437c679693491ca2c6b6a1cc35c"
+   "038e86ffbb76bd54b922e68f5514102e36bec96b"
   ]
  },
  "0.12.5-5.4.61": {
@@ -7775,7 +8325,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "01c62532e19c0dd126318e44bdd7f283cf7e3cc5"
+   "0337f17edd604a023c03846067c8af9bd6584850"
   ]
  },
  "0.12.5-5.4.63": {
@@ -7815,7 +8365,7 @@
   },
   "revs": [
    "00e0bdf938e131cfadefa7193b384d03a489dd60",
-   "02567638084fc696b9544626a289df5fda1fc4b4"
+   "03c54b978f56af9918e7cf1f8ed4b05fd2b40018"
   ]
  },
  "0.12.5-5.4.64": {
@@ -7895,7 +8445,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "01b9d5371c5ce1f8d622ff00bd67c9defb656c79"
+   "03860e0118f396ef64f68d536c8498061d4f9fc4"
   ]
  },
  "0.12.5-5.4.66": {
@@ -8095,7 +8645,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "023936e84ccc18f28f392c74362c674c02f0f56e"
+   "03416d8eaeb0bd895663a88b41fb614894d939d4"
   ]
  },
  "0.12.5-5.4.71": {
@@ -8215,7 +8765,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "0126c86672b7d14843225df16ddfefd7091eabe7"
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33"
   ]
  },
  "0.8.0-3.10.33": {
@@ -8495,7 +9045,7 @@
   },
   "revs": [
    "002d33b6ccdc90628799406c19b15648ca7e8349",
-   "01e2ed000b5f17aa5cfc5e9b085cd28f71f2fc41"
+   "03391f9894687258994a29f68ec00cadbec159fd"
   ]
  },
  "0.8.0-3.12.24": {
@@ -8607,7 +9157,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "01c0be6ece84ff168a33feef08f1f69d1ce91ad7"
+   "03bec38123ac04b8349f9d8403ab6494c338a286"
   ]
  },
  "0.8.0-3.12.28": {
@@ -8988,7 +9538,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "008256d8bdaf31a0cbf19507dac0384cc2027b23"
+   "02fdd3840081ffa9f3178a8ddd7ce72d505d3851"
   ]
  },
  "0.8.0-3.14.31": {
@@ -9018,7 +9568,7 @@
   },
   "revs": [
    "003896dfe7665cfb4ceb2fff28c91d1bfa946fbb",
-   "02301a96db5b5d3aac0d28b753705ad49267ac99"
+   "02ff4444d7296796f959eab1d4b26bb20689180a"
   ]
  },
  "0.8.0-3.14.32": {
@@ -9168,7 +9718,7 @@
   },
   "revs": [
    "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
-   "013b12a54c9781555f69c74ea1cbe5f3b5f1a96e"
+   "032859faba7174ef69f96b53bc07d544fba5e871"
   ]
  },
  "0.8.0-3.14.37": {
@@ -9229,6 +9779,36 @@
   "revs": [
    "01cb65d269b4b0d676a29a763aa2f837d98dc032",
    "01cb65d269b4b0d676a29a763aa2f837d98dc032"
+  ]
+ },
+ "0.8.0-3.14.50": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:28"
+  },
+  "revs": [
+   "0341382f1580b4e040971f03b1ecb587b66c0dbf",
+   "0341382f1580b4e040971f03b1ecb587b66c0dbf"
   ]
  },
  "0.8.0-3.18.11": {
@@ -9378,7 +9958,7 @@
   },
   "revs": [
    "005837d85ff9d62d4c74e6f1574b48336fb85271",
-   "028f6b3b625fa6602392b3ca2114fa95d73567a5"
+   "036f11f323e1fb1cf5bca63ba3778efd3b8a0355"
   ]
  },
  "0.8.0-3.18.17": {
@@ -9648,7 +10228,7 @@
   },
   "revs": [
    "026531a04a36d3577122e81f4e7864afd507850f",
-   "026531a04a36d3577122e81f4e7864afd507850f"
+   "037f300184dd2a52399f9b75421e2374d36ab39a"
   ]
  },
  "0.9.1-4.1.10": {
@@ -9678,7 +10258,7 @@
   },
   "revs": [
    "013cf1b4f26b0a0fb6191cd562e5c5424af5610d",
-   "01c680ac0628f32b72b8246329840f723009bc2c"
+   "03c248ce5458313a827501a973624da0b8f019e0"
   ]
  },
  "0.9.1-4.1.11": {
@@ -9768,7 +10348,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "00aec448aba9e9d5d7edd53504f824dc4156b779"
+   "03353ce6ff738acce3d535f6a414895751967a05"
   ]
  },
  "0.9.1-4.1.15": {
@@ -9798,7 +10378,7 @@
   },
   "revs": [
    "001341f8c98af998da57d5b15a279b64efff4689",
-   "0055c6aa94484ef30d9541c3b21bc2b653561c84"
+   "02c3ae154d8fcb4c43b69adabce7acb47338f88e"
   ]
  },
  "0.9.1-4.1.17": {
@@ -9918,7 +10498,7 @@
   },
   "revs": [
    "00935b25541bea0d6324e08e2e3821ac5cad09fd",
-   "00935b25541bea0d6324e08e2e3821ac5cad09fd"
+   "0338199544a7df4ce8dde1b6dc987f17760863f3"
   ]
  },
  "0.9.1-4.14.20": {
@@ -10221,7 +10801,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "032a3286fd88df8e073dad17f9424c06057c3079"
   ]
  },
  "0.9.1-4.14.29": {
@@ -10389,7 +10969,7 @@
   },
   "revs": [
    "0060a0f3df1279e9445828f5d2bc4d8572065159",
-   "0243ccfbffaffa8cac669f5b80c28ee4bb5334e6"
+   "031b32104c84cac9fc168be5eeb8fd60a34e253d"
   ]
  },
  "0.9.1-4.4.13": {
@@ -10569,7 +11149,7 @@
   },
   "revs": [
    "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621",
-   "0271f370265d2dbc1b4966adda9cccc0976179d1"
+   "039a4fa3a3f7424851ab655519c5f462a3455e5e"
   ]
  },
  "0.9.1-4.4.20": {
@@ -10629,7 +11209,7 @@
   },
   "revs": [
    "0230d923f13d8d716f8e57c6882c80815b4ce790",
-   "0230d923f13d8d716f8e57c6882c80815b4ce790"
+   "030e20f759d5a4e4962eabd4069fd06ae059e6f3"
   ]
  },
  "0.9.1-4.4.23": {
@@ -10659,7 +11239,7 @@
   },
   "revs": [
    "004a5a20470c87199daae1339197184b560cc256",
-   "02801ab700565fcbf31dce09a8b10002b3f3a5c7"
+   "02d7fbb678b7ee1749466143202c9651b428cd0f"
   ]
  },
  "0.9.1-4.4.24": {
@@ -10689,7 +11269,7 @@
   },
   "revs": [
    "011f3d700d853b9e5061493853e57ac378f1c1a7",
-   "0240306d01f725a82dfcb6f83d4b9d96ce0b46c8"
+   "02cf55159c761de7f750ee7305d1cc6560fc2846"
   ]
  },
  "0.9.1-4.4.26": {
@@ -10779,7 +11359,7 @@
   },
   "revs": [
    "01fe648552a295b89474cd10ad4890219973d71f",
-   "01fe648552a295b89474cd10ad4890219973d71f"
+   "03b0810cc7069bd64fe819af0025436c5ca936a5"
   ]
  },
  "0.9.1-4.4.3": {
@@ -10809,7 +11389,7 @@
   },
   "revs": [
    "0077abe128bf08be982241b364481bb839748583",
-   "015c7afffa9bf7c3ee92a852e16ce3a7d57363b7"
+   "034b2ec2ed00e7d099a7810a284ca6b7dbe81dd9"
   ]
  },
  "0.9.1-4.4.30": {
@@ -10839,7 +11419,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "01597adf07afed6e48bc32e394546cfffd9e2cb4"
+   "031d639b4d2119fa5d6ffaa1e24d7243ec959b69"
   ]
  },
  "0.9.1-4.4.31": {
@@ -10869,7 +11449,7 @@
   },
   "revs": [
    "00a6087d507065ca8190147e77295912717bc3da",
-   "00a6087d507065ca8190147e77295912717bc3da"
+   "030ffa95c8579905e3dcbcbc1ecc04afa36381d2"
   ]
  },
  "0.9.1-4.4.32": {
@@ -11022,6 +11602,36 @@
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
   ]
  },
+ "0.9.1-4.4.37": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:28"
+  },
+  "revs": [
+   "033525c6b85ae01bbe717a3a585126f15abf86f1",
+   "033525c6b85ae01bbe717a3a585126f15abf86f1"
+  ]
+ },
  "0.9.1-4.4.38": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -11080,6 +11690,36 @@
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
    "00428231f8f4a454a832e4d0cedea148951e93c4"
+  ]
+ },
+ "0.9.1-4.4.4": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:26"
+  },
+  "revs": [
+   "02fdd9162ead53fe553a2dc0316d643bfa1addcf",
+   "037e815787abbb0955ea3d954794e0eac0493bc2"
   ]
  },
  "0.9.1-4.4.40": {
@@ -11199,7 +11839,7 @@
   },
   "revs": [
    "003ae42ae66d21756f42079b52b5c8982ae0f293",
-   "003ae42ae66d21756f42079b52b5c8982ae0f293"
+   "0387e10928d93ab03c4739e9fb08b4e49ef36db6"
   ]
  },
  "0.9.1-4.4.48": {
@@ -11439,7 +12079,7 @@
   },
   "revs": [
    "008ba8f712770b72832b9e7f89c8a56c8bb8bb31",
-   "008ba8f712770b72832b9e7f89c8a56c8bb8bb31"
+   "02ce05d1cc88db79e082527d59653cd95691a136"
   ]
  },
  "0.9.1-4.9.11": {
@@ -11656,7 +12296,7 @@
   },
   "revs": [
    "00f472a563c030d0232bfd39af8b3f5411169a5d",
-   "027d0f0244d5bab2cba7e60cd0ae4cc32bc36c6a"
+   "03c07ac02efb3b9b9e7d28f2108c2929268614fc"
   ]
  },
  "0.9.1-4.9.18": {
@@ -11718,7 +12358,7 @@
   },
   "revs": [
    "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c",
-   "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c"
+   "038550b596c046a66e94916ab5aea8a7cbd2b567"
   ]
  },
  "0.9.1-4.9.20": {
@@ -11873,7 +12513,7 @@
   },
   "revs": [
    "02682e509389a6de23a2614da3b43abebf45a4f2",
-   "027734526554051a1acefd0bcc2e191a9c63a091"
+   "036e0f114a83da8b90c620677d14fc8d0e05f64d"
   ]
  },
  "0.9.1-4.9.25": {
@@ -11904,7 +12544,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "022be78eb26de958e50e32ac40574e93ac81bee3"
+   "03187c3e15633806883555810bb69b94ac93cf91"
   ]
  },
  "0.9.1-4.9.26": {
@@ -12152,7 +12792,7 @@
   },
   "revs": [
    "003833f1ce59207a082714ba88ccaa950a927138",
-   "00bf522d586ba5945831cd78589a284fd3d8137c"
+   "02dd90a3c5980ef531a9b9199498ad37368e1dce"
   ]
  },
  "0.9.1-4.9.49": {
@@ -12183,7 +12823,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "01fffd94e5848e55fab88cd85a6ac958e1a309ff"
+   "038580c0c9523c414e0e5781e70c8232625f9f70"
   ]
  },
  "0.9.1-4.9.5": {
@@ -12213,7 +12853,7 @@
   },
   "revs": [
    "00444cbf25fcc7d1db64e6fe482815b52f699353",
-   "02341c20bcd78aab0e0beee2899e527874dc452e"
+   "02cc6797343958c957e476ace2edaf2c6566008a"
   ]
  },
  "0.9.1-4.9.50": {
@@ -12523,7 +13163,7 @@
   },
   "revs": [
    "0054183cc6b857ea08865162bbcfeecca29e9dbc",
-   "010d30123db4e861c29e78b5964733a0a97889a3"
+   "03815a89699f3167eb9053fa45476879aee4904b"
   ]
  },
  "0.9.1-4.9.6": {
@@ -12647,7 +13287,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "011e69ea3f9f7855da5b5c8feab1c8f37b37b611"
+   "035b5892457d7d198090dc6a68cac2b99d2fec52"
   ]
  },
  "0.9.1-4.9.63": {
@@ -12709,7 +13349,7 @@
   },
   "revs": [
    "0124cbdac8a8fe5a034f02a00a832eb643899659",
-   "0124cbdac8a8fe5a034f02a00a832eb643899659"
+   "0345e5d576434e23961cdab994730d6e10bad364"
   ]
  },
  "0.9.1-4.9.65": {
@@ -12740,7 +13380,7 @@
   },
   "revs": [
    "00cda0d18d948481be72cc7bfaead0bcf9c4c263",
-   "015c0fc9af429c5f1b81643f2c9232e020ddb4a7"
+   "039cb6291de0358fe89fb455c219a0ab891060be"
   ]
  },
  "0.9.1-4.9.66": {
@@ -12833,7 +13473,7 @@
   },
   "revs": [
    "025eae1a8cf6abdb6bae51c9c3406cb36356608f",
-   "025eae1a8cf6abdb6bae51c9c3406cb36356608f"
+   "03c10c64ad70de696608606bc736104006924b90"
   ]
  },
  "0.9.1-4.9.76": {
@@ -12864,7 +13504,7 @@
   },
   "revs": [
    "02393338dc8852b30f5ea04eb0307c3dc266e424",
-   "02393338dc8852b30f5ea04eb0307c3dc266e424"
+   "03c6be8654d67f72816d18a6b1d21b44f85c46f2"
   ]
  },
  "0.9.1-4.9.77": {
@@ -13084,6 +13724,37 @@
    "00c59077e2156f92c4f0d9af0e9f3fb9cf9a02f8"
   ]
  },
+ "0.9.1-4.9.85": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:29"
+  },
+  "revs": [
+   "036bcb7f6df8e01753ed6ec3c24a277bcfdf3b3f",
+   "036bcb7f6df8e01753ed6ec3c24a277bcfdf3b3f"
+  ]
+ },
  "0.9.1-4.9.86": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -13143,7 +13814,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "020fb2cce1684e84da2b584374a85e4d5f36fae1"
+   "0360e61d889439e930c4b02b08835825c527b95a"
   ]
  }
 }

@@ -1,4 +1,115 @@
 {
+ "0.40.0": {
+  "meta": {
+   "description": "Compiler for GObject type system",
+   "homepage": "https://wiki.gnome.org/Projects/Vala",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "self@antono.info",
+     "github": "antono",
+     "name": "Antono Vasiljev"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "vala",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/vala/default.nix:22"
+  },
+  "revs": [
+   "039b2923ebcc0591b8f7cb353325ac359377686a",
+   "039b2923ebcc0591b8f7cb353325ac359377686a"
+  ]
+ },
  "0.40.11": {
   "meta": {
    "description": "Compiler for GObject type system",
@@ -96,7 +207,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0173194e4f28dcce269a39eb216877eba77f834c"
+   "0308087b743e484902487fb06bac99d6d599aae5"
   ]
  },
  "0.40.12": {

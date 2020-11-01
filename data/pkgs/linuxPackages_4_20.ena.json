@@ -1,4 +1,43 @@
 {
+ "1.5.2-4.20": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "02fdc64be3f7b0bcd1ec829b3d9d8cd2b0ff1595",
+   "02fdc64be3f7b0bcd1ec829b3d9d8cd2b0ff1595"
+  ]
+ },
  "2.0.2-4.20": {
   "meta": {
    "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
@@ -35,7 +74,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "03072036937c250976f0522b070eefe96e8ab0f1"
   ]
  },
  "2.0.2-4.20.1": {
@@ -152,7 +191,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "0267483ac3cb907c0094b8890d381050469826e2"
+   "0394b177c709c869f9bf34fc3aa10b4e4d2bc121"
   ]
  },
  "2.0.2-4.20.12": {
@@ -191,7 +230,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "029adf961995c69fe929fa7dcf5e67582ff2c0f7"
+   "02fbed348a8a4a4616b84d70c058ac7a9e378710"
   ]
  },
  "2.0.2-4.20.13": {
@@ -386,7 +425,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "028a4b6a53b9295281f5cdb1349367528cf98234"
+   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
   ]
  },
  "2.0.2-4.20.2": {
@@ -620,7 +659,7 @@
   },
   "revs": [
    "012b43dfbb63ce3f453a726cfbd6226a25ed283a",
-   "017a7a1df2e68160ea0c631608a086a94d254332"
+   "0382f5ef4426ac3b8284408229cad1f8703e60a6"
   ]
  },
  "2.0.2-4.20.8": {

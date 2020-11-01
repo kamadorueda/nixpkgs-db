@@ -357,6 +357,108 @@
    "022b17cb683dbbf309c20794a71e767506d4de99"
   ]
  },
+ "1.1.3": {
+  "meta": {
+   "description": "A build tool for Scala, Java and more",
+   "homepage": "http://www.scala-sbt.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "name": "Tim Steinbach"
+    },
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    }
+   ],
+   "name": "sbt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/sbt/default.nix:29"
+  },
+  "revs": [
+   "03667476e330f91aefe717a3e36e56015d23f848",
+   "03667476e330f91aefe717a3e36e56015d23f848"
+  ]
+ },
  "1.1.4": {
   "meta": {
    "description": "A build tool for Scala, Java and more",
@@ -455,7 +557,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "01db5220357ec6e726dc2fdf4b9199232915fd26"
+   "03b44ad3ed96c5cb20e5ca7dd2b55edd21846fb9"
   ]
  },
  "1.1.6": {
@@ -556,7 +658,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "01c9da0ebb5517114b7c6b1d1ececf9bd2518a5d"
+   "038263eedc93b2faf23a7dd285f6202e78f9b741"
   ]
  },
  "1.2.0": {
@@ -747,7 +849,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "028164ef057119ee37c99bcb98224672441d2d81"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "1.2.3": {
@@ -837,7 +939,7 @@
   },
   "revs": [
    "00262d7d073921566464a200a9aef985a4cd50ed",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "1.2.4": {
@@ -927,7 +1029,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "019da05d0811b4ff7fa8bf874fbeb86b277ebce2"
+   "03a19a19d9b72738d7b8885759875b2387e25245"
   ]
  },
  "1.2.6": {
@@ -1107,7 +1209,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0267a5a33e2083ccd90d8d6dc6f1ccf8ceb56d53"
+   "0396345b79436f54920f7eb651ab42acf2eb7973"
   ]
  },
  "1.2.8": {
@@ -1197,7 +1299,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "1.3.10": {
@@ -1303,7 +1405,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0006326d35ed4774d7936aea721ce1a5c8f0b775"
+   "02d82b5ac437fba6c2369a80c84b475065bd2a2f"
   ]
  },
  "1.3.13": {
@@ -1515,7 +1617,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "017926a8b3e8a3daa49313ec5520cce7fc20569e"
+   "032d5e7e837eaa295f2afec87a39a4ced2c1bc97"
   ]
  },
  "1.3.8": {

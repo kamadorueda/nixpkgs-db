@@ -27,7 +27,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "00e67f0df000268a0bd5cefb81f4c32068a33420"
+   "031b32104c84cac9fc168be5eeb8fd60a34e253d"
   ]
  },
  "2.0.4": {
@@ -120,7 +120,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0195ab84607ac3a3aa07a79d2d6c2781b1bb6731"
+   "030ffa95c8579905e3dcbcbc1ecc04afa36381d2"
   ]
  },
  "2.2.2": {
@@ -190,7 +190,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "025555d7f1a0fc39ea152b03e942002e1bff1721"
+   "02cc6797343958c957e476ace2edaf2c6566008a"
   ]
  },
  "2.2.4": {
@@ -352,7 +352,7 @@
   },
   "revs": [
    "003833f1ce59207a082714ba88ccaa950a927138",
-   "00bf522d586ba5945831cd78589a284fd3d8137c"
+   "038580c0c9523c414e0e5781e70c8232625f9f70"
   ]
  },
  "2.4.1": {
@@ -385,6 +385,61 @@
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
    "0183490c70887b625a3ef9a7d2670d933146f07f"
+  ]
+ },
+ "2.4.10": {
+  "meta": {
+   "description": "Powerful network protocol analyzer",
+   "homepage": "https://www.wireshark.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Wireshark (formerly known as \"Ethereal\") is a powerful network\nprotocol analyzer developed by an international team of networking\nexperts. It runs on UNIX, macOS and Windows.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "wireshark-gtk",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/sniffers/wireshark/default.nix:87"
+  },
+  "revs": [
+   "036164bd637d848620e20786e86cf9d8e902a9db",
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "2.4.2": {
@@ -652,7 +707,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "003af0c6d300ac515658b25a9210d3689ecce554"
+   "02fc3d36198868e2a86ba2e192842ebcbc238ca7"
   ]
  },
  "2.6.1": {
@@ -706,7 +761,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0262431889319d92ffd926cee79e00b00d85219e"
+   "030cbaff7fe7b003acf2f117ad0867dfb473310b"
   ]
  },
  "2.6.2": {
@@ -814,7 +869,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "2.6.4": {
@@ -868,7 +923,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "015541ea6a35096e134c37f2fdf4dc88dc682b1c"
+   "0352694373125b207f1ccbc5d7d0925da87c7637"
   ]
  },
  "2.6.5": {
@@ -1042,7 +1097,7 @@
   },
   "revs": [
    "009d35a682d4f4b2f6160ece98cea09bf1f69db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  }
 }

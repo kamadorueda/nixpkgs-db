@@ -119,7 +119,7 @@
   },
   "revs": [
    "000fddd10e079f147769f686e5661bd6d7c1db5a",
-   "0163789e021bd33338166e0a751d4f8d175e10e8"
+   "0353c8225ae1498bb627f8d3b1b2dbc3bc8cb8bf"
   ]
  },
  "1.2-3.9.3": {
@@ -144,7 +144,7 @@
   },
   "revs": [
    "0025b681c69bf7021d00e93cde1d53ec16f3c6e1",
-   "0025b681c69bf7021d00e93cde1d53ec16f3c6e1"
+   "02c1dd624ff88e8708d23fc88316ff99ad09e0fb"
   ]
  },
  "1.2-3.9.4": {
@@ -195,6 +195,31 @@
   "revs": [
    "01c57234dbd1c48ba91cbb84e0b5d2c043a640f2",
    "01c57234dbd1c48ba91cbb84e0b5d2c043a640f2"
+  ]
+ },
+ "1.2-3.9.6": {
+  "meta": {
+   "description": "SystemTap, tools to gather information about a running GNU/Linux system",
+   "homepage": "http://sourceware.org/systemtap/",
+   "license": "GPLv2+",
+   "long_description": "SystemTap provides free software (GPL) infrastructure to simplify\n        the gathering of information about the running GNU/Linux system.\n        This assists diagnosis of a performance or functional problem.\n        SystemTap eliminates the need for the developer to go through the\n        tedious and disruptive instrument, recompile, install, and reboot\n        sequence that may be otherwise required to collect data.\n\n        SystemTap provides a simple command line interface and scripting\n        language for writing instrumentation for a live running kernel.  We\n        are publishing samples, as well as enlarging the internal \"tapset\"\n        script library to aid reuse and abstraction.\n\n        Among other tracing/probing tools, SystemTap is the tool of choice\n        for complex tasks that may require live analysis, programmable\n        on-line response, and whole-system symbolic access.  SystemTap can\n        also handle simple tracing jobs.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "systemtap",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "02eef5b0f45c614dd30ac515a7ffc16c550e17eb",
+   "02eef5b0f45c614dd30ac515a7ffc16c550e17eb"
   ]
  },
  "1.2-3.9.7": {

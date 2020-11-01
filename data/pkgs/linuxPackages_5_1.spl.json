@@ -114,7 +114,66 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "0153edf9a43e3ea24482e71095910338b83d4b1d"
+   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
+  ]
+ },
+ "0.7.13-5.1.12": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "03be9e385be14406fef94bdb865e70a456a87930",
+   "03be9e385be14406fef94bdb865e70a456a87930"
   ]
  },
  "0.7.13-5.1.14": {
@@ -350,7 +409,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "0040e207d85bd2b2fcfb3c52a189e72af2632b50"
+   "032d0bafce2afe4e6aeebf745cc868e9456cd247"
   ]
  },
  "0.7.13-5.1.21": {
@@ -409,7 +468,7 @@
   },
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "0.7.13-5.1.3": {
@@ -704,7 +763,7 @@
   },
   "revs": [
    "00322ccb73ed5d5204b7d9e4fad41573337f1470",
-   "00322ccb73ed5d5204b7d9e4fad41573337f1470"
+   "035d45a91a090232bbd4dc9cb5cdc9dbac72b8ea"
   ]
  }
 }

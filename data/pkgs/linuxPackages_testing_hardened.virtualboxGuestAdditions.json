@@ -30,7 +30,7 @@
   },
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
-   "027ee440b5b0d48ecadd089fde4d36427f378460"
+   "031737126c72c2cdc117dcc42472a8475f835bb8"
   ]
  },
  "5.2.14-4.19-rc7": {
@@ -64,7 +64,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "019da05d0811b4ff7fa8bf874fbeb86b277ebce2"
+   "03a19a19d9b72738d7b8885759875b2387e25245"
   ]
  },
  "5.2.14-4.19-rc8": {
@@ -166,7 +166,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "024ee18ff62c5f48c1106b0a7300e821029d4563"
+   "030eda93950754ca9b31e1ab0e1f700afbf0ec6b"
   ]
  },
  "5.2.14-4.20-rc3": {
@@ -234,7 +234,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "01d864c705110b05f1b116ad9f8f4b4a37f6730a"
+   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
   ]
  },
  "5.2.14-4.20-rc5": {
@@ -370,7 +370,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0008aa73eb0dec898c4e2e6913af645abd253c35"
+   "03072036937c250976f0522b070eefe96e8ab0f1"
   ]
  },
  "5.2.22-5.0-rc1": {
@@ -540,7 +540,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "01a1cb913e007f096cbf7d962c7e3a048c5cfa18"
+   "0382f5ef4426ac3b8284408229cad1f8703e60a6"
   ]
  },
  "5.2.22-5.0-rc6": {
@@ -642,7 +642,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "029adf961995c69fe929fa7dcf5e67582ff2c0f7"
+   "02fbed348a8a4a4616b84d70c058ac7a9e378710"
   ]
  },
  "5.2.26-5.0-rc8": {
@@ -914,7 +914,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "5.2.28-5.1-rc7": {
@@ -982,7 +982,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "02f92455c43d229cb53c7c65018fdab15632d98f"
   ]
  },
  "6.0.14-5.5-rc3": {
@@ -1186,7 +1186,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
+   "035a65d074074a6f30514093b4dde6ed6ce08aed"
   ]
  },
  "6.0.14-5.6-rc3": {
@@ -1322,7 +1322,7 @@
   },
   "revs": [
    "00d6232b47b1ffac1a8ccb5dccf1be133a2a6367",
-   "00d6232b47b1ffac1a8ccb5dccf1be133a2a6367"
+   "030eb35a498186d203301756b7158101332fabda"
   ]
  },
  "6.0.8-5.2-rc2": {
@@ -1357,6 +1357,39 @@
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
    "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
+  ]
+ },
+ "6.0.8-5.2-rc3": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:143"
+  },
+  "revs": [
+   "03128836bbe43608a38c0faa94ff879106bbf902",
+   "03128836bbe43608a38c0faa94ff879106bbf902"
   ]
  },
  "6.0.8-5.2-rc4": {
@@ -1591,7 +1624,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "0228046eec7ce930d6532e205ad92435a2983f98"
+   "03c76d470a3ccbf05dcafaf1f91bba1974434529"
   ]
  },
  "6.1.6-5.5-rc7": {
@@ -1625,7 +1658,7 @@
   },
   "revs": [
    "003af9cac8ab25090f7d5a8188db438a5310229b",
-   "00e7d8757f818b5965d31686fedf10660f128eb5"
+   "039c3c9ea7f1119e63600547edd0480777b6765c"
   ]
  },
  "6.1.6-5.8-rc1": {

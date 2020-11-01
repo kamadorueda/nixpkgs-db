@@ -145,7 +145,7 @@
   },
   "revs": [
    "000fddd10e079f147769f686e5661bd6d7c1db5a",
-   "0025b681c69bf7021d00e93cde1d53ec16f3c6e1"
+   "02c1dd624ff88e8708d23fc88316ff99ad09e0fb"
   ]
  },
  "2.7.1": {
@@ -215,6 +215,43 @@
   "revs": [
    "001ea3b455c9c1eca44210dac25eb09ca4b7f908",
    "0144849f678f9ff611c2a2f1538a455bb8ebdf69"
+  ]
+ },
+ "3.1": {
+  "meta": {
+   "description": "Cryptographic library",
+   "homepage": "http://www.lysator.liu.se/~nisse/nettle/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Nettle is a cryptographic library that is designed to fit\neasily in more or less any context: In crypto toolkits for\nobject-oriented languages (C++, Python, Pike, ...), in\napplications like LSH or GNUPG, or even in kernel space.  In\nmost contexts, you need more than the basic cryptographic\nalgorithms, you also need some way to keep track of available\nalgorithms, their properties and variants.  You often have\nsome algorithm selection process, often dictated by a protocol\nyou want to implement.\n\nAnd as the requirements of applications differ in subtle and\nnot so subtle ways, an API that fits one application well can\nbe a pain to use in a different context.  And that is why\nthere are so many different cryptographic libraries around.\n\nNettle tries to avoid this problem by doing one thing, the\nlow-level crypto stuff, and providing a simple but general\ninterface to it.  In particular, Nettle doesn't do algorithm\nselection.  It doesn't do memory allocation. It doesn't do any\nI/O.\n",
+   "maintainers": [
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "nettle",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/development/libraries/nettle/generic.nix:26"
+  },
+  "revs": [
+   "02cda2133fc8bb6330853acdaf39f3e50747af62",
+   "02cda2133fc8bb6330853acdaf39f3e50747af62"
   ]
  },
  "3.1.1": {
@@ -364,7 +401,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0173194e4f28dcce269a39eb216877eba77f834c"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "3.4.1": {
@@ -387,7 +424,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "3.5.1": {

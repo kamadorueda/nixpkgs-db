@@ -56,7 +56,7 @@
   },
   "revs": [
    "008256d8bdaf31a0cbf19507dac0384cc2027b23",
-   "008256d8bdaf31a0cbf19507dac0384cc2027b23"
+   "02fdd3840081ffa9f3178a8ddd7ce72d505d3851"
   ]
  },
  "0.03.13": {
@@ -86,7 +86,7 @@
   },
   "revs": [
    "003896dfe7665cfb4ceb2fff28c91d1bfa946fbb",
-   "02301a96db5b5d3aac0d28b753705ad49267ac99"
+   "02ff4444d7296796f959eab1d4b26bb20689180a"
   ]
  },
  "0.03.16": {
@@ -146,7 +146,7 @@
   },
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "030eed83078d668224edfbe741f2d2d5318db843"
   ]
  },
  "0.03.19": {
@@ -389,6 +389,36 @@
    "01dc343c2c613c263a2180d1850847f33653f94f"
   ]
  },
+ "0.04.04": {
+  "meta": {
+   "description": "Stress test a computer system",
+   "homepage": "http://kernel.ubuntu.com/~cking/stress-ng",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Stress test a system in various selectable ways, exercising both various\nphysical subsystems and various operating system kernel interfaces:\n- over 60 different stress tests\n- over 50 CPU specific stress tests that exercise floating point,\n  integer, bit manipulation and control flow\n- over 20 virtual memory stress tests\nstress-ng was originally intended to make a machine work hard and trip\nhardware issues such as thermal overruns as well as operating system\nbugs that only occur when a system is being thrashed hard.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "stress-ng",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/system/stress-ng/default.nix:24"
+  },
+  "revs": [
+   "0307c27219ba43cc0a78cd370f825deca16eeaa2",
+   "0307c27219ba43cc0a78cd370f825deca16eeaa2"
+  ]
+ },
  "0.04.05": {
   "meta": {
    "description": "Stress test a computer system",
@@ -416,7 +446,7 @@
   },
   "revs": [
    "020f466ef4b3f1fe5906169569ed82ef5145b227",
-   "020f466ef4b3f1fe5906169569ed82ef5145b227"
+   "033605e87f150d19919aefaa4d65006b55e9f456"
   ]
  },
  "0.04.06": {
@@ -476,7 +506,7 @@
   },
   "revs": [
    "006e7ae04e8b99020f192310a77eccd93e841633",
-   "028f6b3b625fa6602392b3ca2114fa95d73567a5"
+   "036f11f323e1fb1cf5bca63ba3778efd3b8a0355"
   ]
  },
  "0.04.10": {
@@ -626,7 +656,7 @@
   },
   "revs": [
    "002da098e1e44f8150034af7d87b7e751cd476f8",
-   "026531a04a36d3577122e81f4e7864afd507850f"
+   "037f300184dd2a52399f9b75421e2374d36ab39a"
   ]
  },
  "0.04.16": {
@@ -776,7 +806,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "01f19f54e046417ca52ef67f5277ffe11de91371"
+   "0338199544a7df4ce8dde1b6dc987f17760863f3"
   ]
  },
  "0.04.21": {
@@ -989,7 +1019,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  },
  "0.09.46": {
@@ -1067,7 +1097,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0391c19a73bbe758acf10f2766d1a54db08bd458"
   ]
  },
  "0.09.54": {
@@ -1278,7 +1308,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "00e914cb83295a28c8d4f50c3b070a27a14ad597"
+   "032b0e6c121cb00cc3d1fb797188e22f994a68da"
   ]
  },
  "0.10.00": {
@@ -1329,7 +1359,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "00e09d301624a46f687f7b1dd928c4fafb47c5bf"
+   "038fbf017830c2db9cd77afcb37e1b85114c8f9f"
   ]
  },
  "0.10.01": {
@@ -1434,7 +1464,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+   "02f92455c43d229cb53c7c65018fdab15632d98f"
   ]
  },
  "0.10.14": {
@@ -1805,7 +1835,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "009284cd4cc1ee62b45d13f9c67e7a5549024102"
+   "0367fa630d59673624d6742e2758b87eb12fff4c"
   ]
  },
  "0.11.10": {

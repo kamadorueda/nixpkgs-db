@@ -45,7 +45,7 @@
   },
   "revs": [
    "00e6e395d38ba8a4d6c23ed61aba2b5594b6c1b4",
-   "01db5220357ec6e726dc2fdf4b9199232915fd26"
+   "03b44ad3ed96c5cb20e5ca7dd2b55edd21846fb9"
   ]
  },
  "0.0.20180420": {
@@ -437,7 +437,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
+   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
   ]
  },
  "0.0.20180802": {
@@ -486,7 +486,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "01bbc716e23cb378012029faa87afc651f211abc"
+   "030760a99441a0f9057cb95a6fa6eef22f1c7985"
   ]
  },
  "0.0.20180809": {
@@ -585,6 +585,55 @@
   "revs": [
    "003af0c6d300ac515658b25a9210d3689ecce554",
    "003af0c6d300ac515658b25a9210d3689ecce554"
+  ]
+ },
+ "0.0.20181007": {
+  "meta": {
+   "description": "A prerelease of an experimental VPN tunnel which is not to be depended upon for security",
+   "homepage": "https://www.wireguard.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "Jason@zx2c4.com",
+     "github": "zx2c4",
+     "name": "Jason A. Donenfeld"
+    }
+   ],
+   "name": "wireguard",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/wireguard/default.nix:18"
+  },
+  "revs": [
+   "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
+   "036164bd637d848620e20786e86cf9d8e902a9db"
   ]
  }
 }
