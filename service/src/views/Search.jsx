@@ -25,10 +25,6 @@ const filterPkgs = (pkgs, pkgName) => (
   pkgs.filter((pkg) => pkg.includes(pkgName)).sort()
 );
 
-const randomChoice = (arr) => (
-  arr[Math.floor(Math.random() * arr.length)]
-);
-
 const sortByVersion = (data) => {
   var values = Object.entries(data);
   values.sort((a, b) => a[0] < b[0] ? 1 : -1);
@@ -176,21 +172,13 @@ const Results = (props) => {
               onClick={onPreviousButtonClick}
             />
             <Pagination.Item disabled={true}>
-              Page {page}, results {pageStart} to {pageEnd}
+              Showing packages {pageStart}-{pageEnd} of {matchingPackages.length}
             </Pagination.Item>
             <Pagination.Next
               disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
               onClick={onNextButtonClick}
             />
           </Pagination>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col sm={4}>
-          <Alert variant="light">
-            Matching packages: {matchingPackages.length} in {revs.length} commits
-          </Alert>
         </Col>
       </Row>
 
@@ -215,9 +203,10 @@ const Results = (props) => {
       </Row>
 
       <Row>
-        <Col sm={4}>
+        <Col sm={12}>
           <Alert variant="light">
-            Copyright 2020, Kevin Amado <br />
+            A total of {pkgs.length} packages and {revs.length} commits put in your hands <br />
+            Created and maintained by Kevin Amado
           </Alert>
         </Col>
       </Row>
