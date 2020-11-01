@@ -803,7 +803,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "006332d8acf011bb119448f3b58db24e00366f63"
+   "0092cf65e9dec81d7425788c1e924037b6d00622"
   ]
  },
  "0.81.0": {
@@ -1771,7 +1771,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
   ]
  },
  "1.77.1": {
@@ -2868,6 +2868,70 @@
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
    "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+  ]
+ },
+ "13.0.8": {
+  "meta": {
+   "description": "A Git RPC service for handling all the git calls made by GitLab",
+   "homepage": "https://gitlab.com/gitlab-org/gitaly",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "kim.lindberger@gmail.com",
+     "github": "talyz",
+     "githubId": 63433,
+     "name": "Kim Lindberger"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/version-management/gitlab/gitaly/default.nix:58"
+  },
+  "revs": [
+   "008e7e3244ebc374d8f8df9632de0e821619319d",
+   "008e7e3244ebc374d8f8df9632de0e821619319d"
   ]
  },
  "13.0.9": {

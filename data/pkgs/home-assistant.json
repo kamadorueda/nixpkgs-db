@@ -246,7 +246,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00373dacd36474dcab416d29a03b6ab45b61f79e"
+   "009214203f77cfa0abae79889b68b44d7067939f"
   ]
  },
  "0.107.7": {
@@ -1333,7 +1333,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "006a6db0128766b32b5e681cedc0e837c4549824"
+   "0092cf65e9dec81d7425788c1e924037b6d00622"
   ]
  },
  "0.65.5": {
@@ -1711,7 +1711,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "00562b5a9a7fa169c8f0f825ef71bab29a0a279f"
+   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
   ]
  },
  "0.73.2": {
@@ -1820,6 +1820,60 @@
   "revs": [
    "003055a670470f678e376be7f9b9051fb242ec0f",
    "003055a670470f678e376be7f9b9051fb242ec0f"
+  ]
+ },
+ "0.74.2": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:119"
+  },
+  "revs": [
+   "008fd5fcf5f45c6478ccd3d52ec923052eccb932",
+   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
   ]
  },
  "0.75.1": {

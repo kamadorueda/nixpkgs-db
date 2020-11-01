@@ -98,7 +98,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "004e7fb6fd112ec29446312a89f7b1b265164127"
+   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
   ]
  },
  "4.17.17": {
@@ -235,6 +235,40 @@
   "revs": [
    "0068fea88cf6d9e1efe031753f9e48a424967ef8",
    "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+  ]
+ },
+ "4.17.4": {
+  "meta": {
+   "description": "Linux tools to profile with performance counters",
+   "homepage": "https://perf.wiki.kernel.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "perf-linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/perf.nix:71"
+  },
+  "revs": [
+   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b",
+   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
   ]
  },
  "4.17.5": {

@@ -503,7 +503,7 @@
   },
   "revs": [
    "0024c10a5c974ee41c7bc69cd61faaa920f3a9d4",
-   "007c558be8a488e49fd1c00f8c800f5f67604e36"
+   "00903f48201307d8995386f9fc50cd12e24d5d40"
   ]
  },
  "1.6-4.4.2": {
@@ -755,7 +755,7 @@
   },
   "revs": [
    "0044ba7256aae191b3a5bb3d4b4f28c3cf9a99c5",
-   "0044ba7256aae191b3a5bb3d4b4f28c3cf9a99c5"
+   "008f88ae6f0aa43cf0dc4e36f059ee03e1a0b99b"
   ]
  },
  "1.6-4.6.4": {
@@ -797,7 +797,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "008e8258c014505f1f644cd9b2bb0fb21bfe9f93"
   ]
  },
  "1.6-4.7.2": {
@@ -2198,7 +2198,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f"
+   "0092cf65e9dec81d7425788c1e924037b6d00622"
   ]
  },
  "1.9-4.16": {
@@ -2528,7 +2528,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "004e7fb6fd112ec29446312a89f7b1b265164127"
+   "008fd5fcf5f45c6478ccd3d52ec923052eccb932"
   ]
  },
  "1.9-4.17.19": {
@@ -2628,6 +2628,39 @@
   "revs": [
    "0068fea88cf6d9e1efe031753f9e48a424967ef8",
    "0068fea88cf6d9e1efe031753f9e48a424967ef8"
+  ]
+ },
+ "1.9-4.17.4": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://home.gna.org/cryptodev-linux/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:22"
+  },
+  "revs": [
+   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b",
+   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
   ]
  },
  "1.9-4.17.5": {
@@ -4632,6 +4665,39 @@
    "00482247e1a649194dc66ac264c5532a3ef9a9a4"
   ]
  },
+ "1.9-5.4.15": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://cryptodev-linux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:21"
+  },
+  "revs": [
+   "008eb7cb75b8a424fd48244be4f6a205648b8941",
+   "008eb7cb75b8a424fd48244be4f6a205648b8941"
+  ]
+ },
  "1.9-5.4.3": {
   "meta": {
    "description": "Device that allows access to Linux kernel cryptographic drivers",
@@ -4695,7 +4761,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
   ]
  },
  "1.9-5.4.8": {
@@ -4795,6 +4861,39 @@
   "revs": [
    "0036573d305dc724ad3acd8f6a406bc6113866cc",
    "0036573d305dc724ad3acd8f6a406bc6113866cc"
+  ]
+ },
+ "1.9-5.5.11": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://cryptodev-linux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:21"
+  },
+  "revs": [
+   "009214203f77cfa0abae79889b68b44d7067939f",
+   "009214203f77cfa0abae79889b68b44d7067939f"
   ]
  },
  "1.9-5.5.13": {
@@ -5223,7 +5322,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "0045730c57d7d705dcc568c6e420dc6a226d1266"
+   "009284cd4cc1ee62b45d13f9c67e7a5549024102"
   ]
  },
  "1.9-5.6.15": {
@@ -5487,7 +5586,7 @@
   },
   "revs": [
    "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8",
-   "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8"
+   "008f2184d075a977473e5cb0b76526c45d0e5330"
   ]
  },
  "1.9-5.7.1": {
@@ -5916,7 +6015,7 @@
   },
   "revs": [
    "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
-   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2"
+   "00915d4e6d832b620489b72e828a40f3a57acf00"
   ]
  },
  "1.9-5.7.9": {
@@ -6049,6 +6148,39 @@
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1"
+  ]
+ },
+ "1.9-5.8.5": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://cryptodev-linux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:21"
+  },
+  "revs": [
+   "008f45f5916dd0fe3d9a591833fb92dce92dc777",
+   "008f45f5916dd0fe3d9a591833fb92dce92dc777"
   ]
  },
  "1.9-5.8.6": {

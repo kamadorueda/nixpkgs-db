@@ -163,7 +163,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "00278ef685beeb102c0f247251b08e4ae8db3443"
+   "008f88ae6f0aa43cf0dc4e36f059ee03e1a0b99b"
   ]
  },
  "0.17.0": {
@@ -988,7 +988,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "004490605a8b0a14b0b63b38a87820e4b2a5d9df"
+   "0092cf65e9dec81d7425788c1e924037b6d00622"
   ]
  },
  "0.26.1": {
@@ -2201,7 +2201,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00373dacd36474dcab416d29a03b6ab45b61f79e"
+   "009214203f77cfa0abae79889b68b44d7067939f"
   ]
  },
  "1.12.1": {
@@ -2405,7 +2405,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "0045730c57d7d705dcc568c6e420dc6a226d1266"
+   "009284cd4cc1ee62b45d13f9c67e7a5549024102"
   ]
  },
  "1.14.0": {
@@ -2622,6 +2622,80 @@
   "revs": [
    "002b700fb597bc670ea4d19597444c43d31cf556",
    "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+  ]
+ },
+ "1.16.1": {
+  "meta": {
+   "description": "Matrix reference homeserver",
+   "homepage": "https://matrix.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "matrix-synapse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/matrix-synapse/default.nix:78"
+  },
+  "revs": [
+   "00915d4e6d832b620489b72e828a40f3a57acf00",
+   "00915d4e6d832b620489b72e828a40f3a57acf00"
   ]
  },
  "1.17.0": {
@@ -3387,7 +3461,75 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "Matrix reference homeserver",
+   "homepage": "https://matrix.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    },
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "matrix-synapse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/matrix-synapse/default.nix:89"
+  },
+  "revs": [
+   "00915dcb631102871960800ba9b47a0ded2c3c92",
+   "00915dcb631102871960800ba9b47a0ded2c3c92"
   ]
  },
  "1.7.3": {
@@ -3524,6 +3666,74 @@
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
    "00610756df9a235f2de907a18cd8fded638d24e0"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "Matrix reference homeserver",
+   "homepage": "https://matrix.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    },
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "githubId": 1069318,
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "matrix-synapse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/matrix-synapse/default.nix:89"
+  },
+  "revs": [
+   "008eb7cb75b8a424fd48244be4f6a205648b8941",
+   "008eb7cb75b8a424fd48244be4f6a205648b8941"
   ]
  },
  "1.9.1": {
