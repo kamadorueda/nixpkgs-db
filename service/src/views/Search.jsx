@@ -200,15 +200,6 @@ const Results = (props) => {
           </Accordion>
         </Col>
       </Row>
-
-      <Row>
-        <Col sm={12}>
-          <Alert variant="light">
-            A total of {pkgs.length} packages and {revs.length} commits put in your hands <br />
-            Created and maintained by Kevin Amado
-          </Alert>
-        </Col>
-      </Row>
     </React.Fragment>
   );
 }
