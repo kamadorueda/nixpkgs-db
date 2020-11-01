@@ -222,7 +222,7 @@ export const Search = () => {
     <React.Fragment>
       <Navbar>
         <Navbar.Brand>
-          <h1>Nix Packages Database!</h1>
+          <h1>Nixpkgs Database!</h1>
           <h5>A database with packages from all versions, all commits and all channels.</h5>
         </Navbar.Brand>
       </Navbar>
