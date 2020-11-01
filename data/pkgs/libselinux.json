@@ -12,7 +12,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "0333bc298d4a45d943dabb1cded93aba257dcb47"
+   "05a530fd10d7b846a47e8bc4b9a4d21fef20e3e8"
   ]
  },
  "2.0.98": {
@@ -196,6 +196,44 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "2.8": {
+  "meta": {
+   "description": "SELinux core library",
+   "homepage": "http://userspace.selinuxproject.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "libselinux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/libselinux/default.nix:51"
+  },
+  "revs": [
+   "059bbd041ae3429e616a1ace7a31ed7bb571884b",
+   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
   ]
  },
  "2.9": {

@@ -692,7 +692,7 @@
   },
   "revs": [
    "0068fea88cf6d9e1efe031753f9e48a424967ef8",
-   "02b7eef8084487ef284b3ef612c54413b6e55701"
+   "0519b48ab86964c57e692782ad99cffb697a74aa"
   ]
  },
  "0.7.9-4.14.53": {
@@ -808,7 +808,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "04cae0e5fb2d0761c355bc3d0e8f050d2dabec51"
+   "05c2aa212e062aefcc058b86adf7e367e8f1f6ea"
   ]
  },
  "0.7.9-4.14.55": {
@@ -1330,7 +1330,7 @@
   },
   "revs": [
    "0353772874892ba5cd4cdd4f59b0f622d0798ad8",
-   "0353772874892ba5cd4cdd4f59b0f622d0798ad8"
+   "050f59cd1197d5fef371abc198897c141d1a7c80"
   ]
  },
  "0.7.9-4.14.64": {
@@ -1969,6 +1969,64 @@
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
    "0451339392c3a91fad9caf6bf691c6af6bad83ab"
+  ]
+ },
+ "18.09pre-git-4.14.66": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:43"
+  },
+  "revs": [
+   "05310e3172fb0e5524a649ee31f3a9fecb95769e",
+   "05310e3172fb0e5524a649ee31f3a9fecb95769e"
   ]
  }
 }

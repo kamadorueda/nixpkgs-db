@@ -488,6 +488,91 @@
    "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
+ "1.22.0": {
+  "meta": {
+   "description": "Powerful text editor for the MATE desktop",
+   "homepage": "https://mate-desktop.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "pluma",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/mate/pluma/default.nix:31"
+  },
+  "revs": [
+   "055694b7cad5d54b5204e247243df52050e5bea1",
+   "055694b7cad5d54b5204e247243df52050e5bea1"
+  ]
+ },
  "1.22.1": {
   "meta": {
    "description": "Powerful text editor for the MATE desktop",
@@ -586,7 +671,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
   ]
  },
  "1.24.0": {

@@ -1,4 +1,62 @@
 {
+ "0.7.10-4.18.6": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "05f122c5612e76e643f504275a35e6e05223bda9",
+   "05f122c5612e76e643f504275a35e6e05223bda9"
+  ]
+ },
  "0.7.10-4.18.7": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -344,7 +402,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "031083b564d2c11cb87630e0be1a7ca1f2d6e349"
+   "0560caa57893a3c8dd11aeece110672c720c9496"
   ]
  },
  "0.7.11-4.18.15": {
@@ -924,7 +982,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "047a9dc0800b31703c673fad8b5ff8ad292bb539"
+   "0576b0236940a69118c3cb1ab6406792185c7c1a"
   ]
  },
  "0.7.9-4.18": {
@@ -982,7 +1040,7 @@
   },
   "revs": [
    "037157080799d96ac50feaaf16d783058a8222cb",
-   "037157080799d96ac50feaaf16d783058a8222cb"
+   "05d85a267fdc825e26bfb426a799324783a951b4"
   ]
  }
 }

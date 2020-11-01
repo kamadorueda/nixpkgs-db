@@ -31,7 +31,7 @@
   },
   "revs": [
    "00672dec8a1367a1d559660aa7a125b31f3f6562",
-   "01ef91aa045b1597769a0b53a1b03c8d2fe9ae55"
+   "05853a5db2b82cc17288b825d0726daa3308fc73"
   ]
  },
  "2017.05.29": {
@@ -957,7 +957,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+   "05bc5fed288666126fd5394657c5ef065cbd9710"
   ]
  },
  "2018.05.18": {
@@ -1888,7 +1888,7 @@
   },
   "revs": [
    "015541ea6a35096e134c37f2fdf4dc88dc682b1c",
-   "0352694373125b207f1ccbc5d7d0925da87c7637"
+   "053e0061dc1db6c583208e15bf4080baad2f2f8c"
   ]
  },
  "2019.01.16": {
@@ -2032,7 +2032,7 @@
   },
   "revs": [
    "047a9dc0800b31703c673fad8b5ff8ad292bb539",
-   "047a9dc0800b31703c673fad8b5ff8ad292bb539"
+   "0576b0236940a69118c3cb1ab6406792185c7c1a"
   ]
  },
  "2019.01.30.1": {
@@ -2249,6 +2249,78 @@
   "revs": [
    "02ab2b87724e9254da3ea6c8862ca3227ee3cb2f",
    "02ab2b87724e9254da3ea6c8862ca3227ee3cb2f"
+  ]
+ },
+ "2019.04.07": {
+  "meta": {
+   "description": "Command-line tool to download videos from YouTube.com and other sites",
+   "homepage": "https://rg3.github.io/youtube-dl/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "youtube-dl is a small, Python-based command-line program\nto download videos from YouTube.com and a few more sites.\nyoutube-dl is released to the public domain, which means\nyou can modify it, redistribute it or use it however you like.\n",
+   "maintainers": [
+    {
+     "email": "mathijs@bluescreen303.nl",
+     "github": "bluescreen303",
+     "name": "Mathijs Kwik"
+    },
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "name": "Evgeny Egorochkin"
+    },
+    {
+     "email": "torres.anderson.85@gmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    },
+    {
+     "email": "fuuzetsu@fuuzetsu.co.uk",
+     "github": "fuuzetsu",
+     "name": "Mateusz Kowalczyk"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "enzime@users.noreply.github.com",
+     "github": "enzime",
+     "name": "Michael Hoang"
+    }
+   ],
+   "name": "python3.6-youtube-dl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/youtube-dl/default.nix:56"
+  },
+  "revs": [
+   "05ef70a46fe22a0d4030dc92424b4ae72793abd2",
+   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
   ]
  }
 }

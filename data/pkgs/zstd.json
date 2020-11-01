@@ -34,7 +34,7 @@
   },
   "revs": [
    "008acbc506039ab87f2deb02a2cd00254d64a260",
-   "008acbc506039ab87f2deb02a2cd00254d64a260"
+   "05b1b1408370a19293f5b145f6948be48a8082be"
   ]
  },
  "0.5.0": {
@@ -148,7 +148,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "0208e92577aa23088a657642a2cf362dde79a084"
+   "0540a837893f1e32676fe2a9b093216b44f5dc24"
   ]
  },
  "0.6.1": {
@@ -362,7 +362,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "04d873a626c93d9d0dbd21a6f4989194dc0fc61e"
+   "05dbbae47cfc9c03badfe4616be84d17acf44fbc"
   ]
  },
  "0.7.5": {
@@ -547,7 +547,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "02a188c9199e6dfdbd92176d090b30365c400c97"
+   "05126bc8503a37bfd2fe80867eb5b0bea287c633"
   ]
  },
  "1.2.0": {
@@ -945,7 +945,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
   ]
  },
  "1.3.6": {
@@ -1280,7 +1280,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "003b42f33241229dc9094d713f4e88bff9d72d14"
+   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
   ]
  },
  "1.4.1": {
@@ -1334,6 +1334,60 @@
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
    "04a0b11c9b7bd00913f88cc8affd497aac9902aa"
+  ]
+ },
+ "1.4.2": {
+  "meta": {
+   "description": "Zstandard real-time compression algorithm",
+   "homepage": "https://facebook.github.io/zstd/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "Zstd, short for Zstandard, is a fast lossless compression algorithm,\ntargeting real-time compression scenarios at zlib-level compression\nratio. Zstd can also offer stronger compression ratio at the cost of\ncompression speed. Speed/ratio trade-off is configurable by small\nincrement, to fit different situations. Note however that decompression\nspeed is preserved and remain roughly the same at all settings, a\nproperty shared by most LZ compression algorithms, such as zlib.\n",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "zstd",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/compression/zstd/default.nix:46"
+  },
+  "revs": [
+   "0528816570bf5a80ee396c1eb171b4cefae5ca62",
+   "0528816570bf5a80ee396c1eb171b4cefae5ca62"
   ]
  },
  "1.4.3": {
@@ -1458,7 +1512,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
   ]
  },
  "1.4.5": {

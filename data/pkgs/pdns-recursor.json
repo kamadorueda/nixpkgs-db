@@ -279,7 +279,7 @@
   },
   "revs": [
    "003b42f33241229dc9094d713f4e88bff9d72d14",
-   "003b42f33241229dc9094d713f4e88bff9d72d14"
+   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
   ]
  },
  "4.1.14": {
@@ -473,7 +473,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "021b6e86faef9ab8876eff0a2c20df1c55b1f494"
+   "0549e307a52a8d3f17a0e2e821501a6f4e92f80f"
   ]
  },
  "4.1.8": {
@@ -512,7 +512,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
   ]
  },
  "4.2.0": {
@@ -558,7 +558,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "057840da6e144f9b8444a57788f48bbcc277bf96"
   ]
  },
  "4.2.1": {
@@ -696,7 +696,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "00f3a335e3bb46f0145f27a4f14a6d27fde634a9"
+   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
   ]
  },
  "4.3.0": {
@@ -881,6 +881,52 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "03416d8eaeb0bd895663a88b41fb614894d939d4"
+  ]
+ },
+ "4.3.4": {
+  "meta": {
+   "description": "A recursive DNS server",
+   "homepage": "https://www.powerdns.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rnhmjoj@inventati.org",
+     "github": "rnhmjoj",
+     "githubId": 2817565,
+     "keys": [
+      {
+       "fingerprint": "92B2 904F D293 C94D C4C9  3E6B BFBA F4C9 75F7 6450",
+       "longkeyid": "ed25519/0xBFBAF4C975F76450"
+      }
+     ],
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pdns-recursor",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/dns/pdns-recursor/default.nix:36"
+  },
+  "revs": [
+   "05b955a133dfdc639dcd163376a1e8562ec49236",
+   "05b955a133dfdc639dcd163376a1e8562ec49236"
   ]
  },
  "4.3.5": {

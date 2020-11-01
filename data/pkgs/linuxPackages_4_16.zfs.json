@@ -57,6 +57,64 @@
    "026f65273c0bba3139be8407ac5a29d0c6de4ab8"
   ]
  },
+ "0.7.7-4.16.1": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:129"
+  },
+  "revs": [
+   "0528e1870050becf9806ae52fe20b68a830cd6da",
+   "0528e1870050becf9806ae52fe20b68a830cd6da"
+  ]
+ },
  "0.7.8-4.16.1": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -228,7 +286,7 @@
   },
   "revs": [
    "015c5a1e89b9e09bd630cce680be93d7bbea9618",
-   "038f5ded1be5ef0e12670d8b02e2a99a00cd4b20"
+   "0589b4aac5102240eb36ed23ba765d6ef34f79a5"
   ]
  },
  "0.7.9-4.16.17": {
@@ -286,7 +344,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0011f10b5754963a7a993390f1c64a89d883e06d"
+   "06158033f24d7467f2361efb11f8c8bc24b87f7d"
   ]
  },
  "0.7.9-4.16.18": {
