@@ -9,7 +9,6 @@ import {
   FormControl,
   InputGroup,
   Jumbotron,
-  Navbar,
   Pagination,
   Row,
 } from 'react-bootstrap';
@@ -220,19 +219,11 @@ export const Search = () => {
 
   return (
     <React.Fragment>
-      <Navbar>
-        <Navbar.Brand>
-          <h1>Nixpkgs Database!</h1>
-          <h5>A database with packages from all versions, all commits and all channels.</h5>
-        </Navbar.Brand>
-      </Navbar>
-      <Container fluid={true}>
-        {pkgs.length === 0 ? (
-          <ProgressBar label="Loading..." variant="info" />
-        ) : (
-          <Results pkgs={pkgs} revs={revs} />
-        )}
-      </Container>
+      {pkgs.length === 0 ? (
+        <ProgressBar label="Loading..." variant="info" />
+      ) : (
+        <Results pkgs={pkgs} revs={revs} />
+      )}
     </React.Fragment>
   );
 }
