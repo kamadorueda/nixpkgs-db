@@ -16,7 +16,9 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { About } from './views/About';
+import contentAbout from './views/About.md';
+import contentContributing from './views/Contributing.md';
+import { markdownTab } from './components/Markdown';
 import { Search } from './views/Search';
 
 const Root = () => (
@@ -59,8 +61,8 @@ const Root = () => (
         <br />
         <Switch>
           <Route exact={true} path="/search" component={Search} />
-          <Route exact={true} path="/about" component={About} />
-          <Route exact={true} path="/contributing">...</Route>
+          <Route exact={true} path="/about" component={markdownTab(contentAbout)} />
+          <Route exact={true} path="/contributing" component={markdownTab(contentContributing)} />
           <Redirect to="/search" />
         </Switch>
       </Container>

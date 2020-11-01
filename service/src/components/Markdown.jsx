@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import SyntaxHighlighter from 'react-syntax-highlighter';
+import { Col, Row } from 'react-bootstrap';
 import { vs as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const renderers = {
@@ -37,3 +38,13 @@ export const Markdown = (props) => (
     renderers={renderers}
   />
 )
+
+export const markdownTab = (content) => () => {
+  return (
+    <Row>
+      <Col sm={12}>
+        <Markdown content={content} />
+      </Col>
+    </Row>
+  );
+}
