@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { vs as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const renderers = {
   text: (props) => <span>{props.children}</span>,
   break: () => <br />,
   heading: (props) => React.createElement("h".concat(props.level + 1), {}, props.children),
-
+  code: (props) => (
+    <SyntaxHighlighter language={props.language} style={style}>
+      {props.value}
+    </SyntaxHighlighter>
+  )
   // paragraph: (props) => <p>{props.children}</p>,
   // emphasis: (props) => <em>{props.children}</em>,
   // strong: (props) => <strong>{props.children}</strong>,
@@ -17,7 +23,6 @@ const renderers = {
   // imageReference: (props) => <img>{props.children}</img>,
   // listItem: (props) => <li>{props.children}</li>,
   // inlineCode: (props) => <code>{props.children}</code>,
-  // code: (props) => <pre><code>{props.children}</code></pre>,
   // list: (props) => <ul> or <ol>{props.children}</ul> or <ol>,
   // {/* heading: (props) => <h1> through <h6>{props.children}</h1> through <h6>, */}
 }
