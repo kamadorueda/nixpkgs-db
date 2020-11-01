@@ -10,11 +10,13 @@ import {
 import {
   HashRouter,
   Link,
+  Redirect,
   Route,
   Switch,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { About } from './views/About';
 import { Search } from './views/Search';
 
 const Root = () => (
@@ -33,7 +35,7 @@ const Root = () => (
             <Nav variant="tabs">
               <Nav.Item>
                 <Nav.Link>
-                  <Link to="/">Search</Link>
+                  <Link to="/search">Search</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -51,9 +53,10 @@ const Root = () => (
         </Row>
         <br />
         <Switch>
-          <Route exact={true} path="/" component={Search} />
-          <Route exact={true} path="/about">...</Route>
+          <Route exact={true} path="/search" component={Search} />
+          <Route exact={true} path="/about" component={About} />
           <Route exact={true} path="/contributing">...</Route>
+          <Redirect to="/search" />
         </Switch>
       </Container>
     </HashRouter>
