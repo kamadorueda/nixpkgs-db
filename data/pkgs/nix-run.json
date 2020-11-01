@@ -1,0 +1,26 @@
+{
+ "": {
+  "meta": {
+   "description": "Wrapper around nix-build that automatically executes the binary\nproduced by the provided Nix expression.\n",
+   "homepage": "",
+   "license": null,
+   "long_description": "nix-run invokes nix-build with any options given to it. It then\nexpects one executable file to be produced by nix-build. If this\nis the case, that file is executed with any options that is given\nto nix-run after a <literal>--</literal> option separator. If no\nexecutable file is produced by nix-build, nix-run will exit with\nan error. An example invocation of nix-run is <literal>nix-run -A\nmyattr mynix.nix -- -o opt</literal>. nix-run will then build the\nattribute <literal>myattr</literal> from the Nix expression given\nin the file <literal>mynix.nix</literal>. If a single executable\nfile is produced, that file is executed with the option\n<literal>-o opt</literal>.\n",
+   "maintainers": [
+    "Rickard Nilsson <rickynils@gmail.com>"
+   ],
+   "name": "nix-run",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/misc/nix-run/default.nix:52"
+  },
+  "revs": [
+   "04fe6405e49e62211ab90edcca1cc0255258ac6f",
+   "04fe6405e49e62211ab90edcca1cc0255258ac6f"
+  ]
+ }
+}

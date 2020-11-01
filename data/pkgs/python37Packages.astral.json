@@ -143,7 +143,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "02a3a15bfd26674f408da197a879d19f38672df8"
+   "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
  "1.8": {
@@ -193,6 +193,55 @@
   "revs": [
    "00cdff318a317565b8289fa807dfb3b9bbbaaa91",
    "0299aa0adbc3bf3255c123bed3b2b8ee651e3771"
+  ]
+ },
+ "1.9.1": {
+  "meta": {
+   "description": "Calculations for the position of the sun and the moon",
+   "homepage": "https://github.com/sffjunkie/astral/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    }
+   ],
+   "name": "python3.7-astral",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/astral/default.nix:22"
+  },
+  "revs": [
+   "048016e8c8c2d3a8e5af21034f8819baca060a84",
+   "048016e8c8c2d3a8e5af21034f8819baca060a84"
   ]
  },
  "1.9.2": {

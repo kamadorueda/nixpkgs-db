@@ -54,7 +54,7 @@
   },
   "revs": [
    "00ddd6a8ae9989ada2cb1a70b0c6cfb1022f6b1e",
-   "03b44ad3ed96c5cb20e5ca7dd2b55edd21846fb9"
+   "047c7abe8e32b6a33017d9fc93b3453264f5aa6a"
   ]
  },
  "2018-01-24-4.9.101": {
@@ -229,6 +229,64 @@
   "revs": [
    "003a0b7ccdb003cef54f4c7a1ccce1630a954ece",
    "024871718d767e3682c2a1c8fdaee66db4c83c48"
+  ]
+ },
+ "2018-01-24-4.9.104": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "04bd841d1b742c89f878b70d3e98d1f61c190e53",
+   "04bd841d1b742c89f878b70d3e98d1f61c190e53"
   ]
  },
  "2018-01-24-4.9.105": {
@@ -518,7 +576,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0194f7fbe691616f635105426a9587e862a53b75"
+   "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
   ]
  },
  "2018-01-24-4.9.110": {
@@ -1632,7 +1690,7 @@
   },
   "revs": [
    "00b24f7a69fd7bc8c76b9298ceafc7bddb29929b",
-   "01bf8381fd7719f6ca20036c876ed2c3d1047af1"
+   "0479e913094af56ae270a0adcbbe027bfe27488e"
   ]
  },
  "2018-01-24-4.9.84": {
@@ -2332,7 +2390,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "01bcf3f2f22f4efd994dfc61f94df132b062ad70"
+   "04d9a46db54eb2152a7b993cb1b9a252bbed5dfb"
   ]
  },
  "2018-01-24-4.9.97": {

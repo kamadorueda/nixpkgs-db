@@ -112,7 +112,7 @@
   },
   "revs": [
    "0008aa73eb0dec898c4e2e6913af645abd253c35",
-   "03072036937c250976f0522b070eefe96e8ab0f1"
+   "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
  "0.7.12-4.14.92": {
@@ -286,7 +286,7 @@
   },
   "revs": [
    "00e7055e3e705c469f7f07fe35b61ee4f692139d",
-   "01efca4a5413cc67ae0bb8c1c7e1997acd143fb5"
+   "04ee7db38b34d5ca4f016cadb4aa67107924ed96"
   ]
  },
  "0.7.12-4.14.95": {
@@ -397,7 +397,7 @@
   },
   "revs": [
    "00cdff318a317565b8289fa807dfb3b9bbbaaa91",
-   "0299aa0adbc3bf3255c123bed3b2b8ee651e3771"
+   "048016e8c8c2d3a8e5af21034f8819baca060a84"
   ]
  },
  "0.7.12-4.14.97": {
@@ -1099,7 +1099,7 @@
   },
   "revs": [
    "0196d8f11cff9790531f7599153a077bb493b9cf",
-   "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
+   "04954e39df88487bf5b6bb5e532520e83a6c22ea"
   ]
  },
  "0.7.13-4.14.117": {
@@ -1515,6 +1515,65 @@
    "035d45a91a090232bbd4dc9cb5cdc9dbac72b8ea"
   ]
  },
+ "0.7.13-4.14.124": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00",
+   "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00"
+  ]
+ },
  "0.7.13-4.14.128": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -1571,7 +1630,7 @@
   },
   "revs": [
    "03be9e385be14406fef94bdb865e70a456a87930",
-   "03be9e385be14406fef94bdb865e70a456a87930"
+   "04f800ebb69d72f7ee4291715f8c441055a7100f"
   ]
  },
  "0.7.13-4.14.129": {
@@ -1690,6 +1749,65 @@
   "revs": [
    "009d35a682d4f4b2f6160ece98cea09bf1f69db2",
    "021f94354c5aac20f85d3430bd8c4615730b35e7"
+  ]
+ },
+ "0.7.13-4.14.138": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "04ec91fbd8e47ca57c8126d7a121319b9a8b6702",
+   "04ec91fbd8e47ca57c8126d7a121319b9a8b6702"
   ]
  },
  "0.7.13-4.14.139": {
@@ -2229,7 +2347,7 @@
   },
   "revs": [
    "01941c5155e1569d4edf8d4c64237d4472a3871a",
-   "043dece5b7de97930d9f010c880d1bf3eae6a61d"
+   "05096950505be8ba62cbf8bceda7c635cb11cf40"
   ]
  },
  "0.7.5-4.14.16": {

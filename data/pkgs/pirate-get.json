@@ -231,6 +231,102 @@
    "0194f7fbe691616f635105426a9587e862a53b75"
   ]
  },
+ "0.3.0": {
+  "meta": {
+   "description": "A command line interface for The Pirate Bay",
+   "homepage": "https://github.com/vikstrous/pirate-get",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "micheleguerinirocco@me.com",
+     "github": "rnhmjoj",
+     "name": "Michele Guerini Rocco"
+    }
+   ],
+   "name": "pirate-get",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pirate-get/default.nix:20"
+  },
+  "revs": [
+   "04e527d69fbcc6b091aeb11ec595c8047c99010f",
+   "04e527d69fbcc6b091aeb11ec595c8047c99010f"
+  ]
+ },
  "0.3.1": {
   "meta": {
    "description": "A command line interface for The Pirate Bay",
@@ -409,7 +505,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "02a3a15bfd26674f408da197a879d19f38672df8"
+   "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
  "0.3.3": {

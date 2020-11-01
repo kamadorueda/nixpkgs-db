@@ -1,0 +1,4 @@
+{
+ "summary": "* Run smbd in its own session / process group (setsid) because smbd   now kills its process group when it exits.  Without setsid, this   ends up killing the parent (i.e., the builder). * Use port 445 instead of 139 because the CIFS kernel module tries   port 445 first.  If there is an actual Samba running on the host, it   would end up connecting to that one instead of our own and fail.",
+ "timestamp": "1291662212"
+}
