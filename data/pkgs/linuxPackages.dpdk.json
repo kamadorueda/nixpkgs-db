@@ -313,7 +313,7 @@
   },
   "revs": [
    "0087d161204afc42355d1f867df5a9d51533bfae",
-   "0087d161204afc42355d1f867df5a9d51533bfae"
+   "008d47131f41248bd0917424871ac6dd126a3b09"
   ]
  },
  "16.04-4.4.8": {
@@ -353,6 +353,45 @@
   "revs": [
    "006c8b35cfd9a2c7f292befb5e4278d5ba399fd2",
    "006c8b35cfd9a2c7f292befb5e4278d5ba399fd2"
+  ]
+ },
+ "16.04-4.4.9": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:35"
+  },
+  "revs": [
+   "008ba8f712770b72832b9e7f89c8a56c8bb8bb31",
+   "008ba8f712770b72832b9e7f89c8a56c8bb8bb31"
   ]
  },
  "16.07-4.4.20": {
@@ -1252,6 +1291,45 @@
    "00444cbf25fcc7d1db64e6fe482815b52f699353"
   ]
  },
+ "16.07.2-4.9.6": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:65"
+  },
+  "revs": [
+   "008a6a571bc61891f629b427b4ea3ef1af94b153",
+   "008a6a571bc61891f629b427b4ea3ef1af94b153"
+  ]
+ },
  "16.07.2-4.9.8": {
   "meta": {
    "description": "Set of libraries and drivers for fast packet processing",
@@ -1706,7 +1784,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "000482ffc470f798fb3aa1673b39a38680cbb567"
+   "008af1452515d6747e0b609d74cddad2460baeb7"
   ]
  },
  "17.05.1-4.14.36": {
@@ -4855,6 +4933,54 @@
   "revs": [
    "0017a06717bb18706ac3cb99432034caad0c8b91",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "17.11.2-4.19.36": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:58"
+  },
+  "revs": [
+   "008c9a70a57f0448b275179bfbc10c8750f29069",
+   "008c9a70a57f0448b275179bfbc10c8750f29069"
   ]
  },
  "17.11.2-4.19.37": {

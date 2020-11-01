@@ -881,6 +881,39 @@
    "007d227e368bc7e5be856b11a65b3f6381df9b1f"
   ]
  },
+ "4.15.17-2017.10.18": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:50"
+  },
+  "revs": [
+   "008af1452515d6747e0b609d74cddad2460baeb7",
+   "008af1452515d6747e0b609d74cddad2460baeb7"
+  ]
+ },
  "4.15.4-2017-02-04": {
   "meta": {
    "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
@@ -2734,6 +2767,35 @@
    "00444cbf25fcc7d1db64e6fe482815b52f699353"
   ]
  },
+ "4.9.6-2016-09-16": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:39"
+  },
+  "revs": [
+   "008a6a571bc61891f629b427b4ea3ef1af94b153",
+   "008a6a571bc61891f629b427b4ea3ef1af94b153"
+  ]
+ },
  "4.9.8-2016-09-16": {
   "meta": {
    "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
@@ -3116,6 +3178,39 @@
   "revs": [
    "0017a06717bb18706ac3cb99432034caad0c8b91",
    "0017a06717bb18706ac3cb99432034caad0c8b91"
+  ]
+ },
+ "5.0.9-4.0": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:44"
+  },
+  "revs": [
+   "008c9a70a57f0448b275179bfbc10c8750f29069",
+   "008c9a70a57f0448b275179bfbc10c8750f29069"
   ]
  },
  "5.1-4.0": {

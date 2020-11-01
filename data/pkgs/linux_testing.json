@@ -772,7 +772,7 @@
   },
   "revs": [
    "0058e51c8cbff3256bc0f55ca800a427780d1cca",
-   "0058e51c8cbff3256bc0f55ca800a427780d1cca"
+   "008af1452515d6747e0b609d74cddad2460baeb7"
   ]
  },
  "4.16-rc5": {
@@ -2502,6 +2502,45 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "5.1-rc6": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:256"
+  },
+  "revs": [
+   "008c9a70a57f0448b275179bfbc10c8750f29069",
+   "008c9a70a57f0448b275179bfbc10c8750f29069"
+  ]
+ },
  "5.1-rc7": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long, export_kernel_fpu_functions)",
@@ -3649,6 +3688,46 @@
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
    "0079133e4248a855f6247854220e385ef62cd3be"
+  ]
+ },
+ "5.9-rc5": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:264"
+  },
+  "revs": [
+   "008de9ca3cd22658df19276032f5d3f403a51090",
+   "008de9ca3cd22658df19276032f5d3f403a51090"
   ]
  },
  "5.9-rc6": {

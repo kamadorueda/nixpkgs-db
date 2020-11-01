@@ -950,6 +950,60 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "0.55.3": {
+  "meta": {
+   "description": "A fast and modern static website engine.",
+   "homepage": "https://gohugo.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "schneefux+nixos_pkg@schneefux.xyz",
+     "github": "schneefux",
+     "name": "schneefux"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "hugo",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/hugo/default.nix:23"
+  },
+  "revs": [
+   "008c9a70a57f0448b275179bfbc10c8750f29069",
+   "008c9a70a57f0448b275179bfbc10c8750f29069"
+  ]
+ },
  "0.55.4": {
   "meta": {
    "description": "A fast and modern static website engine.",

@@ -1,4 +1,34 @@
 {
+ "0.01.07": {
+  "meta": {
+   "description": "Interactive memory/page monitor for Linux",
+   "homepage": "https://github.com/ColinIanKing/pagemon/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "pagemon is an ncurses based interactive memory/page monitoring tool\nallowing one to browse the memory map of an active running process\non Linux.\npagemon reads the PTEs of a given process and display the soft/dirty\nactivity in real time. The tool identifies the type of memory mapping\na page belongs to, so one can easily scan through memory looking at\npages of memory belonging data, code, heap, stack, anonymous mappings\nor even swapped-out pages.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "pagemon",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/pagemon/default.nix:23"
+  },
+  "revs": [
+   "008acbc506039ab87f2deb02a2cd00254d64a260",
+   "008acbc506039ab87f2deb02a2cd00254d64a260"
+  ]
+ },
  "0.01.08": {
   "meta": {
    "description": "Interactive memory/page monitor for Linux",

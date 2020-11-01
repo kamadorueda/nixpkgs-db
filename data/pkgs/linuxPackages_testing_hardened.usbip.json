@@ -659,6 +659,39 @@
    "0017a06717bb18706ac3cb99432034caad0c8b91"
   ]
  },
+ "5.1-rc6": {
+  "meta": {
+   "description": "allows to pass USB device from server to client over the network",
+   "homepage": "https://github.com/torvalds/linux/tree/master/tools/usb/usbip",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "usbip-linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/usbip/default.nix:18"
+  },
+  "revs": [
+   "008c9a70a57f0448b275179bfbc10c8750f29069",
+   "008c9a70a57f0448b275179bfbc10c8750f29069"
+  ]
+ },
  "5.1-rc7": {
   "meta": {
    "description": "allows to pass USB device from server to client over the network",
