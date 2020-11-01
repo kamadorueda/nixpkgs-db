@@ -54,7 +54,7 @@
   },
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
-   "003c20e02cff0430873b3a10d1cac57116b8b27e"
+   "0083ca12664a4fbda9a8716267c5173676a8194a"
   ]
  },
  "0.7.11-4.19-rc7": {
@@ -112,7 +112,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "0041d742aba89f035b3740b94a457a90e806f312"
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
   ]
  },
  "0.7.11-4.19-rc8": {
@@ -345,6 +345,64 @@
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
    "0028f5de89abf1506b94e9d16bba562b93236ab5"
+  ]
+ },
+ "0.7.12-4.20-rc4": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "007dafc9a089e201838c6929933c6adfa06862b9",
+   "007dafc9a089e201838c6929933c6adfa06862b9"
   ]
  },
  "0.7.12-4.20-rc5": {

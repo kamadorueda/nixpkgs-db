@@ -57,6 +57,64 @@
    "0028f5de89abf1506b94e9d16bba562b93236ab5"
   ]
  },
+ "0.18.0": {
+  "meta": {
+   "description": "Easy and Repeatable Kubernetes Development",
+   "homepage": "https://github.com/GoogleContainerTools/skaffold",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "skaffold",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/skaffold/default.nix:27"
+  },
+  "revs": [
+   "007dafc9a089e201838c6929933c6adfa06862b9",
+   "007e177f90408bc0f549731642c6fddf88f399ec"
+  ]
+ },
  "0.19.0": {
   "meta": {
    "description": "Easy and Repeatable Kubernetes Development",
@@ -612,7 +670,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "1.0.1": {
@@ -1020,7 +1078,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  },
  "1.2.0": {

@@ -26,7 +26,37 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
+  ]
+ },
+ "4.1.11": {
+  "meta": {
+   "description": "Belgian electronic identity card (eID) middleware",
+   "homepage": "http://eid.belgium.be/en/using_your_eid/installing_the_eid_software/linux/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0"
+   },
+   "long_description": "Allows user authentication and digital signatures with Belgian ID cards.\nAlso requires a running pcscd service and compatible card reader.\n\nThis package only installs the libraries. To use eIDs in NSS-compatible\nbrowsers like Chrom{e,ium} or Firefox, each user must first execute:\n\n  ~$ eid-nssdb add\n\n(Running the script once as root with the --system option enables eID\nsupport for all users, but will *not* work when using Chrom{e,ium}!)\n\nBefore uninstalling this package, it is a very good idea to run\n\n  ~$ eid-nssdb [--system] remove\n\nand remove all ~/.pki and/or /etc/pki directories no longer needed.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "eid-mw",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/eid-mw/default.nix:39"
+  },
+  "revs": [
+   "007d1b41fcde11c7eb9a12adfd6786eaa0b34ed5",
+   "007d1b41fcde11c7eb9a12adfd6786eaa0b34ed5"
   ]
  },
  "4.1.12": {
@@ -119,6 +149,36 @@
    "005dab1a7afee27358e011906231ad7eed7c4120"
   ]
  },
+ "4.1.16": {
+  "meta": {
+   "description": "Belgian electronic identity card (eID) middleware",
+   "homepage": "http://eid.belgium.be/en/using_your_eid/installing_the_eid_software/linux/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0"
+   },
+   "long_description": "Allows user authentication and digital signatures with Belgian ID cards.\nAlso requires a running pcscd service and compatible card reader.\n\nThis package only installs the libraries. To use eIDs in NSS-compatible\nbrowsers like Chrom{e,ium} or Firefox, each user must first execute:\n\n  ~$ eid-nssdb add\n\n(Running the script once as root with the --system option enables eID\nsupport for all users, but will *not* work when using Chrom{e,ium}!)\n\nBefore uninstalling this package, it is a very good idea to run\n\n  ~$ eid-nssdb [--system] remove\n\nand remove all ~/.pki and/or /etc/pki directories no longer needed.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "eid-mw",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/eid-mw/default.nix:38"
+  },
+  "revs": [
+   "007ea84222f31ee96202ad96d68446ce2795e387",
+   "007ea84222f31ee96202ad96d68446ce2795e387"
+  ]
+ },
  "4.1.17": {
   "meta": {
    "description": "Belgian electronic identity card (eID) middleware",
@@ -209,7 +269,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
   ]
  },
  "4.1.2": {
@@ -299,7 +359,7 @@
   },
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "00784ffde22c987c01418240b57c7755ed4c6942"
   ]
  },
  "4.1.6": {
@@ -467,7 +527,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2"
+   "00754cd6898fc276fc8aa21ccfd2b283dac80479"
   ]
  },
  "4.4.13": {
@@ -625,7 +685,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  },
  "4.4.3": {

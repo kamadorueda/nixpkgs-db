@@ -205,6 +205,40 @@
    "0058e51c8cbff3256bc0f55ca800a427780d1cca"
   ]
  },
+ "5.2.8-4.15.14": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "007d227e368bc7e5be856b11a65b3f6381df9b1f",
+   "007d227e368bc7e5be856b11a65b3f6381df9b1f"
+  ]
+ },
  "5.2.8-4.15.15": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -271,6 +305,36 @@
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "000482ffc470f798fb3aa1673b39a38680cbb567"
+  ]
+ },
+ "5.2.8-4.15.9": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "0077c7651c572b237f243abc898d1e0a84971d0b",
+   "0077c7651c572b237f243abc898d1e0a84971d0b"
   ]
  }
 }

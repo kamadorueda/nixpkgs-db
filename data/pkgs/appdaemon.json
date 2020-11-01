@@ -202,6 +202,60 @@
    "000463186d471107324c67faecb5c85e9f06521a"
   ]
  },
+ "3.0.3": {
+  "meta": {
+   "description": "Sandboxed python execution environment for writing automation apps for Home Assistant",
+   "homepage": "https://github.com/home-assistant/appdaemon",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "appdaemon",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/appdaemon.nix:71"
+  },
+  "revs": [
+   "0081f3ac4828cb4db7b8d7d826fc3ba0d7b03a15",
+   "0081f3ac4828cb4db7b8d7d826fc3ba0d7b03a15"
+  ]
+ },
  "3.0.4": {
   "meta": {
    "description": "Sandboxed python execution environment for writing automation apps for Home Assistant",

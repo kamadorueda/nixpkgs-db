@@ -128,7 +128,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "00891f783b201772257bee0862b5241619a06fe6"
   ]
  },
  "7.2g": {
@@ -194,7 +194,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "0009c1f650ba619de97df36322fbd0346db0c099"
+   "007bb142bd421d9244cffe009e9ff570ac1554b1"
   ]
  },
  "7.6.0": {
@@ -228,7 +228,41 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+  ]
+ },
+ "7.6.2": {
+  "meta": {
+   "description": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
+   "homepage": "http://hboehm.info/gc/",
+   "license": "http://hboehm.info/gc/license.txt",
+   "long_description": "The Boehm-Demers-Weiser conservative garbage collector can be used as a\ngarbage collecting replacement for C malloc or C++ new.  It allows you\nto allocate memory basically as you normally would, without explicitly\ndeallocating memory that is no longer useful.  The collector\nautomatically recycles memory when it determines that it can no longer\nbe otherwise accessed.\n\nThe collector is also used by a number of programming language\nimplementations that either use C as intermediate code, want to\nfacilitate easier interoperation with C libraries, or just prefer the\nsimple collector interface.\n\nAlternatively, the garbage collector may be used as a leak detector for\nC or C++ programs, though that is not its primary goal.\n",
+   "maintainers": [],
+   "name": "boehm-gc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/boehm-gc/default.nix:35"
+  },
+  "revs": [
+   "007cd5262f12a9883cbac44c4f894d3469966f7e",
+   "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
  "7.6.4": {

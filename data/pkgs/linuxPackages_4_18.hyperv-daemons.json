@@ -67,6 +67,74 @@
    "0041d742aba89f035b3740b94a457a90e806f312"
   ]
  },
+ "4.18.13": {
+  "meta": {
+   "description": "Integration Services for running NixOS under HyperV",
+   "homepage": "https://kernel.org",
+   "license": null,
+   "long_description": "This packages contains the daemons that are used by the Hyper-V hypervisor\non the host.\n\nMicrosoft calls their guest agents \"Integration Services\" which is why\nwe use that name here.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "hyperv-daemons",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/hyperv-daemons/default.nix:97"
+  },
+  "revs": [
+   "00807a645f18b9138fa3369968a6b68729f48d41",
+   "00807a645f18b9138fa3369968a6b68729f48d41"
+  ]
+ },
+ "4.18.14": {
+  "meta": {
+   "description": "Integration Services for running NixOS under HyperV",
+   "homepage": "https://kernel.org",
+   "license": null,
+   "long_description": "This packages contains the daemons that are used by the Hyper-V hypervisor\non the host.\n\nMicrosoft calls their guest agents \"Integration Services\" which is why\nwe use that name here.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "hyperv-daemons",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/hyperv-daemons/default.nix:97"
+  },
+  "revs": [
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
+  ]
+ },
  "4.18.15": {
   "meta": {
    "description": "Integration Services for running NixOS under HyperV",
@@ -336,7 +404,7 @@
   },
   "revs": [
    "00358af730bde3efa9b7cddf2a9a1762450eaacd",
-   "00358af730bde3efa9b7cddf2a9a1762450eaacd"
+   "0075504e55abec4602db600bd8fa7b6948040c07"
   ]
  },
  "4.18.6": {

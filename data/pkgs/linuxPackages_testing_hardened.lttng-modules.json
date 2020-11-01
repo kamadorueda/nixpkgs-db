@@ -49,7 +49,7 @@
   },
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
-   "003c20e02cff0430873b3a10d1cac57116b8b27e"
+   "0083ca12664a4fbda9a8716267c5173676a8194a"
   ]
  },
  "2.10.5-4.19-rc7": {
@@ -102,7 +102,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "0041d742aba89f035b3740b94a457a90e806f312"
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
   ]
  },
  "2.10.5-4.19-rc8": {
@@ -315,6 +315,59 @@
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
    "0028f5de89abf1506b94e9d16bba562b93236ab5"
+  ]
+ },
+ "2.10.5-4.20-rc4": {
+  "meta": {
+   "description": "Linux kernel modules for LTTng tracing",
+   "homepage": "https://lttng.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "lttng-modules",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/lttng-modules/default.nix:29"
+  },
+  "revs": [
+   "007dafc9a089e201838c6929933c6adfa06862b9",
+   "007dafc9a089e201838c6929933c6adfa06862b9"
   ]
  },
  "2.10.5-4.20-rc5": {
@@ -1370,7 +1423,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "2.10.5-5.5-rc2": {
@@ -1425,6 +1478,60 @@
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "2.10.5-5.5-rc3": {
+  "meta": {
+   "description": "Linux kernel modules for LTTng tracing",
+   "homepage": "https://lttng.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "githubId": 133602,
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "lttng-modules",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/lttng-modules/default.nix:29"
+  },
+  "revs": [
+   "007761d3cdad573a29003980ffc3aed59257e922",
+   "007761d3cdad573a29003980ffc3aed59257e922"
   ]
  },
  "2.10.5-5.5-rc6": {

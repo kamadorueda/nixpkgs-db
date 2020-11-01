@@ -116,7 +116,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "001befaa6fb54b780254e7a7a6a5fc38051ccda0"
+   "0075e6bd3a969762725d452dbb28c2b8feaa09fd"
   ]
  },
  "1.21b": {
@@ -147,6 +147,36 @@
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
+ "1.56b": {
+  "meta": {
+   "description": "Powerful fuzzer via genetic algorithms and instrumentation",
+   "homepage": "http://lcamtuf.coredump.cx/afl/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "American fuzzy lop is a fuzzer that employs a novel type of\ncompile-time instrumentation and genetic algorithms to\nautomatically discover clean, interesting test cases that\ntrigger new internal states in the targeted binary. This\nsubstantially improves the functional coverage for the fuzzed\ncode. The compact synthesized corpora produced by the tool are\nalso useful for seeding other, more labor or resource-intensive\ntesting regimes down the road.\n",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "afl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/afl/default.nix:16"
+  },
+  "revs": [
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
   ]
  },
  "1.58b": {
@@ -296,7 +326,7 @@
   },
   "revs": [
    "002da098e1e44f8150034af7d87b7e751cd476f8",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "00784ffde22c987c01418240b57c7755ed4c6942"
   ]
  },
  "1.88b": {
@@ -569,7 +599,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
   ]
  },
  "2.52b": {
@@ -673,7 +703,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  }
 }

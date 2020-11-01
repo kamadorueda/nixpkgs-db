@@ -32,7 +32,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "00784ffde22c987c01418240b57c7755ed4c6942"
   ]
  },
  "0.10.19": {
@@ -62,7 +62,7 @@
   },
   "revs": [
    "005508a96d359dd6409606564752f0cc1d8bffc7",
-   "005508a96d359dd6409606564752f0cc1d8bffc7"
+   "007628fd49bf005c90a721f70276db70fc207637"
   ]
  },
  "0.10.20": {
@@ -122,7 +122,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "003896dfe7665cfb4ceb2fff28c91d1bfa946fbb"
+   "007feb911d5570a8c29c081a912810e65d6e9764"
   ]
  },
  "0.10.23": {
@@ -154,6 +154,37 @@
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
+ "0.10.26": {
+  "meta": {
+   "description": "Replaces Dropbox and BitTorrent Sync with something open, trustworthy and decentralized",
+   "homepage": "http://syncthing.net/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Matej Cotman <cotman.matej@gmail.com>",
+    "Emery Hemingway <emery@vfemail.net>"
+   ],
+   "name": "go1.4-syncthing",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/networking/syncthing/default.nix:27"
+  },
+  "revs": [
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
   ]
  },
  "0.10.30": {
@@ -227,7 +258,45 @@
   },
   "revs": [
    "00230c92402bb3d94eae0db63cd6d2ba237b541f",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "007dfb8438cc360acfe4a43dec68f7f08c04196a"
+  ]
+ },
+ "0.11.13": {
+  "meta": {
+   "description": "Replaces Dropbox and BitTorrent Sync with something open, trustworthy and decentralized",
+   "homepage": "http://syncthing.net/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Matej Cotman <cotman.matej@gmail.com>",
+    "Christian Theune <ct@flyingcircus.io>",
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "go1.4-syncthing",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/applications/networking/syncthing/default.nix:27"
+  },
+  "revs": [
+   "007e2889129bb817e4e0c4220eba0c52461810fc",
+   "007e2889129bb817e4e0c4220eba0c52461810fc"
   ]
  },
  "0.11.15": {
@@ -457,6 +526,42 @@
    "006e7ae04e8b99020f192310a77eccd93e841633"
   ]
  },
+ "0.12.19": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Emery Hemingway <emery@vfemail.net>",
+    "Luca Bruno <lucabru@src.gnome.org>"
+   ],
+   "name": "go1.5-syncthing",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/go-modules/generic/default.nix:43"
+  },
+  "revs": [
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51",
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51"
+  ]
+ },
  "0.12.22": {
   "meta": {
    "description": "",
@@ -490,7 +595,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "005dab1a7afee27358e011906231ad7eed7c4120"
+   "007ea84222f31ee96202ad96d68446ce2795e387"
   ]
  },
  "0.12.23": {
@@ -790,7 +895,7 @@
   },
   "revs": [
    "0063c8acb4a5de8d90c0cbadf54ce337bd921e76",
-   "0063c8acb4a5de8d90c0cbadf54ce337bd921e76"
+   "007fa632c0089175a2891fb7a375acf827df71bf"
   ]
  },
  "0.14.15": {
@@ -1568,7 +1673,50 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "0017479abbe15c7d472b8c7563e5353608e67e5d"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+  ]
+ },
+ "0.14.43": {
+  "meta": {
+   "description": "Open Source Continuous File Synchronization",
+   "homepage": "https://www.syncthing.net/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Paul Hendry <paul@pshendry.com>",
+    "Ioannis Koutras <ioannis.koutras@gmail.com>",
+    "Peter Hoeg <peter@hoeg.com>"
+   ],
+   "name": "syncthing",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/networking/syncthing/default.nix:52"
+  },
+  "revs": [
+   "007cd5262f12a9883cbac44c4f894d3469966f7e",
+   "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
  "0.14.44": {
@@ -2032,7 +2180,7 @@
   },
   "revs": [
    "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621",
-   "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621"
+   "00891f783b201772257bee0862b5241619a06fe6"
   ]
  },
  "0.14.50": {
@@ -2566,7 +2714,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0033f6076ee5c462722bf6077c40ff7949ae6020"
+   "008399e9de050842f67361fdc911d6b526fca287"
   ]
  },
  "0.7.1": {
@@ -3039,7 +3187,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "005fb92d32c9d5b636846ce30ae01aab81454161"
+   "0081f3ac4828cb4db7b8d7d826fc3ba0d7b03a15"
   ]
  },
  "1.1.1": {
@@ -3431,7 +3579,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "002c63433929e1eb115a5e64d77f1d344b59c8f4"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  },
  "1.2.1": {
@@ -3513,7 +3661,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "1.3.2": {
@@ -3596,7 +3744,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "007761d3cdad573a29003980ffc3aed59257e922"
   ]
  },
  "1.3.3": {
@@ -4429,7 +4577,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "004676ce9c8275598182884c9e5a823a34eaa173"
+   "0079133e4248a855f6247854220e385ef62cd3be"
   ]
  }
 }

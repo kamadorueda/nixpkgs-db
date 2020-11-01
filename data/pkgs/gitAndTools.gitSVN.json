@@ -308,7 +308,7 @@
   },
   "revs": [
    "0009c1f650ba619de97df36322fbd0346db0c099",
-   "0009c1f650ba619de97df36322fbd0346db0c099"
+   "007bb142bd421d9244cffe009e9ff570ac1554b1"
   ]
  },
  "1.7.9.2-with-svn": {
@@ -515,7 +515,7 @@
   },
   "revs": [
    "00101b66fed722abeda8af0a4f15383115df30c9",
-   "00101b66fed722abeda8af0a4f15383115df30c9"
+   "008308168f23850b142bf1f486bb9e14591e6f6c"
   ]
  },
  "1.8.2.3-with-svn": {
@@ -749,7 +749,7 @@
   },
   "revs": [
    "000b1ad43accf62263ef519bc0b0d4056c3e80b5",
-   "004b8d24f603670edc1ee45ceb170cb32974088c"
+   "00765dccd832cb78f970d6aa53e94ba76a290805"
   ]
  },
  "1.9.0-with-svn": {
@@ -1140,7 +1140,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "003896dfe7665cfb4ceb2fff28c91d1bfa946fbb"
+   "007feb911d5570a8c29c081a912810e65d6e9764"
   ]
  },
  "2.10.0": {
@@ -1224,7 +1224,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "0033f6076ee5c462722bf6077c40ff7949ae6020"
+   "008399e9de050842f67361fdc911d6b526fca287"
   ]
  },
  "2.10.2": {
@@ -1351,7 +1351,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "007380362c5fe8b678a62f7e1ccca562a995e5d4"
+   "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
   ]
  },
  "2.12.0": {
@@ -1652,7 +1652,50 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
+  ]
+ },
+ "2.16.0": {
+  "meta": {
+   "description": "Distributed version control system",
+   "homepage": "https://git-scm.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Moritz Ulrich <moritz@tarn-vedra.de>",
+    "Wout Mertens <Wout.Mertens@gmail.com>"
+   ],
+   "name": "git-with-svn",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git/default.nix:220"
+  },
+  "revs": [
+   "007cd5262f12a9883cbac44c4f894d3469966f7e",
+   "007cd5262f12a9883cbac44c4f894d3469966f7e"
   ]
  },
  "2.16.2": {
@@ -2058,7 +2101,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0028f5de89abf1506b94e9d16bba562b93236ab5"
+   "007e177f90408bc0f549731642c6fddf88f399ec"
   ]
  },
  "2.19.2": {
@@ -2205,7 +2248,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "2.24.1": {
@@ -2918,7 +2961,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  },
  "2.3.0": {
@@ -2958,6 +3001,45 @@
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
+ "2.3.3": {
+  "meta": {
+   "description": "Distributed version control system",
+   "homepage": "http://git-scm.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Moritz Ulrich <moritz@tarn-vedra.de>",
+    "Wout Mertens <Wout.Mertens@gmail.com>"
+   ],
+   "name": "git-with-svn",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git/default.nix:138"
+  },
+  "revs": [
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
   ]
  },
  "2.3.5": {
@@ -3035,7 +3117,7 @@
   },
   "revs": [
    "00230c92402bb3d94eae0db63cd6d2ba237b541f",
-   "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+   "007dfb8438cc360acfe4a43dec68f7f08c04196a"
   ]
  },
  "2.4.1": {
@@ -3389,6 +3471,45 @@
    "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
   ]
  },
+ "2.5.4": {
+  "meta": {
+   "description": "Distributed version control system",
+   "homepage": "http://git-scm.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Moritz Ulrich <moritz@tarn-vedra.de>",
+    "Wout Mertens <Wout.Mertens@gmail.com>"
+   ],
+   "name": "git-with-svn",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git/default.nix:142"
+  },
+  "revs": [
+   "00784ffde22c987c01418240b57c7755ed4c6942",
+   "00784ffde22c987c01418240b57c7755ed4c6942"
+  ]
+ },
  "2.6.3": {
   "meta": {
    "description": "Distributed version control system",
@@ -3515,6 +3636,48 @@
    "00078e317e63d1d934806efd62f56e48150a4f64"
   ]
  },
+ "2.7.3": {
+  "meta": {
+   "description": "Distributed version control system",
+   "homepage": "http://git-scm.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Moritz Ulrich <moritz@tarn-vedra.de>",
+    "Wout Mertens <Wout.Mertens@gmail.com>"
+   ],
+   "name": "git-with-svn",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git/default.nix:149"
+  },
+  "revs": [
+   "00793f07563c693b78945a93272634d503de0ccf",
+   "00793f07563c693b78945a93272634d503de0ccf"
+  ]
+ },
  "2.7.4": {
   "meta": {
    "description": "Distributed version control system",
@@ -3596,7 +3759,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "005e2148c33957df9ae7d91ade9e55cb5c6aa058"
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51"
   ]
  },
  "2.8.3": {
@@ -3764,7 +3927,7 @@
   },
   "revs": [
    "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621",
-   "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621"
+   "00891f783b201772257bee0862b5241619a06fe6"
   ]
  }
 }

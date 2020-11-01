@@ -348,7 +348,7 @@
   },
   "revs": [
    "003b15132c1a88503376eeb23d02310c8181f622",
-   "003b15132c1a88503376eeb23d02310c8181f622"
+   "0075504e55abec4602db600bd8fa7b6948040c07"
   ]
  },
  "1.8.0-4.4.154": {
@@ -525,6 +525,94 @@
   "revs": [
    "003c20e02cff0430873b3a10d1cac57116b8b27e",
    "0041d742aba89f035b3740b94a457a90e806f312"
+  ]
+ },
+ "1.8.0-4.4.160": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "00807a645f18b9138fa3369968a6b68729f48d41",
+   "00807a645f18b9138fa3369968a6b68729f48d41"
+  ]
+ },
+ "1.8.0-4.4.161": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
+   "007faf02cadc9c88b1c04bbe1efaa601fa3a061b"
   ]
  },
  "1.8.2-4.4.161": {
@@ -1575,7 +1663,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0"
+   "008418db348dfe68d20fa492480669a9a1bf2421"
   ]
  },
  "1.8.3-4.4.186": {
@@ -1749,7 +1837,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "1.8.5-4.4.206": {
@@ -1796,6 +1884,52 @@
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
    "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+  ]
+ },
+ "1.8.5-4.4.208": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco.maggesi@gmail.com",
+     "github": "maggesi",
+     "githubId": 1809783,
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "githubId": 167881,
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "007761d3cdad573a29003980ffc3aed59257e922",
+   "007761d3cdad573a29003980ffc3aed59257e922"
   ]
  },
  "1.8.5-4.4.209": {
@@ -2899,7 +3033,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0065551641cccec146f6232df213d5cd30109e09"
+   "0083824507f430127d35a225f90376fc6d8985b1"
   ]
  },
  "1.8.6-4.4.236": {

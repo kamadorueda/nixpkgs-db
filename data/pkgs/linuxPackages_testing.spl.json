@@ -1,4 +1,33 @@
 {
+ "0.6.2-3.15-rc8": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License version 2 or later",
+    "shortName": "GPLv2+",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel. \n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "spl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:33"
+  },
+  "revs": [
+   "0085a1aae33483dfaae3a4559d53cc1688791258",
+   "0085a1aae33483dfaae3a4559d53cc1688791258"
+  ]
+ },
  "0.6.2-3.16-rc1": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -87,7 +116,7 @@
   },
   "revs": [
    "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
-   "001befaa6fb54b780254e7a7a6a5fc38051ccda0"
+   "008256d8bdaf31a0cbf19507dac0384cc2027b23"
   ]
  },
  "0.6.3-1.2-3.19-rc7": {
@@ -120,6 +149,38 @@
   "revs": [
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4",
    "001d4d07cd51ac2ba7b1f4658c3c37b7da2579e4"
+  ]
+ },
+ "0.6.3-1.3-4.0-rc4": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/generic.nix:49"
+  },
+  "revs": [
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
+   "007ab6f4df03da0710b436704f7c76a2d97dbc0d"
   ]
  },
  "0.6.3-1.3-4.0-rc6": {
@@ -241,6 +302,37 @@
    "005bb796e68b3f69e54ab0c6bc631723eb545136"
   ]
  },
+ "0.6.3-3.18-rc3": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "spl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:33"
+  },
+  "revs": [
+   "007f80c1d0440b89970000b92f78ce76186d99a5",
+   "007f80c1d0440b89970000b92f78ce76186d99a5"
+  ]
+ },
  "0.6.3-3.18-rc6": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -333,6 +425,38 @@
   "revs": [
    "001ea3b455c9c1eca44210dac25eb09ca4b7f908",
    "00230c92402bb3d94eae0db63cd6d2ba237b541f"
+  ]
+ },
+ "0.6.4.1-4.0-rc7": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/generic.nix:49"
+  },
+  "revs": [
+   "007dfb8438cc360acfe4a43dec68f7f08c04196a",
+   "007dfb8438cc360acfe4a43dec68f7f08c04196a"
   ]
  },
  "0.6.4.1-4.1-rc5": {
@@ -429,6 +553,38 @@
   "revs": [
    "005837d85ff9d62d4c74e6f1574b48336fb85271",
    "006e7ae04e8b99020f192310a77eccd93e841633"
+  ]
+ },
+ "0.6.4.2-4.2-rc1": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/generic.nix:49"
+  },
+  "revs": [
+   "007e2889129bb817e4e0c4220eba0c52461810fc",
+   "007e2889129bb817e4e0c4220eba0c52461810fc"
   ]
  },
  "0.6.4.2-4.2-rc2": {
@@ -559,6 +715,38 @@
    "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
   ]
  },
+ "0.6.5.3-4.2-rc5": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:54"
+  },
+  "revs": [
+   "00784ffde22c987c01418240b57c7755ed4c6942",
+   "00784ffde22c987c01418240b57c7755ed4c6942"
+  ]
+ },
  "0.6.5.3-4.3-rc7": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -684,7 +872,7 @@
   },
   "revs": [
    "0024c10a5c974ee41c7bc69cd61faaa920f3a9d4",
-   "0024c10a5c974ee41c7bc69cd61faaa920f3a9d4"
+   "007c558be8a488e49fd1c00f8c800f5f67604e36"
   ]
  },
  "0.6.5.4-4.5-rc4": {
@@ -751,6 +939,38 @@
    "0067fa05388829050c926bded9b360ce15fb9b22"
   ]
  },
+ "0.6.5.4-4.5-rc6": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:54"
+  },
+  "revs": [
+   "0077abe128bf08be982241b364481bb839748583",
+   "0077abe128bf08be982241b364481bb839748583"
+  ]
+ },
  "0.6.5.4-4.5-rc7": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -813,6 +1033,38 @@
   "revs": [
    "007500f2ece22ab43b6c73e33cb39c4c29221745",
    "007500f2ece22ab43b6c73e33cb39c4c29221745"
+  ]
+ },
+ "0.6.5.6-4.6-rc2": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:56"
+  },
+  "revs": [
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51",
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51"
   ]
  },
  "0.6.5.6-4.6-rc3": {
@@ -1068,7 +1320,7 @@
   },
   "revs": [
    "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621",
-   "003ab1d9fdaf2818a1e5a6e53825d31ac2e23621"
+   "00891f783b201772257bee0862b5241619a06fe6"
   ]
  }
 }

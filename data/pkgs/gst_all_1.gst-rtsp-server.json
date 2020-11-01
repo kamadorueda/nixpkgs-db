@@ -1,4 +1,53 @@
 {
+ "1.12.3": {
+  "meta": {
+   "description": "Gstreamer RTSP server",
+   "homepage": "https://gstreamer.freedesktop.org",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "a library on top of GStreamer for building an RTSP server.\n",
+   "maintainers": [
+    {
+     "email": "nixos@kchr.de",
+     "github": "bkchr",
+     "name": "Bastian K\u00f6cher"
+    }
+   ],
+   "name": "gst-rtsp-server",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gstreamer/rtsp-server/default.nix:7"
+  },
+  "revs": [
+   "0086036141f59d80bb2ff534fed59caabb19c8bc",
+   "0086036141f59d80bb2ff534fed59caabb19c8bc"
+  ]
+ },
  "1.14.0": {
   "meta": {
    "description": "Gstreamer RTSP server",
@@ -182,7 +231,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "1.16.1": {

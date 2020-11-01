@@ -57,6 +57,122 @@
    "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
   ]
  },
+ "0.7.6": {
+  "meta": {
+   "description": "Golang terminal emulator from scratch",
+   "homepage": "https://github.com/liamg/aminal",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "Aminal is a modern terminal emulator for Mac/Linux implemented in Golang\nand utilising OpenGL.\n\nThe project is experimental at the moment, so you probably won't want to\nrely on Aminal as your main terminal for a while.\n\nFeatures:\n- Unicode support\n- OpenGL rendering\n- Customisation options\n- True colour support\n- Support for common ANSI escape sequences a la xterm\n- Scrollback buffer\n- Clipboard access\n- Clickable URLs\n- Multi platform support (Windows coming soon...)\n- Sixel support\n- Hints/overlays\n- Built-in patched fonts for powerline\n- Retina display support\n",
+   "maintainers": [
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "aminal",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/aminal/default.nix:47"
+  },
+  "revs": [
+   "007dafc9a089e201838c6929933c6adfa06862b9",
+   "007dafc9a089e201838c6929933c6adfa06862b9"
+  ]
+ },
+ "0.7.8": {
+  "meta": {
+   "description": "Golang terminal emulator from scratch",
+   "homepage": "https://github.com/liamg/aminal",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "Aminal is a modern terminal emulator for Mac/Linux implemented in Golang\nand utilising OpenGL.\n\nThe project is experimental at the moment, so you probably won't want to\nrely on Aminal as your main terminal for a while.\n\nFeatures:\n- Unicode support\n- OpenGL rendering\n- Customisation options\n- True colour support\n- Support for common ANSI escape sequences a la xterm\n- Scrollback buffer\n- Clipboard access\n- Clickable URLs\n- Multi platform support (Windows coming soon...)\n- Sixel support\n- Hints/overlays\n- Built-in patched fonts for powerline\n- Retina display support\n",
+   "maintainers": [
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "aminal",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/aminal/default.nix:47"
+  },
+  "revs": [
+   "007e177f90408bc0f549731642c6fddf88f399ec",
+   "007e177f90408bc0f549731642c6fddf88f399ec"
+  ]
+ },
  "0.8.5": {
   "meta": {
    "description": "Golang terminal emulator from scratch",
@@ -214,7 +330,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  }
 }

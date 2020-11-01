@@ -204,7 +204,7 @@
   },
   "revs": [
    "002da098e1e44f8150034af7d87b7e751cd476f8",
-   "002da098e1e44f8150034af7d87b7e751cd476f8"
+   "00784ffde22c987c01418240b57c7755ed4c6942"
   ]
  },
  "125": {
@@ -327,6 +327,36 @@
    "0055c6aa94484ef30d9541c3b21bc2b653561c84"
   ]
  },
+ "130": {
+  "meta": {
+   "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
+   "homepage": "http://mcelog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "The mcelog daemon accounts memory and some other errors in various ways\non modern x86 Linux systems. The daemon can be queried and/or execute\ntriggers when configurable error thresholds are exceeded. This is used to\nimplement a range of automatic predictive failure analysis algorithms,\nincluding bad page offlining and automatic cache error handling. All\nerrors are logged to /var/log/mcelog or syslog or the journal.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "mcelog",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mcelog/default.nix:28"
+  },
+  "revs": [
+   "007c558be8a488e49fd1c00f8c800f5f67604e36",
+   "007c558be8a488e49fd1c00f8c800f5f67604e36"
+  ]
+ },
  "131": {
   "meta": {
    "description": "Log x86 machine checks: memory, IO, and CPU hardware errors",
@@ -444,7 +474,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "001c28b63ccb4a0f7ec169645a4acf42239b8768"
+   "0086c6d4014851f2d1a8a99338faeed92cbf9e51"
   ]
  },
  "136": {
@@ -564,7 +594,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "007380362c5fe8b678a62f7e1ccca562a995e5d4"
+   "0081c6a04ca8ce2d66737ec65e959b741216b1ba"
   ]
  },
  "148": {
@@ -626,7 +656,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "003102c41127dabf90349235964b6e4714114ae7"
+   "007a867a0af066b8aaa268f74d26fc0a78403c15"
   ]
  },
  "154": {
@@ -754,7 +784,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81"
+   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
   ]
  },
  "159": {
@@ -917,7 +947,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "003697b32a3f049058f3e921a7e586023dbcfe10"
+   "00762b57545dba3b3e21e3a649b574db3db36c65"
   ]
  },
  "166": {
@@ -950,7 +980,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "001999e25b746f2ce8e23fc2010f8bb25d10810e"
+   "007761d3cdad573a29003980ffc3aed59257e922"
   ]
  },
  "167": {
@@ -1049,7 +1079,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "006e716e79dba72df07d2d52580e883f13b525ea"
+   "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054"
   ]
  }
 }
