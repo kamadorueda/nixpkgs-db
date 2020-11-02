@@ -22,17 +22,12 @@ const filterPkgs = (pkgs, pkgName) => (
   pkgs.filter((pkg) => pkg.includes(pkgName)).sort()
 );
 
-const sortByVersion = (data) => {
-  var values = Object.entries(data);
-  values.sort((a, b) => a[0] < b[0] ? 1 : -1);
-  return values;
-};
-
 const Pkg = (props) => {
   const pkg = props.pkg;
 
   const dataSource = `${DATA_SOURCE}/data/pkgs/${pkg}.json`;
-  const data = sortByVersion(useFetchJSON(dataSource, {}));
+  const dataJSON = useFetchJSON(dataSource, {});
+  const data =  Object.entries(dataJSON).reverse();
 
   if (data.length === 0) {
     return (
@@ -201,16 +196,9 @@ const Results = (props) => {
 }
 
 export const Search = (props) => {
-  const pkgs = props.pkgs;
-  const revs = props.revs;
+  if (props.pkgs.length === 0) {
+    return <ProgressBar label="Loading..." variant="info" />;
+  }
 
-  return (
-    <React.Fragment>
-      {pkgs.length === 0 ? (
-        <ProgressBar label="Loading..." variant="info" />
-      ) : (
-        <Results pkgs={pkgs} revs={revs} />
-      )}
-    </React.Fragment>
-  );
+  return <Results pkgs={props.pkgs} revs={props.revs} />;
 }
