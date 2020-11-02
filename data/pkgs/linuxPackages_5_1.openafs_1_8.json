@@ -40,7 +40,7 @@
   },
   "revs": [
    "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa",
-   "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
+   "063c3394dd1a61adeddb3efdf7cb17f46876e79b"
   ]
  },
  "1.8.2-5.1.11": {
@@ -172,7 +172,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "01966e8b799e60b58d31b439ec714de47f3a152f"
+   "066bf9fc1838eb50713ffaca42ec72080edad663"
   ]
  },
  "1.8.2-5.1.16": {
@@ -305,6 +305,50 @@
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
    "0391c19a73bbe758acf10f2766d1a54db08bd458"
+  ]
+ },
+ "1.8.2-5.1.6": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "06602f4bc76e46fe25e4c6e6e3db3f62714451d7",
+   "06602f4bc76e46fe25e4c6e6e3db3f62714451d7"
   ]
  },
  "1.8.2-5.1.7": {
@@ -566,7 +610,7 @@
   },
   "revs": [
    "02ea0d3959ba5a8f2108d3bc8f5a57635d758713",
-   "02ea0d3959ba5a8f2108d3bc8f5a57635d758713"
+   "066fd6c514fc3b2b14a6a103ca63442c7c993eb9"
   ]
  },
  "1.8.3-5.1.12": {

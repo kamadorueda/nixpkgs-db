@@ -176,7 +176,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "022be78eb26de958e50e32ac40574e93ac81bee3"
+   "0641253ae66d748b5ff0562c4edba3f9502a38e3"
   ]
  },
  "1.2.3269-4.10.2": {
@@ -356,7 +356,7 @@
   },
   "revs": [
    "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c",
-   "038550b596c046a66e94916ab5aea8a7cbd2b567"
+   "06716f310ab8e037ffbccc3c3a993c8cdfbab18a"
   ]
  },
  "1.2.3269-4.10.8": {
@@ -777,6 +777,36 @@
   "revs": [
    "0099f69fc96c7817d44b9c433fe5c774ee20c5cb",
    "01ea8a548603394009ece1d065f09ecf4d0ee6ea"
+  ]
+ },
+ "1.2.3589-4.13.13": {
+  "meta": {
+   "description": "Linux driver for the Magewell Pro Capture family",
+   "homepage": "http://www.magewell.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Cray Elliott <MP2E@archlinux.us>"
+   ],
+   "name": "mwprocapture",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mwprocapture/default.nix:65"
+  },
+  "revs": [
+   "06bc5483304b13b3a36fd377ba22aa4d47d2a77b",
+   "06bc5483304b13b3a36fd377ba22aa4d47d2a77b"
   ]
  },
  "1.2.3589-4.13.14": {
@@ -1626,7 +1656,7 @@
   },
   "revs": [
    "021ee7d93be8d604253d09650d5b77312909c6b5",
-   "022b17cb683dbbf309c20794a71e767506d4de99"
+   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
   ]
  },
  "1.2.3773-4.15.16": {
@@ -1770,7 +1800,7 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "03a35ac9c06c48b15160cadecfb33deeaee984d0"
+   "06a7281d0f2c7866364d0a02b6178b3ed7c00b2f"
   ]
  },
  "1.2.3773-4.15.3": {
@@ -2293,6 +2323,44 @@
   "revs": [
    "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce",
    "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
+  ]
+ },
+ "1.2.3773-4.16.17": {
+  "meta": {
+   "description": "Linux driver for the Magewell Pro Capture family",
+   "homepage": "http://www.magewell.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "name": "Cray Elliott"
+    }
+   ],
+   "name": "mwprocapture",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mwprocapture/default.nix:67"
+  },
+  "revs": [
+   "0648462fd8d1aec306c38f603908063e19f54bc9",
+   "0648462fd8d1aec306c38f603908063e19f54bc9"
   ]
  },
  "1.2.3773-4.16.18": {
@@ -2862,7 +2930,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "0449c1258c61ae70356f1a967e9cc1c1c3d8778f"
+   "0689d27173838fd1d3ee10765ebc902bef86829d"
   ]
  },
  "1.2.3773-4.17.14": {
@@ -3511,6 +3579,44 @@
    "03bf8cd4870c281bddc959a799a320e66306e5cd"
   ]
  },
+ "1.2.3773-4.18.17": {
+  "meta": {
+   "description": "Linux driver for the Magewell Pro Capture family",
+   "homepage": "http://www.magewell.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "name": "Cray Elliott"
+    }
+   ],
+   "name": "mwprocapture",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mwprocapture/default.nix:64"
+  },
+  "revs": [
+   "06834f72628e8485f360377673ef1b3702e5989e",
+   "06834f72628e8485f360377673ef1b3702e5989e"
+  ]
+ },
  "1.2.3773-4.18.19": {
   "meta": {
    "description": "Linux driver for the Magewell Pro Capture family",
@@ -4005,6 +4111,44 @@
    "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
   ]
  },
+ "1.2.3773-4.19.16": {
+  "meta": {
+   "description": "Linux driver for the Magewell Pro Capture family",
+   "homepage": "http://www.magewell.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "name": "Cray Elliott"
+    }
+   ],
+   "name": "mwprocapture",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mwprocapture/default.nix:64"
+  },
+  "revs": [
+   "063d09f3e70851fbf987def7a9a2b3f67582fae4",
+   "063d09f3e70851fbf987def7a9a2b3f67582fae4"
+  ]
+ },
  "1.2.3773-4.19.17": {
   "meta": {
    "description": "Linux driver for the Magewell Pro Capture family",
@@ -4420,7 +4564,7 @@
   },
   "revs": [
    "0375fe783fb24748ef13767cd492dab77a701b66",
-   "0375fe783fb24748ef13767cd492dab77a701b66"
+   "06a935b7ee1aa477d9a6aeb6e302264b16c0e493"
   ]
  },
  "1.2.3773-4.19.5": {
@@ -6358,7 +6502,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
+   "063c3394dd1a61adeddb3efdf7cb17f46876e79b"
   ]
  },
  "1.2.4054-5.1.1": {
@@ -6545,7 +6689,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "01966e8b799e60b58d31b439ec714de47f3a152f"
+   "066bf9fc1838eb50713ffaca42ec72080edad663"
   ]
  },
  "1.2.4054-5.1.15": {
@@ -6848,7 +6992,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
+   "06602f4bc76e46fe25e4c6e6e3db3f62714451d7"
   ]
  },
  "1.2.4054-5.1.7": {
@@ -7108,7 +7252,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "02aad1f3734a986928dd5fcc622b62725c659690"
+   "06ba45c7e044a9134bacc4a34c206cbb7fd3388f"
   ]
  },
  "1.2.4054-5.2.13": {
@@ -7409,7 +7553,7 @@
   },
   "revs": [
    "019c13616b512d0f8b3bd3e5e17356401a8e4457",
-   "019c13616b512d0f8b3bd3e5e17356401a8e4457"
+   "06b45a8d70e6c2156e8b0d58ff355ad55e972b9a"
   ]
  },
  "1.2.4054-5.2.5": {
@@ -7520,7 +7664,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "00fe273cf9895d12be4c4100f031c0cefda4667b"
+   "065c6ed96e0c89345ad5003656f8c2160f740ec1"
   ]
  },
  "1.2.4054-5.2.8": {
@@ -8544,7 +8688,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
+   "06652b25cfae20f5a7500f7b7ea239b4c8da1229"
   ]
  },
  "1.2.4054-5.5.9": {
@@ -8698,7 +8842,7 @@
   },
   "revs": [
    "004b30e592a212a390ad1e6576bc5c87d0e4766e",
-   "02faf44f52d0ac04efd738497e5cdc43463f0455"
+   "067e7ee24c284ea5cf3e05c50bfaa9cca3222994"
   ]
  },
  "1.2.4054-5.6.12": {
@@ -9163,7 +9307,7 @@
   },
   "revs": [
    "04e308a49653dc07978c2bfbc050766d17a1c1ab",
-   "04e308a49653dc07978c2bfbc050766d17a1c1ab"
+   "06a34e69ad4fed8178ce4994254045875806b0ee"
   ]
  },
  "1.2.4054-5.6.7": {
@@ -10295,6 +10439,45 @@
    "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
+ "1.2.4177-5.8.3": {
+  "meta": {
+   "description": "Linux driver for the Magewell Pro Capture family",
+   "homepage": "http://www.magewell.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "githubId": 167708,
+     "name": "Cray Elliott"
+    }
+   ],
+   "name": "mwprocapture",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mwprocapture/default.nix:62"
+  },
+  "revs": [
+   "06abd5c4f146635ad1b048f43322faeb007b730d",
+   "06abd5c4f146635ad1b048f43322faeb007b730d"
+  ]
+ },
  "1.2.4177-5.8.4": {
   "meta": {
    "description": "Linux driver for the Magewell Pro Capture family",
@@ -10487,7 +10670,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "0079133e4248a855f6247854220e385ef62cd3be"
+   "063598ce0b59b573720c761d03e312f2cf53f5b9"
   ]
  },
  "1.2.4177-5.8.9": {
@@ -10565,7 +10748,7 @@
   },
   "revs": [
    "00f0b1d721f459a9b67d071746ca583316e0d70d",
-   "0437b9c9112bb76dbe4977f63f4cc7407de0dac4"
+   "0690d7804a3d31879feeb3407de9f5083532a3a4"
   ]
  },
  "1.2.4177-5.9.1": {
@@ -10604,7 +10787,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+   "0672de5b894a15e97da9cf82bf3052bde7919691"
   ]
  },
  "1.2.4177-5.9.2": {

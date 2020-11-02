@@ -336,7 +336,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0194f7fbe691616f635105426a9587e862a53b75"
+   "0648462fd8d1aec306c38f603908063e19f54bc9"
   ]
  },
  "4.14.52": {
@@ -676,7 +676,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "0449c1258c61ae70356f1a967e9cc1c1c3d8778f"
+   "0689d27173838fd1d3ee10765ebc902bef86829d"
   ]
  },
  "4.14.62": {
@@ -881,6 +881,40 @@
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
    "028164ef057119ee37c99bcb98224672441d2d81"
+  ]
+ },
+ "4.14.68": {
+  "meta": {
+   "description": "A module allowing arbitrary ACPI calls; use case: hybrid video",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "acpi-call",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/acpi-call/default.nix:41"
+  },
+  "revs": [
+   "068f437ddad574a113b5fefb7dbb85b7d0357ece",
+   "068f437ddad574a113b5fefb7dbb85b7d0357ece"
   ]
  },
  "4.14.70": {

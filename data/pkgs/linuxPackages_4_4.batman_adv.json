@@ -151,7 +151,7 @@
   },
   "revs": [
    "00ab8e84c672fbf4b9a97ddc3ff94863ac7f14b8",
-   "0437bc96630db63a667646e4b2faaa272b836aea"
+   "064dd204b716d22c645b696914efc3da8de8bd9d"
   ]
  },
  "2016.5-4.4.44": {
@@ -374,7 +374,7 @@
   },
   "revs": [
    "00f16e3d7c4239bcb4c0b55302e4956adf69d691",
-   "02546ff81736399809cf6d90ee290484c8559ce7"
+   "064cda9b1af515efe971fcb19c55dc21a1dd7131"
   ]
  },
  "2017.0.1-4.4.52": {
@@ -598,7 +598,7 @@
   },
   "revs": [
    "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c",
-   "038550b596c046a66e94916ab5aea8a7cbd2b567"
+   "06716f310ab8e037ffbccc3c3a993c8cdfbab18a"
   ]
  },
  "2017.0.1-4.4.59": {
@@ -1334,7 +1334,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "035b5892457d7d198090dc6a68cac2b99d2fec52"
+   "06bc5483304b13b3a36fd377ba22aa4d47d2a77b"
   ]
  },
  "2017.3-4.4.99": {
@@ -1962,7 +1962,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "022b17cb683dbbf309c20794a71e767506d4de99"
+   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
   ]
  },
  "2018.0-4.4.127": {
@@ -2490,7 +2490,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
+   "0648462fd8d1aec306c38f603908063e19f54bc9"
   ]
  },
  "2018.0-4.4.139": {
@@ -2669,6 +2669,50 @@
    "044a807a45ec75702d24ed642536a712931d349f"
   ]
  },
+ "2018.0-4.4.146": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:25"
+  },
+  "revs": [
+   "0689d27173838fd1d3ee10765ebc902bef86829d",
+   "0689d27173838fd1d3ee10765ebc902bef86829d"
+  ]
+ },
  "2018.0-4.4.147": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -2843,6 +2887,50 @@
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
    "000c7800a1030a61677b64e9edb1670d3d940194"
+  ]
+ },
+ "2018.0-4.4.154": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:25"
+  },
+  "revs": [
+   "068f437ddad574a113b5fefb7dbb85b7d0357ece",
+   "068f437ddad574a113b5fefb7dbb85b7d0357ece"
   ]
  },
  "2018.0-4.4.156": {
@@ -4067,7 +4155,7 @@
   },
   "revs": [
    "012b9e6c219ef721d06f9d219924108fd8606220",
-   "012b9e6c219ef721d06f9d219924108fd8606220"
+   "06a935b7ee1aa477d9a6aeb6e302264b16c0e493"
   ]
  },
  "2018.4-4.4.163": {
@@ -4955,7 +5043,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "04954e39df88487bf5b6bb5e532520e83a6c22ea"
+   "063c3394dd1a61adeddb3efdf7cb17f46876e79b"
   ]
  },
  "2019.1-4.4.180": {
@@ -5090,7 +5178,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "01966e8b799e60b58d31b439ec714de47f3a152f"
+   "066bf9fc1838eb50713ffaca42ec72080edad663"
   ]
  },
  "2019.1-4.4.184": {
@@ -5270,7 +5358,7 @@
   },
   "revs": [
    "02aad1f3734a986928dd5fcc622b62725c659690",
-   "02aad1f3734a986928dd5fcc622b62725c659690"
+   "06ba45c7e044a9134bacc4a34c206cbb7fd3388f"
   ]
  },
  "2019.1-4.4.191": {
@@ -5847,7 +5935,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "00fe273cf9895d12be4c4100f031c0cefda4667b"
+   "065c6ed96e0c89345ad5003656f8c2160f740ec1"
   ]
  },
  "2019.2-4.4.189": {
@@ -7500,7 +7588,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "041a24254ea6e3faa096505b489c9360827bf200"
+   "067d8e6c9f4ad3df62d4c9359865747aedea8853"
   ]
  },
  "2019.5-4.4.239": {
@@ -7822,7 +7910,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "0437b9c9112bb76dbe4977f63f4cc7407de0dac4"
+   "0690d7804a3d31879feeb3407de9f5083532a3a4"
   ]
  },
  "2020.3-4.4.240": {
@@ -7868,7 +7956,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+   "0672de5b894a15e97da9cf82bf3052bde7919691"
   ]
  },
  "2020.3-4.4.241": {

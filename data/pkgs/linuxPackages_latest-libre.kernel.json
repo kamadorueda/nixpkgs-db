@@ -272,6 +272,45 @@
    "0013bc3056604b25299e8601caf4f99cc1f4a910"
   ]
  },
+ "4.18.17": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:237"
+  },
+  "revs": [
+   "06834f72628e8485f360377673ef1b3702e5989e",
+   "06834f72628e8485f360377673ef1b3702e5989e"
+  ]
+ },
  "4.18.19": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -816,6 +855,45 @@
   "revs": [
    "015541ea6a35096e134c37f2fdf4dc88dc682b1c",
    "01f54e8fd8d50f57edc016855a6f8eac91df91c7"
+  ]
+ },
+ "4.19.16": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long, raspberry-pi-wifi-fix)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:237"
+  },
+  "revs": [
+   "063d09f3e70851fbf987def7a9a2b3f67582fae4",
+   "063d09f3e70851fbf987def7a9a2b3f67582fae4"
   ]
  },
  "4.19.17": {
@@ -2531,7 +2609,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
+   "063c3394dd1a61adeddb3efdf7cb17f46876e79b"
   ]
  },
  "5.1.1": {
@@ -2723,7 +2801,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "01966e8b799e60b58d31b439ec714de47f3a152f"
+   "066bf9fc1838eb50713ffaca42ec72080edad663"
   ]
  },
  "5.1.15": {
@@ -3034,7 +3112,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "0073c1fb0b4d230a305f703f2e2056b432c64cf6"
+   "06602f4bc76e46fe25e4c6e6e3db3f62714451d7"
   ]
  },
  "5.1.7": {
@@ -3303,7 +3381,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "02aad1f3734a986928dd5fcc622b62725c659690"
+   "06ba45c7e044a9134bacc4a34c206cbb7fd3388f"
   ]
  },
  "5.2.13": {
@@ -3612,7 +3690,7 @@
   },
   "revs": [
    "019c13616b512d0f8b3bd3e5e17356401a8e4457",
-   "019c13616b512d0f8b3bd3e5e17356401a8e4457"
+   "06b45a8d70e6c2156e8b0d58ff355ad55e972b9a"
   ]
  },
  "5.2.5": {
@@ -3726,7 +3804,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "00fe273cf9895d12be4c4100f031c0cefda4667b"
+   "065c6ed96e0c89345ad5003656f8c2160f740ec1"
   ]
  },
  "5.2.8": {
@@ -4802,7 +4880,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "00ba289dab7fc4c9007a17d03ec1ced58d3345ee"
+   "06652b25cfae20f5a7500f7b7ea239b4c8da1229"
   ]
  },
  "5.5.9": {
@@ -4962,7 +5040,7 @@
   },
   "revs": [
    "004b30e592a212a390ad1e6576bc5c87d0e4766e",
-   "02faf44f52d0ac04efd738497e5cdc43463f0455"
+   "067e7ee24c284ea5cf3e05c50bfaa9cca3222994"
   ]
  },
  "5.6.12": {
@@ -5442,7 +5520,7 @@
   },
   "revs": [
    "04e308a49653dc07978c2bfbc050766d17a1c1ab",
-   "04e308a49653dc07978c2bfbc050766d17a1c1ab"
+   "06a34e69ad4fed8178ce4994254045875806b0ee"
   ]
  },
  "5.6.7": {
@@ -6565,6 +6643,46 @@
    "012e55a4606cd7290a0248313659eef1be9988ef"
   ]
  },
+ "5.8.3": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:265"
+  },
+  "revs": [
+   "06abd5c4f146635ad1b048f43322faeb007b730d",
+   "06abd5c4f146635ad1b048f43322faeb007b730d"
+  ]
+ },
  "5.8.4": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
@@ -6762,7 +6880,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "0079133e4248a855f6247854220e385ef62cd3be"
+   "063598ce0b59b573720c761d03e312f2cf53f5b9"
   ]
  },
  "5.8.9": {
@@ -6842,7 +6960,7 @@
   },
   "revs": [
    "00f0b1d721f459a9b67d071746ca583316e0d70d",
-   "0437b9c9112bb76dbe4977f63f4cc7407de0dac4"
+   "0690d7804a3d31879feeb3407de9f5083532a3a4"
   ]
  },
  "5.9.1": {
@@ -6882,7 +7000,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "00c68337f5944a76ed6a10ff20d02bfb263912ea"
+   "0672de5b894a15e97da9cf82bf3052bde7919691"
   ]
  },
  "5.9.2": {
