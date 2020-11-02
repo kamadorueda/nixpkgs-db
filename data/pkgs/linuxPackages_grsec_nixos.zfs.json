@@ -488,6 +488,39 @@
    "05f53b83b4a1e7dd105898a2c024ee9d5629d4e4"
   ]
  },
+ "0.6.5.8-4.8.8": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Franz Pletz <fpletz@fnordicwalking.de>"
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:106"
+  },
+  "revs": [
+   "0755d4becb60da09b072638054189ad93a95f9e9",
+   "07950a24b6c3e44976cb901b1e4493439d356462"
+  ]
+ },
  "0.6.5.9-4.8.17": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -553,7 +586,7 @@
   },
   "revs": [
    "03024b39b7d4b94724faa1a62f21aed3531bb35a",
-   "070825d443a384e8cf2928bab0367d430aaeca75"
+   "0789a2a4d6d66a6c87308a596c61e5f34c81677c"
   ]
  },
  "0.6.5.9-4.9.11": {
@@ -893,7 +926,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "01a8de97eb2aab98e6e9a7330bf99f4fe4844d2a"
+   "07884766246354a18e52404b7e232e34f1785364"
   ]
  },
  "0.6.5.9-4.9.21": {

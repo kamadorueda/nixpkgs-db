@@ -1,4 +1,89 @@
 {
+ "1.0.7": {
+  "meta": {
+   "description": "A library of abstract interfaces for mathematical structures in Coq.",
+   "homepage": "https://math-classes.github.io",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "langston.barrett@gmail.com",
+     "github": "siddharthist",
+     "name": "Langston Barrett"
+    },
+    {
+     "email": "johnw@newartisans.com",
+     "github": "jwiegley",
+     "name": "John Wiegley"
+    }
+   ],
+   "name": "coq8.8-math-classes",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/coq-modules/math-classes/default.nix:21"
+  },
+  "revs": [
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4",
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
+  ]
+ },
  "8.11.0": {
   "meta": {
    "description": "A library of abstract interfaces for mathematical structures in Coq.",

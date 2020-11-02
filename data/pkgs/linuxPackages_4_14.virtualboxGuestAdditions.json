@@ -22,7 +22,7 @@
   },
   "revs": [
    "06d0ba1ee9e45f6b1e2b7546ff96c59a55fffe24",
-   "06d0ba1ee9e45f6b1e2b7546ff96c59a55fffe24"
+   "083a0b8348273cc68a5b50fbe0c6924ad06c538a"
   ]
  },
  "5.1.26-4.14.3": {
@@ -75,6 +75,32 @@
   "revs": [
    "0264c64ebb5a1d49f95e568ccaeaec18dc83d6fc",
    "0264c64ebb5a1d49f95e568ccaeaec18dc83d6fc"
+  ]
+ },
+ "5.1.32-4.14.22": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:141"
+  },
+  "revs": [
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0",
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0"
   ]
  },
  "5.1.32-4.14.23": {
@@ -947,6 +973,74 @@
    "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa"
   ]
  },
+ "5.2.28-4.14.118": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:151"
+  },
+  "revs": [
+   "07f649b8fe48391b9fb161a1685842f8a93d9537",
+   "07f649b8fe48391b9fb161a1685842f8a93d9537"
+  ]
+ },
+ "5.2.28-4.14.122": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:151"
+  },
+  "revs": [
+   "0728c3e026e3ac2542a9673d57533829e552e218",
+   "0728c3e026e3ac2542a9673d57533829e552e218"
+  ]
+ },
  "5.2.28-4.14.123": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -1756,7 +1850,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0825e382c0fa98805858bb1a1281130e4cee5b2a"
   ]
  },
  "6.0.14-4.14.160": {
@@ -2232,7 +2326,7 @@
   },
   "revs": [
    "00d69b87a471cf240a511e5a5566ca475bbfe029",
-   "040f6116090397caae9ff1490e77bc201741db11"
+   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
   ]
  },
  "6.0.14-4.14.175": {
@@ -2266,7 +2360,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "0182312e119121c27f59455ed0e35ccb6cc72b1e"
+   "07b3634cb4b31f515e8d6667b2fa11ada16fbec3"
   ]
  },
  "6.0.14-4.14.176": {
@@ -2934,7 +3028,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "020468512626f9b078801155b4016d14b2d43dec"
+   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
   ]
  },
  "6.0.8-4.14.136": {
@@ -3133,6 +3227,41 @@
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
    "00762b57545dba3b3e21e3a649b574db3db36c65"
+  ]
+ },
+ "6.1.10-4.14.183": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "githubId": 1153271,
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:155"
+  },
+  "revs": [
+   "081aa8f724bcd25928ba36199bf5872adf411bb9",
+   "081aa8f724bcd25928ba36199bf5872adf411bb9"
   ]
  },
  "6.1.10-4.14.189": {
@@ -3342,7 +3471,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "04fffd6cae88e676a13fa94e1f7abdaa3156e707"
+   "077a2288f375d8b7cc9d936b909f9d5b4515eddc"
   ]
  },
  "6.1.10-4.14.195": {
@@ -3377,7 +3506,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "04b2a20122e39245bfe5136e61267fcf26c56685"
+   "074e05c6d8be92dca22a9096890bdb89cedbc6e8"
   ]
  },
  "6.1.10-4.14.196": {
@@ -3899,7 +4028,7 @@
   },
   "revs": [
    "002b553b14280e69f9f6654bc806c16002756b0b",
-   "0577b994afe04a188319acc9319d6794224ba415"
+   "080c064d1da6c7292d99d9dd0b8468352754aff1"
   ]
  },
  "6.1.6-4.14.177": {
@@ -4319,6 +4448,40 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "02d1989f8c1cf8afddd155d4097f9c3708f6b859"
+  ]
+ },
+ "6.1.6-4.14.189": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:155"
+  },
+  "revs": [
+   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5",
+   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
   ]
  },
  "6.1.6-4.14.190": {

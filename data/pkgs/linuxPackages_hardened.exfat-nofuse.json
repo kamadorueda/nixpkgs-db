@@ -58,7 +58,7 @@
   },
   "revs": [
    "021978300c8c6d2bdf1156a8671bbc9cb7db7268",
-   "021978300c8c6d2bdf1156a8671bbc9cb7db7268"
+   "080bd323ad1420979e81375a48df286bc9f3a179"
   ]
  },
  "2017-06-19-4.12.10": {
@@ -337,7 +337,7 @@
   },
   "revs": [
    "043cbe59e98a5326588cd561836fc5b82b989d04",
-   "043cbe59e98a5326588cd561836fc5b82b989d04"
+   "077d0597687e43ac9c49f06245c16c7f60d4b8c0"
   ]
  },
  "2017-06-19-4.13.2": {
@@ -616,7 +616,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "05761e9504a97d6ffa404508f83b91cc689a3f23"
+   "083a0b8348273cc68a5b50fbe0c6924ad06c538a"
   ]
  },
  "2017-06-19-4.14.1": {
@@ -802,7 +802,7 @@
   },
   "revs": [
    "022cbdd7e75db244f6182efe362f95cdcb4250f3",
-   "022cbdd7e75db244f6182efe362f95cdcb4250f3"
+   "073d3f086932a2fadad113196a073a3ecb2d1f7e"
   ]
  },
  "2017-06-19-4.14.21": {
@@ -1000,7 +1000,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "016274cc6c50dd997fb8fe8ffa04d984f7789a94"
+   "07f1fe42bb6758ec0143acd8154112c98db7b855"
   ]
  },
  "2017-06-19-4.14.27": {
@@ -1261,7 +1261,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
+   "079a2ac46911b0467e087476cf8eb296b2c2b65c"
   ]
  },
  "2017-06-19-4.14.33": {
@@ -1537,6 +1537,45 @@
    "047c7abe8e32b6a33017d9fc93b3453264f5aa6a"
   ]
  },
+ "2017-06-19-4.14.42": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/dorimanx/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:31"
+  },
+  "revs": [
+   "077bb0876bff9db7977f06153e5e10688379cd47",
+   "077bb0876bff9db7977f06153e5e10688379cd47"
+  ]
+ },
  "2017-06-19-4.14.47": {
   "meta": {
    "description": "exfat kernel module",
@@ -1573,7 +1612,7 @@
   },
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "2017-06-19-4.14.48": {
@@ -1651,7 +1690,7 @@
   },
   "revs": [
    "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce",
-   "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
+   "080ac28493e085176b45e610c5eb1a449313014e"
   ]
  },
  "2017-06-19-4.14.51": {
@@ -2410,6 +2449,37 @@
    "03a35ac9c06c48b15160cadecfb33deeaee984d0"
   ]
  },
+ "2017-06-19-4.15.6": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/dorimanx/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Richter <makefu@syntax-fehler.de>"
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:31"
+  },
+  "revs": [
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0",
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0"
+  ]
+ },
  "2017-06-19-4.15.7": {
   "meta": {
    "description": "exfat kernel module",
@@ -2648,7 +2718,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "0500ca4ef4c01dbedf9f802bb398f00100565bad"
+   "07e2b59812de95deeedde95fb6ba22d581d12fbc"
   ]
  },
  "2018-04-16-4.14.104": {
@@ -3116,7 +3186,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "0144105da2732a575a2511087e001dbbc95428f1"
+   "081a805d1591c962fe272d947e7072c4c25848e5"
   ]
  },
  "2018-04-16-4.14.40": {
@@ -3155,7 +3225,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
   ]
  },
  "2018-04-16-4.14.41": {
@@ -3506,7 +3576,7 @@
   },
   "revs": [
    "0127c4295f985515ebd6381d42210118632455b9",
-   "04e527d69fbcc6b091aeb11ec595c8047c99010f"
+   "07753e88757d6dfe01ddd0178ad82abac034a712"
   ]
  },
  "2018-04-16-4.14.51": {
@@ -3935,7 +4005,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "0449c1258c61ae70356f1a967e9cc1c1c3d8778f"
+   "07bd1d873789039e17cc143293ad9ff723d500d2"
   ]
  },
  "2018-04-16-4.14.62": {
@@ -4014,6 +4084,45 @@
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
    "03d5065c064c671d2cd618afe0dcfac88bd99e30"
+  ]
+ },
+ "2018-04-16-4.14.64": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/dorimanx/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:31"
+  },
+  "revs": [
+   "07eebd36293dae40057368580f38f34d3a825bf1",
+   "07eebd36293dae40057368580f38f34d3a825bf1"
   ]
  },
  "2018-04-16-4.14.65": {
@@ -4832,7 +4941,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
   ]
  },
  "2018-04-16-4.14.86": {
@@ -5729,7 +5838,7 @@
   },
   "revs": [
    "03050e9749e1548f1648aae5c062c954eaad546e",
-   "03050e9749e1548f1648aae5c062c954eaad546e"
+   "08414dd72e4bf7217474846f2ac56612e4f33acb"
   ]
  },
  "2018-04-16-4.19.30": {
@@ -6236,7 +6345,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
+   "07f649b8fe48391b9fb161a1685842f8a93d9537"
   ]
  },
  "2018-04-16-4.19.43": {
@@ -6392,7 +6501,7 @@
   },
   "revs": [
    "00932b9d08983847214b811a6673130bf6646d81",
-   "024a383d64036dab02157927369ca680427aa61d"
+   "0728c3e026e3ac2542a9673d57533829e552e218"
   ]
  },
  "2018-04-16-4.19.47": {
@@ -7003,7 +7112,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "020468512626f9b078801155b4016d14b2d43dec"
+   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
   ]
  },
  "2018-04-16-4.19.64": {
@@ -7548,7 +7657,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0825e382c0fa98805858bb1a1281130e4cee5b2a"
   ]
  },
  "2019-09-06-4.19.91": {
@@ -8348,7 +8457,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "040f6116090397caae9ff1490e77bc201741db11"
+   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
   ]
  },
  "2019-09-06-5.4.29": {
@@ -8468,7 +8577,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "0182312e119121c27f59455ed0e35ccb6cc72b1e"
+   "07b3634cb4b31f515e8d6667b2fa11ada16fbec3"
   ]
  },
  "2019-09-06-5.4.32": {
@@ -9308,7 +9417,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "04fef4c0e97ecebc91ef3a545fac2321b026762c"
+   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
   ]
  },
  "2019-09-06-5.4.54": {
@@ -9628,7 +9737,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "04b2a20122e39245bfe5136e61267fcf26c56685"
+   "074e05c6d8be92dca22a9096890bdb89cedbc6e8"
   ]
  },
  "2019-09-06-5.4.62": {
@@ -9871,6 +9980,46 @@
    "0260afe5f570822bf5574b7dc0347990f6bf3bd6"
   ]
  },
+ "2019-09-06-5.4.68": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/AdrianBan/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:34"
+  },
+  "revs": [
+   "07e5844fdf6fe99f41229d7392ce81cfe191bcfc",
+   "07e5844fdf6fe99f41229d7392ce81cfe191bcfc"
+  ]
+ },
  "2019-09-06-5.4.69": {
   "meta": {
    "description": "exfat kernel module",
@@ -9988,7 +10137,7 @@
   },
   "revs": [
    "05d90313993c0912521780dbb0fc1c35d5520e06",
-   "05d90313993c0912521780dbb0fc1c35d5520e06"
+   "07b023fd2ae4113adeaa3b41a877643ac98f393d"
   ]
  },
  "2019-09-06-5.4.72": {
@@ -10228,7 +10377,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "059292cc64d241fd8196db82423d8d195b57904e"
+   "074f6d9d848dc2672b71b82683de67f4dab9c30b"
   ]
  },
  "2020-04-15-5.4.70": {

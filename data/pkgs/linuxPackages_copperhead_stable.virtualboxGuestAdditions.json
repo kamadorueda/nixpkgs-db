@@ -268,7 +268,7 @@
   },
   "revs": [
    "0127c4295f985515ebd6381d42210118632455b9",
-   "04e527d69fbcc6b091aeb11ec595c8047c99010f"
+   "07753e88757d6dfe01ddd0178ad82abac034a712"
   ]
  },
  "5.2.12-4.16.17": {
@@ -370,7 +370,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
   ]
  },
  "5.2.12-4.16.9-a": {
@@ -407,6 +407,40 @@
    "05bc5fed288666126fd5394657c5ef065cbd9710"
   ]
  },
+ "5.2.8-4.16.10-a": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "077bb0876bff9db7977f06153e5e10688379cd47",
+   "077bb0876bff9db7977f06153e5e10688379cd47"
+  ]
+ },
  "5.2.8-4.16.12-a": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -439,6 +473,40 @@
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
    "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+  ]
+ },
+ "5.2.8-4.16.13": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc",
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "5.2.8-4.16.14": {
@@ -506,7 +574,7 @@
   },
   "revs": [
    "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce",
-   "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
+   "080ac28493e085176b45e610c5eb1a449313014e"
   ]
  },
  "5.2.8-4.16.17": {
@@ -574,7 +642,7 @@
   },
   "revs": [
    "03928bebe995b11c953b6801b6a72ca76ffbc116",
-   "03928bebe995b11c953b6801b6a72ca76ffbc116"
+   "072b99dff2ca24a75d113e4a58f781f025858083"
   ]
  },
  "5.2.8-4.16.5-a": {

@@ -14,7 +14,25 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "0194a44d63c613065bb5c55d50470881c00563c2"
+   "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
+  ]
+ },
+ "0.15.0-dnie-wrapper": {
+  "meta": {
+   "description": "Access to the opensc tools and firefox using the Spanish national ID SmartCard",
+   "homepage": "",
+   "license": null,
+   "long_description": "Opensc needs a special configuration and special drivers to use the SmartCard\nthe Spanish government provides to the citizens as ID card.\nSome wrapper scripts take care for the proper opensc configuration to be used, in order\nto access the certificates in the SmartCard through the opensc tools or firefox.\nOpensc will require a pcscd daemon running, managing the access to the card reader.\n",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "opensc",
+   "platforms": null,
+   "position": "pkgs/tools/security/opensc-dnie-wrapper/default.nix:57"
+  },
+  "revs": [
+   "082b0ee2a14b111c26108ecafab86d1e73992c85",
+   "082b0ee2a14b111c26108ecafab86d1e73992c85"
   ]
  }
 }

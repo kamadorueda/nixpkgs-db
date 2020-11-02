@@ -292,7 +292,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "070825d443a384e8cf2928bab0367d430aaeca75"
+   "0789a2a4d6d66a6c87308a596c61e5f34c81677c"
   ]
  },
  "0.6.5.9-4.4.50": {
@@ -802,7 +802,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "0059131f54c82e7714d458c0b17335c3364033a4"
+   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9"
   ]
  },
  "0.6.5.9-4.4.65": {
@@ -870,7 +870,7 @@
   },
   "revs": [
    "021978300c8c6d2bdf1156a8671bbc9cb7db7268",
-   "021978300c8c6d2bdf1156a8671bbc9cb7db7268"
+   "080bd323ad1420979e81375a48df286bc9f3a179"
   ]
  },
  "0.6.5.9-4.4.67": {
@@ -1910,7 +1910,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
   ]
  },
  "0.7.12-4.4.167": {
@@ -3506,7 +3506,7 @@
   },
   "revs": [
    "010d30123db4e861c29e78b5964733a0a97889a3",
-   "0433604f51966bc43ffdbb6d741665a5738c6b7d"
+   "0810111cedde02d499059d33b8f29498520ff118"
   ]
  },
  "0.7.2-4.4.96": {
@@ -3611,7 +3611,7 @@
   },
   "revs": [
    "00cda0d18d948481be72cc7bfaead0bcf9c4c263",
-   "043cbe59e98a5326588cd561836fc5b82b989d04"
+   "077d0597687e43ac9c49f06245c16c7f60d4b8c0"
   ]
  },
  "0.7.3-4.4.103": {
@@ -4136,7 +4136,7 @@
   },
   "revs": [
    "0046994b0cc52b9ddc300efd604cf6dfac68308b",
-   "018f66020fe1b5d13643521a5087bae8a4c26010"
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0"
   ]
  },
  "0.7.6-4.4.119": {
@@ -4337,7 +4337,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "032a3286fd88df8e073dad17f9424c06057c3079"
+   "0782536e49a4ea449974aaa8a04ced2960718bb6"
   ]
  },
  "0.7.7-4.4.122": {
@@ -4395,7 +4395,7 @@
   },
   "revs": [
    "01f29bb0c077a9efa3c09e80d6f9dadea3fa364e",
-   "05eafd27b15ff3d5848226061b4f8bbd96de1137"
+   "07d1b17941305cb8fd3b70dc8f665e9c43cb8bab"
   ]
  },
  "0.7.7-4.4.123": {
@@ -4627,7 +4627,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
+   "079a2ac46911b0467e087476cf8eb296b2c2b65c"
   ]
  },
  "0.7.7-4.4.127": {
@@ -5033,7 +5033,7 @@
   },
   "revs": [
    "00349e27e5449e3243ba7525446900a16e1f4c2b",
-   "047c7abe8e32b6a33017d9fc93b3453264f5aa6a"
+   "077bb0876bff9db7977f06153e5e10688379cd47"
   ]
  },
  "0.7.8-4.4.133": {
@@ -5149,7 +5149,7 @@
   },
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "0.7.9-4.4.133": {
@@ -6948,6 +6948,64 @@
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
    "03d5065c064c671d2cd618afe0dcfac88bd99e30"
+  ]
+ },
+ "18.09pre-git-4.4.149": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:43"
+  },
+  "revs": [
+   "07eebd36293dae40057368580f38f34d3a825bf1",
+   "07eebd36293dae40057368580f38f34d3a825bf1"
   ]
  },
  "18.09pre-git-4.4.150": {

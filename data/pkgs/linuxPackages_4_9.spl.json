@@ -1494,7 +1494,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "03b9bc9e66423113f31f2836bac027c8e4e924b6"
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
   ]
  },
  "0.7.12-4.9.143": {
@@ -2445,7 +2445,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "0500ca4ef4c01dbedf9f802bb398f00100565bad"
+   "07e2b59812de95deeedde95fb6ba22d581d12fbc"
   ]
  },
  "0.7.12-4.9.161": {
@@ -3621,7 +3621,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
+   "07f649b8fe48391b9fb161a1685842f8a93d9537"
   ]
  },
  "0.7.13-4.9.176": {
@@ -3857,7 +3857,7 @@
   },
   "revs": [
    "00932b9d08983847214b811a6673130bf6646d81",
-   "024a383d64036dab02157927369ca680427aa61d"
+   "0728c3e026e3ac2542a9673d57533829e552e218"
   ]
  },
  "0.7.13-4.9.180": {
@@ -4576,7 +4576,7 @@
   },
   "revs": [
    "022cbdd7e75db244f6182efe362f95cdcb4250f3",
-   "022cbdd7e75db244f6182efe362f95cdcb4250f3"
+   "073d3f086932a2fadad113196a073a3ecb2d1f7e"
   ]
  },
  "0.7.6-4.9.83": {
@@ -4847,7 +4847,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "032a3286fd88df8e073dad17f9424c06057c3079"
+   "0782536e49a4ea449974aaa8a04ced2960718bb6"
   ]
  },
  "0.7.7-4.9.88": {
@@ -4905,7 +4905,7 @@
   },
   "revs": [
    "01f29bb0c077a9efa3c09e80d6f9dadea3fa364e",
-   "05eafd27b15ff3d5848226061b4f8bbd96de1137"
+   "07d1b17941305cb8fd3b70dc8f665e9c43cb8bab"
   ]
  },
  "0.7.7-4.9.89": {
@@ -5137,7 +5137,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
+   "079a2ac46911b0467e087476cf8eb296b2c2b65c"
   ]
  },
  "0.7.7-4.9.93": {
@@ -5311,7 +5311,7 @@
   },
   "revs": [
    "009d4341d80ec39db2f4da180de3bebf19a4ae48",
-   "016922f88ba9d86b611115463c45ee84f238f64e"
+   "077bb0876bff9db7977f06153e5e10688379cd47"
   ]
  },
  "0.7.8-4.9.102": {
@@ -5485,7 +5485,7 @@
   },
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "0.7.8-4.9.93": {
@@ -5891,7 +5891,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
   ]
  },
  "0.7.9-4.9.103": {
@@ -7748,6 +7748,64 @@
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
    "03d5065c064c671d2cd618afe0dcfac88bd99e30"
+  ]
+ },
+ "18.09pre-git-4.9.121": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:43"
+  },
+  "revs": [
+   "07eebd36293dae40057368580f38f34d3a825bf1",
+   "07eebd36293dae40057368580f38f34d3a825bf1"
   ]
  },
  "18.09pre-git-4.9.122": {

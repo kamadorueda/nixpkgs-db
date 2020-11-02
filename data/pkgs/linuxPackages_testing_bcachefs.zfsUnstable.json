@@ -564,7 +564,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
+   "07e2b59812de95deeedde95fb6ba22d581d12fbc"
   ]
  },
  "0.8.0-rc3-4.20.2019.02.20": {
@@ -860,6 +860,65 @@
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
    "0412ee2a6d9f7d9c68f4dcd9768cf594d2136eb5"
+  ]
+ },
+ "0.8.0-rc5-4.20.2019.02.20": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:144"
+  },
+  "revs": [
+   "0728c3e026e3ac2542a9673d57533829e552e218",
+   "0728c3e026e3ac2542a9673d57533829e552e218"
   ]
  },
  "0.8.0-rc5-5.0.2019.04.04": {
@@ -1643,7 +1702,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00347e9537d6e6ddef599094429a1ac5392d6f28"
+   "077a2288f375d8b7cc9d936b909f9d5b4515eddc"
   ]
  },
  "2.0.0-rc1-5.3.2020.04.04": {
@@ -2182,7 +2241,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "029b44db9d61e88e30b6faaa8b545b7c19d50646"
+   "0810111cedde02d499059d33b8f29498520ff118"
   ]
  },
  "2017-11-12-4.11.2017.08.23": {
@@ -2217,7 +2276,7 @@
   },
   "revs": [
    "011773edec1be772a47443f86cfbcbcbcfee6226",
-   "011773edec1be772a47443f86cfbcbcbcfee6226"
+   "083a0b8348273cc68a5b50fbe0c6924ad06c538a"
   ]
  },
  "2017-11-16-4.11.2017.08.23": {
@@ -2608,7 +2667,7 @@
   },
   "revs": [
    "008af1452515d6747e0b609d74cddad2460baeb7",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "2018-04-10-4.15.2018.03.22": {
@@ -2898,7 +2957,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "05d85a267fdc825e26bfb426a799324783a951b4"
+   "07bd1d873789039e17cc143293ad9ff723d500d2"
   ]
  },
  "2018-08-13-4.16.2018.08.03": {

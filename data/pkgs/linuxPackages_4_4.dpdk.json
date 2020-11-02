@@ -191,7 +191,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "070825d443a384e8cf2928bab0367d430aaeca75"
+   "0789a2a4d6d66a6c87308a596c61e5f34c81677c"
   ]
  },
  "16.07.2-4.4.50": {
@@ -776,7 +776,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "0059131f54c82e7714d458c0b17335c3364033a4"
+   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9"
   ]
  },
  "16.07.2-4.4.65": {
@@ -854,7 +854,7 @@
   },
   "revs": [
    "021978300c8c6d2bdf1156a8671bbc9cb7db7268",
-   "021978300c8c6d2bdf1156a8671bbc9cb7db7268"
+   "080bd323ad1420979e81375a48df286bc9f3a179"
   ]
  },
  "16.07.2-4.4.67": {
@@ -1127,7 +1127,7 @@
   },
   "revs": [
    "00cda0d18d948481be72cc7bfaead0bcf9c4c263",
-   "043cbe59e98a5326588cd561836fc5b82b989d04"
+   "077d0597687e43ac9c49f06245c16c7f60d4b8c0"
   ]
  },
  "17.05.1-4.4.103": {
@@ -1517,7 +1517,7 @@
   },
   "revs": [
    "0046994b0cc52b9ddc300efd604cf6dfac68308b",
-   "018f66020fe1b5d13643521a5087bae8a4c26010"
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0"
   ]
  },
  "17.05.1-4.4.119": {
@@ -1685,7 +1685,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "032a3286fd88df8e073dad17f9424c06057c3079"
+   "07d1b17941305cb8fd3b70dc8f665e9c43cb8bab"
   ]
  },
  "17.05.1-4.4.123": {
@@ -1857,7 +1857,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
+   "079a2ac46911b0467e087476cf8eb296b2c2b65c"
   ]
  },
  "17.05.1-4.4.127": {
@@ -2115,7 +2115,7 @@
   },
   "revs": [
    "00ddd6a8ae9989ada2cb1a70b0c6cfb1022f6b1e",
-   "047c7abe8e32b6a33017d9fc93b3453264f5aa6a"
+   "077bb0876bff9db7977f06153e5e10688379cd47"
   ]
  },
  "17.05.1-4.4.135": {
@@ -2158,7 +2158,7 @@
   },
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "17.05.1-4.4.136": {
@@ -2971,7 +2971,7 @@
   },
   "revs": [
    "010d30123db4e861c29e78b5964733a0a97889a3",
-   "0433604f51966bc43ffdbb6d741665a5738c6b7d"
+   "0810111cedde02d499059d33b8f29498520ff118"
   ]
  },
  "17.05.1-4.4.96": {
@@ -3847,7 +3847,7 @@
   },
   "revs": [
    "00991101a04eebed0b68881d76b95f82e7fdf011",
-   "0449c1258c61ae70356f1a967e9cc1c1c3d8778f"
+   "07bd1d873789039e17cc143293ad9ff723d500d2"
   ]
  },
  "17.11.2-4.4.147": {
@@ -3944,6 +3944,54 @@
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
    "03d5065c064c671d2cd618afe0dcfac88bd99e30"
+  ]
+ },
+ "17.11.2-4.4.149": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:58"
+  },
+  "revs": [
+   "07eebd36293dae40057368580f38f34d3a825bf1",
+   "07eebd36293dae40057368580f38f34d3a825bf1"
   ]
  },
  "17.11.2-4.4.150": {
@@ -4759,7 +4807,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
   ]
  },
  "17.11.2-4.4.167": {
@@ -5719,7 +5767,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "020468512626f9b078801155b4016d14b2d43dec"
+   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
   ]
  },
  "17.11.2-4.4.187": {
@@ -6171,7 +6219,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0825e382c0fa98805858bb1a1281130e4cee5b2a"
   ]
  },
  "19.08.2-4.4.207": {
@@ -6963,7 +7011,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "040f6116090397caae9ff1490e77bc201741db11"
+   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
   ]
  },
  "19.11-4.4.218": {
@@ -7029,7 +7077,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "0182312e119121c27f59455ed0e35ccb6cc72b1e"
+   "07b3634cb4b31f515e8d6667b2fa11ada16fbec3"
   ]
  },
  "19.11-4.4.219": {
@@ -8547,7 +8595,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00e56c1d535cb9dd4857b538b4844b537052ecf9"
+   "08211476347a6e684166169d7d34f18c2ec3e775"
   ]
  },
  "20.05-4.4.231": {
@@ -8745,7 +8793,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "04fffd6cae88e676a13fa94e1f7abdaa3156e707"
+   "077a2288f375d8b7cc9d936b909f9d5b4515eddc"
   ]
  },
  "20.05-4.4.234": {
@@ -8811,7 +8859,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "04b2a20122e39245bfe5136e61267fcf26c56685"
+   "074e05c6d8be92dca22a9096890bdb89cedbc6e8"
   ]
  },
  "20.05-4.4.235": {
@@ -9141,7 +9189,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "05d90313993c0912521780dbb0fc1c35d5520e06"
+   "07b023fd2ae4113adeaa3b41a877643ac98f393d"
   ]
  },
  "20.05-4.4.240": {

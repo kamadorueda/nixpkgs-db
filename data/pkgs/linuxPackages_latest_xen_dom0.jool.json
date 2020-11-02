@@ -96,7 +96,7 @@
   },
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
-   "00137438459949bfbd2c0311e8664a9da8bb1e53"
+   "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd"
   ]
  },
  "3.3.2-4.1.6": {
@@ -121,7 +121,7 @@
   },
   "revs": [
    "0094d74ca76b43f86b022e097b0eec9a660a7502",
-   "06a318a6ab4a96864ef62375ef2359b159e414f9"
+   "07da766101d81533bcc99d41cd42a2c3d79a1040"
   ]
  },
  "3.3.2-4.2": {
@@ -171,7 +171,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "00244d0713d23312b9800f1ba02e3f3e7f99fc2e"
+   "0751b54c9b98bf7f8b5d325d27a0e27c8ece3987"
   ]
  },
  "3.3.2-4.2.2": {
@@ -296,7 +296,7 @@
   },
   "revs": [
    "014260a9d61673d501473edd183c5707ac5d2a26",
-   "014260a9d61673d501473edd183c5707ac5d2a26"
+   "08089ecdc543403afd2e3bb37682be6e5dcdcfd3"
   ]
  },
  "3.3.2-4.3.3": {
@@ -672,7 +672,7 @@
   },
   "revs": [
    "007380362c5fe8b678a62f7e1ccca562a995e5d4",
-   "04c41e753b1b3bbb0709984b11d89c3ee9846259"
+   "079353e20851073e9b5de183ab24414d7cd54ccb"
   ]
  },
  "3.5.0-4.7.6": {
@@ -875,6 +875,31 @@
    "0063c8acb4a5de8d90c0cbadf54ce337bd921e76"
   ]
  },
+ "3.5.0-4.8.2": {
+  "meta": {
+   "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
+   "homepage": "https://www.jool.mx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Franz Pletz <fpletz@fnordicwalking.de>"
+   ],
+   "name": "jool",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/jool/default.nix:28"
+  },
+  "revs": [
+   "0746040a66fa29f61b161875d3bbfa615618a5ef",
+   "0746040a66fa29f61b161875d3bbfa615618a5ef"
+  ]
+ },
  "3.5.0-4.8.3": {
   "meta": {
    "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
@@ -1047,7 +1072,7 @@
   },
   "revs": [
    "009e37d277328b8d28d85db149f996100486c72b",
-   "04c6e3b115405b036bd9f99e72d98c12808ad089"
+   "07950a24b6c3e44976cb901b1e4493439d356462"
   ]
  },
  "3.5.0-4.9": {
@@ -1327,7 +1352,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "070825d443a384e8cf2928bab0367d430aaeca75"
+   "0789a2a4d6d66a6c87308a596c61e5f34c81677c"
   ]
  },
  "3.5.2-4.10": {
@@ -1483,7 +1508,7 @@
   },
   "revs": [
    "0059131f54c82e7714d458c0b17335c3364033a4",
-   "0641253ae66d748b5ff0562c4edba3f9502a38e3"
+   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9"
   ]
  },
  "3.5.3-4.10.6": {
@@ -1734,6 +1759,46 @@
   "revs": [
    "01c27d6faf44ccd435069bcbe40785f9e0bfd9be",
    "01c27d6faf44ccd435069bcbe40785f9e0bfd9be"
+  ]
+ },
+ "4.0.0-5.0.13": {
+  "meta": {
+   "description": "Fairly compliant SIIT and Stateful NAT64 for Linux - kernel modules",
+   "homepage": "https://www.jool.mx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "jool",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/jool/default.nix:29"
+  },
+  "revs": [
+   "07458c2f38de5b6d730072bea8d1e595544e4cf9",
+   "07458c2f38de5b6d730072bea8d1e595544e4cf9"
   ]
  },
  "4.0.0-5.0.9": {
@@ -2718,7 +2783,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "020468512626f9b078801155b4016d14b2d43dec"
+   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
   ]
  },
  "4.0.0-5.2.6": {
@@ -3202,7 +3267,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0825e382c0fa98805858bb1a1281130e4cee5b2a"
   ]
  },
  "4.0.5-5.4.6": {
@@ -3489,7 +3554,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "040f6116090397caae9ff1490e77bc201741db11"
+   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
   ]
  },
  "4.0.5-5.5.15": {
@@ -3571,7 +3636,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "0182312e119121c27f59455ed0e35ccb6cc72b1e"
+   "07b3634cb4b31f515e8d6667b2fa11ada16fbec3"
   ]
  },
  "4.0.5-5.5.17": {
@@ -3899,7 +3964,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "06652b25cfae20f5a7500f7b7ea239b4c8da1229"
+   "0759da4ee68461d7d647183478ff414d32ac549b"
   ]
  },
  "4.0.5-5.5.9": {
@@ -4391,7 +4456,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "024877e7b2ae4aca95c6867313414bdf6460b4f1"
+   "07f69d4e379d02c2d814afdbde4b839c7339fe91"
   ]
  },
  "4.0.5-5.6.3": {
@@ -4883,7 +4948,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "04fef4c0e97ecebc91ef3a545fac2321b026762c"
+   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
   ]
  },
  "4.0.9-5.7.11": {
@@ -5293,7 +5358,7 @@
   },
   "revs": [
    "00aebe90110f0c8e8d9381b2f02c307df36dc94d",
-   "01531115752a557df0a8e5064d60707c256fb400"
+   "08215bbaf344adef6323b3def7c0d2fc1ee66cfd"
   ]
  },
  "4.0.9-5.7.6": {
@@ -5457,7 +5522,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00e56c1d535cb9dd4857b538b4844b537052ecf9"
+   "08211476347a6e684166169d7d34f18c2ec3e775"
   ]
  },
  "4.0.9-5.8": {
@@ -5498,7 +5563,7 @@
   },
   "revs": [
    "01c2ba857590ca8d156682e478d297201b715ea2",
-   "04fffd6cae88e676a13fa94e1f7abdaa3156e707"
+   "077a2288f375d8b7cc9d936b909f9d5b4515eddc"
   ]
  },
  "4.0.9-5.8.10": {
@@ -5744,7 +5809,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "05d90313993c0912521780dbb0fc1c35d5520e06"
+   "07b023fd2ae4113adeaa3b41a877643ac98f393d"
   ]
  },
  "4.0.9-5.8.16": {
@@ -5867,7 +5932,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "00ab5f18a61b5f6289d09eb34b78e2f1b9c66a53"
+   "074e05c6d8be92dca22a9096890bdb89cedbc6e8"
   ]
  },
  "4.0.9-5.8.5": {

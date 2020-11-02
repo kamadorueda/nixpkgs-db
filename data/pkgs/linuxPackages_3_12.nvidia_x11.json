@@ -50,7 +50,7 @@
   },
   "revs": [
    "003c93eef3df6b8134af5f15c9d98dee0cb4ddc5",
-   "003c93eef3df6b8134af5f15c9d98dee0cb4ddc5"
+   "083d0890f50c7bff87419b88465af6589faffa2e"
   ]
  },
  "319.60-3.12-rc3": {
@@ -99,6 +99,22 @@
   "revs": [
    "00081d1873148a8ec642d5c912d04875c4ee4a66",
    "0194a44d63c613065bb5c55d50470881c00563c2"
+  ]
+ },
+ "319.60-3.12.15": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "http://www.nvidia.com/object/unix.html",
+   "license": "unfree-redistributable",
+   "long_description": "",
+   "maintainers": [],
+   "name": "nvidia-x11",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "07d6a09e3dcc3586d6e8a8f98c7d5c88cdf25cc9",
+   "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
   ]
  },
  "331.20-3.12": {
@@ -158,7 +174,7 @@
   },
   "revs": [
    "0110cea196df6850de337131e9adb488f54bf0fc",
-   "0110cea196df6850de337131e9adb488f54bf0fc"
+   "075883c218f9bf7ae60d7d69cc7cdad024c06847"
   ]
  },
  "331.20-3.12.10": {
@@ -312,7 +328,7 @@
   },
   "revs": [
    "00765dccd832cb78f970d6aa53e94ba76a290805",
-   "03ee174032530af70b3deb278cd37c393dcaf096"
+   "07ab75205c8e2bd80258d5dc31e4f7c3dcb3c4cc"
   ]
  },
  "331.38-3.12.10": {
@@ -358,7 +374,7 @@
   },
   "revs": [
    "029967dca63a94e69b6044ee220961d382aec189",
-   "0441bb1b7a5ba6c4c84cafee38ce052173f0b13e"
+   "084238c6ec740d61f2e5f30e2c4ceb663dd1770f"
   ]
  },
  "331.38-3.12.12": {
@@ -406,7 +422,7 @@
   },
   "revs": [
    "003b4a099746077305e5281735b95a3781a84460",
-   "02b85f51913be7d95dba25b90eace31b862edcae"
+   "07adfae5519ae12ce1a06d2b57f027c97288d0fb"
   ]
  },
  "331.38-3.12.14": {
@@ -503,6 +519,35 @@
   "revs": [
    "00eaaf091a46dad3d84025f11fd3ee49ac34051a",
    "00eaaf091a46dad3d84025f11fd3ee49ac34051a"
+  ]
+ },
+ "352.30-3.12.46": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "http://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Vladim\u00edr \u010cun\u00e1t <vcunat@gmail.com>"
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidia-x11/default.nix:62"
+  },
+  "revs": [
+   "082b0ee2a14b111c26108ecafab86d1e73992c85",
+   "082b0ee2a14b111c26108ecafab86d1e73992c85"
   ]
  },
  "375.26-3.12.69": {

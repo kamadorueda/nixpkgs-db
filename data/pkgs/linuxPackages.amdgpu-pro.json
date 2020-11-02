@@ -206,7 +206,7 @@
   },
   "revs": [
    "019350ac01d5ea2acf00c6552eae7425ea633280",
-   "02187c0319faab178f127578d07d50aa90cea4dd"
+   "073a8e8ba5a95653d0944434ceedc3f32b7b0089"
   ]
  },
  "16.60-4.9.15": {
@@ -236,7 +236,7 @@
   },
   "revs": [
    "00239ce8e9baeef0ea55fd0995a55e0b15a25ac9",
-   "05fcddf977485848c5d3b40141bd23823003df5c"
+   "07c25415945ddd52fe0f10a989073453e1c6fc8f"
   ]
  },
  "16.60-4.9.16": {
@@ -386,7 +386,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "058610c3552718c91c62bed4b952622448818746"
+   "07306f437ccd4839adf2af5fe2b11175c7d5af02"
   ]
  },
  "16.60-4.9.21": {
@@ -507,6 +507,36 @@
   "revs": [
    "02682e509389a6de23a2614da3b43abebf45a4f2",
    "036e0f114a83da8b90c620677d14fc8d0e05f64d"
+  ]
+ },
+ "16.60-4.9.25": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    "David McFarland <corngood@gmail.com>"
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:164"
+  },
+  "revs": [
+   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9",
+   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9"
   ]
  },
  "16.60-4.9.28": {
@@ -656,7 +686,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "070825d443a384e8cf2928bab0367d430aaeca75"
+   "0789a2a4d6d66a6c87308a596c61e5f34c81677c"
   ]
  },
  "17.10-4.14": {
@@ -716,7 +746,7 @@
   },
   "revs": [
    "022cbdd7e75db244f6182efe362f95cdcb4250f3",
-   "022cbdd7e75db244f6182efe362f95cdcb4250f3"
+   "073d3f086932a2fadad113196a073a3ecb2d1f7e"
   ]
  },
  "17.10-4.14.21": {
@@ -908,7 +938,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "016274cc6c50dd997fb8fe8ffa04d984f7789a94"
+   "07f1fe42bb6758ec0143acd8154112c98db7b855"
   ]
  },
  "17.10-4.14.27": {
@@ -1100,7 +1130,7 @@
   },
   "revs": [
    "021978300c8c6d2bdf1156a8671bbc9cb7db7268",
-   "021978300c8c6d2bdf1156a8671bbc9cb7db7268"
+   "080bd323ad1420979e81375a48df286bc9f3a179"
   ]
  },
  "17.10-4.9.27": {
@@ -1190,7 +1220,7 @@
   },
   "revs": [
    "00572d595c2aaec1d8196fb913a018696326e824",
-   "028f259ce24a754824d135975392841f15c40946"
+   "077840e5283719b135d267d9a64ca99543886577"
   ]
  },
  "17.10-4.9.30": {
@@ -2093,6 +2123,36 @@
    "045046389a9ccd98cc76c7947e3b95cd8c817b9e"
   ]
  },
+ "17.10-4.9.84": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    "David McFarland <corngood@gmail.com>"
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:164"
+  },
+  "revs": [
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0",
+   "0827a4624679ea82e8e9dfe818287f3a99f9c3b0"
+  ]
+ },
  "17.10-4.9.85": {
   "meta": {
    "description": "AMDGPU-PRO drivers",
@@ -2264,7 +2324,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "0500ca4ef4c01dbedf9f802bb398f00100565bad"
+   "07e2b59812de95deeedde95fb6ba22d581d12fbc"
   ]
  },
  "17.40-4.14.104": {
@@ -2682,7 +2742,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "065fd9645a7b3355b8ee1b82b779415bbd605b39"
+   "079a2ac46911b0467e087476cf8eb296b2c2b65c"
   ]
  },
  "17.40-4.14.33": {
@@ -2986,7 +3046,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "01a525b84e9c22daa7fbce4e006c87e4e2f7d41d"
+   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
   ]
  },
  "17.40-4.14.41": {
@@ -3062,7 +3122,7 @@
   },
   "revs": [
    "009d4341d80ec39db2f4da180de3bebf19a4ae48",
-   "016922f88ba9d86b611115463c45ee84f238f64e"
+   "077bb0876bff9db7977f06153e5e10688379cd47"
   ]
  },
  "17.40-4.14.43": {
@@ -3214,7 +3274,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "02b0389cbc21a8a48946e3b4c04cc03d4c07da60"
+   "07ba0ed756bc8b18b6430c2d5b04d678f65853fc"
   ]
  },
  "17.40-4.14.48": {
@@ -3328,7 +3388,7 @@
   },
   "revs": [
    "0127c4295f985515ebd6381d42210118632455b9",
-   "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce"
+   "080ac28493e085176b45e610c5eb1a449313014e"
   ]
  },
  "17.40-4.14.51": {
@@ -5571,7 +5631,7 @@
   },
   "revs": [
    "03050e9749e1548f1648aae5c062c954eaad546e",
-   "03050e9749e1548f1648aae5c062c954eaad546e"
+   "08414dd72e4bf7217474846f2ac56612e4f33acb"
   ]
  },
  "17.40-4.19.30": {
@@ -6065,7 +6125,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "03badf6e3052eb4bd321436e2ce3f3d3df41cdc7"
+   "07f649b8fe48391b9fb161a1685842f8a93d9537"
   ]
  },
  "17.40-4.19.43": {
@@ -6217,7 +6277,7 @@
   },
   "revs": [
    "00932b9d08983847214b811a6673130bf6646d81",
-   "024a383d64036dab02157927369ca680427aa61d"
+   "0728c3e026e3ac2542a9673d57533829e552e218"
   ]
  },
  "17.40-4.19.47": {
@@ -6812,7 +6872,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "020468512626f9b078801155b4016d14b2d43dec"
+   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
   ]
  },
  "17.40-4.19.64": {
@@ -7304,7 +7364,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0825e382c0fa98805858bb1a1281130e4cee5b2a"
   ]
  },
  "17.40-4.19.91": {
@@ -8084,7 +8144,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "040f6116090397caae9ff1490e77bc201741db11"
+   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
   ]
  },
  "17.40-5.4.29": {
@@ -8201,7 +8261,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "0182312e119121c27f59455ed0e35ccb6cc72b1e"
+   "07b3634cb4b31f515e8d6667b2fa11ada16fbec3"
   ]
  },
  "17.40-5.4.32": {
@@ -9020,7 +9080,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "04fef4c0e97ecebc91ef3a545fac2321b026762c"
+   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
   ]
  },
  "17.40-5.4.54": {
@@ -9332,7 +9392,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "04b2a20122e39245bfe5136e61267fcf26c56685"
+   "074e05c6d8be92dca22a9096890bdb89cedbc6e8"
   ]
  },
  "17.40-5.4.62": {
@@ -9605,7 +9665,7 @@
   },
   "revs": [
    "01835945ca8a3db30c044b7d1f2c880f42ecf448",
-   "05eb3496e6d0995cc5ee65d8e4bd40eed30db21e"
+   "07e5844fdf6fe99f41229d7392ce81cfe191bcfc"
   ]
  },
  "17.40-5.4.69": {
@@ -9722,7 +9782,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "05d90313993c0912521780dbb0fc1c35d5520e06"
+   "07b023fd2ae4113adeaa3b41a877643ac98f393d"
   ]
  },
  "17.40-5.4.72": {
