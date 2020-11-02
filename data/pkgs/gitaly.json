@@ -160,7 +160,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "028164ef057119ee37c99bcb98224672441d2d81"
+   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
   ]
  },
  "0.120.0": {
@@ -442,7 +442,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "0266996a8db7cc41c7951fda993fe8eb7c386695"
+   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
   ]
  },
  "0.129.0": {
@@ -908,7 +908,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e"
+   "092deb9cf8378a0950574d714a60d7767da0fda1"
   ]
  },
  "0.95.0": {
@@ -1108,7 +1108,101 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+   "09255d40093800604540dc729a30382b3522f2aa"
+  ]
+ },
+ "1.20.0": {
+  "meta": {
+   "description": "",
+   "homepage": "http://www.gitlab.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robinlambertz+dev@gmail.com",
+     "github": "roblabla",
+     "name": "Robin Lambertz"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "gitaly",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:194"
+  },
+  "revs": [
+   "0ba98bb64ca94d3e182b8533afd4d129804a843b",
+   "0ba98bb64ca94d3e182b8533afd4d129804a843b"
   ]
  },
  "1.27.0": {
@@ -1621,7 +1715,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
  "1.53.2": {
@@ -1701,7 +1795,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
   ]
  },
  "1.7.1": {
@@ -1795,7 +1889,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "0536257612ce3ac5be90f989525994e9e780f3b8"
+   "0a948da8afed635604bcf6cf3d69ca0f8e21f025"
   ]
  },
  "1.72.1": {
@@ -2005,7 +2099,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "04379d0a6a10434ab867efaf11b8220e8f0d558b"
+   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
   ]
  },
  "12.10.11": {
@@ -2355,7 +2449,7 @@
   },
   "revs": [
    "0072d12b60fa1ce11bce8478710ee6c33565e279",
-   "0419b78866b91967a12e42684369f5b6ea655696"
+   "0a5ec494b574ccd3db3b234c7d6637d127bd16da"
   ]
  },
  "12.8.10": {
@@ -2571,7 +2665,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "0759da4ee68461d7d647183478ff414d32ac549b"
+   "098e5a78d959194ce4b9ea0fb4e05c8c8d295150"
   ]
  },
  "12.8.6": {
@@ -2647,7 +2741,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
+   "098fdc6bafa3f592f0c55543f74656d7a0c3e85a"
   ]
  },
  "12.8.7": {
@@ -2979,7 +3073,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0672de5b894a15e97da9cf82bf3052bde7919691"
+   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
   ]
  },
  "13.0.3": {
@@ -3113,7 +3207,7 @@
   },
   "revs": [
    "0026092213b837bbefeb5cb3ccb46c975ca79284",
-   "06d0a781d8a3818d08f2f8faf8a288471b85a48f"
+   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
   ]
  },
  "13.0.6": {

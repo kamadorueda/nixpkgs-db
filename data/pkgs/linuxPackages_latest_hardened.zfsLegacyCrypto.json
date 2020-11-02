@@ -282,7 +282,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "0514ae44df84156b544e87694f012a35bce0ab46"
+   "0a224fe2803ecde896a00a82681ff06c7d5adfad"
   ]
  },
  "2018-02-01-4.15.15": {
@@ -452,7 +452,7 @@
   },
   "revs": [
    "008af1452515d6747e0b609d74cddad2460baeb7",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "0a97eb36be86424973817c1b52c85e08e14d1589"
   ]
  },
  "2018-02-01-4.15.18": {
@@ -510,7 +510,7 @@
   },
   "revs": [
    "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e",
-   "077bb0876bff9db7977f06153e5e10688379cd47"
+   "085225882fd563967d49a8762a482ea43a4a69f8"
   ]
  },
  "2018-02-01-4.15.2": {
@@ -580,7 +580,7 @@
   },
   "revs": [
    "0153599164e7ef2266c9de4979369daadb3a3cad",
-   "0586da4b3784a99c103d61e199a239b91c9a57c4"
+   "0ab1067d120e15a0fa8594f63441cb720f08f0c3"
   ]
  },
  "2018-02-01-4.15.4": {
@@ -615,7 +615,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "045046389a9ccd98cc76c7947e3b95cd8c817b9e"
+   "0867f303bd6be96fef187c4c20424f2290ef9082"
   ]
  },
  "2018-02-01-4.15.5": {
@@ -720,7 +720,7 @@
   },
   "revs": [
    "004a59f18e9b82b5130e95c8dfc1156f99bb7f9e",
-   "01360a2845d68b7decdf5f0372f7bd0d140f533b"
+   "0a0b31db3dd44645effced1af37b18e80b2e80ce"
   ]
  },
  "2018-02-01-4.15.8": {
@@ -886,7 +886,7 @@
   },
   "revs": [
    "001275ca613ed6e88a5bc74e9c72bbfbe240bbe0",
-   "026f65273c0bba3139be8407ac5a29d0c6de4ab8"
+   "09e16249c6993ad473d29a4d50650fae8d115982"
   ]
  },
  "2018-02-01-4.16.18": {
@@ -944,7 +944,7 @@
   },
   "revs": [
    "03928bebe995b11c953b6801b6a72ca76ffbc116",
-   "072b99dff2ca24a75d113e4a58f781f025858083"
+   "0a76d2f03eda480c40f5fe708149c9b8366a9d9a"
   ]
  },
  "2018-02-01-4.17.10": {
@@ -1118,7 +1118,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
+   "0a18b917cac4bdad1370049f0d0a463ea678016f"
   ]
  },
  "2018-02-01-4.17.13": {
@@ -1293,6 +1293,64 @@
   "revs": [
    "01a10ec4bfaccd21be746beb4d655fea8f146d69",
    "01a10ec4bfaccd21be746beb4d655fea8f146d69"
+  ]
+ },
+ "2018-02-01-4.17.18": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:133"
+  },
+  "revs": [
+   "08dddf5f5d7f879a6b8da5e0705f94967ea06d47",
+   "08dddf5f5d7f879a6b8da5e0705f94967ea06d47"
   ]
  },
  "2018-02-01-4.17.19": {
@@ -1524,7 +1582,7 @@
   },
   "revs": [
    "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b",
-   "0090b88ec30bda8ebe68e8e88f9ca6cd27400e4b"
+   "0a2747c4edb5c0df40d26126dde037f695eb7d84"
   ]
  },
  "2018-02-01-4.17.5": {
@@ -1582,7 +1640,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "0702fbd88e4b441615b177d8186bd316a5d90473"
+   "08b766921dce9ff67c644ad65135ce57aaaf796b"
   ]
  },
  "2018-02-01-4.17.6": {
@@ -1756,7 +1814,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "0186ec73291fd009c05294126cc097fb757ec509"
+   "0a65e4f28011b04b361fc6a8b0e487e440dd54d7"
   ]
  },
  "2018-02-01-4.17.9": {
@@ -1814,7 +1872,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "0438900c7a3f138df81a68a8228375db5884671f"
+   "09cfb65c99cbf1f1d7d4fe45bc09adc8afb2b2f4"
   ]
  },
  "2018-02-01-4.18": {

@@ -406,7 +406,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "05dbbae47cfc9c03badfe4616be84d17acf44fbc"
+   "08b85f5f9917cad708faab7fc81b1c155d478328"
   ]
  },
  "2016-08-01": {
@@ -570,7 +570,7 @@
   },
   "revs": [
    "0018599a26747abc03457cf67c8cbc5d351661a3",
-   "031d639b4d2119fa5d6ffaa1e24d7243ec959b69"
+   "09f6fea799e4915a56f9cdc5d603de887673408d"
   ]
  },
  "2016-11-03": {
@@ -861,7 +861,7 @@
   },
   "revs": [
    "002a2b479a245d10691a394454f29e27d95de719",
-   "05126bc8503a37bfd2fe80867eb5b0bea287c633"
+   "0b0ea40ac3055a8deb69d049c12cce778b433ff3"
   ]
  },
  "2017-05-03": {
@@ -1029,7 +1029,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "06e50006d479d5316a34bde41d8a3a71916781a6"
+   "0a941e0b66ab86cf359d4f158bda86c9742c4b2b"
   ]
  },
  "2018-01-22": {
@@ -1113,7 +1113,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e"
+   "092deb9cf8378a0950574d714a60d7767da0fda1"
   ]
  },
  "2018-04-25": {
@@ -1147,7 +1147,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "038263eedc93b2faf23a7dd285f6202e78f9b741"
+   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
   ]
  },
  "2018-07-29": {
@@ -1215,7 +1215,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "031737126c72c2cdc117dcc42472a8475f835bb8"
+   "09cb8c3c18019ae4b8da06c56f6b6b9152fd8fb7"
   ]
  },
  "2018-09-14": {
@@ -1351,7 +1351,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
   ]
  },
  "2019-04-04": {
@@ -1694,6 +1694,40 @@
    "04cc8385233bdb0d63b19cdc13a61a23af10b4f4"
   ]
  },
+ "2019-05-08": {
+  "meta": {
+   "description": "A framework for managing your zsh configuration",
+   "homepage": "https://ohmyz.sh/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Oh My Zsh is a framework for managing your zsh configuration.\n\nTo copy the Oh My Zsh configuration file to your home directory, run\nthe following command:\n\n  $ cp -v $(nix-env -q --out-path oh-my-zsh | cut -d' ' -f3)/share/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc\n",
+   "maintainers": [
+    {
+     "email": "sivanov@colimite.fr",
+     "github": "scolobb",
+     "name": "Sergiu Ivanov"
+    },
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "oh-my-zsh",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/shells/zsh/oh-my-zsh/default.nix:60"
+  },
+  "revs": [
+   "084d1915b8ea360b54bc208623f686e079c013b4",
+   "09c7ba418338752dc75a8fafbe50338a7e6e6fe1"
+  ]
+ },
  "2019-05-09": {
   "meta": {
    "description": "A framework for managing your zsh configuration",
@@ -1759,7 +1793,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "032d0bafce2afe4e6aeebf745cc868e9456cd247"
+   "084d75adb8eef4c40bb07248f6f5477940ed0171"
   ]
  },
  "2019-05-17": {
@@ -1861,7 +1895,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "0202d6db56d9cb2bedc1541f826e52589f642bf9"
+   "0b7305e7830683300fdc9bd3e83000bc9fa2a27b"
   ]
  },
  "2019-05-26": {
@@ -2125,7 +2159,7 @@
   },
   "revs": [
    "03503121da3305b03b17d9f4fbfe99258cfd195f",
-   "03503121da3305b03b17d9f4fbfe99258cfd195f"
+   "08dbc6097423baeb8529e758f470af983fbaab50"
   ]
  },
  "2019-06-12": {
@@ -2189,7 +2223,7 @@
   },
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
-   "0515392ed39e6486302b79ee8483db83c8ef3375"
+   "08dae69741a91e12a7a1910ee1339b48cf346611"
   ]
  },
  "2019-06-15": {
@@ -2452,7 +2486,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "031c6151dd282572bdf3fb3a8c2a5af677c83d7b"
+   "08d10e04dbaa740ffbe7395cbb72fd38440b1ea4"
   ]
  },
  "2019-07-22": {
@@ -2519,7 +2553,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
+   "0ad3568114382c0f50e83a13991370a13a6aab06"
   ]
  },
  "2019-07-31": {
@@ -2588,7 +2622,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
  "2019-08-06": {
@@ -2728,7 +2762,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "04a0b11c9b7bd00913f88cc8affd497aac9902aa"
+   "0b7494ed2b8641cbe28ab9a74b54bc53408f031b"
   ]
  },
  "2019-12-07": {
@@ -2874,7 +2908,7 @@
   },
   "revs": [
    "00907b2b44c9e11b4c7ea8707dbadc9f86fca20e",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0aa20a002ea2f4161f0b3f3d46628a9b7ec1a55b"
   ]
  },
  "2019-12-20": {
@@ -3462,7 +3496,7 @@
   },
   "revs": [
    "0036573d305dc724ad3acd8f6a406bc6113866cc",
-   "03f246620d2e6cf5fa47b44b43c35bcc7aaaebde"
+   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
   ]
  },
  "2020-02-04": {
@@ -3907,7 +3941,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "03ed5af8596c4729708b6c0536bd2fd670bd514b"
+   "0af1d360144955a585835bb9fb5e604c8bd1cb9f"
   ]
  },
  "2020-03-02": {
@@ -4055,7 +4089,7 @@
   },
   "revs": [
    "0072d12b60fa1ce11bce8478710ee6c33565e279",
-   "0810dc1129ecca2bdf57266df0bede95e90c26d7"
+   "0b2047d71299577e3edef4ca4b7f3b6b3d0c4a19"
   ]
  },
  "2020-03-05": {
@@ -4666,7 +4700,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "068beb2c07788ea5fd8a47d0ef9d284b47df7dfc"
+   "089c6660b0fb3cde60cae7b2e15b6d8c2b576e4c"
   ]
  },
  "2020-05-11": {
@@ -4897,7 +4931,7 @@
   },
   "revs": [
    "0527318a8818a0560bebff2d1171007072e2b962",
-   "0527318a8818a0560bebff2d1171007072e2b962"
+   "0900872b02ca8e250a16642d445026a846de9f6a"
   ]
  },
  "2020-05-20": {
@@ -5282,7 +5316,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "024a7cec68b1cd9ea10f86124aa021ee806b04d8"
+   "08900c0554657442c60c86e54081325c0f4cedce"
   ]
  },
  "2020-06-05": {
@@ -5436,7 +5470,7 @@
   },
   "revs": [
    "0026092213b837bbefeb5cb3ccb46c975ca79284",
-   "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80"
+   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
   ]
  },
  "2020-06-10": {
@@ -5513,7 +5547,7 @@
   },
   "revs": [
    "004c6c149aae67256853e7cd69a86626a04d02d1",
-   "05c4c9e72931e25ba8615c6377f718680c470b87"
+   "0952336d1d048617b9c976e90c4078ebe0c7ab46"
   ]
  },
  "2020-06-17": {
@@ -5821,7 +5855,7 @@
   },
   "revs": [
    "0149d368656c08bacbadaa0f6591e4e9948059f7",
-   "0149d368656c08bacbadaa0f6591e4e9948059f7"
+   "0b0b74367f15cf7a0f17b4ee99cc5668c2499b74"
   ]
  },
  "2020-06-26": {
@@ -6129,7 +6163,7 @@
   },
   "revs": [
    "005b5770f482700cf0d787106b39c5efba030ae6",
-   "017f120e5042b7303b86d31110f242080856f9ef"
+   "0a5fd4c12e6fd5c9067c03dc3713a266ab72c4b7"
   ]
  },
  "2020-07-05": {
@@ -6206,7 +6240,7 @@
   },
   "revs": [
    "008e7e3244ebc374d8f8df9632de0e821619319d",
-   "01c4a388ee49f3df5c71fb2886c926beda660577"
+   "091189c6c2d3956fa649f51155e67f2fe77e48d6"
   ]
  },
  "2020-07-06": {
@@ -6360,7 +6394,7 @@
   },
   "revs": [
    "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
-   "05f8c54f5bd8d55abfdbe7bd2a0e39d1e2531800"
+   "09558f1dbf382e8fced432c4aa023e3aad895243"
   ]
  },
  "2020-07-13": {
@@ -7377,7 +7411,7 @@
   },
   "revs": [
    "018f0862ba57c7d76573eb22bba90dc934800388",
-   "018f0862ba57c7d76573eb22bba90dc934800388"
+   "09c383c17a53e6928b49d973335bf6698f67cd31"
   ]
  },
  "2020-09-02": {
@@ -7693,7 +7727,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "0079133e4248a855f6247854220e385ef62cd3be"
+   "0a5be167a3b5808c2b42a8660cf015c79965b204"
   ]
  },
  "2020-09-12": {
@@ -7930,7 +7964,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "036ef044fd5b7a604990e8fa76ff8a918fa786f4"
+   "0a6df8a06627cab6e6c558d98eb89494e48c29a5"
   ]
  },
  "2020-09-29": {
@@ -8088,7 +8122,7 @@
   },
   "revs": [
    "022df7ef0293a2a42d6c7741b216ae938532e399",
-   "059413e2019c2ae222ab4a6c2ea9ed11a1f69d2b"
+   "0a9641b3bbc30e1cb6128b03e455b0a2925a7d55"
   ]
  },
  "2020-10-05": {
@@ -8167,7 +8201,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "074f6d9d848dc2672b71b82683de67f4dab9c30b"
+   "0a42b8cac625f995b962b3aa991da8a5c9d3f64a"
   ]
  },
  "2020-10-08": {
@@ -8325,7 +8359,7 @@
   },
   "revs": [
    "021c6fee6707ba81ed2c6c034aad6b00a7bf4310",
-   "0756b8a7bf25e7a5b4fbfa578e95a28cb5ef6380"
+   "08709ec6901ec0b3514fd23099352187274733df"
   ]
  },
  "2020-10-13": {
@@ -8720,7 +8754,7 @@
   },
   "revs": [
    "019fa5f6086b2744c5c0f3ce6a756f9a8aa70e74",
-   "05659a44ceb009f9c0c7060c3c1456276a2b3472"
+   "0b884cec25bdf211f9f687e0945dbd0da363f1d8"
   ]
  },
  "2020-10-29": {
@@ -8799,7 +8833,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33"
+   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
   ]
  }
 }

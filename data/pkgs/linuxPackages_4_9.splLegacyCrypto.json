@@ -170,7 +170,7 @@
   },
   "revs": [
    "00349e27e5449e3243ba7525446900a16e1f4c2b",
-   "027180ab034989e0cd6302b6605ff7ea75d68d43"
+   "085225882fd563967d49a8762a482ea43a4a69f8"
   ]
  },
  "2018-01-24-4.9.103": {
@@ -402,7 +402,7 @@
   },
   "revs": [
    "01040d9c27cce96a095dffe8225e220fb8e8dbcc",
-   "0415710a5d58b705a2d019fbf94a903e858d8ff4"
+   "0ac4bae6ef5fe0c59bc5264ee1dcdaa90ac40905"
   ]
  },
  "2018-01-24-4.9.107": {
@@ -576,7 +576,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0648462fd8d1aec306c38f603908063e19f54bc9"
+   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
   ]
  },
  "2018-01-24-4.9.110": {
@@ -634,7 +634,7 @@
   },
   "revs": [
    "0068fea88cf6d9e1efe031753f9e48a424967ef8",
-   "0519b48ab86964c57e692782ad99cffb697a74aa"
+   "0a70d65fd471e30fc1f300cc4eebaf18b56d90b8"
   ]
  },
  "2018-01-24-4.9.111": {
@@ -808,7 +808,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "0186ec73291fd009c05294126cc097fb757ec509"
+   "0a65e4f28011b04b361fc6a8b0e487e440dd54d7"
   ]
  },
  "2018-01-24-4.9.114": {
@@ -866,7 +866,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "0438900c7a3f138df81a68a8228375db5884671f"
+   "09cfb65c99cbf1f1d7d4fe45bc09adc8afb2b2f4"
   ]
  },
  "2018-01-24-4.9.115": {
@@ -1040,7 +1040,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "02c09e01712ce0b61e5c8f7159047699a434f7fc"
+   "0a18b917cac4bdad1370049f0d0a463ea678016f"
   ]
  },
  "2018-01-24-4.9.118": {
@@ -1275,6 +1275,64 @@
    "01a10ec4bfaccd21be746beb4d655fea8f146d69"
   ]
  },
+ "2018-01-24-4.9.123": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "08dddf5f5d7f879a6b8da5e0705f94967ea06d47",
+   "08dddf5f5d7f879a6b8da5e0705f94967ea06d47"
+  ]
+ },
  "2018-01-24-4.9.124": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -1330,7 +1388,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "000c7800a1030a61677b64e9edb1670d3d940194"
+   "0ae342d961c37e829fede0fcb918be05a1ed7eeb"
   ]
  },
  "2018-01-24-4.9.125": {
@@ -1829,7 +1887,7 @@
   },
   "revs": [
    "022cbdd7e75db244f6182efe362f95cdcb4250f3",
-   "073d3f086932a2fadad113196a073a3ecb2d1f7e"
+   "0867f303bd6be96fef187c4c20424f2290ef9082"
   ]
  },
  "2018-01-24-4.9.83": {
@@ -2274,7 +2332,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "0514ae44df84156b544e87694f012a35bce0ab46"
+   "0a224fe2803ecde896a00a82681ff06c7d5adfad"
   ]
  },
  "2018-01-24-4.9.92": {
@@ -2390,7 +2448,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "008af1452515d6747e0b609d74cddad2460baeb7"
+   "092deb9cf8378a0950574d714a60d7767da0fda1"
   ]
  },
  "2018-01-24-4.9.94": {
@@ -2738,7 +2796,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
+   "0a941b03d055bfac01b1191067cc0f12ec2b7186"
   ]
  }
 }

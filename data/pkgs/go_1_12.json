@@ -212,7 +212,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "03f246620d2e6cf5fa47b44b43c35bcc7aaaebde"
+   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
   ]
  },
  "1.12.16": {
@@ -361,6 +361,76 @@
    "050b0068e5760d35c712fe4e77cc1cbf26c79640"
   ]
  },
+ "1.12.5": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "xaviosx@gmail.com",
+     "github": "velovix",
+     "name": "Tyler Compton"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/go/1.12.nix:240"
+  },
+  "revs": [
+   "0b848c3e927090cc38a9de95b1ed55afabcef50a",
+   "0b848c3e927090cc38a9de95b1ed55afabcef50a"
+  ]
+ },
  "1.12.9": {
   "meta": {
    "description": "The Go Programming language",
@@ -428,7 +498,7 @@
   },
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
-   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
   ]
  }
 }

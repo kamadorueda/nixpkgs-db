@@ -219,7 +219,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "016922f88ba9d86b611115463c45ee84f238f64e"
+   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
   ]
  },
  "3.6.1": {
@@ -475,6 +475,91 @@
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
    "00a879ccda2c34e385c811a84619718d114d660b"
+  ]
+ },
+ "3.6.5": {
+  "meta": {
+   "description": "Python Cryptography Toolkit",
+   "homepage": "https://www.pycryptodome.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.6-pycryptodome",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pycryptodome/default.nix:14"
+  },
+  "revs": [
+   "09e6f5c583465d0a1fa6aa471709c98d8255b499",
+   "09e6f5c583465d0a1fa6aa471709c98d8255b499"
   ]
  },
  "3.6.6": {

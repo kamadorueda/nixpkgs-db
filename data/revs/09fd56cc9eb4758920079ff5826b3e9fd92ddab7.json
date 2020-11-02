@@ -1,0 +1,4 @@
+{
+ "summary": "* Upstart in the stdenv branch is incompatible with Upstart in the   trunk: it segfaults when it tries to start the new Upstart, which   locks up the entire system.  This may be because of the different   Glibc, or something.  In any case, require a reboot.",
+ "timestamp": "1240699728"
+}

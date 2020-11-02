@@ -269,7 +269,7 @@
   },
   "revs": [
    "009976d1b9f3649d16ebf0a3fd40833bd0cb243c",
-   "0464cbf178a3bdc54710dcd4e45b1b450d032f6c"
+   "09255d40093800604540dc729a30382b3522f2aa"
   ]
  },
  "4.20.17-5.2.5_1.26055.20180108": {
@@ -308,7 +308,46 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
+   "08e9273e29ef087950078c75b068b053d5838141"
+  ]
+ },
+ "4.20.7-5.2.5_1.26055.20180108": {
+  "meta": {
+   "description": "Realtek rtl8821ce driver",
+   "homepage": "https://github.com/tomaspinho/rtl8821ce",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "heehooman+nixpkgs@gmail.com",
+     "github": "hhm0",
+     "name": "hhm"
+    }
+   ],
+   "name": "rtl8821ce",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821ce/default.nix:31"
+  },
+  "revs": [
+   "09080380ee9406259f9ab39e07481b25b170fffb",
+   "097746fec2b60a48c4a12e25717848bf4203761e"
   ]
  },
  "4.20.8-5.2.5_1.26055.20180108": {

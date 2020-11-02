@@ -29,7 +29,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "037f300184dd2a52399f9b75421e2374d36ab39a"
+   "0b0591810eb6f744d47ec7a3a4e6dad9e75b5c00"
   ]
  },
  "1.5.2": {
@@ -84,6 +84,85 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+  ]
+ },
+ "1.8.0": {
+  "meta": {
+   "description": "Run-Your-Own Firefox Sync Server",
+   "homepage": "https://github.com/mozilla-services/syncserver",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python2.7-syncserver",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/syncserver/default.nix:37"
+  },
+  "revs": [
+   "08aa3e7f2ebbd73868712db24ed672f91f37a5bc",
+   "08aa3e7f2ebbd73868712db24ed672f91f37a5bc"
   ]
  }
 }

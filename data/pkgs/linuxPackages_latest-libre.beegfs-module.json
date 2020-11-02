@@ -56,7 +56,7 @@
   },
   "revs": [
    "0160fadd7c8b2d13d84b747a6b031b18d9593daa",
-   "0160fadd7c8b2d13d84b747a6b031b18d9593daa"
+   "096be6d9418e6ead24db1a56738d8a3086c298c5"
   ]
  },
  "7.0-4.18.12": {
@@ -116,7 +116,7 @@
   },
   "revs": [
    "00807a645f18b9138fa3369968a6b68729f48d41",
-   "04169f4c3cb27c82997c451ee03704e2ec8a4771"
+   "09cb8c3c18019ae4b8da06c56f6b6b9152fd8fb7"
   ]
  },
  "7.0-4.18.14": {
@@ -146,7 +146,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "0560caa57893a3c8dd11aeece110672c720c9496"
+   "0a898e5980909ac2a9fce3b319c8d67310fe40d1"
   ]
  },
  "7.0-4.18.15": {
@@ -237,6 +237,36 @@
   "revs": [
    "06834f72628e8485f360377673ef1b3702e5989e",
    "06834f72628e8485f360377673ef1b3702e5989e"
+  ]
+ },
+ "7.0-4.18.18": {
+  "meta": {
+   "description": "High performance distributed filesystem with RDMA support",
+   "homepage": "https://www.beegfs.io",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "beegfs-module",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/beegfs/kernel-module.nix:39"
+  },
+  "revs": [
+   "09dfd188bd9cb8fc4242b473a428907606b956db",
+   "09dfd188bd9cb8fc4242b473a428907606b956db"
   ]
  },
  "7.0-4.18.19": {
@@ -356,7 +386,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "00ba14dcb7c394999b7acfef7d812125aa4480bb"
+   "0b3e0cdab2fc009d5a7cdd21602e9866f3d728f4"
   ]
  },
  "7.0-4.18.8": {
@@ -416,7 +446,7 @@
   },
   "revs": [
    "0166be71f6e1526c7c2b636d014b465e324610df",
-   "04b04e974531ad9196bf67d1e575b66e935a51dc"
+   "0b82df8dbe8540eb8a3acc7ff093ea872ae131a8"
   ]
  },
  "7.0-4.19": {
@@ -476,7 +506,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "0217c2980d9eb5859fa6098f06ed5faa1e1d755c"
+   "09d790c03d533b902353187fd765cffcbea87d78"
   ]
  },
  "7.0-4.19.10": {
@@ -566,7 +596,7 @@
   },
   "revs": [
    "013927f93cbca5c823710042e469d573d17859c8",
-   "0312ef11d63b32273ac86a1ad7e7416582a08e1b"
+   "0a8f35c998f55f744674ed23b327162df39fb6ae"
   ]
  },
  "7.0-4.19.13": {
@@ -626,7 +656,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "001b34abcb4d7f5cade707f7fd74fa27cbabb80b"
+   "08619eabccae83e2075be796b6f58d4ec3327fd7"
   ]
  },
  "7.0-4.19.15": {
@@ -746,7 +776,37 @@
   },
   "revs": [
    "0576b0236940a69118c3cb1ab6406792185c7c1a",
-   "0576b0236940a69118c3cb1ab6406792185c7c1a"
+   "0948f87182c5cb036dfb85477487c127efbc1aa8"
+  ]
+ },
+ "7.0-4.19.19": {
+  "meta": {
+   "description": "High performance distributed filesystem with RDMA support",
+   "homepage": "https://www.beegfs.io",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "beegfs-module",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/beegfs/kernel-module.nix:39"
+  },
+  "revs": [
+   "0ae99e827a27781161a85de56c3c4a4a31ade182",
+   "0ae99e827a27781161a85de56c3c4a4a31ade182"
   ]
  },
  "7.0-4.19.2": {
@@ -777,6 +837,36 @@
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
    "042e81ae533b38bfa3f7cace6090c4638a63876f"
+  ]
+ },
+ "7.0-4.19.23": {
+  "meta": {
+   "description": "High performance distributed filesystem with RDMA support",
+   "homepage": "https://www.beegfs.io",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "beegfs-module",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/beegfs/kernel-module.nix:39"
+  },
+  "revs": [
+   "0ba800c4b4b8f9d0cf3fc50ec2fcdf0954f04c9b",
+   "0ba800c4b4b8f9d0cf3fc50ec2fcdf0954f04c9b"
   ]
  },
  "7.0-4.19.25": {
@@ -836,7 +926,7 @@
   },
   "revs": [
    "01cc1585eaa0874a6e623cf6521b9ab837c408fb",
-   "07ead02f6b1eec7e5b93e5019929d3fdb36287fb"
+   "0ab7392781901b38ca8dbf51a4d8884ed34fc195"
   ]
  },
  "7.0-4.19.29": {
@@ -1016,7 +1106,7 @@
   },
   "revs": [
    "00a51b4012ba43f0eda39b5c2b4e5b35d2070fe9",
-   "06f9b4769b3ee74cd74e915a457b9ce690e019d6"
+   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
   ]
  },
  "7.0-4.19.5": {
@@ -1136,7 +1226,7 @@
   },
   "revs": [
    "007dfa8adcdb86c1442eeb07bc65416ec01d8e6f",
-   "00a9057f750ddd512311b8627913dbec61a23d88"
+   "0baa3307596bb9bf9d8337654dc2b46342ab2462"
   ]
  },
  "7.0-4.19.9": {
@@ -1226,7 +1316,7 @@
   },
   "revs": [
    "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e",
-   "00349e3fdad9b7feb0e836e96c3d6fb1e0d4557e"
+   "0a948da8afed635604bcf6cf3d69ca0f8e21f025"
   ]
  },
  "7.0-4.20.10": {
@@ -1526,7 +1616,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "01a1cb913e007f096cbf7d962c7e3a048c5cfa18"
+   "09665fee2b72ccdd100ca8fc169ba649b15339d0"
   ]
  },
  "7.0-4.20.7": {
@@ -1706,7 +1796,7 @@
   },
   "revs": [
    "00f52f0134cf2be85029ab6b658e7123ff931280",
-   "01d805a432048c8f7da870e971c7993781761c9d"
+   "09a5be4b45c9f2df9d60b9fa6f638d40d3ac2422"
   ]
  },
  "7.0-5.0.12": {
@@ -1796,7 +1886,7 @@
   },
   "revs": [
    "009976d1b9f3649d16ebf0a3fd40833bd0cb243c",
-   "0464cbf178a3bdc54710dcd4e45b1b450d032f6c"
+   "09255d40093800604540dc729a30382b3522f2aa"
   ]
  },
  "7.0-5.0.3": {
@@ -1826,7 +1916,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "03989bea54cb58289a5483f242d5ad2bb1c083c9"
+   "08e9273e29ef087950078c75b068b053d5838141"
   ]
  },
  "7.0-5.0.4": {
@@ -2306,7 +2396,37 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "032d0bafce2afe4e6aeebf745cc868e9456cd247"
+   "08b14d4d36602a85d151dc8a8f3c2992235bdf60"
+  ]
+ },
+ "7.0-5.1.21": {
+  "meta": {
+   "description": "High performance distributed filesystem with RDMA support",
+   "homepage": "https://www.beegfs.io",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "beegfs-module",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/beegfs/kernel-module.nix:39"
+  },
+  "revs": [
+   "0b672bc06360361866b30a9601246d6ae088819e",
+   "0b672bc06360361866b30a9601246d6ae088819e"
   ]
  },
  "7.0-5.1.3": {
@@ -2366,7 +2486,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "0202d6db56d9cb2bedc1541f826e52589f642bf9"
+   "0ab85f4d872e5fc09b8b54a61ab201467dc4fe61"
   ]
  },
  "7.0-5.1.5": {
@@ -2396,7 +2516,7 @@
   },
   "revs": [
    "00932b9d08983847214b811a6673130bf6646d81",
-   "0728c3e026e3ac2542a9673d57533829e552e218"
+   "0bb039bbb0d222bcaf4d2c7e5838e4f2595a5b05"
   ]
  },
  "7.0-5.1.6": {
@@ -2456,7 +2576,7 @@
   },
   "revs": [
    "00322ccb73ed5d5204b7d9e4fad41573337f1470",
-   "035d45a91a090232bbd4dc9cb5cdc9dbac72b8ea"
+   "08d9edbcd768b15adde3ac01db0ea30aee4328f9"
   ]
  },
  "7.0-5.1.8": {
@@ -2516,7 +2636,7 @@
   },
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
-   "0515392ed39e6486302b79ee8483db83c8ef3375"
+   "08dae69741a91e12a7a1910ee1339b48cf346611"
   ]
  },
  "7.0-5.2": {
@@ -2576,7 +2696,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "031c6151dd282572bdf3fb3a8c2a5af677c83d7b"
+   "08d10e04dbaa740ffbe7395cbb72fd38440b1ea4"
   ]
  },
  "7.0-5.2.10": {
@@ -2607,7 +2727,7 @@
   },
   "revs": [
    "01efdec3566b6923bafb1c70fc4b325b9e5a5ce5",
-   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d"
+   "09a56744b2e3c38c8ac9f56e4d048f5593658584"
   ]
  },
  "7.0-5.2.11": {
@@ -2668,7 +2788,7 @@
   },
   "revs": [
    "03dcb3dee477df2764b15697fece1549c8450af2",
-   "03dcb3dee477df2764b15697fece1549c8450af2"
+   "09e633d6805f3a72d69b9826cef4e9ac2917aab1"
   ]
  },
  "7.0-5.2.14": {
@@ -2758,7 +2878,7 @@
   },
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
-   "021d733ea3f87b8c9232020b4e606d08eaca160b"
+   "0b88a5c44dfc04bed22e582ba12f44f46234c3af"
   ]
  },
  "7.0-5.2.2": {
@@ -2788,7 +2908,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
+   "0ad3568114382c0f50e83a13991370a13a6aab06"
   ]
  },
  "7.0-5.2.21": {
@@ -2818,7 +2938,7 @@
   },
   "revs": [
    "02dbdcddcd305680af69e9f9245a04605db18f88",
-   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
   ]
  },
  "7.0-5.2.3": {
@@ -2848,7 +2968,7 @@
   },
   "revs": [
    "0568b622d58c0473b6190e4b33954a2f42919072",
-   "0568b622d58c0473b6190e4b33954a2f42919072"
+   "09278b70fc47286f8f8e08a5b201654124572684"
   ]
  },
  "7.0-5.2.4": {
@@ -2878,7 +2998,7 @@
   },
   "revs": [
    "019c13616b512d0f8b3bd3e5e17356401a8e4457",
-   "06b45a8d70e6c2156e8b0d58ff355ad55e972b9a"
+   "08cde7620d92612c0a922c253c639b11b5551fe6"
   ]
  },
  "7.0-5.2.5": {
@@ -2908,7 +3028,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "07a9c36ccf6a31b5c0b0a2c4f64b0c3a67ff948f"
+   "089da1c14dfdd76c2f3d66c383d97cb3aee34142"
   ]
  },
  "7.0-5.2.6": {
@@ -2938,7 +3058,7 @@
   },
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
-   "016cc8e7901c75250bb736f5cdc1f447c565923e"
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
  "7.0-5.2.7": {
@@ -3028,7 +3148,7 @@
   },
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
-   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
+   "0b848c3e927090cc38a9de95b1ed55afabcef50a"
   ]
  }
 }

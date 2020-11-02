@@ -76,7 +76,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e"
+   "092deb9cf8378a0950574d714a60d7767da0fda1"
   ]
  },
  "10.7.0": {
@@ -113,7 +113,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "028164ef057119ee37c99bcb98224672441d2d81"
+   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
   ]
  },
  "11.10.4": {
@@ -522,7 +522,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "06f9b4769b3ee74cd74e915a457b9ce690e019d6"
+   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
   ]
  },
  "11.5.0": {
@@ -620,7 +620,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "0baa3307596bb9bf9d8337654dc2b46342ab2462"
   ]
  },
  "11.5.4": {
@@ -721,6 +721,55 @@
    "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
+ "11.6.0": {
+  "meta": {
+   "description": "GitLab Community Edition",
+   "homepage": "http://www.gitlab.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "GitLab Community Edition (CE) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab CE on your own servers, in a container, or on a cloud provider.",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "kristoffer@microdisko.no",
+     "github": "krav",
+     "name": "Kristoffer Th\u00f8mt Ravneberg"
+    }
+   ],
+   "name": "gitlab",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/version-management/gitlab/default.nix:112"
+  },
+  "revs": [
+   "0a6dac0de9cac4df2e54d8c4b687edffa24f12e3",
+   "0a6dac0de9cac4df2e54d8c4b687edffa24f12e3"
+  ]
+ },
  "11.6.3": {
   "meta": {
    "description": "GitLab Community Edition",
@@ -767,7 +816,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "0536257612ce3ac5be90f989525994e9e780f3b8"
+   "0a948da8afed635604bcf6cf3d69ca0f8e21f025"
   ]
  },
  "11.7.4": {
@@ -871,7 +920,62 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0000a86d7cd47005096a292a797d2e02ce29e8d8"
+   "09255d40093800604540dc729a30382b3522f2aa"
+  ]
+ },
+ "11.8.2": {
+  "meta": {
+   "description": "GitLab Community Edition",
+   "homepage": "http://www.gitlab.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "GitLab Community Edition (CE) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab CE on your own servers, in a container, or on a cloud provider.",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "kristoffer@microdisko.no",
+     "github": "krav",
+     "name": "Kristoffer Th\u00f8mt Ravneberg"
+    }
+   ],
+   "name": "gitlab",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/version-management/gitlab/default.nix:112"
+  },
+  "revs": [
+   "0ba98bb64ca94d3e182b8533afd4d129804a843b",
+   "0ba98bb64ca94d3e182b8533afd4d129804a843b"
   ]
  },
  "11.9.0": {
@@ -926,7 +1030,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "0624deb5dfc8176db33cd44914e724ec801e756e"
+   "0b03f44c2f1ee0d692e00e5ffc064ad38af4a447"
   ]
  },
  "11.9.1": {
@@ -1145,7 +1249,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "04a0b11c9b7bd00913f88cc8affd497aac9902aa"
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
  "12.1.6": {
@@ -1202,7 +1306,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0391c19a73bbe758acf10f2766d1a54db08bd458"
+   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
   ]
  },
  "12.10.11": {
@@ -1522,7 +1626,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "046a9cf2dd264379d3cbb962fe64c7c5d6a7e57d"
+   "0aa20a002ea2f4161f0b3f3d46628a9b7ec1a55b"
   ]
  },
  "12.5.5": {
@@ -1842,7 +1946,7 @@
   },
   "revs": [
    "05d62c1951ee16f8c2d0ffaa8ab69d9f6a667354",
-   "06afe1ea7b489cdf52fc370a6b211613f6107bfa"
+   "096a51a35a96dee6436dceda76041414e4dc9d02"
   ]
  },
  "12.7.5": {
@@ -1906,7 +2010,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "03ffda3d1e5db136543f4d5c1aa196bb8cd93774"
+   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
   ]
  },
  "12.7.6": {
@@ -2034,7 +2138,7 @@
   },
   "revs": [
    "0072d12b60fa1ce11bce8478710ee6c33565e279",
-   "0419b78866b91967a12e42684369f5b6ea655696"
+   "0a5ec494b574ccd3db3b234c7d6637d127bd16da"
   ]
  },
  "12.8.10": {
@@ -2226,7 +2330,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "0759da4ee68461d7d647183478ff414d32ac549b"
+   "098e5a78d959194ce4b9ea0fb4e05c8c8d295150"
   ]
  },
  "12.8.6": {
@@ -2290,7 +2394,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "006b4b1a4ad22c5b8ec496796f7043d4b2010bc4"
+   "098fdc6bafa3f592f0c55543f74656d7a0c3e85a"
   ]
  },
  "12.8.7": {
@@ -2610,7 +2714,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0672de5b894a15e97da9cf82bf3052bde7919691"
+   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
   ]
  },
  "13.0.3": {
@@ -2738,7 +2842,7 @@
   },
   "revs": [
    "0026092213b837bbefeb5cb3ccb46c975ca79284",
-   "06d0a781d8a3818d08f2f8faf8a288471b85a48f"
+   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
   ]
  },
  "13.0.6": {
@@ -2946,7 +3050,7 @@
   },
   "revs": [
    "000162daed5e6a854d1e034409002aee80e6d8ac",
-   "037f300184dd2a52399f9b75421e2374d36ab39a"
+   "0b0591810eb6f744d47ec7a3a4e6dad9e75b5c00"
   ]
  },
  "8.0.5": {
@@ -2962,7 +3066,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "00903f48201307d8995386f9fc50cd12e24d5d40"
+   "087cb7ba5b3b51c1cdd95de6a096a4b9d4781325"
   ]
  },
  "8.10.3": {
@@ -3058,7 +3162,7 @@
   },
   "revs": [
    "0033f6076ee5c462722bf6077c40ff7949ae6020",
-   "081e942d907bf93e39d163d51ca0da2f3a1d7f60"
+   "09f6fea799e4915a56f9cdc5d603de887673408d"
   ]
  },
  "8.13.5": {
@@ -3106,7 +3210,7 @@
   },
   "revs": [
    "01fd86723c95b4e86fc701b358d9a1f9269427d2",
-   "02cc6797343958c957e476ace2edaf2c6566008a"
+   "0a9965acee3cc074db0da2091cc41aa497e2c426"
   ]
  },
  "8.16.3": {
@@ -3170,7 +3274,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "03c07ac02efb3b9b9e7d28f2108c2929268614fc"
+   "0a1483b83ab23a5ab1c4a2da4389682f872edc6f"
   ]
  },
  "8.17.5": {
@@ -3186,7 +3290,7 @@
   },
   "revs": [
    "002a2b479a245d10691a394454f29e27d95de719",
-   "084a20ecc8bc381c1888acbec2d5ae2b54205bd9"
+   "085a292bdea86e50cdc44c103f3265e9937aca35"
   ]
  },
  "8.17.6": {
@@ -3202,7 +3306,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "05126bc8503a37bfd2fe80867eb5b0bea287c633"
+   "0b0ea40ac3055a8deb69d049c12cce778b433ff3"
   ]
  },
  "8.17.8": {
