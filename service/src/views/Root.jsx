@@ -22,6 +22,7 @@ import { useFetchJSON } from '../hooks/fetch';
 import contentAbout from './About.md';
 import contentContributing from './Contributing.md';
 import { Search } from './Search';
+import { Search as Search2 } from './Search2';
 
 const Tab = (props) => (
   <Nav.Item>
@@ -63,14 +64,23 @@ export const Root = () => {
 
         {/* Dynamic page body */}
         <Switch>
-          <Route exact={true} path="/search">
-            <Search pkgs={pkgs} revs={revs} />
-          </Route>
           <Route exact={true} path="/about">
             {markdownTab(contentAbout)}
           </Route>
           <Route exact={true} path="/contributing">
             {markdownTab(contentContributing)}
+          </Route>
+          <Route exact={true} path="/pkg/:attribute">
+            ...
+          </Route>
+          <Route exact={true} path="/pkg/:attribute/:version">
+            ...
+          </Route>
+          <Route exact={true} path="/search">
+            <Search pkgs={pkgs} revs={revs} />
+          </Route>
+          <Route exact={true} path="/search2">
+            <Search2 pkgs={pkgs} revs={revs} />
           </Route>
           <Redirect to="/search" />
         </Switch>
