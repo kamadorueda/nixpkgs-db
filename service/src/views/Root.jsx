@@ -16,7 +16,7 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { DATA_SOURCE } from '../constants';
+import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { markdownTab } from '../components/Markdown';
 import { useFetchJSON } from '../hooks/fetch';
 import contentAbout from './About.md';
@@ -32,8 +32,8 @@ const Tab = (props) => (
 );
 
 export const Root = () => {
-  const pkgs = useFetchJSON(`${DATA_SOURCE}/data/pkgs.json`, []);
-  const revs = useFetchJSON(`${DATA_SOURCE}/data/revs.json`, []);
+  const pkgs = useFetchJSON(`${GITHUB_RAW_NIXPKGS_DB}/data/pkgs.json`, []);
+  const revs = useFetchJSON(`${GITHUB_RAW_NIXPKGS_DB}/data/revs.json`, []);
 
   return (
     <Container fluid={true}>

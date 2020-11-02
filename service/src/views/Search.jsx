@@ -13,7 +13,7 @@ import {
 } from 'react-bootstrap';
 
 import { ProgressBar } from '../components/ProgressBar';
-import { DATA_SOURCE, NIXPKGS_SOURCE } from '../constants';
+import { GITHUB_RAW_NIXPKGS_DB, GITHUB_NIXPKGS } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
 
 const RESULTS_PER_PAGE = 10;
@@ -25,7 +25,7 @@ const filterPkgs = (pkgs, pkgName) => (
 const Pkg = (props) => {
   const pkg = props.pkg;
 
-  const dataSource = `${DATA_SOURCE}/data/pkgs/${pkg}.json`;
+  const dataSource = `${GITHUB_RAW_NIXPKGS_DB}/data/pkgs/${pkg}.json`;
   const dataJSON = useFetchJSON(dataSource, {});
   const data =  Object.entries(dataJSON).reverse();
 
@@ -54,13 +54,9 @@ const Pkg = (props) => {
                 )}
               </b>
             </Col>
+            <Col sm={3}>{lastData.meta.name}</Col>
             <Col>{lastData.meta.description}</Col>
             <Col sm={1}>{data.length}</Col>
-            <Col sm={2}>
-              {lastData.meta.license?.fullName === undefined
-                ? undefined
-                : lastData.meta.license.fullName}
-            </Col>
           </Row>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey={pkg}>
@@ -85,14 +81,14 @@ const Pkg = (props) => {
                             <Row>
                               <Col>
                                 <code>
-                                  $ <b>nix-shell</b> -p {pkg} -I nixpkgs={`${NIXPKGS_SOURCE}/archive/${itemData.revs[1]}.tar.gz`}
+                                  $ <b>nix-shell</b> -p {pkg} -I nixpkgs={`${GITHUB_NIXPKGS}/archive/${itemData.revs[1]}.tar.gz`}
                                 </code>
                               </Col>
                             </Row>
                             <Row>
                               <Col>
                                 <code>
-                                  $ <b>nix-env</b> -i {pkg} -f {`${NIXPKGS_SOURCE}/archive/${itemData.revs[1]}.tar.gz`}
+                                  $ <b>nix-env</b> -i {pkg} -f {`${GITHUB_NIXPKGS}/archive/${itemData.revs[1]}.tar.gz`}
                                 </code>
                               </Col>
                             </Row>
@@ -179,9 +175,9 @@ const Results = (props) => {
               <Accordion.Toggle as={Card.Header} variant="dark">
                 <Row>
                   <Col sm={3}><b>Attribute</b></Col>
+                  <Col sm={3}><b>Name</b></Col>
                   <Col><b>Description</b></Col>
                   <Col sm={1}><b>Versions</b></Col>
-                  <Col sm={2}><b>License</b></Col>
                 </Row>
               </Accordion.Toggle>
             </Card>
