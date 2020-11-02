@@ -241,6 +241,45 @@
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
+ "0.171": {
+  "meta": {
+   "description": "A set of utilities to handle ELF objects",
+   "homepage": "https://sourceware.org/elfutils/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "elfutils",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/elfutils/default.nix:74"
+  },
+  "revs": [
+   "06fa8674984e8ab637a29b91bdaa11dc5cbacb80",
+   "06fa8674984e8ab637a29b91bdaa11dc5cbacb80"
+  ]
+ },
  "0.172": {
   "meta": {
    "description": "A set of utilities to handle ELF objects",
@@ -277,7 +316,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "069cdfff08e9541c20b25d88e0d176e097223b70"
+   "0702fbd88e4b441615b177d8186bd316a5d90473"
   ]
  },
  "0.173": {

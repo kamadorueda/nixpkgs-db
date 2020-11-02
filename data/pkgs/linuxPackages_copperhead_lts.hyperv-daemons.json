@@ -438,7 +438,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "05c2aa212e062aefcc058b86adf7e367e8f1f6ea"
+   "0702fbd88e4b441615b177d8186bd316a5d90473"
   ]
  },
  "4.14.55": {
@@ -472,7 +472,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "03d49258f67041c58f7941c50542dd2550730fa0"
+   "06e0a518d160d4fa21a64a7f5ac1737378aed6d7"
   ]
  },
  "4.14.56": {
@@ -1019,6 +1019,40 @@
    "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
+ "4.14.75": {
+  "meta": {
+   "description": "Integration Services for running NixOS under HyperV",
+   "homepage": "https://kernel.org",
+   "license": null,
+   "long_description": "This packages contains the daemons that are used by the Hyper-V hypervisor\non the host.\n\nMicrosoft calls their guest agents \"Integration Services\" which is why\nwe use that name here.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "hyperv-daemons",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/hyperv-daemons/default.nix:97"
+  },
+  "revs": [
+   "06e98e05178fcb076a8c7a955208ec71bbd013d0",
+   "06e98e05178fcb076a8c7a955208ec71bbd013d0"
+  ]
+ },
  "4.14.78": {
   "meta": {
    "description": "Integration Services for running NixOS under HyperV",
@@ -1051,6 +1085,40 @@
   "revs": [
    "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
    "036164bd637d848620e20786e86cf9d8e902a9db"
+  ]
+ },
+ "4.14.81": {
+  "meta": {
+   "description": "Integration Services for running NixOS under HyperV",
+   "homepage": "https://kernel.org",
+   "license": null,
+   "long_description": "This packages contains the daemons that are used by the Hyper-V hypervisor\non the host.\n\nMicrosoft calls their guest agents \"Integration Services\" which is why\nwe use that name here.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "hyperv-daemons",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/hyperv-daemons/default.nix:97"
+  },
+  "revs": [
+   "06c14eefe90587df4455f8bb4030f6d1265a097a",
+   "06c14eefe90587df4455f8bb4030f6d1265a097a"
   ]
  },
  "4.14.85": {

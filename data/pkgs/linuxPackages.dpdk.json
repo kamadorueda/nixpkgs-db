@@ -113,7 +113,7 @@
   },
   "revs": [
    "0060a0f3df1279e9445828f5d2bc4d8572065159",
-   "031b32104c84cac9fc168be5eeb8fd60a34e253d"
+   "06ed2353479098d6ecd4ef49f4aeb6315aee3109"
   ]
  },
  "16.04-4.4.13": {
@@ -191,7 +191,7 @@
   },
   "revs": [
    "00278ef685beeb102c0f247251b08e4ae8db3443",
-   "0471d403dfa2f0af2e6f08cd6c4b0e96128269f7"
+   "06e16f00c489fe34d03baa9fadf393d5174243bb"
   ]
  },
  "16.04-4.4.16": {
@@ -781,7 +781,7 @@
   },
   "revs": [
    "00659b83a3a6332d8f7d0f2d5b461a5d70668e63",
-   "06a9a09a0275178be8ad77b23bd253c7d4e88e0c"
+   "06eba194e8a39510c4118c10aad7a682ea260559"
   ]
  },
  "16.07-4.4.28": {
@@ -898,7 +898,7 @@
   },
   "revs": [
    "00a6087d507065ca8190147e77295912717bc3da",
-   "030ffa95c8579905e3dcbcbc1ecc04afa36381d2"
+   "06c7e7126cc9bb6e1c14fb6bb2e799f2d0d94436"
   ]
  },
  "16.07-4.4.32": {
@@ -1678,7 +1678,7 @@
   },
   "revs": [
    "060bd50003201673f99222c489b2125338c606bb",
-   "060bd50003201673f99222c489b2125338c606bb"
+   "07101f743e3abfb1599d2fc71c6fb9f7acc3ad9e"
   ]
  },
  "16.07.2-4.4.59": {
@@ -2731,7 +2731,46 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "0360e61d889439e930c4b02b08835825c527b95a"
+   "070825d443a384e8cf2928bab0367d430aaeca75"
+  ]
+ },
+ "17.05.1-4.14": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:39"
+  },
+  "revs": [
+   "06fd65226e73816e730c1916edd49a6c4618f11b",
+   "06fd65226e73816e730c1916edd49a6c4618f11b"
   ]
  },
  "17.05.1-4.14.20": {
@@ -4352,6 +4391,49 @@
    "003af0c6d300ac515658b25a9210d3689ecce554"
   ]
  },
+ "17.05.1-4.14.75": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:39"
+  },
+  "revs": [
+   "06e98e05178fcb076a8c7a955208ec71bbd013d0",
+   "06e98e05178fcb076a8c7a955208ec71bbd013d0"
+  ]
+ },
  "17.05.1-4.14.78": {
   "meta": {
    "description": "Set of libraries and drivers for fast packet processing",
@@ -4393,6 +4475,49 @@
   "revs": [
    "02fc3d36198868e2a86ba2e192842ebcbc238ca7",
    "036164bd637d848620e20786e86cf9d8e902a9db"
+  ]
+ },
+ "17.05.1-4.14.81": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:39"
+  },
+  "revs": [
+   "06c14eefe90587df4455f8bb4030f6d1265a097a",
+   "06c14eefe90587df4455f8bb4030f6d1265a097a"
   ]
  },
  "17.05.1-4.14.85": {
@@ -5371,7 +5496,7 @@
   },
   "revs": [
    "01941c5155e1569d4edf8d4c64237d4472a3871a",
-   "05096950505be8ba62cbf8bceda7c635cb11cf40"
+   "06e50006d479d5316a34bde41d8a3a71916781a6"
   ]
  },
  "17.05.1-4.9.79": {
@@ -6368,7 +6493,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "02f11bca6095f54dea504a390906b33a033dae05"
+   "06fa8674984e8ab637a29b91bdaa11dc5cbacb80"
   ]
  },
  "17.11.2-4.14.49": {
@@ -6656,7 +6781,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "05c2aa212e062aefcc058b86adf7e367e8f1f6ea"
+   "0702fbd88e4b441615b177d8186bd316a5d90473"
   ]
  },
  "17.11.2-4.14.55": {
@@ -6704,7 +6829,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "03d49258f67041c58f7941c50542dd2550730fa0"
+   "06e0a518d160d4fa21a64a7f5ac1737378aed6d7"
   ]
  },
  "17.11.2-4.14.56": {
@@ -7856,7 +7981,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "064f35fad39575254a393ce5272ab131bd3e4374"
+   "06c403e846dca7c06924a1cf754cfa10b608616f"
   ]
  },
  "17.11.2-4.14.81": {
@@ -8000,7 +8125,7 @@
   },
   "revs": [
    "00a51b4012ba43f0eda39b5c2b4e5b35d2070fe9",
-   "0549e307a52a8d3f17a0e2e821501a6f4e92f80f"
+   "06f9b4769b3ee74cd74e915a457b9ce690e019d6"
   ]
  },
  "17.11.2-4.14.84": {
@@ -10976,7 +11101,7 @@
   },
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
-   "01b30bb99f3bd68b190d59ad637393233ddd4b96"
+   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
   ]
  },
  "17.11.2-4.19.68": {
@@ -11026,7 +11151,7 @@
   },
   "revs": [
    "016e37bf4ba55c324f2c0b2bf685be566a893d77",
-   "027b117feee14e0c89c88e16a336307ffc742de2"
+   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d"
   ]
  },
  "17.11.2-4.19.69": {
@@ -12306,7 +12431,7 @@
   },
   "revs": [
    "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-   "028effdd17e0f24faf5e9e84c95cb02ae181789c"
+   "06d8f5d00010fe56c8af91ecb6a01b95bc73e643"
   ]
  },
  "19.11-5.4.19": {
@@ -13032,7 +13157,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "01ac831e03f20b534d2cc8dfe0b60357ff5342b4"
+   "06fe4b25284f00ae2e8eaf606fcbf7ec243704eb"
   ]
  },
  "19.11-5.4.31": {
@@ -13296,7 +13421,7 @@
   },
   "revs": [
    "04e308a49653dc07978c2bfbc050766d17a1c1ab",
-   "06a34e69ad4fed8178ce4994254045875806b0ee"
+   "06e55a145b3db8f4f8ebd4bf54c68a796d3edbf3"
   ]
  },
  "19.11-5.4.35": {
@@ -13890,7 +14015,7 @@
   },
   "revs": [
    "002e3cfbce62a8b55eba52af9c72d770e5b31547",
-   "003af9cac8ab25090f7d5a8188db438a5310229b"
+   "06d0a781d8a3818d08f2f8faf8a288471b85a48f"
   ]
  },
  "19.11-5.4.45": {
@@ -14220,7 +14345,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "02d82b5ac437fba6c2369a80c84b475065bd2a2f"
+   "07076e9fe015489fcd1c67f37c0d750442c6f975"
   ]
  },
  "19.11-5.4.50": {
@@ -14880,7 +15005,7 @@
   },
   "revs": [
    "041a24254ea6e3faa096505b489c9360827bf200",
-   "041a24254ea6e3faa096505b489c9360827bf200"
+   "06ce0d954b659c60221ee1dda5270a083e52e681"
   ]
  },
  "19.11-5.4.70": {
@@ -16002,7 +16127,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0337f17edd604a023c03846067c8af9bd6584850"
+   "071d7f5b84f7b0f4354fb372fc55d120b6ae453e"
   ]
  },
  "20.05-5.4.63": {
@@ -16200,7 +16325,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "05a6efb5084d3a46742b7aa2301f1bbb9f31c93d"
+   "06da165c5e42e9b26b0f7661380cf9bfc8d05b84"
   ]
  },
  "20.05-5.4.66": {

@@ -316,7 +316,7 @@
   },
   "revs": [
    "01d7d24dbb2df5e70c460dc7e5c59f30979cd82a",
-   "01d7d24dbb2df5e70c460dc7e5c59f30979cd82a"
+   "0700e844e29e2a583d66a35971462b30b387fcfc"
   ]
  },
  "0.6.4.1-4.0.4": {
@@ -444,7 +444,7 @@
   },
   "revs": [
    "013f88ac7e4c679868bfac5c6d9b896c9b13fd99",
-   "05aa0c09909c1fafaf95f29f8905ba9002922ba2"
+   "06efb2e937c1335a4c6c8fd509b98ad54d65c1db"
   ]
  },
  "0.6.4.2-4.1.1": {
@@ -1948,7 +1948,7 @@
   },
   "revs": [
    "04ad2ebfb28756c823b3070499740bd3e9cb147f",
-   "0677cc61c8fae0b699a9be837c897b8d7b6d837c"
+   "06ed2353479098d6ecd4ef49f4aeb6315aee3109"
   ]
  },
  "0.6.5.7-4.6.2": {
@@ -2012,7 +2012,7 @@
   },
   "revs": [
    "0044ba7256aae191b3a5bb3d4b4f28c3cf9a99c5",
-   "00e67f0df000268a0bd5cefb81f4c32068a33420"
+   "06e16f00c489fe34d03baa9fadf393d5174243bb"
   ]
  },
  "0.6.5.7-4.6.4": {
@@ -2602,7 +2602,7 @@
   },
   "revs": [
    "00659b83a3a6332d8f7d0f2d5b461a5d70668e63",
-   "06a9a09a0275178be8ad77b23bd253c7d4e88e0c"
+   "06eba194e8a39510c4118c10aad7a682ea260559"
   ]
  },
  "0.6.5.8-4.8.5": {
@@ -2701,7 +2701,7 @@
   },
   "revs": [
    "00a6087d507065ca8190147e77295912717bc3da",
-   "030ffa95c8579905e3dcbcbc1ecc04afa36381d2"
+   "06c7e7126cc9bb6e1c14fb6bb2e799f2d0d94436"
   ]
  },
  "0.6.5.8-4.8.8": {
@@ -6188,7 +6188,7 @@
   },
   "revs": [
    "00a51b4012ba43f0eda39b5c2b4e5b35d2070fe9",
-   "0549e307a52a8d3f17a0e2e821501a6f4e92f80f"
+   "06f9b4769b3ee74cd74e915a457b9ce690e019d6"
   ]
  },
  "0.7.12-4.19.5": {
@@ -7317,6 +7317,65 @@
   "revs": [
    "00fa98f0122be32ca6daa5d187472c83a90a7e74",
    "00fa98f0122be32ca6daa5d187472c83a90a7e74"
+  ]
+ },
+ "0.7.13-4.20.14": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "0711b73ae8e5f96550a4df5ab51ff9f04ce698d6",
+   "0711b73ae8e5f96550a4df5ab51ff9f04ce698d6"
   ]
  },
  "0.7.13-5.0": {
@@ -8912,6 +8971,65 @@
    "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00"
   ]
  },
+ "0.7.13-5.2.10": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d",
+   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d"
+  ]
+ },
  "0.7.13-5.2.11": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -9381,7 +9499,7 @@
   },
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
-   "01b30bb99f3bd68b190d59ad637393233ddd4b96"
+   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
   ]
  },
  "0.7.2-4.13.10": {
@@ -10081,7 +10199,7 @@
   },
   "revs": [
    "00cafb4c8d48641a7048d9652b70ec12234601a4",
-   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
+   "06e50006d479d5316a34bde41d8a3a71916781a6"
   ]
  },
  "0.7.5-4.15.1": {
@@ -11621,7 +11739,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "04380e713c20377b5346d026040a01621aae8935"
+   "06c67f893eafe85a2cf67540aed31f9de7f4e535"
   ]
  },
  "0.7.8-4.16.5": {
@@ -12317,7 +12435,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "02f11bca6095f54dea504a390906b33a033dae05"
+   "06fa8674984e8ab637a29b91bdaa11dc5cbacb80"
   ]
  },
  "0.7.9-4.17.1": {
@@ -13013,7 +13131,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "05c2aa212e062aefcc058b86adf7e367e8f1f6ea"
+   "0702fbd88e4b441615b177d8186bd316a5d90473"
   ]
  },
  "0.7.9-4.17.6": {
@@ -13071,7 +13189,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "03d49258f67041c58f7941c50542dd2550730fa0"
+   "06e0a518d160d4fa21a64a7f5ac1737378aed6d7"
   ]
  },
  "0.7.9-4.17.7": {

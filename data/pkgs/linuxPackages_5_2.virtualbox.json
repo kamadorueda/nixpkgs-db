@@ -1,4 +1,39 @@
 {
+ "5.2.28-5.2.10": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d",
+   "0715f2f1a9b3a1c15ddf3f7386a6d58c9a1bbe2d"
+  ]
+ },
  "5.2.28-5.2.11": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -276,7 +311,7 @@
   },
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
-   "01b30bb99f3bd68b190d59ad637393233ddd4b96"
+   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
   ]
  },
  "6.0.8-5.2": {

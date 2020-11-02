@@ -518,7 +518,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "064f35fad39575254a393ce5272ab131bd3e4374"
+   "06c403e846dca7c06924a1cf754cfa10b608616f"
   ]
  },
  "0.8.0-rc1-4.18.19": {
@@ -1159,6 +1159,64 @@
    "03bf8cd4870c281bddc959a799a320e66306e5cd"
   ]
  },
+ "2018-08-13-4.18.16": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "06fb0253afabb8cc7dc85db742e2de94a4d68ca0",
+   "06fb0253afabb8cc7dc85db742e2de94a4d68ca0"
+  ]
+ },
  "2018-08-13-4.18.17": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -1736,7 +1794,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "017d86be7495669990373ecad8e526d0014fc2b5"
+   "06c63123ccfbe3fa21b74819050281c6394ae6eb"
   ]
  },
  "2018-09-02-4.18.7": {
