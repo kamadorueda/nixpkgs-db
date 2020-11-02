@@ -113,7 +113,7 @@
   },
   "revs": [
    "00572d595c2aaec1d8196fb913a018696326e824",
-   "077840e5283719b135d267d9a64ca99543886577"
+   "0bbbdfbc528e5b0f6fe0870304314a393923e02d"
   ]
  },
  "16.07.2-4.11.3": {
@@ -659,7 +659,7 @@
   },
   "revs": [
    "043cbe59e98a5326588cd561836fc5b82b989d04",
-   "077d0597687e43ac9c49f06245c16c7f60d4b8c0"
+   "0bb747ceaf58b080d4dddb6ea79e73241514174e"
   ]
  },
  "17.05.1-4.13.2": {
@@ -2908,6 +2908,49 @@
    "068f437ddad574a113b5fefb7dbb85b7d0357ece"
   ]
  },
+ "17.05.1-4.14.69": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:39"
+  },
+  "revs": [
+   "0bb296055732f4f7635aa3093873ead949f01795",
+   "0bb296055732f4f7635aa3093873ead949f01795"
+  ]
+ },
  "17.05.1-4.14.70": {
   "meta": {
    "description": "Set of libraries and drivers for fast packet processing",
@@ -4848,7 +4891,7 @@
   },
   "revs": [
    "003055a670470f678e376be7f9b9051fb242ec0f",
-   "044a73bbe68673136b654bc99f412ac116f11ca3"
+   "0bbf90e1b466e503f616bdaa94b9810bad695459"
   ]
  },
  "17.11.2-4.14.60": {
@@ -5424,7 +5467,7 @@
   },
   "revs": [
    "0166be71f6e1526c7c2b636d014b465e324610df",
-   "0b82df8dbe8540eb8a3acc7ff093ea872ae131a8"
+   "0bca7385139771082f8c89f3f1d4a067bbda3f59"
   ]
  },
  "17.11.2-4.14.72": {
@@ -13045,6 +13088,72 @@
    "00740317ecb53f941d76edd18878a9cb04f608c9"
   ]
  },
+ "19.11-5.4.67": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "magenbluten@codemonkey.cc",
+     "github": "magenbluten",
+     "githubId": 1140462,
+     "name": "magenbluten"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:69"
+  },
+  "revs": [
+   "0bc6da3ab075f3ca35b83b6a2069a389bd769c1e",
+   "0bc6da3ab075f3ca35b83b6a2069a389bd769c1e"
+  ]
+ },
  "19.11-5.4.69": {
   "meta": {
    "description": "Set of libraries and drivers for fast packet processing",
@@ -13900,7 +14009,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "0249afb0e7765ee7d71a80abc50697a81cd8d8cd"
+   "0bbae9cd4f2e9f9919e28630f00ce3c8ec17b873"
   ]
  },
  "20.05-5.4.58": {

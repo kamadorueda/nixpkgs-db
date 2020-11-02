@@ -1052,6 +1052,45 @@
    "068f437ddad574a113b5fefb7dbb85b7d0357ece"
   ]
  },
+ "4.14.69": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long, xen-netfront_fix_mismatched_rtnl_unlock, xen-netfront_update_features_after_registering_netdev, copperhead-4.14, tag-hardened)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "0bb296055732f4f7635aa3093873ead949f01795",
+   "0bb296055732f4f7635aa3093873ead949f01795"
+  ]
+ },
  "4.14.70": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long, xen-netfront_fix_mismatched_rtnl_unlock, xen-netfront_update_features_after_registering_netdev, copperhead-4.14, tag-hardened)",

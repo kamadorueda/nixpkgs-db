@@ -616,7 +616,7 @@
   },
   "revs": [
    "00cda0d18d948481be72cc7bfaead0bcf9c4c263",
-   "08e59b22eb67623db7db28468e035a76386e8934"
+   "0bb747ceaf58b080d4dddb6ea79e73241514174e"
   ]
  },
  "1.2.0-4.9.66": {
@@ -3272,7 +3272,7 @@
   },
   "revs": [
    "0166be71f6e1526c7c2b636d014b465e324610df",
-   "0b82df8dbe8540eb8a3acc7ff093ea872ae131a8"
+   "0bca7385139771082f8c89f3f1d4a067bbda3f59"
   ]
  },
  "1.5.2-4.14.72": {
@@ -9043,6 +9043,46 @@
    "00740317ecb53f941d76edd18878a9cb04f608c9"
   ]
  },
+ "2.1.2-5.4.67": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "0bc6da3ab075f3ca35b83b6a2069a389bd769c1e",
+   "0bc6da3ab075f3ca35b83b6a2069a389bd769c1e"
+  ]
+ },
  "2.1.2-5.4.69": {
   "meta": {
    "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
@@ -10080,7 +10120,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "0249afb0e7765ee7d71a80abc50697a81cd8d8cd"
+   "0bbae9cd4f2e9f9919e28630f00ce3c8ec17b873"
   ]
  },
  "2.2.7-5.4.58": {
@@ -11343,6 +11383,36 @@
   "revs": [
    "003ae42ae66d21756f42079b52b5c8982ae0f293",
    "0387e10928d93ab03c4739e9fb08b4e49ef36db6"
+  ]
+ },
+ "20160629-4.4.44": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "ena",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:34"
+  },
+  "revs": [
+   "0bced777c936456ada8db32c2cc8dc6395c43f6e",
+   "0bced777c936456ada8db32c2cc8dc6395c43f6e"
   ]
  },
  "20160629-4.4.45": {
