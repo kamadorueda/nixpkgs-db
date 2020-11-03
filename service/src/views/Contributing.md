@@ -26,3 +26,4 @@ There are many ways to contribute, not necessarily technical:
   executions.
 - Help us improve the user interface.
 - Fire up an issue! we welcome ideas, feature requests and problems.
+- [Sponsor](https://kamadorueda.github.io/nixpkgs-db/#/contributing) the project.
