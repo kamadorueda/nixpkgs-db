@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
 
 const fetchJSON = async (url) => {
-  const response = await fetch(url);
+  let response = await fetch(url);
+
+  while (!response.ok || response.status !== 200) {
+    response = await fetch(url);
+  }
 
   return await response.json();
 };
