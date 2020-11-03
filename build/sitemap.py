@@ -36,15 +36,13 @@ def main():
         with open(f'data/pkgs/{pkg}.json') as pkgs:
             for version in json.load(pkgs):
                 if version:
-                    urls.append(f'/#/pkg/{encode(pkg)}/{encode(version)}')
+                    urls.append(abspath(f'/#/pkg/{encode(pkg)}/{encode(version)}'))
 
     index = 0
     urls.sort()
     with open('service/public/sitemapindex.xml', 'w') as sitemap_index:
         write(sitemap_index, '<?xml version="1.0" encoding="UTF-8"?>')
-        write(sitemap_index, """
-            <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-        """)
+        write(sitemap_index, '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
         for urls_chunk in chunked(urls, 50000):
             index += 1
@@ -58,9 +56,7 @@ def main():
                 </sitemap>
             """)
 
-        write(sitemap_index, """
-            </sitemapindex>
-        """)
+        write(sitemap_index, '</sitemapindex>')
 
 
 if __name__ == '__main__':
