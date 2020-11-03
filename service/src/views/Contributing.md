@@ -8,14 +8,13 @@ We genuinely appreciate people who are trying to improve this database.
 There are many ways to contribute, not necessarily technical:
 
 - Tell other people of the work being done here.
-- [Sponsor](https://patreon.com/kamadorueda) the project.
 - Star or fork the [repository](https://github.com/kamadorueda/nixpkgs-db) so other people can find us easier.
 - The search engine is naive (currently a `String.contains`).
   It would be awesome to use a modern algorithm.
 - Expanding the database size:
 
   There are currently 280k+ commits in the nixpkgs repository,
-  we've only processed ~10k.
+  we've only processed ~20k.
 
   Expanding it is simple, though it consumes a little bit of machine resources:
 

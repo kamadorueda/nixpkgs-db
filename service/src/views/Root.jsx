@@ -28,6 +28,8 @@ import { markdownTab } from '../components/Markdown';
 import { useFetchJSON } from '../hooks/fetch';
 import contentAbout from './About.md';
 import contentContributing from './Contributing.md';
+import contentSource from './Source.md';
+import contentSponsor from './Sponsor.md';
 import { Pkg } from './Pkg';
 import { Search } from './Search';
 
@@ -68,11 +70,11 @@ export const Root = () => {
               <Tab>
                 <Link to="/search"><RiSearchLine /> Search</Link>
               </Tab>
-              <Tab href="https://github.com/kamadorueda/nixpkgs-db">
-                <RiCodeSSlashLine /> Source
+              <Tab>
+                <Link to="/source"><RiCodeSSlashLine /> Source</Link>
               </Tab>
-              <Tab href="https://www.patreon.com/kamadorueda">
-                <RiHeart3Line /> Sponsor
+              <Tab>
+                <Link to="/sponsor"><RiHeart3Line /> Sponsor</Link>
               </Tab>
             </Nav>
           </Col>
@@ -95,6 +97,12 @@ export const Root = () => {
           </Route>
           <Route exact={true} path="/search">
             <Search pkgs={pkgs} revs={revs} />
+          </Route>
+          <Route exact={true} path="/source">
+            {markdownTab(contentSource)}
+          </Route>
+          <Route exact={true} path="/sponsor">
+            {markdownTab(contentSponsor)}
           </Route>
           <Redirect to="/search" />
         </Switch>
