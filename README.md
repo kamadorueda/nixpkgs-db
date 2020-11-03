@@ -19,10 +19,13 @@ The service is hosted at: https://kamadorueda.github.io/nixpkgs-db/
 # All commands require you to be on the service folder
 cd nixpkgs-db/service
 
+# Before everything you'll need to install dependencies
+nixpkgs-db/service $ npm install
+
 # Start a development server at http://localhost:3000/nixpkgs-db/
-npm run start
+nixpkgs-db/service $ npm run start
 
 # Build the website artifacts
 # PR the docs/ and service/ folders once you feel happy with your changes!
-npm run build
+nixpkgs-db/service $ npm run build
 ```
