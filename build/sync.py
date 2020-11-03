@@ -71,7 +71,6 @@ def main() -> None:
         }
 
         data = json_load(f'data/pkgs/{pkg}.json', {})
-        data.pop('', None)
 
         if version not in data:
             data[version] = {
