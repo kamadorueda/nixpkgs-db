@@ -110,7 +110,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "0a941b03d055bfac01b1191067cc0f12ec2b7186"
+   "102328590220f490707d5e096ad8fa84434f2868"
   ]
  },
  "17.40-4.14.41-a": {
@@ -1137,6 +1137,44 @@
   "revs": [
    "02af3cd19ab53a56e9bbe49242d9f07442f33fd1",
    "02af3cd19ab53a56e9bbe49242d9f07442f33fd1"
+  ]
+ },
+ "17.40-4.14.73": {
+  "meta": {
+   "description": "AMDGPU-PRO drivers",
+   "homepage": "http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Beta-Driver-for-Vulkan-Release-Notes.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "corngood@gmail.com",
+     "github": "corngood",
+     "name": "David McFarland"
+    }
+   ],
+   "name": "amdgpu-pro",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/amdgpu-pro/default.nix:177"
+  },
+  "revs": [
+   "1032ddaac9be9978b7ea972b611267e2154c1481",
+   "1032ddaac9be9978b7ea972b611267e2154c1481"
   ]
  },
  "17.40-4.14.74": {

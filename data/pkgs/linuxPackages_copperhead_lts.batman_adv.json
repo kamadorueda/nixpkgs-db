@@ -128,7 +128,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "0a941b03d055bfac01b1191067cc0f12ec2b7186"
+   "102328590220f490707d5e096ad8fa84434f2868"
   ]
  },
  "2018.0-4.14.41-a": {
@@ -1275,6 +1275,50 @@
    "02af3cd19ab53a56e9bbe49242d9f07442f33fd1"
   ]
  },
+ "2018.0-4.14.73": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:25"
+  },
+  "revs": [
+   "1032ddaac9be9978b7ea972b611267e2154c1481",
+   "1032ddaac9be9978b7ea972b611267e2154c1481"
+  ]
+ },
  "2018.0-4.14.74": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -1712,7 +1756,7 @@
   },
   "revs": [
    "0015c34f9c1be8776a3ca86d2ce86b3304c34525",
-   "09cfb65c99cbf1f1d7d4fe45bc09adc8afb2b2f4"
+   "10436a707a45f540e10d6b0cb5a2c075dff1fc66"
   ]
  },
  "2018.2-4.14.58": {
