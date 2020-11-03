@@ -20,7 +20,7 @@ There are many ways to contribute, not necessarily technical:
   Expanding it is simple, though it consumes a little bit of machine resources:
 
   - Clone the nixpkgs-db repository.
-  - Execute: `./build/sync.sh`
+  - Execute: `$ nixpkgs-db/build/sync.sh`
   - Commit your `nixpkgs-db/data/` folder and create a PR.
 
   The process is differential, once a commit is processed it's ignored in future
