@@ -1,118 +1,4 @@
 {
- "": {
-  "meta": {
-   "description": "Vim text editor fork focused on extensibility and agility",
-   "homepage": "https://www.neovim.io",
-   "license": [
-    {
-     "fullName": "Apache License 2.0",
-     "shortName": "asl20",
-     "spdxId": "Apache-2.0",
-     "url": "http://spdx.org/licenses/Apache-2.0.html"
-    },
-    {
-     "fullName": "Vim License",
-     "shortName": "vim",
-     "spdxId": "Vim",
-     "url": "http://spdx.org/licenses/Vim.html"
-    }
-   ],
-   "long_description": "Neovim is a project that seeks to aggressively refactor Vim in order to:\n- Simplify maintenance and encourage contributions\n- Split the work between multiple developers\n- Enable the implementation of new/modern user interfaces without any\n  modifications to the core source\n- Improve extensibility with a new plugin architecture\n",
-   "maintainers": [
-    {
-     "email": "m.fellinger@gmail.com",
-     "github": "manveru",
-     "name": "Michael Fellinger"
-    },
-    {
-     "email": "rok@garbas.si",
-     "github": "garbas",
-     "name": "Rok Garbas"
-    },
-    {
-     "email": "rvolosatovs@riseup.net",
-     "github": "rvolosatovs",
-     "name": "Roman Volosatovs"
-    }
-   ],
-   "name": "neovim",
-   "platforms": [
-    {
-     "kernel": {
-      "families": {
-       "bsd": {
-        "_type": "exec-format",
-        "name": "bsd"
-       }
-      }
-     }
-    },
-    {
-     "kernel": {
-      "families": {
-       "darwin": {
-        "_type": "exec-format",
-        "name": "darwin"
-       }
-      }
-     }
-    },
-    {
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "elf"
-      },
-      "families": {},
-      "name": "linux"
-     }
-    },
-    {
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "elf"
-      },
-      "families": {},
-      "name": "solaris"
-     }
-    },
-    {
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "elf"
-      },
-      "families": {},
-      "name": "hurd"
-     }
-    },
-    {
-     "abi": {
-      "_type": "abi",
-      "name": "cygnus"
-     },
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "pe"
-      },
-      "families": {},
-      "name": "windows"
-     }
-    }
-   ],
-   "position": "pkgs/applications/editors/neovim/wrapper.nix:103"
-  },
-  "revs": [
-   "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
-  ]
- },
  "0.1.0": {
   "meta": {
    "description": "Vim text editor fork focused on extensibility and agility",
@@ -1607,7 +1493,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "08251935f7a3e0450c07c0bd6131b9af33807204"
+   "00d6fff6303531fb9ee4ae9761e888407485ba22"
   ]
  },
  "2015-05-26": {

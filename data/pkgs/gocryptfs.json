@@ -1,103 +1,4 @@
 {
- "": {
-  "meta": {
-   "description": "Encrypted overlay filesystem written in Go",
-   "homepage": "https://nuetzlich.net/gocryptfs/",
-   "license": {
-    "fullName": "MIT License",
-    "shortName": "mit",
-    "spdxId": "MIT",
-    "url": "http://spdx.org/licenses/MIT.html"
-   },
-   "long_description": "",
-   "maintainers": [
-    {
-     "email": "flokli@flokli.de",
-     "github": "flokli",
-     "name": "Florian Klink"
-    },
-    {
-     "email": "jaka@x-truder.net",
-     "github": "offlinehacker",
-     "name": "Jaka Hudoklin"
-    },
-    {
-     "email": "emery@vfemail.net",
-     "name": "Emery Hemingway"
-    },
-    {
-     "email": "lucabru@src.gnome.org",
-     "github": "lethalman",
-     "name": "Luca Bruno"
-    }
-   ],
-   "name": "gocryptfs-v1.5",
-   "platforms": [
-    {
-     "kernel": {
-      "families": {
-       "bsd": {
-        "_type": "exec-format",
-        "name": "bsd"
-       }
-      }
-     }
-    },
-    {
-     "kernel": {
-      "families": {
-       "darwin": {
-        "_type": "exec-format",
-        "name": "darwin"
-       }
-      }
-     }
-    },
-    {
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "elf"
-      },
-      "families": {},
-      "name": "linux"
-     }
-    },
-    {
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "elf"
-      },
-      "families": {},
-      "name": "solaris"
-     }
-    },
-    {
-     "abi": {
-      "_type": "abi",
-      "name": "cygnus"
-     },
-     "kernel": {
-      "_type": "kernel",
-      "execFormat": {
-       "_type": "exec-format",
-       "name": "pe"
-      },
-      "families": {},
-      "name": "windows"
-     }
-    }
-   ],
-   "position": "pkgs/tools/filesystems/gocryptfs/default.nix:44"
-  },
-  "revs": [
-   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
-  ]
- },
  "1.1.1": {
   "meta": {
    "description": "Encrypted overlay filesystem written in Go",
@@ -327,7 +228,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "08251935f7a3e0450c07c0bd6131b9af33807204"
+   "00d6fff6303531fb9ee4ae9761e888407485ba22"
   ]
  }
 }
