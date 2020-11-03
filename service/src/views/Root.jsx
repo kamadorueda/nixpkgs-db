@@ -14,6 +14,13 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import {
+  RiBrushLine,
+  RiCodeSSlashLine,
+  RiHeart3Line,
+  RiInformationLine,
+  RiSearchLine,
+} from 'react-icons/ri';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
@@ -52,11 +59,24 @@ export const Root = () => {
         <Row>
           <Col sm={12}>
             <Nav variant="tabs">
-              <Tab><Link to="/about">About</Link></Tab>
-              <Tab><Link to="/contributing">Contributing</Link></Tab>
-              <Tab><Link to="/search">Search</Link></Tab>
-              <Tab href="https://github.com/kamadorueda/nixpkgs-db">Source</Tab>
-              <Tab href="https://www.patreon.com/kamadorueda">Sponsor</Tab>
+              <Tab>
+                <Link to="/about"><RiInformationLine /> About</Link>
+              </Tab>
+              <Tab>
+                <Link to="/contributing"><RiBrushLine /> Contributing</Link>
+              </Tab>
+              <Tab>
+                <Link to="/search"><RiSearchLine /> Search</Link>
+              </Tab>
+              <Tab>
+                <Link to="/search-new"><RiSearchLine /> Search v2</Link>
+              </Tab>
+              <Tab href="https://github.com/kamadorueda/nixpkgs-db">
+                <RiCodeSSlashLine /> Source
+              </Tab>
+              <Tab href="https://www.patreon.com/kamadorueda">
+                <RiHeart3Line /> Sponsor
+              </Tab>
             </Nav>
           </Col>
         </Row>
@@ -79,7 +99,7 @@ export const Root = () => {
           <Route exact={true} path="/search">
             <Search pkgs={pkgs} revs={revs} />
           </Route>
-          <Route exact={true} path="/search2">
+          <Route exact={true} path="/search-new">
             <Search2 pkgs={pkgs} revs={revs} />
           </Route>
           <Redirect to="/search" />
