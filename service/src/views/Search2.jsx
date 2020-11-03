@@ -115,8 +115,16 @@ const SearchImplementation = (props) => {
   const [pkgName, setPkgName] = useState("");
   const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
 
-  const startPage = Math.min(1 + (page - 1) * RESULTS_PER_PAGE, matchingPackages.length);
-  const endPage = Math.min(page * RESULTS_PER_PAGE, matchingPackages.length);
+  const startPage = Math.min(
+    1 + (page - 1) * RESULTS_PER_PAGE,
+    matchingPackages.length,
+  );
+  const endPage = Math.min(
+    page * RESULTS_PER_PAGE,
+    matchingPackages.length,
+  );
+
+  const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
 
   const onPkgNameChange = (event) => {
     setPkgName(event.target.value);
@@ -171,39 +179,13 @@ const SearchImplementation = (props) => {
       {/* Results table */}
       <Row>
         <Col sm={12}>
-          <Table bordered={true} hover={true} size="sm" stripped={true}>
-            <thead>
-              <tr>
-                <th><Col sm={3}>Attribute</Col></th>
-                <th><Col sm={3}>Name</Col></th>
-                <th><Col sm={5}>Description</Col></th>
-                <th><Col sm={1}>Versions</Col></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
-                <td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
-                <td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
-                <td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
-              </tr>
-            </tbody>
-          </Table>
-          <Accordion defaultActiveKey={matchingPackages[0]}>
-            <Card>
-              <Accordion.Toggle as={Card.Header} variant="dark">
-                <Row>
-                  <Col sm={3}><b>Attribute</b></Col>
-                  <Col sm={3}><b>Name</b></Col>
-                  <Col><b>Description</b></Col>
-                  <Col sm={1}><b>Versions</b></Col>
-                </Row>
-              </Accordion.Toggle>
-            </Card>
-            {matchingPackages
-              .slice(startPage - 1, endPage)
-              .map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
-          </Accordion>
+          <Row>
+            <Col sm={3}><b>Attribute</b></Col>
+            <Col sm={3}><b>Name</b></Col>
+            <Col sm={5}><b>Description</b></Col>
+            <Col sm={1}><b>Versions</b></Col>
+          </Row>
+          {matchingPackagesOnPage.map((pkg) => <Pkg pkg={pkg} />)}
         </Col>
       </Row>
     </React.Fragment>
