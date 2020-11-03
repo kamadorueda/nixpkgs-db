@@ -98,7 +98,7 @@
   },
   "revs": [
    "01b274ce0d9923eb960b1a55e13527545f381f41",
-   "0c556f6f60a50a49577800146acf6ced5553f3a7"
+   "108cf05ff06618a5eed65267bcb68a140acc11dc"
   ]
  },
  "5.2.12-4.16.10": {
@@ -2073,6 +2073,40 @@
    "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
+ "5.2.14-4.19.20": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "109a28ab954a0ad129f7621d468f829981b8b96c",
+   "109a28ab954a0ad129f7621d468f829981b8b96c"
+  ]
+ },
  "5.2.14-4.19.23": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -3328,7 +3362,7 @@
   },
   "revs": [
    "019969495f850dad6740a072c480e55f06b3f3c0",
-   "0711b73ae8e5f96550a4df5ab51ff9f04ce698d6"
+   "10b0c7184ffbf18ac4edf8a085061f5f8a25d27c"
   ]
  },
  "5.2.26-5.0": {
@@ -3362,7 +3396,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "061f6562f0f284f423bc793eb48eec808e38ca3e"
+   "108ab954edb67736c67413ba8c3bcc3ada0015ae"
   ]
  },
  "5.2.26-5.0.1": {
@@ -4145,6 +4179,40 @@
   "revs": [
    "0d0cb247ff378feecb9799487bb79b3afd518f51",
    "0d0cb247ff378feecb9799487bb79b3afd518f51"
+  ]
+ },
+ "5.2.28-5.1.19": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:151"
+  },
+  "revs": [
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30",
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30"
   ]
  },
  "5.2.28-5.1.2": {
@@ -5041,6 +5109,40 @@
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
    "038560d68b862907d9915c04bcce74a5ec5bd9e7"
+  ]
+ },
+ "5.2.8-4.14.53": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "1069e32c4a3a34d8317bd75f6ba7635ecd72175b",
+   "1069e32c4a3a34d8317bd75f6ba7635ecd72175b"
   ]
  },
  "5.2.8-4.15.10": {
@@ -6660,7 +6762,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "04aca9ac24ad24c2dbeb37e1cfa94d8453f07a51"
+   "10a25647c897490d204588e1cd9c2c67f3d88dea"
   ]
  },
  "6.0.14-5.5.6": {
@@ -6830,7 +6932,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0b49618cdf65abb733db9a125c1490bb0f90d760"
+   "10aa9a6b05e363555a8226974ddebc7d488548bf"
   ]
  },
  "6.0.6-5.1.1": {
@@ -6999,7 +7101,7 @@
   },
   "revs": [
    "021257e5989717a2430a05c271350ab8038f3d23",
-   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
+   "1096720c5f8e7abf2a4ad1ed1b402ab25e8309e2"
   ]
  },
  "6.0.8-5.1.11": {
@@ -7497,7 +7599,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0f94a2ce21cc78e925ec646f476e7ed3bb5aaaba"
+   "107af97c9090cf0d0722889553fcc3ffc45b22ac"
   ]
  },
  "6.0.8-5.2.2": {

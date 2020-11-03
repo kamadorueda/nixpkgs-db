@@ -156,7 +156,7 @@
   },
   "revs": [
    "05b8ee73c4b08084899ed14d81533b7e17454462",
-   "05b8ee73c4b08084899ed14d81533b7e17454462"
+   "1099a83b547f3418e552df7be431560bf91d24e7"
   ]
  },
  "3.1.8-2.6.32.24": {
@@ -706,7 +706,7 @@
   },
   "revs": [
    "0842337d804d7651578c10551ba802cefb25d315",
-   "0842337d804d7651578c10551ba802cefb25d315"
+   "1097d768016d94096a109c7c55c9025ea7a43d49"
   ]
  },
  "4.1.12-3.2.15": {
@@ -1006,7 +1006,7 @@
   },
   "revs": [
    "02e6a689bef285271dec45cd1d87911fc9038f8d",
-   "0ab43282795857f0ecaa9751938529e3c9c83e3e"
+   "107f5e3560e446d690ab62bc5b8f3d86f7032459"
   ]
  },
  "4.1.18-3.2.26": {
@@ -5126,6 +5126,31 @@
    "0471d403dfa2f0af2e6f08cd6c4b0e96128269f7"
   ]
  },
+ "5.0.26-4.4.17": {
+  "meta": {
+   "description": "PC emulator",
+   "homepage": "http://www.virtualbox.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "virtualbox",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/default.nix:199"
+  },
+  "revs": [
+   "106e2c13628af468b9403846152d636e4350bd74",
+   "106e2c13628af468b9403846152d636e4350bd74"
+  ]
+ },
  "5.0.26-4.4.18": {
   "meta": {
    "description": "PC emulator",
@@ -6339,7 +6364,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "0a1483b83ab23a5ab1c4a2da4389682f872edc6f"
+   "10ab18725956660c95eaca060e7ea10b16cd732f"
   ]
  },
  "5.1.18-4.9.21": {
@@ -8082,7 +8107,7 @@
   },
   "revs": [
    "0a123ae574fd45471cf1af787c90293bf7d7f3b2",
-   "0a123ae574fd45471cf1af787c90293bf7d7f3b2"
+   "10b113f81bc27fd346c2c90a6e46171e0c1afdd8"
   ]
  },
  "5.2.10-4.14.38": {
@@ -8187,7 +8212,7 @@
   },
   "revs": [
    "01b274ce0d9923eb960b1a55e13527545f381f41",
-   "0c556f6f60a50a49577800146acf6ced5553f3a7"
+   "108cf05ff06618a5eed65267bcb68a140acc11dc"
   ]
  },
  "5.2.12-4.14.40": {
@@ -10042,7 +10067,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "06c14eefe90587df4455f8bb4030f6d1265a097a"
+   "10869fbf444a0d0f7511965f715ed2aac553e6ff"
   ]
  },
  "5.2.14-4.14.82": {
@@ -10567,7 +10592,7 @@
   },
   "revs": [
    "0ae99e827a27781161a85de56c3c4a4a31ade182",
-   "0ae99e827a27781161a85de56c3c4a4a31ade182"
+   "109a28ab954a0ad129f7621d468f829981b8b96c"
   ]
  },
  "5.2.2-4.9.65": {
@@ -12442,6 +12467,41 @@
    "0d0cb247ff378feecb9799487bb79b3afd518f51"
   ]
  },
+ "5.2.28-4.19.61": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30",
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30"
+  ]
+ },
  "5.2.28-4.19.62": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -13312,7 +13372,7 @@
   },
   "revs": [
    "00cafb4c8d48641a7048d9652b70ec12234601a4",
-   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
+   "10a4edb927ea9abee6dd952b2335649d6786ef29"
   ]
  },
  "5.2.6-4.9.80": {
@@ -14831,7 +14891,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "04aca9ac24ad24c2dbeb37e1cfa94d8453f07a51"
+   "10a25647c897490d204588e1cd9c2c67f3d88dea"
   ]
  },
  "6.0.14-5.4.22": {
@@ -15184,7 +15244,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "0b49618cdf65abb733db9a125c1490bb0f90d760"
+   "10aa9a6b05e363555a8226974ddebc7d488548bf"
   ]
  },
  "6.0.6-4.19.42": {
@@ -15558,7 +15618,7 @@
   },
   "revs": [
    "021257e5989717a2430a05c271350ab8038f3d23",
-   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
+   "1096720c5f8e7abf2a4ad1ed1b402ab25e8309e2"
   ]
  },
  "6.0.8-4.19.52": {
@@ -16138,7 +16198,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0f94a2ce21cc78e925ec646f476e7ed3bb5aaaba"
+   "107af97c9090cf0d0722889553fcc3ffc45b22ac"
   ]
  },
  "6.1.10-5.4.44": {
@@ -18042,7 +18102,7 @@
   },
   "revs": [
    "0d60b0b10eae7a29abb1cbcd47a764c752b39bd9",
-   "0ee482c8188a0d78a4f96f46161117f3bac0ef01"
+   "10aede9bcfe0bcc7c999b598057552f928c31767"
   ]
  },
  "6.1.6-5.4.62": {

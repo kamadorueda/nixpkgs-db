@@ -2522,6 +2522,37 @@
    "0d5c67db6bb79ccf7a9a79ba59b36fc63e18e9dd"
   ]
  },
+ "2016.0-4.4.17": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "http://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>",
+    "Franz Pletz <fpletz@fnordicwalking.de>"
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:23"
+  },
+  "revs": [
+   "106e2c13628af468b9403846152d636e4350bd74",
+   "106e2c13628af468b9403846152d636e4350bd74"
+  ]
+ },
  "2016.0-4.4.18": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -5108,7 +5139,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "0a1483b83ab23a5ab1c4a2da4389682f872edc6f"
+   "10ab18725956660c95eaca060e7ea10b16cd732f"
   ]
  },
  "2017.0.1-4.9.21": {
@@ -6556,7 +6587,7 @@
   },
   "revs": [
    "00cafb4c8d48641a7048d9652b70ec12234601a4",
-   "01f07b2c72d76a3b905b97dd0a5c1e04d863e006"
+   "10a4edb927ea9abee6dd952b2335649d6786ef29"
   ]
  },
  "2017.4-4.9.80": {
@@ -9052,7 +9083,7 @@
   },
   "revs": [
    "06c14eefe90587df4455f8bb4030f6d1265a097a",
-   "06c14eefe90587df4455f8bb4030f6d1265a097a"
+   "10869fbf444a0d0f7511965f715ed2aac553e6ff"
   ]
  },
  "2018.0-4.14.85": {
@@ -11422,7 +11453,7 @@
   },
   "revs": [
    "0ae99e827a27781161a85de56c3c4a4a31ade182",
-   "0ae99e827a27781161a85de56c3c4a4a31ade182"
+   "109a28ab954a0ad129f7621d468f829981b8b96c"
   ]
  },
  "2018.4-4.19.12": {
@@ -13456,6 +13487,51 @@
    "0d0cb247ff378feecb9799487bb79b3afd518f51"
   ]
  },
+ "2019.1-4.19.61": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:25"
+  },
+  "revs": [
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30",
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30"
+  ]
+ },
  "2019.1-4.19.62": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -14349,7 +14425,7 @@
   },
   "revs": [
    "021257e5989717a2430a05c271350ab8038f3d23",
-   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
+   "1096720c5f8e7abf2a4ad1ed1b402ab25e8309e2"
   ]
  },
  "2019.2-4.19.52": {
@@ -15099,7 +15175,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0f94a2ce21cc78e925ec646f476e7ed3bb5aaaba"
+   "107af97c9090cf0d0722889553fcc3ffc45b22ac"
   ]
  },
  "2019.2-4.19.89": {
@@ -15927,7 +16003,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "04aca9ac24ad24c2dbeb37e1cfa94d8453f07a51"
+   "10a25647c897490d204588e1cd9c2c67f3d88dea"
   ]
  },
  "2019.5-5.4.22": {
@@ -17675,7 +17751,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "0ee482c8188a0d78a4f96f46161117f3bac0ef01"
+   "10aede9bcfe0bcc7c999b598057552f928c31767"
   ]
  },
  "2019.5-5.4.62": {

@@ -373,7 +373,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "0a1483b83ab23a5ab1c4a2da4389682f872edc6f"
+   "10ab18725956660c95eaca060e7ea10b16cd732f"
   ]
  },
  "4.10.9-2017-02-04": {
@@ -1273,6 +1273,39 @@
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
    "01901098dda1a4f23db8d2f803343e7a76b29cbf"
+  ]
+ },
+ "4.14.53-2017.10.18": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:50"
+  },
+  "revs": [
+   "1069e32c4a3a34d8317bd75f6ba7635ecd72175b",
+   "1069e32c4a3a34d8317bd75f6ba7635ecd72175b"
   ]
  },
  "4.15-2017-02-04": {
@@ -4424,6 +4457,39 @@
    "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
+ "4.19.20-2017.10.18": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:50"
+  },
+  "revs": [
+   "109a28ab954a0ad129f7621d468f829981b8b96c",
+   "109a28ab954a0ad129f7621d468f829981b8b96c"
+  ]
+ },
  "4.19.23-2017.10.18": {
   "meta": {
    "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
@@ -5477,7 +5543,7 @@
   },
   "revs": [
    "019969495f850dad6740a072c480e55f06b3f3c0",
-   "0711b73ae8e5f96550a4df5ab51ff9f04ce698d6"
+   "10b0c7184ffbf18ac4edf8a085061f5f8a25d27c"
   ]
  },
  "4.20.2-4.0": {
@@ -6044,7 +6110,7 @@
   },
   "revs": [
    "00659b83a3a6332d8f7d0f2d5b461a5d70668e63",
-   "008399e9de050842f67361fdc911d6b526fca287"
+   "10728c25b0fe4b91ac25d4b40c2de84ab6a944c2"
   ]
  },
  "4.8.5-2016-09-16": {
@@ -6588,7 +6654,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "061f6562f0f284f423bc793eb48eec808e38ca3e"
+   "108ab954edb67736c67413ba8c3bcc3ada0015ae"
   ]
  },
  "5.0.1-4.0": {
@@ -7115,7 +7181,7 @@
   },
   "revs": [
    "021257e5989717a2430a05c271350ab8038f3d23",
-   "059bbd041ae3429e616a1ace7a31ed7bb571884b"
+   "1096720c5f8e7abf2a4ad1ed1b402ab25e8309e2"
   ]
  },
  "5.1.11-4.0": {
@@ -7344,6 +7410,39 @@
   "revs": [
    "0d0cb247ff378feecb9799487bb79b3afd518f51",
    "0d0cb247ff378feecb9799487bb79b3afd518f51"
+  ]
+ },
+ "5.1.19-4.0": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:44"
+  },
+  "revs": [
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30",
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30"
   ]
  },
  "5.1.2-4.0": {
@@ -7832,7 +7931,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "0f94a2ce21cc78e925ec646f476e7ed3bb5aaaba"
+   "107af97c9090cf0d0722889553fcc3ffc45b22ac"
   ]
  },
  "5.2.13-4.0": {
@@ -9144,7 +9243,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "04aca9ac24ad24c2dbeb37e1cfa94d8453f07a51"
+   "10a25647c897490d204588e1cd9c2c67f3d88dea"
   ]
  },
  "5.5.6-4.1": {

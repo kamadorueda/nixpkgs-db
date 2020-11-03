@@ -5463,6 +5463,65 @@
    "0d0cb247ff378feecb9799487bb79b3afd518f51"
   ]
  },
+ "0.7.13-4.19.61": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30",
+   "1080955eaf53fd78a0f08d6d16c7fdd02f56fa30"
+  ]
+ },
  "0.7.13-4.19.62": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -7080,7 +7139,7 @@
   },
   "revs": [
    "00cafb4c8d48641a7048d9652b70ec12234601a4",
-   "06e50006d479d5316a34bde41d8a3a71916781a6"
+   "10a4edb927ea9abee6dd952b2335649d6786ef29"
   ]
  },
  "0.7.5-4.15.1": {
@@ -10879,7 +10938,7 @@
   },
   "revs": [
    "06c14eefe90587df4455f8bb4030f6d1265a097a",
-   "06c14eefe90587df4455f8bb4030f6d1265a097a"
+   "10869fbf444a0d0f7511965f715ed2aac553e6ff"
   ]
  },
  "0.7.9-4.14.85": {
