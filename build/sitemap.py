@@ -47,8 +47,11 @@ def main():
         for urls_chunk in chunked(urls, 50000):
             index += 1
             with open(f'service/public/sitemap.{index}.xml', 'w') as sitemap:
+                write(sitemap, '<?xml version="1.0" encoding="UTF-8"?>')
+                write(sitemap, '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
                 for url in urls_chunk:
-                    write(sitemap, url)
+                    write(sitemap, f'<url><loc>{url}</loc></url>')
+                write(sitemap, '</urlset>')
 
             write(sitemap_index, f"""
                 <sitemap>
