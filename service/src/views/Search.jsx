@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Button,
   Col,
   FormControl,
   InputGroup,
@@ -66,7 +65,6 @@ const SearchLoaded = (props) => {
   const pkgs = props.pkgs;
 
   const [page, setPage] = useState(1);
-  const [pkgName, setPkgName] = useState("");
   const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
 
   const startPage = Math.min(
@@ -81,11 +79,8 @@ const SearchLoaded = (props) => {
   const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
 
   const onPkgNameChange = (event) => {
-    setPkgName(event.target.value);
-  };
-  const onSearchButtonClick = () => {
     setPage(1);
-    setMatchingPackages(filterPkgs(pkgs, pkgName));
+    setMatchingPackages(filterPkgs(pkgs, event.target.value));
   };
   const onPreviousButtonClick = () => {
     setPage(page - 1);
@@ -98,7 +93,7 @@ const SearchLoaded = (props) => {
     <React.Fragment>
       {/* Search box and pagination */}
       <Row>
-        <Col sm={6}>
+        <Col sm={12}>
           <InputGroup>
             <InputGroup.Prepend>
               <InputGroup.Text id="pkgName">Package name</InputGroup.Text>
@@ -108,25 +103,7 @@ const SearchLoaded = (props) => {
               aria-describedby="pkgName"
               onChange={onPkgNameChange}
             />
-            <Button onClick={onSearchButtonClick} variant="outline-primary" >
-              Search
-            </Button>
           </InputGroup>
-        </Col>
-        <Col sm={6}>
-          <Pagination>
-            <Pagination.Prev
-              disabled={page === 1}
-              onClick={onPreviousButtonClick}
-            />
-            <Pagination.Item disabled={true}>
-              Showing packages {startPage}-{endPage} of {matchingPackages.length}
-            </Pagination.Item>
-            <Pagination.Next
-              disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
-              onClick={onNextButtonClick}
-            />
-          </Pagination>
         </Col>
       </Row>
 
@@ -142,6 +119,24 @@ const SearchLoaded = (props) => {
           </Row>
           <hr />
           {matchingPackagesOnPage.map((pkg) => <Pkg pkg={pkg} />)}
+        </Col>
+      </Row>
+
+      <Row>
+        <Col sm={12}>
+          <Pagination>
+            <Pagination.Prev
+              disabled={page === 1}
+              onClick={onPreviousButtonClick}
+            />
+            <Pagination.Item disabled={true}>
+              Showing packages {startPage}-{endPage} of {matchingPackages.length}
+            </Pagination.Item>
+            <Pagination.Next
+              disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
+              onClick={onNextButtonClick}
+            />
+          </Pagination>
         </Col>
       </Row>
     </React.Fragment>
