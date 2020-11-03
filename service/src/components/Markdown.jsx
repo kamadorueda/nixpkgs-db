@@ -1,22 +1,14 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import SyntaxHighlighter from 'react-syntax-highlighter';
 import { Col, Row } from 'react-bootstrap';
-import { vs as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
+import { CodeBlock } from './Code';
 
 const renderers = {
   text: (props) => <span>{props.children}</span>,
   break: () => <br />,
   heading: (props) => React.createElement("h".concat(props.level + 1), {}, props.children),
-  code: (props) => (
-    <React.Fragment>
-      <hr />
-      <SyntaxHighlighter language={props.language} style={style}>
-        {props.value}
-      </SyntaxHighlighter>
-      <hr />
-    </React.Fragment>
-  )
+  code: (props) => <CodeBlock lang={props.language} content={props.value} />,
   // paragraph: (props) => <p>{props.children}</p>,
   // emphasis: (props) => <em>{props.children}</em>,
   // strong: (props) => <strong>{props.children}</strong>,

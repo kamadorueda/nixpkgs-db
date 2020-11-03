@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Col,
   Row,
@@ -7,7 +7,7 @@ import {
   RiCpuLine,
   RiExternalLinkFill,
 } from 'react-icons/ri';
-import { Link, useParams, Redirect } from 'react-router-dom';
+import { useParams, Redirect } from 'react-router-dom';
 import { A } from '../components/A';
 import { Code } from '../components/Code';
 import { ErrorBoundary } from '../components/ErrorBoundary';
@@ -18,6 +18,47 @@ import { useFetchJSON } from '../hooks/fetch';
 const pkgVersionLink = (pkg, version) => (
   `/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(version)}`
 );
+
+const formatMaintainers = (maintainers) => {
+  let formatted = [];
+
+  if (maintainers === undefined) {
+    return formatted;
+  }
+
+  for (let maintainer of maintainers) {
+    switch (typeof maintainer) {
+      case "string":
+        formatted.push(maintainer);
+        break;
+      case "object":
+        formatted.push(`${maintainer.name} <${maintainer.email}>`);
+        break;
+      default:
+    }
+  }
+
+  return formatted.sort();
+}
+
+const formatPlatforms = (platforms) => {
+  let formatted = [];
+
+  if (platforms === undefined) {
+    return formatted;
+  }
+
+  for (let platform of platforms) {
+    switch (typeof platform) {
+      case "string":
+        formatted.push(platform);
+        break;
+      default:
+    }
+  }
+
+  return formatted.sort();
+}
 
 const Item = (props) => (
   <React.Fragment>
@@ -47,24 +88,55 @@ const PkgLoaded = (props) => {
   const versions = data.map(([version, _]) => version);
 
   const nixpkgs = `${GITHUB_NIXPKGS}/archive/${versionData?.revs[1]}.tar.gz`;
-  const nixEnv = `nix-env -i '${pkg}' -f '${nixpkgs}'`;
-  const nixShell = `nix-env -i '${pkg}' -I 'nixpkgs=${nixpkgs}'`;
+  const nixEnv = `
+    # Version: ${version}
+    nix-env -i ${pkg} -f ${nixpkgs}
+  `;
+  const nixShell = `
+    # Version: ${version}
+    nix-env -i ${pkg} -I nixpkgs=${nixpkgs}
+  `;
+  const nixBuild = `
+    let
+      pkgs = import <nixpkgs> { };
 
+      # Version: ${version}
+      ${pkg} = (import (pkgs.fetchzip {
+        url = "https://github.com/nixos/nixpkgs/archive/${versionData.revs[1]}.zip";
+        # Please update this hash with the one nix says on the first build attempt
+        sha256 = "0000000000000000000000000000000000000000000000000000000000000000";
+      }) { }).${pkg};
+    in
+      ...
+  `;
+
+  const pkgName = versionData?.meta?.name === undefined ? "" : `(${versionData?.meta?.name})`;
   return (
     <Row>
       <Col sm={12}>
         <Item
           title="Package"
-          content={pkg}
+          content={`${pkg} ${pkgName}`}
         />
         <Item
-          title="Name"
-          content={versionData?.meta?.name}
-        />
-        <Item
-          title="Version"
+          title="This page version"
           content={version}
         />
+        <Item
+          title="All versions"
+          content={
+            <Row>
+              {versions.map((v) => (
+                <Col sm={2}>
+                  <A href={`/nixpkgs-db/#${pkgVersionLink(pkg, v)}`}>
+                    <RiExternalLinkFill /> {v}
+                  </A>
+                </Col>
+              ))}
+            </Row>
+          }
+        />
+
         <Item
           title="Description"
           content={versionData?.meta?.description}
@@ -82,23 +154,26 @@ const PkgLoaded = (props) => {
           content={versionData?.meta?.license?.fullName}
         />
         <Item
-          title="Platforms"
+          title="Maintainers"
           content={
             <Row>
-              {versionData?.meta?.platforms?.sort()?.map((platform) => (
-                <Col sm={2}><RiCpuLine /> {platform}</Col>
+              {formatMaintainers(versionData?.meta?.maintainers).map((maintainer) => (
+                <Col sm={6}> <RiCpuLine /> {maintainer}</Col>
               ))}
             </Row>
           }
         />
-        {/* Add Maintainers */}
         <Item
           title="Interactive shell"
-          content={<Code content={nixShell} />}
+          content={<Code content={nixShell} lang="bash" />}
         />
         <Item
           title="Install in your system"
-          content={<Code content={nixEnv} />}
+          content={<Code content={nixEnv} lang="bash" />}
+        />
+        <Item
+          title="Use in an expression"
+          content={<Code content={nixBuild} lang="nix" />}
         />
         <Item
           title="Commits range"
@@ -107,22 +182,18 @@ const PkgLoaded = (props) => {
           `}
         />
         <Item
-          title="Versions"
+          title="Raw data"
+          content={<A href={dataSource} />}
+        />
+        <Item
+          title="Available platforms"
           content={
             <Row>
-              {versions.map((v) => (
-                <Col sm={2}>
-                  <Link to={pkgVersionLink(pkg, v)}>
-                    <RiExternalLinkFill /> {v}
-                  </Link>
-                </Col>
+              {formatPlatforms(versionData?.meta?.platforms).map((platform) => (
+                <Col sm={2}> <RiCpuLine /> {platform}</Col>
               ))}
             </Row>
           }
-        />
-        <Item
-          title="Raw"
-          content={<A href={dataSource} />}
         />
       </Col>
     </Row>

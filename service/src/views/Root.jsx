@@ -24,6 +24,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
+import { A } from '../components/A';
 import { markdownTab } from '../components/Markdown';
 import { useFetchJSON } from '../hooks/fetch';
 import contentAbout from './About.md';
@@ -50,7 +51,9 @@ export const Root = () => {
       {/* Header */}
       <Navbar>
         <Navbar.Brand>
-          <h1>Nixpkgs Database!</h1>
+          <A href="/nixpkgs-db" remote={false}>
+            <h1>Nixpkgs Database!</h1>
+          </A>
           <h5>A database with packages from all versions, all commits and all channels.</h5>
         </Navbar.Brand>
       </Navbar>
