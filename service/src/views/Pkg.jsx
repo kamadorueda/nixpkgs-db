@@ -6,6 +6,7 @@ import {
 import {
   RiCpuLine,
   RiExternalLinkFill,
+  RiUserHeartLine,
 } from 'react-icons/ri';
 import { useParams, Redirect } from 'react-router-dom';
 import { A } from '../components/A';
@@ -158,7 +159,7 @@ const PkgLoaded = (props) => {
           content={
             <Row>
               {formatMaintainers(versionData?.meta?.maintainers).map((maintainer) => (
-                <Col sm={6}> <RiCpuLine /> {maintainer}</Col>
+                <Col sm={6}> <RiUserHeartLine /> {maintainer}</Col>
               ))}
             </Row>
           }
