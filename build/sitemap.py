@@ -41,8 +41,8 @@ def main():
     index = 0
     urls.sort()
     with open('service/public/sitemapindex.xml', 'w') as sitemap_index:
+        write(sitemap_index, '<?xml version="1.0" encoding="UTF-8"?>')
         write(sitemap_index, """
-            <?xml version="1.0" encoding="UTF-8"?>
             <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         """)
 
