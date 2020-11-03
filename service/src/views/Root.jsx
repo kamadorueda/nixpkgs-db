@@ -28,6 +28,7 @@ import { markdownTab } from '../components/Markdown';
 import { useFetchJSON } from '../hooks/fetch';
 import contentAbout from './About.md';
 import contentContributing from './Contributing.md';
+import { Pkg } from './Pkg';
 import { Search } from './Search';
 import { Search as Search2 } from './Search2';
 
@@ -90,11 +91,11 @@ export const Root = () => {
           <Route exact={true} path="/contributing">
             {markdownTab(contentContributing)}
           </Route>
-          <Route exact={true} path="/pkg/:attribute">
-            ...
+          <Route exact={true} path="/pkg/:pkg">
+            <Pkg />
           </Route>
-          <Route exact={true} path="/pkg/:attribute/:version">
-            ...
+          <Route exact={true} path="/pkg/:pkg/:version">
+            <Pkg />
           </Route>
           <Route exact={true} path="/search">
             <Search pkgs={pkgs} revs={revs} />
