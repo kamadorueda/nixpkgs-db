@@ -1,5 +1,3 @@
-# Searching and installing many versions of Nix packages
-
 One of the advantages of **Nix** is the ability to install / use packages in
 **isolated environments** from the host system:
 

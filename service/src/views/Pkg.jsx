@@ -9,6 +9,7 @@ import {
 } from 'react-icons/ri';
 import { Link, useParams, Redirect } from 'react-router-dom';
 import { Code } from '../components/Code';
+import { ErrorBoundary } from '../components/ErrorBoundary';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_NIXPKGS, GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
@@ -21,16 +22,20 @@ const Item = (props) => (
   <React.Fragment>
     <Row>
       <Col sm={2}><b>{props.title}</b></Col>
-      <Col sm={10}>{
-        [null, undefined, ""].includes(props.content) ? "-" : props.content
-      }</Col>
+      <Col sm={10}>
+      <ErrorBoundary onError="Not specified">
+        {[null, undefined, ""].includes(props.content)
+          ? "-"
+          : props.content}
+      </ErrorBoundary>
+      </Col>
     </Row>
     <hr />
   </React.Fragment>
 );
 
 const PkgLoaded = (props) => {
-  const { data, dataJSON } = props;
+  const { data, dataJSON, dataSource } = props;
   const { pkg, version } = useParams();
 
   if (version === undefined) {
@@ -114,9 +119,11 @@ const PkgLoaded = (props) => {
             </Row>
           }
         />
+        <Item
+          title="Raw"
+          content={dataSource}
+        />
       </Col>
-      data: {JSON.stringify(data)}
-      version: {version}
     </Row>
   );
 };
@@ -132,5 +139,5 @@ export const Pkg = () => {
     return <ProgressBar label="Loading..." variant="info" />;;
   }
 
-  return <PkgLoaded data={data} dataJSON={dataJSON} />;
+  return <PkgLoaded data={data} dataJSON={dataJSON} dataSource={dataSource} />;
 };
