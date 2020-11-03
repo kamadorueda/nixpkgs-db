@@ -8,6 +8,7 @@ import {
   RiExternalLinkFill,
 } from 'react-icons/ri';
 import { Link, useParams, Redirect } from 'react-router-dom';
+import { A } from '../components/A';
 import { Code } from '../components/Code';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { ProgressBar } from '../components/ProgressBar';
@@ -74,7 +75,7 @@ const PkgLoaded = (props) => {
         />
         <Item
           title="Homepage"
-          content={versionData?.meta?.homepage}
+          content={<A href={versionData?.meta?.homepage} />}
         />
         <Item
           title="License"
@@ -121,7 +122,7 @@ const PkgLoaded = (props) => {
         />
         <Item
           title="Raw"
-          content={dataSource}
+          content={<A href={dataSource} />}
         />
       </Col>
     </Row>
