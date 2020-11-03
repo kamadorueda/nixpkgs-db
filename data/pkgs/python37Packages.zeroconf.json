@@ -1,4 +1,53 @@
 {
+ "0.20.0": {
+  "meta": {
+   "description": "A pure python implementation of multicast DNS service discovery",
+   "homepage": "https://github.com/jstasiak/python-zeroconf",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "name": "Nikolay Amiantov"
+    }
+   ],
+   "name": "python3.7-zeroconf",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/zeroconf/default.nix:16"
+  },
+  "revs": [
+   "0f38d9669ffd74991b65a9c40cdbcf2a98438d1f",
+   "0f38d9669ffd74991b65a9c40cdbcf2a98438d1f"
+  ]
+ },
  "0.21.3": {
   "meta": {
    "description": "A pure python implementation of multicast DNS service discovery",
@@ -350,7 +399,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "089c6660b0fb3cde60cae7b2e15b6d8c2b576e4c"
+   "0f5317a7e0d26e39546f26693f0d83e3a82f4e71"
   ]
  },
  "0.26.1": {

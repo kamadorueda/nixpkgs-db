@@ -1,4 +1,53 @@
 {
+ "0.28.5": {
+  "meta": {
+   "description": "An optimising static compiler for both the Python programming language and the extended Cython programming language",
+   "homepage": "http://cython.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fridh@fridh.nl",
+     "github": "fridh",
+     "name": "Frederik Rietdijk"
+    }
+   ],
+   "name": "python3.7-Cython",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/Cython/default.nix:54"
+  },
+  "revs": [
+   "0f38d9669ffd74991b65a9c40cdbcf2a98438d1f",
+   "0f38d9669ffd74991b65a9c40cdbcf2a98438d1f"
+  ]
+ },
  "0.29": {
   "meta": {
    "description": "An optimising static compiler for both the Python programming language and the extended Cython programming language",
@@ -175,7 +224,7 @@
   },
   "revs": [
    "03dbc5b13d59cd04412cccb8fede2b8921a85b09",
-   "03dbc5b13d59cd04412cccb8fede2b8921a85b09"
+   "0ef6e5524c6fd6b96c38ff32fd9e99da5700282d"
   ]
  },
  "0.29.13": {
