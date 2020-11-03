@@ -56,6 +56,9 @@ def main() -> None:
 
     for pkg, meta in json_load(args.rev_data).items():
         version = meta['version']
+        if not version:
+            continue
+
         meta = {
             'description': meta['meta'].get('description', ''),
             'homepage': meta['meta'].get('homepage', ''),
@@ -68,6 +71,7 @@ def main() -> None:
         }
 
         data = json_load(f'data/pkgs/{pkg}.json', {})
+        data.pop('', None)
 
         if version not in data:
             data[version] = {
