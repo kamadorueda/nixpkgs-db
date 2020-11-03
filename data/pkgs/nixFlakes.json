@@ -25,7 +25,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "021f94354c5aac20f85d3430bd8c4615730b35e7"
+   "0d0cb247ff378feecb9799487bb79b3afd518f51"
   ]
  },
  "2.3pre20190712_aa82f8b": {
@@ -219,7 +219,7 @@
   },
   "revs": [
    "00762b57545dba3b3e21e3a649b574db3db36c65",
-   "00762b57545dba3b3e21e3a649b574db3db36c65"
+   "0d220e4ed62355e8c2598f9e7b3e5a8e8eba43c2"
   ]
  },
  "2.4pre20190913_a25c022": {
@@ -277,7 +277,7 @@
   },
   "revs": [
    "02dbdcddcd305680af69e9f9245a04605db18f88",
-   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
+   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
   ]
  },
  "2.4pre20191022_9cac895": {
@@ -436,7 +436,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "098fdc6bafa3f592f0c55543f74656d7a0c3e85a"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
   ]
  },
  "2.4pre20200403_3473b19": {
@@ -489,7 +489,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "004443143fb020a01f1c734bff59bb8815ac183c"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "2.4pre20200501_941f952": {
@@ -648,7 +648,60 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
+   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
+  ]
+ },
+ "2.4pre20200719_a79b6dd": {
+  "meta": {
+   "description": "Powerful package manager that makes package management reliable and reproducible",
+   "homepage": "https://nixos.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+   },
+   "long_description": "Nix is a powerful package manager for Linux and other Unix systems that\nmakes package management reliable and reproducible. It provides atomic\nupgrades and rollbacks, side-by-side installation of multiple versions of\na package, multi-user package management and easy setup of build\nenvironments.\n",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "nix",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/package-management/nix/default.nix:139"
+  },
+  "revs": [
+   "0da12cba392a4f2508506a2d64bedb539829a237",
+   "0da12cba392a4f2508506a2d64bedb539829a237"
   ]
  },
  "2.4pre20200721_ff314f1": {
@@ -705,6 +758,60 @@
    "0b8db6f7171e09857338acd3fec24e4996d5e86c"
   ]
  },
+ "2.4pre20201102_550e11f": {
+  "meta": {
+   "description": "Powerful package manager that makes package management reliable and reproducible",
+   "homepage": "https://nixos.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+   },
+   "long_description": "Nix is a powerful package manager for Linux and other Unix systems that\nmakes package management reliable and reproducible. It provides atomic\nupgrades and rollbacks, side-by-side installation of multiple versions of\na package, multi-user package management and easy setup of build\nenvironments.\n",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "nix",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/package-management/nix/default.nix:144"
+  },
+  "revs": [
+   "08251935f7a3e0450c07c0bd6131b9af33807204",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
+  ]
+ },
  "3.0pre20200829_f156513": {
   "meta": {
    "description": "Powerful package manager that makes package management reliable and reproducible",
@@ -756,7 +863,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0672de5b894a15e97da9cf82bf3052bde7919691"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "3.0pre20201020_e0ca98c": {
@@ -810,7 +917,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "0da76dab4c2acce5ebf404c400d38ad95c52b152"
   ]
  }
 }

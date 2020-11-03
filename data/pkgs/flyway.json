@@ -25,7 +25,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "01a664e7793158b434fefac9217ec48313b2dd45"
+   "0d856d8b82ed5976e5027f0dff608a2595b196f9"
   ]
  },
  "5.0.7": {
@@ -398,7 +398,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
  "5.2.1": {
@@ -483,7 +483,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
  "5.2.4": {
@@ -674,7 +674,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
+   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
   ]
  },
  "6.1.3": {
@@ -833,7 +833,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "07f69d4e379d02c2d814afdbde4b839c7339fe91"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
   ]
  },
  "6.3.2": {
@@ -886,7 +886,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "05a16be9c5ab7190c440b5c875fb71ca083ed5bb"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "6.4.1": {
@@ -1098,7 +1098,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "0e305341fdc062d39ad62d5b8b2d08eb447d2f36"
   ]
  },
  "6.5.0": {
@@ -1259,7 +1259,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "6.5.5": {
@@ -1313,7 +1313,61 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "03faeaa8b37b9ab4fb08bb352cb4432c1e166fab"
+  ]
+ },
+ "7.1.1": {
+  "meta": {
+   "description": "Evolve your Database Schema easily and reliably across all your instances",
+   "homepage": "https://flywaydb.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "The Flyway command-line tool is a standalone Flyway distribution.\nIt is primarily meant for users who wish to migrate their database from the command-line\nwithout having to integrate Flyway into their applications nor having to install a build tool.\n\nThis package is only the Community Edition of the Flyway command-line tool.\n",
+   "maintainers": [
+    {
+     "email": "roger.qiu@matrix.ai",
+     "github": "cmcdragonkai",
+     "githubId": 640797,
+     "name": "Roger Qiu"
+    }
+   ],
+   "name": "flyway",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/flyway/default.nix:26"
+  },
+  "revs": [
+   "0007c0f3026f5a54d910eab2fb2b2f61ac069521",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

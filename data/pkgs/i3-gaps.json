@@ -187,7 +187,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
  "4.16": {
@@ -216,7 +216,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "047def418ee726a43b46bce6d93f26e2dd705cb4"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
  "4.16.1": {
@@ -446,7 +446,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "05a16be9c5ab7190c440b5c875fb71ca083ed5bb"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "4.18.1": {
@@ -590,7 +590,80 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "07cb3351254e660479f0146e36fa4d34bda0c0d9"
+  ]
+ },
+ "4.18.3": {
+  "meta": {
+   "description": "A fork of the i3 tiling window manager with some additional features",
+   "homepage": "https://github.com/Airblader/i3",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "Fork of i3wm, a tiling window manager primarily targeted at advanced users\nand developers. Based on a tree as data structure, supports tiling,\nstacking, and tabbing layouts, handled dynamically, as well as floating\nwindows. This fork adds a few features such as gaps between windows.\nConfigured via plain text file. Multi-monitor. UTF-8 clean.\n",
+   "maintainers": [
+    {
+     "email": "f.m.thoma@googlemail.com",
+     "github": "fmthoma",
+     "githubId": 5918766,
+     "name": "Franz Thoma"
+    }
+   ],
+   "name": "i3-gaps",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/window-managers/i3/gaps.nix:19"
+  },
+  "revs": [
+   "08251935f7a3e0450c07c0bd6131b9af33807204",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

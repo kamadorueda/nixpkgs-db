@@ -236,7 +236,7 @@
   },
   "revs": [
    "008eb7cb75b8a424fd48244be4f6a205648b8941",
-   "056dc16463ab83e46acdfac69faf3e17f74e0a62"
+   "0da7a14f16ad150a28bf50fb2f11797f9c5c4456"
   ]
  },
  "5.4.7-0.3.2": {
@@ -276,7 +276,7 @@
   },
   "revs": [
    "01fb51db8160e10e77ce691e9c0069a5294ff94c",
-   "0285a20b48e2f72a5592371009a08993d040037b"
+   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
   ]
  },
  "5.4.8-0.3.2": {
@@ -356,7 +356,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "017926a8b3e8a3daa49313ec5520cce7fc20569e"
+   "0e0ea456a5278483dc9892ee8876ed84b37a3660"
   ]
  },
  "5.5.1-0.3.2": {
@@ -476,7 +476,47 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "07dc1c743eda7afeff5cb388d8a7150fb912cac3"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
+  ]
+ },
+ "5.5.14-0.3.2": {
+  "meta": {
+   "description": "Kernel module driver for DDC/CI monitors",
+   "homepage": "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bricewge@gmail.com",
+     "github": "bricewge",
+     "githubId": 5525646,
+     "name": "Brice Waegeneire"
+    }
+   ],
+   "name": "ddcci-driver",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ddcci/default.nix:38"
+  },
+  "revs": [
+   "0d5664aa8fba03e796fd73c8ed628963e6c987f7",
+   "0e5ef8c4709e44dfdf22f742c1ebf92d2420e1cf"
   ]
  },
  "5.5.15-0.3.2": {
@@ -716,7 +756,7 @@
   },
   "revs": [
    "0030d391d229a2d5983752741d6bc0153dc82f1b",
-   "00ac5d8deda2a77aed512dce5b3bf488794f0847"
+   "0def916454de639b5a5374e454659a19f3fa7186"
   ]
  },
  "5.5.5-0.3.2": {
@@ -1076,7 +1116,7 @@
   },
   "revs": [
    "02faf44f52d0ac04efd738497e5cdc43463f0455",
-   "067e7ee24c284ea5cf3e05c50bfaa9cca3222994"
+   "0ec56df9d1f42fe9becea8d936bcbc2d97c58337"
   ]
  },
  "5.6.11-0.3.3": {
@@ -1436,7 +1476,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "073c37e06575f69be921840ca53c0a08a1793662"
+   "0e3b3bd5b08472f5c1ad60dff5439fdd95d4ff87"
   ]
  },
  "5.6.16-0.3.2": {
@@ -1516,7 +1556,7 @@
   },
   "revs": [
    "002e3cfbce62a8b55eba52af9c72d770e5b31547",
-   "06d0a781d8a3818d08f2f8faf8a288471b85a48f"
+   "0bee87c40085c396607b431afcc743b253567607"
   ]
  },
  "5.6.17-0.3.2": {
@@ -1716,7 +1756,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "0e305341fdc062d39ad62d5b8b2d08eb447d2f36"
   ]
  },
  "5.6.2-0.3.2": {
@@ -2076,7 +2116,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "06ac702738a704d519b92abf7cd8df5bb4723fb0"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "5.6.8-0.3.2": {
@@ -2116,7 +2156,7 @@
   },
   "revs": [
    "008f2184d075a977473e5cb0b76526c45d0e5330",
-   "0a7cc5d984053638f2d42c1e2780749a816073f4"
+   "0dd6de01b2e45862d546f07681c30acc0decb531"
   ]
  },
  "5.6.8-0.3.3": {
@@ -2357,6 +2397,46 @@
   "revs": [
    "01c2ba857590ca8d156682e478d297201b715ea2",
    "020a2121277f775bfc14c60b2ea3ac98fa5bd6be"
+  ]
+ },
+ "5.7.13-0.3.2": {
+  "meta": {
+   "description": "Kernel module driver for DDC/CI monitors",
+   "homepage": "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bricewge@gmail.com",
+     "github": "bricewge",
+     "githubId": 5525646,
+     "name": "Brice Waegeneire"
+    }
+   ],
+   "name": "ddcci-driver",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ddcci/default.nix:38"
+  },
+  "revs": [
+   "0c0fe6d85b92c4e992e314bd6f9943413af9a309",
+   "0c0fe6d85b92c4e992e314bd6f9943413af9a309"
   ]
  },
  "5.7.13-0.3.3": {
@@ -2796,7 +2876,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0260afe5f570822bf5574b7dc0347990f6bf3bd6"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "5.7.4-0.3.2": {
@@ -2916,7 +2996,7 @@
   },
   "revs": [
    "02203c195495aeb5fa1eeffea6cfa8a291de05a8",
-   "0b0ab14a07d4a52217b299443d3f043751764293"
+   "0cfa467f8771ca585b3e122806c8337f5025bd92"
   ]
  },
  "5.7.7-0.3.3": {
@@ -2956,7 +3036,7 @@
   },
   "revs": [
    "005b5770f482700cf0d787106b39c5efba030ae6",
-   "031cc88afc4bff97d949747d486ffb1a1e7a25ca"
+   "0c07d013795ea050de127a759d176d1286a80acf"
   ]
  },
  "5.7.8-0.3.2": {
@@ -2996,7 +3076,7 @@
   },
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
-   "02d1989f8c1cf8afddd155d4097f9c3708f6b859"
+   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
   ]
  },
  "5.7.8-0.3.3": {
@@ -3036,7 +3116,7 @@
   },
   "revs": [
    "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
-   "09558f1dbf382e8fced432c4aa023e3aad895243"
+   "0d39f408eada237629a5ddbe3413e3d6c0c29f64"
   ]
  },
  "5.7.9-0.3.3": {
@@ -3276,7 +3356,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0b884cec25bdf211f9f687e0945dbd0da363f1d8"
+   "03faeaa8b37b9ab4fb08bb352cb4432c1e166fab"
   ]
  },
  "5.8.17-0.3.3": {
@@ -3316,7 +3396,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

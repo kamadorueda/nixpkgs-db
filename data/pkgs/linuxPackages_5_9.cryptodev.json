@@ -62,7 +62,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0b884cec25bdf211f9f687e0945dbd0da363f1d8"
+   "03faeaa8b37b9ab4fb08bb352cb4432c1e166fab"
   ]
  },
  "1.11-5.9.2": {
@@ -95,7 +95,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  },
  "1.9-5.9": {
@@ -162,6 +162,39 @@
   "revs": [
    "012e55a4606cd7290a0248313659eef1be9988ef",
    "012e55a4606cd7290a0248313659eef1be9988ef"
+  ]
+ },
+ "1.9-5.9.2": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://cryptodev-linux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:21"
+  },
+  "revs": [
+   "07946a120638a3376b69e2a7c1097463bbe4e513",
+   "07946a120638a3376b69e2a7c1097463bbe4e513"
   ]
  }
 }

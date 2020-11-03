@@ -36,7 +36,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "0da76dab4c2acce5ebf404c400d38ad95c52b152"
   ]
  },
  "3.5.5": {
@@ -116,7 +116,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "00422d6a8b1d1b43e0a7a25f00d34f4970d0c70a"
+   "0e305341fdc062d39ad62d5b8b2d08eb447d2f36"
   ]
  },
  "3.5.8": {
@@ -196,7 +196,47 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
+  ]
+ },
+ "3.6.0": {
+  "meta": {
+   "description": "Enables musicians to perform real-time jam sessions over the internet",
+   "homepage": "https://github.com/corrados/jamulus/wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "You also need to enable JACK and should enable several real-time optimizations. See project website for details",
+   "maintainers": [
+    {
+     "email": "sebastian@seb314.com",
+     "github": "seb314",
+     "githubId": 19472270,
+     "name": "Sebastian"
+    }
+   ],
+   "name": "jamulus",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/jamulus/default.nix:20"
+  },
+  "revs": [
+   "08251935f7a3e0450c07c0bd6131b9af33807204",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

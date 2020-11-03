@@ -112,7 +112,7 @@
   },
   "revs": [
    "0052a756d29cb1803bdd667abe991ff0fc75abef",
-   "0b3e0cdab2fc009d5a7cdd21602e9866f3d728f4"
+   "0da7a40fcac5e7a380883e02e2a810a8dc7f751a"
   ]
  },
  "0.7.11-4.18.10": {
@@ -344,7 +344,7 @@
   },
   "revs": [
    "00807a645f18b9138fa3369968a6b68729f48d41",
-   "09cb8c3c18019ae4b8da06c56f6b6b9152fd8fb7"
+   "0d2f06ae3a1f8347dc09cd0dfe6d12b757368e4d"
   ]
  },
  "0.7.11-4.18.14": {
@@ -634,7 +634,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "09d790c03d533b902353187fd765cffcbea87d78"
+   "0c7b1576dd83865b171693e5b09e1585405c405f"
   ]
  },
  "0.7.11-4.18.19": {
@@ -692,7 +692,7 @@
   },
   "revs": [
    "010446f764e3228906841ae61214e26d6cdcf36c",
-   "042e81ae533b38bfa3f7cace6090c4638a63876f"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
  "0.7.11-4.18.20": {
@@ -751,6 +751,64 @@
   "revs": [
    "012b9e6c219ef721d06f9d219924108fd8606220",
    "012b9e6c219ef721d06f9d219924108fd8606220"
+  ]
+ },
+ "0.7.11-4.18.7": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "0bf6b440d90acc6b581c6dd18ce3eb6b335eccd7",
+   "0bf6b440d90acc6b581c6dd18ce3eb6b335eccd7"
   ]
  },
  "0.7.11-4.18.8": {
@@ -924,7 +982,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "035ae7a5c8e182226340781f55fc2c947826cd99"
+   "0ed4fc606ae0ee92113fe72f17cf3ee5381bd8f8"
   ]
  },
  "0.7.12-4.18.20": {
@@ -1040,7 +1098,7 @@
   },
   "revs": [
    "037157080799d96ac50feaaf16d783058a8222cb",
-   "05d85a267fdc825e26bfb426a799324783a951b4"
+   "0d3b2b6990f559970f21456ed183f865cac70543"
   ]
  },
  "0.7.9-4.18.4": {
@@ -1272,7 +1330,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "027b9beb583935a734c3d81dbf09862af3ee8293"
+   "0be60455c82976d69475b738a2d7f4957193702f"
   ]
  },
  "18.09pre-git-4.18": {
@@ -1562,7 +1620,7 @@
   },
   "revs": [
    "05310e3172fb0e5524a649ee31f3a9fecb95769e",
-   "090985a443d3801f2ed04e85c8319ffe591dc96c"
+   "0cce4fed12c0c3f1c81ac7f058da7f4a29cbc82b"
   ]
  }
 }

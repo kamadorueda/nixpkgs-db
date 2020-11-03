@@ -1,0 +1,4 @@
+{
+ "summary": "* On Darwin, don't link Perl against /usr/lib/libutil.dylib.  Libutil   uses /usr/lib/libstdc++.dylib, and so we get segfaults when using   Perl modules that depend on another libstdc++.dylib (like Nix's Perl   bindings).  It doesn't appear that libutil provides useful   functionality for Perl on Darwin.",
+ "timestamp": "1329507135"
+}

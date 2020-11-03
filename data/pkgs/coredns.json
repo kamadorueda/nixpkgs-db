@@ -284,7 +284,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "05cc2b1f514da3e5337595c5bbaee7d6681f9585"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
   ]
  },
  "1.6.9": {
@@ -408,7 +408,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "1.7.1": {
@@ -470,7 +470,69 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "07cb3351254e660479f0146e36fa4d34bda0c0d9"
+  ]
+ },
+ "1.8.0": {
+  "meta": {
+   "description": "A DNS server that runs middleware",
+   "homepage": "https://coredns.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rushmore@webenchanter.com",
+     "github": "rushmorem",
+     "githubId": 4958190,
+     "name": "Rushmore Mushambi"
+    },
+    {
+     "email": "treffer+nixos@measite.de",
+     "github": "rtreffer",
+     "githubId": 61306,
+     "name": "Rene Treffer"
+    },
+    {
+     "email": "deltaduartedavid@gmail.com",
+     "github": "DeltaEvo",
+     "githubId": 8864716,
+     "name": "Duarte David"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "coredns",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/dns/coredns/default.nix:20"
+  },
+  "revs": [
+   "08251935f7a3e0450c07c0bd6131b9af33807204",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

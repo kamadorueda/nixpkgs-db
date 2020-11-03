@@ -251,7 +251,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "01a664e7793158b434fefac9217ec48313b2dd45"
+   "0d856d8b82ed5976e5027f0dff608a2595b196f9"
   ]
  },
  "0.5.12": {
@@ -528,7 +528,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0a2747c4edb5c0df40d26126dde037f695eb7d84"
+   "0de0ce58939932aee786679a86d08b5227732fab"
   ]
  },
  "0.6.8": {
@@ -567,7 +567,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
  "0.8.12": {
@@ -606,7 +606,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
+   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
   ]
  },
  "0.8.3": {
@@ -903,7 +903,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "04a5e5ab7c77361a9891fcc3bc0e32748b43d05f"
+   "0c203ea6f0c9190d6087ef33d5bc6ffeaf985b25"
   ]
  },
  "0.9.15": {
@@ -980,7 +980,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "07f69d4e379d02c2d814afdbde4b839c7339fe91"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
   ]
  },
  "0.9.16": {
@@ -1134,7 +1134,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "05a16be9c5ab7190c440b5c875fb71ca083ed5bb"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "0.9.18": {
@@ -1448,7 +1448,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "07946a120638a3376b69e2a7c1097463bbe4e513"
   ]
  },
  "0.9.22": {
@@ -1527,7 +1527,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "040059b5d5b6db5def40be2d797188c89bd585b6"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "0.9.23": {
@@ -1606,7 +1606,86 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "07cb3351254e660479f0146e36fa4d34bda0c0d9"
+  ]
+ },
+ "0.9.24": {
+  "meta": {
+   "description": "A Python-ish, BASHwards-compatible shell",
+   "homepage": "https://xon.sh/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "sw@swhitt.me",
+     "github": "spwhitt",
+     "githubId": 1414088,
+     "name": "Spencer Whitt"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "xonsh",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/shells/xonsh/default.nix:47"
+  },
+  "revs": [
+   "016bfce7d266ac9c8e44c776c86e8394474281a8",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  },
  "0.9.4": {

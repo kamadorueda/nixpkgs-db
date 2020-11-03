@@ -304,7 +304,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0b0ea40ac3055a8deb69d049c12cce778b433ff3"
+   "0c8509befb2483c762746eb26058d31489546574"
   ]
  },
  "3.20.0": {
@@ -341,7 +341,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "03815a89699f3167eb9053fa45476879aee4904b"
+   "0dbd1b8b5df280c670f38baa29b68373544a9638"
   ]
  },
  "3.20.1": {
@@ -415,7 +415,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "01a664e7793158b434fefac9217ec48313b2dd45"
+   "0d856d8b82ed5976e5027f0dff608a2595b196f9"
   ]
  },
  "3.22.0": {
@@ -696,7 +696,106 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0bca7385139771082f8c89f3f1d4a067bbda3f59"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
+  ]
+ },
+ "3.25.0": {
+  "meta": {
+   "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+   "homepage": "http://www.sqlite.org/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "np.nix@nicolaspouillard.fr",
+     "github": "np",
+     "name": "Nicolas Pouillard"
+    }
+   ],
+   "name": "sqlite-interactive",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/sqlite/default.nix:77"
+  },
+  "revs": [
+   "0c7b1576dd83865b171693e5b09e1585405c405f",
+   "0c7b1576dd83865b171693e5b09e1585405c405f"
   ]
  },
  "3.25.3": {
@@ -1397,7 +1496,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "02d1989f8c1cf8afddd155d4097f9c3708f6b859"
+   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
   ]
  },
  "3.32.3": {
@@ -1520,7 +1619,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  },
  "3.8.10.1": {
@@ -1551,7 +1650,7 @@
   },
   "revs": [
    "002c687edf9a7aca64660f3ef67db88b0ad46c85",
-   "01dc343c2c613c263a2180d1850847f33653f94f"
+   "0cb17b0505f7a8aa522a7901d93190b50099b73e"
   ]
  },
  "3.8.10.2": {
@@ -1643,7 +1742,7 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "0b1cc3cd5198afd07a918d206e3b73ad4ac42930"
+   "0e9ebcbc4dd2a06d38270f496d1ddf1060b30d7f"
   ]
  },
  "3.8.7.4": {
@@ -1766,7 +1865,7 @@
   },
   "revs": [
    "0a2c78fb5fecf00a4eb06792a23de576d7e5692e",
-   "0a2c78fb5fecf00a4eb06792a23de576d7e5692e"
+   "0e731ecbd76beb143da04ab3b8a60c30de7bc9da"
   ]
  },
  "3.9.2": {

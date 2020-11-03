@@ -12,7 +12,7 @@
   },
   "revs": [
    "004057ea50b225f0585a969510b6ec7c09eba67d",
-   "01979f7940b818117a3c4454f836a2684edd68b5"
+   "0ee3317bc5042757ad64051080e3b3f8187ac81e"
   ]
  },
  "2.3": {
@@ -129,7 +129,7 @@
   },
   "revs": [
    "00081d1873148a8ec642d5c912d04875c4ee4a66",
-   "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
+   "0c8372d9c7374eafc035718749d81b8e8317f62e"
   ]
  },
  "2.7": {
@@ -161,7 +161,7 @@
   },
   "revs": [
    "022f120a2c381010798f1c9c3a519016c3792a8e",
-   "0b8f1b1448539d4166573769931de48488af7a4c"
+   "0e1a1748f4ad4736a62b73cc72ad2e96ed4a0a18"
   ]
  },
  "3.0": {
@@ -340,7 +340,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
  "3.1": {
@@ -419,7 +419,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
  "3.2.1": {
@@ -580,6 +580,85 @@
    "047def418ee726a43b46bce6d93f26e2dd705cb4"
   ]
  },
+ "3.2.3": {
+  "meta": {
+   "description": "Yacc-compatible parser generator",
+   "homepage": "https://www.gnu.org/software/bison/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Bison is a general-purpose parser generator that converts an\nannotated context-free grammar into an LALR(1) or GLR parser for\nthat grammar.  Once you are proficient with Bison, you can use\nit to develop a wide range of language parsers, from those used\nin simple desk calculators to complex programming languages.\n\nBison is upward compatible with Yacc: all properly-written Yacc\ngrammars ought to work with Bison with no change.  Anyone\nfamiliar with Yacc should be able to use Bison with little\ntrouble.  You need to be fluent in C or C++ programming in order\nto use Bison.\n",
+   "maintainers": [],
+   "name": "bison",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/parsing/bison/3.x.nix:21"
+  },
+  "revs": [
+   "0e393d0da133e805c90950535c2f21b04a6f75de",
+   "0e393d0da133e805c90950535c2f21b04a6f75de"
+  ]
+ },
  "3.2.4": {
   "meta": {
    "description": "Yacc-compatible parser generator",
@@ -735,7 +814,7 @@
   },
   "revs": [
    "004d1422922beb2b6801eff6c0195fa8b9aacf77",
-   "004d1422922beb2b6801eff6c0195fa8b9aacf77"
+   "0e65664c56999f1c0849b702fd8c00009ce3652a"
   ]
  },
  "3.3.2": {
@@ -814,7 +893,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d"
+   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
   ]
  },
  "3.4.1": {
@@ -905,7 +984,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
   ]
  },
  "3.5": {
@@ -1089,7 +1168,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "06d0a781d8a3818d08f2f8faf8a288471b85a48f"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "3.6.2": {
@@ -1275,7 +1354,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "3.7.2": {
@@ -1322,7 +1401,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

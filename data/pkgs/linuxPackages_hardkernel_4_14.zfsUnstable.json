@@ -229,7 +229,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "00a51a9669c0883b13a7bb5273641c3f8cd29694"
+   "0c1b8e877013c0a2edb852c20e77ca33b9869681"
   ]
  },
  "0.8.0-rc1-4.14.78-150": {
@@ -345,7 +345,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
  "0.8.0-rc2-4.14.78-150": {
@@ -403,7 +403,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "078b742a018a912fa73b0ffa4e50bee7a97bd1f4"
+   "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
  "0.8.0-rc2-4.14.85-152": {
@@ -578,7 +578,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "0a94f89fca3182cde82c91400db35e542215af97"
+   "0e6f1831172d7f9bc9301a627419a5456c0abdf1"
   ]
  },
  "0.8.0-rc3-4.14.87-153": {
@@ -1106,7 +1106,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "00a91d919d6f6cdaecc67a894f372a4195fea9da"
+   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
   ]
  },
  "0.8.2-4.14.165-172": {
@@ -1169,6 +1169,68 @@
   "revs": [
    "07b977df89a9cec2184fbf161dd425c43e91beb8",
    "07b977df89a9cec2184fbf161dd425c43e91beb8"
+  ]
+ },
+ "0.8.3-4.14.120-160": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "https://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "githubId": 168610,
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:161"
+  },
+  "revs": [
+   "0e0b8f2feb813cbd6ae1d670201b616579c24067",
+   "0e0b8f2feb813cbd6ae1d670201b616579c24067"
   ]
  },
  "0.8.3-4.14.165-172": {
@@ -1354,7 +1416,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0260afe5f570822bf5574b7dc0347990f6bf3bd6"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "2.0.0-rc2-4.14.165-172": {
@@ -1478,7 +1540,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "07946a120638a3376b69e2a7c1097463bbe4e513"
   ]
  },
  "2.0.0-rc4-4.14.165-172": {
@@ -1540,7 +1602,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  },
  "2018-05-22-4.14.47-139": {
@@ -1598,7 +1660,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "05df8471508538af01625f67ecc1bf467eeb6f2b"
+   "0c171538ff7245f9e45ea509953082bb76f54360"
   ]
  },
  "2018-05-22-4.14.55-146": {
@@ -1714,7 +1776,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "05e5a6dd0e3818621da1696574648b7267a19525"
+   "0e530b037d50985107899c94104175df629e8544"
   ]
  },
  "2018-08-13-4.14.66-147": {

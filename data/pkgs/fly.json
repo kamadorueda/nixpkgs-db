@@ -216,7 +216,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "05cc2b1f514da3e5337595c5bbaee7d6681f9585"
+   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
   ]
  },
  "6.0.0": {
@@ -272,7 +272,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "004443143fb020a01f1c734bff59bb8815ac183c"
+   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
   ]
  },
  "6.1.0": {
@@ -608,7 +608,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "012e55a4606cd7290a0248313659eef1be9988ef"
+   "069e485c189e4815fbb463c7dc0dfbfa7b1e4686"
   ]
  },
  "6.6.0": {
@@ -664,7 +664,63 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "03faeaa8b37b9ab4fb08bb352cb4432c1e166fab"
+  ]
+ },
+ "6.7.0": {
+  "meta": {
+   "description": "A command line interface to Concourse CI",
+   "homepage": "https://concourse-ci.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ivan.brennan@gmail.com",
+     "github": "ivanbrennan",
+     "githubId": 1672874,
+     "keys": [
+      {
+       "fingerprint": "7311 2700 AB4F 4CDF C68C  F6A5 79C3 C47D C652 EA54",
+       "longkeyid": "rsa4096/0x79C3C47DC652EA54"
+      }
+     ],
+     "name": "Ivan Brennan"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "fly",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/fly/default.nix:32"
+  },
+  "revs": [
+   "0007c0f3026f5a54d910eab2fb2b2f61ac069521",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }

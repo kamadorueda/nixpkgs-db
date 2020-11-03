@@ -119,7 +119,61 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "09ff423bef5f31f14c9b14b9d51b964d9b539c16"
+   "07cb3351254e660479f0146e36fa4d34bda0c0d9"
+  ]
+ },
+ "0.7.1": {
+  "meta": {
+   "description": "A Named Data Neworking (NDN) or Content Centric Networking (CCN) abstraction",
+   "homepage": "http://named-data.net/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3Only",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "ndn-cxx is a C++ library, implementing Named Data Networking (NDN)\nprimitives that can be used to implement various NDN applications.\nNDN operates by addressing and delivering Content Objects directly\nby Name instead of merely addressing network end-points. In addition,\nthe NDN security model explicitly secures individual Content Objects\nrather than securing the connection or \u201cpipe\u201d. Named and secured\ncontent resides in distributed caches automatically populated on\ndemand or selectively pre-populated. When requested by name, NDN\ndelivers named content to the user from the nearest cache, thereby\ntraversing fewer network hops, eliminating redundant requests,\nand consuming less resources overall.\n",
+   "maintainers": [
+    {
+     "email": "setori88@gmail.com",
+     "github": "sjmackenzie",
+     "githubId": 158321,
+     "name": "Stewart Mackenzie"
+    }
+   ],
+   "name": "ndn-cxx",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/ndn-cxx/default.nix:36"
+  },
+  "revs": [
+   "016bfce7d266ac9c8e44c776c86e8394474281a8",
+   "08251935f7a3e0450c07c0bd6131b9af33807204"
   ]
  }
 }
