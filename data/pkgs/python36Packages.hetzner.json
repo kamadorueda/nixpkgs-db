@@ -129,5 +129,54 @@
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
+ },
+ "0.8.2": {
+  "meta": {
+   "description": "High-level Python API for accessing the Hetzner robot",
+   "homepage": "https://github.com/RedMoonStudios/hetzner",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aszlig@nix.build",
+     "github": "aszlig",
+     "name": "aszlig"
+    }
+   ],
+   "name": "python3.6-hetzner",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/python-packages.nix:6128"
+  },
+  "revs": [
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+  ]
  }
 }

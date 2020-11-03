@@ -232,7 +232,7 @@
   },
   "revs": [
    "0031a036ca6a32bc380c7b52c5e4de8fc142373c",
-   "0b996d886b32d1e6baf33406848e3ddeed7efe00"
+   "0f6f98755e29f13530dce1964060361f35bdf390"
   ]
  },
  "0.85-3.12.25": {
@@ -681,7 +681,7 @@
   },
   "revs": [
    "00bb9cfd5b071593a40c57ca39541ee2b8064053",
-   "095a7f8cd6e7b65e5d10c6eadde4e4ab859a1338"
+   "0fe9d58e4ef739bc361a3d9acb3dd912dad485d2"
   ]
  },
  "0.85-3.14.33": {
@@ -786,7 +786,7 @@
   },
   "revs": [
    "0067ccbfdf0c61b14e0f7611d99212ecade407dc",
-   "00c3a9751a2acbd16144b5ffab68daa0daef09f5"
+   "0fb056f521579ae3135c0b9edfb91e1588bf09dc"
   ]
  },
  "0.85-3.14.40": {
@@ -2193,7 +2193,7 @@
   },
   "revs": [
    "019dcc3745807abe3b5835ab10488e1aae862d9f",
-   "019dcc3745807abe3b5835ab10488e1aae862d9f"
+   "0f769e6c9cf9507e778c3a48dd02fa41c517370d"
   ]
  },
  "0.85-4.4.5": {
@@ -2301,6 +2301,27 @@
    "061bd1293b2f26bb7951f253582d66147395ef30"
   ]
  },
+ "0.85-4.4.55": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "nvidiabl",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:26"
+  },
+  "revs": [
+   "0f81c787556b7338e4bad2ee41a871add488d1ad",
+   "0f81c787556b7338e4bad2ee41a871add488d1ad"
+  ]
+ },
  "0.85-4.4.56": {
   "meta": {
    "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
@@ -2340,7 +2361,7 @@
   },
   "revs": [
    "00e76dd81eef2316330d5434d27c18db0cd7192f",
-   "00e76dd81eef2316330d5434d27c18db0cd7192f"
+   "0ff8fc1d83f85dbde91a3ce65111141c9014114e"
   ]
  },
  "0.85-4.4.6": {
@@ -2915,6 +2936,27 @@
   "revs": [
    "0c8509befb2483c762746eb26058d31489546574",
    "0c8509befb2483c762746eb26058d31489546574"
+  ]
+ },
+ "0.85-4.9.4": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "nvidiabl",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:26"
+  },
+  "revs": [
+   "0fdef7d2f170f83b5af242c77709e4939f73f89d",
+   "0fdef7d2f170f83b5af242c77709e4939f73f89d"
   ]
  },
  "0.85-4.9.5": {
@@ -4208,7 +4250,7 @@
   },
   "revs": [
    "0054183cc6b857ea08865162bbcfeecca29e9dbc",
-   "0dbd1b8b5df280c670f38baa29b68373544a9638"
+   "0f9ab62873e0d7c0adaaa5234ffd70cd3a42ba18"
   ]
  },
  "0.87-4.9.60": {
@@ -4498,7 +4540,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
+   "0fdf29224eae3876aa9d695fb1fe16faeb7cbdb2"
   ]
  },
  "0.87-4.9.78": {
@@ -5092,6 +5134,36 @@
    "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
+ "2017-09-26-4.14.120": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+  ]
+ },
  "2017-09-26-4.14.27": {
   "meta": {
    "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
@@ -5149,7 +5221,7 @@
   },
   "revs": [
    "002b46082276693574dc7d13f1d4950106b963f3",
-   "032a3286fd88df8e073dad17f9424c06057c3079"
+   "0f743154566b1498e34ddc65e8fad8887b38fb46"
   ]
  },
  "2017-09-26-4.14.29": {
@@ -5659,7 +5731,7 @@
   },
   "revs": [
    "04bd841d1b742c89f878b70d3e98d1f61c190e53",
-   "04bd841d1b742c89f878b70d3e98d1f61c190e53"
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a"
   ]
  },
  "2017-09-26-4.14.47": {
@@ -6229,7 +6301,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "0b701f479f1d9690c17e835e6851bb2b99ba2177"
+   "100173942f6b700fc104acf0a79b83e397f2b7a4"
   ]
  },
  "2017-09-26-4.14.66": {
@@ -7099,7 +7171,7 @@
   },
   "revs": [
    "063d09f3e70851fbf987def7a9a2b3f67582fae4",
-   "063d09f3e70851fbf987def7a9a2b3f67582fae4"
+   "0f8ec286c4143810eb885ced6d26e3df9f8a6a0b"
   ]
  },
  "2017-09-26-4.14.95": {
@@ -7310,7 +7382,7 @@
   },
   "revs": [
    "0063acf4dff8a53cb889b788d594d1acd09f602d",
-   "0d208d923d03f2b27a20d261a0f2a8b5c51e0676"
+   "0f83cff8a2c27fb31357ea860ecca6dc99d96fd1"
   ]
  },
  "2017-09-26-4.19.13": {
@@ -7670,7 +7742,7 @@
   },
   "revs": [
    "0081f3ac4828cb4db7b8d7d826fc3ba0d7b03a15",
-   "02997940e288f614101747e80d7e9764da455eb9"
+   "0fb356381423dc2bc696f8f7ecb5b36ed1dd6b5d"
   ]
  },
  "2017-09-26-4.19.34": {
@@ -7760,7 +7832,7 @@
   },
   "revs": [
    "008c9a70a57f0448b275179bfbc10c8750f29069",
-   "02adc5618a3a635924fdb6d1d357fb86bf0f075d"
+   "0f8a6e4841dc0cdb5efc527c41192663a1fd7960"
   ]
  },
  "2017-09-26-4.19.37": {
@@ -7820,7 +7892,7 @@
   },
   "revs": [
    "00f52f0134cf2be85029ab6b658e7123ff931280",
-   "0d6993a9c6038f7bcf0993f614c0908e263ea59f"
+   "0fad70e569f86903e100d108226e618ffe28a9f6"
   ]
  },
  "2017-09-26-4.19.39": {
@@ -8000,7 +8072,7 @@
   },
   "revs": [
    "00972dc89ce01a025efe3e33b116b4722fc4ce4b",
-   "0ee35c56bd0c577433fe582078ea2318a05accc1"
+   "0f7dead98cc73f01c4d4716d9ca910e93e3707ab"
   ]
  },
  "2017-09-26-4.19.45": {
@@ -8180,7 +8252,7 @@
   },
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
-   "08dae69741a91e12a7a1910ee1339b48cf346611"
+   "0ff6b8863a8916766616845cc9f723edd6ce3558"
   ]
  },
  "2017-09-26-4.19.51": {
@@ -9054,7 +9126,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "0aa20a002ea2f4161f0b3f3d46628a9b7ec1a55b"
+   "0fa2ab2a742a17ae8068de59a19849b377a0c7a8"
   ]
  },
  "2017-09-26-4.19.91": {
@@ -10914,7 +10986,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "0caacb6242c17fd0d05e34e016a8b2d0c44121fd"
+   "0f6fffa4d062c6f7f96092a73076b576c5625c88"
   ]
  },
  "2017-09-26-5.4.70": {
@@ -10945,7 +11017,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "0ee4d1e4e8945bea6521458a0e5984636ddefc25"
+   "0fd4e3c87705d16a694b7feba0e3d593b8b0c3ac"
   ]
  },
  "2017-09-26-5.4.71": {
@@ -11038,7 +11110,38 @@
   },
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
-   "07946a120638a3376b69e2a7c1097463bbe4e513"
+   "0c7d13662c766662526892b99666772b2e5b2f42"
+  ]
+ },
+ "2017-09-26-5.4.74": {
+  "meta": {
+   "description": "Linux driver for setting the backlight brightness on laptops using NVIDIA GPU",
+   "homepage": "https://github.com/guillaumezin/nvidiabl",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "nvidiabl",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidiabl/default.nix:30"
+  },
+  "revs": [
+   "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0",
+   "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0"
   ]
  },
  "2020-10-01-5.4.70": {
@@ -11162,7 +11265,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "08251935f7a3e0450c07c0bd6131b9af33807204"
+   "0d96c45f2f407ccc5857f2a049db9f1813e91e0c"
   ]
  },
  "2020-10-01-5.4.74": {

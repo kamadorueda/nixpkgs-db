@@ -1504,7 +1504,7 @@
   },
   "revs": [
    "063d09f3e70851fbf987def7a9a2b3f67582fae4",
-   "063d09f3e70851fbf987def7a9a2b3f67582fae4"
+   "0f8ec286c4143810eb885ced6d26e3df9f8a6a0b"
   ]
  },
  "0.7.12-4.19.17": {
@@ -2433,6 +2433,64 @@
   "revs": [
    "00a51b4012ba43f0eda39b5c2b4e5b35d2070fe9",
    "0972bde7d22f10838485682cfc00ad4ef95e8d09"
+  ]
+ },
+ "0.7.12-4.19.44": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
   ]
  },
  "0.7.12-4.19.5": {
@@ -3560,7 +3618,7 @@
   },
   "revs": [
    "00fa98f0122be32ca6daa5d187472c83a90a7e74",
-   "00fa98f0122be32ca6daa5d187472c83a90a7e74"
+   "0f87efb60ca5a284c24446ba8398f4abdebe8860"
   ]
  },
  "0.7.13-4.20.14": {
@@ -3855,7 +3913,7 @@
   },
   "revs": [
    "00f52f0134cf2be85029ab6b658e7123ff931280",
-   "0c9608d10294b236339eb7eeb5e7cf081f18e0da"
+   "0fad70e569f86903e100d108226e618ffe28a9f6"
   ]
  },
  "0.7.13-5.0.12": {
@@ -4268,7 +4326,7 @@
   },
   "revs": [
    "0081f3ac4828cb4db7b8d7d826fc3ba0d7b03a15",
-   "02997940e288f614101747e80d7e9764da455eb9"
+   "0fb356381423dc2bc696f8f7ecb5b36ed1dd6b5d"
   ]
  },
  "0.7.13-5.0.7": {
@@ -4445,7 +4503,7 @@
   },
   "revs": [
    "008c9a70a57f0448b275179bfbc10c8750f29069",
-   "02adc5618a3a635924fdb6d1d357fb86bf0f075d"
+   "0f8a6e4841dc0cdb5efc527c41192663a1fd7960"
   ]
  },
  "0.7.13-5.1": {
@@ -5153,7 +5211,7 @@
   },
   "revs": [
    "00972dc89ce01a025efe3e33b116b4722fc4ce4b",
-   "0ee35c56bd0c577433fe582078ea2318a05accc1"
+   "0f7dead98cc73f01c4d4716d9ca910e93e3707ab"
   ]
  },
  "0.7.13-5.1.4": {
@@ -5449,6 +5507,65 @@
   "revs": [
    "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00",
    "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00"
+  ]
+ },
+ "0.7.13-5.1.9": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:49"
+  },
+  "revs": [
+   "0ff6b8863a8916766616845cc9f723edd6ce3558",
+   "0ff6b8863a8916766616845cc9f723edd6ce3558"
   ]
  },
  "0.7.13-5.2.10": {

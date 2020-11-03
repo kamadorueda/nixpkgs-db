@@ -143,7 +143,7 @@
   },
   "revs": [
    "00e76dd81eef2316330d5434d27c18db0cd7192f",
-   "00e76dd81eef2316330d5434d27c18db0cd7192f"
+   "0ff8fc1d83f85dbde91a3ce65111141c9014114e"
   ]
  },
  "1.8-4.9.2": {
@@ -269,7 +269,7 @@
   },
   "revs": [
    "019dcc3745807abe3b5835ab10488e1aae862d9f",
-   "019dcc3745807abe3b5835ab10488e1aae862d9f"
+   "0f769e6c9cf9507e778c3a48dd02fa41c517370d"
   ]
  },
  "1.9-4.9.100": {
@@ -434,7 +434,7 @@
   },
   "revs": [
    "04bd841d1b742c89f878b70d3e98d1f61c190e53",
-   "04bd841d1b742c89f878b70d3e98d1f61c190e53"
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a"
   ]
  },
  "1.9-4.9.105": {
@@ -500,7 +500,7 @@
   },
   "revs": [
    "01040d9c27cce96a095dffe8225e220fb8e8dbcc",
-   "0ac4bae6ef5fe0c59bc5264ee1dcdaa90ac40905"
+   "0f73fef53a97ff68205715d6ab6c0362db95b32f"
   ]
  },
  "1.9-4.9.107": {
@@ -995,7 +995,7 @@
   },
   "revs": [
    "01a10ec4bfaccd21be746beb4d655fea8f146d69",
-   "01a10ec4bfaccd21be746beb4d655fea8f146d69"
+   "100173942f6b700fc104acf0a79b83e397f2b7a4"
   ]
  },
  "1.9-4.9.122": {
@@ -1919,7 +1919,7 @@
   },
   "revs": [
    "063d09f3e70851fbf987def7a9a2b3f67582fae4",
-   "063d09f3e70851fbf987def7a9a2b3f67582fae4"
+   "0f8ec286c4143810eb885ced6d26e3df9f8a6a0b"
   ]
  },
  "1.9-4.9.152": {
@@ -2382,6 +2382,39 @@
   "revs": [
    "0d84ab811e216d0711fb2afae7b0a96e78299fca",
    "0d84ab811e216d0711fb2afae7b0a96e78299fca"
+  ]
+ },
+ "1.9-4.9.177": {
+  "meta": {
+   "description": "Device that allows access to Linux kernel cryptographic drivers",
+   "homepage": "http://home.gna.org/cryptodev-linux/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cryptodev-linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/cryptodev/default.nix:22"
+  },
+  "revs": [
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
   ]
  },
  "1.9-4.9.61": {

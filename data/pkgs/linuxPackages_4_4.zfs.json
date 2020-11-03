@@ -2705,6 +2705,64 @@
    "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
+ "0.7.12-4.4.180": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
+   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+  ]
+ },
  "0.7.13-4.4.176": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -2879,7 +2937,7 @@
   },
   "revs": [
    "0017a06717bb18706ac3cb99432034caad0c8b91",
-   "02adc5618a3a635924fdb6d1d357fb86bf0f075d"
+   "0f8a6e4841dc0cdb5efc527c41192663a1fd7960"
   ]
  },
  "0.7.13-4.4.179": {
@@ -2998,6 +3056,65 @@
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
    "04f050ab8cb0d757a7a1d1771dbd435d71cd8b00"
+  ]
+ },
+ "0.7.13-4.4.181": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:144"
+  },
+  "revs": [
+   "0ff6b8863a8916766616845cc9f723edd6ce3558",
+   "0ff6b8863a8916766616845cc9f723edd6ce3558"
   ]
  },
  "0.7.13-4.4.182": {
@@ -3917,7 +4034,7 @@
   },
   "revs": [
    "010d30123db4e861c29e78b5964733a0a97889a3",
-   "0dbd1b8b5df280c670f38baa29b68373544a9638"
+   "0f9ab62873e0d7c0adaaa5234ffd70cd3a42ba18"
   ]
  },
  "0.7.2-4.4.96": {
@@ -4302,7 +4419,7 @@
   },
   "revs": [
    "007cd5262f12a9883cbac44c4f894d3469966f7e",
-   "0235539dfe46ee0c72a620430c41f8fd7d19af53"
+   "0fdf29224eae3876aa9d695fb1fe16faeb7cbdb2"
   ]
  },
  "0.7.5-4.4.113": {
@@ -4407,7 +4524,7 @@
   },
   "revs": [
    "029fa375c8188c561eb74d8a08d12a78b4a34f0c",
-   "0a941e0b66ab86cf359d4f158bda86c9742c4b2b"
+   "0f5d5970b28c9d85e7166f85ecfa3f86064d3f25"
   ]
  },
  "0.7.6-4.4.115": {
@@ -5505,6 +5622,64 @@
    "0c00bf8ffc3399808264112f8fd67c56c7b01c08"
   ]
  },
+ "0.7.8-4.4.134": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:133"
+  },
+  "revs": [
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a",
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a"
+  ]
+ },
  "0.7.8-4.4.135": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -5734,7 +5909,7 @@
   },
   "revs": [
    "001a84f22adb50971c5d3898012eb92a5c90d503",
-   "0ac4bae6ef5fe0c59bc5264ee1dcdaa90ac40905"
+   "0f73fef53a97ff68205715d6ab6c0362db95b32f"
   ]
  },
  "0.7.9-4.4.136": {
@@ -6546,7 +6721,7 @@
   },
   "revs": [
    "01a10ec4bfaccd21be746beb4d655fea8f146d69",
-   "01a10ec4bfaccd21be746beb4d655fea8f146d69"
+   "100173942f6b700fc104acf0a79b83e397f2b7a4"
   ]
  },
  "0.7.9-4.4.150": {
@@ -8061,7 +8236,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0aa20a002ea2f4161f0b3f3d46628a9b7ec1a55b"
+   "0fa2ab2a742a17ae8068de59a19849b377a0c7a8"
   ]
  },
  "0.8.2-4.4.207": {
@@ -9053,7 +9228,7 @@
   },
   "revs": [
    "00a5e1e76f9d87e4c22eac1bd8e6b36c4594e1c8",
-   "020d0bfe1aec36a170f31e1239493946fe216735"
+   "0f8e972f019a92f3670af5eb7ca3eb3c928330bb"
   ]
  },
  "0.8.3-4.4.222": {
@@ -9673,7 +9848,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "0e3b3bd5b08472f5c1ad60dff5439fdd95d4ff87"
+   "0ffeccd89fd1d1aaeb1285827362179a3b9a4451"
   ]
  },
  "0.8.4-4.4.226": {
@@ -10479,7 +10654,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "0ee4d1e4e8945bea6521458a0e5984636ddefc25"
+   "0fd4e3c87705d16a694b7feba0e3d593b8b0c3ac"
   ]
  },
  "0.8.4-4.4.239": {
@@ -10665,7 +10840,7 @@
   },
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
-   "07946a120638a3376b69e2a7c1097463bbe4e513"
+   "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0"
   ]
  },
  "0.8.5-4.4.240": {

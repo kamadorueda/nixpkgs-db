@@ -1085,6 +1085,64 @@
    "0c00bf8ffc3399808264112f8fd67c56c7b01c08"
   ]
  },
+ "2018-04-10-4.9.104": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a",
+   "0f8fcfa026523f5bb443fa81d14da07a5c22ec8a"
+  ]
+ },
  "2018-04-10-4.9.105": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -1778,7 +1836,7 @@
   },
   "revs": [
    "01040d9c27cce96a095dffe8225e220fb8e8dbcc",
-   "0ac4bae6ef5fe0c59bc5264ee1dcdaa90ac40905"
+   "0f73fef53a97ff68205715d6ab6c0362db95b32f"
   ]
  },
  "2018-05-07-4.9.107": {
@@ -2648,7 +2706,7 @@
   },
   "revs": [
    "01a10ec4bfaccd21be746beb4d655fea8f146d69",
-   "01a10ec4bfaccd21be746beb4d655fea8f146d69"
+   "100173942f6b700fc104acf0a79b83e397f2b7a4"
   ]
  },
  "2018-05-07-4.9.123": {
