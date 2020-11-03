@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import {
-  Accordion,
   Button,
-  Card,
   Col,
-  Container,
   FormControl,
   InputGroup,
-  Jumbotron,
   Pagination,
   Row,
 } from 'react-bootstrap';
-
+import { RiExternalLinkFill } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 import { ProgressBar } from '../components/ProgressBar';
-import { GITHUB_RAW_NIXPKGS_DB, GITHUB_NIXPKGS } from '../constants';
+import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
 
 const RESULTS_PER_PAGE = 10;
@@ -21,6 +18,35 @@ const RESULTS_PER_PAGE = 10;
 const filterPkgs = (pkgs, pkgName) => (
   pkgs.filter((pkg) => pkg.includes(pkgName)).sort()
 );
+
+const PkgLoading = () => (
+  <React.Fragment>
+    <Row>
+      <Col sm={12}>
+        <ProgressBar label="Loading..." variant="info" />
+      </Col>
+    </Row>
+    <hr />
+  </React.Fragment>
+);
+
+const PkgLoaded = (props) => {
+  const { data, pkg } = props;
+  const lastData = props.data[0][1];
+  const pkgLink = `/pkg/${encodeURIComponent(pkg)}`;
+
+  return (
+    <React.Fragment>
+      <Row>
+        <Col sm={3}><Link to={pkgLink}><RiExternalLinkFill /> {pkg}</Link></Col>
+        <Col sm={3}>{lastData.meta.name}</Col>
+        <Col sm={5}>{lastData.meta.description}</Col>
+        <Col sm={1}>{data.length}</Col>
+      </Row>
+      <hr />
+    </React.Fragment>
+  );
+};
 
 const Pkg = (props) => {
   const pkg = props.pkg;
@@ -30,99 +56,37 @@ const Pkg = (props) => {
   const data =  Object.entries(dataJSON).reverse();
 
   if (data.length === 0) {
-    return (
-      <Card>
-        <Accordion.Toggle as={Card.Header} variant="link" eventKey={pkg}>
-          <ProgressBar label="Loading..." variant="info" />
-        </Accordion.Toggle>
-      </Card>
-    );
-  } else {
-    const lastVersion = data[0][0];
-    const lastData = data[0][1];
-
-    return (
-      <Card>
-        <Accordion.Toggle as={Card.Header} variant="link" eventKey={pkg}>
-          <Row>
-            <Col sm={3}>
-              <b>
-                {lastData.meta.homepage === "" ? pkg : (
-                  <a href={lastData.meta.homepage} rel="noopener" target="blank">
-                    {pkg}
-                  </a>
-                )}
-              </b>
-            </Col>
-            <Col sm={3}>{lastData.meta.name}</Col>
-            <Col>{lastData.meta.description}</Col>
-            <Col sm={1}>{data.length}</Col>
-          </Row>
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey={pkg}>
-          <Jumbotron>
-            <Accordion defaultActiveKey={`${pkg} v${lastVersion} @ ${lastData.revs[1]}`}>
-              {data.map((item) => {
-                const itemVersion = item[0];
-                const itemData = item[1];
-                const itemKey = `${pkg} v${itemVersion} @ ${itemData.revs[1]}`;
-
-                return (
-                  <Card>
-                    <Accordion.Toggle as={Card.Header} variant="link" eventKey={itemKey}>
-                      <a href={dataSource} rel="noopener" target="blank">
-                        <b>{pkg} v{itemVersion}</b>
-                      </a>
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey={itemKey}>
-                      <Card.Body>
-                        <Card.Text>
-                          <Container fluid>
-                            <Row>
-                              <Col>
-                                <code>
-                                  $ <b>nix-shell</b> -p {pkg} -I nixpkgs={`${GITHUB_NIXPKGS}/archive/${itemData.revs[1]}.tar.gz`}
-                                </code>
-                              </Col>
-                            </Row>
-                            <Row>
-                              <Col>
-                                <code>
-                                  $ <b>nix-env</b> -i {pkg} -f {`${GITHUB_NIXPKGS}/archive/${itemData.revs[1]}.tar.gz`}
-                                </code>
-                              </Col>
-                            </Row>
-                          </Container>
-                        </Card.Text>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                );
-              })}
-            </Accordion>
-          </Jumbotron>
-        </Accordion.Collapse>
-      </Card>
-    );
+    return <PkgLoading />;
   }
-}
 
-const Results = (props) => {
+  return <PkgLoaded data={data} pkg={pkg} />;
+};
+
+const SearchLoaded = (props) => {
   const pkgs = props.pkgs;
 
   const [page, setPage] = useState(1);
   const [pkgName, setPkgName] = useState("");
   const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
 
+  const startPage = Math.min(
+    1 + (page - 1) * RESULTS_PER_PAGE,
+    matchingPackages.length,
+  );
+  const endPage = Math.min(
+    page * RESULTS_PER_PAGE,
+    matchingPackages.length,
+  );
+
+  const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
+
   const onPkgNameChange = (event) => {
     setPkgName(event.target.value);
   };
-
   const onSearchButtonClick = () => {
     setPage(1);
     setMatchingPackages(filterPkgs(pkgs, pkgName));
   };
-
   const onPreviousButtonClick = () => {
     setPage(page - 1);
   };
@@ -130,11 +94,9 @@ const Results = (props) => {
     setPage(page + 1);
   };
 
-  const pageStart = Math.min(1 + (page - 1) * RESULTS_PER_PAGE, matchingPackages.length);
-  const pageEnd = Math.min(page * RESULTS_PER_PAGE, matchingPackages.length);
-
   return (
     <React.Fragment>
+      {/* Search box and pagination */}
       <Row>
         <Col sm={6}>
           <InputGroup>
@@ -158,7 +120,7 @@ const Results = (props) => {
               onClick={onPreviousButtonClick}
             />
             <Pagination.Item disabled={true}>
-              Showing packages {pageStart}-{pageEnd} of {matchingPackages.length}
+              Showing packages {startPage}-{endPage} of {matchingPackages.length}
             </Pagination.Item>
             <Pagination.Next
               disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
@@ -168,23 +130,18 @@ const Results = (props) => {
         </Col>
       </Row>
 
+      {/* Results table */}
       <Row>
         <Col sm={12}>
-          <Accordion defaultActiveKey={matchingPackages[0]}>
-            <Card>
-              <Accordion.Toggle as={Card.Header} variant="dark">
-                <Row>
-                  <Col sm={3}><b>Attribute</b></Col>
-                  <Col sm={3}><b>Name</b></Col>
-                  <Col><b>Description</b></Col>
-                  <Col sm={1}><b>Versions</b></Col>
-                </Row>
-              </Accordion.Toggle>
-            </Card>
-            {matchingPackages
-              .slice(pageStart - 1, pageEnd)
-              .map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
-          </Accordion>
+          <hr />
+          <Row>
+            <Col sm={3}><b>Attribute</b></Col>
+            <Col sm={3}><b>Name</b></Col>
+            <Col sm={5}><b>Description</b></Col>
+            <Col sm={1}><b>Versions</b></Col>
+          </Row>
+          <hr />
+          {matchingPackagesOnPage.map((pkg) => <Pkg pkg={pkg} />)}
         </Col>
       </Row>
     </React.Fragment>
@@ -196,5 +153,5 @@ export const Search = (props) => {
     return <ProgressBar label="Loading..." variant="info" />;
   }
 
-  return <Results pkgs={props.pkgs} revs={props.revs} />;
+  return <SearchLoaded pkgs={props.pkgs} revs={props.revs} />;
 }

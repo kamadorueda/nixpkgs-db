@@ -30,7 +30,6 @@ import contentAbout from './About.md';
 import contentContributing from './Contributing.md';
 import { Pkg } from './Pkg';
 import { Search } from './Search';
-import { Search as Search2 } from './Search2';
 
 const Tab = (props) => (
   <Nav.Item>
@@ -69,9 +68,6 @@ export const Root = () => {
               <Tab>
                 <Link to="/search"><RiSearchLine /> Search</Link>
               </Tab>
-              <Tab>
-                <Link to="/search-new"><RiSearchLine /> Search v2</Link>
-              </Tab>
               <Tab href="https://github.com/kamadorueda/nixpkgs-db">
                 <RiCodeSSlashLine /> Source
               </Tab>
@@ -99,9 +95,6 @@ export const Root = () => {
           </Route>
           <Route exact={true} path="/search">
             <Search pkgs={pkgs} revs={revs} />
-          </Route>
-          <Route exact={true} path="/search-new">
-            <Search2 pkgs={pkgs} revs={revs} />
           </Route>
           <Redirect to="/search" />
         </Switch>
