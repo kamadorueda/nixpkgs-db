@@ -42,13 +42,13 @@ def main():
     urls.sort()
     with open('service/public/sitemapindex.xml', 'w') as sitemap_index:
         write(sitemap_index, '<?xml version="1.0" encoding="UTF-8"?>')
-        write(sitemap_index, '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+        write(sitemap_index, '<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/siteindex.xsd">')
 
         for urls_chunk in chunked(urls, 50000):
             index += 1
             with open(f'service/public/sitemap.{index}.xml', 'w') as sitemap:
-                write(sitemap, '<?xml version="1.0" encoding="UTF-8"?>')
-                write(sitemap, '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+                write(sitemap, '<?xml version="1.0" encoding="UTF-8" ?>')
+                write(sitemap, '<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">')
                 for url in urls_chunk:
                     write(sitemap, f'<url><loc>{url}</loc></url>')
                 write(sitemap, '</urlset>')
