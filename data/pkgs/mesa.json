@@ -60,7 +60,7 @@
   },
   "revs": [
    "001c64c1df91f69a8dedb42327da8452ed3f27c9",
-   "05095ec48d0acb43a8e4d88a152c905c4a42c043"
+   "1396f624f46b406e82fcea825962af3f50c747c1"
   ]
  },
  "10.1.2": {
@@ -316,7 +316,7 @@
   },
   "revs": [
    "099f85465c344e49875385dd35bbba9fa72b5aa7",
-   "099f85465c344e49875385dd35bbba9fa72b5aa7"
+   "14d83e9565ea6179c07999fde0be1f516889d005"
   ]
  },
  "10.5.8": {
@@ -396,7 +396,7 @@
   },
   "revs": [
    "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd",
-   "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd"
+   "143811261356e2e6284563d3c51cbe29052a3a15"
   ]
  },
  "10.6.5": {
@@ -493,6 +493,22 @@
   "revs": [
    "0338199544a7df4ce8dde1b6dc987f17760863f3",
    "04c7506f0f9f47f3f38c3d5dff7b8dabc36368b6"
+  ]
+ },
+ "11.0.3": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "mesa",
+   "platforms": null,
+   "position": "pkgs/build-support/trivial-builders.nix:10"
+  },
+  "revs": [
+   "1335293aa72b44d4c95c8d313f7448445ba67b1a",
+   "1335293aa72b44d4c95c8d313f7448445ba67b1a"
   ]
  },
  "11.0.4": {
@@ -806,7 +822,7 @@
   },
   "revs": [
    "00e76dd81eef2316330d5434d27c18db0cd7192f",
-   "0ff8fc1d83f85dbde91a3ce65111141c9014114e"
+   "149b025544cf9dbdb099a32ad670394fd76cd5b5"
   ]
  },
  "13.0.1": {
@@ -868,7 +884,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "10303e9e47525389334222a441010edebe972513"
+   "146985e772e43c6129eb32589c39dec29053f75f"
   ]
  },
  "13.0.3": {
@@ -1188,7 +1204,7 @@
   },
   "revs": [
    "00672dec8a1367a1d559660aa7a125b31f3f6562",
-   "0925f79d561b077c40c53e3fb213df461bdf2b06"
+   "13d026e219c2f6c6f35f39abf5c911eca4884355"
   ]
  },
  "17.0.7": {
@@ -1220,7 +1236,7 @@
   },
   "revs": [
    "0c8509befb2483c762746eb26058d31489546574",
-   "0c8509befb2483c762746eb26058d31489546574"
+   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
   ]
  },
  "17.1.1": {
@@ -1388,7 +1404,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "04dacfbf1c5b306875b8a136411e952771dc150d"
+   "14bbec180188db61818a757872378f6b73d0ac28"
   ]
  },
  "17.2.2": {
@@ -1627,6 +1643,55 @@
   "revs": [
    "06a239e3a0729f584574f64b8da554e70404989b",
    "06a239e3a0729f584574f64b8da554e70404989b"
+  ]
+ },
+ "18.1.7": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa-noglu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:269"
+  },
+  "revs": [
+   "131c507694b212da3bbee728ea4c7c2c14433471",
+   "131c507694b212da3bbee728ea4c7c2c14433471"
   ]
  },
  "18.1.8": {
@@ -2067,7 +2132,7 @@
   },
   "revs": [
    "0450d28a1ef6610654de845c40504dd1b9951870",
-   "096ef4f2970d3707370897801d263494754e30a0"
+   "1411a5f8de848cc2450e515ba31ea252afe34419"
   ]
  },
  "18.3.3": {
@@ -2301,7 +2366,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
+   "14bbfd8548d28528db2f89823024ef85011eb2ba"
   ]
  },
  "19.3.1": {
@@ -3105,7 +3170,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  },
  "20.2.1": {
@@ -3275,7 +3340,7 @@
   },
   "revs": [
    "0009c1f650ba619de97df36322fbd0346db0c099",
-   "03aae985bc8430e06c0d41d055fab359a689bfca"
+   "13c81f6c7977a0eebb6a69288b0893541d5183fa"
   ]
  },
  "7.11.2": {

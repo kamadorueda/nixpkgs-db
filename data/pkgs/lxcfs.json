@@ -98,7 +98,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "2017-03-02": {
@@ -129,7 +129,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0c8509befb2483c762746eb26058d31489546574"
+   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
   ]
  },
  "3.0.0": {
@@ -709,6 +709,64 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "03cb3521f823df150e3a09488a3d9f080bfd480e"
+  ]
+ },
+ "4.0.6": {
+  "meta": {
+   "description": "FUSE filesystem for LXC",
+   "homepage": "https://linuxcontainers.org/lxcfs",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "lxcfs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/lxcfs/default.nix:44"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }

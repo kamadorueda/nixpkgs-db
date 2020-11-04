@@ -95,6 +95,60 @@
    "0f4673788ef286ab623d95f407d08eb38d97f057"
   ]
  },
+ "2.11.1": {
+  "meta": {
+   "description": "A generic and open source machine emulator and virtualizer",
+   "homepage": "http://www.qemu.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "qemu-host-cpu-only",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/qemu/default.nix:150"
+  },
+  "revs": [
+   "14cdf3741838e5a3774ce452dc79b8374f8ec037",
+   "14cdf3741838e5a3774ce452dc79b8374f8ec037"
+  ]
+ },
  "2.12.0": {
   "meta": {
    "description": "A generic and open source machine emulator and virtualizer",
@@ -508,7 +562,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }

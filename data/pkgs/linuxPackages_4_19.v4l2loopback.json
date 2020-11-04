@@ -581,7 +581,7 @@
   },
   "revs": [
    "0c53b75ea61ff7ac316da8f746fa4cdee59ee9e0",
-   "0c53b75ea61ff7ac316da8f746fa4cdee59ee9e0"
+   "132a24fa28548b3fab73f2ba087347ba6578b40b"
   ]
  },
  "0.11.0-4.19.29": {
@@ -1556,7 +1556,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "051e85296a2decff508f5810bb131045b7afb6c6"
+   "148d8392c0b52f12d5152d27fb87f2ee6b94be98"
   ]
  },
  "0.12.0-4.19.25": {
@@ -1793,6 +1793,45 @@
    "04719a005202a9b0a8e815c90f94a5e9a1fce05d"
   ]
  },
+ "0.12.0-4.19.30": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "13a2f37442d98325e1f861a9840f19544c938c0b",
+   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
+  ]
+ },
  "0.12.0-4.19.4": {
   "meta": {
    "description": "A kernel module to create V4L2 loopback devices",
@@ -1946,7 +1985,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "12fabbdb1be3861184f3f8590e3b9adafaf3b650"
   ]
  },
  "0.12.0-4.19.8": {
@@ -2024,7 +2063,7 @@
   },
   "revs": [
    "004cb5a694e39bd91b27b0adddc127daf2cb76cb",
-   "0289f4adf032d402d95a438ed18a966eeffda5cd"
+   "130e52555352b5705c6abbb3d2fff13d7209959a"
   ]
  },
  "0.12.3-4.19.100": {
@@ -2704,7 +2743,47 @@
   },
   "revs": [
    "0364b92be6d2a6c0ad5acb08641b168e22eea73a",
-   "0364b92be6d2a6c0ad5acb08641b168e22eea73a"
+   "128ee4fc4a42a4dd60092def8d2c74511563e5ce"
+  ]
+ },
+ "0.12.3-4.19.119": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "129e603619d9a3219ecb64c81172c2c79778b74e",
+   "129e603619d9a3219ecb64c81172c2c79778b74e"
   ]
  },
  "0.12.4-4.19.114": {
@@ -3464,7 +3543,7 @@
   },
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
-   "014f823beb235a257661135da525adf2e14955d5"
+   "1304fc40c6a6ed1c94be59e8e94d735906f2af67"
   ]
  },
  "0.12.4-4.19.133": {
@@ -3744,7 +3823,7 @@
   },
   "revs": [
    "05fb4a2099066797db3f47503bdb33b8c7e885dd",
-   "0c59c1296b23abc25a6383ff26db2eeb17ad8a81"
+   "14006b724f3d1f25ecf38238ee723d38b0c2f4ce"
   ]
  },
  "0.12.4-4.19.142": {
@@ -3864,7 +3943,47 @@
   },
   "revs": [
    "0da54872f9da4649099118b8f59e85a4256cc45c",
-   "10ecc023a9a9368b7406c1e0b9bfd289dd637ff0"
+   "147b303509c7757bfbd9e5cf70bd2349255d01f2"
+  ]
+ },
+ "0.12.4-4.19.145": {
+  "meta": {
+   "description": "A kernel module to create V4L2 loopback devices",
+   "homepage": "https://github.com/umlaeute/v4l2loopback",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "v4l2loopback",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/v4l2loopback/default.nix:31"
+  },
+  "revs": [
+   "13d38bfb2667fef377ace320313db07aac267165",
+   "13d38bfb2667fef377ace320313db07aac267165"
   ]
  },
  "0.12.4-4.19.146": {
@@ -4424,7 +4543,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "0f5317a7e0d26e39546f26693f0d83e3a82f4e71"
+   "12ce76d7a55112754e8fe9d50afcee59bb9955cc"
   ]
  },
  "0.12.5-4.19.125": {
@@ -4664,7 +4783,7 @@
   },
   "revs": [
    "00c6fa607cc564a1b64eaf56d0540607df7eca19",
-   "07076e9fe015489fcd1c67f37c0d750442c6f975"
+   "128dbb31cca3ba479396c6b65946e2e6503c0f8d"
   ]
  },
  "0.12.5-4.19.131": {
@@ -4824,7 +4943,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "04fef4c0e97ecebc91ef3a545fac2321b026762c"
+   "1275f71c0dc14d4ab46d8d7418eaa2846b163c68"
   ]
  },
  "0.12.5-4.19.135": {
@@ -5544,7 +5663,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1111911593b8bafbab4c280f53d728ee51522689"
+   "13a910e3f6e50ff3d1946e75cce6fde64656bba0"
   ]
  },
  "0.12.5-4.19.153": {
@@ -5584,7 +5703,7 @@
   },
   "revs": [
    "05659a44ceb009f9c0c7060c3c1456276a2b3472",
-   "088865c9469c88e32827093eed4416ddd13c45a6"
+   "13ba2bc228491e07f62dcba0d867a365ea7f809e"
   ]
  },
  "0.12.5-4.19.154": {
@@ -5624,7 +5743,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }

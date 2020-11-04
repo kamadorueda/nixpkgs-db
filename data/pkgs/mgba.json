@@ -182,7 +182,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "0.6.3": {
@@ -585,6 +585,52 @@
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
    "03cb3521f823df150e3a09488a3d9f080bfd480e"
+  ]
+ },
+ "0.8.4": {
+  "meta": {
+   "description": "A modern GBA emulator with a focus on accuracy",
+   "homepage": "https://mgba.io",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "mGBA is a new Game Boy Advance emulator written in C.\n\nThe project started in April 2013 with the goal of being fast\nenough to run on lower end hardware than other emulators\nsupport, without sacrificing accuracy or portability. Even in\nthe initial version, games generally play without problems. It\nis loosely based on the previous GBA.js emulator, although very\nlittle of GBA.js can still be seen in mGBA.\n\nOther goals include accurate enough emulation to provide a\ndevelopment environment for homebrew software, a good workflow\nfor tool-assist runners, and a modern feature set for emulators\nthat older emulators may not support.\n",
+   "maintainers": [
+    {
+     "email": "MP2E@archlinux.us",
+     "github": "MP2E",
+     "githubId": 167708,
+     "name": "Cray Elliott"
+    },
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "mgba",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/emulators/mgba/default.nix:41"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  },
  "20160325": {

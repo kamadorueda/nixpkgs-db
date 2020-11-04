@@ -192,7 +192,7 @@
   },
   "revs": [
    "0adae9f822e93b0a7507619426119173d2ec001d",
-   "0adae9f822e93b0a7507619426119173d2ec001d"
+   "134776e5e97aa92a7bf9e4d9be9bf4b0c2e6060a"
   ]
  },
  "3.0.2": {
@@ -261,7 +261,7 @@
   },
   "revs": [
    "0000d4029e264262dcf45a822ccf3b48bcacf209",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "3.0.5": {
@@ -738,6 +738,85 @@
    "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e"
   ]
  },
+ "3.3": {
+  "meta": {
+   "description": "Yacc-compatible parser generator",
+   "homepage": "https://www.gnu.org/software/bison/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Bison is a general-purpose parser generator that converts an\nannotated context-free grammar into an LALR(1) or GLR parser for\nthat grammar.  Once you are proficient with Bison, you can use\nit to develop a wide range of language parsers, from those used\nin simple desk calculators to complex programming languages.\n\nBison is upward compatible with Yacc: all properly-written Yacc\ngrammars ought to work with Bison with no change.  Anyone\nfamiliar with Yacc should be able to use Bison with little\ntrouble.  You need to be fluent in C or C++ programming in order\nto use Bison.\n",
+   "maintainers": [],
+   "name": "bison",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/parsing/bison/3.x.nix:20"
+  },
+  "revs": [
+   "1283c190982516f25ef023b2972de16b955f6cc6",
+   "1283c190982516f25ef023b2972de16b955f6cc6"
+  ]
+ },
  "3.3.1": {
   "meta": {
    "description": "Yacc-compatible parser generator",
@@ -984,7 +1063,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0dd0d03c32fb42fc54f6364f33985429efddeeeb"
+   "14bbfd8548d28528db2f89823024ef85011eb2ba"
   ]
  },
  "3.5": {
@@ -1401,7 +1480,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }

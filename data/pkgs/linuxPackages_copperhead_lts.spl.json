@@ -460,7 +460,7 @@
   },
   "revs": [
    "0080fe93fcaf18f390696f9c4e715b5ac6952d4a",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "1461461426831c23740ae68b7fc13db4aa0a9326"
   ]
  },
  "0.7.9-4.14.49": {
@@ -518,7 +518,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "0cdd824bd5f77a24d9785547bce584b173e81eb2"
+   "14c248a4ab71045793c7c090cc64bdac6ee268d4"
   ]
  },
  "0.7.9-4.14.50": {
@@ -2201,6 +2201,64 @@
   "revs": [
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+  ]
+ },
+ "0.7.9-4.14.90": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "138f2cc707d7ee13d93c86db3285460e244c402c",
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "18.09pre-git-4.14.62": {

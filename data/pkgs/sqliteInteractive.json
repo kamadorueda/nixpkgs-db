@@ -335,7 +335,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "3.24.0": {
@@ -723,6 +723,105 @@
    "0f7dead98cc73f01c4d4716d9ca910e93e3707ab"
   ]
  },
+ "3.27.1": {
+  "meta": {
+   "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+   "homepage": "http://www.sqlite.org/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "np.nix@nicolaspouillard.fr",
+     "github": "np",
+     "name": "Nicolas Pouillard"
+    }
+   ],
+   "name": "sqlite-interactive",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/sqlite/default.nix:77"
+  },
+  "revs": [
+   "148d8392c0b52f12d5152d27fb87f2ee6b94be98",
+   "148d8392c0b52f12d5152d27fb87f2ee6b94be98"
+  ]
+ },
  "3.27.2": {
   "meta": {
    "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
@@ -979,7 +1078,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0282a909f74ccc7abb9ff7c07a8836d6ab47b8bb"
+   "1360a0303d28ba5f5531f83f2ebafdbfb5429e1e"
   ]
  },
  "3.30.1": {
@@ -1040,7 +1139,7 @@
   },
   "revs": [
    "002fc5fa06868521e7bf134ca45d679cb21cae9a",
-   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
+   "14bbfd8548d28528db2f89823024ef85011eb2ba"
   ]
  },
  "3.31.0": {
@@ -1101,7 +1200,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "03f3d67e94d11e58204178f04b46478277c2432f"
+   "1320f23a6b5517e73bb886ffb23bec5b037914bf"
   ]
  },
  "3.31.1": {
@@ -1407,7 +1506,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  },
  "3.6.22-interactive": {
@@ -1503,7 +1602,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "0ae5d8fd0541b974e63600b7e3a4181354837caa"
+   "123c3f91a369b53a652522d8e43e76f009aafeae"
   ]
  },
  "3.7.14.1-interactive": {

@@ -269,7 +269,7 @@
   },
   "revs": [
    "0080fe93fcaf18f390696f9c4e715b5ac6952d4a",
-   "0080fe93fcaf18f390696f9c4e715b5ac6952d4a"
+   "1461461426831c23740ae68b7fc13db4aa0a9326"
   ]
  },
  "4.14.49": {
@@ -308,7 +308,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "0cdd824bd5f77a24d9785547bce584b173e81eb2"
+   "14c248a4ab71045793c7c090cc64bdac6ee268d4"
   ]
  },
  "4.14.50": {
@@ -1440,6 +1440,45 @@
   "revs": [
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+  ]
+ },
+ "4.14.90": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long, copperhead-4.14, tag-hardened)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "138f2cc707d7ee13d93c86db3285460e244c402c",
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  }
 }

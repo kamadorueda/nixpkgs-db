@@ -152,7 +152,7 @@
   },
   "revs": [
    "0c53b75ea61ff7ac316da8f746fa4cdee59ee9e0",
-   "0c53b75ea61ff7ac316da8f746fa4cdee59ee9e0"
+   "132a24fa28548b3fab73f2ba087347ba6578b40b"
   ]
  },
  "1.5.2-4.14.106": {
@@ -542,7 +542,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0da7a40fcac5e7a380883e02e2a810a8dc7f751a"
+   "14ccf337ba2b0c68f907cbf4bd82172709a1a1e1"
   ]
  },
  "1.5.2-4.14.70": {
@@ -815,7 +815,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "0a898e5980909ac2a9fce3b319c8d67310fe40d1"
+   "13be3ef7f5840d324f7b7c1b62d72f86c1d0a589"
   ]
  },
  "1.5.2-4.14.77": {
@@ -1205,7 +1205,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "12fabbdb1be3861184f3f8590e3b9adafaf3b650"
   ]
  },
  "1.5.2-4.14.87": {
@@ -1634,7 +1634,7 @@
   },
   "revs": [
    "10dbdd30d199146bf9b41c029127ffe7b92caff2",
-   "10dbdd30d199146bf9b41c029127ffe7b92caff2"
+   "12b1462924a6445537075003c0c8705ecbff3556"
   ]
  },
  "1.5.2-4.14.98": {
@@ -1751,7 +1751,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "051e85296a2decff508f5810bb131045b7afb6c6"
+   "148d8392c0b52f12d5152d27fb87f2ee6b94be98"
   ]
  },
  "2.0.2-4.14.103": {
@@ -1908,6 +1908,45 @@
   "revs": [
    "009976d1b9f3649d16ebf0a3fd40833bd0cb243c",
    "09255d40093800604540dc729a30382b3522f2aa"
+  ]
+ },
+ "2.0.2-4.14.107": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "13a2f37442d98325e1f861a9840f19544c938c0b",
+   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
   ]
  },
  "2.0.2-4.14.97": {
@@ -2297,7 +2336,7 @@
   },
   "revs": [
    "00cdff318a317565b8289fa807dfb3b9bbbaaa91",
-   "0536257612ce3ac5be90f989525994e9e780f3b8"
+   "1278615a4832a8cb691b43a942d0dbce3eb73b9e"
   ]
  },
  "2.0.2-4.19.19": {
@@ -3230,7 +3269,7 @@
   },
   "revs": [
    "021257e5989717a2430a05c271350ab8038f3d23",
-   "1096720c5f8e7abf2a4ad1ed1b402ab25e8309e2"
+   "1305c1a73fd0f1d8a45dde8fec37fd420be4d326"
   ]
  },
  "2.0.2-4.19.52": {
@@ -3497,7 +3536,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "0d0cb247ff378feecb9799487bb79b3afd518f51"
+   "12d7fb573bca191aef063a95ab2204d5819ec0cd"
   ]
  },
  "2.0.2-4.19.60": {
@@ -3802,7 +3841,7 @@
   },
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
-   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
+   "126d992745e987e6decf11beea448cac25823019"
   ]
  },
  "2.0.2-4.19.68": {
@@ -4154,6 +4193,45 @@
   "revs": [
    "0e0ee084d6dfc83b5b67b6cbcefe43664114808d",
    "0e0ee084d6dfc83b5b67b6cbcefe43664114808d"
+  ]
+ },
+ "2.0.2-4.19.78": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e",
+   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e"
   ]
  },
  "2.0.2-4.19.79": {
@@ -4625,7 +4703,7 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "052c103725383309b0199b4fcc01a60f27837119"
+   "14bbfd8548d28528db2f89823024ef85011eb2ba"
   ]
  },
  "2.1.2-4.19.94": {
@@ -4825,7 +4903,7 @@
   },
   "revs": [
    "008eb7cb75b8a424fd48244be4f6a205648b8941",
-   "0e0ea456a5278483dc9892ee8876ed84b37a3660"
+   "1335a986c8e0a4382c91f66a5718cbdd6d4d9274"
   ]
  },
  "2.1.2-5.4.16": {
@@ -6145,7 +6223,7 @@
   },
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
-   "014f823beb235a257661135da525adf2e14955d5"
+   "1304fc40c6a6ed1c94be59e8e94d735906f2af67"
   ]
  },
  "2.1.2-5.4.52": {
@@ -6305,7 +6383,7 @@
   },
   "revs": [
    "0c0fe6d85b92c4e992e314bd6f9943413af9a309",
-   "0c0fe6d85b92c4e992e314bd6f9943413af9a309"
+   "127c8de5210342fd1f24c6a4a7c997af71c6f3cd"
   ]
  },
  "2.1.2-5.4.57": {
@@ -6585,7 +6663,47 @@
   },
   "revs": [
    "0da54872f9da4649099118b8f59e85a4256cc45c",
-   "10ecc023a9a9368b7406c1e0b9bfd289dd637ff0"
+   "147b303509c7757bfbd9e5cf70bd2349255d01f2"
+  ]
+ },
+ "2.1.2-5.4.65": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "13d38bfb2667fef377ace320313db07aac267165",
+   "13d38bfb2667fef377ace320313db07aac267165"
   ]
  },
  "2.1.2-5.4.66": {
@@ -6985,7 +7103,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1111911593b8bafbab4c280f53d728ee51522689"
+   "13a910e3f6e50ff3d1946e75cce6fde64656bba0"
   ]
  },
  "2.2.11-5.4.73": {
@@ -7065,7 +7183,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "00d6fff6303531fb9ee4ae9761e888407485ba22"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  },
  "2.2.7-5.4.41": {
@@ -7105,7 +7223,7 @@
   },
   "revs": [
    "0527318a8818a0560bebff2d1171007072e2b962",
-   "0900872b02ca8e250a16642d445026a846de9f6a"
+   "13c485d63da8c7fa6a705dc0f4bbd42313beee6c"
   ]
  },
  "2.2.7-5.4.42": {
@@ -7145,7 +7263,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "0f5317a7e0d26e39546f26693f0d83e3a82f4e71"
+   "12ce76d7a55112754e8fe9d50afcee59bb9955cc"
   ]
  },
  "2.2.7-5.4.43": {
@@ -7385,7 +7503,7 @@
   },
   "revs": [
    "00aebe90110f0c8e8d9381b2f02c307df36dc94d",
-   "08215bbaf344adef6323b3def7c0d2fc1ee66cfd"
+   "14ddd784d3421701fbc7a780368295b753747d30"
   ]
  },
  "2.2.7-5.4.49": {
@@ -7425,7 +7543,7 @@
   },
   "revs": [
    "00c6fa607cc564a1b64eaf56d0540607df7eca19",
-   "07076e9fe015489fcd1c67f37c0d750442c6f975"
+   "128dbb31cca3ba479396c6b65946e2e6503c0f8d"
   ]
  },
  "2.2.7-5.4.50": {
@@ -7585,7 +7703,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "04fef4c0e97ecebc91ef3a545fac2321b026762c"
+   "1275f71c0dc14d4ab46d8d7418eaa2846b163c68"
   ]
  },
  "2.2.7-5.4.54": {
@@ -8105,7 +8223,7 @@
   },
   "revs": [
    "012b501a12d140953355c311c7319883f5e71105",
-   "102df6c6f2b2b68aca69ae2e691ff260fae509f5"
+   "14e4f4dbb413cd6d6f723bbe388a6256472e2c70"
   ]
  },
  "2.2.7-5.4.67": {

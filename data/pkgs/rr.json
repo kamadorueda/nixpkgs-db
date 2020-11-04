@@ -39,6 +39,32 @@
    "0570a08b83e4a3594c13be250f55aed7da51a328"
   ]
  },
+ "2.0.0-f2b02c4": {
+  "meta": {
+   "description": "Records nondeterministic executions and debugs them deterministically",
+   "homepage": "http://rr-project.org/",
+   "license": "custom",
+   "long_description": "rr aspires to be your primary debugging tool, replacing -- well,\nenhancing -- gdb. You record a failure once, then debug the\nrecording, deterministically, as many times as you want. Every\ntime the same execution is replayed.\n",
+   "maintainers": [
+    "Nicolas B. Pierron <nixos@nbp.name>",
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "rr",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/analysis/rr/default.nix:23"
+  },
+  "revs": [
+   "12a3db89ba68ff8f142477e729694fb91fed85c5",
+   "12a3db89ba68ff8f142477e729694fb91fed85c5"
+  ]
+ },
  "3.0.0": {
   "meta": {
    "description": "Records nondeterministic executions and debugs them deterministically",
@@ -275,7 +301,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "5.2.0": {
@@ -382,7 +408,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }

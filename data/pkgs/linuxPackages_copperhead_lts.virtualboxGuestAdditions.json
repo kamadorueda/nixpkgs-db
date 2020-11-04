@@ -30,7 +30,7 @@
   },
   "revs": [
    "035d0f7d0994e10dc3dd175d7fd3e63bd0c9a1ae",
-   "0943b76dc812d5db1e95d61a01ee6f0695f8c871"
+   "12b78da1967df6761aeceb346c94ca0931d11014"
   ]
  },
  "5.2.10-4.14.39-a": {
@@ -98,7 +98,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "078b9b4c2b3348c3972c89acc66cdea48c5ec824"
+   "14cbd4d17a0c34f5f7d35b87edb82895db5a8f6b"
   ]
  },
  "5.2.12-4.14.41-a": {
@@ -1291,6 +1291,40 @@
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
+ "5.2.14-4.14.90": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "138f2cc707d7ee13d93c86db3285460e244c402c",
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
+  ]
+ },
  "5.2.8-4.14.37-a": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -1495,6 +1529,40 @@
    "02c42d0883ebb4c4c9e891de9a1368b9925dca91"
   ]
  },
+ "5.2.8-4.14.48": {
+  "meta": {
+   "description": "Guest additions for VirtualBox",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "Various add-ons which makes NixOS work better as guest OS inside VirtualBox.\nThis add-on provides support for dynamic resizing of the X Display, shared\nhost/guest clipboard support and guest OpenGL support.\n",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "VirtualBox-GuestAdditions",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtualbox/guest-additions/default.nix:150"
+  },
+  "revs": [
+   "1461461426831c23740ae68b7fc13db4aa0a9326",
+   "1461461426831c23740ae68b7fc13db4aa0a9326"
+  ]
+ },
  "5.2.8-4.14.49": {
   "meta": {
    "description": "Guest additions for VirtualBox",
@@ -1526,7 +1594,7 @@
   },
   "revs": [
    "0cdd824bd5f77a24d9785547bce584b173e81eb2",
-   "0cdd824bd5f77a24d9785547bce584b173e81eb2"
+   "14c248a4ab71045793c7c090cc64bdac6ee268d4"
   ]
  },
  "5.2.8-4.14.50": {

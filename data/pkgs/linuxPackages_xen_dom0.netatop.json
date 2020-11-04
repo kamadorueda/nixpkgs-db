@@ -74,7 +74,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "051e85296a2decff508f5810bb131045b7afb6c6"
+   "148d8392c0b52f12d5152d27fb87f2ee6b94be98"
   ]
  },
  "4.14.103-1.0": {
@@ -308,7 +308,7 @@
   },
   "revs": [
    "00242aa4da43e7e0ba7051d50f700af70f37c952",
-   "00242aa4da43e7e0ba7051d50f700af70f37c952"
+   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
   ]
  },
  "4.14.108-1.0": {
@@ -697,7 +697,7 @@
   },
   "revs": [
    "00d6d772e51547c0022a6b2edef02705dfcd3560",
-   "013d0ba929e86b7c79fbdfa1ae1405125f8cf491"
+   "131f9a4fe11677caba7ecbd6bda515602dc6e7b5"
   ]
  },
  "4.14.26-1.0": {
@@ -1547,7 +1547,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "02c42d0883ebb4c4c9e891de9a1368b9925dca91"
+   "1461461426831c23740ae68b7fc13db4aa0a9326"
   ]
  },
  "4.14.49-1.0": {
@@ -1586,7 +1586,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "0cdd824bd5f77a24d9785547bce584b173e81eb2"
+   "14c248a4ab71045793c7c090cc64bdac6ee268d4"
   ]
  },
  "4.14.50-1.0": {
@@ -2366,7 +2366,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0da7a40fcac5e7a380883e02e2a810a8dc7f751a"
+   "14ccf337ba2b0c68f907cbf4bd82172709a1a1e1"
   ]
  },
  "4.14.70-1.0": {
@@ -3029,7 +3029,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "01e78db6b12a33767c577d150c21f2696cbc007b"
+   "12fabbdb1be3861184f3f8590e3b9adafaf3b650"
   ]
  },
  "4.14.87-1.0": {
@@ -3185,7 +3185,7 @@
   },
   "revs": [
    "013927f93cbca5c823710042e469d573d17859c8",
-   "0a8f35c998f55f744674ed23b327162df39fb6ae"
+   "138f2cc707d7ee13d93c86db3285460e244c402c"
   ]
  },
  "4.14.91-1.0": {
@@ -3458,7 +3458,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "10dbdd30d199146bf9b41c029127ffe7b92caff2"
+   "12b1462924a6445537075003c0c8705ecbff3556"
   ]
  },
  "4.14.98-1.0": {
@@ -3848,7 +3848,7 @@
   },
   "revs": [
    "00cdff318a317565b8289fa807dfb3b9bbbaaa91",
-   "0536257612ce3ac5be90f989525994e9e780f3b8"
+   "1278615a4832a8cb691b43a942d0dbce3eb73b9e"
   ]
  },
  "4.19.19-1.0": {
@@ -4004,7 +4004,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "1001d0034c5fb815fffa66bc25d88ad6761a9d00"
+   "1390b5809cb1c8869ff5ac687e6968dcaa5da745"
   ]
  },
  "4.19.31-1.0": {
@@ -5174,7 +5174,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "114bd801f478a6cd75ba3909fd31b04086296757"
+   "12dec599058036f88f72ec553ee33a3df1f91c49"
   ]
  },
  "4.19.46-1.0": {
@@ -5562,6 +5562,45 @@
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
    "08dae69741a91e12a7a1910ee1339b48cf346611"
+  ]
+ },
+ "4.19.51-1.0": {
+  "meta": {
+   "description": "Network monitoring module for atop",
+   "homepage": "https://www.atoptool.nl/downloadnetatop.php",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "netatop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/netatop/default.nix:36"
+  },
+  "revs": [
+   "1305c1a73fd0f1d8a45dde8fec37fd420be4d326",
+   "1305c1a73fd0f1d8a45dde8fec37fd420be4d326"
   ]
  },
  "4.19.51-2.0": {
@@ -5984,7 +6023,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "032b0e6c121cb00cc3d1fb797188e22f994a68da"
+   "126c81b65d7e0099ef89878a2d7b76a180955086"
   ]
  },
  "4.19.58-1.0": {
@@ -6100,7 +6139,7 @@
   },
   "revs": [
    "0d0cb247ff378feecb9799487bb79b3afd518f51",
-   "0d0cb247ff378feecb9799487bb79b3afd518f51"
+   "12d7fb573bca191aef063a95ab2204d5819ec0cd"
   ]
  },
  "4.19.59-2.0": {
@@ -6410,6 +6449,45 @@
    "089da1c14dfdd76c2f3d66c383d97cb3aee34142"
   ]
  },
+ "4.19.64-1.0": {
+  "meta": {
+   "description": "Network monitoring module for atop",
+   "homepage": "https://www.atoptool.nl/downloadnetatop.php",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "netatop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/netatop/default.nix:36"
+  },
+  "revs": [
+   "12708e517c0a3c330848c9e5218d5b61455521bb",
+   "12708e517c0a3c330848c9e5218d5b61455521bb"
+  ]
+ },
  "4.19.64-2.0": {
   "meta": {
    "description": "Network monitoring module for atop",
@@ -6599,7 +6677,7 @@
   },
   "revs": [
    "01b30bb99f3bd68b190d59ad637393233ddd4b96",
-   "06ff4e1f3e8e201329d2437fc28d787e5628195b"
+   "126d992745e987e6decf11beea448cac25823019"
   ]
  },
  "4.19.67-2.0": {
@@ -7067,6 +7145,45 @@
    "0e0ee084d6dfc83b5b67b6cbcefe43664114808d"
   ]
  },
+ "4.19.78-1.0": {
+  "meta": {
+   "description": "Network monitoring module for atop",
+   "homepage": "https://www.atoptool.nl/downloadnetatop.php",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "netatop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/netatop/default.nix:36"
+  },
+  "revs": [
+   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e",
+   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e"
+  ]
+ },
  "4.19.79-1.0": {
   "meta": {
    "description": "Network monitoring module for atop",
@@ -7337,7 +7454,7 @@
   },
   "revs": [
    "007761d3cdad573a29003980ffc3aed59257e922",
-   "052c103725383309b0199b4fcc01a60f27837119"
+   "14bbfd8548d28528db2f89823024ef85011eb2ba"
   ]
  },
  "4.19.94-2.0": {
@@ -7532,7 +7649,7 @@
   },
   "revs": [
    "008eb7cb75b8a424fd48244be4f6a205648b8941",
-   "0e0ea456a5278483dc9892ee8876ed84b37a3660"
+   "1335a986c8e0a4382c91f66a5718cbdd6d4d9274"
   ]
  },
  "4.9.80-1.0": {
@@ -8610,7 +8727,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "0f5317a7e0d26e39546f26693f0d83e3a82f4e71"
+   "12ce76d7a55112754e8fe9d50afcee59bb9955cc"
   ]
  },
  "5.4.43-2.0": {
@@ -8889,7 +9006,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "07076e9fe015489fcd1c67f37c0d750442c6f975"
+   "128dbb31cca3ba479396c6b65946e2e6503c0f8d"
   ]
  },
  "5.4.50-2.0": {
@@ -9169,7 +9286,7 @@
   },
   "revs": [
    "002ecd07e128b7ee5dc4ed23f1da4abbe9007880",
-   "0c0fe6d85b92c4e992e314bd6f9943413af9a309"
+   "127c8de5210342fd1f24c6a4a7c997af71c6f3cd"
   ]
  },
  "5.4.57-2.0": {
@@ -9449,7 +9566,7 @@
   },
   "revs": [
    "00e0bdf938e131cfadefa7193b384d03a489dd60",
-   "0be4612d3c33c5da16ead075346cfb62c719e324"
+   "1309be91f1a08d13d81b24f1ffd99a05f9beaad5"
   ]
  },
  "5.4.64-2.0": {
@@ -9608,7 +9725,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "102df6c6f2b2b68aca69ae2e691ff260fae509f5"
+   "14e4f4dbb413cd6d6f723bbe388a6256472e2c70"
   ]
  },
  "5.4.66-3.1": {
@@ -9888,7 +10005,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "11ce4d215d619d6b0fc7a9f716a106fff2e38731"
+   "13d1db923c293ec76a1ad8c5251a4d4b9305f678"
   ]
  },
  "5.4.70-2.0": {
@@ -10087,7 +10204,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "0d21510b4adecbbaa09e54c0c5b0850529488266"
+   "1327b970450d1d41b5084af17bcc5496a540ad46"
   ]
  },
  "5.4.72-3.1": {
@@ -10127,7 +10244,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1111911593b8bafbab4c280f53d728ee51522689"
+   "13a910e3f6e50ff3d1946e75cce6fde64656bba0"
   ]
  },
  "5.4.73-2.0": {
@@ -10286,7 +10403,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "00d6fff6303531fb9ee4ae9761e888407485ba22"
+   "13bc774904dc6d271b945b78575caaa26aff0f53"
   ]
  }
 }
