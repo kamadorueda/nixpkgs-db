@@ -298,6 +298,48 @@
    "0f04bbdc31f75031602d384adedb7292c720e44d"
   ]
  },
+ "7.2.0": {
+  "meta": {
+   "description": "Collection of subroutines used by various GNU programs",
+   "homepage": "http://gcc.gnu.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Nikolay Amiantov <ab@fmap.me>",
+    "John Ericson <John.Ericson@Obsidian.Systems>"
+   ],
+   "name": "libiberty",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/libiberty/default.nix:22"
+  },
+  "revs": [
+   "11e98eaae728906cdef324c5070d5e4ce1176388",
+   "11e98eaae728906cdef324c5070d5e4ce1176388"
+  ]
+ },
  "7.3.0": {
   "meta": {
    "description": "Collection of subroutines used by various GNU programs",
@@ -478,6 +520,107 @@
    "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
+ "8.1.0": {
+  "meta": {
+   "description": "Collection of subroutines used by various GNU programs",
+   "homepage": "http://gcc.gnu.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "name": "Nikolay Amiantov"
+    },
+    {
+     "email": "John.Ericson@Obsidian.Systems",
+     "github": "ericson2314",
+     "name": "John Ericson"
+    }
+   ],
+   "name": "libiberty",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libiberty/default.nix:24"
+  },
+  "revs": [
+   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e",
+   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e"
+  ]
+ },
  "8.3.0": {
   "meta": {
    "description": "Collection of subroutines used by various GNU programs",
@@ -650,7 +793,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00d6fff6303531fb9ee4ae9761e888407485ba22"
+   "03cb3521f823df150e3a09488a3d9f080bfd480e"
   ]
  }
 }

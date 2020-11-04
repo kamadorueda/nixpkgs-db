@@ -60,7 +60,7 @@
   },
   "revs": [
    "000ba6536350b58079484fc64b467ec227e73e26",
-   "0b2be106e0776900388cafffe7fdf59fedf40098"
+   "112c86e719d6c3b6ed81c0a6c813d757128e8b89"
   ]
  },
  "4.3.3": {
@@ -188,7 +188,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "05d92999a09fdbcbe46791c87aaebaf52ae3e146"
+   "10ec4c4a6a6100124575d315dad899e89eeca172"
   ]
  },
  "4.5.2": {
@@ -266,7 +266,7 @@
   },
   "revs": [
    "013c915777d2c0580a11cbfee902e1d8676da9c1",
-   "0b6223cff2ae782bcbddafac7a958197662be86c"
+   "11d1104a885bebce1b4ec226cfad648422d9669d"
   ]
  },
  "4.6.3": {
@@ -724,6 +724,38 @@
    "0f04bbdc31f75031602d384adedb7292c720e44d"
   ]
  },
+ "7.2.0": {
+  "meta": {
+   "description": "GNU Compiler Collection, version 7.2.0 (wrapper script)",
+   "homepage": "http://gcc.gnu.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, Java, and Ada, as well\nas libraries for these languages (libstdc++, libgcj, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+   "maintainers": [],
+   "name": "gcc-wrapper",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/build-support/cc-wrapper/default.nix:323"
+  },
+  "revs": [
+   "11e98eaae728906cdef324c5070d5e4ce1176388",
+   "11e98eaae728906cdef324c5070d5e4ce1176388"
+  ]
+ },
  "7.3.0": {
   "meta": {
    "description": "GNU Compiler Collection, version 7.3.0 (wrapper script)",
@@ -864,6 +896,71 @@
    "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
+ "8.1.0": {
+  "meta": {
+   "description": "GNU Compiler Collection, version 8.1.0 (wrapper script)",
+   "homepage": "http://gcc.gnu.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, and Ada, as well as\nlibraries for these languages (libstdc++, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    }
+   ],
+   "name": "gcc-wrapper",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "freebsd"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/build-support/cc-wrapper/default.nix:297"
+  },
+  "revs": [
+   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e",
+   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e"
+  ]
+ },
  "8.3.0": {
   "meta": {
    "description": "GNU Compiler Collection, version 8.3.0 (wrapper script)",
@@ -1002,7 +1099,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00d6fff6303531fb9ee4ae9761e888407485ba22"
+   "03cb3521f823df150e3a09488a3d9f080bfd480e"
   ]
  }
 }

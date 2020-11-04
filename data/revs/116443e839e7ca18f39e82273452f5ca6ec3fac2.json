@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't call grep from ld-wrapper (especially not O(n^2) times)   because it makes linking very slow.  Use bash's =~ operator instead   (and only once for each argument).  We depend on bash already anyway   because of arrays so it's not a problem.",
+ "timestamp": "1264545763"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Start of the new, simplified stdenv-linux bootstrap binaries.   Instead of using a mishmash of statically linked and dietlibc   programs (which often have problems on various platforms), we just   use normal, dynamically linked binaries, and use some patchelf magic   to rewrite them so that they can find Glibc.  Also include G++ and   Perl, since there are some builds in the bootstrap that need them.",
+ "timestamp": "1232125829"
+}

@@ -109,7 +109,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "05d92999a09fdbcbe46791c87aaebaf52ae3e146"
+   "10ec4c4a6a6100124575d315dad899e89eeca172"
   ]
  },
  "5.0.0": {
@@ -207,7 +207,7 @@
   },
   "revs": [
    "0005cc8e28037dfe51697a00f7640f69332bd5c0",
-   "08b6b9fa3a7e8588f038ce01c0c0614eac5ec915"
+   "10e9b46ffbe68bac3213b5f9c74e1740f30083d6"
   ]
  },
  "5.0.4": {
@@ -277,6 +277,39 @@
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
    "0c8372d9c7374eafc035718749d81b8e8317f62e"
+  ]
+ },
+ "5.1.0": {
+  "meta": {
+   "description": "GMP, the GNU multiple precision arithmetic library",
+   "homepage": "http://gmplib.org/",
+   "license": "LGPLv3+",
+   "long_description": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gmp",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "11eb687e572f1a799753d202b97b0ba6846f5e88",
+   "11eb687e572f1a799753d202b97b0ba6846f5e88"
   ]
  },
  "5.1.1": {
@@ -615,7 +648,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "00d6fff6303531fb9ee4ae9761e888407485ba22"
+   "03cb3521f823df150e3a09488a3d9f080bfd480e"
   ]
  }
 }
