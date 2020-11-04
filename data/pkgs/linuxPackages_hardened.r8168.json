@@ -428,6 +428,45 @@
    "0d84ab811e216d0711fb2afae7b0a96e78299fca"
   ]
  },
+ "4.14.117-8.046.00": {
+  "meta": {
+   "description": "Realtek r8168 driver",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "A kernel module for Realtek 8168 network cards.\nIf you want to use this driver, you might need to blacklist the r8169 driver\nby adding \"r8169\" to boot.blacklistedKernelModules.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "r8168",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/r8168/default.nix:46"
+  },
+  "revs": [
+   "187ab0f9617be0c0a9a69e8ed6e975110e591174",
+   "187ab0f9617be0c0a9a69e8ed6e975110e591174"
+  ]
+ },
  "4.14.120-8.046.00": {
   "meta": {
    "description": "Realtek r8168 driver",
@@ -581,7 +620,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "0c7b1576dd83865b171693e5b09e1585405c405f"
+   "17e6147ab5361fb1f500a63993331985a9840413"
   ]
  },
  "4.14.81-8.046.00": {
@@ -1674,7 +1713,7 @@
   },
   "revs": [
    "004e3816dcffb49f4e296a16b00334153a90ed3e",
-   "09665fee2b72ccdd100ca8fc169ba649b15339d0"
+   "18e5db37bfa3c5ed31ed0e943cca66927c38a431"
   ]
  },
  "4.19.29-8.046.00": {
@@ -2683,7 +2722,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "0c6161e00b66aea55e0c64687c8bfd813f835a77"
+   "17be62f56cce92fb6c38d9ba3e8535b37e3b75a1"
   ]
  },
  "4.19.56-8.046.00": {
@@ -2873,7 +2912,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "0cc9e33cc4e8eb49a6acd7add823e2007a75b8d8"
+   "1851d52633aacba98553c2209ff54c03596b0f26"
   ]
  },
  "4.19.61-8.046.00": {
@@ -3139,7 +3178,7 @@
   },
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
-   "126d992745e987e6decf11beea448cac25823019"
+   "175269c98e063a442d887fd4f5f412ebf841c48a"
   ]
  },
  "4.19.68-8.046.00": {
@@ -5287,7 +5326,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "128dbb31cca3ba479396c6b65946e2e6503c0f8d"
+   "1811fea9eb70e897dbc32648e2406118f185084a"
   ]
  },
  "5.4.50-8.047.04": {
@@ -5407,7 +5446,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
+   "18188bacd69907933bbf02ecd1f935b8c84313b8"
   ]
  },
  "5.4.53-8.047.04": {
@@ -5967,7 +6006,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "14e4f4dbb413cd6d6f723bbe388a6256472e2c70"
+   "17b6d3fd0f45d8f231d056ff54d4b82fceec151f"
   ]
  },
  "5.4.67-8.047.04": {

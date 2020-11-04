@@ -74,7 +74,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "0c7b1576dd83865b171693e5b09e1585405c405f"
+   "17e6147ab5361fb1f500a63993331985a9840413"
   ]
  },
  "1.5.2-4.19.10": {
@@ -1050,6 +1050,45 @@
   "revs": [
    "00a51b4012ba43f0eda39b5c2b4e5b35d2070fe9",
    "0972bde7d22f10838485682cfc00ad4ef95e8d09"
+  ]
+ },
+ "1.5.2-4.19.40": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "187ab0f9617be0c0a9a69e8ed6e975110e591174",
+   "187ab0f9617be0c0a9a69e8ed6e975110e591174"
   ]
  },
  "1.5.2-4.19.44": {
@@ -2752,7 +2791,7 @@
   },
   "revs": [
    "0094820f68dfcc85dd62baf9527449923966c59a",
-   "0094820f68dfcc85dd62baf9527449923966c59a"
+   "1763fe3fbd031ee9cf15399e865dbf5cc75fbf1f"
   ]
  },
  "2.1.2-4.19.128": {
@@ -2992,7 +3031,7 @@
   },
   "revs": [
    "02d1989f8c1cf8afddd155d4097f9c3708f6b859",
-   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
+   "18188bacd69907933bbf02ecd1f935b8c84313b8"
   ]
  },
  "2.1.2-4.19.134": {
@@ -3952,7 +3991,7 @@
   },
   "revs": [
    "0527318a8818a0560bebff2d1171007072e2b962",
-   "13c485d63da8c7fa6a705dc0f4bbd42313beee6c"
+   "17f31102d75e9dc26c732d55e9789e88af81506d"
   ]
  },
  "2.2.7-4.19.124": {
@@ -4232,7 +4271,7 @@
   },
   "revs": [
    "00c6fa607cc564a1b64eaf56d0540607df7eca19",
-   "128dbb31cca3ba479396c6b65946e2e6503c0f8d"
+   "1811fea9eb70e897dbc32648e2406118f185084a"
   ]
  },
  "2.2.7-4.19.131": {
@@ -4392,7 +4431,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "1275f71c0dc14d4ab46d8d7418eaa2846b163c68"
+   "1812f7c11a2e11c3a0e850e997d74ffd3dba74a6"
   ]
  },
  "2.2.7-4.19.135": {
@@ -4872,7 +4911,7 @@
   },
   "revs": [
    "012b501a12d140953355c311c7319883f5e71105",
-   "102df6c6f2b2b68aca69ae2e691ff260fae509f5"
+   "17b6d3fd0f45d8f231d056ff54d4b82fceec151f"
   ]
  },
  "2.2.7-4.19.147": {

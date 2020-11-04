@@ -109,7 +109,7 @@
   },
   "revs": [
    "006e3fbf46537fa8e14d33a33ceeb66c2a4cd354",
-   "0e768ba98d96148b0f1630e8712234be8b9300fc"
+   "179b1bd2943edb2be18c67813e1f4af7dd21cf87"
   ]
  },
  "21.0.1180.79": {
@@ -139,7 +139,7 @@
   },
   "revs": [
    "016b665402807c7c4f54622cce75fd94c13aa55e",
-   "016b665402807c7c4f54622cce75fd94c13aa55e"
+   "172e6f5e7747438e05e6746ccf124cd693d1de46"
   ]
  },
  "21.0.1180.81": {
@@ -319,7 +319,7 @@
   },
   "revs": [
    "006afee7be0a9285942a4d550a4e381ab9b0ca3d",
-   "1245b6d617ab82fd9b93c93131903ffe9e17584d"
+   "17597e8350a45dcb5d551d5d02280e7b15f2424e"
   ]
  },
  "23.0.1271.95": {
@@ -349,7 +349,7 @@
   },
   "revs": [
    "023f5a098b836b964d4df48b58b22c3a19559490",
-   "0c160be3d2fc5b6174cfa5224458777f23b586c3"
+   "179df950904225e983418a131c527df65a1474bc"
   ]
  },
  "23.0.1271.97": {
@@ -534,7 +534,7 @@
   },
   "revs": [
    "1670613203b4ba2be939d6dd50dd50680cf25b56",
-   "1670613203b4ba2be939d6dd50dd50680cf25b56"
+   "17a4e0f13c1e83f43e6cb6a890127ca7848fcf8c"
   ]
  },
  "25.0.1364.97": {
@@ -596,7 +596,7 @@
   },
   "revs": [
    "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c",
-   "16f45507619b4c4012bb7958fba09eb3bdc5ac87"
+   "18297893a38154e22e0276fb094be74d73c55de7"
   ]
  },
  "26.0.1410.63": {
@@ -658,7 +658,7 @@
   },
   "revs": [
    "00e720471bd459581fa99f6821ead597beafe05b",
-   "11e380a937ea8416a38c2e10e228c3054f5cd6b2"
+   "1709571b3f9341df37a91b559c5eba29b44996f8"
   ]
  },
  "27.0.1453.93": {
@@ -813,7 +813,7 @@
   },
   "revs": [
    "01cc4301f36d439b4f918dbb521937c09f097e7c",
-   "0d637ea5e0c4d9e0c085b373fd5979af21c675c7"
+   "18ecb7c62a86f33c0c423df53a37ed1a6869b215"
   ]
  },
  "29.0.1547.62": {
@@ -2158,7 +2158,7 @@
   },
   "revs": [
    "00a20415f02ed243b9e50bfa51571aa5f9061d1e",
-   "11aa24c0344d8948530c9494aac6282735d71188"
+   "1736cedc202bd22d5c9bbf5208c287faa45aed1f"
   ]
  },
  "47.0.2526.106": {
@@ -2640,7 +2640,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "0016d362fa9455e7a5ee03e7e4d374de477a18dc"
+   "18188947fa36358fac213245d41206edf2c3c7e7"
   ]
  },
  "54.0.2840.71": {
@@ -2760,7 +2760,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "064dd204b716d22c645b696914efc3da8de8bd9d"
+   "1877be499d1fb30c9399cdfc034ff3a84c4a38af"
   ]
  },
  "56.0.2924.76": {
@@ -2977,7 +2977,7 @@
   },
   "revs": [
    "02dbf1d610630047580045ca7bb79f15f0a86839",
-   "02dbf1d610630047580045ca7bb79f15f0a86839"
+   "1736798a87248bb0d73f88c8e0523309f33ffd4c"
   ]
  },
  "60.0.3112.90": {
@@ -3576,6 +3576,50 @@
    "116cce8b5f868c18b91e67fb3b5ba0eed093e62e"
   ]
  },
+ "66.0.3359.170": {
+  "meta": {
+   "description": "An open source web browser from Google",
+   "homepage": "http://www.chromium.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flo@chaoflow.net",
+     "github": "chaoflow",
+     "name": "Florian Friesdorf"
+    },
+    {
+     "email": "herwig@bendlas.net",
+     "github": "bendlas",
+     "name": "Herwig Hochleitner"
+    }
+   ],
+   "name": "chromium",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/chromium/browser.nix:48"
+  },
+  "revs": [
+   "18370267efa8f210b96ce74c7fdc37fc419ec187",
+   "18370267efa8f210b96ce74c7fdc37fc419ec187"
+  ]
+ },
  "66.0.3359.181": {
   "meta": {
    "description": "An open source web browser from Google",
@@ -3793,7 +3837,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "028164ef057119ee37c99bcb98224672441d2d81"
+   "17c96ab275f89ace1ed335a0a1d3fb865b41d074"
   ]
  },
  "68.0.3440.75": {
@@ -6589,7 +6633,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "0c36b32c11047a5a4ccf0e9fab3c6dfbb2f9d2c3"
+   "18188bacd69907933bbf02ecd1f935b8c84313b8"
   ]
  },
  "85.0.4183.102": {
@@ -6713,7 +6757,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "11b824181afb4df516af5e481e7b314637e1af91"
+   "17b6d3fd0f45d8f231d056ff54d4b82fceec151f"
   ]
  },
  "85.0.4183.83": {

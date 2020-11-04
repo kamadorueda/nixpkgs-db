@@ -1,0 +1,4 @@
+{
+ "summary": "* OpenSSL: Allow the location of the X509 certificate file (the CA   bundle) to be set through the environment variable   \u2018OPENSSL_X509_CERT_FILE\u2019.  This is necessary because the default   location ($out/ssl/cert.pem) doesn't exist, and hardcoding something   like /etc/ssl/cert.pem is impure and cannot be overriden   per-process.  For security, the environment variable is ignored for   setuid binaries.",
+ "timestamp": "1315846654"
+}

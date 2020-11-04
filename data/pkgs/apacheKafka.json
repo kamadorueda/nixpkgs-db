@@ -107,7 +107,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "064dd204b716d22c645b696914efc3da8de8bd9d"
+   "18188947fa36358fac213245d41206edf2c3c7e7"
   ]
  },
  "2.11-0.10.1.1": {
@@ -591,6 +591,91 @@
    "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
+ "2.12-2.0.1": {
+  "meta": {
+   "description": "A high-throughput distributed messaging system",
+   "homepage": "http://kafka.apache.org",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "r.dahlen@gmail.com",
+     "github": "ragnard",
+     "name": "Ragnar Dahlen"
+    }
+   ],
+   "name": "apache-kafka",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/apache-kafka/default.nix:75"
+  },
+  "revs": [
+   "17a7e0d89ec059ea66beb602297259b26e8508d6",
+   "17a7e0d89ec059ea66beb602297259b26e8508d6"
+  ]
+ },
  "2.12-2.1.0": {
   "meta": {
    "description": "A high-throughput distributed messaging system",
@@ -912,7 +997,7 @@
   },
   "revs": [
    "01d93cbbe15dc7d29b09ac5a362a289a81f28ebd",
-   "1282b60452b32d625d537fd26c17f76b28208c24"
+   "1835ac1d791e83852e7e3551ba6f8d7c992cca53"
   ]
  },
  "2.12-2.4.0": {
