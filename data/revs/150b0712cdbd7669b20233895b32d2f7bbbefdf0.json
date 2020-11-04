@@ -1,0 +1,4 @@
+{
+ "summary": "* Very subtle purity error: on NixOS, wxGTK wasn't being built with   Xinerama support.  It gets libXinerama as an explicit build input,   but it checks for its existence in /usr/X11/include etc.  This   caused Bittorrent to fail (NIXPKGS-61).  Backported the builder   fixes from wxGTK 2.8.",
+ "timestamp": "1180620136"
+}

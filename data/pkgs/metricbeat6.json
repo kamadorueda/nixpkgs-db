@@ -72,7 +72,55 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "0d856d8b82ed5976e5027f0dff608a2595b196f9"
+   "14f9ee66e63077539252f8b4550049381a082518"
+  ]
+ },
+ "6.2.3": {
+  "meta": {
+   "description": "Lightweight shipper for metrics",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "metricbeat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/misc/logging/beats/6.x.nix:28"
+  },
+  "revs": [
+   "1593ff3f51ed09483e71f3dd4cd99c92ebcbec94",
+   "1593ff3f51ed09483e71f3dd4cd99c92ebcbec94"
   ]
  },
  "6.2.4": {
@@ -168,7 +216,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "07bd1d873789039e17cc143293ad9ff723d500d2"
+   "16879e2f6ac4d98b4c4e94c940ec535168075327"
   ]
  }
 }

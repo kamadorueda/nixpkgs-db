@@ -1,4 +1,100 @@
 {
+ "0.3.0": {
+  "meta": {
+   "description": "SymEngine is a fast symbolic manipulation library",
+   "homepage": "https://github.com/symengine/symengine",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "symengine",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/symengine/default.nix:31"
+  },
+  "revs": [
+   "150980c092d1c38a24754177c27d1dcb4c073567",
+   "150980c092d1c38a24754177c27d1dcb4c073567"
+  ]
+ },
  "0.4.0": {
   "meta": {
    "description": "SymEngine is a fast symbolic manipulation library",

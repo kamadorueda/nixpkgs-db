@@ -37,6 +37,45 @@
    "126c81b65d7e0099ef89878a2d7b76a180955086"
   ]
  },
+ "5.2.1-1.0": {
+  "meta": {
+   "description": "Network monitoring module for atop",
+   "homepage": "https://www.atoptool.nl/downloadnetatop.php",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "netatop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/netatop/default.nix:36"
+  },
+  "revs": [
+   "15e893e5fc0cd3ad077109846db0bbd83abb9c3f",
+   "15e893e5fc0cd3ad077109846db0bbd83abb9c3f"
+  ]
+ },
  "5.2.1-2.0": {
   "meta": {
    "description": "Network monitoring module for atop",
@@ -614,7 +653,7 @@
   },
   "revs": [
    "0568b622d58c0473b6190e4b33954a2f42919072",
-   "09278b70fc47286f8f8e08a5b201654124572684"
+   "1688dc72e5ce4c2bd5e100823b404ea098449cca"
   ]
  },
  "5.2.4-2.0": {

@@ -145,7 +145,113 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "0d856d8b82ed5976e5027f0dff608a2595b196f9"
+   "14f9ee66e63077539252f8b4550049381a082518"
+  ]
+ },
+ "6.2.3": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:36"
+  },
+  "revs": [
+   "1593ff3f51ed09483e71f3dd4cd99c92ebcbec94",
+   "1593ff3f51ed09483e71f3dd4cd99c92ebcbec94"
   ]
  },
  "6.2.4": {
@@ -357,7 +463,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "07bd1d873789039e17cc143293ad9ff723d500d2"
+   "16879e2f6ac4d98b4c4e94c940ec535168075327"
   ]
  }
 }
