@@ -557,7 +557,7 @@
   },
   "revs": [
    "004d1422922beb2b6801eff6c0195fa8b9aacf77",
-   "04e87a8a8af7e56d001c75d51367fa3fa337fb5d"
+   "1a24f2c7387f0609d0a5e6f82411b3b2d79dfca4"
   ]
  },
  "0.8.0-rc3-4.20.14": {
@@ -796,6 +796,64 @@
    "0ef73ffdbdcde491f5c665f279361d2d32be8b71"
   ]
  },
+ "0.8.0-rc3-4.20.2": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:144"
+  },
+  "revs": [
+   "1f2a3fe040002a638d7c99da3899e088f2947b5f",
+   "1f2a3fe040002a638d7c99da3899e088f2947b5f"
+  ]
+ },
  "0.8.0-rc3-4.20.5": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -952,7 +1010,7 @@
   },
   "revs": [
    "012b43dfbb63ce3f453a726cfbd6226a25ed283a",
-   "111e42e8a6437f47a96e64c0cbea0381ff65965f"
+   "205296f55a45b1dabb5e91568feccffd1fedee3f"
   ]
  },
  "0.8.0-rc3-4.20.8": {

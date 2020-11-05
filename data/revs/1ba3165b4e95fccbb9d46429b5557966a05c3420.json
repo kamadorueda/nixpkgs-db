@@ -1,0 +1,4 @@
+{
+ "summary": "* Allow the default for option values displayed in the manual to be   overriden.  Some defaults should not be evaluated because they cause   unnecessary evaluation or might cause evaluation errors   (e.g. assertions).  For instance, the value of the   `boot.kernelPackages' option is an attribute set.  Some packages in   that set might not evaluate (e.g. AUFS2 on kernels that don't have   the AUFS2 patch), and in any case it slows down nixos-rebuild to   evaluate lots of packages that are not actually used in the   configuration.",
+ "timestamp": "1275045645"
+}

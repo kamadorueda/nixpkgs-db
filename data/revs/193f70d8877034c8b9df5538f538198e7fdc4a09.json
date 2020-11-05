@@ -1,0 +1,4 @@
+{
+ "summary": "Updating the ld-wrapper about linking of direct .so files. The previous regexp looking for such ld arguments did not work well with \"--soname=xxx.so\". Now I added the condition that the argument should not start with a hyphen, for it to be possibly considered a .so file to link with.",
+ "timestamp": "1260721133"
+}

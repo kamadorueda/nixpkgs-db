@@ -112,7 +112,7 @@
   },
   "revs": [
    "0041d742aba89f035b3740b94a457a90e806f312",
-   "0d2f06ae3a1f8347dc09cd0dfe6d12b757368e4d"
+   "1c30532b6d9536949379694fd99e5f01603bf425"
   ]
  },
  "0.7.11-4.19-rc8": {
@@ -228,7 +228,7 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "0217c2980d9eb5859fa6098f06ed5faa1e1d755c"
+   "1e7516a31c2c5fc8eae2a2a84c5575005fe05096"
   ]
  },
  "0.7.11-4.20-rc2": {
@@ -289,6 +289,64 @@
    "0e679dd53e1aa60e61dc25db5e0a0ea882bb7416"
   ]
  },
+ "0.7.12-4.20-rc2": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:44"
+  },
+  "revs": [
+   "1fe45bff2eb9abb5040d6844c7d1693bb34c6f4f",
+   "1fe45bff2eb9abb5040d6844c7d1693bb34c6f4f"
+  ]
+ },
  "0.7.12-4.20-rc3": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -344,7 +402,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
+   "1f8c96054ee971397ffd4727930a9252552ac9bd"
   ]
  },
  "0.7.12-4.20-rc4": {
@@ -460,7 +518,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "14840a99b14fd90c3d5cf0216ee95fc8f25000fa"
+   "221762cc5deec1879a84ce11bb1176091e54da27"
   ]
  },
  "0.7.12-4.20-rc6": {
@@ -1021,7 +1079,7 @@
   },
   "revs": [
    "004d1422922beb2b6801eff6c0195fa8b9aacf77",
-   "04e87a8a8af7e56d001c75d51367fa3fa337fb5d"
+   "1a24f2c7387f0609d0a5e6f82411b3b2d79dfca4"
   ]
  },
  "0.7.13-5.0-rc8": {
@@ -1139,7 +1197,7 @@
   },
   "revs": [
    "005fb92d32c9d5b636846ce30ae01aab81454161",
-   "13ccde5a96d26108262cccb02a97ebfc76b142a5"
+   "1c290ea724ffc699fa9aeb1ec5d290d99878a3e3"
   ]
  },
  "0.7.13-5.1-rc3": {
@@ -1257,7 +1315,7 @@
   },
   "revs": [
    "000463186d471107324c67faecb5c85e9f06521a",
-   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
+   "1a99f4cc61e16dc37c5538161fc22bacbd76b968"
   ]
  },
  "0.7.13-5.1-rc5": {

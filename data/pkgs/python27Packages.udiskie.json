@@ -280,7 +280,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "18300172897169e62d6140c34f5949a7a2232375"
+   "1cc97befd5550732fd155d04cdd9eca3f5024dbc"
   ]
  },
  "1.7.3": {
@@ -329,7 +329,56 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "138f2cc707d7ee13d93c86db3285460e244c402c"
+   "1e47a6c30c4ef1e5cab0e495ab6b05f525216553"
+  ]
+ },
+ "1.7.4": {
+  "meta": {
+   "description": "Removable disk automounter for udisks",
+   "homepage": "https://github.com/coldfix/udiskie",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@gmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "udiskie",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/udiskie/default.nix:45"
+  },
+  "revs": [
+   "1aed893dbaba14edc3440827c2469c7bf92786f7",
+   "1aed893dbaba14edc3440827c2469c7bf92786f7"
   ]
  }
 }

@@ -25,7 +25,7 @@
   },
   "revs": [
    "00081d1873148a8ec642d5c912d04875c4ee4a66",
-   "0c8372d9c7374eafc035718749d81b8e8317f62e"
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
   ]
  },
  "0.11.2": {
@@ -165,7 +165,7 @@
   },
   "revs": [
    "0008a4b6c467977469b9b3bdec15fcc580204145",
-   "1074a3143e2404194c11a9b8a065c427df54d197"
+   "1d5d7fdee2e85460e44b9931f3259254c2092806"
   ]
  },
  "0.13.2": {
@@ -221,7 +221,7 @@
   },
   "revs": [
    "002d33b6ccdc90628799406c19b15648ca7e8349",
-   "11dc9036d0b1f7bb9e277240848e699c0de90d4e"
+   "1e389c976cc5326b08bd166785e643364bb2d8b4"
   ]
  },
  "0.15.1": {
@@ -461,7 +461,7 @@
   },
   "revs": [
    "000fe587692e2db8829ebd0894e7204f12a86859",
-   "0d2ac2b08c6e9a1f51de541b85ee0322423331c1"
+   "19d22184d3b1b74be5ecb9eb5c9a1630c9dd4b57"
   ]
  },
  "1.10.0": {
@@ -772,7 +772,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
+   "1e4e7522b015640e31de35c89d5fb5a7e47be630"
   ]
  },
  "1.10.4": {
@@ -1450,7 +1450,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "0bbbdfbc528e5b0f6fe0870304314a393923e02d"
+   "1b55c0bc697b28510853188eccbe035f0f53e23c"
   ]
  },
  "1.5.1": {
@@ -1538,7 +1538,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "18300172897169e62d6140c34f5949a7a2232375"
+   "1cc97befd5550732fd155d04cdd9eca3f5024dbc"
   ]
  },
  "1.5.3": {
@@ -1626,7 +1626,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "018f66020fe1b5d13643521a5087bae8a4c26010"
+   "1c3c80360b914ff8eacdabeb6d05565721121b1e"
   ]
  },
  "1.6.2": {
@@ -1686,7 +1686,7 @@
   },
   "revs": [
    "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
-   "138f2cc707d7ee13d93c86db3285460e244c402c"
+   "1e47a6c30c4ef1e5cab0e495ab6b05f525216553"
   ]
  },
  "1.6.4": {
@@ -2219,7 +2219,73 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
+   "1a99f4cc61e16dc37c5538161fc22bacbd76b968"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+   "homepage": "https://elixir-lang.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "name": "Ryan Scheel"
+    },
+    {
+     "email": "couchemar@yandex.ru",
+     "github": "couchemar",
+     "name": "Andrey Pavlov"
+    },
+    {
+     "email": "justin.k.wood@gmail.com",
+     "github": "ankhers",
+     "name": "Justin Wood"
+    }
+   ],
+   "name": "elixir",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/elixir/1.9.nix:5"
+  },
+  "revs": [
+   "1b0459741f5afee4f0267b6e3dd140103395093e",
+   "1b0459741f5afee4f0267b6e3dd140103395093e"
   ]
  },
  "1.9.1": {

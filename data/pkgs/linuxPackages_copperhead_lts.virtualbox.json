@@ -276,7 +276,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "011eda39e196fdc8f18de9e858da98e2b5e5c0ed"
+   "1fa83ff8bc1e7c7a3256f5dc39d72236c0e8ac07"
   ]
  },
  "5.2.12-4.14.50": {
@@ -346,7 +346,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0194f7fbe691616f635105426a9587e862a53b75"
+   "21a8c9e30197e1f3ef54150560093140531cc1f2"
   ]
  },
  "5.2.12-4.14.52": {
@@ -486,7 +486,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "06e0a518d160d4fa21a64a7f5ac1737378aed6d7"
+   "1bfd10abb1ff34a8959a418a1fab1011242e23e8"
   ]
  },
  "5.2.12-4.14.56": {
@@ -521,7 +521,7 @@
   },
   "revs": [
    "030cbaff7fe7b003acf2f117ad0867dfb473310b",
-   "0e4f91a43cb71ebf0887666396b66bade706f082"
+   "1a7efa0226c64034a92557a17bc688135db06bdb"
   ]
  },
  "5.2.14-4.14.56": {
@@ -556,7 +556,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "0c238624a99b9f713f42f37d08c56034a179d2af"
+   "213743d4d073d373254b9ff7850a49813b5910e1"
   ]
  },
  "5.2.14-4.14.57": {
@@ -696,7 +696,7 @@
   },
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
-   "0a18b917cac4bdad1370049f0d0a463ea678016f"
+   "1cf44e6a07b5ba66dcf015bb729d44b6418f0486"
   ]
  },
  "5.2.14-4.14.61": {
@@ -766,7 +766,7 @@
   },
   "revs": [
    "00df25ee57fcc2227ffdbbff2280b13d898bfd7d",
-   "03eebd770c1dc311e1364361626d2392e34a529a"
+   "1b42a1ba1e63ce4703216903c79c0836eaf53aeb"
   ]
  },
  "5.2.14-4.14.63": {
@@ -1259,6 +1259,41 @@
    "0e614d0292305760ab4831f631132a8901d30db3"
   ]
  },
+ "5.2.14-4.14.79": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "21b7f59ae1292b316188c5b0f934513dba31657b",
+   "21b7f59ae1292b316188c5b0f934513dba31657b"
+  ]
+ },
  "5.2.14-4.14.81": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -1396,7 +1431,7 @@
   },
   "revs": [
    "138f2cc707d7ee13d93c86db3285460e244c402c",
-   "138f2cc707d7ee13d93c86db3285460e244c402c"
+   "1e47a6c30c4ef1e5cab0e495ab6b05f525216553"
   ]
  },
  "5.2.8-4.14.37-a": {
@@ -1606,7 +1641,7 @@
   },
   "revs": [
    "0286c2b2e172faa4c2e895f50daba4873a39ca12",
-   "02c42d0883ebb4c4c9e891de9a1368b9925dca91"
+   "1fbc655f5360d9ab0ef2f6095ffcbff62480b86b"
   ]
  },
  "5.2.8-4.14.48": {
@@ -1781,7 +1816,7 @@
   },
   "revs": [
    "0a70d65fd471e30fc1f300cc4eebaf18b56d90b8",
-   "0a70d65fd471e30fc1f300cc4eebaf18b56d90b8"
+   "20c0898eab081b7327aa2196396856bd0820546f"
   ]
  },
  "5.2.8-4.14.53": {
@@ -1816,7 +1851,42 @@
   },
   "revs": [
    "01c9da0ebb5517114b7c6b1d1ececf9bd2518a5d",
-   "01c9da0ebb5517114b7c6b1d1ececf9bd2518a5d"
+   "1aafdb403a59e43b4f3c6c638a338882224c6b43"
+  ]
+ },
+ "5.2.8-4.14.54": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "1fd6aaa5ca0af6c0be43979a43747c8a7a6786e7",
+   "1fd6aaa5ca0af6c0be43979a43747c8a7a6786e7"
   ]
  }
 }

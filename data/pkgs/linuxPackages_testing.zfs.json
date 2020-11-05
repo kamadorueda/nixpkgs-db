@@ -115,7 +115,7 @@
   },
   "revs": [
    "001f2110bdb2300df5d600628a62a8969ff14aa5",
-   "186348f83127c6db3abab2ab70dcd0a1de3002ef"
+   "19f0b18b992a9495c20d11ab096cbe6a29eb148f"
   ]
  },
  "0.6.3-1.2-3.19-rc5": {
@@ -459,7 +459,7 @@
   },
   "revs": [
    "002d33b6ccdc90628799406c19b15648ca7e8349",
-   "11dc9036d0b1f7bb9e277240848e699c0de90d4e"
+   "1e389c976cc5326b08bd166785e643364bb2d8b4"
   ]
  },
  "0.6.3-3.17-rc2": {
@@ -519,7 +519,7 @@
   },
   "revs": [
    "007f80c1d0440b89970000b92f78ce76186d99a5",
-   "0a9ec07b93f762ac1284bab48ff1292bba657981"
+   "19ea87186259494b1ba4db73d4c1672a71c7e1ea"
   ]
  },
  "0.6.3-3.18-rc4": {
@@ -962,7 +962,7 @@
   },
   "revs": [
    "007e2889129bb817e4e0c4220eba0c52461810fc",
-   "17c1428bfb9a5cb7cefeb378fb5fb4cb8301a5d8"
+   "1edd09964ced48a2f19bdcc55df434eecd00a21e"
   ]
  },
  "0.6.4.2-4.2-rc2": {
@@ -1058,7 +1058,7 @@
   },
   "revs": [
    "00163a09d37c6c9e07837ebb8aa75ebb3e347244",
-   "178f4e7753e3d2b03444350f144d550f0e2feeaa"
+   "202747864f1a174c4753d70bdefbe6618750fa8d"
   ]
  },
  "0.6.5.1-4.2-rc5": {
@@ -1122,7 +1122,39 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "17b86fef1efb6c0939d1acee2078d2f24dffb8cb"
+   "21eb255af9fdc49770f6b1b35d236927bf393d0d"
+  ]
+ },
+ "0.6.5.2-4.3-rc2": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:101"
+  },
+  "revs": [
+   "216a05175c21ea69aa28c5507ac2b93cb476baa7",
+   "216a05175c21ea69aa28c5507ac2b93cb476baa7"
   ]
  },
  "0.6.5.2-4.3-rc4": {
@@ -1186,7 +1218,7 @@
   },
   "revs": [
    "01038feea0c5c2d300a3b2e99e971d491fc35f0d",
-   "1335293aa72b44d4c95c8d313f7448445ba67b1a"
+   "1d640f029f3c9de3d049f0c0a9b7280592fce5db"
   ]
  },
  "0.6.5.2-4.3-rc7": {
@@ -1218,7 +1250,7 @@
   },
   "revs": [
    "00a1c28c4583029b59894181147eeca65091af69",
-   "12e8f3c6aae56353510314391072912fae5ef3ed"
+   "1c620f073a59db4d996036a0d030528fe5fbf9ab"
   ]
  },
  "0.6.5.3-4.2-rc5": {
@@ -1410,7 +1442,7 @@
   },
   "revs": [
    "0163eaea6eae81540a2aba1f85a27da4aebfd68e",
-   "0ad7b1f44ac9f47de67ec5ba4f0b7ca8b7052a14"
+   "1c268e0b8cd07ccedec8cce34ddfc82eb8e9f947"
   ]
  },
  "0.6.5.3-4.4-rc6": {
@@ -1442,7 +1474,7 @@
   },
   "revs": [
    "00aac09d24343b7beb8a07cbd5affdb110199c67",
-   "16d0cd7c680b581f2356c1421454e4a7f24e9dd2"
+   "19d22184d3b1b74be5ecb9eb5c9a1630c9dd4b57"
   ]
  },
  "0.6.5.3-4.4-rc7": {
@@ -1602,7 +1634,7 @@
   },
   "revs": [
    "02f5a01c196bd68700d1122b4a88dbdad48e1393",
-   "0d459431672f2b14804be1f0cba385e1531c9c95"
+   "20c31e65ab922f4b079c056dae3a0e28a01920de"
   ]
  },
  "0.6.5.4-4.5-rc4": {
@@ -1634,7 +1666,7 @@
   },
   "revs": [
    "0022f639f31161766b8f2604388015e8b05c4a0d",
-   "0f4ecfad68f9ed35beaf9e26df22bb0fb799f645"
+   "1a31447c4c95496e63f23151de2849c641e28d89"
   ]
  },
  "0.6.5.4-4.5-rc5": {
@@ -1698,7 +1730,7 @@
   },
   "revs": [
    "0077abe128bf08be982241b364481bb839748583",
-   "05a02c53a06043f6138a910adf073723a3f066d3"
+   "2013614e1d74ad6b0f2d5ab76f3e2b77183806fe"
   ]
  },
  "0.6.5.4-4.5-rc7": {
@@ -1730,7 +1762,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "09af15654f0c8091f1b9e0bbb2e523cdee194442"
+   "1a5acdb6956e58111cadcd15e6220fdffc9d4b64"
   ]
  },
  "0.6.5.5-4.5-rc7": {
@@ -1826,7 +1858,7 @@
   },
   "revs": [
    "00a794b9600716d692e3f3a61e3ffa53ca3b59c0",
-   "025cedc6067e60533cea7afb467042f9ac2e65a8"
+   "1f978b7422061b055cbb092789d2bc4792fe8940"
   ]
  },
  "0.6.5.6-4.6-rc2": {
@@ -1922,7 +1954,7 @@
   },
   "revs": [
    "002f5e24b48d047e67a79470b777bd10fa64a6c7",
-   "0483bc0ee35db6b26ee83958458a1843631d1c08"
+   "198dd9df8252205802e5e9abfcf17d92550491a9"
   ]
  },
  "0.6.5.6-4.6-rc6": {
@@ -2082,7 +2114,7 @@
   },
   "revs": [
    "005a147f925d782271cd828e3a108471dbf9bfa0",
-   "16b3e26da4455c6d3f876639ce27ce6cd40d6895"
+   "200fa329118facdabb7e753f2f87613db8acd649"
   ]
  },
  "0.6.5.7-4.8-rc4": {

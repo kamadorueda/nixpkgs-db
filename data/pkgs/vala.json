@@ -28,7 +28,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "18ac2b9ebce2fe1c73a9d25b5615b642077d8c8c"
+   "21bf5ef509dcadebab10de0ba142d55776a961f1"
   ]
  },
  "0.17.2": {
@@ -62,7 +62,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "102216f8c92a3c52c98f58774194ffd91062cda2"
+   "1a0e87b19fd8bc720d5505ffc171e3941aaa9dd4"
   ]
  },
  "0.19.0": {
@@ -94,7 +94,7 @@
   },
   "revs": [
    "00081d1873148a8ec642d5c912d04875c4ee4a66",
-   "0c8372d9c7374eafc035718749d81b8e8317f62e"
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
   ]
  },
  "0.23.1": {
@@ -463,7 +463,7 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "138f2cc707d7ee13d93c86db3285460e244c402c"
+   "1e47a6c30c4ef1e5cab0e495ab6b05f525216553"
   ]
  },
  "0.38.9": {
@@ -763,7 +763,107 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
+   "1a99f4cc61e16dc37c5538161fc22bacbd76b968"
+  ]
+ },
+ "0.42.6": {
+  "meta": {
+   "description": "Compiler for GObject type system",
+   "homepage": "https://wiki.gnome.org/Projects/Vala",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "self@antono.info",
+     "github": "antono",
+     "name": "Antono Vasiljev"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "vala",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/vala/default.nix:89"
+  },
+  "revs": [
+   "19697dd7943385076aed979f9235926d0c354a78",
+   "19697dd7943385076aed979f9235926d0c354a78"
   ]
  },
  "0.44.1": {

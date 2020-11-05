@@ -29,7 +29,7 @@
   },
   "revs": [
    "000a2108ba10df725065004e1f3d2fb793078f71",
-   "0ad8f7e06665b13bed9b272acd870ef8a643c1e2"
+   "21bfd2f9520f2b68084d348e2bcd7f62f71b6792"
   ]
  },
  "7.10.1": {
@@ -228,7 +228,7 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "186348f83127c6db3abab2ab70dcd0a1de3002ef"
+   "19f0b18b992a9495c20d11ab096cbe6a29eb148f"
   ]
  },
  "7.8.2": {
@@ -328,6 +328,40 @@
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
    "16d4251cf56a9353d98e82a06534ebca2ff39e78"
+  ]
+ },
+ "8.0": {
+  "meta": {
+   "description": "The GNU Project debugger",
+   "homepage": "http://www.gnu.org/software/gdb/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "GDB, the GNU Project debugger, allows you to see what is going\non `inside' another program while it executes -- or what another\nprogram was doing at the moment it crashed.\n",
+   "maintainers": [
+    "Nicolas B. Pierron <nixos@nbp.name>"
+   ],
+   "name": "gdb",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "i686-windows",
+    "x86_64-windows",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/gdb/default.nix:69"
+  },
+  "revs": [
+   "1b32055a35cccf52bc4c8fba2e8308dfa893f461",
+   "1b32055a35cccf52bc4c8fba2e8308dfa893f461"
   ]
  }
 }

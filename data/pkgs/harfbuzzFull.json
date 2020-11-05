@@ -334,7 +334,56 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "0d357bbdb8c0f7f11a984bad54c1a3b6e7ceadf2"
+   "1a99f4cc61e16dc37c5538161fc22bacbd76b968"
+  ]
+ },
+ "2.4.0": {
+  "meta": {
+   "description": "An OpenType text shaping engine",
+   "homepage": "http://www.freedesktop.org/wiki/Software/HarfBuzz",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "harfbuzz-icu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/harfbuzz/default.nix:66"
+  },
+  "revs": [
+   "1f17cd92236df46545ddbecae3594d0572e2cd04",
+   "21d45fe6e7933ac0a5d6aa647342650332ef9100"
   ]
  },
  "2.5.0": {
@@ -383,7 +432,7 @@
   },
   "revs": [
    "01390dcef27cdb8207edd2a22d5aa7d511e0a862",
-   "1800e49a0bc5de13ede9afea3236128c60126528"
+   "229e7834eb259a8938462ff738e897226e820c32"
   ]
  },
  "2.5.1": {
@@ -596,7 +645,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "13bc774904dc6d271b945b78575caaa26aff0f53"
+   "1c1668df4de35b649a58c5db483401ad2f35678d"
   ]
  },
  "2.7.2": {

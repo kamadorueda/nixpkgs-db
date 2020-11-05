@@ -36,7 +36,7 @@
   },
   "revs": [
    "012b89f1bc9a7ede8af24ea3c7b3bbfbeeafd280",
-   "05a3625d36924183fdcd54a8be3d3494dae44da3"
+   "214cac8b26d69b8841e5042e3f0bc2720a75f9f3"
   ]
  },
  "2.6.0-4.19.101": {
@@ -168,7 +168,7 @@
   },
   "revs": [
    "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-   "06d8f5d00010fe56c8af91ecb6a01b95bc73e643"
+   "1d39425b13d80176682c2362432aa0d76d2f3ba3"
   ]
  },
  "2.7.0-4.19.103": {
@@ -260,7 +260,7 @@
   },
   "revs": [
    "0030d391d229a2d5983752741d6bc0153dc82f1b",
-   "156b879c2e5884bfdc6b28b93067e3f68512fb8e"
+   "1dbfae3343b686349118483f7c1f1d8776fd1689"
   ]
  },
  "2.7.0-4.19.105": {
@@ -352,7 +352,7 @@
   },
   "revs": [
    "0079850d6ab3ecabcd6a262bf309eff57ff15945",
-   "0477af2036db9e435944fda92610707d9cbead4f"
+   "1c7e269e81affac829b6b758abda50f8ca76c7e3"
   ]
  },
  "2.7.0-4.19.107": {
@@ -444,7 +444,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "098e5a78d959194ce4b9ea0fb4e05c8c8d295150"
+   "1df0c691b93ac0f7067a3d88260796fe48676165"
   ]
  },
  "2.7.0-4.19.109": {
@@ -582,7 +582,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "0dccca9517ba1e0e0c8c97feb1cb8964714bcbe2"
+   "1e6f11a2d0ec644d0a9671679d81d5d79c3ad12b"
   ]
  },
  "2.7.0-4.19.114": {
@@ -858,7 +858,7 @@
   },
   "revs": [
    "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8",
-   "0dd6de01b2e45862d546f07681c30acc0decb531"
+   "1919db9478fb55dbbaead3a1342927fa80d105ce"
   ]
  },
  "2.7.0-4.19.120": {
@@ -950,7 +950,7 @@
   },
   "revs": [
    "004b30e592a212a390ad1e6576bc5c87d0e4766e",
-   "0ec56df9d1f42fe9becea8d936bcbc2d97c58337"
+   "209ef5716242ec85ba3c3acc8262dfdfb5f9ab4d"
   ]
  },
  "2.7.0-4.19.122": {
@@ -1272,7 +1272,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "154c3f3013cc0d3ee18d810fb48d347e754e8210"
+   "21f176a8b222a6adae50d177842d74faa117aa60"
   ]
  },
  "2.7.0-4.19.129": {
@@ -1456,7 +1456,7 @@
   },
   "revs": [
    "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
-   "0d39f408eada237629a5ddbe3413e3d6c0c29f64"
+   "1e70a95d45d30e22791e95bdea344c1bb769fa43"
   ]
  },
  "2.7.0-4.19.133": {
@@ -1686,7 +1686,7 @@
   },
   "revs": [
    "020666f17a7a5234f9b96307235b02c313d21bed",
-   "16ec57b36ea8443458cab00240f9f0838c77e358"
+   "1d1d585f9960b6ff27a0c347ff8350d84bc2ed88"
   ]
  },
  "2.7.0-4.19.139": {
@@ -1732,7 +1732,53 @@
   },
   "revs": [
    "05195accdc596c6c9eadfa7d283d7b780f87f96f",
-   "05195accdc596c6c9eadfa7d283d7b780f87f96f"
+   "1b382475d8f1be2e564146654d6136b6a47d7433"
+  ]
+ },
+ "2.7.0-4.19.140": {
+  "meta": {
+   "description": "An entirely open source Linux driver that allows you to manage your Razer peripherals on GNU/Linux",
+   "homepage": "https://openrazer.github.io/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roel@lambdacube.nl",
+     "github": "roelvandijk",
+     "githubId": 710906,
+     "name": "Roel van Dijk"
+    },
+    {
+     "email": "evanjsx@gmail.com",
+     "github": "evanjs",
+     "githubId": 1847524,
+     "name": "Evan Stoll"
+    }
+   ],
+   "name": "openrazer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/openrazer/driver.nix:37"
+  },
+  "revs": [
+   "1ec6859307f6cc79bb36f1a4de9d1b823345726b",
+   "1ec6859307f6cc79bb36f1a4de9d1b823345726b"
   ]
  },
  "2.7.0-4.19.141": {
@@ -1824,7 +1870,7 @@
   },
   "revs": [
    "0a3583509d651b23c92e8b3f4bb7f55b2600c600",
-   "10aede9bcfe0bcc7c999b598057552f928c31767"
+   "1b4c1c939449856e2c206a578d75563ae8d04f81"
   ]
  },
  "2.7.0-4.19.143": {
@@ -2744,7 +2790,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "071d7f5b84f7b0f4354fb372fc55d120b6ae453e"
+   "2021d942c415eea6d0a17701329d99ba107fa09b"
   ]
  },
  "2.8.0-4.19.144": {
@@ -2790,7 +2836,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "0e96315492351ed9aa8e268d883630760eea0ad3"
+   "1b2aa767ec54a6f34cf9271bc01c112c1ae159ba"
   ]
  },
  "2.8.0-4.19.145": {
@@ -2928,7 +2974,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "0260afe5f570822bf5574b7dc0347990f6bf3bd6"
+   "1a9ecdf2401faba9af7589ce3fcb69636d49c1ba"
   ]
  },
  "2.8.0-4.19.148": {
@@ -2974,7 +3020,7 @@
   },
   "revs": [
    "01835945ca8a3db30c044b7d1f2c880f42ecf448",
-   "07e5844fdf6fe99f41229d7392ce81cfe191bcfc"
+   "1b0e08d928c4401a9d47c00cf10480572583dd63"
   ]
  },
  "2.8.0-4.19.149": {
@@ -3158,7 +3204,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "13a910e3f6e50ff3d1946e75cce6fde64656bba0"
+   "1f9347431c153ffa3b61e0677782678bfce4bae3"
   ]
  },
  "2.8.0-4.19.153": {
@@ -3250,7 +3296,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "13bc774904dc6d271b945b78575caaa26aff0f53"
+   "1c1668df4de35b649a58c5db483401ad2f35678d"
   ]
  }
 }

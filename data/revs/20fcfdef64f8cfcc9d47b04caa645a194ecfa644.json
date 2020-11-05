@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert to Samba 3.3.3 because never versions (including 3.3.12)   break our VM builds.  The child smbd process sends a TERM signal to   its process group when it exists (e.g. on unmount), causing qemu-kvm   to die.",
+ "timestamp": "1272986794"
+}
