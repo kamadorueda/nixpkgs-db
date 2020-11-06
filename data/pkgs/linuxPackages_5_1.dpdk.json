@@ -92,7 +92,7 @@
   },
   "revs": [
    "00fc5bd08fc7c5149c50895a5f5d15e9db171c02",
-   "1eaaf4ed4ac8d6d182414b09ba675aac89ffd1bd"
+   "238ba9ea0e772ed9bde07edf544f9a0657da1187"
   ]
  },
  "17.11.2-5.1.10": {
@@ -380,7 +380,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "0ccf30a77091b2f07c919e235cc09995d9fc00d7"
+   "24be3d6cf45df66c56d84047ef5c94ffe8d3c655"
   ]
  },
  "17.11.2-5.1.17": {
@@ -1005,6 +1005,54 @@
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
    "1601f559e89ba71091faa26888711d4dd24c2d4d"
+  ]
+ },
+ "17.11.9-5.1.21": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:58"
+  },
+  "revs": [
+   "27aaaa5ba6923104a23bae75d323dc975390195e",
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  }
 }

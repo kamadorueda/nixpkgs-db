@@ -74,7 +74,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "1873f698e7a26bae8d07d3e2f23eb5d5db7c8e14"
+   "23b1a31c9e3452d562b7102e233d17f897eb8306"
   ]
  },
  "1.2.2": {
@@ -825,7 +825,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e"
+   "283a61a8003ec533333be9c4411f758b8719e845"
   ]
  },
  "2.4.0": {
@@ -1367,6 +1367,97 @@
    "1e6c910f4f8133b77772609f807f532e489996a7"
   ]
  },
+ "4.0.0": {
+  "meta": {
+   "description": "Caching validating DNS resolver, from .cz domain registry",
+   "homepage": "https://knot-resolver.cz",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "knot-resolver",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/dns/knot-resolver/default.nix:71"
+  },
+  "revs": [
+   "26053855bbc58c3f298d3b1c5c470bc44a2cfdbc",
+   "26053855bbc58c3f298d3b1c5c470bc44a2cfdbc"
+  ]
+ },
  "4.1.0": {
   "meta": {
    "description": "Caching validating DNS resolver, from .cz domain registry",
@@ -1421,7 +1512,7 @@
   },
   "revs": [
    "002b853782e939c50da3fa7d424b08346f39eb6f",
-   "1a99f4cc61e16dc37c5538161fc22bacbd76b968"
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
  "4.2.0": {

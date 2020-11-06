@@ -336,7 +336,7 @@
   },
   "revs": [
    "02602f813de9fc2c2299c66174a5f6975024ae1d",
-   "02602f813de9fc2c2299c66174a5f6975024ae1d"
+   "2614327c7d4f3a16b0bf5542c3022f99d8c39924"
   ]
  },
  "17.11.2-5.2.16": {
@@ -672,7 +672,7 @@
   },
   "revs": [
    "0568b622d58c0473b6190e4b33954a2f42919072",
-   "1688dc72e5ce4c2bd5e100823b404ea098449cca"
+   "24070da9c46d43eb374cda73caba85efd402475b"
   ]
  },
  "17.11.2-5.2.4": {
@@ -720,7 +720,7 @@
   },
   "revs": [
    "019c13616b512d0f8b3bd3e5e17356401a8e4457",
-   "08cde7620d92612c0a922c253c639b11b5551fe6"
+   "268100414f1171bc5e0a04769a812fed7b15bc07"
   ]
  },
  "17.11.2-5.2.5": {
@@ -912,7 +912,7 @@
   },
   "revs": [
    "0047672d58ad13bd0a60e9114b6c91858c34b2a8",
-   "04ec91fbd8e47ca57c8126d7a121319b9a8b6702"
+   "270d822c0875fd23ef50671cba89b587a53201dc"
   ]
  },
  "17.11.2-5.2.9": {
@@ -961,6 +961,54 @@
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
    "0b848c3e927090cc38a9de95b1ed55afabcef50a"
+  ]
+ },
+ "17.11.9-5.2.21": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:58"
+  },
+  "revs": [
+   "27aaaa5ba6923104a23bae75d323dc975390195e",
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  }
 }

@@ -1,0 +1,4 @@
+{
+ "summary": "Adding a new mkDerivation flag for the cross stdenv, selfNativeBuildInput = true/false, which tells whether the derivation needs itself as buildNativeInput. For example, in order to build cross ncurses, we need the a native build ncurses. (As libtool does not work in stdenv, I have not tested this change, to check whether finally ncurses cross-build)",
+ "timestamp": "1258735081"
+}

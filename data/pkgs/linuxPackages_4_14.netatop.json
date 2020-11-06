@@ -27,7 +27,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "14a754ff63c61db0063456a920b2ee3e0c1700b9"
+   "232ff39115b9d36c55d2c170e5d785b5247c6c8d"
   ]
  },
  "4.14.1-1.0": {
@@ -292,7 +292,7 @@
   },
   "revs": [
    "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
-   "05fa593272d113b056b0ed9cdb5aa69ac5397569"
+   "28a5c36d1dbab092a4c2a7544a5036bb759d0ffe"
   ]
  },
  "4.14.109-2.0": {
@@ -331,7 +331,7 @@
   },
   "revs": [
    "005fb92d32c9d5b636846ce30ae01aab81454161",
-   "00a52224997a32cd95a43c40e94e20d53bb52628"
+   "23576f225cd76fc4de2d688c8815a75e74e67691"
   ]
  },
  "4.14.110-1.0": {
@@ -604,7 +604,7 @@
   },
   "revs": [
    "02adc5618a3a635924fdb6d1d357fb86bf0f075d",
-   "0f8a6e4841dc0cdb5efc527c41192663a1fd7960"
+   "26053855bbc58c3f298d3b1c5c470bc44a2cfdbc"
   ]
  },
  "4.14.113-2.0": {
@@ -721,7 +721,7 @@
   },
   "revs": [
    "00361eece32480071fab54bf53d57b8d81dd57f5",
-   "1caceac8738a70351f2d9301e58e860c61e0907f"
+   "27fc24a1419d174193b90fb687ea4b2de36e32a8"
   ]
  },
  "4.14.115-1.0": {
@@ -916,7 +916,7 @@
   },
   "revs": [
    "0861ad591a96ad7246335c9cb35f51126874ea12",
-   "111412e1db3a80da37883c4664749875452a536e"
+   "25c0ce11c8aadaf2ddca8c9baa7adae378fa8fa4"
   ]
  },
  "4.14.117-2.0": {
@@ -994,7 +994,7 @@
   },
   "revs": [
    "07f649b8fe48391b9fb161a1685842f8a93d9537",
-   "1eaaf4ed4ac8d6d182414b09ba675aac89ffd1bd"
+   "238ba9ea0e772ed9bde07edf544f9a0657da1187"
   ]
  },
  "4.14.118-2.0": {
@@ -1808,7 +1808,7 @@
   },
   "revs": [
    "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
-   "195e30b74a20f5ddd9b50ee27201c10055c992a2"
+   "26a5f320961f5c57f1797b17337f0fcc406ac50a"
   ]
  },
  "4.14.129-1.0": {
@@ -1885,7 +1885,7 @@
   },
   "revs": [
    "022ddc17a7bd3991cee9554ad6f3a678098108d2",
-   "022ddc17a7bd3991cee9554ad6f3a678098108d2"
+   "26dc4cd263ed49d56de50fde0655388240718b11"
   ]
  },
  "4.14.13-1.0": {
@@ -2109,7 +2109,7 @@
   },
   "revs": [
    "0ccf30a77091b2f07c919e235cc09995d9fc00d7",
-   "0ccf30a77091b2f07c919e235cc09995d9fc00d7"
+   "24be3d6cf45df66c56d84047ef5c94ffe8d3c655"
   ]
  },
  "4.14.132-2.0": {
@@ -2832,7 +2832,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "11ec70c0ff305520ec2ba83bd852e138f4cf4ccf"
+   "23e72eff4197394e9dce69b20f55cff165e4409f"
   ]
  },
  "4.14.142-1.0": {
@@ -2911,6 +2911,45 @@
   "revs": [
    "061663a1575fbcd92df191c26c01a68cff053015",
    "061663a1575fbcd92df191c26c01a68cff053015"
+  ]
+ },
+ "4.14.144-1.0": {
+  "meta": {
+   "description": "Network monitoring module for atop",
+   "homepage": "https://www.atoptool.nl/downloadnetatop.php",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "netatop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/netatop/default.nix:36"
+  },
+  "revs": [
+   "2614327c7d4f3a16b0bf5542c3022f99d8c39924",
+   "2614327c7d4f3a16b0bf5542c3022f99d8c39924"
   ]
  },
  "4.14.145-1.0": {
@@ -3175,7 +3214,7 @@
   },
   "revs": [
    "08cc1b8b5b6efdb5664f048e08d2c42deb77a21d",
-   "2085adebac31c5436ae44724d7c9fdf7acec6a0b"
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
  "4.14.158-2.0": {
@@ -3362,7 +3401,7 @@
   },
   "revs": [
    "00b7680f28eeb335873303c4b745810da733aa95",
-   "0a43e431ca85b4f8e6bdcb4c164e68e986930c2f"
+   "2339cd64c3c631fd60d64e0e29856aaf7827c7e0"
   ]
  },
  "4.14.162-2.0": {
@@ -3783,7 +3822,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "04379d0a6a10434ab867efaf11b8220e8f0d558b"
+   "262e5b254b9d3525be74efdf21a98bcc4ba76cdc"
   ]
  },
  "4.14.173-2.0": {
@@ -4490,7 +4529,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5"
+   "274831839c4f2622019a35d773d4ee588a08c311"
   ]
  },
  "4.14.19-1.0": {
@@ -4521,7 +4560,7 @@
   },
   "revs": [
    "017154391b4a2a4e418640d3a7677274fe981dc9",
-   "0264c64ebb5a1d49f95e568ccaeaec18dc83d6fc"
+   "23e1eb78e7791a61a17bc5015464cfc7a3dfe93a"
   ]
  },
  "4.14.190-2.0": {
@@ -4681,7 +4720,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "1d1d585f9960b6ff27a0c347ff8350d84bc2ed88"
+   "280a347024c26f77d23150829c0fefeb0c5a6f43"
   ]
  },
  "4.14.194-2.0": {
@@ -5031,7 +5070,7 @@
   },
   "revs": [
    "00cda0d18d948481be72cc7bfaead0bcf9c4c263",
-   "039cb6291de0358fe89fb455c219a0ab891060be"
+   "25b178c74568d8f4789698e74d62570c586523e9"
   ]
  },
  "4.14.20-1.0": {
@@ -5062,7 +5101,7 @@
   },
   "revs": [
    "0022708d6d369527aa4ff5da07806203c21533d5",
-   "1c3c80360b914ff8eacdabeb6d05565721121b1e"
+   "23e418f495ae87cf46c5819846c392ebfb042739"
   ]
  },
  "4.14.200-2.0": {
@@ -5102,7 +5141,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "11ac36825b0ca61d1cde8f74da74b1625363eadd"
+   "27252519208f2cd357c075972a3ce044ec8cab6f"
   ]
  },
  "4.14.200-3.1": {
@@ -5182,7 +5221,7 @@
   },
   "revs": [
    "05d90313993c0912521780dbb0fc1c35d5520e06",
-   "05d90313993c0912521780dbb0fc1c35d5520e06"
+   "27949d611a7cca14e21438df725f7c6356f458ac"
   ]
  },
  "4.14.201-3.1": {
@@ -5261,7 +5300,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "1327b970450d1d41b5084af17bcc5496a540ad46"
+   "265f2f576f94d7cbc3149304f2d6d7406b6ee8db"
   ]
  },
  "4.14.202-3.1": {
@@ -5504,7 +5543,7 @@
   },
   "revs": [
    "01a664e7793158b434fefac9217ec48313b2dd45",
-   "14f9ee66e63077539252f8b4550049381a082518"
+   "24a7883c2349af5076107dbbb615be09d6025a95"
   ]
  },
  "4.14.3-1.0": {
@@ -5574,7 +5613,7 @@
   },
   "revs": [
    "0063acf4dff8a53cb889b788d594d1acd09f602d",
-   "1b5491fc4f5124bb81d394519e56fe69a6b3d2d5"
+   "28563ef5cb835898a6f2d69eea8d2c315dfb8258"
   ]
  },
  "4.14.91-1.0": {
@@ -5808,7 +5847,7 @@
   },
   "revs": [
    "00cdff318a317565b8289fa807dfb3b9bbbaaa91",
-   "1278615a4832a8cb691b43a942d0dbce3eb73b9e"
+   "2890a38652fc6c4904856fde5bd4224ff2018827"
   ]
  },
  "4.14.97-1.0": {

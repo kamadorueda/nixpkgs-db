@@ -52,7 +52,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "18592c78fc21bddcb2a82e0a70de843d8ada9f1a"
+   "23697f2db2bb673147ecdeb109f986c0bea3e230"
   ]
  },
  "0.6.3-3.14.18": {
@@ -407,7 +407,7 @@
   },
   "revs": [
    "00bb9cfd5b071593a40c57ca39541ee2b8064053",
-   "1f09b7763408792fcbbb6fd57aced09ebbb558c4"
+   "2639faa8968c014a6a16be93c0c92b52fc6237d3"
   ]
  },
  "0.6.3-3.14.34": {
@@ -497,7 +497,7 @@
   },
   "revs": [
    "02fd9e5d75e9cbd29dc5186e4ea6d5c294d29a4a",
-   "1f06c1d5977f81140c54985cdb592fe538290717"
+   "2715d8195866e6bdcc042d5833d9eafc1ba0bfee"
   ]
  },
  "0.6.3-3.14.37": {
@@ -647,7 +647,7 @@
   },
   "revs": [
    "01cb65d269b4b0d676a29a763aa2f837d98dc032",
-   "1e45c69d1ca8698ac8c3d05a601690c6d70eb589"
+   "22e10f13e6b4924470b8c6f39e5dbbc7b55c16f6"
   ]
  },
  "0.6.3-3.14.50": {
@@ -733,7 +733,7 @@
   },
   "revs": [
    "002d33b6ccdc90628799406c19b15648ca7e8349",
-   "0da7fadce32289e926415629a697028aa7296b96"
+   "289895fe2ceae2ade5aad635018eaeeaeaa669c6"
   ]
  },
  "0.6.3pre-3.14.8": {
@@ -968,6 +968,36 @@
    "0deb3fce70542f13510678cf62b07fbdf3bacbd4"
   ]
  },
+ "0.6.4-3.14.32": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Ricardo M. Correia <rcorreia@wizy.org>"
+   ],
+   "name": "spl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/git.nix:35"
+  },
+  "revs": [
+   "236029ef83764030683ce4a1aedbaaae7ceb0aaa",
+   "236029ef83764030683ce4a1aedbaaae7ceb0aaa"
+  ]
+ },
  "086476f-3.14.32": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -1189,7 +1219,7 @@
   },
   "revs": [
    "01935e880b7b719c31f485d3e44d4a0e89e27821",
-   "09982126409076abb35531f1db378355f9ec2600"
+   "26f671155e397582e8a034fe8a40e7e9a787027e"
   ]
  },
  "2015-03-03-3.14.36": {
@@ -1349,7 +1379,7 @@
   },
   "revs": [
    "0067ccbfdf0c61b14e0f7611d99212ecade407dc",
-   "0fb056f521579ae3135c0b9edfb91e1588bf09dc"
+   "27e46441fa5e252a1dc14ff577370b6890c6e7ca"
   ]
  },
  "2015-04-08-3.14.37": {
@@ -1512,6 +1542,38 @@
    "1e686d8892003095a52575c402a6e919c7ae254e"
   ]
  },
+ "2015-04-24-3.14.41": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/generic.nix:49"
+  },
+  "revs": [
+   "28c17395f5dbb61093b7b34394a7f11250310a0e",
+   "28c17395f5dbb61093b7b34394a7f11250310a0e"
+  ]
+ },
  "2015-04-24-3.14.42": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -1541,7 +1603,7 @@
   },
   "revs": [
    "0a87fd8890e6311b292e73c17805f8c6df8509c1",
-   "0e2472ac86ba17cdb8b8f937d985dc191100f86e"
+   "27aba150070b4c7e0843ead95196af77d7eb974f"
   ]
  },
  "2015-04-24-3.14.43": {
@@ -1669,7 +1731,7 @@
   },
   "revs": [
    "013f88ac7e4c679868bfac5c6d9b896c9b13fd99",
-   "06efb2e937c1335a4c6c8fd509b98ad54d65c1db"
+   "236366019187b5fbe568764ade67ae034cac796e"
   ]
  },
  "2015-06-29-3.14.46": {
@@ -1765,7 +1827,7 @@
   },
   "revs": [
    "00111ad79d7e58149141311628a602190fd69233",
-   "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
+   "22fb22e7439d98474048041abbd506f7975c3c4e"
   ]
  },
  "2015-07-21-3.14.48": {
@@ -1829,7 +1891,7 @@
   },
   "revs": [
    "006a2f553e3da4698306939b9581fc21e2333a76",
-   "0ecc61b4d7558b026ed1cd37136bee8d4cb3267c"
+   "257db17ee950d2865529603d1388cf7fbb8a0a89"
   ]
  },
  "2015-07-21-3.14.50": {
