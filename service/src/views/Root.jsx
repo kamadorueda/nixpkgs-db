@@ -4,7 +4,6 @@ import {
   Col,
   Container,
   Nav,
-  Navbar,
   Row,
 } from 'react-bootstrap';
 import {
@@ -49,14 +48,18 @@ export const Root = () => {
   return (
     <Container fluid={true}>
       {/* Header */}
-      <Navbar>
-        <Navbar.Brand>
+      <Row>
+        <Col sm={12}>
           <A href="/nixpkgs-db" remote={false}>
             <h1>Nixpkgs Database!</h1>
           </A>
-          <h5>A database with packages from all versions, all commits and all channels.</h5>
-        </Navbar.Brand>
-      </Navbar>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          <h5>A database with packages at all versions, from all channels.</h5>
+        </Col>
+      </Row>
 
       {/* Content */}
       <HashRouter>
