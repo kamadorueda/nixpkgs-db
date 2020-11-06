@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  Badge,
   Col,
   FormControl,
   InputGroup,
@@ -37,10 +38,24 @@ const PkgLoaded = (props) => {
   return (
     <React.Fragment>
       <Row>
-        <Col sm={3}><Link to={pkgLink}><RiExternalLinkFill /> {pkg}</Link></Col>
-        <Col sm={3}>{lastData.meta.name}</Col>
-        <Col sm={5}>{lastData.meta.description}</Col>
-        <Col sm={1}>{data.length}</Col>
+        <Col sm={12}>
+          <Link to={pkgLink}>
+            <RiExternalLinkFill /> {pkg}
+            {pkg === lastData.meta.name ? "" : ` (${lastData.meta.name})`}
+          </Link>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          {lastData.meta.description}
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          <Badge variant="info">
+            {data.length} version{data.length >= 2 ? "s" : ""} available
+          </Badge>
+        </Col>
       </Row>
       <hr />
     </React.Fragment>
@@ -91,7 +106,7 @@ const SearchLoaded = (props) => {
 
   return (
     <React.Fragment>
-      {/* Search box and pagination */}
+      {/* Search box */}
       <Row>
         <Col sm={12}>
           <InputGroup>
@@ -111,17 +126,11 @@ const SearchLoaded = (props) => {
       <Row>
         <Col sm={12}>
           <hr />
-          <Row>
-            <Col sm={3}><b>Attribute</b></Col>
-            <Col sm={3}><b>Name</b></Col>
-            <Col sm={5}><b>Description</b></Col>
-            <Col sm={1}><b>Versions</b></Col>
-          </Row>
-          <hr />
           {matchingPackagesOnPage.map((pkg) => <Pkg pkg={pkg} />)}
         </Col>
       </Row>
 
+      {/* Pagination */}
       <Row>
         <Col sm={12}>
           <Pagination>
