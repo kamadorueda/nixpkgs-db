@@ -554,7 +554,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "1d24ee9017b25645b9d4ec7fe914d5336139cd86"
+   "2e1f7db226f4c4419b75a5b16b2a01c0659b0087"
   ]
  },
  "1.2.0-4.9.63": {
@@ -2523,7 +2523,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "283a61a8003ec533333be9c4411f758b8719e845"
+   "2ecba01acf8a7abac743290e15face8c74f6cb36"
   ]
  },
  "1.5.2-4.14.41": {
@@ -2679,7 +2679,7 @@
   },
   "revs": [
    "003a0b7ccdb003cef54f4c7a1ccce1630a954ece",
-   "2c26bc6c7a462ce6723279ac5f12dc2eadfab269"
+   "2ee48415afc58cb9043a2463e0bde1a91d46c09a"
   ]
  },
  "1.5.2-4.14.46": {
@@ -4083,7 +4083,7 @@
   },
   "revs": [
    "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
-   "263f7b78d6f034f6db4479a9f9d9ce24e1494613"
+   "2e5daaf541837ce23f50772ca2feee83364473b2"
   ]
  },
  "1.5.2-4.14.82": {
@@ -7537,7 +7537,7 @@
   },
   "revs": [
    "004a2b9ed0161aaddcce72b280be9062dbadfbab",
-   "299e6f07d2fde9f01bd9d8fa22c464739b769ee1"
+   "2eaf57541f305ae375acf917b371f9a7bccba507"
   ]
  },
  "2.1.2-4.19.68": {
@@ -8975,7 +8975,7 @@
   },
   "revs": [
    "013f9394e7e39efc3eb3a840cfccc078597f6bcc",
-   "115a36703ec3a6069fd652e5df50c9c9bc983ad5"
+   "181dfe306f262e8e44f0952efa531f9e3c482ec5"
   ]
  },
  "2.1.2-5.4.42": {
@@ -9335,7 +9335,7 @@
   },
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
-   "26ef93b868c71b14a4a334138076013c367eff63"
+   "2e5c1808b32611c19d652a47efb37a93e09c5504"
   ]
  },
  "2.1.2-5.4.52": {
@@ -10058,6 +10058,46 @@
    "2871784d7c443f86dfd73b80245840d1661b4a2a"
   ]
  },
+ "2.1.2-5.4.71": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "2db182abc8acd862e241984422b43495080d3650",
+   "2db182abc8acd862e241984422b43495080d3650"
+  ]
+ },
  "2.1.2-5.4.72": {
   "meta": {
    "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
@@ -10136,6 +10176,46 @@
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
    "050b0068e5760d35c712fe4e77cc1cbf26c79640"
+  ]
+ },
+ "2.1.2-5.4.74": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "1fbed80dfe808e5dc488598f253653dcf61b70c0",
+   "1fbed80dfe808e5dc488598f253653dcf61b70c0"
   ]
  },
  "2.1.2-5.4.75": {
@@ -10335,7 +10415,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0931ebd00a6be40ddc2c6e93695ab06d76b628eb"
+   "11f9033305c6f88dcd1e24688159f0245bd36096"
   ]
  },
  "2.2.11-5.4.73": {
@@ -10375,7 +10455,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "055a9adabfe9ae165f109bb51e0784e0f2b911e3"
+   "2f00a2b06660548f6a0fae97bbcb74b647de67d6"
   ]
  },
  "2.2.11-5.4.74": {
@@ -10415,7 +10495,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "04990cdb8501c6410fd870b120e02d11ada6e579"
+   "17fc38828d963bf8ac0693f2dedb0eda94298b58"
   ]
  },
  "2.2.11-5.4.75": {
@@ -10455,7 +10535,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "04b374eb9c843aa275c3f7483f322cf599677d7d"
+   "10687019df67acac0479ef570c2c47afbc155ee8"
   ]
  },
  "2.2.7-5.4.41": {
@@ -10575,7 +10655,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "2913697d6d76c13ee9b094e4bd5a94ff4bf50f2b"
+   "2f0962dea43becd2a265f2bb06762df8ad2d70b8"
   ]
  },
  "2.2.7-5.4.44": {
@@ -10815,7 +10895,7 @@
   },
   "revs": [
    "00c6fa607cc564a1b64eaf56d0540607df7eca19",
-   "1811fea9eb70e897dbc32648e2406118f185084a"
+   "258bae917a76e393beb4d7409b616498aae39d91"
   ]
  },
  "2.2.7-5.4.50": {
@@ -11215,7 +11295,7 @@
   },
   "revs": [
    "003fa57c6484a63af1e72470fa2b101f4de7a79e",
-   "2a5afc55b52b9a3ec6d4a5a134ddb79c72d9c5b0"
+   "2e0a15fce1780ccd74e023a59b7f23a4f47fa666"
   ]
  },
  "2.2.7-5.4.60": {
@@ -11255,7 +11335,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "077a2288f375d8b7cc9d936b909f9d5b4515eddc"
+   "11d1486a852c6ab699697394a8c622a70a6e9fac"
   ]
  },
  "2.2.7-5.4.61": {
@@ -12157,7 +12237,7 @@
   },
   "revs": [
    "0028abeb4ed1432b99c0b977825c577b3baff3d1",
-   "046229bdedb43fd0d92f2467630d537fa823e8b4"
+   "2ddf55401732059f98f52cd4525c42b77d0995cd"
   ]
  },
  "20160629-4.4.36": {
@@ -12217,7 +12297,7 @@
   },
   "revs": [
    "033525c6b85ae01bbe717a3a585126f15abf86f1",
-   "0e64be20b7734d49a2aa4db0617febcf81da25a4"
+   "2eba51da5739c3cc0edaa237f7ba35a4956a9832"
   ]
  },
  "20160629-4.4.38": {
@@ -13190,7 +13270,7 @@
   },
   "revs": [
    "002a2b479a245d10691a394454f29e27d95de719",
-   "058b89992b801a590dea0cc282b52da3783f5680"
+   "2da9af9289ee43e6f0ab9b390576b7495cf0e074"
   ]
  },
  "20160629-4.9.23": {

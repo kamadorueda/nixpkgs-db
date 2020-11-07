@@ -1,5 +1,8 @@
 # Standard library
 import argparse
+from operator import (
+    methodcaller,
+)
 import os
 import json
 
@@ -84,16 +87,17 @@ def main() -> None:
         elif revs2index[args.rev_sha] > revs2index[data[version]['revs'][0]]:
             data[version]['revs'][0] = args.rev_sha
 
-    json_dump(f'data/revs/{args.rev_sha}.json', {
-        'summary': args.rev_summary,
-        'timestamp': args.rev_timestamp,
-    })
-
     # Update global references
     json_dump('data/pkgs.json', [
         pkg[0:-5] for pkg in sorted(os.listdir('data/pkgs'))
     ])
     json_dump('data/revs.json', revs[0:-1])
+
+    # Append the current revision
+    json_dump(f'data/revs/{args.rev_sha}.json', {
+        'summary': args.rev_summary,
+        'timestamp': args.rev_timestamp,
+    })
 
 
 if __name__ == '__main__':
