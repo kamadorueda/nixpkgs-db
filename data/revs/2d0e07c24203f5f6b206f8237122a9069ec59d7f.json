@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't recurse into perl510Packages.  It confuses nix-env -u since it   can't distinguish between 5.10 and 5.14 packages.  (We should   probably include the Perl version number in the name of Perl   packages, like GHC packages.)",
+ "timestamp": "1332757347"
+}

@@ -522,7 +522,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "0a224fe2803ecde896a00a82681ff06c7d5adfad"
+   "29a6d29e666a365db2a804611e0bd287c5d60ba6"
   ]
  },
  "6.18-4.15.15": {
@@ -582,7 +582,7 @@
   },
   "revs": [
    "023feb5fe6070ee862e5496fbe6ae209b01d58f7",
-   "0397525876057b1e495c9fe2b69faabbf747eec8"
+   "2a9fdf9c8cc7fd9ba4dacaffe8a8a9442351d98b"
   ]
  },
  "6.18-4.15.17": {
@@ -822,7 +822,7 @@
   },
   "revs": [
    "003a0b7ccdb003cef54f4c7a1ccce1630a954ece",
-   "13e3a21b5ca6122684daaf18aff3258fe5aa3a8d"
+   "2c26bc6c7a462ce6723279ac5f12dc2eadfab269"
   ]
  },
  "6.18-4.16.13": {
@@ -1272,7 +1272,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "1846a85b77c60c2f72c95ee63f7f43a5557f8a48"
+   "2c0ba884c20a2f8c6f40793e254c220871937088"
   ]
  },
  "6.18-4.17.1": {
@@ -1392,7 +1392,7 @@
   },
   "revs": [
    "230f98aa79b44229a3cbb8c0b9cd9f44d406b1c2",
-   "230f98aa79b44229a3cbb8c0b9cd9f44d406b1c2"
+   "29aa7ea35ca2f4fb40920ac6c90a70efe229b028"
   ]
  },
  "6.18-4.17.13": {
@@ -1512,7 +1512,7 @@
   },
   "revs": [
    "100173942f6b700fc104acf0a79b83e397f2b7a4",
-   "100173942f6b700fc104acf0a79b83e397f2b7a4"
+   "292624fa203057f958e17f6351108d8d0ee63f9d"
   ]
  },
  "6.18-4.17.18": {
@@ -2442,7 +2442,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "18d461533ba7e4d0981f164bbc4423a141bfa51e"
+   "2a3cbf685bc4a8ce855c38e2be765ada2c1da719"
   ]
  },
  "7.0-4.18.7": {
@@ -3282,7 +3282,7 @@
   },
   "revs": [
    "0ec4bb865802a0ac9b8129fd0992e5660a6d4c90",
-   "0ec4bb865802a0ac9b8129fd0992e5660a6d4c90"
+   "29ed7c827f00b26463bdf11c962eb2f73b310627"
   ]
  },
  "7.0-4.19.32": {
@@ -3372,7 +3372,7 @@
   },
   "revs": [
    "05ef70a46fe22a0d4030dc92424b4ae72793abd2",
-   "05ef70a46fe22a0d4030dc92424b4ae72793abd2"
+   "2aa505b77c04bfd8bb702cbf261f1141a3fe55c2"
   ]
  },
  "7.0-4.19.36": {
@@ -3582,7 +3582,7 @@
   },
   "revs": [
    "0fe4d437a1e6a4b263572483c34e051d45ec06a3",
-   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+   "2aead2422f85562a09619a657ecab0ca405f2d72"
   ]
  },
  "7.0-4.19.5": {
@@ -4872,7 +4872,7 @@
   },
   "revs": [
    "0d0cb247ff378feecb9799487bb79b3afd518f51",
-   "12d7fb573bca191aef063a95ab2204d5819ec0cd"
+   "2a317ced27190949c67feae0760e7ae52c965ab3"
   ]
  },
  "7.0-5.1.19": {
@@ -5052,7 +5052,7 @@
   },
   "revs": [
    "00263c9306107f3ff79ecd185d7e0712fb0560d8",
-   "0ab85f4d872e5fc09b8b54a61ab201467dc4fe61"
+   "2d44a7a8f45a8609041b1299a81511ba947e6cf8"
   ]
  },
  "7.0-5.1.5": {
@@ -5445,6 +5445,36 @@
   "revs": [
    "021d733ea3f87b8c9232020b4e606d08eaca160b",
    "0b88a5c44dfc04bed22e582ba12f44f46234c3af"
+  ]
+ },
+ "7.0-5.2.17": {
+  "meta": {
+   "description": "High performance distributed filesystem with RDMA support",
+   "homepage": "https://www.beegfs.io",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "beegfs-module",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/beegfs/kernel-module.nix:39"
+  },
+  "revs": [
+   "2c61951df92e7a19483adfe7dd29a94c718b9c84",
+   "2c61951df92e7a19483adfe7dd29a94c718b9c84"
   ]
  },
  "7.0-5.2.18": {

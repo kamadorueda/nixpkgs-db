@@ -98,7 +98,7 @@
   },
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
-   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+   "2aead2422f85562a09619a657ecab0ca405f2d72"
   ]
  },
  "3.17-staging": {
@@ -686,7 +686,7 @@
   },
   "revs": [
    "00610756df9a235f2de907a18cd8fded638d24e0",
-   "1dc14208f58ce3e09ce2a687f0476d53cf85dadc"
+   "2a38b364e6e06ba423403334e638e69992531ab5"
   ]
  },
  "5.0-rc6-staging": {
@@ -862,7 +862,7 @@
   },
   "revs": [
    "002b700fb597bc670ea4d19597444c43d31cf556",
-   "1e70a95d45d30e22791e95bdea344c1bb769fa43"
+   "2ada3b5d3e4d776fc1e5dcdc1c34a4b7bd884614"
   ]
  },
  "5.12-staging": {
@@ -907,6 +907,50 @@
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
    "00d8c11a5702868c0cf80ffc97cc896070bd3538"
+  ]
+ },
+ "5.13-staging": {
+  "meta": {
+   "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix (with staging patches)",
+   "homepage": "https://www.winehq.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 or later",
+     "shortName": "lgpl21Plus",
+     "spdxId": "LGPL-2.1-or-later",
+     "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "githubId": 153538,
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "herwig@bendlas.net",
+     "github": "bendlas",
+     "githubId": 214787,
+     "name": "Herwig Hochleitner"
+    }
+   ],
+   "name": "wine-wow",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/misc/emulators/wine/base.nix:146"
+  },
+  "revs": [
+   "2d918db274be8b12c86fa3452f3b6cf3fd8ab1e0",
+   "2d918db274be8b12c86fa3452f3b6cf3fd8ab1e0"
   ]
  },
  "5.14-staging": {

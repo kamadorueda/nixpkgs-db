@@ -1,0 +1,4 @@
+{
+ "summary": "* GMP updated to 5.0.4. * By default, QEMU's CPUID identifies the CPU as GenuineIntel, family   6, model 2.  Since there never was a physical 64-bit CPU like that,   64-bit GMP calls abort().  This causes every program linked against   libgmp to fail under QEMU (unless an appropriate -cpu or -M flag is   used), which is rather bad, especially for users of hosting   providers who cannot change QEMU's flags.  The patch causes GMP to   be more liberal (i.e., use non-CPU-specific implementations).",
+ "timestamp": "1333318620"
+}

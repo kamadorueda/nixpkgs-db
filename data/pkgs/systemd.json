@@ -12,7 +12,7 @@
   },
   "revs": [
    "002ffde4a48ccd69fa0ab0c03fda04557b70789e",
-   "1ae3ea8385e60f964c322bd317ebfd55d3597b68"
+   "2cedd7021bf0ba25964363470a09933a4244515a"
   ]
  },
  "186": {
@@ -113,7 +113,7 @@
   },
   "revs": [
    "04cacaf628f7dc17a123730d63a58e84f24b58d5",
-   "1bd6ee65561746b5c03c32b9f6cc67148a0463c3"
+   "2a8e532e0a1aa15d523872f8828fe0ef0d7d8f13"
   ]
  },
  "192": {
@@ -395,7 +395,7 @@
   },
   "revs": [
    "0005e1896d9bdef48aedcff9e86843351ac024e9",
-   "06818c5cb29853db0652a2981f0a99cee835384e"
+   "2c09066dfd1e9f332603993829e128a0261e9840"
   ]
  },
  "216": {
@@ -628,7 +628,7 @@
   },
   "revs": [
    "00078e317e63d1d934806efd62f56e48150a4f64",
-   "0973d27ddbae61a93e32a5f0b9e6253c0d9bce8b"
+   "294648246d5c1181c247aa74fd8b45a19aa043f1"
   ]
  },
  "230": {
@@ -869,6 +869,45 @@
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
    "27aaaa5ba6923104a23bae75d323dc975390195e"
+  ]
+ },
+ "241.20190221": {
+  "meta": {
+   "description": "A system and service manager for Linux",
+   "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "systemd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/systemd/default.nix:193"
+  },
+  "revs": [
+   "2a0f85d882621c28b7bcfc8cbd0c9069c60bbd09",
+   "2a0f85d882621c28b7bcfc8cbd0c9069c60bbd09"
   ]
  },
  "242": {

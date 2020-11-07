@@ -107,6 +107,91 @@
    "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
+ "2.2.0": {
+  "meta": {
+   "description": "Qt 5 Cryptographic Architecture",
+   "homepage": "http://delta.affinix.com/qca",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "qca-qt5",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/qca-qt5/default.nix:26"
+  },
+  "revs": [
+   "2c7d5f6d8d452352c317c62660a139442b6ded3a",
+   "2c7d5f6d8d452352c317c62660a139442b6ded3a"
+  ]
+ },
  "2.2.1": {
   "meta": {
    "description": "Qt 5 Cryptographic Architecture",

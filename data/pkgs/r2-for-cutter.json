@@ -1,4 +1,53 @@
 {
+ "2.9.0-git": {
+  "meta": {
+   "description": "unix-like reverse engineering framework and commandline tools",
+   "homepage": "http://radare.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "radare2",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/analysis/radare2/generic.nix:67"
+  },
+  "revs": [
+   "29573133569af11328ad9fd67c78f9a120605eca",
+   "29573133569af11328ad9fd67c78f9a120605eca"
+  ]
+ },
  "2018-08-07": {
   "meta": {
    "description": "unix-like reverse engineering framework and commandline tools",
@@ -45,7 +94,7 @@
   },
   "revs": [
    "001b34abcb4d7f5cade707f7fd74fa27cbabb80b",
-   "0fe4d437a1e6a4b263572483c34e051d45ec06a3"
+   "2aead2422f85562a09619a657ecab0ca405f2d72"
   ]
  },
  "2018-08-14": {
@@ -483,7 +532,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "1e4e7522b015640e31de35c89d5fb5a7e47be630"
+   "2ada3b5d3e4d776fc1e5dcdc1c34a4b7bd884614"
   ]
  },
  "2020-07-17": {
