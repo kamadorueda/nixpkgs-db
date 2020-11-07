@@ -19,7 +19,12 @@ function main {
   &&  rev_shas="$(mktemp)" \
   &&  revs="$(mktemp)" \
   &&  common_clone_repo "${nixpkgs_remote}" "${nixpkgs_local}" \
-  &&  git -C "${nixpkgs_local}" rev-list --all --topo-order > "${revs}" \
+  &&  git -C "${nixpkgs_local}" rev-list \
+        --all \
+        --alternate-refs \
+        --reflog \
+        --topo-order \
+        > "${revs}" \
   &&  sort < "${revs}" > "${rev_shas}" \
   &&  mkdir -p data \
   &&  mkdir -p data/pkgs \

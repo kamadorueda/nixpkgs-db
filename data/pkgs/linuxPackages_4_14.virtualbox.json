@@ -4316,7 +4316,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "0a24ff069e4bbfbca84e03a23ae998660cdf251f"
+   "01762fec0ab7576e3b371eda3dd3fd576e640798"
   ]
  },
  "6.1.14-4.14.201": {
@@ -4376,7 +4376,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1111911593b8bafbab4c280f53d728ee51522689"
+   "0931ebd00a6be40ddc2c6e93695ab06d76b628eb"
   ]
  },
  "6.1.14-4.14.203": {
@@ -4406,7 +4406,7 @@
   },
   "revs": [
    "07946a120638a3376b69e2a7c1097463bbe4e513",
-   "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0"
+   "055f5f93a4e72c36fda1b822373b75e559784b4e"
   ]
  },
  "6.1.16-4.14.202": {
@@ -4466,7 +4466,37 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "13bc774904dc6d271b945b78575caaa26aff0f53"
+   "055a9adabfe9ae165f109bb51e0784e0f2b911e3"
+  ]
+ },
+ "6.1.16-4.14.204": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "githubId": 1153271,
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "04b374eb9c843aa275c3f7483f322cf599677d7d"
   ]
  },
  "6.1.4-4.14.173": {
@@ -5350,6 +5380,35 @@
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
    "050b0068e5760d35c712fe4e77cc1cbf26c79640"
+  ]
+ },
+ "6.1.6-4.14.204": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:20"
+  },
+  "revs": [
+   "0bf298df24f721a7f85c580339fb7eeff64b927c",
+   "0bf298df24f721a7f85c580339fb7eeff64b927c"
   ]
  }
 }

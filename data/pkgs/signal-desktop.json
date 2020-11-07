@@ -3229,7 +3229,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "0a24ff069e4bbfbca84e03a23ae998660cdf251f"
+   "01762fec0ab7576e3b371eda3dd3fd576e640798"
   ]
  },
  "1.37.1": {
@@ -3281,7 +3281,7 @@
   },
   "revs": [
    "007126eef72271480cb7670e19e501a1ad2c1ff2",
-   "0672de5b894a15e97da9cf82bf3052bde7919691"
+   "0931ebd00a6be40ddc2c6e93695ab06d76b628eb"
   ]
  },
  "1.37.2": {
@@ -3333,7 +3333,59 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1c1668df4de35b649a58c5db483401ad2f35678d"
+   "055a9adabfe9ae165f109bb51e0784e0f2b911e3"
+  ]
+ },
+ "1.37.3": {
+  "meta": {
+   "description": "Private, simple, and secure messenger",
+   "homepage": "https://signal.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Signal Desktop is an Electron application that links with your\n\"Signal Android\" or \"Signal iOS\" app.\n",
+   "maintainers": [
+    {
+     "email": "parnell@digitalmentat.com",
+     "github": "ixmatus",
+     "githubId": 30714,
+     "name": "Parnell Springmeyer"
+    },
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "eduardo@eduardoquiros.com",
+     "github": "equirosa",
+     "githubId": 39096810,
+     "name": "Eduardo Quiros"
+    }
+   ],
+   "name": "signal-desktop",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/signal-desktop/default.nix:132"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "04b374eb9c843aa275c3f7483f322cf599677d7d"
   ]
  },
  "1.5.2": {

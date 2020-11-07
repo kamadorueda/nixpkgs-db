@@ -11076,7 +11076,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "0a24ff069e4bbfbca84e03a23ae998660cdf251f"
+   "01762fec0ab7576e3b371eda3dd3fd576e640798"
   ]
  },
  "1.4-5.4.71": {
@@ -11156,7 +11156,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1f9347431c153ffa3b61e0677782678bfce4bae3"
+   "0931ebd00a6be40ddc2c6e93695ab06d76b628eb"
   ]
  },
  "1.4-5.4.73": {
@@ -11196,7 +11196,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "03cb3521f823df150e3a09488a3d9f080bfd480e"
+   "055a9adabfe9ae165f109bb51e0784e0f2b911e3"
   ]
  },
  "1.4-5.4.74": {
@@ -11236,7 +11236,47 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "005f545f46afd57abd037a37efa6b42fbc07c7c8"
+   "04990cdb8501c6410fd870b120e02d11ada6e579"
+  ]
+ },
+ "1.4-5.4.75": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1000-series",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "githubId": 619015,
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:30"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "04b374eb9c843aa275c3f7483f322cf599677d7d"
   ]
  }
 }

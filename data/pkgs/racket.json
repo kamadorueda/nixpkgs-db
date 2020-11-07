@@ -461,7 +461,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
+   "0bf298df24f721a7f85c580339fb7eeff64b927c"
   ]
  },
  "7.6": {
@@ -611,7 +611,57 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "1c1668df4de35b649a58c5db483401ad2f35678d"
+   "01762fec0ab7576e3b371eda3dd3fd576e640798"
+  ]
+ },
+ "7.9": {
+  "meta": {
+   "description": "A programmable programming language",
+   "homepage": "https://racket-lang.org/",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "Racket is a full-spectrum programming language. It goes beyond\nLisp and Scheme with dialects that support objects, types,\nlaziness, and more. Racket enables programmers to link\ncomponents written in different dialects, and it empowers\nprogrammers to create new, project-specific dialects. Racket's\nlibraries support applications from web servers and databases to\nGUIs and charts.\n",
+   "maintainers": [
+    {
+     "email": "tierpluspluslists@gmail.com",
+     "name": "Karn Kallio"
+    },
+    {
+     "email": "henrytill@gmail.com",
+     "github": "henrytill",
+     "githubId": 6430643,
+     "name": "Henry Till"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "racket",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/development/interpreters/racket/default.nix:95"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "04b374eb9c843aa275c3f7483f322cf599677d7d"
   ]
  }
 }

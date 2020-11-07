@@ -465,7 +465,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
+   "0bf298df24f721a7f85c580339fb7eeff64b927c"
   ]
  },
  "1.45.1": {
@@ -724,7 +724,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0"
+   "055f5f93a4e72c36fda1b822373b75e559784b4e"
   ]
  },
  "1.49.1": {
@@ -798,7 +798,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "0a24ff069e4bbfbca84e03a23ae998660cdf251f"
+   "01762fec0ab7576e3b371eda3dd3fd576e640798"
   ]
  },
  "1.50.0": {
@@ -872,7 +872,44 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "13bc774904dc6d271b945b78575caaa26aff0f53"
+   "055a9adabfe9ae165f109bb51e0784e0f2b911e3"
+  ]
+ },
+ "1.51.0": {
+  "meta": {
+   "description": "Open source source code editor developed by Microsoft for Windows,\nLinux and macOS (VS Code without MS branding/telemetry/licensing)\n",
+   "homepage": "https://github.com/VSCodium/vscodium",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Open source source code editor developed by Microsoft for Windows,\nLinux and macOS. It includes support for debugging, embedded Git\ncontrol, syntax highlighting, intelligent code completion, snippets,\nand code refactoring. It is also customizable, so users can change the\neditor's theme, keyboard shortcuts, and preferences\n",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "programming@manuelbaerenz.de",
+     "github": "turion",
+     "githubId": 303489,
+     "name": "Manuel B\u00e4renz"
+    }
+   ],
+   "name": "vscodium",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/editors/vscode/vscodium.nix:43"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "04b374eb9c843aa275c3f7483f322cf599677d7d"
   ]
  }
 }
