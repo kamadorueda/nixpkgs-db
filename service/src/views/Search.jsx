@@ -4,11 +4,11 @@ import {
   Col,
   FormControl,
   InputGroup,
+  Pagination,
   Row,
 } from 'react-bootstrap';
 import { RiExternalLinkFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
-import { Pagination } from '../components/Pagination';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
@@ -77,17 +77,24 @@ const Pkg = (props) => {
 };
 
 const SearchLoaded = (props) => {
-  const pkgs = props.pkgs;
+  const { pkgs } = props;
 
+  const [page, setPage] = useState(1);
   const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
-  const [matchingPackagesOnPage, setMatchingPackagesOnPage] = useState([]);
+  const [endPage, startPage] = [
+    Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPackages.length),
+    Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPackages.length),
+  ];
 
+  const changePage = (delta) => () => {
+    setPage(page + delta);
+  };
   const onPkgNameChange = (event) => {
+    setPage(1);
     setMatchingPackages(filterPkgs(pkgs, event.target.value));
   };
-  const renderCaption = ({ endPage, startPage, resultsLength }) => (
-    `Showing packages ${startPage}-${endPage} of ${resultsLength}`
-  );
+
+  const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
 
   return (
     <React.Fragment>
@@ -111,12 +118,19 @@ const SearchLoaded = (props) => {
       <br />
       <Row>
         <Col sm={12}>
-          <Pagination
-            renderCaption={renderCaption}
-            resultPerPage={RESULTS_PER_PAGE}
-            results={matchingPackages}
-            setResultsOnPage={setMatchingPackagesOnPage}
-          />
+          <Pagination>
+            <Pagination.Prev
+              disabled={page === 1}
+              onClick={changePage(-1)}
+            />
+            <Pagination.Item disabled={true}>
+              Showing packages {startPage}-{endPage} of {matchingPackages.length}
+            </Pagination.Item>
+            <Pagination.Next
+              disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
+              onClick={changePage(+1)}
+            />
+          </Pagination>
         </Col>
       </Row>
 
