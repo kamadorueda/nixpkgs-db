@@ -107,15 +107,8 @@ const SearchLoaded = (props) => {
         </Col>
       </Row>
 
-      {/* Results table */}
-      <Row>
-        <Col sm={12}>
-          <hr />
-          {matchingPackagesOnPage.map((pkg) => <Pkg pkg={pkg} />)}
-        </Col>
-      </Row>
-
       {/* Pagination */}
+      <br />
       <Row>
         <Col sm={12}>
           <Pagination
@@ -124,6 +117,14 @@ const SearchLoaded = (props) => {
             results={matchingPackages}
             setResultsOnPage={setMatchingPackagesOnPage}
           />
+        </Col>
+      </Row>
+
+      {/* Results table */}
+      <Row>
+        <Col sm={12}>
+          <hr />
+          {matchingPackagesOnPage.map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
         </Col>
       </Row>
     </React.Fragment>

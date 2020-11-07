@@ -7,6 +7,6 @@ export const ProgressBar = (props) => (
     label={props.label}
     now={100 * Math.random()}
     variant={props.variant}
-    stripped={true}
+    striped={true}
   />
 )
