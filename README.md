@@ -1,6 +1,6 @@
 # Nixpkgs Database
 
-A database with packages from all versions, all commits and all channels.
+A database with packages at all versions, from all channels.
 
 The service is hosted at: https://kamadorueda.github.io/nixpkgs-db/
 
