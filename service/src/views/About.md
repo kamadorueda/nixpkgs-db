@@ -83,6 +83,8 @@ $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archi
     Client: &version.Version{SemVer:"v2.6.1", GitCommit:"bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac", GitTreeState:"clean"}
 ```
 
-This project is entirely **Open Source**!
+This project is entirely **Free and Open Source Software**!
 
-We welcome [contributions](/nixpkgs-db/#/contributing) :)
+You can read more about the technical details [here](https://www.patreon.com/posts/creating-zero-43586691).
+
+And by the way, we welcome [contributions](/nixpkgs-db/#/contributing) :)

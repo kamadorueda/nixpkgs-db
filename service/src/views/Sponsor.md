@@ -1,13 +1,11 @@
-Running the infrastructure for this website is almost free:
-- It's hosted on GitHub Pages as static content.
-- The database is served as JSON documents from the very same GitHub repository.
+This service was written with love!
 
-Some things are not:
-- The developer's stack (laptop, internet).
-- The developer's live costs (rent, food, clothes, bills).
-- The developer's time!
+One of the best ways to help me do more things like this is
+[sponsoring me on Patreon](https://www.patreon.com/kamadorueda).
 
-So one of the best ways to ensure work like this is pushed forward and kept free is [sponsoring the author](https://www.patreon.com/kamadorueda) :)
+Every penny you contribute goes to support more
+[FOSS](https://en.wikipedia.org/wiki/FOSS)
+contributions and cool stuff for the community.
 
-You'll get my eternal gratitude for it,
-and even if you do not: relax! there are other ways of [contributing](http://localhost:3000/nixpkgs-db/#/contributing).
+You'll get my eternal gratitude for it!
+and even if you do not, relax! there are other ways of [contributing](/nixpkgs-db/#/contributing).
