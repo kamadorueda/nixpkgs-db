@@ -12,12 +12,10 @@ import { Link } from 'react-router-dom';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
+import { searchString } from '../utils/strings';
 
+const DEFAULT_PKG_NAME = "nix";
 const RESULTS_PER_PAGE = 5;
-
-const filterPkgs = (pkgs, pkgName) => (
-  pkgs.filter((pkg) => pkg.includes(pkgName)).sort()
-);
 
 const PkgLoading = () => (
   <React.Fragment>
@@ -80,7 +78,7 @@ const SearchLoaded = (props) => {
   const { pkgs } = props;
 
   const [page, setPage] = useState(1);
-  const [matchingPackages, setMatchingPackages] = useState(filterPkgs(pkgs, ""));
+  const [matchingPackages, setMatchingPackages] = useState(searchString("", pkgs));
   const [endPage, startPage] = [
     Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPackages.length),
     Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPackages.length),
@@ -91,7 +89,7 @@ const SearchLoaded = (props) => {
   };
   const onPkgNameChange = (event) => {
     setPage(1);
-    setMatchingPackages(filterPkgs(pkgs, event.target.value));
+    setMatchingPackages(searchString(event.target.value, pkgs));
   };
 
   const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
@@ -108,6 +106,7 @@ const SearchLoaded = (props) => {
             <FormControl
               aria-label="pkgName"
               aria-describedby="pkgName"
+              defaultValue={DEFAULT_PKG_NAME}
               onChange={onPkgNameChange}
             />
           </InputGroup>

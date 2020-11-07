@@ -10,8 +10,10 @@ There are many ways to contribute, not necessarily technical:
 - Tell other people of the work being done here.
 - Star or fork the [repository](https://github.com/kamadorueda/nixpkgs-db),
   this help us with funding and popularity.
-- The search engine is naive (currently a `String.contains`).
-  It would be awesome to use a modern algorithm.
+- ~~The search engine is naive (currently a `String.contains`).
+  It would be awesome to use a modern algorithm.~~.
+
+  Now we use a mix of Levenshtein distance with grep behavior!
 - Expanding the database size:
 
   There are currently 280k+ commits in the nixpkgs repository,
