@@ -15,7 +15,7 @@ import { useFetchJSON } from '../hooks/fetch';
 import { searchString } from '../utils/strings';
 
 const DEFAULT_PKG_NAME = "nix";
-const RESULTS_PER_PAGE = 5;
+const RESULTS_PER_PAGE = 12;
 
 const PkgLoading = () => (
   <React.Fragment>
@@ -35,27 +35,29 @@ const PkgLoaded = (props) => {
 
   return (
     <React.Fragment>
-      <Row>
-        <Col sm={12}>
-          <Link to={pkgLink}>
-            <RiExternalLinkFill /> {pkg}
-            {pkg === lastData.meta.name ? "" : ` (${lastData.meta.name})`}
-          </Link>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={12}>
-          {lastData.meta.description}
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={12}>
-          <Badge variant="info">
-            {data.length} version{data.length >= 2 ? "s" : ""} available
-          </Badge>
-        </Col>
-      </Row>
-      <hr />
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Row>
+          <Col sm={12}>
+            <Link to={pkgLink}>
+              <RiExternalLinkFill /> {pkg}
+              {pkg === lastData.meta.name ? "" : ` (${lastData.meta.name})`}
+            </Link>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12}>
+            {lastData.meta.description}
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12}>
+            <Badge variant="info">
+              {data.length} version{data.length >= 2 ? "s" : ""} available
+            </Badge>
+          </Col>
+        </Row>
+        <br />
+      </Col>
     </React.Fragment>
   );
 };
@@ -135,10 +137,7 @@ const SearchLoaded = (props) => {
 
       {/* Results table */}
       <Row>
-        <Col sm={12}>
-          <hr />
-          {matchingPackagesOnPage.map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
-        </Col>
+        {matchingPackagesOnPage.map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
       </Row>
     </React.Fragment>
   );
