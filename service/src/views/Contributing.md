@@ -28,5 +28,6 @@ There are many ways to contribute, not necessarily technical:
   The process is differential, once a commit is processed it's ignored in future
   executions.
 - Help us improve the user interface.
+- Help us write the [CLI](https://github.com/kamadorueda/nixpkgs-db/tree/latest/cli).
 - Fire up an issue! we welcome ideas, feature requests and problems.
 - [Become a sponsor of the project](/nixpkgs-db/#/sponsor).

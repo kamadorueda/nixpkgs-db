@@ -129,7 +129,7 @@ const PkgLoaded = (props) => {
           content={
             <Row>
               {versions.map((v) => (
-                <Col sm={2}>
+                <Col xs={12} sm={6} md={3}>
                   <A href={`/nixpkgs-db/#${pkgVersionLink(pkg, v)}`}>
                     <RiExternalLinkFill /> {v}
                   </A>
@@ -138,7 +138,6 @@ const PkgLoaded = (props) => {
             </Row>
           }
         />
-
         <Item
           title="Description"
           content={versionData?.meta?.description}
