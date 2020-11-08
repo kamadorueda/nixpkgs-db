@@ -45,7 +45,7 @@ const formatMaintainers = (maintainers) => {
 const formatPlatforms = (platforms) => {
   let formatted = [];
 
-  if (platforms === undefined) {
+  if ([null, undefined].includes(platforms)) {
     return formatted;
   }
 
@@ -86,9 +86,10 @@ const PkgLoaded = (props) => {
   }
 
   const versionData = dataJSON[version];
+  const versionDataLastRev = versionData?.revs[1];
   const versions = data.map(([version, _]) => version);
 
-  const nixpkgs = `${GITHUB_NIXPKGS}/archive/${versionData?.revs[1]}.tar.gz`;
+  const nixpkgs = `${GITHUB_NIXPKGS}/archive/${versionDataLastRev}.tar.gz`;
   const nixEnv = `
     # Version: ${version}
     nix-env -i ${pkg} -f ${nixpkgs}
@@ -103,7 +104,7 @@ const PkgLoaded = (props) => {
 
       # Version: ${version}
       ${pkg} = (import (pkgs.fetchzip {
-        url = "https://github.com/nixos/nixpkgs/archive/${versionData.revs[1]}.zip";
+        url = "https://github.com/nixos/nixpkgs/archive/${versionDataLastRev}.zip";
         # Please update this hash with the one nix says on the first build attempt
         sha256 = "0000000000000000000000000000000000000000000000000000000000000000";
       }) { }).${pkg};

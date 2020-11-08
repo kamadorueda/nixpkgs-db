@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import {
   Badge,
+  Button,
+  ButtonGroup,
   Col,
   FormControl,
   InputGroup,
-  Pagination,
   Row,
 } from 'react-bootstrap';
 import { RiExternalLinkFill } from 'react-icons/ri';
@@ -118,24 +119,34 @@ const SearchLoaded = (props) => {
       {/* Pagination */}
       <br />
       <Row>
-        <Col sm={12}>
-          <Pagination>
-            <Pagination.Prev
+        <Col xs={12} sm={6} md={4}>
+          <ButtonGroup size="md">
+            <Button
               disabled={page === 1}
               onClick={changePage(-1)}
-            />
-            <Pagination.Item disabled={true}>
-              Showing packages {startPage}-{endPage} of {matchingPackages.length}
-            </Pagination.Item>
-            <Pagination.Next
+              variant="outline-primary"
+            >
+              &lt; Previous
+            </Button>
+            <Button
+              disabled={true}
+              variant="outline-primary"
+            >
+              Page {page}
+            </Button>
+            <Button
               disabled={page * RESULTS_PER_PAGE > matchingPackages.length}
               onClick={changePage(+1)}
-            />
-          </Pagination>
+              variant="outline-primary"
+            >
+              Next &gt;
+            </Button>
+          </ButtonGroup>
         </Col>
       </Row>
 
       {/* Results table */}
+      <hr />
       <Row>
         {matchingPackagesOnPage.map((pkg) => <Pkg key={pkg} pkg={pkg} />)}
       </Row>

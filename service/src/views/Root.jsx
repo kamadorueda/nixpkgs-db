@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Alert,
   Col,
   Container,
   Nav,
@@ -52,12 +51,10 @@ export const Root = () => {
         <Col sm={12}>
           <A href="/nixpkgs-db" remote={false}>
             <h1>Nixpkgs Database!</h1>
+            <h2 style={{ fontSize: "1rem" }}>
+              A database with packages at all versions, from all channels.
+            </h2>
           </A>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={12}>
-          <h5>A database with packages at all versions, from all channels.</h5>
         </Col>
       </Row>
 
@@ -118,12 +115,13 @@ export const Root = () => {
       <hr />
       <Row>
         <Col sm={12}>
-          <Alert variant="light">
-            A total of {pkgs.length} packages and {revs.length} commits put in your hands <br />
+          <div style={{ color: "grey" }}>
+            A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
             Created and maintained by Kevin Amado
-          </Alert>
+          </div>
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 };
