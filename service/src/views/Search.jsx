@@ -81,7 +81,7 @@ const SearchLoaded = (props) => {
   const { pkgs } = props;
 
   const [page, setPage] = useState(1);
-  const [matchingPackages, setMatchingPackages] = useState(searchString("", pkgs));
+  const [matchingPackages, setMatchingPackages] = useState(searchString(DEFAULT_PKG_NAME, pkgs));
   const [endPage, startPage] = [
     Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPackages.length),
     Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPackages.length),
