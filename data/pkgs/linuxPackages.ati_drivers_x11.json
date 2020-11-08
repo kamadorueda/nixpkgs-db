@@ -156,7 +156,7 @@
   },
   "revs": [
    "011cd1baa6da762586f57480215719c383a69beb",
-   "0332f87a0bf17aa34342c8225121c992f8ed919a"
+   "36667965f90145b1cad052913839c56dffff51f6"
   ]
  },
  "10-11-x86-3.2.19": {
@@ -256,7 +256,7 @@
   },
   "revs": [
    "001fb53524b030427c0c0c5460910f667bd85e0a",
-   "30ffafb47d14fb905d0ca2345fe097903e9180e1"
+   "3665e02901759cb584b383306cbba867a25918ff"
   ]
  },
  "10-11-x86-3.2.24": {
@@ -784,7 +784,7 @@
   },
   "revs": [
    "00e311e43878414a3c5f88cabd5a81cd8537c59f",
-   "11c8ca0a1a48e645825504a0ef78b1d0d6c7052a"
+   "374a27fe8ee5c44935a742853c4d68f6bd2ff6bc"
   ]
  },
  "10-11-x86-3.4.56": {
@@ -1030,7 +1030,7 @@
   },
   "revs": [
    "23c7a249d33b22c1e19437679339110e9dfb8b50",
-   "26972702e0779b10be04034895447a0d16ba6579"
+   "363d62dbfd0229bb0997e96d95f8570cf05fb632"
   ]
  },
  "13.12-3.12.25": {
@@ -1255,7 +1255,7 @@
   },
   "revs": [
    "03e1178f805455578819752caa1a9420728eec08",
-   "0d76e1cb94ffda0412da9e33e1fd554198248732"
+   "36e31d5aadf75a958dc5c57f98879d6698cd6b4b"
   ]
  },
  "13.4-3.4.67": {
@@ -2106,6 +2106,59 @@
   "revs": [
    "05ef70a46fe22a0d4030dc92424b4ae72793abd2",
    "2aa505b77c04bfd8bb702cbf261f1141a3fe55c2"
+  ]
+ },
+ "15.12-4.14.112": {
+  "meta": {
+   "description": "ATI Catalyst display drivers",
+   "homepage": "http://support.amd.com/us/gpudownload/Pages/index.aspx",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco-oweber@gmx.de",
+     "github": "marcweber",
+     "name": "Marc Weber"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "github@matt.mchenryfamily.org",
+     "github": "jerith666",
+     "name": "Matt McHenry"
+    }
+   ],
+   "name": "ati-drivers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ati-drivers/default.nix:130"
+  },
+  "revs": [
+   "373c8c385e66a0cca98c1078bb3cbea0b10708a7",
+   "373c8c385e66a0cca98c1078bb3cbea0b10708a7"
   ]
  },
  "15.12-4.14.113": {
@@ -3175,7 +3228,7 @@
   },
   "revs": [
    "00bf1150473dedb02f22696450b250e04875faab",
-   "00dca0ef63d7d91f1d2a2e59fbfa13f80a1ca81e"
+   "35f3da5a1296e8efa7e4d9d064e84f831b694bba"
   ]
  },
  "15.12-4.14.36": {
@@ -5507,7 +5560,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "285eb9a8949a63446fd8bdffbe30a8468ed897c7"
+   "371708f0d9aa460cc65fccfbc782a96e4c10b789"
   ]
  },
  "15.12-4.14.81": {
@@ -6989,7 +7042,7 @@
   },
   "revs": [
    "004e3816dcffb49f4e296a16b00334153a90ed3e",
-   "18e5db37bfa3c5ed31ed0e943cca66927c38a431"
+   "376b2ef2b83be9671c4f24b7ff4ded335d5352d4"
   ]
  },
  "15.12-4.19.29": {
@@ -7287,7 +7340,7 @@
   },
   "revs": [
    "002ad2e561109446ac729ec07556a05c20564e15",
-   "03ec02a89e510f1948840f95a59bcafa3fedae28"
+   "3656049b8cf95565affcd21f88862f313515b961"
   ]
  },
  "15.12-4.19.35": {
@@ -7911,7 +7964,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "0d62805dbf966021147019ed8e6ab8ef4d66ac94"
+   "36e30c96482fa8c08f7cbe617f883e5a3a4adc49"
   ]
  },
  "15.12-4.19.48": {
@@ -10286,7 +10339,7 @@
   },
   "revs": [
    "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c",
-   "31b4482e52b16f10298ee215acfcb642cfcdc54f"
+   "36547de8e65d4b8bd3209eb1385a1e8e13fe3d35"
   ]
  },
  "15.12-4.9.20": {
@@ -10319,7 +10372,7 @@
   },
   "revs": [
    "0062dd2f14526107bce0d78f39eea18f705fc2bd",
-   "1970d7d45c1f4e745698b5f1eabf412ec0c0db66"
+   "3603ca8ef3fa04061f6b303e652ab36c7e0633d1"
   ]
  },
  "15.12-4.9.21": {
@@ -10616,7 +10669,7 @@
   },
   "revs": [
    "00572d595c2aaec1d8196fb913a018696326e824",
-   "1497004507c369ee7457a2087982d99076ece8f1"
+   "36439797cb59dc63286fee45b6b37db442365690"
   ]
  },
  "15.12-4.9.30": {
@@ -10715,7 +10768,7 @@
   },
   "revs": [
    "2cf1b94b82ff557b5e37a3a944eced6ccff8d720",
-   "32d4a3dec842df9b4d746e671ab065276d730e78"
+   "377b42a8ade438245ba12ba92e82eff11e668cdd"
   ]
  },
  "15.12-4.9.47": {
@@ -10880,7 +10933,7 @@
   },
   "revs": [
    "00422b227968b698c3f109c46b8cd1a4c8590b4e",
-   "11d0942d667200de7a3bd1a97cedefede05a806c"
+   "3615636fa01c546190d59e60b5a87d144691a1ba"
   ]
  },
  "15.12-4.9.52": {
@@ -14453,7 +14506,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "1a9ecdf2401faba9af7589ce3fcb69636d49c1ba"
+   "3768fdea92b310e118d595813e7877e098ec3bb6"
   ]
  },
  "15.12-5.4.68": {

@@ -2493,6 +2493,64 @@
    "2aa505b77c04bfd8bb702cbf261f1141a3fe55c2"
   ]
  },
+ "0.7.12-4.19.35": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "373c8c385e66a0cca98c1078bb3cbea0b10708a7",
+   "373c8c385e66a0cca98c1078bb3cbea0b10708a7"
+  ]
+ },
  "0.7.12-4.19.36": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -4302,7 +4360,7 @@
   },
   "revs": [
    "002ad2e561109446ac729ec07556a05c20564e15",
-   "03ec02a89e510f1948840f95a59bcafa3fedae28"
+   "3656049b8cf95565affcd21f88862f313515b961"
   ]
  },
  "0.7.13-5.0.8": {
@@ -4715,7 +4773,7 @@
   },
   "revs": [
    "03be9e385be14406fef94bdb865e70a456a87930",
-   "2260e1d6b67ee5438b2a9e6f54b9179bc81793b7"
+   "37a7eab468ddf7ea36bd5fb4a3700dfd8f9e7a3f"
   ]
  },
  "0.7.13-5.1.14": {
@@ -5482,7 +5540,7 @@
   },
   "revs": [
    "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
-   "0d62805dbf966021147019ed8e6ab8ef4d66ac94"
+   "36e30c96482fa8c08f7cbe617f883e5a3a4adc49"
   ]
  },
  "0.7.13-5.1.7": {
@@ -7299,7 +7357,7 @@
   },
   "revs": [
    "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
-   "182830f542ef693095cd9ba2db29a3d401705bb7"
+   "363ba3f40371f5c016aecf07bf62f3a33f755f29"
   ]
  },
  "0.8.1-5.2.10": {
@@ -11915,7 +11973,7 @@
   },
   "revs": [
    "004c6c149aae67256853e7cd69a86626a04d02d1",
-   "09f5becdd054b8176893ff5cbcbbe344fb813a5f"
+   "35e296f5e55a85a815ae22fb81259edb3a2d28d1"
   ]
  },
  "0.8.4-5.7.3": {

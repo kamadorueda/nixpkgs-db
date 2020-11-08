@@ -1,0 +1,4 @@
+{
+ "summary": "* mountall: make the \"console output\" Upstart stanza do its work.  We   were redirecting output to /var/log/upstart/<job>, so it didn't work   properly. * mountall-ip-up: send the USR1 signal to the mountall process by   looking up its PID, rather than doing \"pkill -USR1 mountall\".  This   prevents a very subtle race condition where USR1 is delivered to a   child process of mountall (such as fsck), if pkill sees the child   just before its execve().  There is actually still a race condition   because mountall installs its USR1 handler *after* daemonising, so   mountall-ip-up could accidentally kill mountall.  Should report this   to upstream.",
+ "timestamp": "1332092899"
+}
