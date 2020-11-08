@@ -1,8 +1,5 @@
 # Standard library
 import argparse
-from operator import (
-    methodcaller,
-)
 import os
 import json
 
@@ -80,6 +77,10 @@ def main() -> None:
                 'meta': meta,
                 'revs': [args.rev_sha, args.rev_sha],
             }
+            json_dump(f'data/badges/{pkg}.json', {
+                'schemaVersion': 1,
+                'message': f'{len(data)} releases'
+            })
             json_dump(f'data/pkgs/{pkg}.json', data)
         elif revs2index[args.rev_sha] < revs2index[data[version]['revs'][1]]:
             data[version]['revs'][1] = args.rev_sha
