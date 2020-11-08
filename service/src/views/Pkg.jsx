@@ -113,12 +113,21 @@ const PkgLoaded = (props) => {
   `;
 
   const pkgName = versionData?.meta?.name === undefined ? "" : `(${versionData?.meta?.name})`;
+
   return (
     <Row>
       <Col sm={12}>
         <Item
           title="Package"
           content={`${pkg} ${pkgName}`}
+        />
+        <Item
+          title="Badges"
+          content={
+            <A href={`/nixpkgs-db/#/badge/${encodeURIComponent(pkg)}`}>
+              <RiExternalLinkFill /> Explore
+            </A>
+          }
         />
         <Item
           title="This page version"

@@ -106,11 +106,9 @@ const SearchLoaded = (props) => {
         <Col sm={12}>
           <InputGroup>
             <InputGroup.Prepend>
-              <InputGroup.Text id="pkgName">Package name</InputGroup.Text>
+              <InputGroup.Text>Package name</InputGroup.Text>
             </InputGroup.Prepend>
             <FormControl
-              aria-label="pkgName"
-              aria-describedby="pkgName"
               defaultValue={DEFAULT_PKG_NAME}
               onChange={onPkgNameChange}
             />
