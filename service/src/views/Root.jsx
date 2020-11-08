@@ -117,7 +117,7 @@ export const Root = () => {
         <Col sm={12}>
           <div style={{ color: "grey" }}>
             A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
-            Created and maintained by Kevin Amado
+            Please help us improve by <A href="https://github.com/kamadorueda/nixpkgs-db/issues">reporting issues</A> <RiHeart3Line />
           </div>
         </Col>
       </Row>

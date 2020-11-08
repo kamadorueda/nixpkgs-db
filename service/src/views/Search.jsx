@@ -8,7 +8,9 @@ import {
   InputGroup,
   Row,
 } from 'react-bootstrap';
-import { RiExternalLinkFill } from 'react-icons/ri';
+import {
+  RiExternalLinkFill,
+} from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
