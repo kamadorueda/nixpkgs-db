@@ -1723,7 +1723,7 @@
   },
   "revs": [
    "1f90d6aeeb96486cfab3ce515432a4634cec420b",
-   "1f90d6aeeb96486cfab3ce515432a4634cec420b"
+   "33dddace723f094e7944d12eadd09f42acbaad3b"
   ]
  },
  "0.7.12-4.14.117": {
@@ -2535,7 +2535,7 @@
   },
   "revs": [
    "0043d907aea727d453680985897c189a4514a251",
-   "23b9f34bc8c66e74fb3c0ab126701a1430d07c30"
+   "34a1278b81af2da3075353199ca88e684ca9e391"
   ]
  },
  "0.7.12-4.14.92": {
@@ -3674,7 +3674,7 @@
   },
   "revs": [
    "13a2f37442d98325e1f861a9840f19544c938c0b",
-   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
+   "31a58683525ee32997a2f99226b0ed12999ac6bc"
   ]
  },
  "0.7.13-4.19.29": {
@@ -3851,7 +3851,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "150253444303419ac81ac635964a1a12acee509c"
+   "322ff2f52638c60ef9a82d35a4280b7ee6ddd5a7"
   ]
  },
  "0.7.13-4.19.32": {
@@ -5503,7 +5503,7 @@
   },
   "revs": [
    "1851d52633aacba98553c2209ff54c03596b0f26",
-   "248a3d8faf2bc1ec7b9ee6c7a815074222437b82"
+   "314775040bb5e32101458f3afe93bfc0e0591112"
   ]
  },
  "0.7.13-4.19.61": {
@@ -6447,7 +6447,7 @@
   },
   "revs": [
    "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e",
-   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e"
+   "347511617db7b3c624cdf50d7c835fbdc30d8cb6"
   ]
  },
  "0.7.13-4.19.79": {
@@ -6681,7 +6681,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "2a3cbf685bc4a8ce855c38e2be765ada2c1da719"
+   "3168e858336e2ad76ac1faab6f3ff96ae92f8766"
   ]
  },
  "0.7.9-4.14.69": {
@@ -6740,6 +6740,64 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "1b0c262aad1f1c16cc95062157a1182d2acac11d"
+  ]
+ },
+ "18.09pre-git-4.14.65": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:43"
+  },
+  "revs": [
+   "34a7e678b2f036f9fe65ce6c1b5bab39cccda928",
+   "34a7e678b2f036f9fe65ce6c1b5bab39cccda928"
   ]
  }
 }

@@ -1768,7 +1768,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "10687019df67acac0479ef570c2c47afbc155ee8"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  },
  "0.62.1": {
@@ -1801,7 +1801,7 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "0f5d5970b28c9d85e7166f85ecfa3f86064d3f25"
+   "32af695a228669a6b35160f2b424417428cebcfa"
   ]
  },
  "0.63": {
@@ -2484,6 +2484,60 @@
    "15c30f43425b36509cad15df080aca2786f8616b"
   ]
  },
+ "0.73.0": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@felixbreidenstein.de",
+     "github": "f-breidenstein",
+     "name": "Felix Breidenstein"
+    },
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:113"
+  },
+  "revs": [
+   "34da985941704b18718fbf5c0da7e1dd5fdb6b83",
+   "34da985941704b18718fbf5c0da7e1dd5fdb6b83"
+  ]
+ },
  "0.73.1": {
   "meta": {
    "description": "Open-source home automation platform running on Python 3",
@@ -2967,7 +3021,7 @@
   },
   "revs": [
    "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4",
-   "17c96ab275f89ace1ed335a0a1d3fb865b41d074"
+   "3168e858336e2ad76ac1faab6f3ff96ae92f8766"
   ]
  },
  "0.77.3": {
@@ -3885,7 +3939,7 @@
   },
   "revs": [
    "006a699e693da92bc9f31775a7e0825a33a5063c",
-   "19601561ed97ec02f4611d1960933ace6c24b85b"
+   "32689074105fbb3ccedd97e1811ed346c9076322"
   ]
  },
  "0.89.2": {

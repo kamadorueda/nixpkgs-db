@@ -161,7 +161,7 @@
   },
   "revs": [
    "003ae42ae66d21756f42079b52b5c8982ae0f293",
-   "104a37a9fbd101de63562b8560e27e843887fe9f"
+   "32a3f7114943e7f753b3b660a3ab307b4b17da5d"
   ]
  },
  "0.7.0-rc2-4.9.5": {
@@ -262,7 +262,7 @@
   },
   "revs": [
    "00f16e3d7c4239bcb4c0b55302e4956adf69d691",
-   "08b49cfc54358d84f3a4171827beec9c419940f4"
+   "328eb9da7caf8ea4a16ea1224b39dc40b3f222ec"
   ]
  },
  "0.7.0-rc3-4.10.10": {
@@ -602,7 +602,7 @@
   },
   "revs": [
    "00689b20a8a1c9c6c24891c46669b0e6b0f7d68c",
-   "1781ec934f5a815d13b768a77a4bde8798db26d3"
+   "31b4482e52b16f10298ee215acfcb642cfcdc54f"
   ]
  },
  "0.7.0-rc3-4.10.8": {
@@ -670,7 +670,7 @@
   },
   "revs": [
    "00c3bd1561b5027562e827341e71cfd2fab1904c",
-   "2d02be089a4a542e03093918213b22a8ebda6c86"
+   "33bd699008c8cb3d92a379de99aa1c65e6b1f8d1"
   ]
  },
  "0.7.0-rc3-4.11": {
@@ -2436,7 +2436,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "02f47920b56bd29b55b1578a31377627872bf07b"
+   "34a637ca9235f44fc377a881c1e48e1e6bcf84f7"
   ]
  },
  "0.8.0-rc2-4.19.11": {
@@ -2610,7 +2610,7 @@
   },
   "revs": [
    "0043d907aea727d453680985897c189a4514a251",
-   "23b9f34bc8c66e74fb3c0ab126701a1430d07c30"
+   "34a1278b81af2da3075353199ca88e684ca9e391"
   ]
  },
  "0.8.0-rc2-4.19.14": {
@@ -3074,7 +3074,7 @@
   },
   "revs": [
    "109a28ab954a0ad129f7621d468f829981b8b96c",
-   "2745c1527072a7b699a76ace0915932ca8405707"
+   "31d55726af82c17da539684a97ae0b749aaece37"
   ]
  },
  "0.8.0-rc2-4.19.21": {
@@ -4060,7 +4060,7 @@
   },
   "revs": [
    "1f90d6aeeb96486cfab3ce515432a4634cec420b",
-   "1f90d6aeeb96486cfab3ce515432a4634cec420b"
+   "33dddace723f094e7944d12eadd09f42acbaad3b"
   ]
  },
  "0.8.0-rc2-4.19.4": {
@@ -4177,6 +4177,64 @@
   "revs": [
    "187ab0f9617be0c0a9a69e8ed6e975110e591174",
    "187ab0f9617be0c0a9a69e8ed6e975110e591174"
+  ]
+ },
+ "0.8.0-rc2-4.19.41": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de",
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de"
   ]
  },
  "0.8.0-rc2-4.19.42": {
@@ -5531,7 +5589,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "19e075b53b8283b25dbf60d47f1d6bf35f88ccb4"
+   "32d3183ea3aac1bd0153170126aae3de4422ad84"
   ]
  },
  "0.8.0-rc3-5.0.1": {
@@ -5767,7 +5825,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "150253444303419ac81ac635964a1a12acee509c"
+   "322ff2f52638c60ef9a82d35a4280b7ee6ddd5a7"
   ]
  },
  "0.8.0-rc3-5.0.5": {
@@ -7061,7 +7119,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "0ed03d72bcb7c5e834bc307669f4b5487621fee0"
+   "314221356d9ce802d186c510d3fb35cd7e54cf44"
   ]
  },
  "0.8.1-5.1.16": {
@@ -7712,7 +7770,7 @@
   },
   "revs": [
    "03dcb3dee477df2764b15697fece1549c8450af2",
-   "09e633d6805f3a72d69b9826cef4e9ac2917aab1"
+   "3317c917f3fec080197497bf8b0c08738d055f8d"
   ]
  },
  "0.8.1-5.2.14": {
@@ -8183,7 +8241,7 @@
   },
   "revs": [
    "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e",
-   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e"
+   "347511617db7b3c624cdf50d7c835fbdc30d8cb6"
   ]
  },
  "0.8.1-5.2.21": {
@@ -8300,7 +8358,7 @@
   },
   "revs": [
    "0568b622d58c0473b6190e4b33954a2f42919072",
-   "24070da9c46d43eb374cda73caba85efd402475b"
+   "34f31030b1f8b32ad3889f7adb0150900174293d"
   ]
  },
  "0.8.1-5.2.4": {
@@ -9144,7 +9202,7 @@
   },
   "revs": [
    "014ffad4086e44f2317361d748cdca34a31bd2f5",
-   "1e993f3838749bd24261a5aae91803a7d5cda1c0"
+   "3383f6bdecb93213e17a2efc1d5bedc9d9e3f4d3"
   ]
  },
  "0.8.2-5.4.7": {
@@ -11624,7 +11682,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "17d2195b352f201be279338d411e9e122427a4e2"
+   "33544680856ff265598612c018344d4ece7bb290"
   ]
  },
  "0.8.3-5.7.7": {
@@ -14848,7 +14906,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "10687019df67acac0479ef570c2c47afbc155ee8"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  },
  "2017-09-12-4.13.2": {
@@ -15128,7 +15186,7 @@
   },
   "revs": [
    "09447683f091907aa4f206f00e36336f85e216ac",
-   "1255a973a603db40434dd8c47b51ba25f6c4b459"
+   "33bb8918d13c382fb141c0684bf4807145101646"
   ]
  },
  "2017-09-26-4.13.16": {
@@ -15268,7 +15326,7 @@
   },
   "revs": [
    "0034f9e52c581e2f3dc924c3ff73630fae555024",
-   "1584d3de0cd188b9c9625bedd8af609e4092c6f3"
+   "359d6b5ad612a7c8cf05115d2542d5b7e0621e42"
   ]
  },
  "2017-09-26-4.13.6": {
@@ -16213,7 +16271,7 @@
   },
   "revs": [
    "029fa375c8188c561eb74d8a08d12a78b4a34f0c",
-   "0f5d5970b28c9d85e7166f85ecfa3f86064d3f25"
+   "32af695a228669a6b35160f2b424417428cebcfa"
   ]
  },
  "2018-02-02-4.15.1": {
@@ -17834,7 +17892,7 @@
   },
   "revs": [
    "100173942f6b700fc104acf0a79b83e397f2b7a4",
-   "292624fa203057f958e17f6351108d8d0ee63f9d"
+   "328acf6aa87a59c59baef46b8a3260ab9e223d37"
   ]
  },
  "2018-05-22-4.17.18": {
@@ -18182,7 +18240,7 @@
   },
   "revs": [
    "00562b5a9a7fa169c8f0f825ef71bab29a0a279f",
-   "1fd6aaa5ca0af6c0be43979a43747c8a7a6786e7"
+   "315da196c6addd0da2cc0d34f4e921a418abe714"
   ]
  },
  "2018-05-22-4.17.6": {
@@ -18936,7 +18994,7 @@
   },
   "revs": [
    "1b9888aaa0361abb4c3ea62880a04b669f4dc050",
-   "1b9888aaa0361abb4c3ea62880a04b669f4dc050"
+   "318e45d469598f938c21f1d11f3679b98ccbbd16"
   ]
  },
  "2018-08-13-4.18.16": {
@@ -19342,7 +19400,7 @@
   },
   "revs": [
    "00aee56f3d6ce95b8c179b14654edb931bc91340",
-   "2258383b827ca50308838cab3c11869982764bc0"
+   "328cb60be55334694ce80c08c75a1ac8c8f4891b"
   ]
  },
  "2018-08-13-4.18.5": {
@@ -19458,7 +19516,7 @@
   },
   "revs": [
    "010fc6b7621eaf243b98f8467725dd6ce2dab117",
-   "02bb97e5bb30cdbd9097c5efcf0560b8188b2940"
+   "33e2a6dc9f1b364b86f7a7accbd6ca73ff6493d5"
   ]
  },
  "2018-08-13-4.18.7": {
@@ -19632,7 +19690,7 @@
   },
   "revs": [
    "0253b1e38f3faa9e5b999142005f813a4858efd9",
-   "04b04e974531ad9196bf67d1e575b66e935a51dc"
+   "3252c48c29978e708b33623aeda916d474660ff1"
   ]
  },
  "2018-08-13-4.19": {
@@ -19748,7 +19806,7 @@
   },
   "revs": [
    "0f7a562eddb54c1d3b41664b3097d00d5fa0abc8",
-   "3078bca9ed73dc058a90e283307ce26985a1a80d"
+   "34ff87e288e06601e42ccb45b3cff9c3300fe0b5"
   ]
  },
  "2018-09-02-4.18.5": {
@@ -19864,7 +19922,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "2a3cbf685bc4a8ce855c38e2be765ada2c1da719"
+   "3168e858336e2ad76ac1faab6f3ff96ae92f8766"
   ]
  },
  "2018-09-02-4.18.7": {

@@ -1,4 +1,43 @@
 {
+ "2018.2-4.14.65": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:25"
+  },
+  "revs": [
+   "34a7e678b2f036f9fe65ce6c1b5bab39cccda928",
+   "34a7e678b2f036f9fe65ce6c1b5bab39cccda928"
+  ]
+ },
  "2018.2-4.14.67": {
   "meta": {
    "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
@@ -74,7 +113,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "2a3cbf685bc4a8ce855c38e2be765ada2c1da719"
+   "3168e858336e2ad76ac1faab6f3ff96ae92f8766"
   ]
  },
  "2018.2-4.14.69": {
@@ -1205,7 +1244,7 @@
   },
   "revs": [
    "1f90d6aeeb96486cfab3ce515432a4634cec420b",
-   "1f90d6aeeb96486cfab3ce515432a4634cec420b"
+   "33dddace723f094e7944d12eadd09f42acbaad3b"
   ]
  },
  "2018.4-4.14.117": {
@@ -1751,7 +1790,7 @@
   },
   "revs": [
    "0043d907aea727d453680985897c189a4514a251",
-   "23b9f34bc8c66e74fb3c0ab126701a1430d07c30"
+   "34a1278b81af2da3075353199ca88e684ca9e391"
   ]
  },
  "2018.4-4.14.92": {
@@ -2024,7 +2063,7 @@
   },
   "revs": [
    "0ae99e827a27781161a85de56c3c4a4a31ade182",
-   "2745c1527072a7b699a76ace0915932ca8405707"
+   "31d55726af82c17da539684a97ae0b749aaece37"
   ]
  },
  "2018.4-4.14.99": {
@@ -2672,7 +2711,7 @@
   },
   "revs": [
    "13a2f37442d98325e1f861a9840f19544c938c0b",
-   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
+   "31a58683525ee32997a2f99226b0ed12999ac6bc"
   ]
  },
  "2019.0-4.14.97": {
@@ -2924,7 +2963,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "150253444303419ac81ac635964a1a12acee509c"
+   "322ff2f52638c60ef9a82d35a4280b7ee6ddd5a7"
   ]
  },
  "2019.0-4.19.32": {
@@ -3014,7 +3053,7 @@
   },
   "revs": [
    "01bca861c2f5741de50f8ec966167101e957b5d4",
-   "2878299ab89ffb9cd2cd743d754e33510c5930cd"
+   "3400e322e33978313aa01d0fb78120376ce50448"
   ]
  },
  "2019.1-4.19.33": {
@@ -4229,7 +4268,7 @@
   },
   "revs": [
    "1851d52633aacba98553c2209ff54c03596b0f26",
-   "248a3d8faf2bc1ec7b9ee6c7a815074222437b82"
+   "314775040bb5e32101458f3afe93bfc0e0591112"
   ]
  },
  "2019.1-4.19.61": {
@@ -4949,7 +4988,7 @@
   },
   "revs": [
    "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e",
-   "139e21bfeba507342b4f8c69aa5ba3c3c339ea7e"
+   "347511617db7b3c624cdf50d7c835fbdc30d8cb6"
   ]
  },
  "2019.1-4.19.79": {
@@ -5612,7 +5651,7 @@
   },
   "revs": [
    "01422520124ac176e4b6c1e597a6eee2d11ccf43",
-   "0cc9e33cc4e8eb49a6acd7add823e2007a75b8d8"
+   "341097c8cf55dc0ccd178fc13866339546f6dd55"
   ]
  },
  "2019.2-4.19.61": {
@@ -5656,7 +5695,7 @@
   },
   "revs": [
    "0568b622d58c0473b6190e4b33954a2f42919072",
-   "24070da9c46d43eb374cda73caba85efd402475b"
+   "34f31030b1f8b32ad3889f7adb0150900174293d"
   ]
  },
  "2019.2-4.19.62": {
@@ -6148,7 +6187,7 @@
   },
   "revs": [
    "014ffad4086e44f2317361d748cdca34a31bd2f5",
-   "1e993f3838749bd24261a5aae91803a7d5cda1c0"
+   "3383f6bdecb93213e17a2efc1d5bedc9d9e3f4d3"
   ]
  },
  "2019.2-4.19.92": {
@@ -6240,7 +6279,7 @@
   },
   "revs": [
    "00355c593a62114a8541e9c7535c20e9b6a00f46",
-   "017926a8b3e8a3daa49313ec5520cce7fc20569e"
+   "350f83785dc9252a8f4b2d5a7496844234786e3c"
   ]
  },
  "2019.5-4.19.92": {
@@ -6608,7 +6647,7 @@
   },
   "revs": [
    "012b89f1bc9a7ede8af24ea3c7b3bbfbeeafd280",
-   "214cac8b26d69b8841e5042e3f0bc2720a75f9f3"
+   "351f47da57f5fdae14877147ca8b0898273256d9"
   ]
  },
  "2019.5-5.4.17": {
@@ -9000,7 +9039,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "27252519208f2cd357c075972a3ce044ec8cab6f"
+   "33a72a3ca69c2af0bcc9c8bac775f5ab17695414"
   ]
  },
  "2019.5-5.4.71": {
@@ -9046,7 +9085,7 @@
   },
   "revs": [
    "05d90313993c0912521780dbb0fc1c35d5520e06",
-   "2db182abc8acd862e241984422b43495080d3650"
+   "357b14cfe961741e2f253160ef891e12b287c3bf"
   ]
  },
  "2019.5-5.4.72": {
@@ -9138,7 +9177,7 @@
   },
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
-   "050b0068e5760d35c712fe4e77cc1cbf26c79640"
+   "3343effc326c3fb488f2130551d92bd553bed37c"
   ]
  },
  "2019.5-5.4.74": {
@@ -9368,7 +9407,7 @@
   },
   "revs": [
    "01835945ca8a3db30c044b7d1f2c880f42ecf448",
-   "0f564014b60862d494f713c858c1b9e1d3f81ef4"
+   "351bf9584e54073222822dec01f37fb9c546732a"
   ]
  },
  "2020.3-5.4.69": {
@@ -9690,7 +9729,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "10687019df67acac0479ef570c2c47afbc155ee8"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  }
 }

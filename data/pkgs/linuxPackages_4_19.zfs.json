@@ -170,7 +170,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "02f47920b56bd29b55b1578a31377627872bf07b"
+   "34a637ca9235f44fc377a881c1e48e1e6bcf84f7"
   ]
  },
  "0.7.12-4.19.11": {
@@ -344,7 +344,7 @@
   },
   "revs": [
    "0043d907aea727d453680985897c189a4514a251",
-   "23b9f34bc8c66e74fb3c0ab126701a1430d07c30"
+   "34a1278b81af2da3075353199ca88e684ca9e391"
   ]
  },
  "0.7.12-4.19.14": {
@@ -1766,7 +1766,7 @@
   },
   "revs": [
    "1f90d6aeeb96486cfab3ce515432a4634cec420b",
-   "1f90d6aeeb96486cfab3ce515432a4634cec420b"
+   "33dddace723f094e7944d12eadd09f42acbaad3b"
   ]
  },
  "0.7.12-4.19.4": {
@@ -1883,6 +1883,64 @@
   "revs": [
    "187ab0f9617be0c0a9a69e8ed6e975110e591174",
    "187ab0f9617be0c0a9a69e8ed6e975110e591174"
+  ]
+ },
+ "0.7.12-4.19.41": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de",
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de"
   ]
  },
  "0.7.12-4.19.42": {
@@ -2406,7 +2464,7 @@
   },
   "revs": [
    "0015e526c7a3a70db5055b9e68c951a21cc3519f",
-   "10b0c7184ffbf18ac4edf8a085061f5f8a25d27c"
+   "32d3183ea3aac1bd0153170126aae3de4422ad84"
   ]
  },
  "0.7.13-4.19.28": {
@@ -2583,7 +2641,7 @@
   },
   "revs": [
    "13a2f37442d98325e1f861a9840f19544c938c0b",
-   "13f0045ddc4f1da2b08000d9d6bc5b11ecada252"
+   "31a58683525ee32997a2f99226b0ed12999ac6bc"
   ]
  },
  "0.8.3-4.19.100": {
@@ -2645,7 +2703,7 @@
   },
   "revs": [
    "012b89f1bc9a7ede8af24ea3c7b3bbfbeeafd280",
-   "214cac8b26d69b8841e5042e3f0bc2720a75f9f3"
+   "351f47da57f5fdae14877147ca8b0898273256d9"
   ]
  },
  "0.8.3-4.19.101": {
@@ -4319,7 +4377,7 @@
   },
   "revs": [
    "02a83b10c68c24d4528361624545f42dc03415b1",
-   "02a83b10c68c24d4528361624545f42dc03415b1"
+   "33544680856ff265598612c018344d4ece7bb290"
   ]
  },
  "0.8.3-4.19.130": {
@@ -5497,7 +5555,7 @@
   },
   "revs": [
    "0030dac5c0d5c0294ca5ae5b751831b1a252aec4",
-   "24e7620cb5a873a6c335586c4de394c9446c8ac1"
+   "32324de6d2b6db2bbd335ede2ad8d5898d77b175"
   ]
  },
  "0.8.4-4.19.140": {
@@ -6241,7 +6299,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "0989b93cf892fe7dd8b53974747a12794391bdca"
+   "33a72a3ca69c2af0bcc9c8bac775f5ab17695414"
   ]
  },
  "0.8.4-4.19.152": {
@@ -6303,7 +6361,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "2db182abc8acd862e241984422b43495080d3650"
+   "357b14cfe961741e2f253160ef891e12b287c3bf"
   ]
  },
  "0.8.4-4.19.153": {
@@ -6365,7 +6423,7 @@
   },
   "revs": [
    "08acf53426813ed5c7e60f8d8142fc1e275d8d9d",
-   "27212188ee8072ee79a4633e95fb5c731d40e1c0"
+   "3343effc326c3fb488f2130551d92bd553bed37c"
   ]
  },
  "0.8.4-4.19.154": {
@@ -6737,7 +6795,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "10687019df67acac0479ef570c2c47afbc155ee8"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  }
 }

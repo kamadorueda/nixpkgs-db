@@ -416,7 +416,7 @@
   },
   "revs": [
    "009d4341d80ec39db2f4da180de3bebf19a4ae48",
-   "077bb0876bff9db7977f06153e5e10688379cd47"
+   "33682d9af4c91a6d79fb390b20040aeedececf99"
   ]
  },
  "1.5.2-4.9.102": {
@@ -728,7 +728,7 @@
   },
   "revs": [
    "0011f10b5754963a7a993390f1c64a89d883e06d",
-   "0b9b7be5bfb85fc549146a36130cdd874a2381af"
+   "34234dcb511066dd1e4fe75d80ee89519a8c8001"
   ]
  },
  "1.5.2-4.9.110": {
@@ -1235,7 +1235,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "292624fa203057f958e17f6351108d8d0ee63f9d"
+   "328acf6aa87a59c59baef46b8a3260ab9e223d37"
   ]
  },
  "1.5.2-4.9.123": {
@@ -1352,7 +1352,7 @@
   },
   "revs": [
    "0051772890908ec8323d4fe1c4ffdb8498f3b759",
-   "2a3cbf685bc4a8ce855c38e2be765ada2c1da719"
+   "3168e858336e2ad76ac1faab6f3ff96ae92f8766"
   ]
  },
  "1.5.2-4.9.126": {
@@ -2132,7 +2132,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "232f20d5033159ddaeed0d209b9cd56f9538eb49"
+   "357bd4ee67ea2650ee7c8708243de2e1f97c51ea"
   ]
  },
  "1.5.2-4.9.147": {
@@ -2210,7 +2210,7 @@
   },
   "revs": [
    "0043d907aea727d453680985897c189a4514a251",
-   "23b9f34bc8c66e74fb3c0ab126701a1430d07c30"
+   "34a1278b81af2da3075353199ca88e684ca9e391"
   ]
  },
  "1.5.2-4.9.149": {
@@ -2483,7 +2483,7 @@
   },
   "revs": [
    "0ae99e827a27781161a85de56c3c4a4a31ade182",
-   "2745c1527072a7b699a76ace0915932ca8405707"
+   "31d55726af82c17da539684a97ae0b749aaece37"
   ]
  },
  "1.5.2-4.9.156": {
@@ -3068,7 +3068,7 @@
   },
   "revs": [
    "0d84ab811e216d0711fb2afae7b0a96e78299fca",
-   "1f90d6aeeb96486cfab3ce515432a4634cec420b"
+   "33dddace723f094e7944d12eadd09f42acbaad3b"
   ]
  },
  "1.5.2-4.9.173": {
@@ -3108,6 +3108,45 @@
   "revs": [
    "187ab0f9617be0c0a9a69e8ed6e975110e591174",
    "187ab0f9617be0c0a9a69e8ed6e975110e591174"
+  ]
+ },
+ "1.5.2-4.9.174": {
+  "meta": {
+   "description": "Amazon Elastic Network Adapter (ENA) driver for Linux",
+   "homepage": "https://github.com/amzn/amzn-drivers",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "ena",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ena/default.nix:35"
+  },
+  "revs": [
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de",
+   "356f4f64b28f4592d56e9a6d9b2d075c5ba7d6de"
   ]
  },
  "1.5.2-4.9.175": {
@@ -4238,7 +4277,7 @@
   },
   "revs": [
    "003ad786c15e880ade44c68c823801c1c4a52348",
-   "2bfd217a69f4dd65f3a7a37d92240c5700ab4976"
+   "31a58683525ee32997a2f99226b0ed12999ac6bc"
   ]
  },
  "2.0.2-4.9.165": {
@@ -4277,7 +4316,7 @@
   },
   "revs": [
    "00431493c011af62e2dc1f393e9327b148facd72",
-   "150253444303419ac81ac635964a1a12acee509c"
+   "322ff2f52638c60ef9a82d35a4280b7ee6ddd5a7"
   ]
  },
  "2.0.2-4.9.166": {
@@ -5283,7 +5322,7 @@
   },
   "revs": [
    "03dcb3dee477df2764b15697fece1549c8450af2",
-   "09e633d6805f3a72d69b9826cef4e9ac2917aab1"
+   "3317c917f3fec080197497bf8b0c08738d055f8d"
   ]
  },
  "2.0.2-4.9.192": {
@@ -5674,7 +5713,7 @@
   },
   "revs": [
    "00b7680f28eeb335873303c4b745810da733aa95",
-   "1e993f3838749bd24261a5aae91803a7d5cda1c0"
+   "3383f6bdecb93213e17a2efc1d5bedc9d9e3f4d3"
   ]
  },
  "2.1.2-4.9.208": {
@@ -6514,7 +6553,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "02a83b10c68c24d4528361624545f42dc03415b1"
+   "33544680856ff265598612c018344d4ece7bb290"
   ]
  },
  "2.1.2-4.9.229": {
@@ -6914,7 +6953,7 @@
   },
   "revs": [
    "041a24254ea6e3faa096505b489c9360827bf200",
-   "2871784d7c443f86dfd73b80245840d1661b4a2a"
+   "33a72a3ca69c2af0bcc9c8bac775f5ab17695414"
   ]
  },
  "2.1.2-4.9.239": {
@@ -6954,7 +6993,7 @@
   },
   "revs": [
    "2db182abc8acd862e241984422b43495080d3650",
-   "2db182abc8acd862e241984422b43495080d3650"
+   "357b14cfe961741e2f253160ef891e12b287c3bf"
   ]
  },
  "2.1.2-4.9.240": {
@@ -7194,7 +7233,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "10687019df67acac0479ef570c2c47afbc155ee8"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  },
  "2.2.7-4.9.223": {
@@ -7864,7 +7903,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "0d9cfd7fc305e6567ffdaca6c4322f16e14e408b"
+   "3373a55cacb8117a53d5ea3b01241177a975fa0b"
   ]
  },
  "20160629-4.9.1": {
@@ -8014,7 +8053,7 @@
   },
   "revs": [
    "01b9990732e02c6661867a8ca0ad40e252e5cdbc",
-   "0a476ee5de86c2e2e2edf3b8a571f82573404679"
+   "310ed9213d4ab1f585d3558b7dff3fb8e1649979"
   ]
  },
  "20160629-4.9.14": {
@@ -8074,7 +8113,7 @@
   },
   "revs": [
    "061bd1293b2f26bb7951f253582d66147395ef30",
-   "061bd1293b2f26bb7951f253582d66147395ef30"
+   "314243f438b181aad51c0117b591b7f275e2005c"
   ]
  },
  "20160629-4.9.16": {

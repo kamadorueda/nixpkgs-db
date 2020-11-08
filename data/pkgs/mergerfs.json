@@ -233,6 +233,50 @@
    "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
+ "2.26.0": {
+  "meta": {
+   "description": "A FUSE based union filesystem",
+   "homepage": "https://github.com/trapexit/mergerfs",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "johannes@frankenau.net",
+     "github": "jfrankenau",
+     "name": "Johannes Frankenau"
+    },
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "mergerfs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/mergerfs/default.nix:33"
+  },
+  "revs": [
+   "3561ede7f6628385f2c66ef0be815d76ed92f7cd",
+   "3561ede7f6628385f2c66ef0be815d76ed92f7cd"
+  ]
+ },
  "2.26.1": {
   "meta": {
    "description": "A FUSE based union filesystem",
@@ -452,7 +496,7 @@
   },
   "revs": [
    "002c63433929e1eb115a5e64d77f1d344b59c8f4",
-   "11f9033305c6f88dcd1e24688159f0245bd36096"
+   "2ff401dd59283ad249c70834bd99db27dede722a"
   ]
  }
 }
