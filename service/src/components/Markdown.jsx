@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import gfm from 'remark-gfm';
 import { Col, Row } from 'react-bootstrap';
 
 import { CodeBlock } from './Code';
@@ -27,6 +28,7 @@ const renderers = {
 export const Markdown = (props) => (
   <ReactMarkdown
     children={props.content}
+    plugins={[gfm]}
     renderers={renderers}
   />
 )
