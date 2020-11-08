@@ -1099,6 +1099,50 @@
    "13be3ef7f5840d324f7b7c1b62d72f86c1d0a589"
   ]
  },
+ "1.8.0-4.14.77": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "2f82603dbdc50e5e8b146d444bf06dc775efa72a",
+   "2f82603dbdc50e5e8b146d444bf06dc775efa72a"
+  ]
+ },
  "1.8.2-4.14.101": {
   "meta": {
    "description": "Open AFS client kernel module",
@@ -1316,7 +1360,7 @@
   },
   "revs": [
    "022a6f7c2b8d7828b6259abf201cde3d1cda522a",
-   "022a6f7c2b8d7828b6259abf201cde3d1cda522a"
+   "2fa7fc4155b26bca7a2c95f6334ef09948c74195"
   ]
  },
  "1.8.2-4.14.103-hardened": {
@@ -4704,7 +4748,7 @@
   },
   "revs": [
    "00322ccb73ed5d5204b7d9e4fad41573337f1470",
-   "08d9edbcd768b15adde3ac01db0ea30aee4328f9"
+   "30df265fc696214a202672eeea8c0a09be5b7bcf"
   ]
  },
  "1.8.2-4.19.49-hardened": {
@@ -6762,7 +6806,7 @@
   },
   "revs": [
    "00898f0adaac797612d9d447cc632a0238a20653",
-   "2c7b84e5b0aa7d979f9fcb7d85119074803967a9"
+   "304dc5922ef23aea0c16b7331ccb040d2c491f68"
   ]
  },
  "1.8.3-4.19.59-hardened": {
@@ -7106,7 +7150,7 @@
   },
   "revs": [
    "0047672d58ad13bd0a60e9114b6c91858c34b2a8",
-   "04a0b11c9b7bd00913f88cc8affd497aac9902aa"
+   "30360cb0455ffd9bf5da5bd474afce9374fbb9e3"
   ]
  },
  "1.8.3-4.19.67-hardened": {
@@ -8021,7 +8065,7 @@
   },
   "revs": [
    "006aeb5704123f259d5cda435a991b3d72225b32",
-   "10a25647c897490d204588e1cd9c2c67f3d88dea"
+   "3041889bc6b90ae18f44f99bd6ad5f70f05fb13c"
   ]
  },
  "1.8.5-5.4.22-hardened": {
@@ -9447,7 +9491,7 @@
   },
   "revs": [
    "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
-   "274831839c4f2622019a35d773d4ee588a08c311"
+   "2f3bec63d65ec43ce2dc2f6a474f3a162054ac1a"
   ]
  },
  "1.8.6-5.4.54-hardened": {

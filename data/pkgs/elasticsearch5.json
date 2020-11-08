@@ -342,6 +342,103 @@
    "24a7883c2349af5076107dbbb615be09d6025a95"
   ]
  },
+ "5.6.8": {
+  "meta": {
+   "description": "Open Source, Distributed, RESTful Search Engine",
+   "homepage": "",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "albert@peschar.net",
+     "github": "apeschar",
+     "name": "Albert Peschar"
+    }
+   ],
+   "name": "elasticsearch",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/search/elasticsearch/5.x.nix:37"
+  },
+  "revs": [
+   "2fb4bf7299aa57c79695bdc2a48a845a61994151",
+   "2fb4bf7299aa57c79695bdc2a48a845a61994151"
+  ]
+ },
  "5.6.9": {
   "meta": {
    "description": "Open Source, Distributed, RESTful Search Engine",

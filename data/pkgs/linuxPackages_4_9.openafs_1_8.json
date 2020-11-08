@@ -1055,6 +1055,50 @@
    "13be3ef7f5840d324f7b7c1b62d72f86c1d0a589"
   ]
  },
+ "1.8.0-4.9.134": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "http://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:52"
+  },
+  "revs": [
+   "2f82603dbdc50e5e8b146d444bf06dc775efa72a",
+   "2f82603dbdc50e5e8b146d444bf06dc775efa72a"
+  ]
+ },
  "1.8.2-4.9.133": {
   "meta": {
    "description": "Open AFS client kernel module",
@@ -5022,7 +5066,7 @@
   },
   "revs": [
    "0030d391d229a2d5983752741d6bc0153dc82f1b",
-   "1c7e269e81affac829b6b758abda50f8ca76c7e3"
+   "3041889bc6b90ae18f44f99bd6ad5f70f05fb13c"
   ]
  },
  "1.8.5-4.9.215": {
