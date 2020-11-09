@@ -3,28 +3,73 @@ import dedent from 'dedent';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { RiFileCopyLine } from 'react-icons/ri';
-import { vs as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { defaultStyle as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-export const CopyButton = (props) => (
-  <CopyToClipboard onCopy={() => alert('Copied!')} text={props.content}>
-    <RiFileCopyLine style={{ color: "#007bff" }} />
-  </CopyToClipboard>
-);
+const onCopy = () => alert('Copied!');
 
-export const Code = (props) => (
-  <Highlight content={dedent(props.content)} lang={props.lang} />
-);
+export const CopyButton = (props) => {
+  const content = dedent(props.content);
+  const style = { color: "#007bff" };
+  const type = props.type;
 
-export const CodeBlock = (props) => (
-  <React.Fragment>
-    <hr />
-    <Code content={props.content} lang={props.lang} />
-    <hr />
-  </React.Fragment>
-);
+  let inner;
+  switch (type) {
+    case "icon":
+      inner = <span style={style}><RiFileCopyLine /></span>
+      break;
+    case "icon+copy":
+      inner = <span style={style}><RiFileCopyLine /> Copy</span>
+      break;
+    case "icon+copy+center":
+      inner = <center style={style}><RiFileCopyLine /> Copy</center>
+      break;
+    default:
+      throw type;
+  }
 
-export const Highlight = (props) => (
-  <SyntaxHighlighter language={props.lang} style={style}>
-    {props.content}
+  return (
+    <CopyToClipboard onCopy={onCopy} text={content}>
+      {inner}
+    </CopyToClipboard>
+  );
+};
+
+export const Highlight = ({
+  content,
+  lang,
+}) => (
+  <SyntaxHighlighter
+    language={lang}
+    style={style}
+  >
+    {content}
   </SyntaxHighlighter>
 );
+
+export const Code = ({
+  content,
+  copyable=false,
+  lang,
+}) => {
+  content = dedent(content);
+
+  return (
+    <React.Fragment>
+      <Highlight
+        content={content}
+        lang={lang}
+      />
+      {copyable ? <CopyButton content={content} type="icon+copy+center" /> : undefined }
+    </React.Fragment>
+  );
+};
+
+export const CodeBlock = ({ content, copyable, lang }) => {
+  return (
+    <React.Fragment>
+      <hr />
+      <Code content={content} copyable={copyable} lang={lang} />
+      <hr />
+    </React.Fragment>
+  );
+};

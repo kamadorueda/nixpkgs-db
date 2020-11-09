@@ -172,15 +172,15 @@ const PkgLoaded = (props) => {
         />
         <Item
           title="Interactive shell"
-          content={<Code content={nixShell} lang="bash" />}
+          content={<Code content={nixShell} copyable={true} lang="bash" />}
         />
         <Item
           title="Install in your system"
-          content={<Code content={nixEnv} lang="bash" />}
+          content={<Code content={nixEnv} copyable={true} lang="bash" />}
         />
         <Item
           title="Use in an expression"
-          content={<Code content={nixBuild} lang="nix" />}
+          content={<Code content={nixBuild} copyable={true} lang="nix" />}
         />
         <Item
           title="Badges"

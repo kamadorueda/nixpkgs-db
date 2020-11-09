@@ -94,7 +94,7 @@ export const Badges = () => {
                 <Col xs={12} sm={6} md={4}>
                   <Row>
                     <Col xs={12}>
-                      <CopyButton content={content} /> <A href={linkURL}>
+                      <CopyButton content={content} type="icon" /> <A href={linkURL}>
                         <img alt="badge" src={imageURL} />
                       </A>
                     </Col>

@@ -119,7 +119,7 @@ const SearchLoaded = (props) => {
       {/* Pagination */}
       <br />
       <Row>
-        <Col xs={12} sm={6} md={4}>
+        <Col sm={12}>
           <ButtonGroup size="md">
             <Button
               disabled={page === 1}
