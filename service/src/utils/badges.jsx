@@ -13,8 +13,8 @@ export const COLORS = [
 export const STYLES = [
   "flat",
   "flat-square",
-  "for-the-badge",
   "plastic",
+  "for-the-badge",
 ];
 
 export const badge = ({

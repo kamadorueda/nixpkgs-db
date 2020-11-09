@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Col,
   Form,
@@ -6,8 +6,7 @@ import {
   Row,
 } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-import { A } from '../components/A';
-import { CopyButton } from '../components/Code';
+import { Code } from '../components/Code';
 import {
   badge,
   COLORS,
@@ -40,17 +39,41 @@ const getLinkURL = (pkg) => (
 export const Badges = () => {
   const { pkg } = useParams();
 
+  const [badgesData, setBadgesData] = useState([]);
+  const [content, setContent] = useState("");
   const [format, setFormat] = useState(FORMATS[2]);
   const [label, setLabel] = useState(pkg);
 
+  const linkURL = getLinkURL(pkg);
+
+  useEffect(() => {
+    const newBadgesData = [].concat.apply([],
+      STYLES.map((style) => COLORS.map((color) => {
+        const imageURL = badge({ color, label, pkg, style });
+        const badgeContent = FORMATS_FUNCTIONS[format](imageURL, linkURL);
+
+        return {
+          badgeContent,
+          color,
+          imageURL,
+          style,
+        };
+      }))
+    );
+
+    setBadgesData(newBadgesData);
+    setContent(newBadgesData[0].badgeContent);
+  }, [format, label, linkURL, pkg])
+
+  const onBadgeSelection = (content) => () => {
+    setContent(content);
+  };
   const onChangeFormat = (event) => {
     setFormat(event.target.value);
   };
   const onChangeLabel = (event) => {
     setLabel(event.target.value);
   };
-
-  const linkURL = getLinkURL(pkg);
 
   return (
     <React.Fragment>
@@ -78,34 +101,29 @@ export const Badges = () => {
         />
       </InputGroup>
       <br />
-      {STYLES.map((style) => (
-        <React.Fragment>
-          <Row>
-            {COLORS.map((color) => {
-              const imageURL = badge({
-                color,
-                label,
-                pkg,
-                style,
-              });
-              const content = FORMATS_FUNCTIONS[format](imageURL, linkURL);
+      <Row>
+        {badgesData.map(({ badgeContent, color, imageURL, style }) => {
+          const radioID = `${style}/${color}`;
 
-              return (
-                <Col xs={12} sm={6} md={4}>
-                  <Row>
-                    <Col xs={12}>
-                      <CopyButton content={content} type="icon" /> <A href={linkURL}>
-                        <img alt="badge" src={imageURL} />
-                      </A>
-                    </Col>
-                  </Row>
-                </Col>
-              );
-            })}
-          </Row>
-          <br />
-        </React.Fragment>
-      ))}
+          return (
+            <Col xs={12} sm={6} md={4}>
+              <input
+                defaultChecked={radioID === "flat/blue"}
+                id={radioID}
+                name="badge"
+                onClick={onBadgeSelection(badgeContent)}
+                type="radio"
+              /> <img alt="badge" src={imageURL} />
+            </Col>
+          );
+        })}
+      </Row>
+      <br />
+      <Code
+        content={content}
+        copyable={true}
+        type="icon+copy+center"
+      />
     </React.Fragment>
   );
 };

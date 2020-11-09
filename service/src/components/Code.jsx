@@ -7,10 +7,8 @@ import { defaultStyle as style } from 'react-syntax-highlighter/dist/esm/styles/
 
 const onCopy = () => alert('Copied!');
 
-export const CopyButton = (props) => {
-  const content = dedent(props.content);
+export const CopyButton = ({ content, type }) => {
   const style = { color: "#007bff" };
-  const type = props.type;
 
   let inner;
   switch (type) {
