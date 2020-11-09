@@ -78,8 +78,9 @@ def main() -> None:
                 'revs': [args.rev_sha, args.rev_sha],
             }
             json_dump(f'data/badges/{pkg}.json', {
+                'label': '',
+                'message': f'{len(data)} releases',
                 'schemaVersion': 1,
-                'message': f'{len(data)} releases'
             })
             json_dump(f'data/pkgs/{pkg}.json', data)
         elif revs2index[args.rev_sha] < revs2index[data[version]['revs'][1]]:
