@@ -37,17 +37,6 @@ const getLinkURL = (pkg) => (
   `https://kamadorueda.github.io/nixpkgs-db/#/pkg/${encodeURIComponent(pkg)}`
 );
 
-export const SimpleBadge = ({ pkg }) => {
-  const imageURL = badge({ pkg });
-  const linkURL = getLinkURL(pkg);
-
-  return (
-    <A href={linkURL}>
-      <img alt="badge" src={imageURL} />
-    </A>
-  );
-};
-
 export const Badges = () => {
   const { pkg } = useParams();
 

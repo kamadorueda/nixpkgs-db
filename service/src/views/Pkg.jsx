@@ -15,7 +15,7 @@ import { ErrorBoundary } from '../components/ErrorBoundary';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_NIXPKGS, GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
-import { Badges, SimpleBadge } from './Badge';
+import { Badges } from './Badge';
 
 const pkgVersionLink = (pkg, version) => (
   `/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(version)}`
@@ -186,13 +186,6 @@ const PkgLoaded = (props) => {
           title="Badges"
           content={
             <Badges pkg={pkg} />
-            // <Row>
-            //   <Col xs={12}>
-            //     <A href={`/nixpkgs-db/#/badges/${encodeURIComponent(pkg)}`}>
-            //       <RiExternalLinkFill /> Explore
-            //     </A>
-            //   </Col>
-            // </Row>
           }
         />
         <Item

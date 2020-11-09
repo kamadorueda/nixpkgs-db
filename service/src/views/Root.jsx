@@ -47,16 +47,16 @@ export const Root = () => {
   return (
     <Container fluid={true}>
       {/* Header */}
-      <Row>
-        <Col sm={12}>
-          <A href="/nixpkgs-db" remote={false}>
+      <A href="/nixpkgs-db" remote={false}>
+        <Row>
+          <Col sm={12}>
             <h1>Nixpkgs Database!</h1>
             <h2 style={{ fontSize: "1rem" }}>
               A database with packages at all versions, from all channels.
             </h2>
-          </A>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </A>
 
       {/* Content */}
       <HashRouter>
