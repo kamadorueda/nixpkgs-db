@@ -3,23 +3,27 @@ import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 import { Col, Row } from 'react-bootstrap';
 
+import { A } from './A';
 import { CodeBlock } from './Code';
 
 const renderers = {
-  text: ({ children }) => <span>{children}</span>,
   break: () => <br />,
-  heading: ({ children, level }) => React.createElement("h".concat(level + 1), {}, children),
   code: ({ language, value }) => <CodeBlock
     content={value}
     dedent={false}
     lang={language}
   />,
+  heading: ({ children, level }) => React.createElement(
+    "h".concat(level + 1), {}, children,
+  ),
+  text: ({ children }) => <span>{children}</span>,
+  link: ({ href, children}) => <A href={href}>{children}</A>,
+
   // paragraph: (props) => <p>{props.children}</p>,
   // emphasis: (props) => <em>{props.children}</em>,
   // strong: (props) => <strong>{props.children}</strong>,
   // thematicBreak: (props) => <hr>{props.children}</hr>,
   // blockquote: (props) => <blockquote>{props.children}</blockquote>,
-  // link: (props) => <a>{props.children}</a>,
   // image: (props) => <img>{props.children}</img>,
   // linkReference: (props) => <a>{props.children}</a>,
   // imageReference: (props) => <img>{props.children}</img>,
