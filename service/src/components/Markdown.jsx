@@ -6,10 +6,14 @@ import { Col, Row } from 'react-bootstrap';
 import { CodeBlock } from './Code';
 
 const renderers = {
-  text: (props) => <span>{props.children}</span>,
+  text: ({ children }) => <span>{children}</span>,
   break: () => <br />,
-  heading: (props) => React.createElement("h".concat(props.level + 1), {}, props.children),
-  code: (props) => <CodeBlock lang={props.language} content={props.value} />,
+  heading: ({ children, level }) => React.createElement("h".concat(level + 1), {}, children),
+  code: ({ language, value }) => <CodeBlock
+    content={value}
+    dedent={false}
+    lang={language}
+  />,
   // paragraph: (props) => <p>{props.children}</p>,
   // emphasis: (props) => <em>{props.children}</em>,
   // strong: (props) => <strong>{props.children}</strong>,

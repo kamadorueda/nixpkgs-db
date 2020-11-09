@@ -1,5 +1,5 @@
 import React from 'react';
-import dedent from 'dedent';
+import dedentContent from 'dedent';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { RiFileCopyLine } from 'react-icons/ri';
@@ -46,27 +46,28 @@ export const Highlight = ({
 
 export const Code = ({
   content,
+  dedent=true,
   copyable=false,
   lang,
 }) => {
-  content = dedent(content);
+  const contentD = dedent ? dedentContent(content) : content;
 
   return (
     <React.Fragment>
       <Highlight
-        content={content}
+        content={contentD}
         lang={lang}
       />
-      {copyable ? <CopyButton content={content} type="icon+copy+center" /> : undefined }
+      {copyable ? <CopyButton content={contentD} type="icon+copy+center" /> : undefined }
     </React.Fragment>
   );
 };
 
-export const CodeBlock = ({ content, copyable, lang }) => {
+export const CodeBlock = ({ content, dedent, copyable, lang }) => {
   return (
     <React.Fragment>
       <hr />
-      <Code content={content} copyable={copyable} lang={lang} />
+      <Code content={content} copyable={copyable} dedent={dedent} lang={lang} />
       <hr />
     </React.Fragment>
   );

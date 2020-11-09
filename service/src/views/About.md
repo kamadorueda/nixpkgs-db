@@ -13,16 +13,17 @@ $ nix-shell -p python39
   # Version installed in the Nix shell
   nix-shell $ python3 --version
 
-    Python 3.9.0
+              Python 3.9.0
 ```
 
 Sometime ago while migrating an old **Kubernetes** cluster
-I found in the need of having two different versions of **Helm**
-in order to deal with **legacy** and **recent** deployments.
+I found in the need of having two different versions of **Kubernetes Helm**
+to deal with different kind of deployments.
 
-The solution is trivial: Use **Nix** to install the two versions!
+**Nix** allows us to install / use different versions of a package side-by-side
+in the host system.
 
-So let's search the versions that Nix offers to us:
+So let's search the versions that Nix offers to us out-of-the-box:
 
 ```bash
 # Query the <nixpkgs> set in the host system
@@ -31,59 +32,54 @@ $ nix-env -q --available --description | grep helm
   helm-3.3.4  A package manager for kubernetes
 ```
 
-Problem is that nix-channels usually offer a single version of a package,
-so ¿What to do?
+Problem is that **nix-channels** usually offer a single version of a package,
+so... What to do?
 
 Sadly,
 there is no native way of searching the Nix history for all versions of a package.
 
-Good thing is the community has come up with initiatives:
+The good thing is that you are currently at the Nixpkgs Database!
+We index every piece of the Nixpkgs history in order to provide versions lookups:
 
-- [Nixpkgs Database](/nixpkgs-db)
-- [Nix-package-revisions](https://lazamar.github.io/download-specific-package-version-with-nix)
-
-That index the Nixpkgs history in order to provide versions lookups:
-
-```bash
+```text
 Attribute        Description                       Versions  License
 kubernetes-helm  A package manager for kubernetes  30        Apache License 2.0
 
-  kubernetes-helm v3.4.0
-  kubernetes-helm v3.1.1
-  kubernetes-helm v3.1.0
-  kubernetes-helm v3.0.3
-  kubernetes-helm v3.0.1
-  kubernetes-helm v2.9.1
-  kubernetes-helm v2.6.1
+  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.4.0
+  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.3.4
+  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.3.1
   ...
 ```
 
-They even give you the command to install the package in your system!
+And cool badges that you can add to your project:
+
+[![](https://img.shields.io/endpoint?color=brightgreen&label=Kubernetes+Helm&labelColor=grey&logo=NixOS&logoColor=white&style=flat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkamadorueda%2Fnixpkgs-db%2Flatest%2Fdata%2Fbadges%2Fkubernetes-helm.json)](https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm)
+
+We even give you the command to install the version you want in your system!
 
 ```bash
-# Helm is not even installed in my host system
-$ helm version
-
-  Command 'helm' not found
-
 # Launch a Nix Shell with version 3.4.0 found in Nixpkgs Database
 $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/0126c86672b7d14843225df16ddfefd7091eabe7.tar.gz
 
   # Version installed in the Nix shell
   nix-shell $ helm version
 
-    version.BuildInfo{Version:"v3.4.0", GitCommit:"", GitTreeState:"", GoVersion:"go1.15.3"}
+              version.BuildInfo{Version:"v3.4.0", GitCommit:"", GitTreeState:"", GoVersion:"go1.15.3"}
+```
 
+And these commands are also available for all versions that ever existed for this package:
+
+```bash
 # Launch a Nix Shell with version 2.6.1 found in Nixpkgs Database
 $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/01a664e7793158b434fefac9217ec48313b2dd45.tar.gz
 
   # Version installed in the Nix shell
   nix-shell $ helm version
 
-    Client: &version.Version{SemVer:"v2.6.1", GitCommit:"bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac", GitTreeState:"clean"}
+              Client: &version.Version{SemVer:"v2.6.1", GitCommit:"bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac", GitTreeState:"clean"}
 ```
 
-This project is entirely **Free and Open Source Software**!
+This project is entirely [Free and Open Source Software](https://en.wikipedia.org/wiki/FOSS)!
 
 You can read more about the technical details [here](https://www.patreon.com/posts/creating-zero-43586691).
 

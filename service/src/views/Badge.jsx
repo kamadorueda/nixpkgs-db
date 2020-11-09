@@ -77,6 +77,13 @@ export const Badges = () => {
 
   return (
     <React.Fragment>
+      Add the badge of your preference to your project!
+      <br />
+      It will tell your users the number of releases they can install with Nix.
+      <br />
+      It will also link to this page so they can get more information!
+      <br />
+      <br />
       <InputGroup>
         <InputGroup.Prepend>
           <InputGroup.Text>Copy Format</InputGroup.Text>
