@@ -15,6 +15,7 @@ import { ErrorBoundary } from '../components/ErrorBoundary';
 import { ProgressBar } from '../components/ProgressBar';
 import { GITHUB_NIXPKGS, GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { useFetchJSON } from '../hooks/fetch';
+import { Badges, SimpleBadge } from './Badge';
 
 const pkgVersionLink = (pkg, version) => (
   `/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(version)}`
@@ -122,16 +123,12 @@ const PkgLoaded = (props) => {
           content={`${pkg} ${pkgName}`}
         />
         <Item
-          title="Badges"
+          title="This page version"
           content={
-            <A href={`/nixpkgs-db/#/badge/${encodeURIComponent(pkg)}`}>
-              <RiExternalLinkFill /> Explore
+            <A href={`/nixpkgs-db/#${pkgVersionLink(pkg, version)}`}>
+              <RiExternalLinkFill /> {version}
             </A>
           }
-        />
-        <Item
-          title="This page version"
-          content={version}
         />
         <Item
           title="All versions"
@@ -184,6 +181,19 @@ const PkgLoaded = (props) => {
         <Item
           title="Use in an expression"
           content={<Code content={nixBuild} lang="nix" />}
+        />
+        <Item
+          title="Badges"
+          content={
+            <Badges pkg={pkg} />
+            // <Row>
+            //   <Col xs={12}>
+            //     <A href={`/nixpkgs-db/#/badges/${encodeURIComponent(pkg)}`}>
+            //       <RiExternalLinkFill /> Explore
+            //     </A>
+            //   </Col>
+            // </Row>
+          }
         />
         <Item
           title="Commits range"

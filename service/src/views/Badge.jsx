@@ -33,7 +33,22 @@ const FORMATS_FUNCTIONS = {
 };
 const FORMATS = Object.keys(FORMATS_FUNCTIONS);
 
-export const Badge = () => {
+const getLinkURL = (pkg) => (
+  `https://kamadorueda.github.io/nixpkgs-db/#/pkg/${encodeURIComponent(pkg)}`
+);
+
+export const SimpleBadge = ({ pkg }) => {
+  const imageURL = badge({ pkg });
+  const linkURL = getLinkURL(pkg);
+
+  return (
+    <A href={linkURL}>
+      <img alt="badge" src={imageURL} />
+    </A>
+  );
+};
+
+export const Badges = () => {
   const { pkg } = useParams();
 
   const [format, setFormat] = useState(FORMATS[2]);
@@ -46,7 +61,7 @@ export const Badge = () => {
     setLabel(event.target.value);
   };
 
-  const linkURL = `https://kamadorueda.github.io/nixpkgs-db/#/pkg/${encodeURIComponent(pkg)}`;
+  const linkURL = getLinkURL(pkg);
 
   return (
     <React.Fragment>

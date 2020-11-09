@@ -29,7 +29,6 @@ import { GITHUB_RAW_NIXPKGS_DB } from '../constants';
 import { A } from '../components/A';
 import { markdownTab } from '../components/Markdown';
 import { useFetchJSON } from '../hooks/fetch';
-import { Badge } from './Badge';
 import { Pkg } from './Pkg';
 import { Search } from './Search';
 
@@ -89,9 +88,6 @@ export const Root = () => {
         <Switch>
           <Route exact={true} path="/about">
             {markdownTab(contentAbout)}
-          </Route>
-          <Route exact={true} path="/badge/:pkg">
-            <Badge />
           </Route>
           <Route exact={true} path="/contributing">
             {markdownTab(contentContributing)}

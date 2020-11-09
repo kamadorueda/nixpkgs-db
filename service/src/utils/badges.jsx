@@ -31,7 +31,7 @@ export const badge = ({
 // https://img.shields.io/endpoint?color=success&logo=NixOS&logoColor=%23FFF&style=for-the-badge&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkamadorueda%2Fnixpkgs-db%2Flatest%2Fdata%2Fbadges%2Ffoo.json
 
   url.searchParams.set("color", color);
-  url.searchParams.set("label", label);
+  url.searchParams.set("label", label === undefined ? pkg : label);
   url.searchParams.set("labelColor", labelColor);
   url.searchParams.set("logo", logo);
   url.searchParams.set("logoColor", logoColor);
