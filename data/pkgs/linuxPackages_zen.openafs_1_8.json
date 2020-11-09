@@ -180,7 +180,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "11f9033305c6f88dcd1e24688159f0245bd36096"
+   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
   ]
  },
  "1.8.6-5.8.7-zen1": {
@@ -226,7 +226,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "29cb4d04d0dd6d8fb5d0c896fd325bf06729092e"
+   "3ba224f77d5f0e56f72b703f962176c56cd63bf8"
   ]
  },
  "1.8.6-5.9.3-zen1": {
@@ -272,7 +272,53 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "2ff401dd59283ad249c70834bd99db27dede722a"
+   "19fda989f3e973563c78705ad46f49e892326757"
+  ]
+ },
+ "1.8.6-5.9.6-zen1": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "https://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco.maggesi@gmail.com",
+     "github": "maggesi",
+     "githubId": 1809783,
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "githubId": 167881,
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:54"
+  },
+  "revs": [
+   "0c131ae1186d2833b44fb6382391e07a28b46221",
+   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
   ]
  }
 }

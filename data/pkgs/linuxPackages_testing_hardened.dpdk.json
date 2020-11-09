@@ -716,7 +716,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "111e42e8a6437f47a96e64c0cbea0381ff65965f"
+   "39e4396ea76897143e440a1ecd3b4fedc0320bc2"
   ]
  },
  "17.11.2-5.0-rc6": {
@@ -2261,6 +2261,72 @@
    "05a16be9c5ab7190c440b5c875fb71ca083ed5bb"
   ]
  },
+ "19.11-5.7-rc4": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "magenbluten@codemonkey.cc",
+     "github": "magenbluten",
+     "githubId": 1140462,
+     "name": "magenbluten"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:69"
+  },
+  "revs": [
+   "392f8e128249787a87c46fc6e4965acdc7bff10e",
+   "392f8e128249787a87c46fc6e4965acdc7bff10e"
+  ]
+ },
  "19.11-5.7-rc6": {
   "meta": {
    "description": "Set of libraries and drivers for fast packet processing",
@@ -2456,7 +2522,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0bf298df24f721a7f85c580339fb7eeff64b927c"
+   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
   ]
  }
 }

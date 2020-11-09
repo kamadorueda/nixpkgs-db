@@ -1,0 +1,4 @@
+{
+ "summary": "* Boost: cut the installed size from 257 MB (!!!) to 58 MB.  It   required all that space because it was building static/shared,   single-thread/multi-threaded, and debug/production versions of the   libraries - as well as every combination of those.  Now we build   only the shared, multi-threaded, production version, which needs   only 8 MB.  The headers account for the other 50 MB, so it might be   worthwhile to split them off into a separate package (in order to   reduce the runtime closure of applications that use Boost, such as   KDE).",
+ "timestamp": "1238802860"
+}

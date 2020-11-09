@@ -769,5 +769,39 @@
    "000482ffc470f798fb3aa1673b39a38680cbb567",
    "2ecba01acf8a7abac743290e15face8c74f6cb36"
   ]
+ },
+ "52.7.4esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox-esr-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:53"
+  },
+  "revs": [
+   "38bf731db45c5736b3de387ec3a2b109f01573c3",
+   "38bf731db45c5736b3de387ec3a2b109f01573c3"
+  ]
  }
 }

@@ -152,7 +152,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "11f9033305c6f88dcd1e24688159f0245bd36096"
+   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
   ]
  },
  "6.30.223.271-5.8.7": {
@@ -191,7 +191,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "29cb4d04d0dd6d8fb5d0c896fd325bf06729092e"
+   "3ba224f77d5f0e56f72b703f962176c56cd63bf8"
   ]
  },
  "6.30.223.271-5.9.3": {
@@ -230,7 +230,46 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "2ff401dd59283ad249c70834bd99db27dede722a"
+   "19fda989f3e973563c78705ad46f49e892326757"
+  ]
+ },
+ "6.30.223.271-5.9.6": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "0c131ae1186d2833b44fb6382391e07a28b46221",
+   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
   ]
  }
 }

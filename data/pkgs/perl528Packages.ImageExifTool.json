@@ -1,4 +1,108 @@
 {
+ "11.01": {
+  "meta": {
+   "description": "ExifTool, a tool to read, write and edit EXIF meta information",
+   "homepage": "https://www.sno.phy.queensu.ca/~phil/exiftool/",
+   "license": [
+    {
+     "fullName": "GNU General Public License v1.0 or later",
+     "shortName": "gpl1Plus",
+     "spdxId": "GPL-1.0+",
+     "url": "http://spdx.org/licenses/GPL-1.0+.html"
+    },
+    {
+     "fullName": "Artistic License 2.0",
+     "shortName": "artistic2",
+     "spdxId": "Artistic-2.0",
+     "url": "http://spdx.org/licenses/Artistic-2.0.html"
+    }
+   ],
+   "long_description": "ExifTool is a platform-independent Perl library plus a command-line\napplication for reading, writing and editing meta information in\nimage, audio and video files.  ExifTool supports many different types\nof metadata including EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC\nProfile, Photoshop IRB, FlashPix, AFCP and ID3, as well as the maker\nnotes of many digital cameras by Canon, Casio, FujiFilm, HP,\nJVC/Victor, Kodak, Leaf, Minolta/Konica-Minolta, Nikon,\nOlympus/Epson, Panasonic/Leica, Pentax/Asahi, Ricoh, Sanyo,\nSigma/Foveon and Sony.\n",
+   "maintainers": [
+    {
+     "email": "kiloreux@gmail.com",
+     "github": "kiloreux",
+     "name": "Kiloreux Emperex"
+    }
+   ],
+   "name": "perl5.28.0-Image-ExifTool",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:335"
+  },
+  "revs": [
+   "391d9ecc09e29078c09fe75c0f0493555bf47fac",
+   "391d9ecc09e29078c09fe75c0f0493555bf47fac"
+  ]
+ },
  "11.70": {
   "meta": {
    "description": "A tool to read, write and edit EXIF meta information",
@@ -71,7 +175,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "0bf298df24f721a7f85c580339fb7eeff64b927c"
+   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
   ]
  },
  "11.85": {
