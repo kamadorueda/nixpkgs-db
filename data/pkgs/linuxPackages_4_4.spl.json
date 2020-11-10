@@ -258,7 +258,7 @@
   },
   "revs": [
    "26e5b4210640dba7900a1e7e7761bc24d5434dff",
-   "39ac62293c1f9160cc1be3a605873cc226c752b7"
+   "4938afdbe6258a810012c7aa5c9de8ce1f5cbf96"
   ]
  },
  "0.6.5.8-4.4.47": {
@@ -1142,7 +1142,7 @@
   },
   "revs": [
    "01fc1a80b362edee624e67709eea9844e2c061a9",
-   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
+   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
   ]
  },
  "0.7.10-4.4.154": {
@@ -2012,7 +2012,7 @@
   },
   "revs": [
    "00eaa166fcd92ae16e8359d45282ecb390dde4b2",
-   "27aed1b6426d204d4db32222b9e846945654c340"
+   "4893aeae7a52b1236b9231a72dc520797e420935"
   ]
  },
  "0.7.12-4.4.166": {
@@ -2466,7 +2466,7 @@
   },
   "revs": [
    "03674f4128547d6a97e2bce840b761a3c62843c8",
-   "3e7af59243092720df41da27f49779fe9632a410"
+   "473a3ef60619d6be04a41ee6de633df6067a1c68"
   ]
  },
  "0.7.12-4.4.174": {
@@ -3216,7 +3216,7 @@
   },
   "revs": [
    "0ff6b8863a8916766616845cc9f723edd6ce3558",
-   "14f8e5dbb132aaf4dca1508f903c75bb7c7bbf17"
+   "4683727693cf56e5f87f7e37dd9b8ea4291df958"
   ]
  },
  "0.7.13-4.4.182": {
@@ -7883,6 +7883,64 @@
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
+ "0.7.9-4.4.167": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "4773e7740b02115abe00cc3feee72c39c1810033",
+   "4773e7740b02115abe00cc3feee72c39c1810033"
+  ]
+ },
  "0.7.9-4.4.169": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -7996,7 +8054,7 @@
   },
   "revs": [
    "01bbc716e23cb378012029faa87afc651f211abc",
-   "1b42a1ba1e63ce4703216903c79c0836eaf53aeb"
+   "46e653673ec9a78a9b6bfd9d2acd6d2edd685159"
   ]
  },
  "18.09pre-git-4.4.148": {
@@ -8170,7 +8228,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "17de73a383407b9e326bf969094ccce8938d9976"
+   "4688f4078fa655fa3e56a8a4b2591fb195a7eceb"
   ]
  },
  "18.09pre-git-4.4.151": {

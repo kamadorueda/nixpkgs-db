@@ -95,7 +95,7 @@
   },
   "revs": [
    "0121066f5f34701a4c404d04434083fb83f82942",
-   "21368c4c67580f6ff245636d4af37d3094a1cd09"
+   "48a0c5a3a728418286d4790491ed1bd9c4df9e7e"
   ]
  },
  "0.7.0-rc2-4.4.42": {
@@ -669,7 +669,7 @@
   },
   "revs": [
    "002a2b479a245d10691a394454f29e27d95de719",
-   "34a565cba94e49c1c8395511ed9dd7c37b5c6642"
+   "4861ab9dbea148c01f8d1c17a926046dd7aa344b"
   ]
  },
  "0.7.0-rc3-4.9.23": {
@@ -873,7 +873,7 @@
   },
   "revs": [
    "02a188c9199e6dfdbd92176d090b30365c400c97",
-   "05b2da80fe47ce2c54fa75f60f697db566bf1700"
+   "471ae2e55150f9bcab938c17077ae76c0e9becba"
   ]
  },
  "0.7.0-rc3-4.9.29": {
@@ -1314,7 +1314,7 @@
   },
   "revs": [
    "02aa3264f5f8301648ff5b0dc229b30f5c4221f3",
-   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
+   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
   ]
  },
  "2017-08-11-4.9.50": {
@@ -2294,7 +2294,7 @@
   },
   "revs": [
    "000b68c22606fc244456e09c92c83663614a96d9",
-   "0134ccb4dddecd3c5e22289d4665e34f2e6a9510"
+   "4603679bd23c3126b3cead097765557b0276a744"
   ]
  },
  "2017-10-16-4.9.59": {
@@ -4162,7 +4162,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "3ec39daf0ecf3c1855c31fff8655868b764afb23"
+   "479f6960d8d7a48c34bf413019068bcc8822f836"
   ]
  },
  "2018-04-10-4.14.40": {
@@ -6773,6 +6773,64 @@
   "revs": [
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+  ]
+ },
+ "2018-05-07-4.14.87": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "4773e7740b02115abe00cc3feee72c39c1810033",
+   "4773e7740b02115abe00cc3feee72c39c1810033"
   ]
  },
  "2018-05-07-4.14.89": {

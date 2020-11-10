@@ -163,7 +163,7 @@
   },
   "revs": [
    "26e5b4210640dba7900a1e7e7761bc24d5434dff",
-   "39ac62293c1f9160cc1be3a605873cc226c752b7"
+   "4938afdbe6258a810012c7aa5c9de8ce1f5cbf96"
   ]
  },
  "0.7.0-rc3-4.4.47": {
@@ -1081,7 +1081,7 @@
   },
   "revs": [
    "01fc1a80b362edee624e67709eea9844e2c061a9",
-   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
+   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
   ]
  },
  "2017-09-26-4.4.100": {
@@ -5327,6 +5327,64 @@
   "revs": [
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2",
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
+  ]
+ },
+ "2018-05-07-4.4.167": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "4773e7740b02115abe00cc3feee72c39c1810033",
+   "4773e7740b02115abe00cc3feee72c39c1810033"
   ]
  },
  "2018-05-07-4.4.169": {

@@ -163,7 +163,7 @@
   },
   "revs": [
    "26e5b4210640dba7900a1e7e7761bc24d5434dff",
-   "39ac62293c1f9160cc1be3a605873cc226c752b7"
+   "4938afdbe6258a810012c7aa5c9de8ce1f5cbf96"
   ]
  },
  "0.7.0-rc3-4.4.47": {
@@ -1081,7 +1081,7 @@
   },
   "revs": [
    "01fc1a80b362edee624e67709eea9844e2c061a9",
-   "12a70ca67fc003ee6a75d81b081500cad01bb42c"
+   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
   ]
  },
  "0.8.0-4.4.180": {
@@ -1198,7 +1198,7 @@
   },
   "revs": [
    "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
-   "2cdb1ed132e7146ca96e767338964b6973b20072"
+   "4683727693cf56e5f87f7e37dd9b8ea4291df958"
   ]
  },
  "0.8.0-rc1-4.4.155": {
@@ -1894,7 +1894,7 @@
   },
   "revs": [
    "00eaa166fcd92ae16e8359d45282ecb390dde4b2",
-   "27aed1b6426d204d4db32222b9e846945654c340"
+   "4893aeae7a52b1236b9231a72dc520797e420935"
   ]
  },
  "0.8.0-rc2-4.4.166": {
@@ -2923,7 +2923,7 @@
   },
   "revs": [
    "03674f4128547d6a97e2bce840b761a3c62843c8",
-   "3e7af59243092720df41da27f49779fe9632a410"
+   "473a3ef60619d6be04a41ee6de633df6067a1c68"
   ]
  },
  "0.8.0-rc3-4.4.174": {
@@ -5183,7 +5183,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "459c60dda2406d2207d2afd90f210ffc87efde54"
+   "46d3cf2c1b45951753c059fc8a1d8c4e6c736785"
   ]
  },
  "0.8.3-4.4.217": {
@@ -6857,7 +6857,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "28651044ad724fc549e672366b3e9a1c3d151706"
+   "488bb6ad2ae3661d092f39eca5e2bc85af0d85b8"
   ]
  },
  "0.8.4-4.4.237": {
@@ -7043,7 +7043,7 @@
   },
   "revs": [
    "2db182abc8acd862e241984422b43495080d3650",
-   "2db182abc8acd862e241984422b43495080d3650"
+   "47a0d2d414cc0003ed4b8d1bcf648e9327bfa54f"
   ]
  },
  "0.8.4-4.4.240": {
@@ -7477,7 +7477,7 @@
   },
   "revs": [
    "0ec5a75d72e789fcfc49f2e664c875107f764142",
-   "11b4cc52db2af7af9ea5d4740019078a70bf4b09"
+   "48b48f501575d2a8973a1ba191f246a8e84e86cf"
   ]
  },
  "2.0.0-rc2-4.4.237": {
@@ -7725,7 +7725,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "0989b93cf892fe7dd8b53974747a12794391bdca"
+   "46633c2abd48ba20be6b204925debc654db32397"
   ]
  },
  "2.0.0-rc3-4.4.240": {
@@ -12283,6 +12283,64 @@
    "03f9fa3521d3e0cf8f21f2d5e55af4b404cbf1a2"
   ]
  },
+ "2018-05-22-4.4.167": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:133"
+  },
+  "revs": [
+   "4773e7740b02115abe00cc3feee72c39c1810033",
+   "4773e7740b02115abe00cc3feee72c39c1810033"
+  ]
+ },
  "2018-05-22-4.4.169": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -12396,7 +12454,7 @@
   },
   "revs": [
    "01bbc716e23cb378012029faa87afc651f211abc",
-   "1b42a1ba1e63ce4703216903c79c0836eaf53aeb"
+   "46e653673ec9a78a9b6bfd9d2acd6d2edd685159"
   ]
  },
  "2018-08-13-4.4.148": {
@@ -12570,7 +12628,7 @@
   },
   "revs": [
    "002ae44fa1ef54363a1f16974117dc7f87136549",
-   "17de73a383407b9e326bf969094ccce8938d9976"
+   "4688f4078fa655fa3e56a8a4b2591fb195a7eceb"
   ]
  },
  "2018-08-13-4.4.151": {

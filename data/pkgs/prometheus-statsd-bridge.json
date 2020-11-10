@@ -173,6 +173,105 @@
    "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
+ "0.9.0": {
+  "meta": {
+   "description": "Receives StatsD-style metrics and exports them to Prometheus",
+   "homepage": "https://github.com/prometheus/statsd_exporter",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "benley@gmail.com",
+     "github": "benley",
+     "name": "Benjamin Staffin"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "name": "Ivan Kozik"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "statsd_exporter",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/monitoring/prometheus/statsd-exporter.nix:18"
+  },
+  "revs": [
+   "46ce4fac18db8923e72a3fb9ece65dbf436800dc",
+   "46ce4fac18db8923e72a3fb9ece65dbf436800dc"
+  ]
+ },
  "9715b18": {
   "meta": {
    "description": "Receives StatsD-style metrics and exports them to Prometheus",

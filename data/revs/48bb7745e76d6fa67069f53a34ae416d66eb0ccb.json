@@ -1,0 +1,4 @@
+{
+ "summary": "gcc 4.4.2 is also affected by the wrong CPP passed to the configure script of the target libraries, as 4.3.4 I trigger the breaking build using uclibc, instead of glibc, and then the mixture of CPP getting the build glibc headers, and CC getting the uclibc headers, makes the problem evident. In 4.3.4 it only affected libmudflap. In 4.4.2, it affects libmudflap and libstdc++.",
+ "timestamp": "1260353147"
+}
