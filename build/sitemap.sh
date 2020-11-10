@@ -6,7 +6,8 @@
 source "${srcCtxSh}"
 
 function main {
-  python3 ./build/sitemap.py
+      python3 ./build/sitemap.py \
+  &&  cp service/public/sitemap* docs/
 }
 
 main "${@}"

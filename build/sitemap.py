@@ -38,28 +38,28 @@ def main():
                 if version:
                     urls.append(abspath(f'/#/pkg/{encode(pkg)}/{encode(version)}'))
 
-    index = 0
     urls.sort()
-    with open('service/public/sitemapindex.xml', 'w') as sitemap_index:
-        write(sitemap_index, '<?xml version="1.0" encoding="UTF-8"?>')
-        write(sitemap_index, '<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/siteindex.xsd">')
 
-        for urls_chunk in chunked(urls, 50000):
-            index += 1
-            with open(f'service/public/sitemap.{index}.xml', 'w') as sitemap:
-                write(sitemap, '<?xml version="1.0" encoding="UTF-8" ?>')
-                write(sitemap, '<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">')
-                for url in urls_chunk:
-                    write(sitemap, f'<url><loc>{url}</loc></url>')
-                write(sitemap, '</urlset>')
+    for urls_chunk_index, urls_chunk in enumerate(chunked(urls, 1000)):
+        sitemap_path = f'service/public/sitemap.{urls_chunk_index}.xml'
+        print(sitemap_path)
+        with open(sitemap_path, 'w') as sitemap:
+            write(sitemap, '<?xml version="1.0" encoding="UTF-8" ?>')
+            write(sitemap, '<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">')
+            for url in urls_chunk:
+                write(sitemap, f'<url><loc>{url}</loc></url>')
+            write(sitemap, '</urlset>')
 
-            write(sitemap_index, f"""
-                <sitemap>
-                    <loc>{abspath(f'/sitemap.{index}.xml')}</loc>
-                </sitemap>
-            """)
-
-        write(sitemap_index, '</sitemapindex>')
+    for sitemaps_chunk_index, sitemaps_chunk in enumerate(chunked(range(urls_chunk_index + 1), 50)):
+        sitemap_index_path = f'service/public/sitemapindex.{sitemaps_chunk_index}.xml'
+        print(sitemap_index_path)
+        with open(sitemap_index_path, 'w') as sitemap_index:
+            write(sitemap_index, '<?xml version="1.0" encoding="UTF-8"?>')
+            write(sitemap_index, '<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/siteindex.xsd">')
+            for urls_chunk_index in sitemaps_chunk:
+                sitemap_path = abspath(f'/sitemap.{urls_chunk_index}.xml')
+                write(sitemap_index, f"<sitemap><loc>{sitemap_path}</loc></sitemap>")
+            write(sitemap_index, '</sitemapindex>')
 
 
 if __name__ == '__main__':
