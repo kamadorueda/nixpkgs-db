@@ -155,7 +155,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "2ecba01acf8a7abac743290e15face8c74f6cb36"
+   "456369f7e6ea0206b659377363f9c3c1d71b191a"
   ]
  },
  "2.10.5-4.14.41-a": {
@@ -1799,6 +1799,59 @@
   "revs": [
    "0c19b381da2eb75a4b080e777b9ebb55ec161a9a",
    "17f1e9b350de9dfc21a71521ad88c253d77c9053"
+  ]
+ },
+ "2.10.5-4.14.77": {
+  "meta": {
+   "description": "Linux kernel modules for LTTng tracing",
+   "homepage": "http://lttng.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "lttng-modules",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/lttng-modules/default.nix:29"
+  },
+  "revs": [
+   "43631e2b01b8d945046a1b735edeab3173a4abf7",
+   "43631e2b01b8d945046a1b735edeab3173a4abf7"
   ]
  },
  "2.10.5-4.14.78": {

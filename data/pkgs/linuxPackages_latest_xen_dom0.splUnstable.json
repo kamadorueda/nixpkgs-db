@@ -1633,7 +1633,7 @@
   },
   "revs": [
    "0034f9e52c581e2f3dc924c3ff73630fae555024",
-   "359d6b5ad612a7c8cf05115d2542d5b7e0621e42"
+   "4521f8f6ff8bdec13a5f8e6810b787cb5bc0df6e"
   ]
  },
  "2017-09-26-4.13.6": {
@@ -1703,7 +1703,7 @@
   },
   "revs": [
    "00669df0c164f0d97c785b1fe48e1ba30b56a6ac",
-   "1a4e00c09935aa5410e9a1e88fad79a6517558ff"
+   "4581ac21d2bc79ec29dbec69ced51c0a82bf7d8d"
   ]
  },
  "2017-09-26-4.13.8": {
@@ -1808,7 +1808,7 @@
   },
   "revs": [
    "007a867a0af066b8aaa268f74d26fc0a78403c15",
-   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
+   "42a7a08c160d7d62852d92ff49fe2da45f25dd96"
   ]
  },
  "2017-09-26-4.15": {
@@ -2441,6 +2441,41 @@
    "25865688a729d15dbb2dc21ebd9fbf74e2cffc4b"
   ]
  },
+ "2017-12-21-4.14.11": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Franz Pletz <fpletz@fnordicwalking.de>",
+    "Robin Gloster <mail@glob.in>"
+   ],
+   "name": "spl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:45"
+  },
+  "revs": [
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed",
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed"
+  ]
+ },
  "2017-12-21-4.14.13": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -3023,7 +3058,7 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "1afb012df6f2a5237d47812ec53e25e360b7f630"
+   "435bceb69eb71bd98fd1f4b2ef27eaa3e9dedd7f"
   ]
  },
  "2018-01-24-4.15.3": {
@@ -4234,7 +4269,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "31010e0f89a43985122a94728b7dce14ec27739e"
+   "42835a4328af437476abf91b88b93295828873a7"
   ]
  },
  "2018-04-10-4.16.5": {
@@ -4292,7 +4327,7 @@
   },
   "revs": [
    "00ddbc8196fd05439009eee256ac824a56e98a8c",
-   "3b8c7424d1948e52bc2afe0e41e3b64db3f2c22b"
+   "42d11feae80f86b450ce64eef75a6f21dc807aab"
   ]
  },
  "2018-04-10-4.16.6": {
@@ -4466,7 +4501,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "2ecba01acf8a7abac743290e15face8c74f6cb36"
+   "456369f7e6ea0206b659377363f9c3c1d71b191a"
   ]
  },
  "2018-04-10-4.16.9": {
@@ -4756,7 +4791,7 @@
   },
   "revs": [
    "02c42d0883ebb4c4c9e891de9a1368b9925dca91",
-   "338b407b27df2be760690c52fc0f13de0312504d"
+   "44358ff94b314977415bd92b3f220b7dd16ed711"
   ]
  },
  "2018-05-07-4.16.15": {

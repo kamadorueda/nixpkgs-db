@@ -82,7 +82,7 @@
   },
   "revs": [
    "000791e74a511f862081aff90ab27304c88f0aba",
-   "2e7847cd12cbaf8abc32e1d53683700a8e97de22"
+   "440656dbd018472e0d81e9c8cc820598c40661c2"
   ]
  },
  "16.0.1": {
@@ -480,7 +480,7 @@
   },
   "revs": [
    "003c93eef3df6b8134af5f15c9d98dee0cb4ddc5",
-   "346ad742774668e43b242ee94efd1d6f43a45bf6"
+   "42911b19033e6e2d95dd4d74f456927cdcf8bc73"
   ]
  },
  "25.0": {
@@ -498,7 +498,7 @@
   },
   "revs": [
    "000962c3fb53dcbe07e365875623d2d19fb4cdf6",
-   "3b0b5494fdd05fb29b5c32e3c52cda77d21985a1"
+   "447fce7fd568882b3f9d3edef9e6ef34f0b7adc1"
   ]
  },
  "25.0.1": {
@@ -756,7 +756,7 @@
   },
   "revs": [
    "010edd37395bd092076ec4f9707989d6ba88ceac",
-   "1526ba9d3386a20585d764049001f1d07daa01fd"
+   "42161470ae3840ad183a1f0fc783f9f1bac90484"
   ]
  },
  "3.5.10": {
@@ -900,7 +900,7 @@
   },
   "revs": [
    "006528b42d39183b6ad5b198b97dc5c2ab642027",
-   "262bcb3f5808aad6031eb549a7d2ccb5250ce7be"
+   "4309788df022c89765cd7f6b178f4ce7a08db600"
   ]
  },
  "3.6.11": {
@@ -1060,7 +1060,7 @@
   },
   "revs": [
    "09c85666cd4bd89a36283c6de3c8849e7cc46dde",
-   "139de1ea2f66b6fc1e8bda062265170242bf4cb0"
+   "44f2d4439ff9a26b5f2ccf35fe198a2df5f0cbbc"
   ]
  },
  "30.0": {
@@ -1843,7 +1843,7 @@
   },
   "revs": [
    "00137438459949bfbd2c0311e8664a9da8bb1e53",
-   "1af712b95c298bf61db426e709b44242129ea2c4"
+   "43b3f6e59d5e948adeab1ffd74a09ec252b372fd"
   ]
  },
  "40.0.3": {
@@ -2168,7 +2168,7 @@
   },
   "revs": [
    "001c28b63ccb4a0f7ec169645a4acf42239b8768",
-   "1cfa84a52d5600e86d113209fd48ba8e3cb6dde2"
+   "44eeb747ac9168c9fea8fc8dc302f09efe709d2a"
   ]
  },
  "46.0": {
@@ -2193,7 +2193,7 @@
   },
   "revs": [
    "007ea84222f31ee96202ad96d68446ce2795e387",
-   "0883048ef4be625331ad0bb0629dc8863e7106a1"
+   "43427da31e6f653a2ac48c76216447b118a8f1b4"
   ]
  },
  "46.0.1": {
@@ -2890,6 +2890,32 @@
    "25865688a729d15dbb2dc21ebd9fbf74e2cffc4b"
   ]
  },
+ "57.0.3": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:162"
+  },
+  "revs": [
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed",
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed"
+  ]
+ },
  "57.0.4": {
   "meta": {
    "description": "A web browser built from Firefox source tree (with plugins: )",
@@ -3067,7 +3093,41 @@
   },
   "revs": [
    "000482ffc470f798fb3aa1673b39a38680cbb567",
-   "2ecba01acf8a7abac743290e15face8c74f6cb36"
+   "456369f7e6ea0206b659377363f9c3c1d71b191a"
+  ]
+ },
+ "59.0.3": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:162"
+  },
+  "revs": [
+   "459312c4239a439d9f0924f4713c33a12be1f4f2",
+   "459312c4239a439d9f0924f4713c33a12be1f4f2"
   ]
  },
  "6.0": {
@@ -3829,7 +3889,7 @@
   },
   "revs": [
    "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
-   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+   "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
  "64.0": {
@@ -5922,7 +5982,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "1e6f11a2d0ec644d0a9671679d81d5d79c3ad12b"
+   "459c60dda2406d2207d2afd90f210ffc87efde54"
   ]
  },
  "74.0.1": {
@@ -6353,7 +6413,7 @@
   },
   "revs": [
    "0009c1f650ba619de97df36322fbd0346db0c099",
-   "14adc7a40ef639deca5672551c894fbae6bca72f"
+   "455d1e934b9b66078290ad4cc74fb6b0976e4e42"
   ]
  },
  "80.0": {

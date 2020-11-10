@@ -1524,7 +1524,7 @@
   },
   "revs": [
    "00e27a285436fcf059d67c9c1a8091b30f950d67",
-   "04b3b00917ceec46ca0b678e0fcfa5f2eea3512e"
+   "4521f8f6ff8bdec13a5f8e6810b787cb5bc0df6e"
   ]
  },
  "2017-09-26-4.9.55": {
@@ -1594,7 +1594,7 @@
   },
   "revs": [
    "00669df0c164f0d97c785b1fe48e1ba30b56a6ac",
-   "1a4e00c09935aa5410e9a1e88fad79a6517558ff"
+   "4581ac21d2bc79ec29dbec69ced51c0a82bf7d8d"
   ]
  },
  "2017-09-26-4.9.57": {
@@ -1979,7 +1979,7 @@
   },
   "revs": [
    "00b92751f614f2f6ffd4f426d31f92c47e9da1ea",
-   "01901098dda1a4f23db8d2f803343e7a76b29cbf"
+   "42a7a08c160d7d62852d92ff49fe2da45f25dd96"
   ]
  },
  "2017-09-26-4.9.80": {
@@ -2504,7 +2504,7 @@
   },
   "revs": [
    "011773edec1be772a47443f86cfbcbcbcfee6226",
-   "011773edec1be772a47443f86cfbcbcbcfee6226"
+   "4434843d9cfb53ab2ddfa1c5139247cbe5c1bfda"
   ]
  },
  "2017-11-16-4.9.62": {
@@ -2680,6 +2680,41 @@
   "revs": [
    "0017479abbe15c7d472b8c7563e5353608e67e5d",
    "25865688a729d15dbb2dc21ebd9fbf74e2cffc4b"
+  ]
+ },
+ "2017-12-21-4.9.74": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Franz Pletz <fpletz@fnordicwalking.de>",
+    "Robin Gloster <mail@glob.in>"
+   ],
+   "name": "spl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:45"
+  },
+  "revs": [
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed",
+   "41df99400149a6747b31c8ed1049f556c9c0e0ed"
   ]
  },
  "2017-12-21-4.9.76": {
@@ -4185,7 +4220,7 @@
   },
   "revs": [
    "00c4ba1ea0111f50e188cce7ddc3f5fc8dc58be3",
-   "2ecba01acf8a7abac743290e15face8c74f6cb36"
+   "456369f7e6ea0206b659377363f9c3c1d71b191a"
   ]
  },
  "2018-04-10-4.14.41": {
@@ -4649,7 +4684,7 @@
   },
   "revs": [
    "04bd841d1b742c89f878b70d3e98d1f61c190e53",
-   "252a8af143f8c47ff62ace476df42a2d62db1601"
+   "42e18cf6d1086f68210c9d9ad1293bb53b66a7cd"
   ]
  },
  "2018-05-07-4.14.47": {
@@ -6332,6 +6367,64 @@
   "revs": [
    "0c19b381da2eb75a4b080e777b9ebb55ec161a9a",
    "17f1e9b350de9dfc21a71521ad88c253d77c9053"
+  ]
+ },
+ "2018-05-07-4.14.77": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "43631e2b01b8d945046a1b735edeab3173a4abf7",
+   "43631e2b01b8d945046a1b735edeab3173a4abf7"
   ]
  },
  "2018-05-07-4.14.78": {

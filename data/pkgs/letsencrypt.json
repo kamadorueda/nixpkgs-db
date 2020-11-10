@@ -471,7 +471,92 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "2aead2422f85562a09619a657ecab0ca405f2d72"
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.29.1": {
+  "meta": {
+   "description": "ACME client that can obtain certs and extensibly update server configurations",
+   "homepage": "https://github.com/certbot/certbot",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "certbot",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/admin/certbot/default.nix:49"
+  },
+  "revs": [
+   "44c84d10f39114dc0c22ac2a0db8fc810660f806",
+   "44c84d10f39114dc0c22ac2a0db8fc810660f806"
   ]
  },
  "0.30.2": {
@@ -993,7 +1078,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "3ba224f77d5f0e56f72b703f962176c56cd63bf8"
+   "428fc4e297093eefa5a17689a3a9e9a6b8b7f154"
   ]
  },
  "1.9.0": {

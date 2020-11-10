@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix another bug in Berkeley DB's DB_REGISTER feature (Oracle should   hire me...).  There is a very small race between processes exiting   the environment and processes entering, such that the entering   process would incorrectly conclude that the exiting process had   died and recovery was necessary.  However, this race was triggering   crashes on a daily basis in our build farm.",
+ "timestamp": "1179343857"
+}
