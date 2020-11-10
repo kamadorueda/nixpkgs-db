@@ -626,7 +626,7 @@
   },
   "revs": [
    "000c7800a1030a61677b64e9edb1670d3d940194",
-   "1e47a6c30c4ef1e5cab0e495ab6b05f525216553"
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
   ]
  },
  "5.2.14-4.17.7": {
@@ -696,7 +696,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "1f1aa5f888d8a52abe2f7de9687eb50a9ae206ef"
+   "3c61f44aceb50cbe98a9251593514527e5b2c02c"
   ]
  },
  "5.2.14-4.17.9": {
@@ -804,6 +804,41 @@
    "01c9da0ebb5517114b7c6b1d1ececf9bd2518a5d"
   ]
  },
+ "5.2.8-4.17.4": {
+  "meta": {
+   "description": "PC emulator (kernel modules)",
+   "homepage": "https://www.virtualbox.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    },
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "virtualbox-modules",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/virtualbox/default.nix:31"
+  },
+  "revs": [
+   "3f72b1487d557e6f7adabc712948814c3c520d5e",
+   "3f72b1487d557e6f7adabc712948814c3c520d5e"
+  ]
+ },
  "5.2.8-4.17.5": {
   "meta": {
    "description": "PC emulator (kernel modules)",
@@ -836,7 +871,7 @@
   },
   "revs": [
    "1fd6aaa5ca0af6c0be43979a43747c8a7a6786e7",
-   "315da196c6addd0da2cc0d34f4e921a418abe714"
+   "41088a6945f4c5ec67b7b73a523049d700cd62a7"
   ]
  }
 }

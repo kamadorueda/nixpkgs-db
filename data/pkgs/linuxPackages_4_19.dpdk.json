@@ -428,7 +428,7 @@
   },
   "revs": [
    "063d09f3e70851fbf987def7a9a2b3f67582fae4",
-   "1a3b4abb16a44c7177280ba0661e50843208d1f9"
+   "3fbbdaef52002d0b85946ec109eff7fe77a44b1a"
   ]
  },
  "17.11.2-4.19.17": {
@@ -572,7 +572,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "3b276cfcd06b8e05f1ad3df9985a285bd2c1c937"
+   "3fa83aee7a2491a9df413524cb821e31d183f7ba"
   ]
  },
  "17.11.2-4.19.2": {
@@ -1868,7 +1868,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "254a16c42e20a6b7375a7cf856a8ee69b7ba8d63"
+   "3eefc0b90923c02adad9d841b34e22c14adfdc08"
   ]
  },
  "17.11.2-4.19.7": {
@@ -3134,7 +3134,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
+   "402d625ed0d347884dda2f0e47af34381facaeb6"
   ]
  },
  "19.11-4.19.119": {
@@ -3398,7 +3398,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "38ac9ed13a659d1b977e9da2257522e616d7c2e1"
+   "3ff8bb704d98436d74df4b42b1dd7e0b2e37616e"
   ]
  },
  "19.11-4.19.123": {
@@ -4388,7 +4388,7 @@
   },
   "revs": [
    "020666f17a7a5234f9b96307235b02c313d21bed",
-   "1d1d585f9960b6ff27a0c347ff8350d84bc2ed88"
+   "3c64d2addfa26b62f8245902ec60be94caeb011c"
   ]
  },
  "19.11-4.19.139": {
@@ -4983,6 +4983,72 @@
   "revs": [
    "0bc6da3ab075f3ca35b83b6a2069a389bd769c1e",
    "16f0e6b95a06bbb520553d3bc2327d15556e90aa"
+  ]
+ },
+ "19.11-4.19.148": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "magenbluten@codemonkey.cc",
+     "github": "magenbluten",
+     "githubId": 1140462,
+     "name": "magenbluten"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:69"
+  },
+  "revs": [
+   "414eedcf4e40383a2e404499470bca9c26eba770",
+   "414eedcf4e40383a2e404499470bca9c26eba770"
   ]
  },
  "19.11-4.19.149": {

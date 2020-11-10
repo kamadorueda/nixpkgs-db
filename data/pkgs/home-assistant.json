@@ -432,7 +432,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
+   "402d625ed0d347884dda2f0e47af34381facaeb6"
   ]
  },
  "0.109.0": {
@@ -884,7 +884,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "1e70a95d45d30e22791e95bdea344c1bb769fa43"
+   "3c379af10b8a5f75b1d7561d951aa49d628adf00"
   ]
  },
  "0.113.0": {
@@ -1363,6 +1363,74 @@
    "13d1db923c293ec76a1ad8c5251a4d4b9305f678"
   ]
  },
+ "0.116.1": {
+  "meta": {
+   "description": "Open-source home automation platform running on Python 3",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "githubId": 6806011,
+     "name": "Robert Sch\u00fctz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "hexa@darmstadt.ccc.de",
+     "github": "mweinelt",
+     "githubId": 131599,
+     "name": "Martin Weinelt"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:199"
+  },
+  "revs": [
+   "41331908ac9b530914a5c21d9ad3ab7aad8cf39b",
+   "41331908ac9b530914a5c21d9ad3ab7aad8cf39b"
+  ]
+ },
  "0.116.2": {
   "meta": {
    "description": "Open-source home automation platform running on Python 3",
@@ -1429,6 +1497,74 @@
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
    "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+  ]
+ },
+ "0.116.3": {
+  "meta": {
+   "description": "Open source home automation that puts local control and privacy first",
+   "homepage": "https://home-assistant.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "githubId": 6806011,
+     "name": "Robert Sch\u00fctz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "hexa@darmstadt.ccc.de",
+     "github": "mweinelt",
+     "githubId": 131599,
+     "name": "Martin Weinelt"
+    }
+   ],
+   "name": "homeassistant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/home-assistant/default.nix:201"
+  },
+  "revs": [
+   "3d5ecbd83e10a0cd156536c4ed4978bd51863e25",
+   "3d5ecbd83e10a0cd156536c4ed4978bd51863e25"
   ]
  },
  "0.116.4": {
@@ -2333,7 +2469,7 @@
   },
   "revs": [
    "005d803762403effdd0d27bb5c2bb71d3c31d7d4",
-   "116cce8b5f868c18b91e67fb3b5ba0eed093e62e"
+   "3ec39daf0ecf3c1855c31fff8655868b764afb23"
   ]
  },
  "0.69.0": {
@@ -2657,7 +2793,7 @@
   },
   "revs": [
    "0103ae2f6db2835708bf754d6332bbb740640b5d",
-   "2f0af764c0c8383f05db0d37f004f347dd2f193c"
+   "3d60ae61e7f19522c609d74d761e9df3377f8514"
   ]
  },
  "0.73.2": {
@@ -3845,7 +3981,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "376b2ef2b83be9671c4f24b7ff4ded335d5352d4"
+   "3fa83aee7a2491a9df413524cb821e31d183f7ba"
   ]
  },
  "0.86.4": {
@@ -4277,7 +4413,7 @@
   },
   "revs": [
    "015888ce7f7bd8e5168390fc6a923972389f0727",
-   "38b0717d50094314dc703059cceb97f81b63a2e0"
+   "419b7c6bbd0a3a1eb02d140ed8f204b1acf6afe7"
   ]
  },
  "0.91.3": {
