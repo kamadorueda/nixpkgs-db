@@ -1,0 +1,4 @@
+{
+ "summary": "* Work around a bizarre bug that causes nvidia-settings to be able to   find libXrandr when invoked as \"nvidia-settings\", but not when   invoked by absolute path   (e.g. \"/var/run/current-system/sw/bin/nvidia-settings\").  Adding it   to libGL's RUNPATH fixes this.  Strangely, libGL doesn't even   contain a reference to libXrandr.",
+ "timestamp": "1245156695"
+}

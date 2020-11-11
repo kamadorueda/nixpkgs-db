@@ -1,0 +1,4 @@
+{
+ "summary": "* The expression `builtins.substring 5 10 perl.name' barfs if   `perl.name' evaluates to \"perl\" (since there are not enough   characters in the string).  It's better to use   builtins.parseDrvName.",
+ "timestamp": "1295008646"
+}

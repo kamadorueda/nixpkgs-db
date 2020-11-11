@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't use toString here - it causes the path of source file   (e.g. /home/foo/nixpkgs/.../glx-patch-0.6.2.patch) to be   substituted, which is clearly impure.  I noticed this because I was   getting different derivations for Compiz when running as root   vs. another user.",
+ "timestamp": "1222131125"
+}
