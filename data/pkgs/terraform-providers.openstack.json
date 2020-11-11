@@ -95,6 +95,54 @@
    "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
+ "1.13.0": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/terraform-providers/terraform-provider-openstack",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "terraform-provider-openstack",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:194"
+  },
+  "revs": [
+   "4e60afdc5ef27c3a0f1df8181171c9d7501e6cb9",
+   "4e60afdc5ef27c3a0f1df8181171c9d7501e6cb9"
+  ]
+ },
  "1.14.0": {
   "meta": {
    "description": "",
@@ -284,7 +332,7 @@
   },
   "revs": [
    "0015e885ce6c6bac448b639191123fb39a94aa92",
-   "2e58cfaacc329200edbabbff0000328c8f111b9d"
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb"
   ]
  },
  "1.19.0": {

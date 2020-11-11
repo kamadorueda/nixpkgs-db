@@ -1,0 +1,4 @@
+{
+ "summary": "I take out getPkgConfig. It looks to me as if it needed a solution, but noone took action. I take action before much discussion. For what I see: - getPkgConfig problems are hard to track - config.nix trying to forecast getPkgConfig behaviour looks me as a bad approach,   and people should not trust such a config.nix unless they parsed the whole nixpkgs   for tricky effects. - It's not that hard to write config.nix in the style of getConfig - Every now and then newcomers hit the \"'git' is an attribute set while a boolean was expected\".",
+ "timestamp": "1293570455"
+}

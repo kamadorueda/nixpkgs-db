@@ -1,4 +1,43 @@
 {
+ "5.1.1-0.3.2": {
+  "meta": {
+   "description": "Kernel module driver for DDC/CI monitors",
+   "homepage": "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bricewge@gmail.com",
+     "github": "bricewge",
+     "name": "Brice Waegeneire"
+    }
+   ],
+   "name": "ddcci-driver",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ddcci/default.nix:36"
+  },
+  "revs": [
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb",
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb"
+  ]
+ },
  "5.4.10-0.3.2": {
   "meta": {
    "description": "Kernel module driver for DDC/CI monitors",
@@ -637,6 +676,46 @@
   "revs": [
    "00d5d64dc694b5ff4bdfab6dfd24775ff61e3a69",
    "023042cd26f6600b01776ba205a84434007a3118"
+  ]
+ },
+ "5.5.19-0.3.2": {
+  "meta": {
+   "description": "Kernel module driver for DDC/CI monitors",
+   "homepage": "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bricewge@gmail.com",
+     "github": "bricewge",
+     "githubId": 5525646,
+     "name": "Brice Waegeneire"
+    }
+   ],
+   "name": "ddcci-driver",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ddcci/default.nix:38"
+  },
+  "revs": [
+   "4f8f71a2ef0bc14ec0ebe9582c55616fa776c34a",
+   "4f8f71a2ef0bc14ec0ebe9582c55616fa776c34a"
   ]
  },
  "5.5.2-0.3.2": {
@@ -1716,7 +1795,7 @@
   },
   "revs": [
    "002b16d965bf4e097167a2077566299e5e96ab2e",
-   "2c09a26f498fcb5fd080afb25a1a95198d6bb132"
+   "4ef9eed22473685e3952402ff66b225de4147853"
   ]
  },
  "5.6.2-0.3.3": {
@@ -1796,7 +1875,7 @@
   },
   "revs": [
    "01d351651973d1ff51fca4d784db56cacdc1a28e",
-   "03c76d470a3ccbf05dcafaf1f91bba1974434529"
+   "4f701dd3af7e1037c867021f521500a7de296b70"
   ]
  },
  "5.6.4-0.3.3": {
@@ -3756,7 +3835,7 @@
   },
   "revs": [
    "012e55a4606cd7290a0248313659eef1be9988ef",
-   "265f2f576f94d7cbc3149304f2d6d7406b6ee8db"
+   "4d3e432756306f01783063e0e57cf739a167ab48"
   ]
  },
  "5.8.17-0.3.3": {
@@ -3996,7 +4075,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "2021d942c415eea6d0a17701329d99ba107fa09b"
+   "4e41dd4f3d8101048bc979d90e6bf3e56b577b64"
   ]
  },
  "5.8.7-0.3.3": {

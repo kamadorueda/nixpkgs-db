@@ -39,6 +39,45 @@
    "350f83785dc9252a8f4b2d5a7496844234786e3c"
   ]
  },
+ "4.19.42-0.3.2": {
+  "meta": {
+   "description": "Kernel module driver for DDC/CI monitors",
+   "homepage": "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bricewge@gmail.com",
+     "github": "bricewge",
+     "name": "Brice Waegeneire"
+    }
+   ],
+   "name": "ddcci-driver",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ddcci/default.nix:36"
+  },
+  "revs": [
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb",
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb"
+  ]
+ },
  "4.19.92-0.3.2": {
   "meta": {
    "description": "Kernel module driver for DDC/CI monitors",
@@ -1036,7 +1075,7 @@
   },
   "revs": [
    "01d351651973d1ff51fca4d784db56cacdc1a28e",
-   "03c76d470a3ccbf05dcafaf1f91bba1974434529"
+   "4f701dd3af7e1037c867021f521500a7de296b70"
   ]
  },
  "5.4.32-0.3.2": {
@@ -2516,7 +2555,7 @@
   },
   "revs": [
    "009c50976b5b8edcf7d871d1565bb060ed12a29c",
-   "2e5c1808b32611c19d652a47efb37a93e09c5504"
+   "4f5fb2b2b3842aee531b1210d6deeded2dfecec9"
   ]
  },
  "5.4.51-0.3.3": {
@@ -3436,7 +3475,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "2021d942c415eea6d0a17701329d99ba107fa09b"
+   "4e41dd4f3d8101048bc979d90e6bf3e56b577b64"
   ]
  },
  "5.4.63-0.3.2": {
@@ -3716,7 +3755,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "488bb6ad2ae3661d092f39eca5e2bc85af0d85b8"
+   "4b55b4853ac604236aed37963e882203cf358683"
   ]
  },
  "5.4.66-0.3.3": {

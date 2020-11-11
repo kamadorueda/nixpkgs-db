@@ -1,0 +1,4 @@
+{
+ "summary": "* In NixOS chroot builds, there is no root account.  So rcs' configure   should not rely on its existence in deciding whether to use   getpwuid().  Not using getpwuid() causes rcs to fail with \"ci:   setuid not supported\".",
+ "timestamp": "1265984846"
+}
