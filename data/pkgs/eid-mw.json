@@ -329,7 +329,7 @@
   },
   "revs": [
    "0031120921eef7baaa23340e22675a00d842a72e",
-   "0e0e3c0c08b77a64fc934795dc5d9647fbd58d42"
+   "5a5e86f5cde2086872075b2daf7a1b54bb2e0225"
   ]
  },
  "4.1.5": {
@@ -482,6 +482,45 @@
    "316406269d90c7aeb3194e94e1066fe3e2d95f57"
   ]
  },
+ "4.3.7": {
+  "meta": {
+   "description": "Belgian electronic identity card (eID) middleware",
+   "homepage": "http://eid.belgium.be/en/using_your_eid/installing_the_eid_software/linux/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "Allows user authentication and digital signatures with Belgian ID cards.\nAlso requires a running pcscd service and compatible card reader.\n\nThis package only installs the libraries. To use eIDs in NSS-compatible\nbrowsers like Chrom{e,ium} or Firefox, each user must first execute:\n\n  ~$ eid-nssdb add\n\n(Running the script once as root with the --system option enables eID\nsupport for all users, but will *not* work when using Chrom{e,ium}!)\n\nBefore uninstalling this package, it is a very good idea to run\n\n  ~$ eid-nssdb [--system] remove\n\nand remove all ~/.pki and/or /etc/pki directories no longer needed.\n",
+   "maintainers": [
+    {
+     "email": "bernard.fortz@gmail.com",
+     "github": "bfortz",
+     "name": "Bernard Fortz"
+    }
+   ],
+   "name": "eid-mw",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/eid-mw/default.nix:39"
+  },
+  "revs": [
+   "558c8a280fe7cec13c728c44fdbc3c92861fa9db",
+   "558c8a280fe7cec13c728c44fdbc3c92861fa9db"
+  ]
+ },
  "4.4.1": {
   "meta": {
    "description": "Belgian electronic identity card (eID) middleware",
@@ -596,7 +635,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "27aaaa5ba6923104a23bae75d323dc975390195e"
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
   ]
  },
  "4.4.16": {

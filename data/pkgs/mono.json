@@ -317,6 +317,63 @@
    "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
   ]
  },
+ "5.14.0.177": {
+  "meta": {
+   "description": "Cross platform, open source .NET development framework",
+   "homepage": "http://mono-project.com/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "obadz-nixos@obadz.com",
+     "github": "obadz",
+     "name": "obadz"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "mono",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/mono/generic-cmake.nix:85"
+  },
+  "revs": [
+   "55af73e1565a3502d15ab9c95baf762f8e1cced4",
+   "55af73e1565a3502d15ab9c95baf762f8e1cced4"
+  ]
+ },
  "5.16.0.220": {
   "meta": {
    "description": "Cross platform, open source .NET development framework",
@@ -371,7 +428,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "27aaaa5ba6923104a23bae75d323dc975390195e"
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
   ]
  },
  "5.20.1.27": {

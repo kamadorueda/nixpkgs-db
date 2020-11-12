@@ -247,6 +247,55 @@
    "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
+ "3.5.8": {
+  "meta": {
+   "description": "A high-level dynamically-typed programming language",
+   "homepage": "http://python.org",
+   "license": {
+    "fullName": "Python Software Foundation License version 2",
+    "shortName": "psfl",
+    "spdxId": "Python-2.0",
+    "url": "http://spdx.org/licenses/Python-2.0.html"
+   },
+   "long_description": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
+   "maintainers": [
+    {
+     "email": "fridh@fridh.nl",
+     "github": "fridh",
+     "name": "Frederik Rietdijk"
+    }
+   ],
+   "name": "python3",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/python/cpython/default.nix:258"
+  },
+  "revs": [
+   "575d2d711aad1a5b55473b1cfe0fc9b23fa68314",
+   "575d2d711aad1a5b55473b1cfe0fc9b23fa68314"
+  ]
+ },
  "3.5.9": {
   "meta": {
    "description": "A high-level dynamically-typed programming language",

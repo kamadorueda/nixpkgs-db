@@ -690,7 +690,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "28a5c36d1dbab092a4c2a7544a5036bb759d0ffe"
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
   ]
  },
  "0.8.0-rc4-4.14.102-156": {
@@ -1230,7 +1230,7 @@
   },
   "revs": [
    "0e0b8f2feb813cbd6ae1d670201b616579c24067",
-   "258d4b3ca4ce22ffbf5ffac6ea9478d8a6f6c9cc"
+   "58a26351c93b6968b0ead3603951c922371226c4"
   ]
  },
  "0.8.3-4.14.165-172": {
@@ -1478,7 +1478,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "43974d4b0d99615eb4e7829d24c8f4e669be2bb3"
+   "59c4870a9691d23fd4372af53fff740e4e66cfab"
   ]
  },
  "2.0.0-rc3-4.14.165-172": {
@@ -1781,6 +1781,64 @@
   "revs": [
    "004e7fb6fd112ec29446312a89f7b1b265164127",
    "1c9af2d89cdeb62eef0c9d3798fdd2203f21f221"
+  ]
+ },
+ "2018-05-22-4.14.66-147": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:142"
+  },
+  "revs": [
+   "5d0e53fd97f84e6fe990d7f27801f989723128a3",
+   "5d0e53fd97f84e6fe990d7f27801f989723128a3"
   ]
  },
  "2018-08-13-4.14.55-146": {

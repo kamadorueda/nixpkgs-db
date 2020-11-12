@@ -165,6 +165,45 @@
    "46e653673ec9a78a9b6bfd9d2acd6d2edd685159"
   ]
  },
+ "4.14.66-147": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:235"
+  },
+  "revs": [
+   "5d0e53fd97f84e6fe990d7f27801f989723128a3",
+   "5d0e53fd97f84e6fe990d7f27801f989723128a3"
+  ]
+ },
  "4.14.87-153": {
   "meta": {
    "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
@@ -220,7 +259,7 @@
   },
   "revs": [
    "0000a86d7cd47005096a292a797d2e02ce29e8d8",
-   "26053855bbc58c3f298d3b1c5c470bc44a2cfdbc"
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
   ]
  }
 }
