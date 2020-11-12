@@ -68,7 +68,7 @@
   },
   "revs": [
    "014d853f8cfe34a51ec5641691fcb97bf7c6d9a9",
-   "20a0e782b595ef64fc6bd5a629beccb97a2e1b74"
+   "5009d53d9a70b8c2105286bfd008b5cdd554b661"
   ]
  },
  "1.2.6": {
@@ -307,6 +307,50 @@
   "revs": [
    "00064c21cc328fb96b631917220acbc26f232f96",
    "2aead2422f85562a09619a657ecab0ca405f2d72"
+  ]
+ },
+ "1.7.4": {
+  "meta": {
+   "description": "Advanced spam filtering system",
+   "homepage": "https://github.com/vstakhov/rspamd",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "avn@avnik.info",
+     "github": "avnik",
+     "name": "Alexander V. Nikolaev"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "rspamd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/mail/rspamd/default.nix:32"
+  },
+  "revs": [
+   "50d27311cc72ff1cab21de284fb3ff770263fc34",
+   "50d27311cc72ff1cab21de284fb3ff770263fc34"
   ]
  },
  "1.7.9": {

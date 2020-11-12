@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't store the GCC configure flags in the output (visible through   `gcc -v').  It causes build-time only dependencies to be   unnecessarily retained in the closure (e.g. PPL due to   `--with-ppl=/nix/store/...'). * Replace $out/bin/c++ with a symlink to g++.",
+ "timestamp": "1281025666"
+}
