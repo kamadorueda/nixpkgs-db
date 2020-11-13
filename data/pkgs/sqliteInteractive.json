@@ -525,6 +525,94 @@
    "0c7b1576dd83865b171693e5b09e1585405c405f"
   ]
  },
+ "3.25.1": {
+  "meta": {
+   "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+   "homepage": "http://www.sqlite.org/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "np.nix@nicolaspouillard.fr",
+     "github": "np",
+     "name": "Nicolas Pouillard"
+    }
+   ],
+   "name": "sqlite-interactive",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/sqlite/default.nix:77"
+  },
+  "revs": [
+   "631572e453be29e31bb2cd645bc438f49b2f9405",
+   "631572e453be29e31bb2cd645bc438f49b2f9405"
+  ]
+ },
  "3.25.2": {
   "meta": {
    "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
@@ -1177,7 +1265,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "2d594255550afad5a41f50598e1d410db20013be"
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
   ]
  },
  "3.30.1": {
@@ -1701,7 +1789,7 @@
   },
   "revs": [
    "001fb53524b030427c0c0c5460910f667bd85e0a",
-   "3d32657782a2971e29823027f01a2333166d834f"
+   "61129e1ee9a37d75f2f26c8eb5de1c984766a461"
   ]
  },
  "3.7.14-interactive": {

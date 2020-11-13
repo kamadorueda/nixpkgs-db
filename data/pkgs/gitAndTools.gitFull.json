@@ -42,7 +42,7 @@
   },
   "revs": [
    "01b602c7f4ca3e5f12282d36e682d44ed4b9a525",
-   "5bd8e9c0595af1986d1bb0025fb06b6be7d6cd9d"
+   "6123776f3666c054d6f107aac626a4931eddf7da"
   ]
  },
  "1.7.0.4": {
@@ -65,7 +65,7 @@
   },
   "revs": [
    "0526f2fb2ceeaa4f84bd73870f5fd89fcf0cf84b",
-   "3653309cb3b6ad14f01de17f6ac9db561378f8d5"
+   "5ed6e1a1f779fd3fb3f6fd1ed85f08321dcceada"
   ]
  },
  "1.7.0.5": {
@@ -225,7 +225,7 @@
   },
   "revs": [
    "006e3fbf46537fa8e14d33a33ceeb66c2a4cd354",
-   "3d32657782a2971e29823027f01a2333166d834f"
+   "61129e1ee9a37d75f2f26c8eb5de1c984766a461"
   ]
  },
  "1.7.12-full": {
@@ -633,7 +633,7 @@
   },
   "revs": [
    "0526aaa8a27a15a4a9bc52a2e2d2e54f438f8a55",
-   "4389638c94b200dfa8e79dd2b13f0b9adb810972"
+   "6234062546941bf2d2b732937f70ed5e0f8d7132"
   ]
  },
  "1.7.4.4-full": {
@@ -1111,7 +1111,7 @@
   },
   "revs": [
    "00346f1bbb6dab60fb7f8b6147a5f2edfa28b96c",
-   "15ed86c3bd980adba9ca2669cdc992b475fd1089"
+   "5e4aa511733c693dde3320a620ccc7ea35feddcd"
   ]
  },
  "1.8.2.1-full": {
@@ -1479,7 +1479,7 @@
   },
   "revs": [
    "003b4a099746077305e5281735b95a3781a84460",
-   "2d17335f6869f88e5bbcef4f1c7a3329e5860ccb"
+   "5eb3dd8a1b952aba821aa55557232ee443dc19bb"
   ]
  },
  "1.9.1": {
@@ -1619,7 +1619,7 @@
   },
   "revs": [
    "006eca8947013335011b8c1ef5e78562c097fee6",
-   "592b4f7a3e2876c9b9fcd9dbf148ee003b0c2123"
+   "632ccf8bc6ef36a132cc0eb39eff052838db6113"
   ]
  },
  "2.0.1": {
@@ -2566,7 +2566,7 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "53682b90943e2b5387fcc92c1b7545ea52dbd527"
+   "616255adf3128e3883f36a0fca4ae02530a70a14"
   ]
  },
  "2.16.2": {
@@ -3161,6 +3161,80 @@
    "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
   ]
  },
+ "2.22.1": {
+  "meta": {
+   "description": "Distributed version control system",
+   "homepage": "https://git-scm.com/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "Wout.Mertens@gmail.com",
+     "github": "wmertens",
+     "name": "Wout Mertens"
+    }
+   ],
+   "name": "git",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none"
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/git/default.nix:312"
+  },
+  "revs": [
+   "61ea45d6bea9a03a8998f6cb19dc397ead1634cd",
+   "61ea45d6bea9a03a8998f6cb19dc397ead1634cd"
+  ]
+ },
  "2.24.1": {
   "meta": {
    "description": "Distributed version control system",
@@ -3242,7 +3316,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "14bbfd8548d28528db2f89823024ef85011eb2ba"
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
   ]
  },
  "2.25.0": {
@@ -4377,7 +4451,7 @@
   },
   "revs": [
    "01935e880b7b719c31f485d3e44d4a0e89e27821",
-   "09982126409076abb35531f1db378355f9ec2600"
+   "5ef9c4b10a5c8c4d902b1478e30c0236034e4597"
   ]
  },
  "2.3.3": {
@@ -4416,7 +4490,7 @@
   },
   "revs": [
    "007ab6f4df03da0710b436704f7c76a2d97dbc0d",
-   "26f671155e397582e8a034fe8a40e7e9a787027e"
+   "6197fdc02d20763e10beb73c0b6384c255f142b2"
   ]
  },
  "2.3.4": {

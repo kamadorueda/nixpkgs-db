@@ -161,6 +161,55 @@
    "517c29935b6e4dec12571e7d101e2b0da220263d"
   ]
  },
+ "0.15.0": {
+  "meta": {
+   "description": "Build tool that builds code quickly and reliably",
+   "homepage": "https://github.com/bazelbuild/bazel/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mboes@tweag.net",
+     "github": "mboes",
+     "name": "Mathieu Boespflug"
+    }
+   ],
+   "name": "bazel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/bazel/default.nix:26"
+  },
+  "revs": [
+   "62f3bf75092288aa2753d24a8f5d9e5bb64cf211",
+   "62f3bf75092288aa2753d24a8f5d9e5bb64cf211"
+  ]
+ },
  "0.15.1": {
   "meta": {
    "description": "Build tool that builds code quickly and reliably",
@@ -1197,7 +1246,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "14bbfd8548d28528db2f89823024ef85011eb2ba"
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
   ]
  },
  "2.0.0": {
