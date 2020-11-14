@@ -86,7 +86,7 @@
   },
   "revs": [
    "007380362c5fe8b678a62f7e1ccca562a995e5d4",
-   "328eb9da7caf8ea4a16ea1224b39dc40b3f222ec"
+   "63ae3f061afb42633975b965249db27c3bc4e911"
   ]
  },
  "58.0.3029.14": {
@@ -786,7 +786,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "2c0ba884c20a2f8c6f40793e254c220871937088"
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
   ]
  },
  "69.0.3452.0": {
@@ -1010,7 +1010,7 @@
   },
   "revs": [
    "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
-   "4ec643b1258537f729af1d9c4f7ef97b69dc2ec7"
+   "64b3350537ad8ecfd8b4d3fd8fb31b7deb41d014"
   ]
  },
  "72.0.3608.4": {
@@ -1150,7 +1150,7 @@
   },
   "revs": [
    "0028bad962d0184f190474244b9e51d4b840443d",
-   "3fa83aee7a2491a9df413524cb821e31d183f7ba"
+   "65c52e11ab066b0e16250ef4c8d8354f3529a5ce"
   ]
  },
  "73.0.3683.20": {
@@ -2379,7 +2379,7 @@
   },
   "revs": [
    "003fa57c6484a63af1e72470fa2b101f4de7a79e",
-   "11d1486a852c6ab699697394a8c622a70a6e9fac"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "86.0.4238.0": {
@@ -2437,7 +2437,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "3a757abce1e1c2dcb249d7204e9518aba9e68c36"
+   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
   ]
  },
  "87.0.4252.0": {
@@ -2495,7 +2495,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "59c4870a9691d23fd4372af53fff740e4e66cfab"
+   "67c303e7532fe4e0dd81035f27f3abc215366512"
   ]
  },
  "87.0.4278.0": {
@@ -2524,7 +2524,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+   "680cf57169ce91a133bae49225375e65d25c7d14"
   ]
  },
  "87.0.4280.20": {
@@ -2553,7 +2553,7 @@
   },
   "revs": [
    "00f0b1d721f459a9b67d071746ca583316e0d70d",
-   "47a1abdd21073e99256619cc925e7fbc7c807e55"
+   "24883ec6e75676ac92f4a211cfa4a6839d635751"
   ]
  },
  "88.0.4292.2": {
@@ -2582,7 +2582,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1120f899daee5681cff8f6bf59ed531d4dd58a85"
+   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
   ]
  },
  "88.0.4298.4": {
@@ -2611,7 +2611,7 @@
   },
   "revs": [
    "002c63433929e1eb115a5e64d77f1d344b59c8f4",
-   "51acdda61805c8965d408cf5d1e6c3800075bf8c"
+   "3c122da4a5bd8916215af8e6d208725104706255"
   ]
  },
  "88.0.4300.0": {
@@ -2656,7 +2656,52 @@
   },
   "revs": [
    "13839daecc61e898d03748145e61a29c8d2a2c42",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "26f1edbb21059b4e2913cb806984dca5ac632f48"
+  ]
+ },
+ "88.0.4315.5": {
+  "meta": {
+   "description": "A freeware web browser developed by Google",
+   "homepage": "https://www.google.com/chrome/browser/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "emailmatthijs@gmail.com",
+     "github": "msteen",
+     "githubId": 788953,
+     "name": "Matthijs Steen"
+    }
+   ],
+   "name": "google-chrome-dev",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/google-chrome/default.nix:150"
+  },
+  "revs": [
+   "019c3bb417153a2b80f483891f7f0981f6d327a8",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

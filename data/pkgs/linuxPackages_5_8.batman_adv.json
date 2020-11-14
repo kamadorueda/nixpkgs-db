@@ -364,7 +364,7 @@
   },
   "revs": [
    "012e55a4606cd7290a0248313659eef1be9988ef",
-   "52d0a80dc584f1283d6f1a535d1f3c901b697e52"
+   "67d89082693173b21da30c67e60930497e560e7b"
   ]
  },
  "2019.5-5.8.3": {
@@ -548,7 +548,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "4e41dd4f3d8101048bc979d90e6bf3e56b577b64"
+   "64508a8ce553c2ee2a1d01ce5499eb0de696fea3"
   ]
  },
  "2019.5-5.8.7": {
@@ -640,7 +640,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "3a757abce1e1c2dcb249d7204e9518aba9e68c36"
+   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
   ]
  },
  "2019.5-5.8.9": {
@@ -870,7 +870,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "13d1db923c293ec76a1ad8c5251a4d4b9305f678"
+   "674c9afb727e4558e3b6162bb164e847606b105c"
   ]
  },
  "2020.3-5.8.14": {
@@ -916,7 +916,7 @@
   },
   "revs": [
    "00e3a3a8552f844a82ddb56a9e96675bbea07739",
-   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+   "66229110d15ec81a0c8a5949d67f167dcd2c0d80"
   ]
  },
  "2020.3-5.8.15": {
@@ -962,7 +962,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "5ff62a94f2a188d47de3a89b827e1c228974a019"
+   "24883ec6e75676ac92f4a211cfa4a6839d635751"
   ]
  },
  "2020.3-5.8.16": {
@@ -1008,7 +1008,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "038793bd1e9d661dea67b78a0bd66219d0ab35b5"
+   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
   ]
  },
  "2020.3-5.8.17": {
@@ -1054,7 +1054,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "51acdda61805c8965d408cf5d1e6c3800075bf8c"
+   "404f6fbfea9a8ecdf331b12dde197d821b91622a"
   ]
  },
  "2020.3-5.8.18": {
@@ -1100,7 +1100,53 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "5a540a899682799f59258bf475297e5cfc9997b6"
+  ]
+ },
+ "2020.4-5.8.18": {
+  "meta": {
+   "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2",
+   "homepage": "https://www.open-mesh.org/projects/batman-adv/wiki/Wiki",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "batman-adv",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/batman-adv/default.nix:26"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

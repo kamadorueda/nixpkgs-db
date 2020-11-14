@@ -1,0 +1,4 @@
+{
+ "summary": "* aspell: hacked up a little patch to allow additional dictionary   directories to be specified through the environment variable   ASPELL_EXTRA_DICT_DIRS.  This way dictionaries don't have to be   installed into aspell's prefix.  Instead you can just set   ASPELL_EXTRA_DICT_DIRS to $HOME/.nix-profile/lib/aspell and install   dictionaries separately with nix-env (e.g. \"nix-env -i   aspell-dict-nl\").",
+ "timestamp": "1193157191"
+}

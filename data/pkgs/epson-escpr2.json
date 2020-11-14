@@ -212,7 +212,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "1.1.15": {
@@ -258,7 +258,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "11d1486a852c6ab699697394a8c622a70a6e9fac"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "1.1.17": {
@@ -304,7 +304,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
   ]
  },
  "1.1.23": {
@@ -350,7 +350,53 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "26f1edbb21059b4e2913cb806984dca5ac632f48"
+  ]
+ },
+ "1.1.24": {
+  "meta": {
+   "description": "ESC/P-R 2 Driver (generic driver)",
+   "homepage": "http://download.ebz.epson.net/dsc/search/01/search/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Epson Inkjet Printer Driver 2 (ESC/P-R 2) for Linux and the\ncorresponding PPD files.\n\nRefer to the description of epson-escpr for usage.\n",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "furrycatherder",
+     "githubId": 36235154,
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "epson-inkjet-printer-escpr2",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/drivers/epson-escpr2/default.nix:33"
+  },
+  "revs": [
+   "04f0884fa5d957894e006dc8666cc30cec15cda7",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

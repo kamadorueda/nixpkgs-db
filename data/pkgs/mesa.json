@@ -156,7 +156,7 @@
   },
   "revs": [
    "16e35532e47cd0e6f1d394416b3205449854aad6",
-   "16e35532e47cd0e6f1d394416b3205449854aad6"
+   "65aacd459cf3dcb0c917e4369947417b380fe02f"
   ]
  },
  "10.2.4": {
@@ -172,7 +172,7 @@
   },
   "revs": [
    "02dcf1e493e6a6cc08c940e5d606b5edb9c7108e",
-   "24f3070a854a9b4cc861275f2986b17267d1d248"
+   "669443f5c1b75a4c74b4ff19716a8b66af5db8e7"
   ]
  },
  "10.2.5": {
@@ -396,7 +396,7 @@
   },
   "revs": [
    "09b4a7cc1bdb0392c385a630168b3c8430e475c5",
-   "4624985561321d04aede0163c326a2c3d4c38d30"
+   "6783f1b4401b1068c5b062238128b3b4d8835ad6"
   ]
  },
  "10.6.4": {
@@ -412,7 +412,7 @@
   },
   "revs": [
    "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd",
-   "2138f789bcc524b4598c513b39b3fb8fa2430727"
+   "64cd711f5c54b8c3e4a489b15ae1c0c0d8e98b2f"
   ]
  },
  "10.6.5": {
@@ -2638,7 +2638,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "20.0.1": {
@@ -2966,7 +2966,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "6154471a6a8091827ea4c8aa41a3e87aa5e25de7"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "20.1.5": {
@@ -3146,7 +3146,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
   ]
  },
  "20.1.8": {
@@ -3266,7 +3266,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "51acdda61805c8965d408cf5d1e6c3800075bf8c"
+   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
   ]
  },
  "20.2.1": {
@@ -3326,7 +3326,67 @@
   },
   "revs": [
    "00c68337f5944a76ed6a10ff20d02bfb263912ea",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+  ]
+ },
+ "20.2.2": {
+  "meta": {
+   "description": "An open source 3D graphics library",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The Mesa project began as an open-source implementation of the OpenGL\nspecification - a system for rendering interactive 3D graphics. Over the\nyears the project has grown to implement more graphics APIs, including\nOpenGL ES (versions 1, 2, 3), OpenCL, OpenMAX, VDPAU, VA API, XvMC, and\nVulkan.  A variety of device drivers allows the Mesa libraries to be used\nin many different environments ranging from software emulation to\ncomplete hardware acceleration for modern GPUs.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "armv7a-linux",
+    "aarch64-linux",
+    "powerpc64le-linux"
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:232"
+  },
+  "revs": [
+   "03988a5fec4b9fc09e7e868a06116f3d9215b393",
+   "2e7d97a50d385799aed46c4b6115de3bfb60f393"
   ]
  },
  "6.5.2": {
@@ -3390,7 +3450,7 @@
   },
   "revs": [
    "0069aa0637dc1eab64c876e1d9b10117c3cac2e3",
-   "4b19a1980fee17065c732488a36a3db9d9447f1b"
+   "6708bfd15a0b0d4fb355d714d5d1700d462efdf0"
   ]
  },
  "7.10.2": {
@@ -3739,7 +3799,7 @@
   },
   "revs": [
    "0b8f1b1448539d4166573769931de48488af7a4c",
-   "1cddbc4bb498341591ed5bc2e7142384036dfdcf"
+   "646eaa23a12ac074ee35135939dde635506b1bae"
   ]
  },
  "9.1.6": {
@@ -3803,7 +3863,7 @@
   },
   "revs": [
    "0a2c5ad9291ff3806633419676814e63e6b75645",
-   "0ed07fdeaa7a345609dc38b50a491acf45f533e3"
+   "68430cf3d7dae00f8eda1156de6b90243424e25a"
   ]
  },
  "9.2.3": {

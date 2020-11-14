@@ -15,6 +15,22 @@
    "2da5646a4e215ee90dc0e282bb9ce78202e7cdff"
   ]
  },
+ "1.4.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "iptables",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "65ce0411d828fee057dad01f76f3eda7cc43b846",
+   "65ce0411d828fee057dad01f76f3eda7cc43b846"
+  ]
+ },
  "1.4.1.1": {
   "meta": {
    "description": "A program to configure the Linux IP packet filtering ruleset",
@@ -128,7 +144,7 @@
   },
   "revs": [
    "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
-   "2452930b762e6ed9b7a169f84d75d426dbbe0dee"
+   "646d7a2eb05f38d81c36aa62146116b9da81b0d9"
   ]
  },
  "1.4.8": {
@@ -373,7 +389,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "1.8.5": {
@@ -419,7 +435,53 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+  ]
+ },
+ "1.8.6": {
+  "meta": {
+   "description": "A program to configure the Linux IP packet filtering ruleset",
+   "homepage": "https://www.netfilter.org/projects/iptables/index.html",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "iptables",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/iptables/default.nix:46"
+  },
+  "revs": [
+   "2e7d97a50d385799aed46c4b6115de3bfb60f393",
+   "2e7d97a50d385799aed46c4b6115de3bfb60f393"
   ]
  }
 }

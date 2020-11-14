@@ -67,7 +67,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "1321ae850c12ae223b4ca8468ecb14519e1d69f8"
+   "24883ec6e75676ac92f4a211cfa4a6839d635751"
   ]
  },
  "10.0.1": {
@@ -138,7 +138,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1120f899daee5681cff8f6bf59ed531d4dd58a85"
+   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
   ]
  },
  "10.0.2": {
@@ -202,7 +202,72 @@
   },
   "revs": [
    "00f3a335e3bb46f0145f27a4f14a6d27fde634a9",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "26f1edbb21059b4e2913cb806984dca5ac632f48"
+  ]
+ },
+ "10.0.4": {
+  "meta": {
+   "description": "Tor Browser Bundle built by torproject.org",
+   "homepage": "https://www.torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "cotman.matej@gmail.com",
+     "github": "matejc",
+     "githubId": 854770,
+     "name": "Matej Cotman"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "githubId": 41977,
+     "name": "Joachim Fasting"
+    },
+    {
+     "email": "hax404foogit@hax404.de",
+     "github": "hax404",
+     "githubId": 1379411,
+     "name": "Georg Haas"
+    },
+    {
+     "email": "nixos_xasenw9@digitalpostkasten.de",
+     "github": "scaredmushroom",
+     "githubId": 45340040,
+     "name": "cap"
+    },
+    {
+     "email": "karl@hallsby.com",
+     "github": "KarlJoad",
+     "githubId": 34152449,
+     "name": "Karl Hallsby"
+    }
+   ],
+   "name": "tor-browser-bundle-bin",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle-bin/default.nix:394"
+  },
+  "revs": [
+   "04f0884fa5d957894e006dc8666cc30cec15cda7",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  },
  "3.5": {
@@ -403,7 +468,7 @@
   },
   "revs": [
    "0067ccbfdf0c61b14e0f7611d99212ecade407dc",
-   "6276a4ace73082b846ac79d88c4901e603b8509b"
+   "6686914d714666be9bf4a64a42ef1307bc67ce50"
   ]
  },
  "4.0.6": {
@@ -939,7 +1004,7 @@
   },
   "revs": [
    "001bde3df0766f83c04efa607e63c56e675f172c",
-   "16f3f9c569e50cbd0d2ecfa10a2e1152803f1035"
+   "68c4464ff47ea1d81cc3eb4a68eba723b05d3f77"
   ]
  },
  "6.0.5": {
@@ -1457,7 +1522,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "376b2ef2b83be9671c4f24b7ff4ded335d5352d4"
+   "65c52e11ab066b0e16250ef4c8d8354f3529a5ce"
   ]
  },
  "8.0.5": {
@@ -2474,7 +2539,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "11d1486a852c6ab699697394a8c622a70a6e9fac"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "9.5.4": {
@@ -2545,7 +2610,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "4b55b4853ac604236aed37963e882203cf358683"
+   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
   ]
  }
 }

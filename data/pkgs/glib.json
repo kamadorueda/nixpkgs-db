@@ -128,7 +128,7 @@
   },
   "revs": [
    "070f7debe0670eacbf129a3d9e6341bd7244f513",
-   "072df43f0018b442653e1c6f2707930321b47ccd"
+   "6538f204853eb8c39a46b1cae247694ea7e2afba"
   ]
  },
  "2.28.1": {
@@ -302,7 +302,7 @@
   },
   "revs": [
    "13c5b75b802292a5aa26482bf1b51cd6caae43e2",
-   "13c5b75b802292a5aa26482bf1b51cd6caae43e2"
+   "65ac9694c723fdc34f0402e02bd26b2edebb200f"
   ]
  },
  "2.32.4": {
@@ -2486,7 +2486,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "2.64.1": {
@@ -2682,7 +2682,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "11d1486a852c6ab699697394a8c622a70a6e9fac"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "2.64.5": {
@@ -2748,7 +2748,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
   ]
  },
  "2.66.0": {
@@ -2880,7 +2880,73 @@
   },
   "revs": [
    "00aedd87ad66b21dcba627515db831395b333152",
-   "1842de84e0a3145ed6f8e748e2e54fa690d25a71"
+   "47c770e0e603f5db7dc3daafcb2dba14fd2300bc"
+  ]
+ },
+ "2.66.2": {
+  "meta": {
+   "description": "C library of programming buildings blocks",
+   "homepage": "https://www.gtk.org/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "GLib provides the core application building blocks for libraries\nand applications written in C.  It provides the core object\nsystem used in GNOME, the main loop implementation, and a large\nset of utility functions for strings and common data structures.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "githubId": 265084,
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "WORLDofPEACE"
+    }
+   ],
+   "name": "glib",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/glib/default.nix:186"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

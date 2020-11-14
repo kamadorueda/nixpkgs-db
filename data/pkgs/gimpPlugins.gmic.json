@@ -384,6 +384,96 @@
    "397f5c37df025e561b0cc94e71077fa0a06679f6"
   ]
  },
+ "2.2.1-gimp-2.10.0-plugin": {
+  "meta": {
+   "description": "G'MIC is an open and full-featured framework for image processing",
+   "homepage": "http://gmic.eu/",
+   "license": {
+    "fullName": "CeCILL Free Software License Agreement v2.0",
+    "shortName": "cecill20",
+    "spdxId": "CECILL-2.0",
+    "url": "http://spdx.org/licenses/CECILL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "gmic",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/graphics/gmic/default.nix:37"
+  },
+  "revs": [
+   "63a234c4a720f3457801043276e1884e451d3b85",
+   "63a234c4a720f3457801043276e1884e451d3b85"
+  ]
+ },
  "2.2.1-gimp-2.8.22-plugin": {
   "meta": {
    "description": "G'MIC is an open and full-featured framework for image processing",
@@ -596,7 +686,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

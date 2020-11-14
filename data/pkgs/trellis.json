@@ -446,7 +446,7 @@
   },
   "revs": [
    "001be890f78f04df86938f44c0761676e299ceac",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "2020.03.25": {
@@ -693,7 +693,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "51af90bc627f074c7422f6fc30415021c0d66b47"
+   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
   ]
  },
  "2020.07.27": {
@@ -778,7 +778,92 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "26f1edbb21059b4e2913cb806984dca5ac632f48"
+  ]
+ },
+ "2020.11.07": {
+  "meta": {
+   "description": "Documentation and bitstream tools for Lattice ECP5 FPGAs",
+   "homepage": "https://github.com/SymbiFlow/prjtrellis",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "https://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "Project Trellis documents the Lattice ECP5 architecture\nto enable development of open-source tools. Its goal is\nto provide sufficient information to develop a free and\nopen Verilog to bitstream toolchain for these devices.\n",
+   "maintainers": [
+    {
+     "email": "q3k@q3k.org",
+     "github": "q3k",
+     "githubId": 315234,
+     "name": "Serge Bazanski"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "nixpkgs@emily.moe",
+     "github": "emilazy",
+     "githubId": 18535642,
+     "name": "Emily"
+    }
+   ],
+   "name": "trellis",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/tools/trellis/default.nix:53"
+  },
+  "revs": [
+   "04f0884fa5d957894e006dc8666cc30cec15cda7",
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  }
 }

@@ -97,6 +97,55 @@
    "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
+ "1.4.0": {
+  "meta": {
+   "description": "Eliom application skeleton",
+   "homepage": "http://ocsigen.org/ocsigen-start",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "An Eliom application skeleton, ready to use to build your own application with users, (pre)registration, notifications, etc.\n",
+   "maintainers": [
+    {
+     "email": "florent.becker@ens-lyon.org",
+     "github": "FlorentBecker",
+     "name": "Florent Becker"
+    }
+   ],
+   "name": "ocaml-ocsigen-start",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/ocsigen-start/default.nix:29"
+  },
+  "revs": [
+   "65ba19a9c594a1e82b64acd5008c96e0a346bf10",
+   "65ba19a9c594a1e82b64acd5008c96e0a346bf10"
+  ]
+ },
  "1.5.0": {
   "meta": {
    "description": "Eliom application skeleton",
@@ -231,7 +280,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "18f8c1fe060bee2dcc6cf8e1b27f2acab689f457"
+   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
   ]
  },
  "2.18.0": {
@@ -275,7 +324,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "1a7131a8420199946d1cc4b9164f1b08132efa8c"
+   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
   ]
  },
  "2.7.0": {
