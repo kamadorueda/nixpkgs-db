@@ -1,0 +1,4 @@
+{
+ "summary": "Making glibc build without any LOCALE_ARCHIVE* environment variable anymore, setting glibc to look for the locale-archive in the usual nixos /var/run/current-system/sw/lib/locale path. This solution may give us less problems. The last problem involved was the lack of locale-archive in setuid/setgid programs, due to the risk of letting them take the LOCALE_ARCHIVE variable contents from the caller.",
+ "timestamp": "1271971077"
+}

@@ -286,7 +286,7 @@
   },
   "revs": [
    "00f472a563c030d0232bfd39af8b3f5411169a5d",
-   "21c09cca98960c444160e4f9b19ec9d1cbcf9658"
+   "6e86883688d8a2ebb7f92e35a77eb6f70b6d1e49"
   ]
  },
  "4.10.6-2017-02-04": {
@@ -1710,7 +1710,7 @@
   },
   "revs": [
    "00970f76f9f5d494d8a1fea790acac31e3578cf7",
-   "435bceb69eb71bd98fd1f4b2ef27eaa3e9dedd7f"
+   "6ad745209fd03543d59f5ef60487e3afbdcf49f6"
   ]
  },
  "4.15.3-2017-02-04": {
@@ -2041,7 +2041,7 @@
   },
   "revs": [
    "009d4341d80ec39db2f4da180de3bebf19a4ae48",
-   "016922f88ba9d86b611115463c45ee84f238f64e"
+   "6da6accd303be776bb4e958da52046da86f9cb5c"
   ]
  },
  "4.16.11-2017.10.18": {
@@ -2836,6 +2836,39 @@
    "01a10ec4bfaccd21be746beb4d655fea8f146d69"
   ]
  },
+ "4.17.16-2017.10.18": {
+  "meta": {
+   "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:50"
+  },
+  "revs": [
+   "6ce5555bb33f85eb150d7a67f32b395d00c9b8ff",
+   "6ce5555bb33f85eb150d7a67f32b395d00c9b8ff"
+  ]
+ },
  "4.17.17-2017.10.18": {
   "meta": {
    "description": "Provides a scripting language for instrumentation on a live kernel plus user-space",
@@ -3427,7 +3460,7 @@
   },
   "revs": [
    "00807a645f18b9138fa3369968a6b68729f48d41",
-   "360a753939c3b9201debaf23c5cd799ffffa5e50"
+   "6a31bbbe8f5cfdaf199a12aecef558131b3fa647"
   ]
  },
  "4.18.14-2017.10.18": {
@@ -3625,7 +3658,7 @@
   },
   "revs": [
    "0013bc3056604b25299e8601caf4f99cc1f4a910",
-   "5fc8aca96d708f0cc20e6b598d6cb17bbc65020b"
+   "6bd6c97ae86cc137206e8c4c866562d69820688d"
   ]
  },
  "4.18.17-2017.10.18": {
@@ -4120,7 +4153,7 @@
   },
   "revs": [
    "02f47920b56bd29b55b1578a31377627872bf07b",
-   "34a637ca9235f44fc377a881c1e48e1e6bcf84f7"
+   "6a7dea9330c3d1f1f53610e753aada029eb8b86e"
   ]
  },
  "4.19.10-3.3": {
@@ -4714,7 +4747,7 @@
   },
   "revs": [
    "1b621b83f027be20f1473469ba2e17f86bda9f9d",
-   "5fe251c99322db18c8b3fdd43dfedc5e82cd3311"
+   "6dcc19a02d89c878c49ab6b62d1d5889599a2a50"
   ]
  },
  "4.19.25-2017.10.18": {
@@ -4747,7 +4780,7 @@
   },
   "revs": [
    "022a6f7c2b8d7828b6259abf201cde3d1cda522a",
-   "4528bd5430235ffbbdbb65d2d979127c97b9d48c"
+   "6e2ba9174e9bd5748cde91214a9489ef937bc3ca"
   ]
  },
  "4.19.26-2017.10.18": {
@@ -4813,7 +4846,7 @@
   },
   "revs": [
    "18fec2687c088b483dcfd0faef5383e4ac8fb18b",
-   "26ef5306fcdf47f4f78ade35691d1d2e53a6fce3"
+   "6a4742d210d81753fd636e3842ea60452f8a10ae"
   ]
  },
  "4.19.28-2017.10.18": {
@@ -6321,7 +6354,7 @@
   },
   "revs": [
    "030e20f759d5a4e4962eabd4069fd06ae059e6f3",
-   "084bacd8d9b41d08d2ac6bba627d26e4fc02c8c7"
+   "6b6f97fecce1d7c231ecd461443d051eff5005c3"
   ]
  },
  "4.7.6-2016-09-16": {
@@ -6741,7 +6774,7 @@
   },
   "revs": [
    "00e6b9033a71372b248106674a5011aea8237892",
-   "1d5ce684a3fb93679f3bd29cbcbd12e358ea0b26"
+   "6cfb3b636418526d1c49d14316a127133cf09c9d"
   ]
  },
  "4.8.9-2016-09-16": {
@@ -8321,7 +8354,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "126c81b65d7e0099ef89878a2d7b76a180955086"
+   "6c8c2be9a296adc156b34e051c91c64a27294480"
   ]
  },
  "5.2.1-4.0": {
@@ -8483,7 +8516,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "23e72eff4197394e9dce69b20f55cff165e4409f"
+   "6934870810b7a70c2c95b713edf1d817b448c4e2"
   ]
  },
  "5.2.13-4.0": {
@@ -9234,7 +9267,7 @@
   },
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
-   "44fd320c0f083ea267ab3e69156f2e82c3912e60"
+   "6b8babf18146a9f3071e6139d8ec960c607525cf"
   ]
  },
  "5.4.14-4.1": {
@@ -9663,7 +9696,7 @@
   },
   "revs": [
    "01ac831e03f20b534d2cc8dfe0b60357ff5342b4",
-   "637325d63f21480c23f3e61f98772390c446fd97"
+   "6be1626da54d9ee3748491e59d957965a8b19caf"
   ]
  },
  "5.5.16-4.1": {
@@ -9762,7 +9795,7 @@
   },
   "revs": [
    "4f8f71a2ef0bc14ec0ebe9582c55616fa776c34a",
-   "4f8f71a2ef0bc14ec0ebe9582c55616fa776c34a"
+   "6ab0695b548960972648d6ed51283f3b8f5c35c8"
   ]
  },
  "5.5.2-4.1": {
@@ -9960,7 +9993,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "04379d0a6a10434ab867efaf11b8220e8f0d558b"
+   "6c3ab02ad06f73ca8513ff6b9a4f7ce3c9bf8583"
   ]
  },
  "5.5.8-4.1": {
@@ -10488,7 +10521,7 @@
   },
   "revs": [
    "00823d47e7df6fecbf54d99721cac06c6bf2312c",
-   "516931a69780a8ee41cffc8bbbda5631c3067b96"
+   "6b2f45c544935dad1c607e5554a330bf65bdc72f"
   ]
  },
  "5.6.6-4.1": {
@@ -11346,7 +11379,7 @@
   },
   "revs": [
    "01835945ca8a3db30c044b7d1f2c880f42ecf448",
-   "66cd39409e8ae1e2981edfb33bb06c164893d70d"
+   "6bf45c406672667ad09d7ebb55bd8fc8eba2d369"
   ]
  },
  "5.8.13-4.1": {
@@ -11412,7 +11445,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "6899c10886354487cb0dbebc7a7cad0af59d2934"
+   "691005220521d6462479a64d6353b3aed0f7a255"
   ]
  },
  "5.8.15-4.1": {
@@ -11445,7 +11478,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "5ff62a94f2a188d47de3a89b827e1c228974a019"
+   "6b75df4fa5e19868e92fda650a75d1662732d568"
   ]
  },
  "5.8.16-4.1": {
@@ -11775,7 +11808,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "06da165c5e42e9b26b0f7661380cf9bfc8d05b84"
+   "6c6f85e071393874fef76b4672db240cc684a44e"
   ]
  },
  "5.9-4.1": {
@@ -12006,7 +12039,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "26f1edbb21059b4e2913cb806984dca5ac632f48"
+   "6b4ef62e113e644e5c2cd2be393619accf372b29"
   ]
  },
  "5.9.8-4.1": {

@@ -311,7 +311,7 @@
   },
   "revs": [
    "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
-   "25865688a729d15dbb2dc21ebd9fbf74e2cffc4b"
+   "6c9de3f6009fbbebeb92593577622da6d7d05408"
   ]
  },
  "2017.12.02": {
@@ -2208,6 +2208,78 @@
   "revs": [
    "0021ea861f8377365b718633bce69cdd7570fcd9",
    "65c52e11ab066b0e16250ef4c8d8354f3529a5ce"
+  ]
+ },
+ "2019.02.18": {
+  "meta": {
+   "description": "Command-line tool to download videos from YouTube.com and other sites",
+   "homepage": "https://rg3.github.io/youtube-dl/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "youtube-dl is a small, Python-based command-line program\nto download videos from YouTube.com and a few more sites.\nyoutube-dl is released to the public domain, which means\nyou can modify it, redistribute it or use it however you like.\n",
+   "maintainers": [
+    {
+     "email": "mathijs@bluescreen303.nl",
+     "github": "bluescreen303",
+     "name": "Mathijs Kwik"
+    },
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "name": "Evgeny Egorochkin"
+    },
+    {
+     "email": "torres.anderson.85@gmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    },
+    {
+     "email": "fuuzetsu@fuuzetsu.co.uk",
+     "github": "fuuzetsu",
+     "name": "Mateusz Kowalczyk"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "enzime@users.noreply.github.com",
+     "github": "enzime",
+     "name": "Michael Hoang"
+    }
+   ],
+   "name": "python3.6-youtube-dl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/youtube-dl/default.nix:56"
+  },
+  "revs": [
+   "6ea3c4fa9963bd6245e0ebf55912fe2c123a265f",
+   "6ea3c4fa9963bd6245e0ebf55912fe2c123a265f"
   ]
  },
  "2019.03.18": {
