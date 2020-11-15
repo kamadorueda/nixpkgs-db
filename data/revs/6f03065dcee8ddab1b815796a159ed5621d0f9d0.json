@@ -1,0 +1,4 @@
+{
+ "summary": "* Move the setting of $MODULE_DIR to modprobe.nix. * Add a slash to the end of $MODULE_DIR, as expected by depmod.  (Not   that running depmod from the command line is all that useful, since   you can't use it to update the tree in the Nix store.  But at least   commands like \"depmod -n\" work now.)  Reported by Kirill Elagin on   IRC.",
+ "timestamp": "1332280947"
+}
