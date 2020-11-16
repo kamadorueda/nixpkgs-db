@@ -649,7 +649,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
+   "590e678b8e2e7c77552edb11b4530a3172ea6ac6"
   ]
  },
  "3.8.0": {
@@ -785,7 +785,75 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+   "449922941981337bfed5fe8c549a849c73de73bf"
+  ]
+ },
+ "3.8.7": {
+  "meta": {
+   "description": "Customization of kubernetes YAML configurations",
+   "homepage": "https://github.com/kubernetes-sigs/kustomize",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "kustomize lets you customize raw, template-free YAML files for\nmultiple purposes, leaving the original YAML untouched and usable\nas is.\n",
+   "maintainers": [
+    {
+     "email": "m@cdagostino.io",
+     "github": "carlosdagos",
+     "githubId": 686190,
+     "name": "Carlos D'Agostino"
+    },
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "theopompos@gmail.com",
+     "github": "periklis",
+     "githubId": 152312,
+     "name": "Periklis Tsirakidis"
+    },
+    {
+     "email": "francesco@zanini.me",
+     "github": "zaninime",
+     "githubId": 450885,
+     "name": "Francesco Zanini"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "kustomize",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/kustomize/default.nix:29"
+  },
+  "revs": [
+   "01fc0e38f9148185d4a506a1cb632008c1a51fb7",
+   "069f183f16c3ea5d4b6e7625433b92eba77534f7"
   ]
  }
 }

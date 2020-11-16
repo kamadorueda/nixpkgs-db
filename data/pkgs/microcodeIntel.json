@@ -495,7 +495,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "6fea9e5902809220e12b50665072d70d8d507456"
+   "733acfa140d5b73bc69c53c4ebd90ccc5f281f0e"
   ]
  },
  "20200508": {
@@ -647,7 +647,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "6b4ef62e113e644e5c2cd2be393619accf372b29"
+   "29e9c10750e2b35a0e47db55f36c685ef9219f4e"
   ]
  },
  "20201110": {
@@ -685,7 +685,45 @@
   },
   "revs": [
    "02a1379d454e5749951604035c17ca2651535691",
-   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+   "157d7354d6e66153352e5ef2c054ef4398c67187"
+  ]
+ },
+ "20201112": {
+  "meta": {
+   "description": "Microcode for Intel processors",
+   "homepage": "http://www.intel.com/",
+   "license": {
+    "fullName": "Unfree redistributable firmware",
+    "shortName": "unfreeRedistributableFirmware"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "microcode-intel",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/microcode/intel.nix:28"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "449922941981337bfed5fe8c549a849c73de73bf"
   ]
  }
 }

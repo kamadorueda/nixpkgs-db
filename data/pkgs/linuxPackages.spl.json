@@ -257,7 +257,7 @@
   },
   "revs": [
    "00251af1911f4b7c8f19b832a288fec737a8aa99",
-   "0cddd5787f834fab1dda943cf47d2f129c4d8499"
+   "7255ac3a13bc91ff340276be75255c5fbb6941af"
   ]
  },
  "0.6.0-rc14-3.2.39": {
@@ -692,7 +692,7 @@
   },
   "revs": [
    "0668d54827f5b10541e018425f906937f035c8b5",
-   "60355207c329e8f04baf574c6ee9bed960b3c240"
+   "70d6623586f333dc5be144739d83d693c2ece427"
   ]
  },
  "0.6.1-3.4.55": {
@@ -1406,7 +1406,7 @@
   },
   "revs": [
    "03bec38123ac04b8349f9d8403ab6494c338a286",
-   "03bec38123ac04b8349f9d8403ab6494c338a286"
+   "72162706a779fd1e13fe09f047bfecbf192e7021"
   ]
  },
  "0.6.2-3.12.28": {
@@ -2955,7 +2955,7 @@
   },
   "revs": [
    "00f1f9357d19d1089532c5c3ef68da70468a3e75",
-   "66ebc65cd3fd91eba18e43e4cc37ddfecbddba95"
+   "73b7bf67731cb95310af0429cc7982d03c84e8f1"
   ]
  },
  "0.6.3-3.14.25": {
@@ -3017,7 +3017,7 @@
   },
   "revs": [
    "000c24a43fef598f04cc9435de09a818dfedfdba",
-   "0d13ea0131cf43e7adccc437df4be8fa75ed9d3e"
+   "71ecac3372646af22bbc70c89664d84c869376c0"
   ]
  },
  "0.6.3-3.14.27": {
@@ -3048,7 +3048,7 @@
   },
   "revs": [
    "011e581a4e11420b2b6a6078914a8a735c921da0",
-   "26e74d8a3e06f665d25627677a3e6ac013f02c47"
+   "732c303bb813e01b477c4ae268d008b960f27555"
   ]
  },
  "0.6.3-3.14.29": {
@@ -3801,7 +3801,7 @@
   },
   "revs": [
    "007e2889129bb817e4e0c4220eba0c52461810fc",
-   "024b0414abc66e44603d16b269ca258d013a17d0"
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
   ]
  },
  "0.6.4.2-3.18.18": {
@@ -3865,7 +3865,7 @@
   },
   "revs": [
    "0031120921eef7baaa23340e22675a00d842a72e",
-   "5a5e86f5cde2086872075b2daf7a1b54bb2e0225"
+   "71a1e3acb620d63514135396df43b1834d4c9c95"
   ]
  },
  "0.6.4.2-3.18.20": {
@@ -4121,7 +4121,7 @@
   },
   "revs": [
    "0139c51f1bb91ddd1874197f22d012d4bd28cdb3",
-   "31dc4f6c1b7ba9d1105c89d3123957276f4e2f08"
+   "72660409f5b27f095ee1a355e0577bc406d914b0"
   ]
  },
  "0.6.5-4.1.9": {
@@ -4569,7 +4569,7 @@
   },
   "revs": [
    "030838ba25e8a7bcfdcbbcf572a549ae1a3a42c2",
-   "24ffbfde1d3f4e89c2c9ebdf209565d69f1a59cf"
+   "729870467a97382e2252defe4ae3b04765b9451b"
   ]
  },
  "0.6.5.4-4.1.17": {
@@ -4697,7 +4697,7 @@
   },
   "revs": [
    "00682602aead85078299df5153b9dfbb9f371ec4",
-   "1207ac1aafa5d1edb6776a901a73eb3fcaef7b9c"
+   "72b4009367257c2447aac89d5f34f2421bbc88dc"
   ]
  },
  "0.6.5.4-4.4.12": {
@@ -5145,7 +5145,7 @@
   },
   "revs": [
    "0077abe128bf08be982241b364481bb839748583",
-   "3356e5c0332d3eecd1b40352da3d9d05b29b58d9"
+   "73435915ba176554c8674b3e566a9371a7d8cf20"
   ]
  },
  "0.6.5.4-4.4.30": {
@@ -6671,7 +6671,7 @@
   },
   "revs": [
    "0bced777c936456ada8db32c2cc8dc6395c43f6e",
-   "1a59ff16467c1c6a073b536d5db2f08b10db5ea1"
+   "73bd95dc43df92396c002f2e17e40fd2feca2058"
   ]
  },
  "0.6.5.8-4.4.45": {
@@ -7236,6 +7236,39 @@
   "revs": [
    "2582e56813c0239beee343990ffc610a615e5d55",
    "2582e56813c0239beee343990ffc610a615e5d55"
+  ]
+ },
+ "0.6.5.9-4.4.58": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>",
+    "Ricardo M. Correia <rcorreia@wizy.org>",
+    "William A. Kennington III <william@wkennington.com>",
+    "Franz Pletz <fpletz@fnordicwalking.de>"
+   ],
+   "name": "spl-kernel",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:52"
+  },
+  "revs": [
+   "7149cd206b21a8dc0a964f741826ed156711fc76",
+   "7149cd206b21a8dc0a964f741826ed156711fc76"
   ]
  },
  "0.6.5.9-4.4.59": {
@@ -8258,7 +8291,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "304d3a4bce39c1b7d3c651ae8842862fabc02711"
+   "71fb65709c32937eeac32679807498229c643b3b"
   ]
  },
  "0.7.1-4.9.50": {
@@ -19270,7 +19303,7 @@
   },
   "revs": [
    "01f5e794913a18494642b5f237bd76c054339d61",
-   "65c394dfeb3f6d7a83ca67332c0595ba9299510c"
+   "71a5983cec4c01efea5726b94bfce575e603b662"
   ]
  },
  "0.7.9-4.14.71": {

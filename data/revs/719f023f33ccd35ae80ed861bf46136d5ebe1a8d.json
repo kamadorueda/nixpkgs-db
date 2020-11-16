@@ -1,0 +1,4 @@
+{
+ "summary": "* A quick hack to make release.nix evaluate in a reasonable amount of   time and space on the new (non-ATerm) Nix expression evaluator.  It   turns out that release.nix relied rather heavily on maximal laziness   for efficiency: every job calls `allPackages { inherit system; }'   for each platform.  This causes the dependencies of the job to be   reevaluated for every job/platform combination.  This is very slow   and (because the evaluator doesn't have a garbage collector yet)   eventually causes the evaluator to run out of memory and be killed.",
+ "timestamp": "1274783714"
+}

@@ -819,7 +819,7 @@
   },
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
-   "31a0f937839893562111fbf0dde09425bce589ac"
+   "7123cad74262177b73d6b29af303a65313b85921"
   ]
  },
  "2017-03-30": {
@@ -945,7 +945,7 @@
   },
   "revs": [
    "0016d925e42c28df8666293bb38a440b10101fd8",
-   "10bb7fddb9626a4f90b7175fa13f75bbc114bd02"
+   "735329ab9eada41742258e487f878524455062fe"
   ]
  },
  "2017-09-24": {
@@ -3645,7 +3645,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "51105e33db6efa6dbe3dd7b25ecfa02aefe391f5"
+   "590e678b8e2e7c77552edb11b4530a3172ea6ac6"
   ]
  },
  "2020-02-11": {
@@ -3867,7 +3867,7 @@
   },
   "revs": [
    "00bd95722590ec718ca53b95a6ad544189e42d42",
-   "1320f23a6b5517e73bb886ffb23bec5b037914bf"
+   "70cb417bac93d55556c122fb3773da9c12fab951"
   ]
  },
  "2020-02-28": {
@@ -4163,7 +4163,7 @@
   },
   "revs": [
    "004325edcef0cf16ce4f56d4de2a2ce2eac622c2",
-   "56cb90bddf1a06249a6a2b4e4cabcea0e65391ff"
+   "733acfa140d5b73bc69c53c4ebd90ccc5f281f0e"
   ]
  },
  "2020-03-12": {
@@ -4238,7 +4238,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "5b0b5f5928a13faa2e86bdc796b3692677c86ad2"
+   "701ddad4ce8e56795f7ccd2f34e387b9071e74a7"
   ]
  },
  "2020-04-10": {
@@ -7569,7 +7569,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "306596c9cf068cb257bc6057d0086ec297f33429"
+   "449922941981337bfed5fe8c549a849c73de73bf"
   ]
  },
  "2020-09-04": {
@@ -7964,7 +7964,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "3ed0b84b883dfd68db33297c6dea3cb39afb2777"
+   "14245d48a433f9470cb9a2072cc2c433078b6f35"
   ]
  },
  "2020-09-29": {
@@ -8517,7 +8517,7 @@
   },
   "revs": [
    "00f0b1d721f459a9b67d071746ca583316e0d70d",
-   "24883ec6e75676ac92f4a211cfa4a6839d635751"
+   "5f6707d1b5420cf2826202ccae9b11aefef72277"
   ]
  },
  "2020-10-15": {
@@ -8596,7 +8596,7 @@
   },
   "revs": [
    "00738f9a9bac43ef067303e32f81adaa2509f5eb",
-   "0931ebd00a6be40ddc2c6e93695ab06d76b628eb"
+   "26093e5f5677a4b7a8f4a46ba9dc7b0d737380a2"
   ]
  },
  "2020-10-18": {
@@ -8833,7 +8833,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "4d8adccab694baf4d413e8feef308c9b1da2d507"
+   "445dde63041d516195926d2a2358541f9fbc8b7e"
   ]
  },
  "2020-11-04": {
@@ -8912,7 +8912,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "5a540a899682799f59258bf475297e5cfc9997b6"
+   "65bd03c8d3eb21a3dd849e0b4b38a39529ead058"
   ]
  },
  "2020-11-09": {
@@ -9070,7 +9070,7 @@
   },
   "revs": [
    "03b9d34df65b4bb21181b80fc84fbeab703ad701",
-   "6b4ef62e113e644e5c2cd2be393619accf372b29"
+   "008e711861d82fd89bdf27795905045a773330b0"
   ]
  },
  "2020-11-11": {
@@ -9149,7 +9149,86 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+   "67394b5efdc8d5e554a668681fab029b1eb3ad70"
+  ]
+ },
+ "2020-11-12": {
+  "meta": {
+   "description": "A framework for managing your zsh configuration",
+   "homepage": "https://ohmyz.sh/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Oh My Zsh is a framework for managing your zsh configuration.\n\nTo copy the Oh My Zsh configuration file to your home directory, run\nthe following command:\n\n  $ cp -v $(nix-env -q --out-path oh-my-zsh | cut -d' ' -f3)/share/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc\n",
+   "maintainers": [
+    {
+     "email": "sivanov@colimite.fr",
+     "github": "scolobb",
+     "githubId": 11320,
+     "name": "Sergiu Ivanov"
+    },
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "githubId": 628342,
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "oh-my-zsh",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/shells/zsh/oh-my-zsh/default.nix:106"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "069f183f16c3ea5d4b6e7625433b92eba77534f7"
   ]
  }
 }

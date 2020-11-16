@@ -76,7 +76,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "59c4870a9691d23fd4372af53fff740e4e66cfab"
+   "14245d48a433f9470cb9a2072cc2c433078b6f35"
   ]
  },
  "5.4.69-rt39": {
@@ -156,7 +156,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "0c10d50caaf8c9bfc2ba444d4d174064abf56382"
+   "26093e5f5677a4b7a8f4a46ba9dc7b0d737380a2"
   ]
  },
  "5.4.74-rt41": {
@@ -196,7 +196,87 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "22140b27f2d38dc9c52ffd7d0a7e8da932f0d67c"
+   "449922941981337bfed5fe8c549a849c73de73bf"
+  ]
+ },
+ "5.4.74-rt42": {
+  "meta": {
+   "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:274"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "1ff209c9884706c60e63ef4c3a4c7e6a49585eca"
+  ]
+ },
+ "5.4.77-rt43": {
+  "meta": {
+   "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:274"
+  },
+  "revs": [
+   "01fc0e38f9148185d4a506a1cb632008c1a51fb7",
+   "069f183f16c3ea5d4b6e7625433b92eba77534f7"
   ]
  }
 }
