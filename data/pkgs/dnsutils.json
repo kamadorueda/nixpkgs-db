@@ -190,7 +190,7 @@
   },
   "revs": [
    "00105162f413ea8e8a419da0fc5b556e3737e82f",
-   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
+   "7731621c81b5cd601a176c2109b44c5295049f20"
   ]
  },
  "9.10.5": {
@@ -1165,6 +1165,107 @@
    "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
+ "9.13.0": {
+  "meta": {
+   "description": "Domain name server",
+   "homepage": "http://www.isc.org/software/bind",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    },
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "bind",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/dns/bind/default.nix:72"
+  },
+  "revs": [
+   "75d440c9a3a9939b536f1e83e5c7e1ada87354b2",
+   "75d440c9a3a9939b536f1e83e5c7e1ada87354b2"
+  ]
+ },
  "9.14.10": {
   "meta": {
    "description": "Domain name server",
@@ -1339,7 +1440,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "449922941981337bfed5fe8c549a849c73de73bf"
+   "2da313c8f70fde315345300297b22f00922b9c06"
   ]
  },
  "9.14.2": {
@@ -1604,7 +1705,7 @@
   },
   "revs": [
    "00482247e1a649194dc66ac264c5532a3ef9a9a4",
-   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+   "7555467383a7c053ab8a3fe52d237a582b527204"
   ]
  },
  "9.16.7": {
@@ -1724,7 +1825,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "069f183f16c3ea5d4b6e7625433b92eba77534f7"
+   "36b27ccf777476ff6ff19e8df99d75681f820c98"
   ]
  }
 }

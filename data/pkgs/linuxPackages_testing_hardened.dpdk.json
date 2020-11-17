@@ -188,7 +188,7 @@
   },
   "revs": [
    "00370bc77abce80f9e86aadccc30a6d2bc891ed1",
-   "4ec643b1258537f729af1d9c4f7ef97b69dc2ec7"
+   "76704e15a0205fb33f983a44601856636c66cee0"
   ]
  },
  "17.11.2-4.20-rc2": {
@@ -332,7 +332,7 @@
   },
   "revs": [
    "007dafc9a089e201838c6929933c6adfa06862b9",
-   "44936c416f07e33cfa4f419ad3cc343e460da8e1"
+   "76b3cd665ff7628bb307c99a74dd0cd3ce4c4c94"
   ]
  },
  "17.11.2-4.20-rc5": {
@@ -1862,7 +1862,7 @@
   },
   "revs": [
    "00610756df9a235f2de907a18cd8fded638d24e0",
-   "51e137bbdc3821852201adbfa49dea728f8f5cfc"
+   "7555467383a7c053ab8a3fe52d237a582b527204"
   ]
  },
  "19.11-5.5-rc7": {
@@ -2325,6 +2325,72 @@
   "revs": [
    "48c7203ebe5c06b4fcee5a6daddbfd934058069e",
    "48c7203ebe5c06b4fcee5a6daddbfd934058069e"
+  ]
+ },
+ "19.11-5.7-rc3": {
+  "meta": {
+   "description": "Set of libraries and drivers for fast packet processing",
+   "homepage": "http://dpdk.org/",
+   "license": [
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "magenbluten@codemonkey.cc",
+     "github": "magenbluten",
+     "githubId": 1140462,
+     "name": "magenbluten"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "dpdk",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/dpdk/default.nix:69"
+  },
+  "revs": [
+   "760436a0225264a88091a588aebbe45878cbd79c",
+   "760436a0225264a88091a588aebbe45878cbd79c"
   ]
  },
  "19.11-5.7-rc4": {

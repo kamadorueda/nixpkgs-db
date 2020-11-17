@@ -653,7 +653,7 @@
   },
   "revs": [
    "0252e6ca31c98182e841df494e6c9c4fb022c676",
-   "5829045fc55302480f6b637127caa1d4fa403695"
+   "74442da768d4dc74f182b3623416a2bbeea32460"
   ]
  },
  "390.48-4.16.10": {
@@ -1146,7 +1146,7 @@
   },
   "revs": [
    "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
-   "1846a85b77c60c2f72c95ee63f7f43a5557f8a48"
+   "769fa7ad769d38ce86f14536c453826fd67e77ce"
   ]
  },
  "390.67-4.14.53": {
@@ -1291,7 +1291,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "2ec495e943bc72a1d6dc3747872245079609d460"
+   "76c4c7b9de8930d82af8064d2abde5f3b492cb0a"
   ]
  },
  "390.67-4.17.10": {
@@ -1523,7 +1523,7 @@
   },
   "revs": [
    "100173942f6b700fc104acf0a79b83e397f2b7a4",
-   "328acf6aa87a59c59baef46b8a3260ab9e223d37"
+   "75764e6a72aa9e6725370f78fdac561d2f7525c7"
   ]
  },
  "390.67-4.17.18": {
@@ -3785,7 +3785,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "4ec643b1258537f729af1d9c4f7ef97b69dc2ec7"
+   "76704e15a0205fb33f983a44601856636c66cee0"
   ]
  },
  "410.73-4.19.2": {
@@ -4829,7 +4829,7 @@
   },
   "revs": [
    "0e35c8af3a39b0a4ed68a034bb59231f8acf3437",
-   "0ef73ffdbdcde491f5c665f279361d2d32be8b71"
+   "7507b43eba9fb9598eb2299bf9bfdd54614d9f81"
   ]
  },
  "415.27-5.0.4": {
@@ -5931,7 +5931,7 @@
   },
   "revs": [
    "0040e207d85bd2b2fcfb3c52a189e72af2632b50",
-   "45109de81eb7508f0e9d7986c6f36c6d552e0fb6"
+   "75e324e718467544f7d1a346ebda2e9c727b05ba"
   ]
  },
  "418.74-5.1.20": {
@@ -6601,6 +6601,35 @@
    "27aaaa5ba6923104a23bae75d323dc975390195e"
   ]
  },
+ "418.74-5.2.3": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "http://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidia-x11/generic.nix:90"
+  },
+  "revs": [
+   "762fddd40e8b72c2b1b115a8c4f10e2017876e8d",
+   "762fddd40e8b72c2b1b115a8c4f10e2017876e8d"
+  ]
+ },
  "418.74-5.2.5": {
   "meta": {
    "description": "X.org driver and kernel module for NVIDIA graphics cards",
@@ -6685,7 +6714,7 @@
   },
   "revs": [
    "04ec91fbd8e47ca57c8126d7a121319b9a8b6702",
-   "270d822c0875fd23ef50671cba89b587a53201dc"
+   "76d324648fe7a03f3b46c18d24d16eb5fbf0d759"
   ]
  },
  "418.74-5.2.9": {
@@ -7269,7 +7298,7 @@
   },
   "revs": [
    "076c67fdea6d0529a568c7d0e0a72e6bc161ecf5",
-   "0fabe3d3742d447a244866531f334c282cbef6e1"
+   "7537b8b82f1cde54ad0a2ed618c7f5f82fdb22fc"
   ]
  },
  "440.100-5.7.11": {
@@ -7777,7 +7806,7 @@
   },
   "revs": [
    "00610756df9a235f2de907a18cd8fded638d24e0",
-   "1dc14208f58ce3e09ce2a687f0476d53cf85dadc"
+   "7555467383a7c053ab8a3fe52d237a582b527204"
   ]
  },
  "440.44-5.4.12": {
@@ -9070,6 +9099,36 @@
    "1e4e7522b015640e31de35c89d5fb5a7e47be630"
   ]
  },
+ "440.82-5.6.2": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidia-x11/generic.nix:93"
+  },
+  "revs": [
+   "73ff54e7b9f92c95722c8754e14a9c209532b56b",
+   "73ff54e7b9f92c95722c8754e14a9c209532b56b"
+  ]
+ },
  "440.82-5.6.3": {
   "meta": {
    "description": "X.org driver and kernel module for NVIDIA graphics cards",
@@ -10062,7 +10121,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "65bd03c8d3eb21a3dd849e0b4b38a39529ead058"
+   "3560f0d913a1d1b2c6f0a650d3a4f3ab5419baa2"
   ]
  },
  "455.28-5.9.6": {
@@ -10120,7 +10179,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "008e711861d82fd89bdf27795905045a773330b0"
+   "4bcbf9f57db8ebe472d7ce1887cb6fc03fe39501"
   ]
  },
  "455.28-5.9.8": {
@@ -10149,7 +10208,7 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "1ff209c9884706c60e63ef4c3a4c7e6a49585eca"
+   "32160d80dc30501dc7460c1d6e54db6b047204b4"
   ]
  },
  "455.38-5.8.18": {
@@ -10178,7 +10237,7 @@
   },
   "revs": [
    "449922941981337bfed5fe8c549a849c73de73bf",
-   "449922941981337bfed5fe8c549a849c73de73bf"
+   "2da313c8f70fde315345300297b22f00922b9c06"
   ]
  },
  "455.38-5.9.8": {
@@ -10207,7 +10266,7 @@
   },
   "revs": [
    "01fc0e38f9148185d4a506a1cb632008c1a51fb7",
-   "069f183f16c3ea5d4b6e7625433b92eba77534f7"
+   "36b27ccf777476ff6ff19e8df99d75681f820c98"
   ]
  }
 }
