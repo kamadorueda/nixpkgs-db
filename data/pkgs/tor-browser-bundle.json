@@ -188,6 +188,33 @@
    "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
+ "8.0.4": {
+  "meta": {
+   "description": "An unofficial version of the Tor Browser Bundle, built from source",
+   "homepage": "https://torproject.org/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n\n`tor-browser-bundle` package is the version built completely from source. It reuses the `tor`\npackage for the tor daemon, `firefoxPackages.tor-browser` package for the tor-browser, and\nbuilds all the extensions from source.\n\nNote that `tor-browser-bundle` package is not only built from source, but also bundles Tor\nBrowser differently from the official `tor-browser-bundle-bin` implementation. The official\nTor Browser is not a normal UNIX program and is heavily patched for its use in the Tor Browser\nBundle (which `tor-browser-bundle-bin` package then has to work around for the read-only\n/nix/store). Meanwhile, `firefoxPackages.tor-browser` reverts all those patches, allowing\n`firefoxPackages.tor-browser` to be used independently of the bundle, and then implements what\n`tor-browser-bundle` needs for the bundling using a much simpler patch. See the\nlongDescription and expression of the `firefoxPackages.tor-browser` package for more info.\n",
+   "maintainers": [
+    {
+     "email": "joachifm@fastmail.fm",
+     "github": "joachifm",
+     "name": "Joachim Fasting"
+    }
+   ],
+   "name": "tor-browser-bundle",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/tor-browser-bundle/default.nix:320"
+  },
+  "revs": [
+   "7d9812e15890acef95e76d17a803d23aad0818cd",
+   "7d9812e15890acef95e76d17a803d23aad0818cd"
+  ]
+ },
  "8.0.5": {
   "meta": {
    "description": "An unofficial version of the Tor Browser Bundle, built from source",

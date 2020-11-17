@@ -149,7 +149,7 @@
   },
   "revs": [
    "004eceb0f6c405515bc229c190d0da287fb51d94",
-   "4ae23aaf3ce5aa470438abe8aa415fbe1ec5b55a"
+   "7e548d512d579e1acb45a637a1e7f7e056cd1633"
   ]
  },
  "1.0.48": {
@@ -463,7 +463,7 @@
   },
   "revs": [
    "0009ae3d5e1ad620215c2b8409eeec668de60552",
-   "1441806c27f3775db580360e072ead2afbe00ae9"
+   "78b06757c29a0b662e9463a9b4a29162fae8ef65"
   ]
  },
  "1.4.40": {
@@ -954,6 +954,96 @@
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
    "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.7.49": {
+  "meta": {
+   "description": "A C++ interface for Amazon Web Services",
+   "homepage": "https://github.com/awslabs/aws-sdk-cpp",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "aws-sdk-cpp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/aws-sdk-cpp/default.nix:52"
+  },
+  "revs": [
+   "7b25f9c8338446762ab132db6eb2866ddb7fc62d",
+   "7b25f9c8338446762ab132db6eb2866ddb7fc62d"
   ]
  },
  "1.7.53": {

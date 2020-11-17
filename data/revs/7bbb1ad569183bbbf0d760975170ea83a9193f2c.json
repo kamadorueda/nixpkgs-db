@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert to binutils 2.21.1.  Binutils 2.22 changes the default   handling of dynamic libraries from --copy-dt-needed-entries to   --no-copy-dt-needed-entries, which breaks stuff (e.g. GCC, see   http://hydra.nixos.org/build/1608471).  So stick with 2.21.1 for   now.",
+ "timestamp": "1323794849"
+}

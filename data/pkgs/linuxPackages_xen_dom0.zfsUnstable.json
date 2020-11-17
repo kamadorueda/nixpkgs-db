@@ -929,7 +929,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "4249f77260b370be22da588e2c824871d939c1b9"
+   "7bf3f0911fc29e0e85b47e0960a569dc75a0f562"
   ]
  },
  "0.8.0-rc1-4.14.77": {
@@ -2092,6 +2092,64 @@
    "57d39230d5e7cad070bbb30314fae4d9dc1c4bf5"
   ]
  },
+ "0.8.0-rc2-4.14.116": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:143"
+  },
+  "revs": [
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50",
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50"
+  ]
+ },
  "0.8.0-rc2-4.14.117": {
   "meta": {
    "description": "ZFS Filesystem Linux Kernel module",
@@ -3133,7 +3191,7 @@
   },
   "revs": [
    "047a9dc0800b31703c673fad8b5ff8ad292bb539",
-   "047a9dc0800b31703c673fad8b5ff8ad292bb539"
+   "7dfa5be27c3cc4feeb3e81fb45ee9ad15707b657"
   ]
  },
  "0.8.0-rc2-4.14.96": {
@@ -5192,7 +5250,7 @@
   },
   "revs": [
    "01c27d6faf44ccd435069bcbe40785f9e0bfd9be",
-   "6e29f22551d08974bd68e17db307d1f002152433"
+   "78b0673cb92eaf00b2c2224aef812570f88fac36"
   ]
  },
  "0.8.0-rc4-4.19.40": {
@@ -6013,7 +6071,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "24be3d6cf45df66c56d84047ef5c94ffe8d3c655"
+   "799a18f3dc0fd591c13230c6d54d8d351b355189"
   ]
  },
  "0.8.1-4.19.58": {
@@ -6477,7 +6535,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "3e0e15665a9ef09a483366b40d362ff34b611309"
+   "7a8bbb6b9989711308a18593ef5e932e981ee869"
   ]
  },
  "0.8.1-4.19.66": {
@@ -7925,7 +7983,7 @@
   },
   "revs": [
    "0100a600ff61825c752f4e7cefb256ac87c4391d",
-   "02bf0557c0a91ff706cf15272db4a22344cbfb16"
+   "7b5550a3fc72cc3c41c4143732502a0787cb17a0"
   ]
  },
  "0.8.3-4.19.100": {
@@ -8297,7 +8355,7 @@
   },
   "revs": [
    "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-   "5ee843ec01a956fb2a38d2e6856f55a8d8c4e048"
+   "7ae6e51bd496bb3ed46078e0322256e2fef7517a"
   ]
  },
  "0.8.3-5.4.19": {
@@ -8359,7 +8417,7 @@
   },
   "revs": [
    "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938",
-   "1dbfae3343b686349118483f7c1f1d8776fd1689"
+   "7b9129a98146cff91360419541955f55c5a09aec"
   ]
  },
  "0.8.3-5.4.20": {
@@ -8545,7 +8603,7 @@
   },
   "revs": [
    "0079850d6ab3ecabcd6a262bf309eff57ff15945",
-   "70cb417bac93d55556c122fb3773da9c12fab951"
+   "78e89143d43ae02aea1ff0359dbbd755e409c95f"
   ]
  },
  "0.8.3-5.4.23": {
@@ -9785,7 +9843,7 @@
   },
   "revs": [
    "003af9cac8ab25090f7d5a8188db438a5310229b",
-   "3f31c0d2a38209f0ad212afa061598b43bd1a5b2"
+   "79ac3258c9ab9defdb792a9e8bdb576f0d0c2ff8"
   ]
  },
  "0.8.3-5.4.45": {
@@ -9971,7 +10029,7 @@
   },
   "revs": [
    "4a38da509205ab29095c3529ac325e694ac5ae9e",
-   "4a38da509205ab29095c3529ac325e694ac5ae9e"
+   "779f70185d035a321b4f5344bd7c0c74a7fb29f4"
   ]
  },
  "0.8.3-5.4.48": {
@@ -10343,7 +10401,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "5c3abccfaf9b28a8a4427dc962a3ed656f5ecc7f"
+   "79e055eb3b70a16df924b369b8ebc9d319c6c287"
   ]
  },
  "0.8.4-5.4.44": {
@@ -10529,7 +10587,7 @@
   },
   "revs": [
    "004c6c149aae67256853e7cd69a86626a04d02d1",
-   "73dd8a73a48d54a9d75a1df8e4d3dc6ef92d57fb"
+   "79f4822a30ae5522ad66229527d04241e22a6722"
   ]
  },
  "0.8.4-5.4.47": {
@@ -11459,7 +11517,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "50236f40d6959f6f5918a6724f2166c45067b4f8"
+   "7a4bae9c2ffbc64a4e2b9536cca10bce609257b4"
   ]
  },
  "0.8.4-5.4.62": {
@@ -12017,7 +12075,7 @@
   },
   "revs": [
    "067d8e6c9f4ad3df62d4c9359865747aedea8853",
-   "65153e9f1401602997a97dfc177a2f8280469310"
+   "7def3b549e3e88f0390ed7ea974067d661e3f2af"
   ]
  },
  "0.8.4-5.4.71": {
@@ -12451,7 +12509,7 @@
   },
   "revs": [
    "16b3b1eef03e6fb8211b095079aba5059f26081e",
-   "590e678b8e2e7c77552edb11b4530a3172ea6ac6"
+   "7abaad0dc9bb320c5af5b9d473231878c670235e"
   ]
  },
  "2.0.0-rc1-5.4.61": {
@@ -12575,7 +12633,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "64508a8ce553c2ee2a1d01ce5499eb0de696fea3"
+   "7980e04dcc4e75789f3fd3ad463fbd5cdaece616"
   ]
  },
  "2.0.0-rc1-5.4.63": {
@@ -12699,7 +12757,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
+   "7d6f1c07844329e148f66a2fea1fec4d883a8c5b"
   ]
  },
  "2.0.0-rc1-5.4.65": {
@@ -13505,7 +13563,7 @@
   },
   "revs": [
    "07946a120638a3376b69e2a7c1097463bbe4e513",
-   "06ded01ce05663438f8711017f937d91a759e20d"
+   "7bd21d3e2da8b9ae394258cef9f18bf0a8dd2d47"
   ]
  },
  "2.0.0-rc3-5.4.74": {
@@ -13877,7 +13935,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "445dde63041d516195926d2a2358541f9fbc8b7e"
+   "7dcbc0ebd51bb2be66f228405d87678ecbe406ff"
   ]
  },
  "2.0.0-rc4-5.4.74": {
@@ -14839,7 +14897,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "585aa0e9eee4a640481e7611ec97faf3f084f02a"
+   "786f498cb37747ac98e7e2dc4cc5c799fa2f8251"
   ]
  },
  "2018-02-02-4.14.32": {
@@ -16626,7 +16684,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "213743d4d073d373254b9ff7850a49813b5910e1"
+   "79e6571eaad3e513ff5c2540982e363b35372769"
   ]
  },
  "2018-05-22-4.14.57": {
@@ -17322,7 +17380,7 @@
   },
   "revs": [
    "068f437ddad574a113b5fefb7dbb85b7d0357ece",
-   "36005e5edf5ac8b59df69b42fccb45779358d4a3"
+   "7a1ccf2643fec01c4bac613463e0faf983d86d44"
   ]
  },
  "2018-05-22-4.14.69": {

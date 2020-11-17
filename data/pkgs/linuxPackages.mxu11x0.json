@@ -615,6 +615,45 @@
    "57d39230d5e7cad070bbb30314fae4d9dc1c4bf5"
   ]
  },
+ "1.3.11+git2017-07-13-4.14.116": {
+  "meta": {
+   "description": "MOXA UPort 11x0 USB to Serial Hub driver",
+   "homepage": "https://github.com/ellysh/mxu11x0",
+   "license": {
+    "fullName": "GNU General Public License v1.0 only",
+    "shortName": "gpl1",
+    "spdxId": "GPL-1.0",
+    "url": "http://spdx.org/licenses/GPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "mxu11x0",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/mxu11x0/default.nix:32"
+  },
+  "revs": [
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50",
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50"
+  ]
+ },
  "1.3.11+git2017-07-13-4.14.117": {
   "meta": {
    "description": "MOXA UPort 11x0 USB to Serial Hub driver",
@@ -1149,7 +1188,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "585aa0e9eee4a640481e7611ec97faf3f084f02a"
+   "786f498cb37747ac98e7e2dc4cc5c799fa2f8251"
   ]
  },
  "1.3.11+git2017-07-13-4.14.32": {
@@ -2085,7 +2124,7 @@
   },
   "revs": [
    "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
-   "213743d4d073d373254b9ff7850a49813b5910e1"
+   "79e6571eaad3e513ff5c2540982e363b35372769"
   ]
  },
  "1.3.11+git2017-07-13-4.14.57": {
@@ -3606,7 +3645,7 @@
   },
   "revs": [
    "047a9dc0800b31703c673fad8b5ff8ad292bb539",
-   "047a9dc0800b31703c673fad8b5ff8ad292bb539"
+   "7dfa5be27c3cc4feeb3e81fb45ee9ad15707b657"
   ]
  },
  "1.3.11+git2017-07-13-4.14.96": {
@@ -4503,7 +4542,7 @@
   },
   "revs": [
    "04954e39df88487bf5b6bb5e532520e83a6c22ea",
-   "6e29f22551d08974bd68e17db307d1f002152433"
+   "78b0673cb92eaf00b2c2224aef812570f88fac36"
   ]
  },
  "1.3.11+git2017-07-13-4.19.40": {
@@ -5166,7 +5205,7 @@
   },
   "revs": [
    "009d35a682d4f4b2f6160ece98cea09bf1f69db2",
-   "24be3d6cf45df66c56d84047ef5c94ffe8d3c655"
+   "799a18f3dc0fd591c13230c6d54d8d351b355189"
   ]
  },
  "1.3.11+git2017-07-13-4.19.58": {
@@ -5439,7 +5478,7 @@
   },
   "revs": [
    "12708e517c0a3c330848c9e5218d5b61455521bb",
-   "56d94c8c69f8cac518027d191e2f8de678b56088"
+   "7c375966f0d7d6db2ae05039fc4ff960d831bc17"
   ]
  },
  "1.3.11+git2017-07-13-4.19.65": {
@@ -6737,7 +6776,7 @@
   },
   "revs": [
    "41df99400149a6747b31c8ed1049f556c9c0e0ed",
-   "41df99400149a6747b31c8ed1049f556c9c0e0ed"
+   "799b941a2bb61970d6b99366bcf2062f1ce14328"
   ]
  },
  "1.3.11+git2017-07-13-4.9.76": {
@@ -6768,7 +6807,7 @@
   },
   "revs": [
    "02393338dc8852b30f5ea04eb0307c3dc266e424",
-   "5738da94f4b6b2ebcfd464a7634f2a89fac377e7"
+   "7aaa72c203c296509612eddb9039e2691448a8d7"
   ]
  },
  "1.3.11+git2017-07-13-4.9.77": {
@@ -7498,7 +7537,7 @@
   },
   "revs": [
    "0746040a66fa29f61b161875d3bbfa615618a5ef",
-   "0ed0d08c7291da58b4c20c68d2ae89b2934555ab"
+   "7e5cfb7d82bbe29cb83333638e2d0ead60260c6e"
   ]
  },
  "1.3.11-4.4.26": {
@@ -7798,7 +7837,7 @@
   },
   "revs": [
    "0016d362fa9455e7a5ee03e7e4d374de477a18dc",
-   "38b1bd9e729485d418f20c43c275c2856837f8cf"
+   "7a28df48422c3e1d39d8887bc22b28e613a8aea2"
   ]
  },
  "1.3.11-4.4.37": {
@@ -8188,7 +8227,7 @@
   },
   "revs": [
    "05db33f79b8b012107bab29e47f27ce3b8aa4aca",
-   "05db33f79b8b012107bab29e47f27ce3b8aa4aca"
+   "7d9e9c7eee500af7135ef8308776f4e7a6a84ac3"
   ]
  },
  "1.3.11-4.4.51": {
@@ -8920,7 +8959,7 @@
   },
   "revs": [
    "00c3bd1561b5027562e827341e71cfd2fab1904c",
-   "33bd699008c8cb3d92a379de99aa1c65e6b1f8d1"
+   "789823d3cae2a62dc4bb4ee7fa37fb1afa59bb9b"
   ]
  },
  "1.3.11-4.9.22": {
@@ -9321,7 +9360,7 @@
   },
   "revs": [
    "008a6a571bc61891f629b427b4ea3ef1af94b153",
-   "0d2ba7ef2b85403d2b8b001409c53fe99fa147bc"
+   "7c27554033b95f3a5bb9796fe457bbfbdcfcb85b"
   ]
  },
  "1.3.11-4.9.7": {
@@ -10568,7 +10607,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "413567990758333c3b6d90e455af629aba3593b4"
+   "7a8bbb6b9989711308a18593ef5e932e981ee869"
   ]
  },
  "1.4-4.19.66": {
@@ -11282,7 +11321,7 @@
   },
   "revs": [
    "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-   "5ee843ec01a956fb2a38d2e6856f55a8d8c4e048"
+   "7ae6e51bd496bb3ed46078e0322256e2fef7517a"
   ]
  },
  "1.4-5.4.19": {
@@ -11322,7 +11361,7 @@
   },
   "revs": [
    "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938",
-   "1dbfae3343b686349118483f7c1f1d8776fd1689"
+   "7b9129a98146cff91360419541955f55c5a09aec"
   ]
  },
  "1.4-5.4.20": {
@@ -11442,7 +11481,7 @@
   },
   "revs": [
    "0079850d6ab3ecabcd6a262bf309eff57ff15945",
-   "70cb417bac93d55556c122fb3773da9c12fab951"
+   "78e89143d43ae02aea1ff0359dbbd755e409c95f"
   ]
  },
  "1.4-5.4.23": {
@@ -12202,7 +12241,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "5c3abccfaf9b28a8a4427dc962a3ed656f5ecc7f"
+   "79e055eb3b70a16df924b369b8ebc9d319c6c287"
   ]
  },
  "1.4-5.4.44": {
@@ -12322,7 +12361,7 @@
   },
   "revs": [
    "004c6c149aae67256853e7cd69a86626a04d02d1",
-   "73dd8a73a48d54a9d75a1df8e4d3dc6ef92d57fb"
+   "79f4822a30ae5522ad66229527d04241e22a6722"
   ]
  },
  "1.4-5.4.47": {
@@ -12922,7 +12961,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "50236f40d6959f6f5918a6724f2166c45067b4f8"
+   "7a4bae9c2ffbc64a4e2b9536cca10bce609257b4"
   ]
  },
  "1.4-5.4.62": {
@@ -12962,7 +13001,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "64508a8ce553c2ee2a1d01ce5499eb0de696fea3"
+   "7980e04dcc4e75789f3fd3ad463fbd5cdaece616"
   ]
  },
  "1.4-5.4.63": {
@@ -13042,7 +13081,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
+   "7d6f1c07844329e148f66a2fea1fec4d883a8c5b"
   ]
  },
  "1.4-5.4.65": {
@@ -13122,7 +13161,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "775b368bb94d59eaac0aeb14e9fd5b2f7265895f"
+   "7d001444c174eaadd9a42c917d764f837876d100"
   ]
  },
  "1.4-5.4.67": {
@@ -13242,7 +13281,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "77660fc646432b3d77fb14a04d1024311d653ecf"
+   "7a61b768d173e12ae5c434556dc536c58b997318"
   ]
  },
  "1.4-5.4.70": {
@@ -13282,7 +13321,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "753177c404192101aee01c56094abb8cdeedf847"
+   "7911f87840a3df0fc3118d5ed7639992527b087b"
   ]
  },
  "1.4-5.4.71": {
@@ -13402,7 +13441,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "445dde63041d516195926d2a2358541f9fbc8b7e"
+   "7dcbc0ebd51bb2be66f228405d87678ecbe406ff"
   ]
  },
  "1.4-5.4.74": {

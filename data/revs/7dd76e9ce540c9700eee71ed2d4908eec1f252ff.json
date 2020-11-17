@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix a hard-coded reference in `shadow' to /usr/sbin/nscd.  This   prevented the nscd cache from being properly invalidated after a   change, so that e.g. `useradd x; id x' would fail.",
+ "timestamp": "1279109426"
+}

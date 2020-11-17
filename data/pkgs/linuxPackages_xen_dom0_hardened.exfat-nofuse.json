@@ -416,7 +416,7 @@
   },
   "revs": [
    "007d227e368bc7e5be856b11a65b3f6381df9b1f",
-   "585aa0e9eee4a640481e7611ec97faf3f084f02a"
+   "786f498cb37747ac98e7e2dc4cc5c799fa2f8251"
   ]
  },
  "2017-06-19-4.14.32": {
@@ -1352,7 +1352,7 @@
   },
   "revs": [
    "0c238624a99b9f713f42f37d08c56034a179d2af",
-   "1f1aa5f888d8a52abe2f7de9687eb50a9ae206ef"
+   "79e6571eaad3e513ff5c2540982e363b35372769"
   ]
  },
  "2017-06-19-4.14.57": {
@@ -1820,7 +1820,7 @@
   },
   "revs": [
    "068f437ddad574a113b5fefb7dbb85b7d0357ece",
-   "36005e5edf5ac8b59df69b42fccb45779358d4a3"
+   "7a1ccf2643fec01c4bac613463e0faf983d86d44"
   ]
  },
  "2017-06-19-4.14.69": {
@@ -3242,6 +3242,45 @@
    "57d39230d5e7cad070bbb30314fae4d9dc1c4bf5"
   ]
  },
+ "2018-04-16-4.14.116": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/dorimanx/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:44"
+  },
+  "revs": [
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50",
+   "7b77a9ad6096aaaaba393821bc978d2cc1f83c50"
+  ]
+ },
  "2018-04-16-4.14.117": {
   "meta": {
    "description": "exfat kernel module",
@@ -3551,7 +3590,7 @@
   },
   "revs": [
    "024efc950923730bc3e7e05a87b90c157324e912",
-   "59c22bf3a12f4187169e9c1fcb741cc7556b2b7a"
+   "78b06757c29a0b662e9463a9b4a29162fae8ef65"
   ]
  },
  "2018-04-16-4.14.39": {
@@ -4994,7 +5033,7 @@
   },
   "revs": [
    "007faf02cadc9c88b1c04bbe1efaa601fa3a061b",
-   "4249f77260b370be22da588e2c824871d939c1b9"
+   "7bf3f0911fc29e0e85b47e0960a569dc75a0f562"
   ]
  },
  "2018-04-16-4.14.77": {
@@ -5735,7 +5774,7 @@
   },
   "revs": [
    "047a9dc0800b31703c673fad8b5ff8ad292bb539",
-   "047a9dc0800b31703c673fad8b5ff8ad292bb539"
+   "7dfa5be27c3cc4feeb3e81fb45ee9ad15707b657"
   ]
  },
  "2018-04-16-4.14.96": {
@@ -6632,7 +6671,7 @@
   },
   "revs": [
    "01c27d6faf44ccd435069bcbe40785f9e0bfd9be",
-   "6e29f22551d08974bd68e17db307d1f002152433"
+   "78b0673cb92eaf00b2c2224aef812570f88fac36"
   ]
  },
  "2018-04-16-4.19.40": {
@@ -7288,7 +7327,7 @@
   },
   "revs": [
    "0033313ebf6b595e24032f2798797a470311977b",
-   "24be3d6cf45df66c56d84047ef5c94ffe8d3c655"
+   "799a18f3dc0fd591c13230c6d54d8d351b355189"
   ]
  },
  "2018-04-16-4.19.58": {
@@ -7592,7 +7631,7 @@
   },
   "revs": [
    "00fe273cf9895d12be4c4100f031c0cefda4667b",
-   "3e0e15665a9ef09a483366b40d362ff34b611309"
+   "7a8bbb6b9989711308a18593ef5e932e981ee869"
   ]
  },
  "2018-04-16-4.19.66": {
@@ -8736,7 +8775,7 @@
   },
   "revs": [
    "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-   "5ee843ec01a956fb2a38d2e6856f55a8d8c4e048"
+   "7ae6e51bd496bb3ed46078e0322256e2fef7517a"
   ]
  },
  "2019-09-06-5.4.19": {
@@ -8776,7 +8815,7 @@
   },
   "revs": [
    "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938",
-   "1dbfae3343b686349118483f7c1f1d8776fd1689"
+   "7b9129a98146cff91360419541955f55c5a09aec"
   ]
  },
  "2019-09-06-5.4.20": {
@@ -8896,7 +8935,7 @@
   },
   "revs": [
    "0079850d6ab3ecabcd6a262bf309eff57ff15945",
-   "70cb417bac93d55556c122fb3773da9c12fab951"
+   "78e89143d43ae02aea1ff0359dbbd755e409c95f"
   ]
  },
  "2019-09-06-5.4.23": {
@@ -9656,7 +9695,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "5c3abccfaf9b28a8a4427dc962a3ed656f5ecc7f"
+   "79e055eb3b70a16df924b369b8ebc9d319c6c287"
   ]
  },
  "2019-09-06-5.4.44": {
@@ -9776,7 +9815,7 @@
   },
   "revs": [
    "004c6c149aae67256853e7cd69a86626a04d02d1",
-   "73dd8a73a48d54a9d75a1df8e4d3dc6ef92d57fb"
+   "79f4822a30ae5522ad66229527d04241e22a6722"
   ]
  },
  "2019-09-06-5.4.47": {
@@ -10376,7 +10415,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "50236f40d6959f6f5918a6724f2166c45067b4f8"
+   "7a4bae9c2ffbc64a4e2b9536cca10bce609257b4"
   ]
  },
  "2019-09-06-5.4.62": {
@@ -10416,7 +10455,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "64508a8ce553c2ee2a1d01ce5499eb0de696fea3"
+   "7980e04dcc4e75789f3fd3ad463fbd5cdaece616"
   ]
  },
  "2019-09-06-5.4.63": {
@@ -10496,7 +10535,7 @@
   },
   "revs": [
    "0065551641cccec146f6232df213d5cd30109e09",
-   "24aedc9a1437a048fb14386010e6a0f6bda6b74b"
+   "7d6f1c07844329e148f66a2fea1fec4d883a8c5b"
   ]
  },
  "2019-09-06-5.4.65": {
@@ -10576,7 +10615,7 @@
   },
   "revs": [
    "00740317ecb53f941d76edd18878a9cb04f608c9",
-   "775b368bb94d59eaac0aeb14e9fd5b2f7265895f"
+   "7d001444c174eaadd9a42c917d764f837876d100"
   ]
  },
  "2019-09-06-5.4.67": {
@@ -10696,7 +10735,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "77660fc646432b3d77fb14a04d1024311d653ecf"
+   "7a61b768d173e12ae5c434556dc536c58b997318"
   ]
  },
  "2019-09-06-5.4.70": {
@@ -10736,7 +10775,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "753177c404192101aee01c56094abb8cdeedf847"
+   "7911f87840a3df0fc3118d5ed7639992527b087b"
   ]
  },
  "2019-09-06-5.4.71": {
@@ -10816,7 +10855,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "753e422c9c48a6e388a4da1e210fa0bf161c57ad"
+   "7dd2ab0e4a9910a9ccf207c827a75c3a23c44274"
   ]
  },
  "2019-09-06-5.4.73": {
@@ -10856,7 +10895,7 @@
   },
   "revs": [
    "050b0068e5760d35c712fe4e77cc1cbf26c79640",
-   "75d5a618d0b9a7b54ca0c23d75dff8a817151cfe"
+   "7bd21d3e2da8b9ae394258cef9f18bf0a8dd2d47"
   ]
  },
  "2019-09-06-5.4.74": {
@@ -10936,7 +10975,7 @@
   },
   "revs": [
    "0bf298df24f721a7f85c580339fb7eeff64b927c",
-   "6bb461e607afcd637415cb6af3b8a3d350bc7728"
+   "7bcc7b6cd824f39da9f6f5685a4ba1ffd680f51f"
   ]
  },
  "2019-09-06-5.4.76": {
@@ -11336,7 +11375,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "445dde63041d516195926d2a2358541f9fbc8b7e"
+   "7dcbc0ebd51bb2be66f228405d87678ecbe406ff"
   ]
  },
  "2020-04-15-5.4.74": {
