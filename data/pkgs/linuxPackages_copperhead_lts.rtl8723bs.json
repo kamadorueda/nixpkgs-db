@@ -854,7 +854,7 @@
   },
   "revs": [
    "01fc00cc816d974056b788dc0014b4908869b3b2",
-   "67f6e1768257927d77bc602edaa891c044fcb2d5"
+   "7fc78862033683a8f5e6cbe1764f5bbb6dd726fb"
   ]
  },
  "4.14.64-2017-04-06": {
@@ -1518,6 +1518,45 @@
   "revs": [
    "06c14eefe90587df4455f8bb4030f6d1265a097a",
    "55d1036d9a899f8a783364719de7c25b41718197"
+  ]
+ },
+ "4.14.82-2017-04-06": {
+  "meta": {
+   "description": "Realtek SDIO Wi-Fi driver",
+   "homepage": "https://github.com/hadess/rtl8723bs",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elitak@gmail.com",
+     "github": "elitak",
+     "name": "Eric Litak"
+    }
+   ],
+   "name": "rtl8723bs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/rtl8723bs/default.nix:34"
+  },
+  "revs": [
+   "817c239d3b2409b101c10b532df96625779ef903",
+   "817c239d3b2409b101c10b532df96625779ef903"
   ]
  },
  "4.14.83-2017-04-06": {

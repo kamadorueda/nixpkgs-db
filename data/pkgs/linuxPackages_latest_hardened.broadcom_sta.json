@@ -398,7 +398,7 @@
   },
   "revs": [
    "03eef817274cb7b49f563277b05950e5ee5c91ea",
-   "6ad745209fd03543d59f5ef60487e3afbdcf49f6"
+   "83dc28cae2982f6aaa507192a19aff3ef0ff2074"
   ]
  },
  "6.30.223.271-4.15.3": {
@@ -548,7 +548,7 @@
   },
   "revs": [
    "004a59f18e9b82b5130e95c8dfc1156f99bb7f9e",
-   "508477f076b23a7d332e91f899b61e035b473b54"
+   "856335396f0a0208474fb033b96e9dfb7d194dab"
   ]
  },
  "6.30.223.271-4.15.8": {
@@ -958,7 +958,7 @@
   },
   "revs": [
    "04c80fe53fd86197bedb8e2b0ef39ff8f58f71ce",
-   "625c0b35d435922acaa55b1e353da903183a5048"
+   "829be45e7c63a9cf92a92f6dcb392e4a7ceadf38"
   ]
  },
  "6.30.223.271-4.16.17": {
@@ -1186,7 +1186,7 @@
   },
   "revs": [
    "00ddbc8196fd05439009eee256ac824a56e98a8c",
-   "42d11feae80f86b450ce64eef75a6f21dc807aab"
+   "84c49b82710c95ee19a0754b5a7aebe0c8c85fcd"
   ]
  },
  "6.30.223.271-4.16.6": {
@@ -2402,7 +2402,7 @@
   },
   "revs": [
    "00584f50a4e0e567b61fbd4cbb13d1529b335c84",
-   "238e9530f95d49fbf1d36c04ea9a0c519d6dd618"
+   "817369d4c1c5abaf792827a4770e513e115f8644"
   ]
  },
  "6.30.223.271-4.18.16": {
@@ -2554,7 +2554,7 @@
   },
   "revs": [
    "010446f764e3228906841ae61214e26d6cdcf36c",
-   "010446f764e3228906841ae61214e26d6cdcf36c"
+   "863f9933c1fb9b81286968b79e55d4bd41085c88"
   ]
  },
  "6.30.223.271-4.18.2": {
@@ -3276,7 +3276,7 @@
   },
   "revs": [
    "0576b0236940a69118c3cb1ab6406792185c7c1a",
-   "1e2c3bedbb8f4cf1a565cb724ac8c7a7b28807d7"
+   "82434e77d548a8ed6001b5dd1f5adeb9271d45dd"
   ]
  },
  "6.30.223.271-4.19.19": {
@@ -4226,7 +4226,7 @@
   },
   "revs": [
    "1e9e709953e315ab004951248b186ac8e2306451",
-   "3c0234e88e1899bb2ff709755d2c4883176e50c8"
+   "87f146a41c463a64c93022b11cf19716b3a22037"
   ]
  },
  "6.30.223.271-4.19.44": {
@@ -4606,7 +4606,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "5ef3645a697d2433faac93f920f445bfe3e683d9"
+   "7f91e5fb037298c0cfd3f2899461e891cfae77b8"
   ]
  },
  "6.30.223.271-4.20.12": {
@@ -5214,7 +5214,7 @@
   },
   "revs": [
    "07458c2f38de5b6d730072bea8d1e595544e4cf9",
-   "3adb08ffbfa241d4b38fc5ccca086acadd40eeb7"
+   "822243a9ab5e774fc904cddb7d6f5540696a3e00"
   ]
  },
  "6.30.223.271-5.0.2": {
@@ -5780,7 +5780,7 @@
   },
   "revs": [
    "0024cfcc49560645359f1a709a2f2af625962d3c",
-   "314221356d9ce802d186c510d3fb35cd7e54cf44"
+   "8622ff8c8e1ac4023468d224ecc70039d6adbf0a"
   ]
  },
  "6.30.223.271-5.1.16": {
@@ -7410,7 +7410,7 @@
   },
   "revs": [
    "001999e25b746f2ce8e23fc2010f8bb25d10810e",
-   "2d594255550afad5a41f50598e1d410db20013be"
+   "7fc2b2ad7e303fc92258e7521ee7da526b208a4b"
   ]
  },
  "6.30.223.271-5.4.6": {
@@ -7995,7 +7995,7 @@
   },
   "revs": [
    "0030d391d229a2d5983752741d6bc0153dc82f1b",
-   "38a5abcb9e5c4f2ef4e525221b900f07daf9e172"
+   "83ce2c331fbc01574bc211dd6ecbfa8e9beeda30"
   ]
  },
  "6.30.223.271-5.5.5": {
@@ -8895,6 +8895,45 @@
    "1919db9478fb55dbbaead3a1342927fa80d105ce"
   ]
  },
+ "6.30.223.271-5.7.1": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "86a9689852f6e867d364e62f98b2ce0c50621c39",
+   "86a9689852f6e867d364e62f98b2ce0c50621c39"
+  ]
+ },
  "6.30.223.271-5.7.10": {
   "meta": {
    "description": "Kernel module driver for some Broadcom's wireless cards",
@@ -9243,7 +9282,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "2847777ec7e8be68ebafb30cd4c3dcd721208f99"
+   "815eaa5206dcc9ffefb2d8dacf10aca1f89c45f6"
   ]
  },
  "6.30.223.271-5.7.19": {
@@ -9516,7 +9555,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "11167a8e90d174830de3275250341bc32c889158"
+   "82d0986c456cd6c35dfd970d2f5e951af55ec588"
   ]
  },
  "6.30.223.271-5.8.12": {

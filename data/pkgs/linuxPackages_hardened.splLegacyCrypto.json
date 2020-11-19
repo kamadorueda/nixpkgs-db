@@ -190,7 +190,7 @@
   },
   "revs": [
    "00a44c0c8cd396da43a9b973d5b1119c0fb1f945",
-   "508477f076b23a7d332e91f899b61e035b473b54"
+   "856335396f0a0208474fb033b96e9dfb7d194dab"
   ]
  },
  "2018-01-24-4.14.25": {
@@ -2382,7 +2382,7 @@
   },
   "revs": [
    "0353772874892ba5cd4cdd4f59b0f622d0798ad8",
-   "67f6e1768257927d77bc602edaa891c044fcb2d5"
+   "7fc78862033683a8f5e6cbe1764f5bbb6dd726fb"
   ]
  },
  "2018-01-24-4.14.64": {
@@ -3371,6 +3371,64 @@
    "55d1036d9a899f8a783364719de7c25b41718197"
   ]
  },
+ "2018-01-24-4.14.82": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "817c239d3b2409b101c10b532df96625779ef903",
+   "817c239d3b2409b101c10b532df96625779ef903"
+  ]
+ },
  "2018-01-24-4.14.83": {
   "meta": {
    "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
@@ -3879,7 +3937,7 @@
   },
   "revs": [
    "0153599164e7ef2266c9de4979369daadb3a3cad",
-   "6ad745209fd03543d59f5ef60487e3afbdcf49f6"
+   "83dc28cae2982f6aaa507192a19aff3ef0ff2074"
   ]
  },
  "2018-01-24-4.9.81": {

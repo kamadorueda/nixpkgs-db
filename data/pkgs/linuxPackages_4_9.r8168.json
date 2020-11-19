@@ -74,7 +74,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "371708f0d9aa460cc65fccfbc782a96e4c10b789"
+   "87c5f36e6828f9e4fe140a76718b14356429991f"
   ]
  },
  "4.9.137-8.046.00": {
@@ -893,7 +893,7 @@
   },
   "revs": [
    "0094157f86b6a8e82bb97e5ef8c46847daaca841",
-   "5ef3645a697d2433faac93f920f445bfe3e683d9"
+   "7f91e5fb037298c0cfd3f2899461e891cfae77b8"
   ]
  },
  "4.9.160-8.046.00": {
@@ -1439,7 +1439,7 @@
   },
   "revs": [
    "0196d8f11cff9790531f7599153a077bb493b9cf",
-   "3adb08ffbfa241d4b38fc5ccca086acadd40eeb7"
+   "822243a9ab5e774fc904cddb7d6f5540696a3e00"
   ]
  },
  "4.9.174-8.046.00": {
@@ -2133,7 +2133,7 @@
   },
   "revs": [
    "03dcb3dee477df2764b15697fece1549c8450af2",
-   "3317c917f3fec080197497bf8b0c08738d055f8d"
+   "84852abc6cf53ebf3763518283ab81ccdc597878"
   ]
  },
  "4.9.192-8.046.00": {
@@ -3370,6 +3370,46 @@
    "18188bacd69907933bbf02ecd1f935b8c84313b8"
   ]
  },
+ "4.9.230-8.048.03": {
+  "meta": {
+   "description": "Realtek r8168 driver",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A kernel module for Realtek 8168 network cards.\nIf you want to use this driver, you might need to blacklist the r8169 driver\nby adding \"r8169\" to boot.blacklistedKernelModules.\n",
+   "maintainers": [
+    {
+     "email": "timokau@zoho.com",
+     "github": "timokau",
+     "githubId": 3799330,
+     "name": "Timo Kaufmann"
+    }
+   ],
+   "name": "r8168",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/r8168/default.nix:46"
+  },
+  "revs": [
+   "82d0986c456cd6c35dfd970d2f5e951af55ec588",
+   "82d0986c456cd6c35dfd970d2f5e951af55ec588"
+  ]
+ },
  "4.9.231-8.047.04": {
   "meta": {
    "description": "Realtek r8168 driver",
@@ -3527,7 +3567,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "7a4bae9c2ffbc64a4e2b9536cca10bce609257b4"
+   "815eaa5206dcc9ffefb2d8dacf10aca1f89c45f6"
   ]
  },
  "4.9.235-8.047.04": {
@@ -3687,7 +3727,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "7911f87840a3df0fc3118d5ed7639992527b087b"
+   "819fe312949bf1b6b900ee3aaacf0be21459c9b7"
   ]
  },
  "4.9.239-8.047.04": {

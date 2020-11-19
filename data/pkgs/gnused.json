@@ -227,6 +227,85 @@
    "427218836457753db735b45b270411ecbf0ee697"
   ]
  },
+ "4.6": {
+  "meta": {
+   "description": "GNU sed, a batch stream editor",
+   "homepage": "https://www.gnu.org/software/sed/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Sed (stream editor) isn't really a true text editor or text\nprocessor.  Instead, it is used to filter text, i.e., it takes\ntext input and performs some operation (or set of operations) on\nit and outputs the modified text.  Sed is typically used for\nextracting part of a file using pattern matching or substituting\nmultiple occurrences of a string within a file.\n",
+   "maintainers": [],
+   "name": "gnused",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/text/gnused/default.nix:22"
+  },
+  "revs": [
+   "81b785ceae5e18332f9265634db28d562b4f4cbc",
+   "81b785ceae5e18332f9265634db28d562b4f4cbc"
+  ]
+ },
  "4.7": {
   "meta": {
    "description": "GNU sed, a batch stream editor",

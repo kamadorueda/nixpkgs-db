@@ -1,0 +1,4 @@
+{
+ "summary": "If cuda headers are presented to nix in $out/include they are added to future gcc calls via a -isystem flag. However, cuda does not allow kernel calls from template function if these are located in system-headers. We thus move headers from $out/include to $out/usr_include and add a custom hook to add these headers via -I.",
+ "timestamp": "1403529094"
+}

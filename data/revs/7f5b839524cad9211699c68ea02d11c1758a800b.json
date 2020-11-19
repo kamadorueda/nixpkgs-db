@@ -1,0 +1,4 @@
+{
+ "summary": "* Removed selectVersion.  There's no good reason to write   `selectVersion ./foo \"bar\"' instead of `import ./foo/bar.nix'. * Replaced `with args' with formal function arguments in several   packages. * Renamed several files to `default.nix'.  As a general rule, version   numbers should only be included in the filename when there is a   reason to keep multiple versions of a package in Nixpkgs.   Otherwise, it just makes it harder to update the package.",
+ "timestamp": "1258537199"
+}
