@@ -46,7 +46,7 @@
   },
   "revs": [
    "000051b196b82d30d1008c8999502c484ea5bd7d",
-   "10ec4c4a6a6100124575d315dad899e89eeca172"
+   "88d14c0e29a5966dcf16b307eaa71b583ac7ea50"
   ]
  },
  "2.5": {
@@ -132,7 +132,7 @@
   },
   "revs": [
    "0b900d21f4346f0aa0324f787291c8e859004e45",
-   "1fffc949565afe75a3193b620aeef4fb27f2ec37"
+   "886ed14f0df3f1bc34e8f03b4c11e92a5d9d59a9"
   ]
  },
  "2.6.4": {
@@ -1223,7 +1223,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "7abaad0dc9bb320c5af5b9d473231878c670235e"
+   "7fc57f2020ca1d4e70ff4dfb9c2dd0e67ecced39"
   ]
  },
  "3.5.2": {
@@ -1315,7 +1315,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "181dfe306f262e8e44f0952efa531f9e3c482ec5"
+   "296987361b1b6f7a77712749ec42f32fea3782e0"
   ]
  },
  "3.6.2": {
@@ -1407,7 +1407,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "258bae917a76e393beb4d7409b616498aae39d91"
+   "88de3d02314ec069fb8cc66c6e8d87e598174804"
   ]
  },
  "3.6.4": {
@@ -1454,7 +1454,7 @@
   },
   "revs": [
    "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
-   "292de46c5b9c3f42088d3de0d74a2aedf3755fee"
+   "54a69eb80480016341d4825f272b9017a3bd0ac1"
   ]
  },
  "3.7.1": {
@@ -1501,7 +1501,7 @@
   },
   "revs": [
    "000404944c6da404f013111563bcc0084b270e28",
-   "815eaa5206dcc9ffefb2d8dacf10aca1f89c45f6"
+   "024f5b30e0a3231dbe99c30192f92ba0058d95f5"
   ]
  },
  "3.7.2": {
@@ -1548,7 +1548,54 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "36b27ccf777476ff6ff19e8df99d75681f820c98"
+   "01229007553d9322c473c0fa36e3d6c644147e7d"
+  ]
+ },
+ "3.7.3": {
+  "meta": {
+   "description": "Yacc-compatible parser generator",
+   "homepage": "https://www.gnu.org/software/bison/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Bison is a general-purpose parser generator that converts an\nannotated context-free grammar into an LALR(1) or GLR parser for\nthat grammar.  Once you are proficient with Bison, you can use\nit to develop a wide range of language parsers, from those used\nin simple desk calculators to complex programming languages.\n\nBison is upward compatible with Yacc: all properly-written Yacc\ngrammars ought to work with Bison with no change.  Anyone\nfamiliar with Yacc should be able to use Bison with little\ntrouble.  You need to be fluent in C or C++ programming in order\nto use Bison.\n",
+   "maintainers": [],
+   "name": "bison",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/parsing/bison/default.nix:25"
+  },
+  "revs": [
+   "0f05f224fa0cb4ecacb2ea209b62736a4b4bd2d1",
+   "83143c4f0f42179ff04593314d10931d1b7ff351"
   ]
  }
 }

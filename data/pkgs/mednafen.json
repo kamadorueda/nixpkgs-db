@@ -242,7 +242,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "7abaad0dc9bb320c5af5b9d473231878c670235e"
+   "7fc57f2020ca1d4e70ff4dfb9c2dd0e67ecced39"
   ]
  },
  "1.22.2": {
@@ -362,7 +362,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "181dfe306f262e8e44f0952efa531f9e3c482ec5"
+   "296987361b1b6f7a77712749ec42f32fea3782e0"
   ]
  },
  "1.24.3": {
@@ -402,7 +402,47 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "36b27ccf777476ff6ff19e8df99d75681f820c98"
+   "6de789ea9bfee9b63baef72ce30300e6f4a94bdc"
+  ]
+ },
+ "1.26.1": {
+  "meta": {
+   "description": "A portable, CLI-driven, SDL+OpenGL-based, multi-system emulator",
+   "homepage": "https://mednafen.github.io/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Mednafen is a portable, utilizing OpenGL and SDL,\nargument(command-line)-driven multi-system emulator. Mednafen has the\nability to remap hotkey functions and virtual system inputs to a keyboard,\na joystick, or both simultaneously. Save states are supported, as is\nreal-time game rewinding. Screen snapshots may be taken, in the PNG file\nformat, at the press of a button. Mednafen can record audiovisual movies\nin the QuickTime file format, with several different lossless codecs\nsupported.\n\nThe following systems are supported (refer to the emulation module\ndocumentation for more details):\n\n- Apple II/II+\n- Atari Lynx\n- Neo Geo Pocket (Color)\n- WonderSwan\n- GameBoy (Color)\n- GameBoy Advance\n- Nintendo Entertainment System\n- Super Nintendo Entertainment System/Super Famicom\n- Virtual Boy\n- PC Engine/TurboGrafx 16 (CD)\n- SuperGrafx\n- PC-FX\n- Sega Game Gear\n- Sega Genesis/Megadrive\n- Sega Master System\n- Sega Saturn (experimental, x86_64 only)\n- Sony PlayStation\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "mednafen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/emulators/mednafen/default.nix:37"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "01229007553d9322c473c0fa36e3d6c644147e7d"
   ]
  }
 }
