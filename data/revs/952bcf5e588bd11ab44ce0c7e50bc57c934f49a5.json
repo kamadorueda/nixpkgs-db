@@ -1,0 +1,4 @@
+{
+ "summary": "Setting the patch for the glibc locale archive, which addresses some problems found before: - programs linked with this glibc, will be able to find its locale-archive   at LOCALE_ARCHIVE_2_11 - for any problem we forgot to mention, we also add the LOCALE_ARCHIVE   variable, checked after LOCALE_ARCHIVE_2_11. I don't know a strong reason to   have it though. - setuid programs will expect the locale-archive in   /var/run/current-system/sw/lib/locale, usual path of the locale-archive in   nixos, and a path that a sysadmin can set pointing to the locale-archive in   case of non-nixos. setuid programs don't receive the LOCALE_ARCHIVE   variables. - non-nixos systems will have a check for the locale-archive in /usr/lib/locale - the glibc programs 'locale' and 'localedef' may be able to find the proper   locale-archive too.",
+ "timestamp": "1281043172"
+}

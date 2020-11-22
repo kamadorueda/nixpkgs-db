@@ -20,7 +20,7 @@
   },
   "revs": [
    "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
-   "8715ac105ba2cd54db8f2dcab200963d76c89913"
+   "99863cb87b3231e6bfef139a7b54c35f6aa63a16"
   ]
  },
  "1.7.0-2017-02-19": {
@@ -92,6 +92,45 @@
   "revs": [
    "0018cd5a2ddd858f78cffd0bd8a2412d5b507088",
    "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "1.8": {
+  "meta": {
+   "description": "Compares and merges 2 or 3 files or directories",
+   "homepage": "http://kdiff3.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "kdiff3",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/text/kdiff3/default.nix:23"
+  },
+  "revs": [
+   "9b3b2af6e750c7e7412dd30da1b0a60af00bf043",
+   "9b3b2af6e750c7e7412dd30da1b0a60af00bf043"
   ]
  },
  "1.8.1": {

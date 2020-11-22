@@ -1,0 +1,4 @@
+{
+ "summary": "* In the generation of the `options.xml' file used to produce the   NixOS manual and  manpages, remove all derivation attributes except   the `name' attribute.  This cuts the size of `options.xml' from 7.0   MiB to 473 KiB, and more importantly, cuts evaluation time of the   system derivation from 1.63s to 1.10s on my laptop (a 32%   improvement).",
+ "timestamp": "1273662469"
+}

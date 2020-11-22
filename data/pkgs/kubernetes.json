@@ -99,6 +99,102 @@
    "3727911b46daf32d4ea8f2a2b1072580227e72fe"
   ]
  },
+ "1.10.0": {
+  "meta": {
+   "description": "Production-Grade Container Scheduling and Management",
+   "homepage": "https://kubernetes.io",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "kubernetes",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/kubernetes/default.nix:70"
+  },
+  "revs": [
+   "996849ab8644c637ba7b22ebcca1852f5a113fdf",
+   "996849ab8644c637ba7b22ebcca1852f5a113fdf"
+  ]
+ },
  "1.10.3": {
   "meta": {
    "description": "Production-Grade Container Scheduling and Management",
@@ -3218,7 +3314,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "024f5b30e0a3231dbe99c30192f92ba0058d95f5"
+   "94fd56594a6543fac73e972952d87ed635cfbda4"
   ]
  },
  "1.19.3": {
@@ -3465,7 +3561,7 @@
   },
   "revs": [
    "000fb9be33528f867e2355ddedde0836ba7f7a3a",
-   "3373a55cacb8117a53d5ea3b01241177a975fa0b"
+   "948f4a9c6d15a9f5380ea23a5292fdc503804e44"
   ]
  },
  "1.5.2": {

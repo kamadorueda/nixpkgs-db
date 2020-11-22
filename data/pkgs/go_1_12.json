@@ -1,4 +1,74 @@
 {
+ "1.12": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "xaviosx@gmail.com",
+     "github": "velovix",
+     "name": "Tyler Compton"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/go/1.12.nix:239"
+  },
+  "revs": [
+   "995a883ba977e9fba43ea4973331b8470e5030f4",
+   "995a883ba977e9fba43ea4973331b8470e5030f4"
+  ]
+ },
  "1.12.1": {
   "meta": {
    "description": "The Go Programming language",

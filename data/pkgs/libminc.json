@@ -32,6 +32,97 @@
    "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
   ]
  },
+ "2.3.01": {
+  "meta": {
+   "description": "Medical imaging library based on HDF5",
+   "homepage": "https://github.com/BIC-MNI/libminc",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "libminc",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libminc/default.nix:34"
+  },
+  "revs": [
+   "99dc5f4ab0e3ddae4bc27150d8f41a1fdb08eca2",
+   "99dc5f4ab0e3ddae4bc27150d8f41a1fdb08eca2"
+  ]
+ },
  "2.4.03": {
   "meta": {
    "description": "Medical imaging library based on HDF5",
@@ -80,7 +171,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "024f5b30e0a3231dbe99c30192f92ba0058d95f5"
+   "94fd56594a6543fac73e972952d87ed635cfbda4"
   ]
  },
  "2017-09-14": {

@@ -551,6 +551,52 @@
    "18253518e11e3703baec465a5550dbe7575ace68"
   ]
  },
+ "19.09.00-5.7.3": {
+  "meta": {
+   "description": "Firmware Test Suite(efi-runtime kernel module)",
+   "homepage": "https://wiki.ubuntu.com/FirmwareTestSuite",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "w@wdtz.org",
+     "github": "dtzWill",
+     "githubId": 817330,
+     "keys": [
+      {
+       "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+       "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+      }
+     ],
+     "name": "Will Dietz"
+    }
+   ],
+   "name": "fwts-efi-runtime",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fwts/module.nix:27"
+  },
+  "revs": [
+   "979b757b2aa937721d8ccec988a8584c90e3ef10",
+   "979b757b2aa937721d8ccec988a8584c90e3ef10"
+  ]
+ },
  "19.09.00-5.7.4": {
   "meta": {
    "description": "Firmware Test Suite(efi-runtime kernel module)",
@@ -778,7 +824,7 @@
   },
   "revs": [
    "11167a8e90d174830de3275250341bc32c889158",
-   "11167a8e90d174830de3275250341bc32c889158"
+   "9df0203d4118eaefe0e087198d528d90ba2c2429"
   ]
  },
  "20.05.00-5.7.1": {
@@ -1100,7 +1146,7 @@
   },
   "revs": [
    "002b700fb597bc670ea4d19597444c43d31cf556",
-   "753e80125fd071f6d4cd3ea9988c3c4da86f6cba"
+   "95eabdfd5f6197c83e9e5f53ddb65dbbea3c13fd"
   ]
  },
  "20.06.01-5.7.10": {
@@ -1790,7 +1836,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "024f5b30e0a3231dbe99c30192f92ba0058d95f5"
+   "94fd56594a6543fac73e972952d87ed635cfbda4"
   ]
  }
 }

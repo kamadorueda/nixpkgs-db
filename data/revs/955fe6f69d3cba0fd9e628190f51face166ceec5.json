@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the nscd patch again. The other attempts did not give a working nscd. The build system was making a nscd dynamically linked with libssp, which we don't want in general. We want a glibc not depending on the gcc that built it.",
+ "timestamp": "1287183492"
+}
