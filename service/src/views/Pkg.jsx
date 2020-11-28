@@ -97,7 +97,7 @@ const PkgLoaded = (props) => {
   `;
   const nixShell = `
     # Version: ${version}
-    nix-env -i ${pkg} -I nixpkgs=${nixpkgs}
+    nix-shell -p ${pkg} -I nixpkgs=${nixpkgs}
   `;
   const nixBuild = `
     let
