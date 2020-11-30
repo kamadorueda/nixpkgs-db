@@ -88,13 +88,16 @@ const SearchLoaded = (props) => {
     Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPackages.length),
     Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPackages.length),
   ];
-
   const changePage = (delta) => () => {
     setPage(page + delta);
   };
+  let deferTimer = setTimeout(() => {}, 100)
   const onPkgNameChange = (event) => {
-    setPage(1);
-    setMatchingPackages(searchString(event.target.value, pkgs));
+    clearTimeout(deferTimer)
+    deferTimer = setTimeout(() => {
+      setPage(1);
+      setMatchingPackages(searchString(event.target.value, pkgs));
+    }, 300)
   };
 
   const matchingPackagesOnPage = matchingPackages.slice(startPage - 1, endPage);
