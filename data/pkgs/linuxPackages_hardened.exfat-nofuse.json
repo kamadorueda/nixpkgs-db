@@ -8971,7 +8971,7 @@
   },
   "revs": [
    "016e37bf4ba55c324f2c0b2bf685be566a893d77",
-   "1d8d75f61dee8e5c31f770a3734ffdbd10a81e2a"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "2018-04-16-4.19.69": {
@@ -10200,7 +10200,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "6c3ab02ad06f73ca8513ff6b9a4f7ce3c9bf8583"
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
   ]
  },
  "2019-09-06-5.4.24": {
@@ -10480,7 +10480,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "61da203324125f1969da086cb297c1ecd76350a6"
+   "2b0ee787dd38414101d4b76b5a1818c9a21c57cd"
   ]
  },
  "2019-09-06-5.4.32": {
@@ -10640,7 +10640,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "402d625ed0d347884dda2f0e47af34381facaeb6"
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
   ]
  },
  "2019-09-06-5.4.36": {
@@ -10880,7 +10880,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "976d2e5c0d3afd23c0a7c1c7a98253fdf912719f"
+   "03f116eaa037ce30670da482f12006d24c49206e"
   ]
  },
  "2019-09-06-5.4.43": {
@@ -10960,7 +10960,7 @@
   },
   "revs": [
    "002e3cfbce62a8b55eba52af9c72d770e5b31547",
-   "0bee87c40085c396607b431afcc743b253567607"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "2019-09-06-5.4.45": {
@@ -11600,7 +11600,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
   ]
  },
  "2019-09-06-5.4.61": {
@@ -11880,7 +11880,7 @@
   },
   "revs": [
    "00c8e6fb07fb4b341c709322eb6adedb94a311a7",
-   "9a81f3387d07260c8c975d46c208f04e916bcea0"
+   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
   ]
  },
  "2019-09-06-5.4.68": {
@@ -12280,7 +12280,7 @@
   },
   "revs": [
    "16b3b1eef03e6fb8211b095079aba5059f26081e",
-   "10ffd8f2cf5653cf4208abd84bed93868461a813"
+   "23cc358d630e01a502e4802dfe6ffaefcc5c4027"
   ]
  },
  "2019-09-06-5.4.78": {
@@ -12320,7 +12320,87 @@
   },
   "revs": [
    "19f739c9350accbd3ee65a3fccca73ed0f98de1f",
-   "9a8ee5568d5479b0c38b40eabbcc1340047b8abe"
+   "1ee2a11f8d270e8a09bb71449b7517c29a9044d9"
+  ]
+ },
+ "2019-09-06-5.4.79": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/AdrianBan/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:31"
+  },
+  "revs": [
+   "12d4eedc6ec9634fe5605479702f530ab526a6c7",
+   "13f19ce5d43edd43dd8efc8166105003e74ad520"
+  ]
+ },
+ "2019-09-06-5.4.80": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/AdrianBan/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:34"
+  },
+  "revs": [
+   "01eb6833fd23454b3418de8d219252e84cf1b300",
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "2020-04-15-5.4.66": {
@@ -12360,7 +12440,7 @@
   },
   "revs": [
    "012b501a12d140953355c311c7319883f5e71105",
-   "81093774683e63f82c63f05784cd39bc4d3f53ab"
+   "2ced276567a6bb40f5de0daa9804373070b7829d"
   ]
  },
  "2020-04-15-5.4.67": {
@@ -12480,7 +12560,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "04b7c0aff7c28aaddaba28f54614946e8ac7c3b2"
   ]
  },
  "2020-04-15-5.4.70": {
@@ -12520,7 +12600,7 @@
   },
   "revs": [
    "00e3a3a8552f844a82ddb56a9e96675bbea07739",
-   "7f271858cd32c67d5802e70ed574fbeef70374dc"
+   "29cdd8ae609d107889469610176aa53676382eb1"
   ]
  },
  "2020-04-15-5.4.71": {
@@ -12560,7 +12640,7 @@
   },
   "revs": [
    "00daf410b5aba389849b8e01147da7c0c1683d89",
-   "5f6707d1b5420cf2826202ccae9b11aefef72277"
+   "0f69d69dc4ea411ff1841e669de82df75d783dc7"
   ]
  },
  "2020-04-15-5.4.72": {
@@ -12600,7 +12680,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "2020-04-15-5.4.73": {
@@ -12680,7 +12760,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "0788a95557f33a9345a75aa6e138b9e623301a07"
+   "0b5bcd88a29e0b9caf8a32e92231e07dd2afc873"
   ]
  },
  "2020-04-15-5.4.75": {
@@ -12720,7 +12800,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "972bcb496d13063543c2d38415d22da58bbd44c3"
+   "2d9c6679d1f979d62379b6dc8662bd6cc29146c6"
   ]
  },
  "2020-04-15-5.4.76": {
@@ -12760,7 +12840,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "005461a0a6d948735de009f2cf039bad7d6a968a"
+   "129c30e26dbe1873697fb73b29f1ee558f6e5b6e"
   ]
  },
  "2020-04-15-5.4.77": {
@@ -12800,7 +12880,7 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "6de789ea9bfee9b63baef72ce30300e6f4a94bdc"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
   ]
  },
  "2020-04-15-5.4.78": {
@@ -12840,7 +12920,87 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "138abad75727b7cdb364cdc15a50beaeeb6f824c"
+  ]
+ },
+ "2020-04-15-5.4.79": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/barrybingo/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:39"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "0a4575a1da49334c0daec782f0af118dbdc42373"
+  ]
+ },
+ "2020-04-15-5.4.80": {
+  "meta": {
+   "description": "exfat kernel module",
+   "homepage": "https://github.com/barrybingo/exfat-nofuse",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "exfat-nofuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/exfat/default.nix:39"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }

@@ -43,7 +43,7 @@
   },
   "revs": [
    "0182312e119121c27f59455ed0e35ccb6cc72b1e",
-   "61da203324125f1969da086cb297c1ecd76350a6"
+   "2b0ee787dd38414101d4b76b5a1818c9a21c57cd"
   ]
  },
  "2020-04-07-4.9.219": {
@@ -137,7 +137,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "0de6275003170cb82e5f9a3bdfb649ff22b8b12a"
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
   ]
  },
  "2020-04-07-4.9.221": {
@@ -325,7 +325,7 @@
   },
   "revs": [
    "002d38783ab0b570b296dadd4ee1ecfad21a9367",
-   "976d2e5c0d3afd23c0a7c1c7a98253fdf912719f"
+   "03f116eaa037ce30670da482f12006d24c49206e"
   ]
  },
  "2020-04-07-4.9.225": {
@@ -419,7 +419,7 @@
   },
   "revs": [
    "0026092213b837bbefeb5cb3ccb46c975ca79284",
-   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "2020-04-07-4.9.227": {
@@ -748,7 +748,7 @@
   },
   "revs": [
    "026b4765bada7437c679693491ca2c6b6a1cc35c",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
   ]
  },
  "2020-04-07-4.9.234": {
@@ -936,7 +936,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "9d69eb7bfa5d48b0c5bf5aed6df32d43e1f29761"
+   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
   ]
  },
  "2020-04-07-4.9.238": {
@@ -983,7 +983,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "29cdd8ae609d107889469610176aa53676382eb1"
   ]
  },
  "2020-04-07-4.9.239": {
@@ -1077,7 +1077,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "2020-04-07-4.9.241": {
@@ -1124,7 +1124,7 @@
   },
   "revs": [
    "0126c86672b7d14843225df16ddfefd7091eabe7",
-   "0788a95557f33a9345a75aa6e138b9e623301a07"
+   "2d9c6679d1f979d62379b6dc8662bd6cc29146c6"
   ]
  },
  "2020-04-07-4.9.242": {
@@ -1171,7 +1171,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "005461a0a6d948735de009f2cf039bad7d6a968a"
+   "129c30e26dbe1873697fb73b29f1ee558f6e5b6e"
   ]
  },
  "2020-04-07-4.9.243": {
@@ -1218,7 +1218,7 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "6de789ea9bfee9b63baef72ce30300e6f4a94bdc"
+   "23cc358d630e01a502e4802dfe6ffaefcc5c4027"
   ]
  },
  "2020-04-07-4.9.244": {
@@ -1265,7 +1265,101 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "19db3e5ea2777daa874563b5986288151f502e27"
+  ]
+ },
+ "2020-04-07-4.9.245": {
+  "meta": {
+   "description": "A module allowing arbitrary ACPI calls; use case: hybrid video",
+   "homepage": "https://github.com/nix-community/acpi_call",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "acpi-call",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/acpi-call/default.nix:31"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "13f19ce5d43edd43dd8efc8166105003e74ad520"
+  ]
+ },
+ "2020-04-07-4.9.246": {
+  "meta": {
+   "description": "A module allowing arbitrary ACPI calls; use case: hybrid video",
+   "homepage": "https://github.com/nix-community/acpi_call",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "acpi-call",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/acpi-call/default.nix:31"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  },
  "4.9": {
@@ -4508,7 +4602,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "06ba45c7e044a9134bacc4a34c206cbb7fd3388f"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "4.9.191": {
@@ -5121,7 +5215,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "733acfa140d5b73bc69c53c4ebd90ccc5f281f0e"
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
   ]
  },
  "4.9.216": {

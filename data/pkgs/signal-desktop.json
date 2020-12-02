@@ -1668,7 +1668,7 @@
   },
   "revs": [
    "003697b32a3f049058f3e921a7e586023dbcfe10",
-   "609fe21661d3998a6d6aff5a2e51609d4fb19d05"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "1.27.1": {
@@ -2345,7 +2345,7 @@
   },
   "revs": [
    "00c8e2b625cbc26e551b673a2b73d96975bd5edc",
-   "71d2a85a70a4b51ad118b54f978d816634084ca7"
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
   ]
  },
  "1.32.1": {
@@ -2553,7 +2553,7 @@
   },
   "revs": [
    "01144006a1182d0bc76616edae684fa60fd4307f",
-   "5de2e780168844107ab40107d0d91ec3cdde2107"
+   "2b0ee787dd38414101d4b76b5a1818c9a21c57cd"
   ]
  },
  "1.33.1": {
@@ -2709,7 +2709,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "296987361b1b6f7a77712749ec42f32fea3782e0"
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
   ]
  },
  "1.34.0": {
@@ -2813,7 +2813,7 @@
   },
   "revs": [
    "001cf3f926af996ec6d779f861bcba4ed04c5411",
-   "0b2f4fd3ec0b7e56f3a287d8d84fd6fbb0eb90a0"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "1.34.2": {
@@ -3021,7 +3021,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
   ]
  },
  "1.35.1": {
@@ -3229,7 +3229,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
   ]
  },
  "1.37.1": {
@@ -3281,7 +3281,7 @@
   },
   "revs": [
    "007126eef72271480cb7670e19e501a1ad2c1ff2",
-   "1168e13bb0f38c06f09b1431b741179d067cc659"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "1.37.2": {
@@ -3333,7 +3333,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "0332c423cece35839a6fa7be08b17c76426faac0"
   ]
  },
  "1.37.3": {
@@ -3385,7 +3385,7 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "5544734b23ce054c49f484dbb2dcee67ec2a2c7d"
+   "26b4165c2d47ae9f6b6c510fb90733dee95ca035"
   ]
  },
  "1.38.1": {
@@ -3437,7 +3437,59 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
+  ]
+ },
+ "1.38.2": {
+  "meta": {
+   "description": "Private, simple, and secure messenger",
+   "homepage": "https://signal.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Signal Desktop is an Electron application that links with your\n\"Signal Android\" or \"Signal iOS\" app.\n",
+   "maintainers": [
+    {
+     "email": "parnell@digitalmentat.com",
+     "github": "ixmatus",
+     "githubId": 30714,
+     "name": "Parnell Springmeyer"
+    },
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "eduardo@eduardoquiros.com",
+     "github": "equirosa",
+     "githubId": 39096810,
+     "name": "Eduardo Quiros"
+    }
+   ],
+   "name": "signal-desktop",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/signal-desktop/default.nix:132"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  },
  "1.5.2": {

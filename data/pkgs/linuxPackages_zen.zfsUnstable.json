@@ -120,7 +120,101 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
+  ]
+ },
+ "2.0.0-5.9.10": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "https://github.com/openzfs/zfs",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "henri@henrimenke.de",
+     "github": "hmenke",
+     "githubId": 1903556,
+     "keys": [
+      {
+       "fingerprint": "F1C5 760E 45B9 9A44 72E9  6BFB D65C 9AFB 4C22 4DA3",
+       "longkeyid": "rsa4096/0xD65C9AFB4C224DA3"
+      }
+     ],
+     "name": "Henri Menke"
+    },
+    {
+     "email": "jack@mudshark.org",
+     "github": "jcumming",
+     "githubId": 1982341,
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "jonringer117@gmail.com",
+     "github": "jonringer",
+     "githubId": 7673602,
+     "name": "Jonathan Ringer"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "githubId": 168610,
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:167"
+  },
+  "revs": [
+   "040f43d890c8d42195d3f8b7eaeb702657fb3b7d",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  },
  "2.0.0-rc1-5.8.1": {
@@ -368,7 +462,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "7d001444c174eaadd9a42c917d764f837876d100"
+   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
   ]
  },
  "2.0.0-rc2-5.8.10": {
@@ -430,7 +524,7 @@
   },
   "revs": [
    "0253c131e5d6ad7392d13a5a9c71ce760b1f430e",
-   "59c4870a9691d23fd4372af53fff740e4e66cfab"
+   "04b7c0aff7c28aaddaba28f54614946e8ac7c3b2"
   ]
  },
  "2.0.0-rc2-5.8.7": {
@@ -616,7 +710,7 @@
   },
   "revs": [
    "00738f9a9bac43ef067303e32f81adaa2509f5eb",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "29cdd8ae609d107889469610176aa53676382eb1"
   ]
  },
  "2.0.0-rc3-5.8.7": {
@@ -678,7 +772,7 @@
   },
   "revs": [
    "006e716e79dba72df07d2d52580e883f13b525ea",
-   "9a8ee5568d5479b0c38b40eabbcc1340047b8abe"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "2.0.0-rc4-5.8.13": {
@@ -740,7 +834,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "2.0.0-rc4-5.9.3": {
@@ -802,7 +896,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "0788a95557f33a9345a75aa6e138b9e623301a07"
+   "0b5bcd88a29e0b9caf8a32e92231e07dd2afc873"
   ]
  },
  "2.0.0-rc5-5.9.3": {
@@ -926,7 +1020,71 @@
   },
   "revs": [
    "0c131ae1186d2833b44fb6382391e07a28b46221",
-   "2edac44b201f5a3c6a761a1434dae66c93910621"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
+  ]
+ },
+ "2.0.0-rc6-5.9.10": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "https://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "github": "jcumming",
+     "githubId": 1982341,
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "githubId": 168610,
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:175"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "1034616282ffd5bfc949082c6b2af20a233483ec"
   ]
  },
  "2.0.0-rc6-5.9.6": {
@@ -990,7 +1148,7 @@
   },
   "revs": [
    "001a975b752011a2a84413817d1c43a2200e6c74",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "1a1e0f03b4e07ae16e2315e075a4f154f33dcb70"
   ]
  }
 }

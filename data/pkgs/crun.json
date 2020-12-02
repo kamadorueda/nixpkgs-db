@@ -128,7 +128,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "7fc57f2020ca1d4e70ff4dfb9c2dd0e67ecced39"
+   "16ee69c8720b8a96f4d0935d0688d4e4d6df52db"
   ]
  },
  "0.12.2.1": {
@@ -161,7 +161,7 @@
   },
   "revs": [
    "0029baca2ba2b52706f1ff160058128ddcff5575",
-   "78e89143d43ae02aea1ff0359dbbd755e409c95f"
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
   ]
  },
  "0.13": {
@@ -194,7 +194,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "296987361b1b6f7a77712749ec42f32fea3782e0"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "0.14": {
@@ -310,7 +310,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "0.15": {
@@ -368,7 +368,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "29cdd8ae609d107889469610176aa53676382eb1"
   ]
  },
  "0.15.1": {
@@ -426,7 +426,65 @@
   },
   "revs": [
    "13839daecc61e898d03748145e61a29c8d2a2c42",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
+  ]
+ },
+ "0.16": {
+  "meta": {
+   "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+   "homepage": "https://github.com/containers/crun",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "adis@blad.is",
+     "github": "adisbladis",
+     "githubId": 63286,
+     "name": "Adam Hose"
+    },
+    {
+     "email": "mail@saschagrunert.de",
+     "github": "saschagrunert",
+     "githubId": 695473,
+     "name": "Sascha Grunert"
+    },
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "githubId": 6508,
+     "name": "Vincent Demeester"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "crun",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/crun/default.nix:70"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }

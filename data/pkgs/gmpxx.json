@@ -623,7 +623,7 @@
   },
   "revs": [
    "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
-   "6fea9e5902809220e12b50665072d70d8d507456"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "6.2.0": {
@@ -700,7 +700,88 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
+  ]
+ },
+ "6.2.1": {
+  "meta": {
+   "description": "GNU multiple precision arithmetic library",
+   "homepage": "https://gmplib.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "gmp-with-cxx",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/libraries/gmp/6.x.nix:58"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }

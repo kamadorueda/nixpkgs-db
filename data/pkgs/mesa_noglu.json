@@ -2593,7 +2593,7 @@
   },
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
-   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "19.2.7": {
@@ -2769,7 +2769,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "21f176a8b222a6adae50d177842d74faa117aa60"
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
   ]
  },
  "19.3.5": {
@@ -2813,7 +2813,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "7fc57f2020ca1d4e70ff4dfb9c2dd0e67ecced39"
+   "16ee69c8720b8a96f4d0935d0688d4e4d6df52db"
   ]
  },
  "20.0.1": {
@@ -2901,7 +2901,7 @@
   },
   "revs": [
    "0010ae4960d35243e7abb046cd26ddda904a4c63",
-   "296987361b1b6f7a77712749ec42f32fea3782e0"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "20.0.7": {
@@ -3201,7 +3201,7 @@
   },
   "revs": [
    "0030dac5c0d5c0294ca5ae5b751831b1a252aec4",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
   ]
  },
  "20.1.6": {
@@ -3321,7 +3321,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "20.1.8": {
@@ -3441,7 +3441,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "1d2d1271d6d7d2d2170fb00ba47d67ceb91c7d0d"
   ]
  },
  "20.2.1": {
@@ -3501,7 +3501,7 @@
   },
   "revs": [
    "00c68337f5944a76ed6a10ff20d02bfb263912ea",
-   "2edac44b201f5a3c6a761a1434dae66c93910621"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
   ]
  },
  "20.2.2": {
@@ -3561,7 +3561,67 @@
   },
   "revs": [
    "03988a5fec4b9fc09e7e868a06116f3d9215b393",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
+  ]
+ },
+ "20.2.3": {
+  "meta": {
+   "description": "An open source 3D graphics library",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The Mesa project began as an open-source implementation of the OpenGL\nspecification - a system for rendering interactive 3D graphics. Over the\nyears the project has grown to implement more graphics APIs, including\nOpenGL ES (versions 1, 2, 3), OpenCL, OpenMAX, VDPAU, VA API, XvMC, and\nVulkan.  A variety of device drivers allows the Mesa libraries to be used\nin many different environments ranging from software emulation to\ncomplete hardware acceleration for modern GPUs.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "armv7a-linux",
+    "aarch64-linux",
+    "powerpc64le-linux"
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:232"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "17b1bde9c5b900e72b01db66a6ad8d0699bb10f4"
   ]
  },
  "9.0.2": {

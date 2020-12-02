@@ -30,7 +30,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "733acfa140d5b73bc69c53c4ebd90ccc5f281f0e"
+   "2b0ee787dd38414101d4b76b5a1818c9a21c57cd"
   ]
  },
  "0.12.18": {
@@ -64,7 +64,7 @@
   },
   "revs": [
    "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
-   "402d625ed0d347884dda2f0e47af34381facaeb6"
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
   ]
  },
  "0.12.19": {
@@ -180,7 +180,7 @@
   },
   "revs": [
    "0006326d35ed4774d7936aea721ce1a5c8f0b775",
-   "7fc57f2020ca1d4e70ff4dfb9c2dd0e67ecced39"
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
   ]
  },
  "0.12.3": {
@@ -272,7 +272,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "0.12.4": {
@@ -364,7 +364,7 @@
   },
   "revs": [
    "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "29cdd8ae609d107889469610176aa53676382eb1"
   ]
  },
  "0.12.49": {
@@ -422,7 +422,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "1168e13bb0f38c06f09b1431b741179d067cc659"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "0.12.51": {
@@ -480,7 +480,7 @@
   },
   "revs": [
    "002c63433929e1eb115a5e64d77f1d344b59c8f4",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "09edea6af9004da2ecb2a65c40faea4304450728"
   ]
  },
  "0.12.52": {
@@ -538,7 +538,123 @@
   },
   "revs": [
    "005f545f46afd57abd037a37efa6b42fbc07c7c8",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
+  ]
+ },
+ "0.12.55": {
+  "meta": {
+   "description": "PHP Static Analysis Tool",
+   "homepage": "https://github.com/phpstan/phpstan",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "PHPStan focuses on finding errors in your code without actually\nrunning it. It catches whole classes of bugs even before you write\ntests for the code. It moves PHP closer to compiled languages in the\nsense that the correctness of each line of the code can be checked\nbefore you run the actual line.\n",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    },
+    {
+     "email": "elis@hirwing.se",
+     "github": "etu",
+     "githubId": 461970,
+     "keys": [
+      {
+       "fingerprint": "67FE 98F2 8C44 CF22 1828  E12F D57E FA62 5C9A 925F",
+       "longkeyid": "rsa4096/0xD57EFA625C9A925F"
+      }
+     ],
+     "name": "Elis Hirwing"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "kim.lindberger@gmail.com",
+     "github": "talyz",
+     "githubId": 63433,
+     "name": "Kim Lindberger"
+    }
+   ],
+   "name": "php-phpstan",
+   "platforms": null,
+   "position": "pkgs/development/php-packages/phpstan/default.nix:25"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "1a1e0f03b4e07ae16e2315e075a4f154f33dcb70"
+  ]
+ },
+ "0.12.57": {
+  "meta": {
+   "description": "PHP Static Analysis Tool",
+   "homepage": "https://github.com/phpstan/phpstan",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "PHPStan focuses on finding errors in your code without actually\nrunning it. It catches whole classes of bugs even before you write\ntests for the code. It moves PHP closer to compiled languages in the\nsense that the correctness of each line of the code can be checked\nbefore you run the actual line.\n",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    },
+    {
+     "email": "elis@hirwing.se",
+     "github": "etu",
+     "githubId": 461970,
+     "keys": [
+      {
+       "fingerprint": "67FE 98F2 8C44 CF22 1828  E12F D57E FA62 5C9A 925F",
+       "longkeyid": "rsa4096/0xD57EFA625C9A925F"
+      }
+     ],
+     "name": "Elis Hirwing"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "kim.lindberger@gmail.com",
+     "github": "talyz",
+     "githubId": 63433,
+     "name": "Kim Lindberger"
+    }
+   ],
+   "name": "php-phpstan",
+   "platforms": null,
+   "position": "pkgs/development/php-packages/phpstan/default.nix:25"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }

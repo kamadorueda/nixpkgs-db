@@ -58,7 +58,7 @@
   },
   "revs": [
    "01c2ba857590ca8d156682e478d297201b715ea2",
-   "48309677368e3fac5489326e00f1d6b0513d2b8e"
+   "00afc85506c30cd901509aa825e6abf9ed702401"
   ]
  },
  "0.8.4-5.8.10": {
@@ -182,7 +182,7 @@
   },
   "revs": [
    "004676ce9c8275598182884c9e5a823a34eaa173",
-   "957435dce1710d9576e807713f5c5aeab0c73b71"
+   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
   ]
  },
  "0.8.4-5.8.12": {
@@ -616,7 +616,7 @@
   },
   "revs": [
    "0ef4108e529d7ccd1907cdc56c70471d6eeb57b0",
-   "9a8ee5568d5479b0c38b40eabbcc1340047b8abe"
+   "2335e7354f8a9c34d4842aa107af14e268a27f07"
   ]
  },
  "0.8.4-5.8.3": {
@@ -1112,7 +1112,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "801104bdc5f746dc2a26f54a4e019c5c50d31430"
+   "173bf39cc28caffc034bba1800bcdb709ce90a98"
   ]
  },
  "0.8.5-5.8.17": {
@@ -1236,7 +1236,101 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "1034616282ffd5bfc949082c6b2af20a233483ec"
+  ]
+ },
+ "2.0.0-5.8.18": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "https://github.com/openzfs/zfs",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "https://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "henri@henrimenke.de",
+     "github": "hmenke",
+     "githubId": 1903556,
+     "keys": [
+      {
+       "fingerprint": "F1C5 760E 45B9 9A44 72E9  6BFB D65C 9AFB 4C22 4DA3",
+       "longkeyid": "rsa4096/0xD65C9AFB4C224DA3"
+      }
+     ],
+     "name": "Henri Menke"
+    },
+    {
+     "email": "jack@mudshark.org",
+     "github": "jcumming",
+     "githubId": 1982341,
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "jonringer117@gmail.com",
+     "github": "jonringer",
+     "githubId": 7673602,
+     "name": "Jonathan Ringer"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "githubId": 168610,
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:167"
+  },
+  "revs": [
+   "040f43d890c8d42195d3f8b7eaeb702657fb3b7d",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }

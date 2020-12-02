@@ -455,7 +455,7 @@
   },
   "revs": [
    "0035a337da464b1d534858fe230dbb669f49dc7e",
-   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
  "2.4.2": {
@@ -508,7 +508,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "94fd56594a6543fac73e972952d87ed635cfbda4"
+   "2fe8f33754401b163e4308511268d8f8be8882b4"
   ]
  },
  "3.0.1": {
@@ -562,7 +562,7 @@
   },
   "revs": [
    "0c75dfb732d471ff9641ea24a89defa780d849be",
-   "972bcb496d13063543c2d38415d22da58bbd44c3"
+   "2d9c6679d1f979d62379b6dc8662bd6cc29146c6"
   ]
  },
  "3.0.2": {
@@ -616,7 +616,61 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "01229007553d9322c473c0fa36e3d6c644147e7d"
+   "08a6eed6240e57711a476eb7424006b384a9a362"
+  ]
+ },
+ "3.0.3": {
+  "meta": {
+   "description": "Tool that generates a compilation database for clang tooling",
+   "homepage": "https://github.com/rizsotto/Bear",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Note: the bear command is very useful to generate compilation commands\ne.g. for YouCompleteMe.  You just enter your development nix-shell\nand run `bear make`.  It's not perfect, but it gets a long way.\n",
+   "maintainers": [
+    {
+     "email": "babathriviere@gmail.com",
+     "github": "babariviere",
+     "githubId": 12128029,
+     "name": "babariviere"
+    }
+   ],
+   "name": "bear",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/bear/default.nix:49"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "16bf9276af11e1526b46dae26a0b1a835a8e19ac"
   ]
  }
 }
