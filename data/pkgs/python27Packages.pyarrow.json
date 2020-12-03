@@ -404,7 +404,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "9518fac712ca001009bd12a3c94621f1ee805657"
+   "0f8a31b992b6892dd075bac8533955a9b92ac9df"
   ]
  },
  "0.16.0": {
@@ -458,6 +458,102 @@
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
    "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "0.8.0": {
+  "meta": {
+   "description": "A cross-language development platform for in-memory data",
+   "homepage": "https://arrow.apache.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "veprbl@gmail.com",
+     "github": "veprbl",
+     "name": "Dmitry Kalinkin"
+    }
+   ],
+   "name": "python2.7-pyarrow",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pyarrow/default.nix:48"
+  },
+  "revs": [
+   "a49ebbb7435b08509f05e894d37e93a5498a9d69",
+   "a49ebbb7435b08509f05e894d37e93a5498a9d69"
   ]
  },
  "0.9.0": {

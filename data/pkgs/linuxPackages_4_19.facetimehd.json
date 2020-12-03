@@ -66,7 +66,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "94c268cd8180cde0370ecba88417ab65b6d09469"
+   "a1ed58d6a8e7b37a696d140aedcd533035f95989"
   ]
  },
  "2016-10-09-4.19.10": {
@@ -276,7 +276,7 @@
   },
   "revs": [
    "015541ea6a35096e134c37f2fdf4dc88dc682b1c",
-   "44ec48f768aba50ae6b32b5b499b92b38ae4ea23"
+   "a46594aeb4c941af3e6d3f38a525993849271a00"
   ]
  },
  "2016-10-09-4.19.16": {
@@ -521,7 +521,7 @@
   },
   "revs": [
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
-   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+   "a3f24daa7bc52767e15b5476d6c6b4165db5ee39"
   ]
  },
  "2016-10-09-4.19.23": {
@@ -1945,7 +1945,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "6239e44edf83baad7956b878152dae3d23f16d58"
+   "a26d0659d50fddb46980f684b4cc7b73afcd7d60"
   ]
  },
  "2019-12-10-4.19.114": {
@@ -3762,7 +3762,44 @@
   },
   "revs": [
    "12d4eedc6ec9634fe5605479702f530ab526a6c7",
-   "9518fac712ca001009bd12a3c94621f1ee805657"
+   "48f4ff86684d8fd69db9a1858efcd4a851d75eae"
+  ]
+ },
+ "2019-12-10-4.19.161": {
+  "meta": {
+   "description": "Linux driver for the Facetime HD (Broadcom 1570) PCIe webcam",
+   "homepage": "https://github.com/patjak/bcwc_pcie",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "kranium@gikos.net",
+     "github": "womfoo",
+     "githubId": 1595132,
+     "name": "Kranium Gikos Mendoza"
+    },
+    {
+     "email": "graham@grahamc.com",
+     "github": "grahamc",
+     "githubId": 76716,
+     "name": "Graham Christensen"
+    }
+   ],
+   "name": "facetimehd-unstable",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/facetimehd/default.nix:56"
+  },
+  "revs": [
+   "080f698b5debff849aaf8d46fd43ea7320d5d34a",
+   "0f8a31b992b6892dd075bac8533955a9b92ac9df"
   ]
  },
  "2019-12-10-4.19.98": {
@@ -4788,7 +4825,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "9f76b6edd14eefa104cb69d8ee3ab4eb158210a0"
+   "a4e6bf389d48440b672dc87acec3d1093800cda8"
   ]
  },
  "2020-04-16-4.19.150": {
@@ -5089,7 +5126,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "746efadcce6ce729225c9a6e51f6721bc52ae340"
+   "85767db6b8b30dd11191e287a6a2fe1e2275ede1"
   ]
  },
  "2020-04-16-4.19.157": {
@@ -5132,7 +5169,7 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "6f7d8e55282f58ecb36036ca5f669698b12040db"
+   "07d2079c1a30f3df9ee2975296d9aa113f27b686"
   ]
  },
  "2020-04-16-4.19.158": {
@@ -5175,7 +5212,7 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "19db3e5ea2777daa874563b5986288151f502e27"
+   "4a636081ec9ae5d3368b8813064fb807325f3a27"
   ]
  },
  "2020-04-16-4.19.159": {
@@ -5218,7 +5255,7 @@
   },
   "revs": [
    "00401a2f75e6286c9db6018748f1734485660d3c",
-   "9c85416cc1f03f58eac2a6224cf60daee39e1651"
+   "242fa79ae7bb77cfb0be6113e67ed06e95a83579"
   ]
  },
  "2020-04-16-4.19.160": {
@@ -5261,7 +5298,50 @@
   },
   "revs": [
    "00aabed73c73dd053ab182ca1a726b111db9ebf3",
-   "454df2b0c36161de67c3f143ab85fb16c33c23f2"
+   "552ac65585866fe3afa8403ff98a563066a4a54b"
+  ]
+ },
+ "2020-04-16-4.19.161": {
+  "meta": {
+   "description": "Linux driver for the Facetime HD (Broadcom 1570) PCIe webcam",
+   "homepage": "https://github.com/patjak/bcwc_pcie",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "kranium@gikos.net",
+     "github": "womfoo",
+     "githubId": 1595132,
+     "name": "Kranium Gikos Mendoza"
+    },
+    {
+     "email": "graham@grahamc.com",
+     "github": "grahamc",
+     "githubId": 76716,
+     "name": "Graham Christensen"
+    },
+    {
+     "email": "me@kraem.xyz",
+     "github": "kraem",
+     "githubId": 26622971,
+     "name": "Ronnie Ebrin"
+    }
+   ],
+   "name": "facetimehd-unstable",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/facetimehd/default.nix:56"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "2fde2721107d8ed967f17d3faee2afe7611fcc06"
   ]
  }
 }

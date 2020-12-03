@@ -1,0 +1,4 @@
+{
+ "summary": "Fixed some details on cross compilation. Among others: - Stating better the guile dependencies (native/host) for guile to build - Fixing cross-linking, through --rpath-link (ld(1) explains well about it - Made gcc call the linker and the assembler through the gcc wrapper instead of   directly. I thought this was the source of missing -rpath's, but the source   of the problem ended up being the lack of --rpath-link. But I think the   native gcc calls the wrapped ld and as, so let's do the same cross   compiling. - Removed the binutilsCross from the glibc expressions. Now they are built   using the gcc-cross-wrapper, and they were built with the direct gcc and   binutils before this change. - I think patchelf and strip don't break the cross-compiled binaries, so I   reallow them on cross compilation. - I disable the checkPhase on cross compilation. This made gmp and libtool   fail when cross compiled, iirc.",
+ "timestamp": "1258771372"
+}

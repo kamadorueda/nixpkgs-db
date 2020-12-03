@@ -27,7 +27,7 @@
   },
   "revs": [
    "00078afb1f6c383405fa4bef9646d575f70b092f",
-   "93a816110c70da9c77b4fab58c2ec6f000ef6d80"
+   "a30bf651c7691e9f385270f45840bce543ef4d61"
   ]
  },
  "36.3": {
@@ -295,7 +295,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "2fe8f33754401b163e4308511268d8f8be8882b4"
+   "3a200515b7db3ac1a74ad2864c4d67cb743cde7d"
   ]
  },
  "42.4": {
@@ -341,7 +341,7 @@
   },
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
-   "5c931c7299dfdc94680ffc0aa478ede5b14fab68"
+   "85767db6b8b30dd11191e287a6a2fe1e2275ede1"
   ]
  },
  "42.5": {
@@ -381,7 +381,47 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "454df2b0c36161de67c3f143ab85fb16c33c23f2"
+   "20eb5c38e1e823c07e7c14985b9075f0f1e38904"
+  ]
+ },
+ "42.6": {
+  "meta": {
+   "description": "A simple backup tool",
+   "homepage": "https://wiki.gnome.org/Apps/DejaDup",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "D\u00e9j\u00e0 Dup is a simple backup tool. It hides the complexity \\\nof backing up the Right Way (encrypted, off-site, and regular) \\\nand uses duplicity as the backend.\n",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "deja-dup",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/backup/deja-dup/default.nix:66"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "2fde2721107d8ed967f17d3faee2afe7611fcc06"
   ]
  }
 }

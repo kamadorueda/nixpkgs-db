@@ -557,7 +557,7 @@
   },
   "revs": [
    "019dcc3745807abe3b5835ab10488e1aae862d9f",
-   "1cc9887801841a5cad7d15e8d7d0d30d4c240ddc"
+   "a1a13ad6913334cf6b54789a25df483a486f5298"
   ]
  },
  "0.7.10-4.9.125": {
@@ -1311,7 +1311,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "87c5f36e6828f9e4fe140a76718b14356429991f"
+   "a1ed58d6a8e7b37a696d140aedcd533035f95989"
   ]
  },
  "0.7.11-4.9.137": {
@@ -2181,7 +2181,7 @@
   },
   "revs": [
    "003132c2dd95110a30fc7b28dc71d77ca11d6298",
-   "44ec48f768aba50ae6b32b5b499b92b38ae4ea23"
+   "a46594aeb4c941af3e6d3f38a525993849271a00"
   ]
  },
  "0.7.12-4.9.151": {
@@ -2509,7 +2509,7 @@
   },
   "revs": [
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
-   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+   "a3f24daa7bc52767e15b5476d6c6b4165db5ee39"
   ]
  },
  "0.7.12-4.9.158": {
@@ -2786,7 +2786,7 @@
   },
   "revs": [
    "019969495f850dad6740a072c480e55f06b3f3c0",
-   "7a32dfed90334a4f4446cb3ba3219496d911f7eb"
+   "a4d73e61657c27e1fce439525113d497d19316ed"
   ]
  },
  "0.7.12-4.9.163": {
@@ -7572,7 +7572,7 @@
   },
   "revs": [
    "00b4ab22a474571e2b9f6f389825421815fb4936",
-   "2fe2f477422a57b61fba389e845dffa3bc11f36c"
+   "a48ea216081b7faf51daa220075ebcad6f88744d"
   ]
  },
  "0.7.9-4.9.109": {
@@ -9428,7 +9428,7 @@
   },
   "revs": [
    "9c96d120aa793ebb7614094021761a997b0e588e",
-   "9c96d120aa793ebb7614094021761a997b0e588e"
+   "a18112a7e8fb6207ef36f667fa4fb4d39fa7584a"
   ]
  },
  "0.7.9-4.9.142": {
@@ -9603,6 +9603,64 @@
   "revs": [
    "4773e7740b02115abe00cc3feee72c39c1810033",
    "4773e7740b02115abe00cc3feee72c39c1810033"
+  ]
+ },
+ "0.7.9-4.9.145": {
+  "meta": {
+   "description": "Kernel module driver for solaris porting layer (needed by in-kernel zfs)",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "This kernel module is a porting layer for ZFS to work inside the linux\nkernel.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "spl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/spl/default.nix:46"
+  },
+  "revs": [
+   "a495531eb7752115f801f14aa8257ed6a6c81ff7",
+   "a495531eb7752115f801f14aa8257ed6a6c81ff7"
   ]
  },
  "0.7.9-4.9.146": {

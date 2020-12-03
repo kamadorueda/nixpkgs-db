@@ -226,7 +226,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "9f76b6edd14eefa104cb69d8ee3ab4eb158210a0"
+   "a4e6bf389d48440b672dc87acec3d1093800cda8"
   ]
  },
  "2.8.0-5.8.14": {
@@ -456,7 +456,7 @@
   },
   "revs": [
    "00d6fff6303531fb9ee4ae9761e888407485ba22",
-   "454df2b0c36161de67c3f143ab85fb16c33c23f2"
+   "20eb5c38e1e823c07e7c14985b9075f0f1e38904"
   ]
  },
  "2.8.0-5.8.3": {
@@ -779,6 +779,52 @@
   "revs": [
    "0023908b4ecef4e889a9bb524394f53c014950fe",
    "7eb8362d10c2b063b24b625821c3b05fe4c5983b"
+  ]
+ },
+ "2.9.0-5.8.18": {
+  "meta": {
+   "description": "An entirely open source Linux driver that allows you to manage your Razer peripherals on GNU/Linux",
+   "homepage": "https://openrazer.github.io/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roel@lambdacube.nl",
+     "github": "roelvandijk",
+     "githubId": 710906,
+     "name": "Roel van Dijk"
+    },
+    {
+     "email": "evanjsx@gmail.com",
+     "github": "evanjs",
+     "githubId": 1847524,
+     "name": "Evan Stoll"
+    }
+   ],
+   "name": "openrazer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/openrazer/driver.nix:37"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "2fde2721107d8ed967f17d3faee2afe7611fcc06"
   ]
  }
 }

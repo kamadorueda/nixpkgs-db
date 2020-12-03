@@ -277,7 +277,7 @@
   },
   "revs": [
    "000f19ff08cfaf6ce89b136ea986fde64f750555",
-   "1b099f9d6c21734359215aeeead2576187e81a8e"
+   "0f8a31b992b6892dd075bac8533955a9b92ac9df"
   ]
  },
  "19.4.0r": {
@@ -453,7 +453,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "2fe8f33754401b163e4308511268d8f8be8882b4"
+   "3a200515b7db3ac1a74ad2864c4d67cb743cde7d"
   ]
  },
  "20.3.0": {
@@ -581,7 +581,7 @@
   },
   "revs": [
    "005f545f46afd57abd037a37efa6b42fbc07c7c8",
-   "6fbb17f1c5a0caeecc59bda16278a4ac1b24ffcd"
+   "85767db6b8b30dd11191e287a6a2fe1e2275ede1"
   ]
  },
  "20.4.1": {
@@ -645,7 +645,71 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "454df2b0c36161de67c3f143ab85fb16c33c23f2"
+   "20eb5c38e1e823c07e7c14985b9075f0f1e38904"
+  ]
+ },
+ "20.4.2": {
+  "meta": {
+   "description": "Intel Media Driver for VAAPI \u2014 Broadwell+ iGPUs",
+   "homepage": "https://github.com/intel/media-driver",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "The Intel Media Driver for VAAPI is a new VA-API (Video Acceleration API)\nuser mode driver supporting hardware accelerated decoding, encoding, and\nvideo post processing for GEN based graphics hardware.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "johannes@frankenau.net",
+     "github": "jfrankenau",
+     "githubId": 2736480,
+     "name": "Johannes Frankenau"
+    }
+   ],
+   "name": "intel-media-driver",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/intel-media-driver/default.nix:29"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "2fde2721107d8ed967f17d3faee2afe7611fcc06"
   ]
  }
 }

@@ -348,7 +348,7 @@
   },
   "revs": [
    "34a7e678b2f036f9fe65ce6c1b5bab39cccda928",
-   "34a7e678b2f036f9fe65ce6c1b5bab39cccda928"
+   "a202c25ff792077abf76e31e7a5b192ee9ae4a26"
   ]
  },
  "1.8.0-4.18.5": {
@@ -832,7 +832,7 @@
   },
   "revs": [
    "010446f764e3228906841ae61214e26d6cdcf36c",
-   "863f9933c1fb9b81286968b79e55d4bd41085c88"
+   "a3ce85af74ecd01bab06fa79cfa79812192bf610"
   ]
  },
  "1.8.2-4.19.0-gnu": {
@@ -920,7 +920,7 @@
   },
   "revs": [
    "002c411f45a9bcea367cd664be231ac75793a83e",
-   "94c268cd8180cde0370ecba88417ab65b6d09469"
+   "a1ed58d6a8e7b37a696d140aedcd533035f95989"
   ]
  },
  "1.8.2-4.19.10-gnu": {
@@ -1184,7 +1184,7 @@
   },
   "revs": [
    "015541ea6a35096e134c37f2fdf4dc88dc682b1c",
-   "44ec48f768aba50ae6b32b5b499b92b38ae4ea23"
+   "a46594aeb4c941af3e6d3f38a525993849271a00"
   ]
  },
  "1.8.2-4.19.16-gnu": {
@@ -1800,7 +1800,7 @@
   },
   "revs": [
    "0021ea861f8377365b718633bce69cdd7570fcd9",
-   "5751489583b38cbae1a624568cb50e1c1bb03b33"
+   "a2bc79d0a77c01f61012b77916ef4992905e3198"
   ]
  },
  "1.8.2-4.19.3-gnu": {
@@ -3340,7 +3340,7 @@
   },
   "revs": [
    "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
-   "0045164b1517419fdfbd3c5cec2eadb7aae9088a"
+   "a3f24daa7bc52767e15b5476d6c6b4165db5ee39"
   ]
  },
  "1.8.2-5.0.0-gnu": {
@@ -7295,7 +7295,7 @@
   },
   "revs": [
    "008eb7cb75b8a424fd48244be4f6a205648b8941",
-   "4b206ac83ba23e44231088b1d5f23d96adbced05"
+   "a0c2892c060e6302d2a77ad420f31a45a6e03c66"
   ]
  },
  "1.8.5-5.4.3-gnu": {
@@ -7709,7 +7709,7 @@
   },
   "revs": [
    "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
-   "6239e44edf83baad7956b878152dae3d23f16d58"
+   "a26d0659d50fddb46980f684b4cc7b73afcd7d60"
   ]
  },
  "1.8.5-5.5.14-gnu": {
@@ -9825,7 +9825,7 @@
   },
   "revs": [
    "0056f627a0203501c82a74a59c7553b158cc9642",
-   "9518fac712ca001009bd12a3c94621f1ee805657"
+   "0f8a31b992b6892dd075bac8533955a9b92ac9df"
   ]
  },
  "1.8.6-5.7.6-gnu": {
@@ -10239,7 +10239,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "9f76b6edd14eefa104cb69d8ee3ab4eb158210a0"
+   "a4e6bf389d48440b672dc87acec3d1093800cda8"
   ]
  },
  "1.8.6-5.8.14-gnu": {
@@ -10377,7 +10377,7 @@
   },
   "revs": [
    "012e55a4606cd7290a0248313659eef1be9988ef",
-   "9f460577ea20aa2b28c64b8e9fbf128716675b1f"
+   "a443aa53ea1946a1eeea5564733fb5b39e61422a"
   ]
  },
  "1.8.6-5.8.17-gnu": {
@@ -10975,7 +10975,53 @@
   },
   "revs": [
    "01eb6833fd23454b3418de8d219252e84cf1b300",
-   "2fe8f33754401b163e4308511268d8f8be8882b4"
+   "0280846387a1fb9845d4ef1c6dcf16cc1058a1bc"
+  ]
+ },
+ "1.8.6-5.9.12-gnu": {
+  "meta": {
+   "description": "Open AFS client kernel module",
+   "homepage": "https://www.openafs.org",
+   "license": {
+    "fullName": "IBM Public License v1.0",
+    "shortName": "ipl10",
+    "spdxId": "IPL-1.0",
+    "url": "https://spdx.org/licenses/IPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "marco.maggesi@gmail.com",
+     "github": "maggesi",
+     "githubId": 1809783,
+     "name": "Marco Maggesi"
+    },
+    {
+     "email": "spacefrogg-nixos@meterriblecrew.net",
+     "github": "spacefrogg",
+     "githubId": 167881,
+     "name": "Michael Raitza"
+    }
+   ],
+   "name": "openafs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/openafs/1.8/module.nix:73"
+  },
+  "revs": [
+   "3a200515b7db3ac1a74ad2864c4d67cb743cde7d",
+   "3a200515b7db3ac1a74ad2864c4d67cb743cde7d"
   ]
  },
  "1.8.6-5.9.2-gnu": {
@@ -11205,7 +11251,7 @@
   },
   "revs": [
    "0140aced5353da38b99a838b8a06325fb59e6226",
-   "746efadcce6ce729225c9a6e51f6721bc52ae340"
+   "85767db6b8b30dd11191e287a6a2fe1e2275ede1"
   ]
  },
  "1.8.6-5.9.8-gnu": {
@@ -11251,7 +11297,7 @@
   },
   "revs": [
    "019c3bb417153a2b80f483891f7f0981f6d327a8",
-   "6f7d8e55282f58ecb36036ca5f669698b12040db"
+   "07d2079c1a30f3df9ee2975296d9aa113f27b686"
   ]
  }
 }
