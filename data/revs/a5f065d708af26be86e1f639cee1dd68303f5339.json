@@ -1,0 +1,4 @@
+{
+ "summary": "ffmpeg: improve cross platform support & fix licensing issues, resolves #7013 + Removed asserts for (l)gpl & (l)gpl3 making it easier to enable and disable all   (l)gpl & (l)gpl3 portions + Fix build inputs so that nonfree software isn't pulled in when building ffmpeg + Fix compiler on systems with clang + Disable libraries that fail on darwin until they can be fixed + Fix linux only build inputs so that they aren't pulled in on other platforms + Fix optional build inputs + Opencv causes circular dependency issues so it is disabled until it can be resolved",
+ "timestamp": "1427661762"
+}

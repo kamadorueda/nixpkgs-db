@@ -365,7 +365,7 @@
   },
   "revs": [
    "0055275945f6c3b83a06bec853bf26cc264f5961",
-   "26453f9074521ccb354a154bc26f2868eff3617e"
+   "a641e7666e6974721e6ede2089628e1876ea5be1"
   ]
  },
  "2.0.0.22": {
@@ -1046,7 +1046,7 @@
   },
   "revs": [
    "006f25f732243d18c177f0a4a55cb565bb6ae630",
-   "9d5f23f025a467015c9ca6785deb8787b7804dd7"
+   "a787994fef5e38814835712c168e7d28d5df88e6"
   ]
  },
  "45.2.0": {
@@ -1170,7 +1170,7 @@
   },
   "revs": [
    "0028abeb4ed1432b99c0b977825c577b3baff3d1",
-   "22389ae7835d845e0b7d7ab393559bf2fe0c448b"
+   "a6f741d91c7b19e1a389893def25d979d996c19f"
   ]
  },
  "45.5.1": {
@@ -1264,7 +1264,7 @@
   },
   "revs": [
    "003fa8fed5480d3e22d518aeeba1d62809809279",
-   "0ccddb459f56d7d5bd1f7acb194d9f48bd3a9c82"
+   "a597e30c2a81b0d80e191e42e6be50fd054ab586"
   ]
  },
  "45.7.1": {
@@ -2625,7 +2625,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "00afc85506c30cd901509aa825e6abf9ed702401"
+   "a7447cb22b8db6e15e685fc5d94977f8bb88f3c8"
   ]
  },
  "68.12.0": {
@@ -3619,7 +3619,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "a43ca1cf1630f403edda19f3414c4b2c0d13f690"
+   "05fa0f1a2ec5ad455e16a72bdb304f7c0e098b76"
   ]
  },
  "78.4.0": {
@@ -3693,7 +3693,7 @@
   },
   "revs": [
    "002c63433929e1eb115a5e64d77f1d344b59c8f4",
-   "5c931c7299dfdc94680ffc0aa478ede5b14fab68"
+   "a7e81dcde9def253c871a5885bc5f3c8ba5ac244"
   ]
  },
  "78.4.1": {
@@ -3915,7 +3915,7 @@
   },
   "revs": [
    "01fc0e38f9148185d4a506a1cb632008c1a51fb7",
-   "07d2079c1a30f3df9ee2975296d9aa113f27b686"
+   "4d4d16a92666cd7ae62ab8d1ac869b2cfec785ae"
   ]
  },
  "78.5.0": {
@@ -3989,7 +3989,81 @@
   },
   "revs": [
    "00401a2f75e6286c9db6018748f1734485660d3c",
-   "2fde2721107d8ed967f17d3faee2afe7611fcc06"
+   "a34e8fe91b776e53fdc05199cc893330fa57f5a1"
+  ]
+ },
+ "78.5.1": {
+  "meta": {
+   "description": "A full-featured e-mail client",
+   "homepage": "https://www.thunderbird.net",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "meurerbernardo@gmail.com",
+     "github": "lovesegfault",
+     "githubId": 7243783,
+     "keys": [
+      {
+       "fingerprint": "5894 12CE 19DF 582A E10A  3320 E421 C741 91EA 186C",
+       "longkeyid": "rsa2048/0xE421C74191EA186C"
+      },
+      {
+       "fingerprint": "56A8 E164 E834 290C 4AC0  EE3E 4A6D 87A0 E747 5769",
+       "longkeyid": "rsa2048/0x4A6D87A0E7475769"
+      }
+     ],
+     "name": "Bernardo Meurer"
+    },
+    {
+     "email": "nixos@nbp.name",
+     "github": "nbp",
+     "githubId": 1179566,
+     "name": "Nicolas B. Pierron"
+    },
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "thunderbird",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/mailreaders/thunderbird/default.nix:329"
+  },
+  "revs": [
+   "14a7df6cf1de78a560ad03098882ec8e63886d8e",
+   "4859b2b46da06b8380406d4a4c921cdf43dbcd23"
   ]
  },
  "9.0.1": {
