@@ -1,0 +1,111 @@
+{
+ "1.10.0": {
+  "meta": {
+   "description": "Library for making GnuPG easier to use",
+   "homepage": "https://gnupg.org/software/gpgme/index.html",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 or later",
+     "shortName": "lgpl21Plus",
+     "spdxId": "LGPL-2.1+",
+     "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 or later",
+     "shortName": "gpl3Plus",
+     "spdxId": "GPL-3.0+",
+     "url": "http://spdx.org/licenses/GPL-3.0+.html"
+    }
+   ],
+   "long_description": "GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG\neasier for applications. It provides a High-Level Crypto API for\nencryption, decryption, signing, signature verification and key\nmanagement.\n",
+   "maintainers": [
+    {
+     "email": "fuuzetsu@fuuzetsu.co.uk",
+     "github": "fuuzetsu",
+     "name": "Mateusz Kowalczyk"
+    },
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "gpgme",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gpgme/default.nix:49"
+  },
+  "revs": [
+   "a8403b64f837e0e12fc329fd313bc56e8ea94b6c",
+   "a8403b64f837e0e12fc329fd313bc56e8ea94b6c"
+  ]
+ }
+}
