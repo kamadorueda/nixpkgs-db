@@ -1,4 +1,43 @@
 {
+ "0.11.1.1": {
+  "meta": {
+   "description": "A program for managing pods, containers and container images",
+   "homepage": "https://podman.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vincent@sbr.pm",
+     "github": "vdemeester",
+     "name": "Vincent Demeester"
+    }
+   ],
+   "name": "podman",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/podman/default.nix:46"
+  },
+  "revs": [
+   "a97b42511f8a7eb0f85fa18d49f1ec8531fbd859",
+   "a97b42511f8a7eb0f85fa18d49f1ec8531fbd859"
+  ]
+ },
  "0.12.1.2": {
   "meta": {
    "description": "A program for managing pods, containers and container images",
@@ -1527,7 +1566,7 @@
   },
   "revs": [
    "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
-   "4c8a8800d3fc49f0f2f04b1b6200173dec10d8a6"
+   "a9def8ddbc71033476fe68c358d81524b820d7f0"
   ]
  },
  "2.0.6": {
@@ -1779,7 +1818,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "4859b2b46da06b8380406d4a4c921cdf43dbcd23"
+   "77f87c1ca2b090211a520f8c2e98cbfb8081d916"
   ]
  },
  "2.2.0": {
@@ -1863,7 +1902,7 @@
   },
   "revs": [
    "01098517eaed090acec27d68f441d63dcf7c548c",
-   "14a7df6cf1de78a560ad03098882ec8e63886d8e"
+   "700405084c7eaa09a9133b0d633f0b217e0122f1"
   ]
  }
 }

@@ -548,7 +548,82 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "4859b2b46da06b8380406d4a4c921cdf43dbcd23"
+   "700405084c7eaa09a9133b0d633f0b217e0122f1"
+  ]
+ },
+ "3.5.0": {
+  "meta": {
+   "description": "Multi-format archive and compression library",
+   "homepage": "http://libarchive.org",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "This library has code for detecting and reading many archive formats and\ncompressions formats including (but not limited to) tar, shar, cpio, zip, and\ncompressed with gzip, bzip2, lzma, xz, ...\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "github": "jcumming",
+     "githubId": 1982341,
+     "name": "Jack Cummings"
+    }
+   ],
+   "name": "libarchive",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/libraries/libarchive/default.nix:53"
+  },
+  "revs": [
+   "acbe77678e6a788f60a9fa8f5f0b28a891a2a5c9",
+   "acbe77678e6a788f60a9fa8f5f0b28a891a2a5c9"
   ]
  }
 }

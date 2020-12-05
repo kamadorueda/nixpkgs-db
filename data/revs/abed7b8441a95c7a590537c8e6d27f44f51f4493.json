@@ -1,0 +1,4 @@
+{
+ "summary": "Made kde-4.2 packages work, adding the proper derivation attribute to get all qt include paths into NIX_CFLAGS_COMPILE. This helps build kde42 packages, because they have a broken FindQt4.cmake, which doesn't find properly the qt4 header files.",
+ "timestamp": "1244050434"
+}

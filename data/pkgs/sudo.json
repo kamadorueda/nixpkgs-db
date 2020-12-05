@@ -92,7 +92,7 @@
   },
   "revs": [
    "0055275945f6c3b83a06bec853bf26cc264f5961",
-   "a641e7666e6974721e6ede2089628e1876ea5be1"
+   "aa34103ac72f066505965593eabdb6a20a2bad24"
   ]
  },
  "1.7.2": {
@@ -1083,7 +1083,48 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "14a7df6cf1de78a560ad03098882ec8e63886d8e"
+   "0309973b82e43873ca2bdeab5f525ca86525c734"
+  ]
+ },
+ "1.9.4": {
+  "meta": {
+   "description": "A command to run commands as root",
+   "homepage": "https://www.sudo.ws/",
+   "license": "https://www.sudo.ws/sudo/license.html",
+   "long_description": "Sudo (su \"do\") allows a system administrator to delegate\nauthority to give certain users (or groups of users) the ability\nto run some (or all) commands as root or another user while\nproviding an audit trail of the commands and their arguments.\n",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "delroth@gmail.com",
+     "github": "delroth",
+     "githubId": 202798,
+     "name": "Pierre Bourdon"
+    }
+   ],
+   "name": "sudo",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/security/sudo/default.nix:67"
+  },
+  "revs": [
+   "02589710ba47160d4cb801ffe5d9270bec071da4",
+   "700405084c7eaa09a9133b0d633f0b217e0122f1"
   ]
  }
 }

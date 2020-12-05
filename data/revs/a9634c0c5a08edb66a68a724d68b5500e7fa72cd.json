@@ -1,0 +1,4 @@
+{
+ "summary": "* The postInstall attribute in default.nix did nothing, because   builder.sh already sets postInstall.  As a result Glibc had a   retained dependency on bootstrap-tools.  Added the \"rm\" to   builder.sh. * localesbuilder.sh -> locales-builder.sh.",
+ "timestamp": "1263811832"
+}
