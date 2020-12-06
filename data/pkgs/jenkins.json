@@ -179,7 +179,7 @@
   },
   "revs": [
    "00a20415f02ed243b9e50bfa51571aa5f9061d1e",
-   "80fb17b251d163345ddf8aa14be283dd2f9cbcc5"
+   "b264d4d60bbe7321ffaec5248df767d0c9d9b9fe"
   ]
  },
  "1.636": {
@@ -373,7 +373,7 @@
   },
   "revs": [
    "00903f48201307d8995386f9fc50cd12e24d5d40",
-   "1a31447c4c95496e63f23151de2849c641e28d89"
+   "b4dadff5429d0bf47bcdafff14dd3d0032039699"
   ]
  },
  "1.649": {
@@ -1907,7 +1907,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "a902eddc265e78368a646b5c924b2c8cabcf56ff"
+   "b061622bb56af7aaca41450e57c9fcc0e8bbe9e5"
   ]
  },
  "2.222.3": {
@@ -2263,7 +2263,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "aea667b17bc0817b326eaae04fc6196afffc6047"
+   "b4222803639535fc6a225db4de115cc69088ed99"
   ]
  },
  "2.235.3": {
@@ -2535,7 +2535,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "0c48e1ae8bf8da5f94415ff14aa4fa10e89f3ea1"
+   "6bbfd17e34b03b60907982c90ac71f6c9d4b51b1"
   ]
  },
  "2.249.2": {
@@ -2626,7 +2626,7 @@
   },
   "revs": [
    "002750572a39758aabf552e90b4d0ce65092ba58",
-   "4859b2b46da06b8380406d4a4c921cdf43dbcd23"
+   "99f8282a65821f148df596ba389606e732eaf99d"
   ]
  },
  "2.249.3": {
@@ -2723,7 +2723,106 @@
   },
   "revs": [
    "00213ef17f8bc35aae3227012256713d17b1d0d8",
-   "700405084c7eaa09a9133b0d633f0b217e0122f1"
+   "053c8d85f0a8c3ffe7db82ca6d0ebdf8784d8c0b"
+  ]
+ },
+ "2.263.1": {
+  "meta": {
+   "description": "An extendable open source continuous integration server",
+   "homepage": "https://jenkins-ci.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "coreyoconnor@gmail.com",
+     "github": "coreyoconnor",
+     "githubId": 34317,
+     "name": "Corey O'Connor"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "james@earldouglas.com",
+     "github": "earldouglas",
+     "githubId": 424946,
+     "name": "James Earl Douglas"
+    },
+    {
+     "email": "tim@nequissimus.com",
+     "github": "nequissimus",
+     "githubId": 628342,
+     "name": "Tim Steinbach"
+    }
+   ],
+   "name": "jenkins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/jenkins/default.nix:58"
+  },
+  "revs": [
+   "823444404a299a1ebf535a62b16ffdc1bcb5cf32",
+   "823444404a299a1ebf535a62b16ffdc1bcb5cf32"
   ]
  },
  "2.3": {
@@ -3098,7 +3197,7 @@
   },
   "revs": [
    "00572d595c2aaec1d8196fb913a018696326e824",
-   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
+   "b06473f46ebfd718e7043df8f9cbeb5a79e5ac78"
   ]
  },
  "2.63": {

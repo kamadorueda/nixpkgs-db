@@ -1299,7 +1299,7 @@
   },
   "revs": [
    "0c8509befb2483c762746eb26058d31489546574",
-   "46a0241ae26bdeac9ead3cf9b5b06fb5a53c80d8"
+   "b06473f46ebfd718e7043df8f9cbeb5a79e5ac78"
   ]
  },
  "17.1.1": {
@@ -1399,7 +1399,7 @@
   },
   "revs": [
    "00364fa6bd5d0172fd502acd7cc9e5e32ef59095",
-   "10cb4e312bcf12b4ec4ac0ba99f5fc1c01242de7"
+   "b5763e0054b484187298fe2561d606a31ae49909"
   ]
  },
  "17.1.8": {
@@ -2437,6 +2437,50 @@
    "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
   ]
  },
+ "19.1.5": {
+  "meta": {
+   "description": "An open source implementation of OpenGL",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "armv7a-linux",
+    "aarch64-linux",
+    "powerpc64le-linux"
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:194"
+  },
+  "revs": [
+   "b3024380de40eb7333d56fe255170b54150b91df",
+   "b3024380de40eb7333d56fe255170b54150b91df"
+  ]
+ },
  "19.2.7": {
   "meta": {
    "description": "An open source implementation of OpenGL",
@@ -2654,7 +2698,7 @@
   },
   "revs": [
    "0023aaef48e31444eeb22fc7c982c43b9782eef9",
-   "0f8a31b992b6892dd075bac8533955a9b92ac9df"
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
   ]
  },
  "20.0.1": {
@@ -3162,7 +3206,7 @@
   },
   "revs": [
    "001334b47c6cdfc35e94805380484e75004cdbf5",
-   "4859b2b46da06b8380406d4a4c921cdf43dbcd23"
+   "6bbfd17e34b03b60907982c90ac71f6c9d4b51b1"
   ]
  },
  "20.1.8": {
@@ -3342,7 +3386,7 @@
   },
   "revs": [
    "00c68337f5944a76ed6a10ff20d02bfb263912ea",
-   "6fa16462681ec457fda481823f09721499645b46"
+   "695776f6bb553d00329e97801db4fc7084a484cd"
   ]
  },
  "20.2.2": {
@@ -3402,7 +3446,7 @@
   },
   "revs": [
    "03988a5fec4b9fc09e7e868a06116f3d9215b393",
-   "700405084c7eaa09a9133b0d633f0b217e0122f1"
+   "823444404a299a1ebf535a62b16ffdc1bcb5cf32"
   ]
  },
  "20.2.3": {
@@ -3462,7 +3506,67 @@
   },
   "revs": [
    "01098517eaed090acec27d68f441d63dcf7c548c",
-   "acbe77678e6a788f60a9fa8f5f0b28a891a2a5c9"
+   "1e8d2972708565aaf8c1697ce8738f4e92845bdf"
+  ]
+ },
+ "20.2.4": {
+  "meta": {
+   "description": "An open source 3D graphics library",
+   "homepage": "https://www.mesa3d.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The Mesa project began as an open-source implementation of the OpenGL\nspecification - a system for rendering interactive 3D graphics. Over the\nyears the project has grown to implement more graphics APIs, including\nOpenGL ES (versions 1, 2, 3), OpenCL, OpenMAX, VDPAU, VA API, XvMC, and\nVulkan.  A variety of device drivers allows the Mesa libraries to be used\nin many different environments ranging from software emulation to\ncomplete hardware acceleration for modern GPUs.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "v@cunat.cz",
+     "github": "vcunat",
+     "githubId": 1785925,
+     "keys": [
+      {
+       "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+       "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+      }
+     ],
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "mesa",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "armv7a-linux",
+    "aarch64-linux",
+    "powerpc64le-linux"
+   ],
+   "position": "pkgs/development/libraries/mesa/default.nix:232"
+  },
+  "revs": [
+   "0948443194f6cb23f3e24b02c9e3d8456fb0ef93",
+   "0948443194f6cb23f3e24b02c9e3d8456fb0ef93"
   ]
  },
  "6.5.2": {
@@ -3510,7 +3614,7 @@
   },
   "revs": [
    "000ba6536350b58079484fc64b467ec227e73e26",
-   "3a9bfe866c7220490f27fd1689730b837cdcf395"
+   "b3d965858b71754b44f7d434175e1ef05bb07412"
   ]
  },
  "7.10.1": {
@@ -3676,7 +3780,7 @@
   },
   "revs": [
    "0400b616fd68d4af901ec95a6119eac737609b15",
-   "22a9e9b4b6d086caf8f4b047e8be6aba36f1170b"
+   "b30b4089a44cc27ed25670f0ed1c662edc07bc15"
   ]
  },
  "7.8.2": {
