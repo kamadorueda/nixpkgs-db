@@ -200,7 +200,7 @@
   },
   "revs": [
    "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
-   "5e528db0d91211a33c26322d8ecb0b06a557cc67"
+   "b86eb39a58aa27174b33400cc6873e285d7b4b22"
   ]
  },
  "0.7.0-rc4-4.11.4": {
@@ -4347,7 +4347,7 @@
   },
   "revs": [
    "00a41ebbc15b2345819612b8f917e1d69d853f5a",
-   "8f3660523eb7794df7a62d5f2b45eead09d287fc"
+   "b6b58a5559ff6afcecc8236b88aedc15b81e9239"
   ]
  },
  "0.8.0-rc3-4.14.104": {
@@ -9708,7 +9708,7 @@
   },
   "revs": [
    "00222dbb0efd3234b471207aa329025cf38d7d8b",
-   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+   "b7709efc78daab6d802e88f76b099174e93ea35b"
   ]
  },
  "0.8.3-5.4.34": {
@@ -12622,7 +12622,7 @@
   },
   "revs": [
    "2db182abc8acd862e241984422b43495080d3650",
-   "b1eaa2d6d251ec594dde6243eb22c36f635ada52"
+   "b63c23511c02b0d00fd084712a463c0d1f1d5f4c"
   ]
  },
  "0.8.4-5.4.72": {
@@ -13430,7 +13430,7 @@
   },
   "revs": [
    "0278e49268735919b3af826ae14f18df35ae55df",
-   "823444404a299a1ebf535a62b16ffdc1bcb5cf32"
+   "732cc5c147089db05781352d31e848a821b4536d"
   ]
  },
  "2.0.0-rc1-5.4.61": {
@@ -14918,7 +14918,7 @@
   },
   "revs": [
    "01eb6833fd23454b3418de8d219252e84cf1b300",
-   "b18fcccbb627358f2bbfab668793f92efafeb084"
+   "b56bd06d6fdfed4483376e093405afd8fc5e9386"
   ]
  },
  "2.0.0-rc3-5.4.81": {
@@ -14980,7 +14980,7 @@
   },
   "revs": [
    "0280846387a1fb9845d4ef1c6dcf16cc1058a1bc",
-   "99f8282a65821f148df596ba389606e732eaf99d"
+   "214e71a78a969d10a4a5c264ba3e6207481c6d54"
   ]
  },
  "2.0.0-rc4-5.4.72": {
@@ -15478,7 +15478,7 @@
   },
   "revs": [
    "001a975b752011a2a84413817d1c43a2200e6c74",
-   "4d4d16a92666cd7ae62ab8d1ac869b2cfec785ae"
+   "38ad37822813692de906c87f47801370ac1bcf1a"
   ]
  },
  "2.0.0-rc6-5.4.78": {
@@ -15542,7 +15542,7 @@
   },
   "revs": [
    "01229007553d9322c473c0fa36e3d6c644147e7d",
-   "053c8d85f0a8c3ffe7db82ca6d0ebdf8784d8c0b"
+   "78526ad4d68eb673811c6cb1219c30ba063d818d"
   ]
  },
  "2.0.0-rc6-5.4.79": {
@@ -15606,7 +15606,7 @@
   },
   "revs": [
    "00401a2f75e6286c9db6018748f1734485660d3c",
-   "b53db766d81256c3a84eab239464643b36972195"
+   "b87b2620d7104126f9489c42bcd4e3e36cf9ca82"
   ]
  },
  "2.0.0-rc6-5.4.80": {
@@ -15670,7 +15670,7 @@
   },
   "revs": [
    "00aabed73c73dd053ab182ca1a726b111db9ebf3",
-   "b28436a7e9f38f9998e1351b9db7b22ba96ca675"
+   "b89c0fcebd6ed64e84bd26e15379fd4c22b01b9e"
   ]
  },
  "2017-09-12-4.13.2": {
@@ -20526,6 +20526,64 @@
   "revs": [
    "02af3cd19ab53a56e9bbe49242d9f07442f33fd1",
    "27018df730e47bd6af8f6dc6aa07013e8d6d4f17"
+  ]
+ },
+ "2018-05-22-4.14.72": {
+  "meta": {
+   "description": "ZFS Filesystem Linux Kernel module",
+   "homepage": "http://zfsonlinux.org/",
+   "license": {
+    "fullName": "Common Development and Distribution License 1.0",
+    "shortName": "cddl",
+    "spdxId": "CDDL-1.0",
+    "url": "http://spdx.org/licenses/CDDL-1.0.html"
+   },
+   "long_description": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    }
+   ],
+   "name": "zfs-kernel",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/zfs/default.nix:133"
+  },
+  "revs": [
+   "b6b3b5367ae80ad9a47bec5a01b66ac552c4b911",
+   "b6b3b5367ae80ad9a47bec5a01b66ac552c4b911"
   ]
  },
  "2018-05-22-4.14.73": {
