@@ -72,6 +72,56 @@
    "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
   ]
  },
+ "1.1.1": {
+  "meta": {
+   "description": "A socket daemon to multiplex connections from and to iOS devices",
+   "homepage": "https://github.com/libimobiledevice/usbmuxd",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "usbmuxd stands for \"USB multiplexing daemon\". This daemon is in charge of\nmultiplexing connections over USB to an iOS device. To users, it means\nyou can sync your music, contacts, photos, etc. over USB. To developers, it\nmeans you can connect to any listening localhost socket on the device. usbmuxd\nis not used for tethering data transfer which uses a dedicated USB interface as\na virtual network device. Multiple connections to different TCP ports can happen\nin parallel. The higher-level layers are handled by libimobiledevice.\n",
+   "maintainers": [
+    {
+     "email": "contact@infinisil.com",
+     "github": "infinisil",
+     "githubId": 20525370,
+     "keys": [
+      {
+       "fingerprint": "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170",
+       "longkeyid": "rsa4096/0x422E9EDAE0157170"
+      }
+     ],
+     "name": "Silvan Mosberger"
+    }
+   ],
+   "name": "usbmuxd",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/misc/usbmuxd/default.nix:24"
+  },
+  "revs": [
+   "003b68aead6ecd67e9ab47c81ab2f6aae06bcf97",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
  "2018-07-22": {
   "meta": {
    "description": "A socket daemon to multiplex connections from and to iOS devices",
@@ -220,7 +270,7 @@
   },
   "revs": [
    "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
-   "732cc5c147089db05781352d31e848a821b4536d"
+   "8beba87c450d5c1c83e9ef3a1a56c2a60668d08d"
   ]
  }
 }
