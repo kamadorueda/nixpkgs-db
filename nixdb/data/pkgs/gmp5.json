@@ -1,0 +1,65 @@
+{
+ "5.0.3": {
+  "meta": {
+   "description": "GMP, the GNU multiple precision arithmetic library",
+   "homepage": "http://gmplib.org/",
+   "license": "LGPLv3+",
+   "long_description": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gmp",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "88d14c0e29a5966dcf16b307eaa71b583ac7ea50"
+  ]
+ },
+ "5.1.3": {
+  "meta": {
+   "description": "GNU multiple precision arithmetic library",
+   "homepage": "https://gmplib.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "gmp",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/gmp/5.1.x.nix:51"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

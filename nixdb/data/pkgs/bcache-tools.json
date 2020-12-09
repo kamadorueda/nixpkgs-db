@@ -1,0 +1,69 @@
+{
+ "1.0.5": {
+  "meta": {
+   "description": "User-space tools required for bcache (Linux block layer cache)",
+   "homepage": "http://bcache.evilpiepirate.org/",
+   "license": {
+    "fullName": "GNU General Public License version 2",
+    "shortName": "GPLv2",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+   },
+   "long_description": "Bcache is a Linux kernel block layer cache. It allows one or more fast\ndisk drives such as flash-based solid state drives (SSDs) to act as a\ncache for one or more slower hard disk drives.\n\nThis package contains the required user-space tools.\n\nUser documentation is in Documentation/bcache.txt in the Linux kernel\ntree.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "bcache-tools",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/filesystems/bcache-tools/default.nix:35"
+  },
+  "revs": [
+   "0008a4b6c467977469b9b3bdec15fcc580204145",
+   "2f4517697eb0882a5047faad3f8f42483f4d417e"
+  ]
+ },
+ "1.0.7": {
+  "meta": {
+   "description": "User-space tools required for bcache (Linux block layer cache)",
+   "homepage": "https://bcache.evilpiepirate.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Bcache is a Linux kernel block layer cache. It allows one or more fast\ndisk drives such as flash-based solid state drives (SSDs) to act as a\ncache for one or more slower hard disk drives.\n\nThis package contains the required user-space tools.\n\nUser documentation is in Documentation/bcache.txt in the Linux kernel\ntree.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "bcache-tools",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/bcache-tools/default.nix:41"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "73": {
+  "meta": {
+   "description": "Dependency tool for go",
+   "homepage": "https://github.com/tools/godep",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "godep",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/godep/default.nix:24"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

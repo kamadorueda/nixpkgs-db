@@ -1,0 +1,4 @@
+{
+ "summary": "* CUPS: fix printing on a Ricoh Aficio MP C4500 PXL printer (and   probably lots of others).  The $PATH used to invoke the filter   didn't contain Ghostscript and Perl, so it silently fails.  (A nice   property of CUPS is that it will just silently discard the job when   that happens, so you need to set LogLevel to \"debug\" to see this.)   Fortunately, CUPS now has a \"SetEnv\" option to set $PATH explicitly.",
+ "timestamp": "1337961093"
+}

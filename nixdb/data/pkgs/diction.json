@@ -1,0 +1,102 @@
+{
+ "1.11": {
+  "meta": {
+   "description": "GNU style and diction utilities",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "Diction and style are two old standard Unix commands. Diction identifies\nwordy and commonly misused phrases. Style analyses surface\ncharacteristics of a document, including sentence length and other\nreadability measures.\n",
+   "maintainers": [],
+   "name": "diction",
+   "platforms": null,
+   "position": "pkgs/tools/text/diction/default.nix:12"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.13": {
+  "meta": {
+   "description": "GNU style and diction utilities",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Diction and style are two old standard Unix commands. Diction identifies\nwordy and commonly misused phrases. Style analyses surface\ncharacteristics of a document, including sentence length and other\nreadability measures.\n",
+   "maintainers": [],
+   "name": "diction",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/text/diction/default.nix:13"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

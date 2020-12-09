@@ -1,0 +1,41 @@
+{
+ "4.2_2015-02-22": {
+  "meta": {
+   "description": "Language & tool for relational models",
+   "homepage": "http://alloytools.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Alloy is a language for describing structures and a tool for exploring\nthem. An Alloy model is a collection of constraints that describes a set\nof structures, e.g. all the possible security configurations of a web\napplication, or all the possible topologies of a switching network. The\nAlloy Analyzer is a solver that takes the constraints of a model and\nfinds structures that satisfy them. Structures are displayed graphically,\nand their appearance can be customized for the domain at hand.\n",
+   "maintainers": [
+    {
+     "email": "amin@aminb.org",
+     "github": "aminb",
+     "name": "Amin Bandali"
+    }
+   ],
+   "name": "alloy4",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/alloy/default.nix:34"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "0.4.4": {
+  "meta": {
+   "description": "Set of two plugins which allows you to put the maximized window title and windows buttons on the panel",
+   "homepage": "http://goodies.xfce.org/projects/panel-plugins/xfce4-windowck-plugin",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaroslavas@volth.com",
+     "github": "volth",
+     "name": "Jaroslavas Pocepko"
+    }
+   ],
+   "name": "xfce4-windowck-plugin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/xfce/panel-plugins/xfce4-windowck-plugin.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

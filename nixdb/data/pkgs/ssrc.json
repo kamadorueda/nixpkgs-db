@@ -1,0 +1,43 @@
+{
+ "1.33": {
+  "meta": {
+   "description": "A high quality audio sampling rate converter",
+   "homepage": "http://shibatch.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "This program converts sampling rates of PCM wav files. This\nprogram also has a function to apply dither to its output and\nextend perceived dynamic range.\n\nSampling rates of 44.1kHz and 48kHz are popularly used, but the\nratio between these two frequencies is 147:160, which are not\nsmall numbers. As a result, sampling rate conversion without\ndegradation of sound quality requires filter with very large\norder, and it is difficult to have both quality and speed. This\nprogram quickly converts between these sampling frequencies\nwithout audible degradation.\n",
+   "maintainers": [
+    {
+     "email": "ml.software@leenaa.rs",
+     "github": "leenaars",
+     "name": "Michiel Leenaars"
+    }
+   ],
+   "name": "ssrc",
+   "platforms": [
+    [
+     {
+      "kernel": {
+       "_type": "kernel",
+       "execFormat": {
+        "_type": "exec-format",
+        "name": "elf"
+       },
+       "families": {},
+       "name": "linux"
+      }
+     }
+    ]
+   ],
+   "position": "pkgs/applications/audio/ssrc/default.nix:21"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

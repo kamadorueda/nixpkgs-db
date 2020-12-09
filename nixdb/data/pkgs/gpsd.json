@@ -1,0 +1,144 @@
+{
+ "2.39": {
+  "meta": {
+   "description": "`gpsd', a GPS service daemon",
+   "homepage": "http://gpsd.berlios.de/",
+   "license": "BSD-style",
+   "long_description": "gpsd is a service daemon that monitors one or more GPSes\nattached to a host computer through serial or USB ports, making\nall data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer.\nWith gpsd, multiple GPS client applications (such as\nnavigational and wardriving software) can share access to GPSes\nwithout contention or loss of data.  Also, gpsd responds to\nqueries with a format that is substantially easier to parse than\nthe NMEA 0183 emitted by most GPSes.  The gpsd distribution\nincludes a linkable C service library, a C++ wrapper class, and\na Python module that developers of gpsd-aware applications can\nuse to encapsulate all communication with gpsd.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of GPSes and feeding\nGPS-aware applications GPS logs for diagnostic purposes.\n",
+   "maintainers": [],
+   "name": "gpsd",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "5d62c65d6e085481a36c857e8b86f88d80b1c565"
+  ]
+ },
+ "2.95": {
+  "meta": {
+   "description": "`gpsd', a GPS service daemon",
+   "homepage": "http://gpsd.berlios.de/",
+   "license": "BSD-style",
+   "long_description": "gpsd is a service daemon that monitors one or more GPSes\nattached to a host computer through serial or USB ports, making\nall data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer.\nWith gpsd, multiple GPS client applications (such as\nnavigational and wardriving software) can share access to GPSes\nwithout contention or loss of data.  Also, gpsd responds to\nqueries with a format that is substantially easier to parse than\nthe NMEA 0183 emitted by most GPSes.  The gpsd distribution\nincludes a linkable C service library, a C++ wrapper class, and\na Python module that developers of gpsd-aware applications can\nuse to encapsulate all communication with gpsd.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of GPSes and feeding\nGPS-aware applications GPS logs for diagnostic purposes.\n",
+   "maintainers": [],
+   "name": "gpsd",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "3.10": {
+  "meta": {
+   "description": "GPS service daemon",
+   "homepage": "http://catb.org/gpsd/",
+   "license": "BSD-style",
+   "long_description": "gpsd is a service daemon that monitors one or more GPSes or AIS\nreceivers attached to a host computer through serial or USB ports,\nmaking all data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer. With\ngpsd, multiple location-aware client applications (such as navigational\nand wardriving software) can share access to receivers without\ncontention or loss of data. Also, gpsd responds to queries with a\nformat that is substantially easier to parse than the NMEA 0183 emitted\nby most GPSes. The gpsd distribution includes a linkable C service\nlibrary, a C++ wrapper class, and a Python module that developers of\ngpsd-aware applications can use to encapsulate all communication with\ngpsd. Third-party client bindings for Java and Perl also exist.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of receivers and feeding\nlocation-aware applications GPS/AIS logs for diagnostic purposes.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "gpsd",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/servers/gpsd/default.nix:63"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "3.16": {
+  "meta": {
+   "description": "GPS service daemon",
+   "homepage": "http://catb.org/gpsd/",
+   "license": "BSD-style",
+   "long_description": "gpsd is a service daemon that monitors one or more GPSes or AIS\nreceivers attached to a host computer through serial or USB ports,\nmaking all data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer. With\ngpsd, multiple location-aware client applications (such as navigational\nand wardriving software) can share access to receivers without\ncontention or loss of data. Also, gpsd responds to queries with a\nformat that is substantially easier to parse than the NMEA 0183 emitted\nby most GPSes. The gpsd distribution includes a linkable C service\nlibrary, a C++ wrapper class, and a Python module that developers of\ngpsd-aware applications can use to encapsulate all communication with\ngpsd. Third-party client bindings for Java and Perl also exist.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of receivers and feeding\nlocation-aware applications GPS/AIS logs for diagnostic purposes.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    },
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "gpsd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/gpsd/default.nix:77"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "919d3ea2a0c19d2bed0afb5d71636b7c0237637b"
+  ]
+ },
+ "3.21": {
+  "meta": {
+   "description": "GPS service daemon",
+   "homepage": "http://catb.org/gpsd/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "gpsd is a service daemon that monitors one or more GPSes or AIS\nreceivers attached to a host computer through serial or USB ports,\nmaking all data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer. With\ngpsd, multiple location-aware client applications (such as navigational\nand wardriving software) can share access to receivers without\ncontention or loss of data. Also, gpsd responds to queries with a\nformat that is substantially easier to parse than the NMEA 0183 emitted\nby most GPSes. The gpsd distribution includes a linkable C service\nlibrary, a C++ wrapper class, and a Python module that developers of\ngpsd-aware applications can use to encapsulate all communication with\ngpsd. Third-party client bindings for Java and Perl also exist.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of receivers and feeding\nlocation-aware applications GPS/AIS logs for diagnostic purposes.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "githubId": 133602,
+     "name": "Bj\u00f8rn Forsman"
+    },
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "githubId": 1366419,
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "gpsd",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/gpsd/default.nix:88"
+  },
+  "revs": [
+   "0d431518893b1461cff9c777561fc53d94061a0a",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "1.14.5": {
+  "meta": {
+   "description": "Peer-to-peer electronic cash system (btc1 client)",
+   "homepage": "https://github.com/btc1/bitcoin",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "Bitcoin is a free open source peer-to-peer electronic cash system that is\ncompletely decentralized, without the need for a central server or trusted\nparties. Users hold the crypto keys to their own money and transact directly\nwith each other, with the help of a P2P network to check for double-spending.\n\nbtc1 is an implementation of a Bitcoin full node with segwit2x hard fork\nsupport.\n",
+   "maintainers": [
+    "Wei Tang <hi@that.world>"
+   ],
+   "name": "bit1d",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/altcoins/btc1.nix:25"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.15.1": {
+  "meta": {
+   "description": "Peer-to-peer electronic cash system (btc1 client)",
+   "homepage": "https://github.com/btc1/bitcoin",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Bitcoin is a free open source peer-to-peer electronic cash system that is\ncompletely decentralized, without the need for a central server or trusted\nparties. Users hold the crypto keys to their own money and transact directly\nwith each other, with the help of a P2P network to check for double-spending.\n\nbtc1 is an implementation of a Bitcoin full node with segwit2x hard fork\nsupport.\n",
+   "maintainers": [
+    {
+     "email": "hi@that.world",
+     "github": "sorpaas",
+     "name": "Wei Tang"
+    }
+   ],
+   "name": "bit1d",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/btc1.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Improved Upstart job handling in switch-to-configuration.  It no   longer compares the current configuration to the previous   configuration, but instead compares the current Upstart state to the   intended state.  Thus, if the switch script is interrupted, running   nixos-rebuild again will resume starting/stopping Upstart jobs where   the previous run left off.",
+ "timestamp": "1332035615"
+}

@@ -1,0 +1,43 @@
+{
+ "3.3": {
+  "meta": {
+   "description": "Cryptographic library",
+   "homepage": "http://www.lysator.liu.se/~nisse/nettle/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Nettle is a cryptographic library that is designed to fit\neasily in more or less any context: In crypto toolkits for\nobject-oriented languages (C++, Python, Pike, ...), in\napplications like LSH or GNUPG, or even in kernel space.  In\nmost contexts, you need more than the basic cryptographic\nalgorithms, you also need some way to keep track of available\nalgorithms, their properties and variants.  You often have\nsome algorithm selection process, often dictated by a protocol\nyou want to implement.\n\nAnd as the requirements of applications differ in subtle and\nnot so subtle ways, an API that fits one application well can\nbe a pain to use in a different context.  And that is why\nthere are so many different cryptographic libraries around.\n\nNettle tries to avoid this problem by doing one thing, the\nlow-level crypto stuff, and providing a simple but general\ninterface to it.  In particular, Nettle doesn't do algorithm\nselection.  It doesn't do memory allocation. It doesn't do any\nI/O.\n",
+   "maintainers": [
+    "William A. Kennington III <william@wkennington.com>"
+   ],
+   "name": "nettle",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/nettle/generic.nix:26"
+  },
+  "revs": [
+   "0017479abbe15c7d472b8c7563e5353608e67e5d",
+   "a6cdf0aaa17530773f1de918c88a1f3245fd2612"
+  ]
+ }
+}

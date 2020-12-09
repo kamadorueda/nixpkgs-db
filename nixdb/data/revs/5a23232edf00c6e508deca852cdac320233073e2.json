@@ -1,0 +1,4 @@
+{
+ "summary": "Refactor EC2 image generation script. Now uses same procedure for both hvm and pv-grub images. Root disks are now SSD backed and 20GB by default, both on hvm and pv-grub (previously was 8GB for HVM). Added new eu-central region to the locations to copy images to. Also the root disk for HVM instances was not deleted on termination with previous images, this is fixed as well.",
+ "timestamp": "1414406923"
+}

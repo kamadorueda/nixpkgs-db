@@ -1,0 +1,96 @@
+{
+ "1.1.5": {
+  "meta": {
+   "description": "Convert an iCal file to org agenda format, optionally deduplicating entries.",
+   "homepage": "https://github.com/rjhorniii/ical2org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "swflint@flintfam.org",
+     "github": "swflint",
+     "name": "Samuel W. Flint"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "ical2org",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/ical2org/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

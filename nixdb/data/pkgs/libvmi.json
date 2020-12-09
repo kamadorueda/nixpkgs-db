@@ -1,0 +1,84 @@
+{
+ "0.12": {
+  "meta": {
+   "description": "A C library for virtual machine introspection",
+   "homepage": "http://libvmi.com/",
+   "license": [
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0",
+     "url": "http://spdx.org/licenses/GPL-3.0.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v3.0 only",
+     "shortName": "lgpl3",
+     "spdxId": "LGPL-3.0",
+     "url": "http://spdx.org/licenses/LGPL-3.0.html"
+    }
+   ],
+   "long_description": "LibVMI is a C library with Python bindings that makes it easy to monitor the low-level\ndetails of a running virtual machine by viewing its memory, trapping on hardware events,\nand accessing the vCPU registers.\n",
+   "maintainers": [
+    {
+     "email": "leon.git@is.currently.online",
+     "github": "lschuermann",
+     "name": "Leon Schuermann"
+    }
+   ],
+   "name": "libvmi",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libvmi/default.nix:38"
+  },
+  "revs": [
+   "5505da90b0eab1360f60aa627dcb24d91b015d6d",
+   "5505da90b0eab1360f60aa627dcb24d91b015d6d"
+  ]
+ },
+ "0.12.0": {
+  "meta": {
+   "description": "A C library for virtual machine introspection",
+   "homepage": "http://libvmi.com/",
+   "license": [
+    {
+     "fullName": "GNU General Public License v3.0 only",
+     "shortName": "gpl3",
+     "spdxId": "GPL-3.0",
+     "url": "http://spdx.org/licenses/GPL-3.0.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v3.0 only",
+     "shortName": "lgpl3",
+     "spdxId": "LGPL-3.0",
+     "url": "http://spdx.org/licenses/LGPL-3.0.html"
+    }
+   ],
+   "long_description": "LibVMI is a C library with Python bindings that makes it easy to monitor the low-level\ndetails of a running virtual machine by viewing its memory, trapping on hardware events,\nand accessing the vCPU registers.\n",
+   "maintainers": [
+    {
+     "email": "leon.git@is.currently.online",
+     "github": "lschuermann",
+     "name": "Leon Schuermann"
+    }
+   ],
+   "name": "libvmi",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libvmi/default.nix:41"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

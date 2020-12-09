@@ -1,0 +1,51 @@
+{
+ "1.40.1": {
+  "meta": {
+   "description": "Use libguestfs from Python",
+   "homepage": "http://libguestfs.org/guestfs-python.3.html",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "graham@grahamc.com",
+     "github": "grahamc",
+     "name": "Graham Christensen"
+    }
+   ],
+   "name": "python3.7-guestfs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/guestfs/default.nix:16"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

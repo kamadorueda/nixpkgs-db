@@ -1,0 +1,41 @@
+{
+ "1.1.6": {
+  "meta": {
+   "description": "Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "The bundled utempter binary must be able to run as a user belonging to group utmp.\nOn NixOS systems, this can be achieved by creating a setguid wrapper.\n",
+   "maintainers": [
+    {
+     "email": "emailmatthijs@gmail.com",
+     "github": "msteen",
+     "name": "Matthijs Steen"
+    }
+   ],
+   "name": "libutempter",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libutempter/default.nix:30"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

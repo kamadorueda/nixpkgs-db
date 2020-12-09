@@ -1,0 +1,102 @@
+{
+ "5.2.3": {
+  "meta": {
+   "description": "Powerful, fast, lightweight, embeddable scripting language",
+   "homepage": "http://www.lua.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "Lua combines simple procedural syntax with powerful data\ndescription constructs based on associative arrays and extensible\nsemantics. Lua is dynamically typed, runs by interpreting bytecode\nfor a register-based virtual machine, and has automatic memory\nmanagement with incremental garbage collection, making it ideal\nfor configuration, scripting, and rapid prototyping.\n",
+   "maintainers": [],
+   "name": "lua",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/lua-5/5.2.nix:90"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "5.2.4": {
+  "meta": {
+   "description": "Powerful, fast, lightweight, embeddable scripting language",
+   "homepage": "http://www.lua.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Lua combines simple procedural syntax with powerful data\ndescription constructs based on associative arrays and extensible\nsemantics. Lua is dynamically typed, runs by interpreting bytecode\nfor a register-based virtual machine, and has automatic memory\nmanagement with incremental garbage collection, making it ideal\nfor configuration, scripting, and rapid prototyping.\n",
+   "maintainers": [],
+   "name": "lua",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/lua-5/5.2.nix:59"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

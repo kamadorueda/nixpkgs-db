@@ -1,0 +1,87 @@
+{
+ "0.9.3.1": {
+  "meta": {
+   "description": "Database administration tool for Firebird RDBMS",
+   "homepage": "https://github.com/mariuz/flamerobin",
+   "license": {
+    "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+    "shortName": "bsdOriginal",
+    "spdxId": "BSD-4-Clause",
+    "url": "http://spdx.org/licenses/BSD-4-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "root@uralbash.ru",
+     "github": "uralbash",
+     "name": "Svintsov Dmitry"
+    }
+   ],
+   "name": "flamerobin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/flamerobin/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

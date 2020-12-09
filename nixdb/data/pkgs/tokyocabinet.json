@@ -1,0 +1,113 @@
+{
+ "1.4.46": {
+  "meta": {
+   "description": "Tokyo Cabinet: a modern implementation of DBM",
+   "homepage": "",
+   "license": "LGPLv2+",
+   "long_description": "Tokyo Cabinet is a library of routines for managing a database. The\n        database is a simple data file containing records, each is a pair of\n        a key and a value.  Every key and value is serial bytes with\n        variable length.  Both binary data and character string can be used\n        as a key and a value.  There is neither concept of data tables nor\n        data types.  Records are organized in hash table, B+ tree, or\n        fixed-length array.\n\n        Tokyo Cabinet is developed as the successor of GDBM and QDBM on the\n        following purposes.  They are achieved and Tokyo Cabinet replaces\n        conventional DBM products: improves space efficiency, improves time\n        efficiency, improves parallelism, improves usability, improves\n        robustness, supports 64-bit architecture.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "tokyocabinet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "1.4.48": {
+  "meta": {
+   "description": "Tokyo Cabinet: a modern implementation of DBM",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "Tokyo Cabinet is a library of routines for managing a database. The\n        database is a simple data file containing records, each is a pair of\n        a key and a value.  Every key and value is serial bytes with\n        variable length.  Both binary data and character string can be used\n        as a key and a value.  There is neither concept of data tables nor\n        data types.  Records are organized in hash table, B+ tree, or\n        fixed-length array.\n\n        Tokyo Cabinet is developed as the successor of GDBM and QDBM on the\n        following purposes.  They are achieved and Tokyo Cabinet replaces\n        conventional DBM products: improves space efficiency, improves time\n        efficiency, improves parallelism, improves usability, improves\n        robustness, supports 64-bit architecture.\n",
+   "maintainers": [],
+   "name": "tokyocabinet",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/tokyo-cabinet/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

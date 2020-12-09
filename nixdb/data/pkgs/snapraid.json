@@ -1,0 +1,429 @@
+{
+ "10.0": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Richter <makefu@syntax-fehler.de>"
+   ],
+   "name": "snapraid",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:16"
+  },
+  "revs": [
+   "0018599a26747abc03457cf67c8cbc5d351661a3",
+   "18188947fa36358fac213245d41206edf2c3c7e7"
+  ]
+ },
+ "11.0": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Richter <makefu@syntax-fehler.de>"
+   ],
+   "name": "snapraid",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:16"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "8883b77ba7e8a965e213bd8d987a5681bc5facd4"
+  ]
+ },
+ "11.1": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Richter <makefu@syntax-fehler.de>"
+   ],
+   "name": "snapraid",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:21"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "11.2": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "snapraid",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:23"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "11.3": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "snapraid",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "11.4": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "snapraid",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:23"
+  },
+  "revs": [
+   "006717b79f6e37fc8931117834f0aa342c3c67bb",
+   "976d2e5c0d3afd23c0a7c1c7a98253fdf912719f"
+  ]
+ },
+ "11.5": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "makefu@syntax-fehler.de",
+     "github": "makefu",
+     "githubId": 115218,
+     "name": "Felix Richter"
+    }
+   ],
+   "name": "snapraid",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:23"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "8.1": {
+  "meta": {
+   "description": "A backup program for disk arrays",
+   "homepage": "http://www.snapraid.it/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Felix Richter <makefu@syntax-fehler.de>"
+   ],
+   "name": "snapraid",
+   "platforms": null,
+   "position": "pkgs/tools/filesystems/snapraid/default.nix:14"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ }
+}

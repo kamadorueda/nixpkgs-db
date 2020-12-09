@@ -1,0 +1,39 @@
+{
+ "4.8": {
+  "meta": {
+   "description": "A small chess engine supporting fairy pieces",
+   "homepage": "http://home.hccnet.nl/h.g.muller/dwnldpage.html",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "A version of micro-Max that reads the piece description\nfrom a file fmax.ini, so that arbitrary fairy pieces can be\nimplemented. This version (4.8J) supports up to 15 piece types,\nand board sizes up to 12x8. A Linux port exists in the\nformat of a debian package.\n",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "fairymax",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/games/fairymax/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

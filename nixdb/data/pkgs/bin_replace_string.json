@@ -1,0 +1,35 @@
+{
+ "0.2": {
+  "meta": {
+   "description": "Edit precompiled binaries",
+   "homepage": "http://ohnopub.net/~ohnobinki/bin_replace_string/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "bin_replace_string edits C-style strings in precompiled binaries. This is\nintended to be useful to replace arbitrary strings in binaries whose\nsource code is not available. However, because of the nature of compiled\nbinaries, bin_replace_string may only replace a given C-string with a\nshorter C-string.\n",
+   "maintainers": [],
+   "name": "bin_replace_string",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/bin_replace_string/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

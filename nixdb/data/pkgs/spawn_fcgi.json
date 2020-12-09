@@ -1,0 +1,109 @@
+{
+ "1.6.3": {
+  "meta": {
+   "description": "Provides an interface to external programs that support the FastCGI interface",
+   "homepage": "http://redmine.lighttpd.net/projects/spawn-fcgi",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://opensource.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Charles Strahan <charles.c.strahan@gmail.com>"
+   ],
+   "name": "spawn-fcgi",
+   "platforms": null,
+   "position": "pkgs/servers/http/spawn-fcgi/default.nix:22"
+  },
+  "revs": [
+   "0085a1aae33483dfaae3a4559d53cc1688791258",
+   "632ccf8bc6ef36a132cc0eb39eff052838db6113"
+  ]
+ },
+ "1.6.4": {
+  "meta": {
+   "description": "Provides an interface to external programs that support the FastCGI interface",
+   "homepage": "http://redmine.lighttpd.net/projects/spawn-fcgi",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    }
+   ],
+   "name": "spawn-fcgi",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/spawn-fcgi/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

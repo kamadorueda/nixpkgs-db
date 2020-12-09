@@ -1,0 +1,97 @@
+{
+ "1.2.7": {
+  "meta": {
+   "description": "SDL networking library",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "SDL_net",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "1.2.8": {
+  "meta": {
+   "description": "SDL networking library",
+   "homepage": "https://www.libsdl.org/projects/SDL_net/release-1.2.html",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "SDL_net",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/SDL_net/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

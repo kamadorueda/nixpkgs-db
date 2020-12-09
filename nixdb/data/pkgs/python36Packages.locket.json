@@ -1,0 +1,51 @@
+{
+ "0.2.0": {
+  "meta": {
+   "description": "Locket implements a lock that can be used by multiple processes provided they use the same path.",
+   "homepage": "https://github.com/mwilliamson/locket.py",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tehunger@gmail.com",
+     "github": "teh",
+     "name": "Tom Hunger"
+    }
+   ],
+   "name": "python3.6-locket",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/locket/default.nix:18"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "0.0.5": {
+  "meta": {
+   "description": "Open Multicast Ping (omping) is a tool for testing IPv4/IPv6 multicast connectivity on a LAN.",
+   "homepage": "https://github.com/troglobit/omping",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "omping",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/omping/default.nix:30"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

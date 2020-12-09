@@ -1,0 +1,59 @@
+{
+ "5.0.1.1": {
+  "meta": {
+   "description": "Cross platform, open source .NET development framework",
+   "homepage": "http://mono-project.com/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "obadz-nixos@obadz.com",
+     "github": "obadz",
+     "name": "obadz"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "mono",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/mono/generic-cmake.nix:85"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ }
+}

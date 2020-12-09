@@ -1,0 +1,108 @@
+{
+ "6.3.2": {
+  "meta": {
+   "description": "Visualize logs and time-stamped data",
+   "homepage": "http://www.elasticsearch.org/overview/kibana",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "kibana-oss",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/kibana/6.x.nix:69"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "4688f4078fa655fa3e56a8a4b2591fb195a7eceb"
+  ]
+ }
+}

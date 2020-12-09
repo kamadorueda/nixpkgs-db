@@ -1,0 +1,41 @@
+{
+ "0.0.20130412": {
+  "meta": {
+   "description": "Implementation of the VISA standard (for instrument control)",
+   "homepage": "http://www.librevisa.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "LibreVISA aims to be a compliant implementation of the VISA standard in a\nfree software library.\n\nWe currently support targets connected via USB, exposing the USBTMC\ninterface, and VXI-11 devices.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "librevisa",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/librevisa/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

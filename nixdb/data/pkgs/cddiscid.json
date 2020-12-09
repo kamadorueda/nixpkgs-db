@@ -1,0 +1,103 @@
+{
+ "0.9": {
+  "meta": {
+   "description": "cd-discid, a command-line utility to retrieve a disc's CDDB ID",
+   "homepage": "http://lly.org/~rcw/cd-discid/",
+   "license": null,
+   "long_description": "cd-discid is a backend utility to get CDDB discid information\nfrom a CD-ROM disc.  It was originally designed for cdgrab (now\nabcde), but can be used for any purpose requiring CDDB data.\n",
+   "maintainers": [],
+   "name": "cd-discid",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "1.4": {
+  "meta": {
+   "description": "Command-line utility to get CDDB discid information from a CD-ROM disc",
+   "homepage": "http://linukz.org/cd-discid.shtml",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "cd-discid is a backend utility to get CDDB discid information\nfrom a CD-ROM disc.  It was originally designed for cdgrab (now\nabcde), but can be used for any purpose requiring CDDB data.\n",
+   "maintainers": [
+    {
+     "email": "robert@rycee.net",
+     "github": "rycee",
+     "name": "Robert Helgesson"
+    }
+   ],
+   "name": "cd-discid",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/cd-discid/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

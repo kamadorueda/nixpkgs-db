@@ -1,0 +1,39 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "Epson printer driver (L110, L210, L300, L350, L355, L550, L555)",
+   "homepage": "https://www.openprinting.org/driver/epson-201207w",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "free": false,
+     "fullName": "Seiko Epson Corporation Software License Agreement for Linux",
+     "shortName": "epson",
+     "url": "https://download.ebz.epson.net/dsc/du/02/eula/global/LINUX_EN.html"
+    }
+   ],
+   "long_description": "        This software is a filter program used with the Common UNIX Printing\n        System (CUPS) under Linux. It supplies high quality printing with\n        Seiko Epson Color Ink Jet Printers.\n\n        List of printers supported by this package:\n           Epson L110 Series\n           Epson L210 Series\n           Epson L300 Series\n           Epson L350 Series\n           Epson L355 Series\n           Epson L550 Series\n           Epson L555 Series\n\n\tTo use the driver adjust your configuration.nix file:\n\t  services.printing = {\n\t    enable = true;\n\t    drivers = [ pkgs.epson_201207w ];\n\t  };\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "epson_201207w",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/misc/drivers/epson_201207w/default.nix:46"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

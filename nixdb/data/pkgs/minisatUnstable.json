@@ -1,0 +1,87 @@
+{
+ "2013-09-25": {
+  "meta": {
+   "description": "Compact and readable SAT solver",
+   "homepage": "http://minisat.se/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "minisat-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/minisat/unstable.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

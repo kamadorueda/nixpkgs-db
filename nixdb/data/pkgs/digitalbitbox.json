@@ -1,0 +1,81 @@
+{
+ "2.2.2": {
+  "meta": {
+   "description": "A QT based application for the Digital Bitbox hardware wallet",
+   "homepage": "https://digitalbitbox.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Digital Bitbox provides dbb-app, a GUI tool, and dbb-cli, a CLI tool, to manage Digital Bitbox devices.\n\nThis package will only install the dbb-app and dbb-cli, however; in order for these applications to identify and access Digital Bitbox devices, one may want to enable the digitalbitbox hardware module by adding\n\n    hardware.digitalbitbox.enable = true;\n\nto the configuration which is equivalent to adding this package to the udev.packages list.\n\n\nThe easiest way to use the digitalbitbox package in NixOS is by adding\n\n    programs.digitalbitbox.enable = true;\n\nto the configuration which installs the package and enables the hardware module.\n",
+   "maintainers": [
+    {
+     "email": "vid@bina.me",
+     "github": "vidbina",
+     "name": "David Asabina"
+    }
+   ],
+   "name": "digitalbitbox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/digitalbitbox/default.nix:121"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "3.0.0": {
+  "meta": {
+   "description": "A QT based application for the Digital Bitbox hardware wallet",
+   "homepage": "https://digitalbitbox.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Digital Bitbox provides dbb-app, a GUI tool, and dbb-cli, a CLI tool, to manage Digital Bitbox devices.\n\nThis package will only install the dbb-app and dbb-cli, however; in order for these applications to identify and access Digital Bitbox devices, one may want to enable the digitalbitbox hardware module by adding\n\n    hardware.digitalbitbox.enable = true;\n\nto the configuration which is equivalent to adding this package to the udev.packages list.\n\n\nThe easiest way to use the digitalbitbox package in NixOS is by adding\n\n    programs.digitalbitbox.enable = true;\n\nto the configuration which installs the package and enables the hardware module.\n",
+   "maintainers": [
+    {
+     "email": "vid@bina.me",
+     "github": "vidbina",
+     "githubId": 335406,
+     "name": "David Asabina"
+    }
+   ],
+   "name": "digitalbitbox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/digitalbitbox/default.nix:118"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

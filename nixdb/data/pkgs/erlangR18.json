@@ -1,0 +1,206 @@
+{
+ "18.3.4.4": {
+  "meta": {
+   "description": "Programming language used for massively scalable soft real-time systems",
+   "homepage": "http://www.erlang.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>",
+    "Stewart Mackenzie <setori88@gmail.com>",
+    "Andrey Pavlov <couchemar@yandex.ru>",
+    "Gleb Peregud <gleber.p@gmail.com>"
+   ],
+   "name": "erlang",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/erlang/generic-builder.nix:107"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "18.3.4.7": {
+  "meta": {
+   "description": "Programming language used for massively scalable soft real-time systems",
+   "homepage": "http://www.erlang.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "setori88@gmail.com",
+     "github": "sjmackenzie",
+     "name": "Stewart Mackenzie"
+    },
+    {
+     "email": "couchemar@yandex.ru",
+     "github": "couchemar",
+     "name": "Andrey Pavlov"
+    },
+    {
+     "email": "gleber.p@gmail.com",
+     "github": "gleber",
+     "name": "Gleb Peregud"
+    }
+   ],
+   "name": "erlang",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/erlang/generic-builder.nix:107"
+  },
+  "revs": [
+   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
+   "3a21d5bce24ce280f052411e7e47aee73d2c4f49"
+  ]
+ },
+ "18.3.4.8": {
+  "meta": {
+   "description": "Programming language used for massively scalable soft real-time systems",
+   "homepage": "http://www.erlang.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "setori88@gmail.com",
+     "github": "sjmackenzie",
+     "name": "Stewart Mackenzie"
+    },
+    {
+     "email": "couchemar@yandex.ru",
+     "github": "couchemar",
+     "name": "Andrey Pavlov"
+    },
+    {
+     "email": "gleber.p@gmail.com",
+     "github": "gleber",
+     "name": "Gleb Peregud"
+    }
+   ],
+   "name": "erlang",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/erlang/generic-builder.nix:112"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

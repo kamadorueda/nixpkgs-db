@@ -1,0 +1,111 @@
+{
+ "1.2.8-par": {
+  "meta": {
+   "description": "Permanent DNS caching",
+   "homepage": "http://www.phys.uu.nl/~rombouts/pdnsd.html",
+   "license": "GPLv3+",
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "pdnsd",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "1.2.9a-par": {
+  "meta": {
+   "description": "Permanent DNS caching",
+   "homepage": "http://members.home.nl/p.a.rombouts/pdnsd",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "viric@viric.name",
+     "github": "viric",
+     "name": "Llu\u00eds Batlle i Rossell"
+    }
+   ],
+   "name": "pdnsd",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pdnsd/default.nix:21"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "1.1.1": {
+  "meta": {
+   "description": "",
+   "homepage": "http://www.tset.de/lpty",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.1-lpty",
+   "platforms": null,
+   "position": "pkgs/development/lua-modules/generic/default.nix:21"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.2.1": {
+  "meta": {
+   "description": "PTY control for Lua",
+   "homepage": "http://www.tset.de/lpty",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "elisp.vim@gmail.com",
+     "github": "vyp",
+     "name": "vyp"
+    }
+   ],
+   "name": "lua5.1-lpty",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:523"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.2.2-1": {
+  "meta": {
+   "description": "A simple facility for lua to control other programs via PTYs.",
+   "homepage": "http://www.tset.de/lpty/",
+   "license": {
+    "fullName": "MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.1-lpty",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:187"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

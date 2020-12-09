@@ -1,0 +1,41 @@
+{
+ "2015-02-07": {
+  "meta": {
+   "description": "a flexible 8 operator FM synthesizer for LV2",
+   "homepage": "https://github.com/Themaister/libfmsynth",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "The synth core supports:\n\n- Arbitrary amounts of polyphony\n- 8 operators\n- No fixed \"algorithms\"\n- Arbitrary modulation, every operator can modulate any other operator, even itself\n- Arbitrary carrier selection, every operator can be a carrier\n- Sine LFO, separate LFO per voice, modulates amplitude and frequency of operators\n- Envelope per operator\n- Carrier stereo panning\n- Velocity sensitivity per operator\n- Mod wheel sensitivity per operator\n- Pitch bend\n- Keyboard scaling\n- Sustain, sustained keys can overlap each other for a very rich sound\n- Full floating point implementation optimized for SIMD\n- Hard real-time constraints\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "fmsynth-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/fmsynth/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

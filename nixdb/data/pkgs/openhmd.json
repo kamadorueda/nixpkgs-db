@@ -1,0 +1,93 @@
+{
+ "0.3.0-rc1-20181218": {
+  "meta": {
+   "description": "Library API and drivers immersive technology",
+   "homepage": "http://www.openhmd.net",
+   "license": {
+    "fullName": "Boost Software License 1.0",
+    "shortName": "boost",
+    "spdxId": "BSL-1.0",
+    "url": "http://spdx.org/licenses/BSL-1.0.html"
+   },
+   "long_description": "OpenHMD is a very simple FLOSS C library and a set of drivers\nfor interfacing with Virtual Reality (VR) Headsets aka\nHead-mounted Displays (HMDs), controllers and trackers like\nOculus Rift, HTC Vive, Windows Mixed Reality, and etc.\n",
+   "maintainers": [
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "keys": [
+      {
+       "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+       "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+      }
+     ],
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "openhmd",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/openhmd/default.nix:43"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

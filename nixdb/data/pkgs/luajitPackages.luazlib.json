@@ -1,0 +1,110 @@
+{
+ "0.4": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/brimworks/lua-zlib",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Koral <koral@mailoo.org>"
+   ],
+   "name": "lua5.1-zlib",
+   "platforms": null,
+   "position": "pkgs/development/lua-modules/generic/default.nix:21"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "18188947fa36358fac213245d41206edf2c3c7e7"
+  ]
+ },
+ "1.1": {
+  "meta": {
+   "description": "Simple streaming interface to zlib for Lua",
+   "homepage": "https://github.com/brimworks/lua-zlib",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "koral@mailoo.org",
+     "github": "k0ral",
+     "name": "Koral"
+    }
+   ],
+   "name": "lua5.1-zlib",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:715"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

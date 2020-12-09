@@ -1,0 +1,4 @@
+{
+ "summary": "Reverting the patch that disabled using the 'binutils snapshot', because it's needed for the fuloong minipc. It was not enough having the loongson2f patches; only having the patches, we got troubles building cups with a segfault on the dynamic loader running their 'genstrings' program.  And if sysvinit needs newer binutils (I can't remember why, but I wrote it in the all-packages.nix before), then let's use the snapshot.",
+ "timestamp": "1286839080"
+}

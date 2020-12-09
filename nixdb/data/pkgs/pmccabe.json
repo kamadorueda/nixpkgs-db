@@ -1,0 +1,103 @@
+{
+ "2.4-CVS20070814": {
+  "meta": {
+   "description": "McCabe-style function complexity and line counting for C and C++",
+   "homepage": "http://www.parisc-linux.org/~bame/pmccabe/",
+   "license": "GPLv2+",
+   "long_description": "pmccabe calculates McCabe-style cyclomatic complexity for C and\nC++ source code.  Per-function complexity may be used for\nspotting likely trouble spots and for estimating testing\neffort.\n\npmccabe also includes a non-commented line counter, decomment which\nonly removes comments from source code; codechanges, a program to\ncalculate the amount of change which has occurred between two source\ntrees or files; and vifn, to invoke vi given a function name rather\nthan a file name.\n",
+   "maintainers": [],
+   "name": "pmccabe",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "2.6": {
+  "meta": {
+   "description": "McCabe-style function complexity and line counting for C and C++",
+   "homepage": "https://people.debian.org/~bame/pmccabe/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "pmccabe calculates McCabe-style cyclomatic complexity for C and\nC++ source code.  Per-function complexity may be used for\nspotting likely trouble spots and for estimating testing\neffort.\n\npmccabe also includes a non-commented line counter, decomment which\nonly removes comments from source code; codechanges, a program to\ncalculate the amount of change which has occurred between two source\ntrees or files; and vifn, to invoke vi given a function name rather\nthan a file name.\n",
+   "maintainers": [
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "pmccabe",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/pmccabe/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

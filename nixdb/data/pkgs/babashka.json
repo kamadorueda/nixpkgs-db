@@ -1,0 +1,264 @@
+{
+ "0.0.71": {
+  "meta": {
+   "description": "Tool for executing Clojure snippets or scripts in the same space where you would use Bash",
+   "homepage": "https://github.com/borkdude/babashka/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "name": "Moritz Heidkamp"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/tools/misc/babashka/default.nix:49"
+  },
+  "revs": [
+   "00ca0c486957f2e95b5757d52330b2c2c76d7246",
+   "a26d0659d50fddb46980f684b4cc7b73afcd7d60"
+  ]
+ },
+ "0.0.78": {
+  "meta": {
+   "description": "A Clojure babushka for the grey areas of Bash",
+   "homepage": "https://github.com/borkdude/babashka",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "  The main idea behind babashka is to leverage Clojure in places where you \n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial \n      grey area of things that are too complicated to be simple in bash, but \n      too simple to be worth writing a clj/s script for. Babashka really \n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka \n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+   "maintainers": [
+    {
+     "email": "benjamin.hougland@gmail.com",
+     "github": "bhougland18",
+     "githubId": 28444296,
+     "name": "Benjamin Hougland"
+    },
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "githubId": 19733,
+     "name": "Moritz Heidkamp"
+    },
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/interpreters/clojure/babashka.nix:52"
+  },
+  "revs": [
+   "00222dbb0efd3234b471207aa329025cf38d7d8b",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "0.0.89": {
+  "meta": {
+   "description": "A Clojure babushka for the grey areas of Bash",
+   "homepage": "https://github.com/borkdude/babashka",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "  The main idea behind babashka is to leverage Clojure in places where you \n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial \n      grey area of things that are too complicated to be simple in bash, but \n      too simple to be worth writing a clj/s script for. Babashka really \n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka \n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+   "maintainers": [
+    {
+     "email": "benjamin.hougland@gmail.com",
+     "github": "bhougland18",
+     "githubId": 28444296,
+     "name": "Benjamin Hougland"
+    },
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "githubId": 19733,
+     "name": "Moritz Heidkamp"
+    },
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/interpreters/clojure/babashka.nix:54"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
+  ]
+ },
+ "0.0.94": {
+  "meta": {
+   "description": "A Clojure babushka for the grey areas of Bash",
+   "homepage": "https://github.com/borkdude/babashka",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "  The main idea behind babashka is to leverage Clojure in places where you \n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial \n      grey area of things that are too complicated to be simple in bash, but \n      too simple to be worth writing a clj/s script for. Babashka really \n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka \n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+   "maintainers": [
+    {
+     "email": "bandresen@gmail.com",
+     "github": "bandresen",
+     "githubId": 80325,
+     "name": "Benjamin Andresen"
+    },
+    {
+     "email": "benjamin.hougland@gmail.com",
+     "github": "bhougland18",
+     "githubId": 28444296,
+     "name": "Benjamin Hougland"
+    },
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "githubId": 19733,
+     "name": "Moritz Heidkamp"
+    },
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/interpreters/clojure/babashka.nix:54"
+  },
+  "revs": [
+   "0045730c57d7d705dcc568c6e420dc6a226d1266",
+   "181dfe306f262e8e44f0952efa531f9e3c482ec5"
+  ]
+ },
+ "0.0.97": {
+  "meta": {
+   "description": "A Clojure babushka for the grey areas of Bash",
+   "homepage": "https://github.com/borkdude/babashka",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "  The main idea behind babashka is to leverage Clojure in places where you\n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial\n      grey area of things that are too complicated to be simple in bash, but\n      too simple to be worth writing a clj/s script for. Babashka really\n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka\n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+   "maintainers": [
+    {
+     "email": "bandresen@gmail.com",
+     "github": "bandresen",
+     "githubId": 80325,
+     "name": "Benjamin Andresen"
+    },
+    {
+     "email": "benjamin.hougland@gmail.com",
+     "github": "bhougland18",
+     "githubId": 28444296,
+     "name": "Benjamin Hougland"
+    },
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "githubId": 19733,
+     "name": "Moritz Heidkamp"
+    },
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/interpreters/clojure/babashka.nix:54"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "0.2.3": {
+  "meta": {
+   "description": "A Clojure babushka for the grey areas of Bash",
+   "homepage": "https://github.com/borkdude/babashka",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "  The main idea behind babashka is to leverage Clojure in places where you\n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial\n      grey area of things that are too complicated to be simple in bash, but\n      too simple to be worth writing a clj/s script for. Babashka really\n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka\n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+   "maintainers": [
+    {
+     "email": "bandresen@gmail.com",
+     "github": "bandresen",
+     "githubId": 80325,
+     "name": "Benjamin Andresen"
+    },
+    {
+     "email": "benjamin.hougland@gmail.com",
+     "github": "bhougland18",
+     "githubId": 28444296,
+     "name": "Benjamin Hougland"
+    },
+    {
+     "email": "moritz@twoticketsplease.de",
+     "github": "DerGuteMoritz",
+     "githubId": 19733,
+     "name": "Moritz Heidkamp"
+    },
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "babashka",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/babashka.nix:54"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't use substite() here, because the bash binary in the bootstrap   tools (4.1.2) seems to have performance problems doing pattern   substitutions on large strings (it takes several minutes on   binutils' Makefile.in).  Bash 4.2 seems to be fine.",
+ "timestamp": "1326984912"
+}

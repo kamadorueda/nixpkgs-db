@@ -1,0 +1,74 @@
+{
+ "1.6.15": {
+  "meta": {
+   "description": "Tool for creating static Linux binaries",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "statifier",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "6197fdc02d20763e10beb73c0b6384c255f142b2"
+  ]
+ },
+ "1.7.3": {
+  "meta": {
+   "description": "Tool for creating static Linux binaries",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "statifier",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/os-specific/linux/statifier/default.nix:22"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "1.7.4": {
+  "meta": {
+   "description": "Tool for creating static Linux binaries",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "statifier",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/statifier/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

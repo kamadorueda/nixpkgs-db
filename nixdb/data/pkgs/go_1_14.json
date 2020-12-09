@@ -1,0 +1,834 @@
+{
+ "1.14.10": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:252"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "a7e81dcde9def253c871a5885bc5f3c8ba5ac244"
+  ]
+ },
+ "1.14.11": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:252"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "7dfe92ab942256a7cba9d51a781704a494358edd"
+  ]
+ },
+ "1.14.12": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:252"
+  },
+  "revs": [
+   "04f0884fa5d957894e006dc8666cc30cec15cda7",
+   "919d3ea2a0c19d2bed0afb5d71636b7c0237637b"
+  ]
+ },
+ "1.14.13": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:252"
+  },
+  "revs": [
+   "14a7df6cf1de78a560ad03098882ec8e63886d8e",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "1.14.6": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:247"
+  },
+  "revs": [
+   "026b4765bada7437c679693491ca2c6b6a1cc35c",
+   "62f2fea77b2254cb8bc65f335f73781cfb94f033"
+  ]
+ },
+ "1.14.7": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:247"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "a9def8ddbc71033476fe68c358d81524b820d7f0"
+  ]
+ },
+ "1.14.8": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:247"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "7980e04dcc4e75789f3fd3ad463fbd5cdaece616"
+  ]
+ },
+ "1.14.9": {
+  "meta": {
+   "description": "The Go Programming language",
+   "homepage": "http://golang.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@daedrum.net",
+     "github": "c00w",
+     "githubId": 486199,
+     "name": "Colin"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "githubId": 143982,
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "me@slukjanov.name",
+     "github": "Frostman",
+     "githubId": 134872,
+     "name": "Sergei Lukianov"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "mdlayher@gmail.com",
+     "github": "mdlayher",
+     "githubId": 1926905,
+     "keys": [
+      {
+       "fingerprint": "D709 03C8 0BE9 ACDC 14F0  3BFB 77BF E531 397E DE94",
+       "longkeyid": "rsa2048/0x77BFE531397EDE94"
+      }
+     ],
+     "name": "Matt Layher"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    },
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    },
+    {
+     "email": "rvolosatovs@riseup.net",
+     "github": "rvolosatovs",
+     "githubId": 12877905,
+     "name": "Roman Volosatovs"
+    },
+    {
+     "email": "59103226+zowoq@users.noreply.github.com",
+     "github": "zowoq",
+     "githubId": 59103226,
+     "name": "zowoq"
+    }
+   ],
+   "name": "go",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/compilers/go/1.14.nix:247"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ }
+}

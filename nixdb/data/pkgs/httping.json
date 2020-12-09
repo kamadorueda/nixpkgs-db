@@ -1,0 +1,102 @@
+{
+ "2.3.4": {
+  "meta": {
+   "description": "ping for HTTP requests",
+   "homepage": "http://www.vanheusden.com/httping",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Rickard Nilsson <rickynils@gmail.com>"
+   ],
+   "name": "httping",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/networking/httping/default.nix:22"
+  },
+  "revs": [
+   "001befaa6fb54b780254e7a7a6a5fc38051ccda0",
+   "6197fdc02d20763e10beb73c0b6384c255f142b2"
+  ]
+ },
+ "2.4": {
+  "meta": {
+   "description": "ping with HTTP requests",
+   "homepage": "http://www.vanheusden.com/httping",
+   "license": null,
+   "long_description": "Give httping an url, and it'll show you how long it takes to connect,\nsend a request and retrieve the reply (only the headers). Be aware that\nthe transmission across the network also takes time! So it measures the\nlatency of the webserver + network. It supports IPv6.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>",
+    "Rickard Nilsson <rickynils@gmail.com>"
+   ],
+   "name": "httping",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/networking/httping/default.nix:23"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "2.5": {
+  "meta": {
+   "description": "ping with HTTP requests",
+   "homepage": "https://vanheusden.com/httping",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0",
+    "url": "http://spdx.org/licenses/AGPL-3.0.html"
+   },
+   "long_description": "Give httping an url, and it'll show you how long it takes to connect,\nsend a request and retrieve the reply (only the headers). Be aware that\nthe transmission across the network also takes time! So it measures the\nlatency of the webserver + network. It supports IPv6.\n",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    }
+   ],
+   "name": "httping",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/httping/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

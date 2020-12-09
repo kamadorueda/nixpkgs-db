@@ -1,0 +1,129 @@
+{
+ "0.9.10": {
+  "meta": {
+   "description": "SAMBA LDAP tools",
+   "homepage": "http://gna.org/projects/smbldap-tools/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "smbldap-tools",
+   "platforms": null,
+   "position": "pkgs/tools/networking/smbldaptools/default.nix:28"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "0.9.11": {
+  "meta": {
+   "description": "SAMBA LDAP tools",
+   "homepage": "http://gna.org/projects/smbldap-tools/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "smbldap-tools",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/smbldaptools/default.nix:28"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "0.9.7": {
+  "meta": {
+   "description": "SAMBA LDAP tools",
+   "homepage": "http://gna.org/projects/smbldap-tools/",
+   "license": "GPLv2+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "smbldap-tools",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ }
+}

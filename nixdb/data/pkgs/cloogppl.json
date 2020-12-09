@@ -1,0 +1,173 @@
+{
+ "0.15.11": {
+  "meta": {
+   "description": "CLooG-PPL, the Chunky Loop Generator",
+   "homepage": "http://www.cloog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "CLooG is a free software library to generate code for scanning\nZ-polyhedra.  That is, it finds a code (e.g., in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.\nCLooG has been originally written to solve the code generation problem\nfor optimizing compilers based on the polytope model.  Nevertheless it\nis used now in various area e.g., to build control automata for\nhigh-level synthesis or to find the best polynomial approximation of a\nfunction.  CLooG may help in any situation where scanning polyhedra\nmatters.  While the user has full control on generated code quality,\nCLooG is designed to avoid control overhead and to produce a very\neffective code.\n",
+   "maintainers": [],
+   "name": "cloog-ppl",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/cloog-ppl/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "0.15.4": {
+  "meta": {
+   "description": "CLooG-PPL, the Chunky Loop Generator",
+   "homepage": "http://www.cloog.org/",
+   "license": "GPLv2+",
+   "long_description": "CLooG is a free software library to generate code for scanning\nZ-polyhedra.  That is, it finds a code (e.g., in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.\nCLooG has been originally written to solve the code generation problem\nfor optimizing compilers based on the polytope model.  Nevertheless it\nis used now in various area e.g., to build control automata for\nhigh-level synthesis or to find the best polynomial approximation of a\nfunction.  CLooG may help in any situation where scanning polyhedra\nmatters.  While the user has full control on generated code quality,\nCLooG is designed to avoid control overhead and to produce a very\neffective code.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "cloog-ppl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "aee659e1e20d6571ef40d28740297554ecff6255"
+  ]
+ },
+ "0.15.7": {
+  "meta": {
+   "description": "CLooG-PPL, the Chunky Loop Generator",
+   "homepage": "http://www.cloog.org/",
+   "license": "GPLv2+",
+   "long_description": "CLooG is a free software library to generate code for scanning\nZ-polyhedra.  That is, it finds a code (e.g., in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.\nCLooG has been originally written to solve the code generation problem\nfor optimizing compilers based on the polytope model.  Nevertheless it\nis used now in various area e.g., to build control automata for\nhigh-level synthesis or to find the best polynomial approximation of a\nfunction.  CLooG may help in any situation where scanning polyhedra\nmatters.  While the user has full control on generated code quality,\nCLooG is designed to avoid control overhead and to produce a very\neffective code.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "cloog-ppl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000c2c51fdfffcd0b0cc91011d53080bf1f6513c",
+   "4c16325de0a906815c7ae24c91ff730ed873473a"
+  ]
+ },
+ "0.15.9": {
+  "meta": {
+   "description": "CLooG-PPL, the Chunky Loop Generator",
+   "homepage": "http://www.cloog.org/",
+   "license": "GPLv2+",
+   "long_description": "CLooG is a free software library to generate code for scanning\nZ-polyhedra.  That is, it finds a code (e.g., in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.\nCLooG has been originally written to solve the code generation problem\nfor optimizing compilers based on the polytope model.  Nevertheless it\nis used now in various area e.g., to build control automata for\nhigh-level synthesis or to find the best polynomial approximation of a\nfunction.  CLooG may help in any situation where scanning polyhedra\nmatters.  While the user has full control on generated code quality,\nCLooG is designed to avoid control overhead and to produce a very\neffective code.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "cloog-ppl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "88d14c0e29a5966dcf16b307eaa71b583ac7ea50"
+  ]
+ }
+}

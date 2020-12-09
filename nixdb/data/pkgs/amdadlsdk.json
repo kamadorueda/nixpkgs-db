@@ -1,0 +1,65 @@
+{
+ "4.0": {
+  "meta": {
+   "description": "API to access display driver functionality for ATI graphics cards",
+   "homepage": "http://developer.amd.com/tools/graphics-development/display-library-adl-sdk/",
+   "license": {
+    "fullName": "amd-adl license",
+    "shortName": "amd-adl",
+    "url": "http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/licenses/AMD-ADL?revision=1.1"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Jaka Hudoklin <jakahudoklin@gmail.com>"
+   ],
+   "name": "amdadl-sdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "6.0": {
+  "meta": {
+   "description": "API to access display driver functionality for ATI graphics cards",
+   "homepage": "http://developer.amd.com/tools/graphics-development/display-library-adl-sdk/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "amdadl-sdk",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/misc/amdadl-sdk/default.nix:43"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ }
+}

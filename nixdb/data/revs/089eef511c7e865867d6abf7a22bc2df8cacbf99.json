@@ -1,0 +1,4 @@
+{
+ "summary": "* Module aggregator: use buildEnv, which is much faster because it   creates symlinks lazily (i.e., it creates a single symlink to an   entire tree unless another input has an overlapping tree).  As a   result it creates only a few dozen symlinks instead of ~ 12000   (which can take almost 2 minutes on my laptop).",
+ "timestamp": "1240254820"
+}

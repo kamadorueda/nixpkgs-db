@@ -1,0 +1,81 @@
+{
+ "2.14.1": {
+  "meta": {
+   "description": "Enterprise-grade build system",
+   "homepage": "http://www.gradle.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+   "maintainers": [],
+   "name": "gradle",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/gradle/default.nix:39"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

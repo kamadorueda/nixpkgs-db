@@ -1,0 +1,57 @@
+{
+ "1.1.2": {
+  "meta": {
+   "description": "Decred daemon in Go (golang)",
+   "homepage": "https://decred.org",
+   "license": [
+    {
+     "fullName": "ISC License",
+     "shortName": "isc",
+     "spdxId": "ISC",
+     "url": "http://spdx.org/licenses/ISC.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "dcrwallet",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/altcoins/dcrwallet.nix:39"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "0.3.5": {
+  "meta": {
+   "description": "Easier parallel programming on shared memory computers",
+   "homepage": "http://rainwoodman.github.io/sharedmem/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "python3.6-sharedmem",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/sharedmem/default.nix:17"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "4f43e5fe886374ec918da4bf494710cd58c4adf7"
+  ]
+ }
+}

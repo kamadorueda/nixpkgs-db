@@ -1,0 +1,87 @@
+{
+ "2.6.0": {
+  "meta": {
+   "description": "Libraries for creating business diagrams",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "kdiagram",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/kdiagram/default.nix:16"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

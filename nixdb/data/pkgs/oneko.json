@@ -1,0 +1,85 @@
+{
+ "1.2.5": {
+  "meta": {
+   "description": "Creates a cute cat chasing around your mouse cursor",
+   "homepage": "http://www.daidouji.com/oneko/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "Oneko changes your mouse cursor into a mouse\nand creates a little cute cat, which starts\nchasing around your mouse cursor.\nWhen the cat is done catching the mouse, it starts sleeping.\n",
+   "maintainers": [
+    {
+     "email": "hoe.dom@gmx.de",
+     "github": "xaverdh",
+     "name": "Dominik Xaver H\u00f6rl"
+    }
+   ],
+   "name": "oneko",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/oneko/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

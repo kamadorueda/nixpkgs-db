@@ -1,0 +1,506 @@
+{
+ "2.0.3": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Julien Dehos <dehos@lisic.univ-littoral.fr>"
+   ],
+   "name": "gede",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:24"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "2.0.4": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:29"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "2.10.9": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "2.12.3": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "2.13.1": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2.14.1": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "2.15.1": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "2.15.4": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "2.16.2": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "githubId": 11947756,
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "2.6.1": {
+  "meta": {
+   "description": "Graphical frontend (GUI) to GDB",
+   "homepage": "http://gede.acidron.com",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dehos@lisic.univ-littoral.fr",
+     "github": "juliendehos",
+     "name": "Julien Dehos"
+    }
+   ],
+   "name": "gede",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gede/default.nix:27"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ }
+}

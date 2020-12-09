@@ -1,0 +1,717 @@
+{
+ "1.0.10": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "a6d39ee9dba0ec547062b00d7ff5ea7fc569b17e"
+  ]
+ },
+ "1.0.11": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.0.12": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "7555467383a7c053ab8a3fe52d237a582b527204"
+  ]
+ },
+ "1.0.13": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:27"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "1.0.14": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:26"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "1.0.16": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:26"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "1.0.18": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:26"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "82d0986c456cd6c35dfd970d2f5e951af55ec588"
+  ]
+ },
+ "1.0.19": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:26"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "1.0.20": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:20"
+  },
+  "revs": [
+   "04768cefa256e8af6411b1a5323ae068496e4672",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "1.0.5": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (we pronounce it \"wabbit\") is a suite of tools for WebAssembly,\nincluding:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "1.0.6": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.0.8": {
+  "meta": {
+   "description": "The WebAssembly Binary Toolkit",
+   "homepage": "https://github.com/WebAssembly/wabt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "wabt",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/wabt/default.nix:19"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ }
+}

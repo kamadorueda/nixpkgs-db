@@ -1,0 +1,70 @@
+{
+ "0.8.5": {
+  "meta": {
+   "description": "Tool for building, changing, and versioning infrastructure",
+   "homepage": "https://www.terraform.io/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "terraform",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/terraform/default.nix:34"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

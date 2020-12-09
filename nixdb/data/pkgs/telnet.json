@@ -1,0 +1,109 @@
+{
+ "1.2": {
+  "meta": {
+   "description": "A client and daemon for the Telnet protocol",
+   "homepage": "ftp://ftp.suse.com/pub/people/kukuk/ipv6/",
+   "license": "BSD",
+   "long_description": "",
+   "maintainers": [],
+   "name": "telnet",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.9.4": {
+  "meta": {
+   "description": "Collection of common network programs",
+   "homepage": "https://www.gnu.org/software/inetutils/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "The GNU network utilities suite provides the\n        following tools: ftp(d), hostname, ifconfig, inetd, logger, ping, rcp,\n        rexec(d), rlogin(d), rsh(d), syslogd, talk(d), telnet(d), tftp(d),\n        traceroute, uucpd, and whois.\n",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "inetutils",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/inetutils/default.nix:33"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

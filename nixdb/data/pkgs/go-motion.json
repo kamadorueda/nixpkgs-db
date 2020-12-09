@@ -1,0 +1,60 @@
+{
+ "2018-04-09": {
+  "meta": {
+   "description": "Navigation and insight in Go",
+   "homepage": "https://github.com/fatih/motion",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "Motion is a tool that was designed to work with editors. It is providing\ncontextual information for a given offset(option) from a file or\ndirectory of files. Editors can use these informations to implement\nnavigation, text editing, etc... that are specific to a Go source code.\n\nIt's optimized and created to work with vim-go, but it's designed to work\nwith any editor. It's currently work in progress and open to change.\n",
+   "maintainers": [
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "motion-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/go-motion/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

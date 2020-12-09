@@ -1,0 +1,31 @@
+{
+ "1.30": {
+  "meta": {
+   "description": "Identification utility for the x86 series of processors",
+   "homepage": "http://codemonkey.org.uk/projects/x86info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "x86info will identify all Intel/AMD/Centaur/Cyrix/VIA CPUs. It leverages\nthe cpuid kernel module where possible.  it supports parsing model specific\nregisters (MSRs) via the msr kernel module.  it will approximate processor\nfrequency, and identify the cache sizes and layout. \n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    }
+   ],
+   "name": "x86info",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/x86info/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

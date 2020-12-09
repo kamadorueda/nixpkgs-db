@@ -1,0 +1,576 @@
+{
+ "6.1.1": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "William Roe <willroe@gmail.com>",
+    "Jaka Hudoklin <jakahudoklin@gmail.com>",
+    "Bas van Dijk <v.dijk.bas@gmail.com>"
+   ],
+   "name": "logstash",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:33"
+  },
+  "revs": [
+   "02393338dc8852b30f5ea04eb0307c3dc266e424",
+   "7aaa72c203c296509612eddb9039e2691448a8d7"
+  ]
+ },
+ "6.1.2": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:33"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3ba3d8d8cbec36605095d3a30ff6b82902af289c"
+  ]
+ },
+ "6.2.2": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:33"
+  },
+  "revs": [
+   "37bd229fa1dcabb35cc90ed7e377b004b3334dab",
+   "37bd229fa1dcabb35cc90ed7e377b004b3334dab"
+  ]
+ },
+ "6.2.3": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:36"
+  },
+  "revs": [
+   "1593ff3f51ed09483e71f3dd4cd99c92ebcbec94",
+   "5f82c839428ea4af562351ed561f202d327e4c0e"
+  ]
+ },
+ "6.2.4": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:36"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "6.3.2": {
+  "meta": {
+   "description": "Logstash is a data pipeline that helps you process logs and other event data from a variety of systems",
+   "homepage": "https://www.elastic.co/products/logstash",
+   "license": {
+    "free": false,
+    "fullName": "ELASTIC LICENSE",
+    "shortName": "elastic",
+    "url": "https://github.com/elastic/elasticsearch/blob/master/licenses/ELASTIC-LICENSE.txt"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "willroe@gmail.com",
+     "github": "wjlroe",
+     "name": "William Roe"
+    },
+    {
+     "email": "jakahudoklin@gmail.com",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    },
+    {
+     "email": "v.dijk.bas@gmail.com",
+     "github": "basvandijk",
+     "name": "Bas van Dijk"
+    }
+   ],
+   "name": "logstash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/logstash/6.x.nix:47"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "4688f4078fa655fa3e56a8a4b2591fb195a7eceb"
+  ]
+ }
+}

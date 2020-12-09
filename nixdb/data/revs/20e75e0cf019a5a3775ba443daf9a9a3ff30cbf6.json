@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the gcc-wrapper, so it does not link when gcc is called with '-x something'. It should not link at least for '-x c-header' and '-x c++-header', and maybe link for '-x c' or '-x c++', but we expect noone will be linking using these later strings.",
+ "timestamp": "1263677170"
+}

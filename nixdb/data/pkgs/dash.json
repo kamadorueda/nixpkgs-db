@@ -1,0 +1,555 @@
+{
+ "0.5.10": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "006422d08d7f0576d745baa23328e951e0f7b4c2",
+   "8a999d15ebfb929a5f5fc5b08be6a23848f29710"
+  ]
+ },
+ "0.5.10.1": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "00ddd6a8ae9989ada2cb1a70b0c6cfb1022f6b1e",
+   "9a63f51454e54517e9987940825506bb49b690c4"
+  ]
+ },
+ "0.5.10.2": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "0.5.11": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "887f1978f62d2e12759e3dff2d5ede9d73b4dbc4"
+  ]
+ },
+ "0.5.11.1": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "0.5.11.2": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/shells/dash/default.nix:20"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "0.5.6": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "0.5.7": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": null,
+   "position": "pkgs/shells/dash/default.nix:13"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "0.5.8": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": null,
+   "position": "pkgs/shells/dash/default.nix:13"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "0.5.9.1": {
+  "meta": {
+   "description": "A POSIX-compliant implementation of /bin/sh that aims to be as small as possible",
+   "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "dash",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/shells/dash/default.nix:15"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

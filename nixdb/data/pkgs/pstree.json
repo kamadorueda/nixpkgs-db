@@ -1,0 +1,181 @@
+{
+ "2.31": {
+  "meta": {
+   "description": "show the running processes as tree",
+   "homepage": "http://fresh.t-systems-sfr.com/unix/src/misc/pstree-2.31.tar.gz",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "pstree",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "aa34103ac72f066505965593eabdb6a20a2bad24"
+  ]
+ },
+ "2.32": {
+  "meta": {
+   "description": "show the running processes as tree",
+   "homepage": "http://fresh.t-systems-sfr.com/unix/src/misc/pstree-2.32.tar.gz",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "pstree",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "8640725ca4cd23738c20b45f36a4abed80af7868"
+  ]
+ },
+ "2.33": {
+  "meta": {
+   "description": "Show the set of running processes as a tree",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "pstree",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "61129e1ee9a37d75f2f26c8eb5de1c984766a461"
+  ]
+ },
+ "2.36": {
+  "meta": {
+   "description": "Show the set of running processes as a tree",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [
+    "Petr Ro\u010dkai <me@mornfall.net>"
+   ],
+   "name": "pstree",
+   "platforms": null,
+   "position": "pkgs/applications/misc/pstree/default.nix:17"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "2.39": {
+  "meta": {
+   "description": "Show the set of running processes as a tree",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "pstree",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/pstree/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "23.2": {
+  "meta": {
+   "description": "A set of small useful utilities that use the proc filesystem (such as fuser, killall and pstree)",
+   "homepage": "https://gitlab.com/psmisc/psmisc",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ryan@ryantm.com",
+     "github": "ryantm",
+     "name": "Ryan Mulligan"
+    }
+   ],
+   "name": "psmisc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/psmisc/default.nix:29"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "4c468c5b0eeacb4268458bba1a4a5199831077cb"
+  ]
+ }
+}

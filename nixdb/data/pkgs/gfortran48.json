@@ -1,0 +1,134 @@
+{
+ "4.8.1": {
+  "meta": {
+   "description": "GNU Compiler Collection, version 4.8.1 (wrapper script)",
+   "homepage": "http://gcc.gnu.org/",
+   "license": "GPLv3+",
+   "long_description": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, Java, and Ada, as well\nas libraries for these languages (libstdc++, libgcj, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>",
+    "Shea Levy <shea@shealevy.com>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gfortran-wrapper",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "134776e5e97aa92a7bf9e4d9be9bf4b0c2e6060a",
+   "82bc91a548ad91241f42cefc528c5d5bffed2f5a"
+  ]
+ },
+ "4.8.2": {
+  "meta": {
+   "description": "GNU Compiler Collection, version 4.8.2 (wrapper script)",
+   "homepage": "http://gcc.gnu.org/",
+   "license": "GPLv3+",
+   "long_description": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, Java, and Ada, as well\nas libraries for these languages (libstdc++, libgcj, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>",
+    "Shea Levy <shea@shealevy.com>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "gfortran-wrapper",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "312d081b6a8daf375ebace1c4d3a5af11449c806",
+   "649b477cc37b70884f7a0c7b1da6559833bbfd82"
+  ]
+ },
+ "4.8.5": {
+  "meta": {
+   "description": "GNU Compiler Collection, version 4.8.5 (wrapper script)",
+   "homepage": "https://gcc.gnu.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, Java, and Ada, as well\nas libraries for these languages (libstdc++, libgcj, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "gfortran-wrapper",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "freebsd"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/build-support/cc-wrapper/default.nix:320"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

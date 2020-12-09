@@ -1,0 +1,156 @@
+{
+ "0.10.0": {
+  "meta": {
+   "description": "A high performance HTTP server that implements restic's REST backend API",
+   "homepage": "https://github.com/restic/rest-server",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "githubId": 6806011,
+     "name": "Robert Sch\u00fctz"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "restic-rest-server",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/backup/restic/rest-server.nix:22"
+  },
+  "revs": [
+   "2ff401dd59283ad249c70834bd99db27dede722a",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "0.9.7": {
+  "meta": {
+   "description": "A high performance HTTP server that implements restic's REST backend API",
+   "homepage": "https://github.com/restic/rest-server",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "restic-rest-server",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/backup/restic/rest-server.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ }
+}

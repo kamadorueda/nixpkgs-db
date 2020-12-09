@@ -1,0 +1,425 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "A pass extension for managing one-time-password (OTP) tokens",
+   "homepage": "https://github.com/tadfisher/pass-otp",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "johnw@newartisans.com",
+     "github": "jwiegley",
+     "name": "John Wiegley"
+    },
+    {
+     "email": "tadfisher@gmail.com",
+     "github": "tadfisher",
+     "name": "Tad Fisher"
+    }
+   ],
+   "name": "pass-otp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/pass-otp/default.nix:24"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.7.1": {
+  "meta": {
+   "description": "Stores, retrieves, generates, and synchronizes passwords securely",
+   "homepage": "https://www.passwordstore.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "pass is a very simple password store that keeps passwords inside gpg2\nencrypted files inside a simple directory tree residing at\n~/.password-store. The pass utility provides a series of commands for\nmanipulating the password store, allowing the user to add, remove, edit,\nsynchronize, generate, and manipulate passwords.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "tadfisher@gmail.com",
+     "github": "tadfisher",
+     "name": "Tad Fisher"
+    }
+   ],
+   "name": "password-store",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/pass/default.nix:95"
+  },
+  "revs": [
+   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "Stores, retrieves, generates, and synchronizes passwords securely",
+   "homepage": "https://www.passwordstore.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "pass is a very simple password store that keeps passwords inside gpg2\nencrypted files inside a simple directory tree residing at\n~/.password-store. The pass utility provides a series of commands for\nmanipulating the password store, allowing the user to add, remove, edit,\nsynchronize, generate, and manipulate passwords.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "tadfisher@gmail.com",
+     "github": "tadfisher",
+     "name": "Tad Fisher"
+    }
+   ],
+   "name": "password-store",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/pass/default.nix:95"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "517c29935b6e4dec12571e7d101e2b0da220263d"
+  ]
+ },
+ "1.7.3": {
+  "meta": {
+   "description": "Stores, retrieves, generates, and synchronizes passwords securely",
+   "homepage": "https://www.passwordstore.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "pass is a very simple password store that keeps passwords inside gpg2\nencrypted files inside a simple directory tree residing at\n~/.password-store. The pass utility provides a series of commands for\nmanipulating the password store, allowing the user to add, remove, edit,\nsynchronize, generate, and manipulate passwords.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "tadfisher@gmail.com",
+     "github": "tadfisher",
+     "name": "Tad Fisher"
+    }
+   ],
+   "name": "password-store",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/pass/default.nix:117"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ }
+}

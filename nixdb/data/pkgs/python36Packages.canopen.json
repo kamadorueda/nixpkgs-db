@@ -1,0 +1,51 @@
+{
+ "0.5.1": {
+  "meta": {
+   "description": "CANopen stack implementation",
+   "homepage": "https://github.com/christiansandberg/canopen/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "srk@48.io",
+     "github": "sorki",
+     "name": "Richard Marko"
+    }
+   ],
+   "name": "python3.6-canopen",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/canopen/default.nix:42"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

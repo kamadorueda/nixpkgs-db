@@ -1,0 +1,41 @@
+{
+ "1.0.1": {
+  "meta": {
+   "description": "Userspace library providing interface to packets that have been logged by the kernel packet filter",
+   "homepage": "https://netfilter.org/projects/libnetfilter_log/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "libnetfilter_log is a userspace library providing interface to packets\nthat have been logged by the kernel packet filter. It is is part of a\nsystem that deprecates the old syslog/dmesg based packet logging. This\nlibrary has been previously known as libnfnetlink_log.\n",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "libnetfilter_log",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libnetfilter_log/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

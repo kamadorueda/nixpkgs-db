@@ -1,0 +1,87 @@
+{
+ "0.8": {
+  "meta": {
+   "description": "Auxiliary tool for typesetting code listings in LaTeX documents using Pygments",
+   "homepage": "https://www.ctan.org/pkg/pygmentex",
+   "license": {
+    "fullName": "LaTeX Project Public License v1.3c",
+    "shortName": "lppl13c",
+    "spdxId": "LPPL-1.3c",
+    "url": "http://spdx.org/licenses/LPPL-1.3c.html"
+   },
+   "long_description": "PygmenTeX is a Python-based LaTeX package that can be used for\ntypesetting code listings in a LaTeX document using Pygments.\n\nPygments is a generic syntax highlighter for general use in all kinds of\nsoftware such as forum systems, wikis or other applications that need to\nprettify source code.\n\nThis package installs just the script needed to process code listings\nsnippets extracted from the a LaTeX document by the pygmentex LaTeX\npackage. In order to use it effectivelly the texlive package pygmentex\nalso has to be installed. This can be done by adding pygmentex to\ntexlive.combine.\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "pygmentex",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/typesetting/pygmentex/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

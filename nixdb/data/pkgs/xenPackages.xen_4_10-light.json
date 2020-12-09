@@ -1,0 +1,86 @@
+{
+ "4.10.0": {
+  "meta": {
+   "description": "Xen hypervisor and related components (light)",
+   "homepage": "http://www.xen.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+     "name": "Thomas Strobel"
+    },
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:229"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "4.10.4": {
+  "meta": {
+   "description": "Xen hypervisor and related components (light)",
+   "homepage": "http://www.xen.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+     "name": "Thomas Strobel"
+    },
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "githubId": 391919,
+     "keys": [
+      {
+       "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+       "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+      }
+     ],
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:230"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "231ca64ed9d1b7cdde6dbcfe05c0c696b4bc873c"
+  ]
+ }
+}

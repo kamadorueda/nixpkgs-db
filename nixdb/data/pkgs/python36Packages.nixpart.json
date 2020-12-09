@@ -1,0 +1,41 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "NixOS storage manager/partitioner",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aszlig@nix.build",
+     "github": "aszlig",
+     "name": "aszlig"
+    }
+   ],
+   "name": "nixpart",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/nixpart/default.nix:15"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

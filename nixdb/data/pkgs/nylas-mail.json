@@ -1,0 +1,50 @@
+{
+ "2.0.31": {
+  "meta": {
+   "description": "pen-source mail client built on the modern web with Electron, React, and Flux",
+   "homepage": "https://nylas.com",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "Nylas Mail is an open-source mail client built on the modern web with Electron, React, and Flux. It is designed to be extensible, so it's easy to create new experiences and workflows around email. Nylas-Mail requires gnome3 keyring. It can be enabled with \"services.gnome3.gnome-keyring.enable = true;\".\n",
+   "maintainers": [
+    "John Ramsden <johnramsden@riseup.net>"
+   ],
+   "name": "nylas-mail",
+   "platforms": null,
+   "position": "pkgs/applications/networking/mailreaders/nylas-mail/default.nix:130"
+  },
+  "revs": [
+   "1be1ba542154722e9cd9da4186dc631a8c06f36e",
+   "1f10c1112a6bfc4219e4a388be385be514ab1e70"
+  ]
+ },
+ "2.0.32": {
+  "meta": {
+   "description": "Open-source mail client built on the modern web with Electron, React, and Flux",
+   "homepage": "https://nylas.com",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "Nylas Mail is an open-source mail client built on the modern web with Electron, React, and Flux. It is designed to be extensible, so it's easy to create new experiences and workflows around email. To run nylas-mail, an additional manual step is required. Make sure to have services.gnome3.gnome-keyring.enable = true; in your configuration.nix before running nylas-mail. If you happen to miss this step, you should remove ~/.nylas-mail and \"~/.config/Nylas Mail\" for a blank setup\".\n",
+   "maintainers": [
+    "John Ramsden <johnramsden@riseup.net>"
+   ],
+   "name": "nylas-mail",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/mailreaders/nylas-mail/default.nix:127"
+  },
+  "revs": [
+   "3fddb48020aab9934752b1f19e5c35d7d3881a05",
+   "8181b075bac51fbce46a7b4d52e339b429f1250a"
+  ]
+ }
+}

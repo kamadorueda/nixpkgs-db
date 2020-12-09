@@ -1,0 +1,87 @@
+{
+ "20150712": {
+  "meta": {
+   "description": "A high-quality Japanese font based on M+ fonts and IPA fonts",
+   "homepage": "http://mix-mplus-ipa.osdn.jp/migmix",
+   "license": {
+    "fullName": "IPA Font License",
+    "shortName": "ipa",
+    "spdxId": "IPA",
+    "url": "http://spdx.org/licenses/IPA.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ek@esh.ink",
+     "github": "mikoim",
+     "name": "Eshin Kunishima"
+    }
+   ],
+   "name": "migmix",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/fonts/migmix/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

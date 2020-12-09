@@ -1,0 +1,51 @@
+{
+ "0.2.13": {
+  "meta": {
+   "description": "A pluggable transport proxy",
+   "homepage": "https://www.torproject.org/projects/obfsproxy",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "name": "Evgeny Egorochkin"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "python3.6-obfsproxy",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/python-packages.nix:9023"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

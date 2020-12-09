@@ -1,0 +1,71 @@
+{
+ "0.72.6": {
+  "meta": {
+   "description": "Data loss/scratch/aging protection for CD/DVD media",
+   "homepage": "http://dvdisaster.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Dvdisaster provides a margin of safety against data loss on CD and\nDVD media caused by scratches or aging media. It creates error correction\ndata which is used to recover unreadable sectors if the disc becomes\ndamaged at a later time.\n",
+   "maintainers": [
+    "Jascha Geerds <jg@ekby.de>"
+   ],
+   "name": "dvdisaster",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/cd-dvd/dvdisaster/default.nix:44"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "0.79.5": {
+  "meta": {
+   "description": "Data loss/scratch/aging protection for CD/DVD media",
+   "homepage": "http://dvdisaster.net/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Dvdisaster provides a margin of safety against data loss on CD and\nDVD media caused by scratches or aging media. It creates error correction\ndata which is used to recover unreadable sectors if the disc becomes\ndamaged at a later time.\n",
+   "maintainers": [
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    }
+   ],
+   "name": "dvdisaster",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/cd-dvd/dvdisaster/default.nix:77"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

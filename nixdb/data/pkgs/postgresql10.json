@@ -1,0 +1,87 @@
+{
+ "10.5": {
+  "meta": {
+   "description": "A powerful, open source object-relational database system",
+   "homepage": "https://www.postgresql.org",
+   "license": {
+    "fullName": "PostgreSQL License",
+    "shortName": "postgresql",
+    "spdxId": "PostgreSQL",
+    "url": "http://spdx.org/licenses/PostgreSQL.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ollie@ocharles.org.uk",
+     "github": "ocharles",
+     "name": "Oliver Charles"
+    }
+   ],
+   "name": "postgresql",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/default.nix:93"
+  },
+  "revs": [
+   "94360c11e96e816f9c9ac320691c1dc7b5caf4b1",
+   "94360c11e96e816f9c9ac320691c1dc7b5caf4b1"
+  ]
+ }
+}

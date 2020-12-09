@@ -1,0 +1,88 @@
+{
+ "20180201": {
+  "meta": {
+   "description": "Inotify shim for macOS and BSD",
+   "homepage": "https://github.com/libinotify-kqueue/libinotify-kqueue",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "name": "Yegor Timoshenko"
+    }
+   ],
+   "name": "libinotify-kqueue",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "freebsd"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "netbsd"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      },
+      "name": "openbsd"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libinotify-kqueue/default.nix:18"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

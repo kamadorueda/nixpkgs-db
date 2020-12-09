@@ -1,0 +1,542 @@
+{
+ "4.0.2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "screen",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "6d62947d71342aa29441a720d4eeb2f003126c76"
+  ]
+ },
+ "4.0.3": {
+  "meta": {
+   "description": "GNU Screen, a window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License version 2 or later",
+    "shortName": "GPLv2+",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "4.2.1": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:22"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "6197fdc02d20763e10beb73c0b6384c255f142b2"
+  ]
+ },
+ "4.3.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:22"
+  },
+  "revs": [
+   "005837d85ff9d62d4c74e6f1574b48336fb85271",
+   "53ff7e1664a177852f4b58ce23f417a5129e6627"
+  ]
+ },
+ "4.3.1": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Jascha Geerds <jascha@jgeerds.name>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:36"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "4.4.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Jascha Geerds <jascha@jgeerds.name>",
+    "Rahul Gopinath <rahul@gopinath.org>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:25"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "044ceae2806480555a44c91c386546cffb46ba74"
+  ]
+ },
+ "4.5.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Jascha Geerds <jascha@jgeerds.name>",
+    "Rahul Gopinath <rahul@gopinath.org>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:26"
+  },
+  "revs": [
+   "00105162f413ea8e8a419da0fc5b556e3737e82f",
+   "61046285a92d9490517703465a57366e15fd4b10"
+  ]
+ },
+ "4.5.1": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Jascha Geerds <jascha@jgeerds.name>",
+    "Rahul Gopinath <rahul@gopinath.org>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:26"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "4.6.1": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "http://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Jascha Geerds <jascha@jgeerds.name>",
+    "Rahul Gopinath <rahul@gopinath.org>"
+   ],
+   "name": "screen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:26"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "4.6.2": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "https://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    },
+    {
+     "email": "jascha@geerds.org",
+     "github": "jgeerds",
+     "name": "Jascha Geerds"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "screen",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:39"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "4.7.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "https://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "screen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:39"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "4.8.0": {
+  "meta": {
+   "description": "A window manager that multiplexes a physical terminal",
+   "homepage": "https://www.gnu.org/software/screen/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "GNU Screen is a full-screen window manager that multiplexes a physical\n        terminal between several processes, typically interactive shells.\n        Each virtual terminal provides the functions of the DEC VT100\n        terminal and, in addition, several control functions from the ANSI\n        X3.64 (ISO 6429) and ISO 2022 standards (e.g., insert/delete line\n        and support for multiple character sets).  There is a scrollback\n        history buffer for each virtual terminal and a copy-and-paste\n        mechanism that allows the user to move text regions between windows.\n        When screen is called, it creates a single window with a shell in it\n        (or the specified command) and then gets out of your way so that you\n        can use the program as you normally would.  Then, at any time, you\n        can create new (full-screen) windows with other programs in them\n        (including more shells), kill the current window, view a list of the\n        active windows, turn output logging on and off, copy text between\n        windows, view the scrollback history, switch between windows, etc.\n        All windows run their programs completely independent of each other.\n        Programs continue to run when their window is currently not visible\n        and even when the whole screen session is detached from the users\n        terminal.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    },
+    {
+     "email": "rahul@gopinath.org",
+     "github": "vrthra",
+     "githubId": 70410,
+     "name": "Rahul Gopinath"
+    }
+   ],
+   "name": "screen",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/screen/default.nix:39"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

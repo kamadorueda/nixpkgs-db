@@ -1,0 +1,87 @@
+{
+ "2015-04-14": {
+  "meta": {
+   "description": "Code for producing C and C++ kinetic clients",
+   "homepage": "https://github.com/Seagate/kinetic-cpp-client",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "william@wkennington.com",
+     "github": "wkennington",
+     "name": "William A. Kennington III"
+    }
+   ],
+   "name": "kinetic-cpp-client",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/kinetic-cpp-client/default.nix:54"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ }
+}

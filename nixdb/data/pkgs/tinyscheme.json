@@ -1,0 +1,87 @@
+{
+ "1.41": {
+  "meta": {
+   "description": "Lightweight Scheme implementation",
+   "homepage": "http://tinyscheme.sourceforge.net/",
+   "license": {
+    "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+    "shortName": "bsdOriginal",
+    "spdxId": "BSD-4-Clause",
+    "url": "http://spdx.org/licenses/BSD-4-Clause.html"
+   },
+   "long_description": "TinyScheme is a lightweight Scheme interpreter that implements as large a\nsubset of R5RS as was possible without getting very large and complicated.\n",
+   "maintainers": [
+    {
+     "email": "ebzzry@ebzzry.io",
+     "github": "ebzzry",
+     "name": "Rommel Martinez"
+    }
+   ],
+   "name": "tinyscheme",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/tinyscheme/default.nix:23"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

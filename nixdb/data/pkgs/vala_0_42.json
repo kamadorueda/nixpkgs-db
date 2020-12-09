@@ -1,0 +1,175 @@
+{
+ "0.42.6": {
+  "meta": {
+   "description": "Compiler for GObject type system",
+   "homepage": "https://wiki.gnome.org/Projects/Vala",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "self@antono.info",
+     "github": "antono",
+     "name": "Antono Vasiljev"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "vala",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/vala/default.nix:95"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "a6d39ee9dba0ec547062b00d7ff5ea7fc569b17e"
+  ]
+ },
+ "0.42.7": {
+  "meta": {
+   "description": "Compiler for GObject type system",
+   "homepage": "https://wiki.gnome.org/Projects/Vala",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "self@antono.info",
+     "github": "antono",
+     "name": "Antono Vasiljev"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "name": "Peter Hoeg"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "vala",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/compilers/vala/default.nix:101"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

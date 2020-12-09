@@ -1,0 +1,82 @@
+{
+ "1.1": {
+  "meta": {
+   "description": "sets the X root window to an image of the Earth",
+   "homepage": "http://xplanet.org",
+   "license": "xearth",
+   "long_description": " Xearth  sets  the X root window to an image of the Earth, as seen from your favorite vantage point in space,\n         correctly shaded for the current position of the Sun.\n\t By default, xearth updates the displayed image every  five  minutes.\n",
+   "maintainers": [
+    {
+     "email": "Marc.Fontaine@gmx.de",
+     "github": "MarcFontaine",
+     "name": "Marc Fontaine"
+    }
+   ],
+   "name": "xearth",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/astronomy/xearth/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

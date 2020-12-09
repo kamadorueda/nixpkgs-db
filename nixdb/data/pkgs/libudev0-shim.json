@@ -1,0 +1,41 @@
+{
+ "1": {
+  "meta": {
+   "description": "Shim to preserve libudev.so.0 compatibility",
+   "homepage": "https://github.com/archlinux/libudev0-shim",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ab@fmap.me",
+     "github": "abbradar",
+     "name": "Nikolay Amiantov"
+    }
+   ],
+   "name": "libudev0-shim",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/libudev0-shim/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

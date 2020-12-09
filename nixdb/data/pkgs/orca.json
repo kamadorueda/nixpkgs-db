@@ -1,0 +1,51 @@
+{
+ "3.26.0": {
+  "meta": {
+   "description": "Screen reader",
+   "homepage": "https://wiki.gnome.org/Projects/Orca",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "A free, open source, flexible and extensible screen reader that provides\naccess to the graphical desktop via speech and refreshable braille.\nIt works with applications and toolkits that support the Assistive\nTechnology Service Provider Interface (AT-SPI). That includes the GNOME\nGtk+ toolkit, the Java platform's Swing toolkit, LibreOffice, Gecko, and\nWebKitGtk. AT-SPI support for the KDE Qt toolkit is being pursued.\n\nNeeds `services.gnome3.at-spi2-core.enable = true;` in `configuration.nix`.\n",
+   "maintainers": [
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "name": "Bert Moens"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    },
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "orca",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/orca/default.nix:58"
+  },
+  "revs": [
+   "000c7800a1030a61677b64e9edb1670d3d940194",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

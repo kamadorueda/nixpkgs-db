@@ -1,0 +1,53 @@
+{
+ "0.15.2": {
+  "meta": {
+   "description": "Clean single-source support for Python 3 and 2",
+   "homepage": "https://python-future.org",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "python-future is the missing compatibility layer between Python 2 and\nPython 3. It allows you to use a single, clean Python 3.x-compatible\ncodebase to support both Python 2 and Python 3 with minimal overhead.\n\nIt provides future and past packages with backports and forward ports\nof features from Python 3 and 2. It also comes with futurize and\npasteurize, customized 2to3-based scripts that helps you to convert\neither Py2 or Py3 code easily to support both Python 2 and 3 in a\nsingle clean Py3-style codebase, module by module.\n",
+   "maintainers": [
+    {
+     "email": "pavan.rikhi@gmail.com",
+     "github": "prikhi",
+     "name": "Pavan Rikhi"
+    }
+   ],
+   "name": "python3.7-future",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/future/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ }
+}

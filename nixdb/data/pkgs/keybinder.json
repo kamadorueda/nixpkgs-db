@@ -1,0 +1,41 @@
+{
+ "0.3.0": {
+  "meta": {
+   "description": "Library for registering global key bindings",
+   "homepage": "https://github.com/engla/keybinder/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "keybinder is a library for registering global keyboard shortcuts.\nKeybinder works with GTK-based applications using the X Window System.\n\nThe library contains:\n\n* A C library, ``libkeybinder``\n* Gobject-Introspection (gir)  generated bindings\n* Lua bindings, ``lua-keybinder``\n* Python bindings, ``python-keybinder``\n* An ``examples`` directory with programs in C, Lua, Python and Vala.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "keybinder",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/keybinder/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

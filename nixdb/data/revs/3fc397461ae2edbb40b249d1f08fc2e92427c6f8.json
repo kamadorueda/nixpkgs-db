@@ -1,0 +1,4 @@
+{
+ "summary": "* Work around an impurity in APR: don't detect the epoll() system   call, because then an Apache built on a 2.6 kernel won't work   on 2.4 kernel.  In fact Apache will get into a loop segfaulting.",
+ "timestamp": "1195823362"
+}

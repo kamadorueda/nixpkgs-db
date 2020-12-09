@@ -1,0 +1,2803 @@
+{
+ "65.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
+   "205296f55a45b1dabb5e91568feccffd1fedee3f"
+  ]
+ },
+ "65.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "004d1422922beb2b6801eff6c0195fa8b9aacf77",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "65.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "b33e1ac83fc9254898b8fadb6a936a2e215ab8a8"
+  ]
+ },
+ "66.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "7507b43eba9fb9598eb2299bf9bfdd54614d9f81"
+  ]
+ },
+ "66.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
+   "28a5c36d1dbab092a4c2a7544a5036bb759d0ffe"
+  ]
+ },
+ "66.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "002ad2e561109446ac729ec07556a05c20564e15",
+   "ae38c98f05cb0df167fc5a4a3a5a4174e9442ac6"
+  ]
+ },
+ "66.0.3": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "26053855bbc58c3f298d3b1c5c470bc44a2cfdbc"
+  ]
+ },
+ "66.0.4": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0196d8f11cff9790531f7599153a077bb493b9cf",
+   "822243a9ab5e774fc904cddb7d6f5540696a3e00"
+  ]
+ },
+ "66.0.5": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "3c21a29ea9c5a1bd785e619e99a80c20021c6902"
+  ]
+ },
+ "67.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:177"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "67.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "003b42f33241229dc9094d713f4e88bff9d72d14",
+   "3deecf143b1a875f97b659b1263ed68718c1c2d6"
+  ]
+ },
+ "67.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "00622f144e01b3afb88a572d87f4d8f6afc4a5af",
+   "4683727693cf56e5f87f7e37dd9b8ea4291df958"
+  ]
+ },
+ "67.0.3": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "633baf951adce478734a3b4a359e75453eff5124"
+  ]
+ },
+ "67.0.4": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:178"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "b39c8b203d914edf4ce67d5d6e65833398a74f22"
+  ]
+ },
+ "68.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "008418db348dfe68d20fa492480669a9a1bf2421",
+   "9eaf915b5fe7e06767ea7a36ac54e8f9b32347c9"
+  ]
+ },
+ "68.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+  ]
+ },
+ "68.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:178"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "69.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "021d733ea3f87b8c9232020b4e606d08eaca160b",
+   "59314ddd6e7f2c0d99dbd4d959f1294f1fd73e5a"
+  ]
+ },
+ "69.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "02dbdcddcd305680af69e9f9245a04605db18f88",
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
+  ]
+ },
+ "71.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "72.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "031924113286de1b9ded5603920c9cedfabfedb2",
+   "5c780036c595d3817207a08934b3cdb67aa2bd1a"
+  ]
+ },
+ "72.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "00610756df9a235f2de907a18cd8fded638d24e0",
+   "7555467383a7c053ab8a3fe52d237a582b527204"
+  ]
+ },
+ "72.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "73.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:181"
+  },
+  "revs": [
+   "004b379cd5d7fd99327a0f2b42aa0deb5e2f7938",
+   "7b9129a98146cff91360419541955f55c5a09aec"
+  ]
+ },
+ "73.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:183"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
+  ]
+ },
+ "74.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:183"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "46d3cf2c1b45951753c059fc8a1d8c4e6c736785"
+  ]
+ },
+ "74.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:183"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "701ddad4ce8e56795f7ccd2f34e387b9071e74a7"
+  ]
+ },
+ "75.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:172"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "b7709efc78daab6d802e88f76b099174e93ea35b"
+  ]
+ },
+ "76.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:173"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "76.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:173"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "6a380c4ea227df1213bcf33c3384b45810ed3056"
+  ]
+ },
+ "77.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:175"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "78.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
+   "b79747ead8fa0d4ea2294c04dcdd50f1d9ef55a0"
+  ]
+ },
+ "79.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "a5449e7540b8559586bdc61c2589c7eb976db716"
+  ]
+ },
+ "80.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "977ee466ae48ec4a9d94541c928c24d7f3146672"
+  ]
+ },
+ "80.0.1": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "81.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "b601cd5e1d2f9e7294b6ef9fe547ba785db16a27"
+  ]
+ },
+ "81.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:180"
+  },
+  "revs": [
+   "0056f627a0203501c82a74a59c7553b158cc9642",
+   "05fa0f1a2ec5ad455e16a72bdb304f7c0e098b76"
+  ]
+ },
+ "82.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:182"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "a7e81dcde9def253c871a5885bc5f3c8ba5ac244"
+  ]
+ },
+ "82.0.2": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:184"
+  },
+  "revs": [
+   "016bfce7d266ac9c8e44c776c86e8394474281a8",
+   "20a9caf0a474e182909ac850fa675a4ded502e6c"
+  ]
+ },
+ "82.0.3": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:184"
+  },
+  "revs": [
+   "046002f4722b898800ae2c83293f27772ea78939",
+   "07d2079c1a30f3df9ee2975296d9aa113f27b686"
+  ]
+ },
+ "83.0": {
+  "meta": {
+   "description": "A web browser built from Firefox source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "https://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "edolstra+nixpkgs@gmail.com",
+     "github": "edolstra",
+     "githubId": 1148549,
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "githubId": 638836,
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:184"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

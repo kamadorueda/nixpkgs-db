@@ -1,0 +1,40 @@
+{
+ "0.8.2": {
+  "meta": {
+   "description": "A Named Data Neworking (NDN) or Content Centric Networking (CCN) abstraction",
+   "homepage": "http://www.ccnx.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "To address the Internet\u2019s modern-day requirements with a better\nfitting model, PARC has created a new networking architecture\ncalled Content-Centric Networking (CCN), which operates by addressing\nand delivering Content Objects directly by Name instead of merely\naddressing network end-points. In addition, the CCN security model\nexplicitly secures individual Content Objects rather than securing\nthe connection or \u201cpipe\u201d. Named and secured content resides in\ndistributed caches automatically populated on demand or selectively\npre-populated. When requested by name, CCN delivers named content to\nthe user from the nearest cache, thereby traversing fewer network hops,\neliminating redundant requests, and consuming less resources overall.\n",
+   "maintainers": [
+    "Stewart Mackenzie <setori88@gmail.com>"
+   ],
+   "name": "ccnx",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/ccnx/default.nix:20"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ }
+}

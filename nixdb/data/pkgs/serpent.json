@@ -1,0 +1,43 @@
+{
+ "2016-03-05": {
+  "meta": {
+   "description": "Compiler for the Serpent language for Ethereum",
+   "homepage": "https://github.com/ethereum/wiki/wiki/Serpent",
+   "license": [
+    {
+     "fullName": "Do What The F*ck You Want To Public License",
+     "shortName": "wtfpl",
+     "spdxId": "WTFPL",
+     "url": "http://spdx.org/licenses/WTFPL.html"
+    }
+   ],
+   "long_description": "Serpent is one of the high-level programming languages used to\nwrite Ethereum contracts. The language, as suggested by its name,\nis designed to be very similar to Python; it is intended to be\nmaximally clean and simple, combining many of the efficiency\nbenefits of a low-level language with ease-of-use in programming\nstyle, and at the same time adding special domain-specific\nfeatures for contract programming.\n",
+   "maintainers": [
+    {
+     "email": "ch.martin@gmail.com",
+     "github": "chris-martin",
+     "name": "Chris Martin"
+    }
+   ],
+   "name": "serpent",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/serpent/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

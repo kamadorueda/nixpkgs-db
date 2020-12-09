@@ -1,0 +1,105 @@
+{
+ "0.4.4": {
+  "meta": {
+   "description": "Binding of libevent to Lua",
+   "homepage": "http://luaforge.net/projects/luaevent/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "koral@mailoo.org",
+     "github": "k0ral",
+     "name": "Koral"
+    }
+   ],
+   "name": "lua5.3-luaevent",
+   "platforms": null,
+   "position": "pkgs/top-level/lua-packages.nix:341"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.4.6-1": {
+  "meta": {
+   "description": "libevent binding for Lua",
+   "homepage": "https://github.com/harningt/luaevent",
+   "license": {
+    "fullName": "MIT"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.3-luaevent",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:363"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

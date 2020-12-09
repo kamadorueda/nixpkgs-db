@@ -1,0 +1,113 @@
+{
+ "1.5": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "mktemp",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "50e59f22c19dea80e9684b26bafb0cc102ed65fb"
+  ]
+ },
+ "1.6": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "mktemp",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.7": {
+  "meta": {
+   "description": "Simple tool to make temporary file handling in shells scripts safe and simple",
+   "homepage": "https://www.mktemp.org",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "mktemp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/mktemp/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

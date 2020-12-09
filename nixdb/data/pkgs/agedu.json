@@ -1,0 +1,120 @@
+{
+ "20180522.5b12791": {
+  "meta": {
+   "description": "A Unix utility for tracking down wasted disk space",
+   "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/agedu/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Most Unix file systems, in their default mode, helpfully record when a\nfile was last accessed. So if you generated a large amount of data years\nago, forgot to clean it up, and have never used it since, then it ought\nin principle to be possible to use those last-access time stamps to tell\nthe difference between that and a large amount of data you're still\nusing regularly.\n\nagedu uses this information to tell you which files waste disk space when\nyou haven't used them since a long time.\n",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "agedu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/agedu/default.nix:18"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "20180918.80c7beb": {
+  "meta": {
+   "description": "A Unix utility for tracking down wasted disk space",
+   "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/agedu/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Most Unix file systems, in their default mode, helpfully record when a\nfile was last accessed. So if you generated a large amount of data years\nago, forgot to clean it up, and have never used it since, then it ought\nin principle to be possible to use those last-access time stamps to tell\nthe difference between that and a large amount of data you're still\nusing regularly.\n\nagedu uses this information to tell you which files waste disk space when\nyou haven't used them since a long time.\n",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "agedu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/agedu/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "20200206.963bc9d": {
+  "meta": {
+   "description": "A Unix utility for tracking down wasted disk space",
+   "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/agedu/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Most Unix file systems, in their default mode, helpfully record when a\nfile was last accessed. So if you generated a large amount of data years\nago, forgot to clean it up, and have never used it since, then it ought\nin principle to be possible to use those last-access time stamps to tell\nthe difference between that and a large amount of data you're still\nusing regularly.\n\nagedu uses this information to tell you which files waste disk space when\nyou haven't used them since a long time.\n",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "githubId": 12595971,
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "agedu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/agedu/default.nix:18"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

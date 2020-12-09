@@ -1,0 +1,46 @@
+{
+ "1.1.6": {
+  "meta": {
+   "description": "An easily deployable & decentralized OpenPGP keyserver",
+   "homepage": "https://bitbucket.org/skskeyserver/sks-keyserver/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "SKS is an OpenPGP keyserver whose goal is to provide easy to deploy,\ndecentralized, and highly reliable synchronization. That means that a key\nsubmitted to one SKS server will quickly be distributed to all key\nservers, and even wildly out-of-date servers, or servers that experience\nspotty connectivity, can fully synchronize with rest of the system.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    },
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "sks",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sks/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

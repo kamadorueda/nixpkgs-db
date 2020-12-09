@@ -1,0 +1,48 @@
+{
+ "1.4": {
+  "meta": {
+   "description": "Time command execution over multiple executions",
+   "homepage": "https://tratt.net/laurie/src/multitime/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Unix's `time` utility is a simple and often effective way of measuring\nhow long a command takes to run. Unfortunately, running a command once\ncan give misleading timings: the process may create a cache on its first\nexecution, running faster subsequently; other processes may cause the\ncommand to be starved of CPU or IO time; etc. It is common to see people\nrun `time` several times and take whichever values they feel most\ncomfortable with. Inevitably, this causes problems.\n\n`multitime` is, in essence, a simple extension to time which runs a\ncommand multiple times and prints the timing means (with confidence\nintervals), standard deviations, minimums, medians, and maximums having\ndone so. This can give a much better understanding of the command's\nperformance.\n",
+   "maintainers": [],
+   "name": "multitime",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/multitime/default.nix:17"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

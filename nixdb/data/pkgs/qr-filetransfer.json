@@ -1,0 +1,60 @@
+{
+ "2018-10-22": {
+  "meta": {
+   "description": "Transfer files over wifi by scanning a QR code from your terminal",
+   "homepage": "https://github.com/claudiodangelis/qr-filetransfer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "qr-filetransfer binds a web server to the address of your Wi-Fi network\ninterface on a random port and creates a handler for it. The default\nhandler serves the content and exits the program when the transfer is\ncomplete.\n",
+   "maintainers": [
+    {
+     "email": "francygazz@gmail.com",
+     "github": "fgaz",
+     "name": "Francesco Gazzetta"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "qr-filetransfer-unstable",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/qr-filetransfer/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "2020-10-04": {
+  "meta": {
+   "description": "Records nondeterministic executions and debugs them deterministically",
+   "homepage": "https://rr-project.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "rr aspires to be your primary debugging tool, replacing -- well,\nenhancing -- gdb. You record a failure once, then debug the\nrecording, deterministically, as many times as you want. Every\ntime the same execution is replayed.\n",
+   "maintainers": [
+    {
+     "email": "nixos@nbp.name",
+     "github": "nbp",
+     "githubId": 1179566,
+     "name": "Nicolas B. Pierron"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "rr-unstable",
+   "platforms": [
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "x86_64-redox",
+    "i686-none",
+    "x86_64-none",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/tools/analysis/rr/default.nix:49"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

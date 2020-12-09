@@ -1,0 +1,393 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "Morph is a NixOS host manager written in Golang.",
+   "homepage": "https://github.com/dbcdk/morph",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@adamtulinius.dk",
+     "github": "adamtulinius",
+     "name": "Adam Tulinius"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "morph",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/package-management/morph/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.2.0": {
+  "meta": {
+   "description": "Morph is a NixOS host manager written in Golang.",
+   "homepage": "https://github.com/dbcdk/morph",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@adamtulinius.dk",
+     "github": "adamtulinius",
+     "name": "Adam Tulinius"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "morph",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/package-management/morph/default.nix:37"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.3.1": {
+  "meta": {
+   "description": "Morph is a NixOS host manager written in Golang.",
+   "homepage": "https://github.com/dbcdk/morph",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@adamtulinius.dk",
+     "github": "adamtulinius",
+     "name": "Adam Tulinius"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "morph",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/package-management/morph/default.nix:37"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "1.4.0": {
+  "meta": {
+   "description": "Morph is a NixOS host manager written in Golang.",
+   "homepage": "https://github.com/dbcdk/morph",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@adamtulinius.dk",
+     "github": "adamtulinius",
+     "name": "Adam Tulinius"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "githubId": 480920,
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "morph",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/package-management/morph/default.nix:38"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "1.5.0": {
+  "meta": {
+   "description": "Morph is a NixOS host manager written in Golang.",
+   "homepage": "https://github.com/dbcdk/morph",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@adamtulinius.dk",
+     "github": "adamtulinius",
+     "githubId": 749381,
+     "name": "Adam Tulinius"
+    },
+    {
+     "email": "write@ownrisk.dk",
+     "github": "johanot",
+     "githubId": 998763,
+     "name": "Johan Thomsen"
+    }
+   ],
+   "name": "morph",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/package-management/morph/default.nix:38"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

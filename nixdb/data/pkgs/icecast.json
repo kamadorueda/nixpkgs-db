@@ -1,0 +1,249 @@
+{
+ "2.3.3": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports Ogg Vorbis and MP3\naudio streams. It can be used to create an Internet radio station or a\nprivately running jukebox and many things in between. It is very versatile in\nthat new formats can be added relatively easily and supports open standards for\ncommuincation and interaction.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>"
+   ],
+   "name": "icecast",
+   "platforms": null,
+   "position": "pkgs/servers/icecast/default.nix:16"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "2.4.0": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>"
+   ],
+   "name": "icecast",
+   "platforms": null,
+   "position": "pkgs/servers/icecast/default.nix:16"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "71ecac3372646af22bbc70c89664d84c869376c0"
+  ]
+ },
+ "2.4.1": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    "Jack Cummings <jack@mudshark.org>"
+   ],
+   "name": "icecast",
+   "platforms": null,
+   "position": "pkgs/servers/icecast/default.nix:16"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "2.4.3": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    }
+   ],
+   "name": "icecast",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/icecast/default.nix:18"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "19fc6daa537188f4e452ad74ccd104911e3dcbc5"
+  ]
+ },
+ "2.4.4": {
+  "meta": {
+   "description": "Server software for streaming multimedia",
+   "homepage": "http://www.icecast.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Icecast is a streaming media server which currently supports\nOgg (Vorbis and Theora), Opus, WebM and MP3 audio streams.\nIt can be used to create an Internet radio station or a privately\nrunning jukebox and many things in between. It is very versatile\nin that new formats can be added relatively easily and supports\nopen standards for commuincation and interaction.\n",
+   "maintainers": [
+    {
+     "email": "jack@mudshark.org",
+     "name": "Jack Cummings"
+    }
+   ],
+   "name": "icecast",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/icecast/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

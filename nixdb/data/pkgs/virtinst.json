@@ -1,0 +1,59 @@
+{
+ "0.600.1": {
+  "meta": {
+   "description": "The Virt Install tool (virt-install for short command name, virtinst for package name) is a command line tool which provides an easy way to provision operating systems into virtual machines.",
+   "homepage": "http://virt-manager.org",
+   "license": "GPLv2+",
+   "long_description": "",
+   "maintainers": [
+    "Joachim Schiele <js@lastlog.de>"
+   ],
+   "name": "virtinst",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "0.600.4": {
+  "meta": {
+   "description": "Command line tool which provides an easy way to provision operating systems into virtual machines",
+   "homepage": "http://virt-manager.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "js@lastlog.de",
+     "github": "qknight",
+     "name": "Joachim Schiele"
+    }
+   ],
+   "name": "virtinst",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/virtinst/default.nix:43"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

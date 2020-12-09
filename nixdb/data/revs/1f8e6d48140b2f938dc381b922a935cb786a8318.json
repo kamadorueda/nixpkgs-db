@@ -1,0 +1,4 @@
+{
+ "summary": "* The -smb flag in QEMU/KVM is unreliable: it doesn't work without the   -no-kvm-irqchip flag, and on the Hydra machines only works on the   rather old KVM 76.  So as a workaround, don't use -smb, but use   QEMU's \"guestfwd\" feature to forward 10.0.2.4:139 in the guest to a   Unix domain socket on the host connected to Samba. * Use \"cache=writeback\" to improve performance a lot. * Use \"werror=report\" to make QEMU crash instead of hang if the host   filesystem is full.",
+ "timestamp": "1276472956"
+}

@@ -1,0 +1,87 @@
+{
+ "0.3": {
+  "meta": {
+   "description": "Japanese handwriting model for the Zinnia engine",
+   "homepage": "http://tegaki.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gebner@gebner.org",
+     "github": "gebner",
+     "name": "Gabriel Ebner"
+    }
+   ],
+   "name": "tegaki-zinnia-japanese",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/inputmethods/tegaki-zinnia-japanese/default.nix:13"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

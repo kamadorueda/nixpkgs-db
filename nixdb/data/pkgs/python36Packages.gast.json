@@ -1,0 +1,51 @@
+{
+ "0.2.0": {
+  "meta": {
+   "description": "GAST provides a compatibility layer between the AST of various Python versions, as produced by ast.parse from the standard ast module.",
+   "homepage": "",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jeanphilippe.bernardy@gmail.com",
+     "github": "jyp",
+     "name": "Jean-Philippe Bernardy"
+    }
+   ],
+   "name": "python3.6-gast",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/gast/default.nix:12"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

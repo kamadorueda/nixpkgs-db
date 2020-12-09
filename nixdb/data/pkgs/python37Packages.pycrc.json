@@ -1,0 +1,51 @@
+{
+ "1.21": {
+  "meta": {
+   "description": "Python libraries for CRC calculations (it supports CRC-16, CRC-32, CRC-CCITT, etc)",
+   "homepage": "https://github.com/cristianav/PyCRC",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "guillaum.bouchard@gmail.com",
+     "github": "guibou",
+     "name": "Guillaume Bouchard"
+    }
+   ],
+   "name": "python3.7-PyCRC",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pycrc/default.nix:14"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

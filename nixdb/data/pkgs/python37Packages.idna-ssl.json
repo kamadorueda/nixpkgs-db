@@ -1,0 +1,51 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "Patch ssl.match_hostname for Unicode(idna) domains support",
+   "homepage": "https://github.com/aio-libs/idna-ssl",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rschuetz17@gmail.com",
+     "github": "dotlambda",
+     "name": "Robert Sch\u00fctz"
+    }
+   ],
+   "name": "python3.7-idna-ssl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/idna-ssl/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

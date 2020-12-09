@@ -1,0 +1,35 @@
+{
+ "2015-05-04": {
+  "meta": {
+   "description": "Very small C interpreter for scripting",
+   "homepage": "https://github.com/zsaleeba/picoc",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "PicoC is a very small C interpreter for scripting. It was originally\nwritten as a script language for a UAV's on-board flight system. It's\nalso very suitable for other robotic, embedded and non-embedded\napplications. The core C source code is around 3500 lines of code. It's\nnot intended to be a complete implementation of ISO C but it has all the\nessentials. When compiled it only takes a few k of code space and is also\nvery sparing of data space. This means it can work well in small embedded\ndevices.\n",
+   "maintainers": [],
+   "name": "picoc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/picoc/default.nix:35"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

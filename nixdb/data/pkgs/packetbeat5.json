@@ -1,0 +1,98 @@
+{
+ "5.6.16": {
+  "meta": {
+   "description": "Network packet analyzer that ships data to Elasticsearch",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "Packetbeat is an open source network packet analyzer that ships the\ndata to Elasticsearch.\n\nThink of it like a distributed real-time Wireshark with a lot more\nanalytics features. The Packetbeat shippers sniff the traffic between\nyour application processes, parse on the fly protocols like HTTP, MySQL,\nPostgreSQL, Redis or Thrift and correlate the messages into transactions.\n",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "packetbeat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/misc/logging/beats/5.x.nix:31"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "5.6.9": {
+  "meta": {
+   "description": "Network packet analyzer that ships data to Elasticsearch",
+   "homepage": "https://github.com/elastic/beats",
+   "license": null,
+   "long_description": "Packetbeat is an open source network packet analyzer that ships the\ndata to Elasticsearch.\n\nThink of it like a distributed real-time Wireshark with a lot more\nanalytics features. The Packetbeat shippers sniff the traffic between\nyour application processes, parse on the fly protocols like HTTP, MySQL,\nPostgreSQL, Redis or Thrift and correlate the messages into transactions.\n",
+   "maintainers": [
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "packetbeat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/misc/logging/beats/5.x.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ }
+}

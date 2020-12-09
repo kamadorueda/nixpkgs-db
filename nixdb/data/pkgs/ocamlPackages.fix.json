@@ -1,0 +1,51 @@
+{
+ "20130611": {
+  "meta": {
+   "description": "A simple OCaml module for computing the least solution of a system of monotone equations",
+   "homepage": "http://gallium.inria.fr/~fpottier/fix/",
+   "license": {
+    "fullName": "CeCILL-C Free Software License Agreement",
+    "shortName": "cecill-c",
+    "spdxId": "CECILL-C",
+    "url": "http://spdx.org/licenses/CECILL-C.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "ocaml-fix",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/fix/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

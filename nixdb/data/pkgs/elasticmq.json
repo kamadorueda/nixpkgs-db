@@ -1,0 +1,81 @@
+{
+ "0.5": {
+  "meta": {
+   "description": "Message queueing system with Java, Scala and Amazon SQS-compatible interfaces",
+   "homepage": "https://github.com/adamw/elasticmq",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "ElasticMQ is a message queueing system with Java, Scala and\nAmazon SQS-compatible interfaces.  You should set the\nenvironment ELASTICMQ_DATA_PREFIX to a writable directory\nwhere ElasticMQ will store its data and log files.  It also\nlooks for its configuration file in\n$ELASTICMQ_DATA_PREFIX/conf/Default.scala.  You can use the\nDefault.scala included in the distribution as a template.\n",
+   "maintainers": [],
+   "name": "elasticmq",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/elasticmq/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

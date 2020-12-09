@@ -1,0 +1,77 @@
+{
+ "0.6.0": {
+  "meta": {
+   "description": "Python bindings for PicoSAT",
+   "homepage": "https://github.com/ContinuumIO/pycosat",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "PicoSAT is a popular SAT solver written by Armin\n          Biere in pure C. This package provides efficient Python bindings\n          to picosat on the C level, i.e. when importing pycosat, the\n          picosat solver becomes part of the Python process itself. For\n          ease of deployment, the picosat source (namely picosat.c and\n          picosat.h) is included in this project.",
+   "maintainers": [
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "python3.6-pycosat",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/top-level/python-packages.nix:15173"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "0.6.3": {
+  "meta": {
+   "description": "Bindings to picosat SAT solver",
+   "homepage": "https://github.com/ContinuumIO/pycosat",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python3.6-pycosat",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pycosat/default.nix:17"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

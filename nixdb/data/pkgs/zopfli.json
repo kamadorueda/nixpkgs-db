@@ -1,0 +1,207 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "A compression tool to perform very good, but slow, deflate or zlib compression",
+   "homepage": "https://github.com/google/zopfli",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "Zopfli Compression Algorithm is a compression library programmed\n        in C to perform very good, but slow, deflate or zlib compression.\n\n        This library can only compress, not decompress. Existing zlib or\n        deflate libraries can decompress the data.\n",
+   "maintainers": [
+    "Bob van der Linden <bobvanderlinden@gmail.com>"
+   ],
+   "name": "zopfli",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/compression/zopfli/default.nix:21"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "1.0.1": {
+  "meta": {
+   "description": "Very good, but slow, deflate or zlib compression",
+   "homepage": "https://github.com/google/zopfli/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "Zopfli Compression Algorithm is a compression library programmed\nin C to perform very good, but slow, deflate or zlib compression.\n\nThis library can only compress, not decompress. Existing zlib or\ndeflate libraries can decompress the data.\n",
+   "maintainers": [
+    "Bob van der Linden <bobvanderlinden@gmail.com>",
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>"
+   ],
+   "name": "zopfli",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/compression/zopfli/default.nix:49"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.0.2": {
+  "meta": {
+   "description": "Very good, but slow, deflate or zlib compression",
+   "homepage": "https://github.com/google/zopfli",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Zopfli Compression Algorithm is a compression library programmed\nin C to perform very good, but slow, deflate or zlib compression.\n\nThis library can only compress, not decompress. Existing zlib or\ndeflate libraries can decompress the data.\n",
+   "maintainers": [
+    {
+     "email": "bobvanderlinden@gmail.com",
+     "github": "bobvanderlinden",
+     "name": "Bob van der Linden"
+    }
+   ],
+   "name": "zopfli",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/compression/zopfli/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.0.3": {
+  "meta": {
+   "description": "Very good, but slow, deflate or zlib compression",
+   "homepage": "https://github.com/google/zopfli",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Zopfli Compression Algorithm is a compression library programmed\nin C to perform very good, but slow, deflate or zlib compression.\n\nThis library can only compress, not decompress. Existing zlib or\ndeflate libraries can decompress the data.\n",
+   "maintainers": [
+    {
+     "email": "bobvanderlinden@gmail.com",
+     "github": "bobvanderlinden",
+     "githubId": 6375609,
+     "name": "Bob van der Linden"
+    },
+    {
+     "email": "edef@edef.eu",
+     "github": "edef1c",
+     "githubId": 50854,
+     "name": "edef"
+    }
+   ],
+   "name": "zopfli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/compression/zopfli/default.nix:29"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

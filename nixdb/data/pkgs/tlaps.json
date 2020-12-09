@@ -1,0 +1,87 @@
+{
+ "1.4.3": {
+  "meta": {
+   "description": "Mechanically check TLA+ proofs",
+   "homepage": "https://tla.msr-inria.inria.fr/tlaps/content/Home.html",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "TLA+ is a general-purpose formal specification language that is\nparticularly useful for describing concurrent and distributed\nsystems. The TLA+ proof language is declarative, hierarchical,\nand scalable to large system specifications. It provides a\nconsistent abstraction over the various \u201cbackend\u201d verifiers.\n",
+   "maintainers": [
+    {
+     "email": "abdulwahidc@gmail.com",
+     "github": "badi",
+     "name": "Badi' Abdul-Wahid"
+    }
+   ],
+   "name": "tlaps",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/tlaplus/tlaps.nix:40"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

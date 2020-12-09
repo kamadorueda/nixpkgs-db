@@ -1,0 +1,35 @@
+{
+ "0.6.9": {
+  "meta": {
+   "description": "Synchronise btrfs snapshots",
+   "homepage": "https://github.com/AmesCornish/buttersink/wiki",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "ButterSink is like rsync, but for btrfs subvolumes instead of files,\nwhich makes it much more efficient for things like archiving backup\nsnapshots. It is built on top of btrfs send and receive capabilities.\nSources and destinations can be local btrfs file systems, remote btrfs\nfile systems over SSH, or S3 buckets.\n",
+   "maintainers": [],
+   "name": "buttersink",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/buttersink/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

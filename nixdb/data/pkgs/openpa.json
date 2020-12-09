@@ -1,0 +1,41 @@
+{
+ "1.0.4": {
+  "meta": {
+   "description": "Atomic primitives for high performance, concurrent software",
+   "homepage": "https://trac.mpich.org/projects/openpa",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "OPA (or sometimes OpenPA or Open Portable Atomics) is an\nopen source library intended to provide a consistent C API for performing\natomic operations on a variety of platforms. The main goal of the project is to\nenable the portable usage of atomic operations in concurrent software.\nDevelopers of client software can worry about implementing and improving their\nconcurrent algorithms instead of fiddling with inline assembly syntax and\nlearning new assembly dialects in order improve or maintain application\nportability.\n",
+   "maintainers": [
+    {
+     "email": "ml.software@leenaa.rs",
+     "github": "leenaars",
+     "name": "Michiel Leenaars"
+    }
+   ],
+   "name": "openpa",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/openpa/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

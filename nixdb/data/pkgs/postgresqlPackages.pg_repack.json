@@ -1,0 +1,87 @@
+{
+ "1.4.4": {
+  "meta": {
+   "description": "Reorganize tables in PostgreSQL databases with minimal locks",
+   "homepage": "https://github.com/reorg/pg_repack",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "pg_repack is a PostgreSQL extension which lets you remove bloat from tables and indexes, and optionally restore\nthe physical order of clustered indexes. Unlike CLUSTER and VACUUM FULL it works online, without holding an\nexclusive lock on the processed tables during processing. pg_repack is efficient to boot,\nwith performance comparable to using CLUSTER directly.\n",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "name": "Danylo Hlynskyi"
+    }
+   ],
+   "name": "pg_repack",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/ext/pg_repack.nix:23"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

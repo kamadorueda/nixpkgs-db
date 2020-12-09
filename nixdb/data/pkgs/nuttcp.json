@@ -1,0 +1,81 @@
+{
+ "8.1.4": {
+  "meta": {
+   "description": "Network performance measurement tool",
+   "homepage": "http://nuttcp.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "nuttcp is a network performance measurement tool intended for use by\nnetwork and system managers. Its most basic usage is to determine the raw\nTCP (or UDP) network layer throughput by transferring memory buffers from\na source system across an interconnecting network to a destination\nsystem, either transferring data for a specified time interval, or\nalternatively transferring a specified number of bytes. In addition to\nreporting the achieved network throughput in Mbps, nuttcp also provides\nadditional useful information related to the data transfer such as user,\nsystem, and wall-clock time, transmitter and receiver CPU utilization,\nand loss percentage (for UDP transfers).\n",
+   "maintainers": [],
+   "name": "nuttcp",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/nuttcp/default.nix:33"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

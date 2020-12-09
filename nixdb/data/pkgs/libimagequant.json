@@ -1,0 +1,463 @@
+{
+ "2.12.1": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "ma9e",
+     "name": "Sean Haugh"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:23"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "4f43e5fe886374ec918da4bf494710cd58c4adf7"
+  ]
+ },
+ "2.12.2": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "ma9e",
+     "name": "Sean Haugh"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2.12.3": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "ma9e",
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:20"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "6448c7775c64f69496e2465207ff4666b99c762a"
+  ]
+ },
+ "2.12.5": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "furrycatherder",
+     "githubId": 36235154,
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:20"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "2.12.6": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "furrycatherder",
+     "githubId": 36235154,
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:20"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "2.13.0": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "furrycatherder",
+     "githubId": 36235154,
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:20"
+  },
+  "revs": [
+   "0087a318864f5a1a057db9fa93e970a6a414fa05",
+   "919d3ea2a0c19d2bed0afb5d71636b7c0237637b"
+  ]
+ },
+ "2.13.1": {
+  "meta": {
+   "description": "Image quantization library",
+   "homepage": "https://pngquant.org/lib/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.",
+   "maintainers": [
+    {
+     "email": "sean@lfo.team",
+     "github": "furrycatherder",
+     "githubId": 36235154,
+     "name": "Sean Haugh"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "libimagequant",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/libimagequant/default.nix:20"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

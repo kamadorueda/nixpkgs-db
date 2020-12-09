@@ -1,0 +1,118 @@
+{
+ "105": {
+  "meta": {
+   "description": "Small LD_PRELOAD library to disable fsync and friends",
+   "homepage": "https://www.flamingspork.com/projects/libeatmydata/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "libeatmydata",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libeatmydata/default.nix:21"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "65": {
+  "meta": {
+   "description": "Small LD_PRELOAD library to disable fsync and friends",
+   "homepage": "http://www.flamingspork.com/projects/libeatmydata/",
+   "license": "GPLv3+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "libeatmydata",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "82": {
+  "meta": {
+   "description": "Small LD_PRELOAD library to disable fsync and friends",
+   "homepage": "http://www.flamingspork.com/projects/libeatmydata/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "libeatmydata",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libeatmydata/default.nix:14"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ }
+}

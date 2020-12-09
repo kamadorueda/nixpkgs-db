@@ -1,0 +1,41 @@
+{
+ "4": {
+  "meta": {
+   "description": "A utility that allows you to use an animated X window as the wallpaper",
+   "homepage": "https://shantanugoel.com/2008/09/03/shantz-xwinwrap/",
+   "license": {
+    "fullName": "Historic Permission Notice and Disclaimer",
+    "shortName": "hpnd",
+    "spdxId": "HPND",
+    "url": "http://spdx.org/licenses/HPND.html"
+   },
+   "long_description": "XWinWrap is a small utility written a loooong time ago that allowed you to\nstick most of the apps to your desktop background. What this meant was you\ncould use an animated screensaver (like glmatrix, electric sheep, etc) or\neven a movie, and use it as your wallpaper. But only one version of this\napp was ever released, and it had a few problems, like:\n\n- Well, sticking didn\u2019t work. So if you did a \u201cminimize all\u201d or \u201cgo to\ndesktop\u201d kind of thing, your \u201cwallpaper\u201d got minimized as well.\n\n- The geometry option didn\u2019t work, so you could not create, e.g., a small\nmatrix window surrounded by your original wallpaper.\n\nSeeing no-one picking it up, I decided to give it a bit of polish last\nweekend by fixing the above problems and also add a few features. And here\nit is, in its new avatar \u201cShantz XWinWrap\u201d.\n",
+   "maintainers": [
+    {
+     "email": "infinisil@icloud.com",
+     "github": "infinisil",
+     "name": "Silvan Mosberger"
+    }
+   ],
+   "name": "xwinwrap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/X11/xwinwrap/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

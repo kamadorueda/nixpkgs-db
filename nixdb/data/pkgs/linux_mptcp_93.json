@@ -1,0 +1,46 @@
+{
+ "4.9.60-mptcp_v0.93": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mcoudron@hotmail.com",
+     "github": "teto",
+     "name": "Matthieu Coudron"
+    },
+    {
+     "email": "layus.on@gmail.com",
+     "github": "layus",
+     "name": "Guillaume Maudoux"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:237"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

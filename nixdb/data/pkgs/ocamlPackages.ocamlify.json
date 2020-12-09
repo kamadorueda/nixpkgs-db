@@ -1,0 +1,51 @@
+{
+ "0.0.2": {
+  "meta": {
+   "description": "Generate OCaml modules from source files",
+   "homepage": "http://forge.ocamlcore.org/projects/ocamlmod/ocamlmod",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maggesi@math.unifi.it",
+     "github": "maggesi",
+     "name": "Marco Maggesi"
+    }
+   ],
+   "name": "ocamlify",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/ocaml/ocamlify/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

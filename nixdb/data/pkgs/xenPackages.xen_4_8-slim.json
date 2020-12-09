@@ -1,0 +1,79 @@
+{
+ "4.8.1": {
+  "meta": {
+   "description": "Xen hypervisor and related components (slim)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen that reuses nixpkgs packages as\nmuch as possible. Different parts may get out of sync, but\nthis builds faster and uses less space than vanilla. Use with\n`qemu_xen` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* qemu-xen-traditional: Xen's fork of upstream Qemu that uses old device model.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Thomas Strobel <4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains>",
+    "Jan Malakhovski <oxij@oxij.org>"
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "4.8.2": {
+  "meta": {
+   "description": "Xen hypervisor and related components (slim)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen that reuses nixpkgs packages as\nmuch as possible. Different parts may get out of sync, but\nthis builds faster and uses less space than vanilla. Use with\n`qemu_xen` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* qemu-xen-traditional: Xen's fork of upstream Qemu that uses old device model.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Thomas Strobel <4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains>",
+    "Jan Malakhovski <oxij@oxij.org>"
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "3ba3d8d8cbec36605095d3a30ff6b82902af289c"
+  ]
+ },
+ "4.8.3": {
+  "meta": {
+   "description": "Xen hypervisor and related components (slim)",
+   "homepage": "http://www.xen.org/",
+   "license": null,
+   "long_description": "Slimmed-down version of Xen that reuses nixpkgs packages as\nmuch as possible. Different parts may get out of sync, but\nthis builds faster and uses less space than vanilla. Use with\n`qemu_xen` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* qemu-xen-traditional: Xen's fork of upstream Qemu that uses old device model.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+     "name": "Thomas Strobel"
+    },
+    {
+     "email": "oxij@oxij.org",
+     "github": "oxij",
+     "name": "Jan Malakhovski"
+    }
+   ],
+   "name": "xen",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/virtualization/xen/generic.nix:226"
+  },
+  "revs": [
+   "00a44c0c8cd396da43a9b973d5b1119c0fb1f945",
+   "833ef67312b011663758eb46a3b0b19bef5b87b9"
+  ]
+ }
+}

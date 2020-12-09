@@ -1,0 +1,50 @@
+{
+ "1.3": {
+  "meta": {
+   "description": "A static analyzer for the CompCert subset of ISO C 1999",
+   "homepage": "http://compcert.inria.fr/verasco/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "verasco",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/analysis/verasco/default.nix:46"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

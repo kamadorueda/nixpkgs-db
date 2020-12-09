@@ -1,0 +1,100 @@
+{
+ "1.35.0": {
+  "meta": {
+   "description": "Downloads your Rust project's dependencies and builds your project",
+   "homepage": "https://crates.io",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "retrry@gmail.com",
+     "github": "retrry",
+     "name": "Tadas Barzd\u017eius"
+    }
+   ],
+   "name": "cargo",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/rust-1_35/cargo.nix:60"
+  },
+  "revs": [
+   "01b30bb99f3bd68b190d59ad637393233ddd4b96",
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
+  ]
+ }
+}

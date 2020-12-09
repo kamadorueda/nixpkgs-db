@@ -1,0 +1,130 @@
+{
+ "8.6.8-full": {
+  "meta": {
+   "description": "Text-based document generation system",
+   "homepage": "http://www.methods.co.nz/asciidoc/",
+   "license": "GPLv2+",
+   "long_description": "AsciiDoc is a text document format for writing notes, documentation,\narticles, books, ebooks, slideshows, web pages, man pages and blogs.\nAsciiDoc files can be translated to many formats including HTML, PDF,\nEPUB, man page.\n\nAsciiDoc is highly configurable: both the AsciiDoc source file syntax and\nthe backend output markups (which can be almost any type of SGML/XML\nmarkup) can be customized and extended by the user.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "asciidoc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
+  ]
+ },
+ "8.6.9": {
+  "meta": {
+   "description": "Text-based document generation system",
+   "homepage": "http://www.methods.co.nz/asciidoc/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "AsciiDoc is a text document format for writing notes, documentation,\narticles, books, ebooks, slideshows, web pages, man pages and blogs.\nAsciiDoc files can be translated to many formats including HTML, PDF,\nEPUB, man page.\n\nAsciiDoc is highly configurable: both the AsciiDoc source file syntax and\nthe backend output markups (which can be almost any type of SGML/XML\nmarkup) can be customized and extended by the user.\n",
+   "maintainers": [
+    {
+     "email": "bjorn.forsman@gmail.com",
+     "github": "bjornfor",
+     "name": "Bj\u00f8rn Forsman"
+    }
+   ],
+   "name": "asciidoc-full",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/typesetting/asciidoc/default.nix:264"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "8.6.9-full": {
+  "meta": {
+   "description": "Text-based document generation system",
+   "homepage": "http://www.methods.co.nz/asciidoc/",
+   "license": "GPLv2+",
+   "long_description": "AsciiDoc is a text document format for writing notes, documentation,\narticles, books, ebooks, slideshows, web pages, man pages and blogs.\nAsciiDoc files can be translated to many formats including HTML, PDF,\nEPUB, man page.\n\nAsciiDoc is highly configurable: both the AsciiDoc source file syntax and\nthe backend output markups (which can be almost any type of SGML/XML\nmarkup) can be customized and extended by the user.\n",
+   "maintainers": [
+    "Bj\u00f8rn Forsman <bjorn.forsman@gmail.com>"
+   ],
+   "name": "asciidoc",
+   "platforms": null,
+   "position": "pkgs/tools/typesetting/asciidoc/default.nix:247"
+  },
+  "revs": [
+   "000b1ad43accf62263ef519bc0b0d4056c3e80b5",
+   "299af2ff45f0202067f8925913b203e4c0432f07"
+  ]
+ }
+}

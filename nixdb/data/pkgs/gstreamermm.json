@@ -1,0 +1,87 @@
+{
+ "0.10.11": {
+  "meta": {
+   "description": "C++ bindings for the GStreamer streaming multimedia library",
+   "homepage": "https://www.gtkmm.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "plcplc@gmail.com",
+     "github": "plcplc",
+     "name": "Philip Lykke Carlsen"
+    }
+   ],
+   "name": "gstreamermm",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gstreamer/legacy/gstreamermm/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "20160105": {
+  "meta": {
+   "description": "A test library for testing Ansible roles",
+   "homepage": "https://github.com/nickjj/rolespec",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "A shell based test library for Ansible that works both locally and over\nTravis-CI.\n",
+   "maintainers": [
+    "Desmond O. Chang <dochang@gmail.com>"
+   ],
+   "name": "rolespec",
+   "platforms": null,
+   "position": "pkgs/development/tools/misc/rolespec/default.nix:37"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "20161104": {
+  "meta": {
+   "description": "A test library for testing Ansible roles",
+   "homepage": "https://github.com/nickjj/rolespec",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "A shell based test library for Ansible that works both locally and over\nTravis-CI.\n",
+   "maintainers": [
+    {
+     "email": "dochang@gmail.com",
+     "github": "dochang",
+     "name": "Desmond O. Chang"
+    }
+   ],
+   "name": "rolespec",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/rolespec/default.nix:37"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Put Glibc at the very end of the GCC header search path.  This   should fix previous problems with GCC 4.3 in compiling C++ code   where e.g. <cassert> has to appear before <assert.h> in the search   path due to the former's use of #include_next.  The previous \"fix\"   broke compilation of C code by placing the C++ include directory   before the Glibc include directory (which would barf on   e.g. <complex.h>, which appears in both).",
+ "timestamp": "1232382147"
+}

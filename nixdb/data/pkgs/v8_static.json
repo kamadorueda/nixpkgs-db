@@ -1,0 +1,56 @@
+{
+ "5.4.232": {
+  "meta": {
+   "description": "Google's open source JavaScript engine",
+   "homepage": "",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "proglodyte23@gmail.com",
+     "github": "proglodyte",
+     "name": "Proglodyte"
+    }
+   ],
+   "name": "v8",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/v8/default.nix:200"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "0.10": {
+  "meta": {
+   "description": "Fast multi-dimensional array library for C++",
+   "homepage": "https://sourceforge.net/projects/blitz/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "Blitz++ is a C++ class library for scientific computing which provides\nperformance on par with Fortran 77/90. It uses template techniques to\nachieve high performance. Blitz++ provides dense arrays and vectors,\nrandom number generators, and small vectors (useful for representing\nmulticomponent or vector fields).\n",
+   "maintainers": [
+    {
+     "email": "andreash87@gmx.ch",
+     "github": "aherrmann",
+     "name": "Andreas Herrmann"
+    }
+   ],
+   "name": "blitz++",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/blitz/default.nix:66"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

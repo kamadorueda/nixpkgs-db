@@ -1,0 +1,51 @@
+{
+ "0.94+2": {
+  "meta": {
+   "description": "CD paranoia on top of libcdio",
+   "homepage": "https://github.com/rocky/libcdio-paranoia",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "This is a port of xiph.org's cdda paranoia to use libcdio for CDROM\naccess. By doing this, cdparanoia runs on platforms other than GNU/Linux.\n",
+   "maintainers": [
+    {
+     "email": "ppbogdan@gmail.com",
+     "github": "pbogdan",
+     "name": "Piotr Bogdan"
+    }
+   ],
+   "name": "libcdio-paranoia",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libcdio-paranoia/default.nix:25"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

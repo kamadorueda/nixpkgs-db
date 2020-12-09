@@ -1,0 +1,58 @@
+{
+ "1.2": {
+  "meta": {
+   "description": "SystemTap, tools to gather information about a running GNU/Linux system",
+   "homepage": "http://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "SystemTap provides free software (GPL) infrastructure to simplify\n        the gathering of information about the running GNU/Linux system.\n        This assists diagnosis of a performance or functional problem.\n        SystemTap eliminates the need for the developer to go through the\n        tedious and disruptive instrument, recompile, install, and reboot\n        sequence that may be otherwise required to collect data.\n\n        SystemTap provides a simple command line interface and scripting\n        language for writing instrumentation for a live running kernel.  We\n        are publishing samples, as well as enlarging the internal \"tapset\"\n        script library to aid reuse and abstraction.\n\n        Among other tracing/probing tools, SystemTap is the tool of choice\n        for complex tasks that may require live analysis, programmable\n        on-line response, and whole-system symbolic access.  SystemTap can\n        also handle simple tracing jobs.\n",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:45"
+  },
+  "revs": [
+   "082b0ee2a14b111c26108ecafab86d1e73992c85",
+   "a4df29aee3a7d4a3955f42e64b9a4a0bb5c6585f"
+  ]
+ },
+ "4.4.20-51b7ca": {
+  "meta": {
+   "description": "SystemTap provides a simple command line interface and scripting language for writing instrumentation for a live running kernel plus user-space applications.",
+   "homepage": "https://sourceware.org/systemtap/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "systemtap",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/profiling/systemtap/default.nix:43"
+  },
+  "revs": [
+   "b019424e5da3eb499d0f910e6bf677a53ba37846",
+   "b019424e5da3eb499d0f910e6bf677a53ba37846"
+  ]
+ }
+}

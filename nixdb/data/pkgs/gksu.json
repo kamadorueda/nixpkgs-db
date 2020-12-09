@@ -1,0 +1,41 @@
+{
+ "2.0.2": {
+  "meta": {
+   "description": "A graphical frontend for libgksu",
+   "homepage": "https://www.nongnu.org/gksu/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "GKSu is a library that provides a Gtk+ frontend to su and sudo.\nIt supports login shells and preserving environment when acting as\na su frontend. It is useful to menu items or other graphical\nprograms that need to ask a user's password to run another program\nas another user.\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "gksu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/gksu/default.nix:41"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

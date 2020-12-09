@@ -1,0 +1,49 @@
+{
+ "150": {
+  "meta": {
+   "description": "Image processing and analysis in Java",
+   "homepage": "https://imagej.nih.gov/ij/",
+   "license": {
+    "fullName": "Public Domain",
+    "shortName": "publicDomain"
+   },
+   "long_description": "ImageJ is a public domain Java image processing program\ninspired by NIH Image for the Macintosh.\nIt runs on any computer with a Java 1.4 or later virtual machine.\n",
+   "maintainers": [
+    {
+     "email": "yuri.aisaka+nix@gmail.com",
+     "github": "yuriaisaka",
+     "name": "Yuri Aisaka"
+    }
+   ],
+   "name": "imagej",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/graphics/imagej/default.nix:36"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

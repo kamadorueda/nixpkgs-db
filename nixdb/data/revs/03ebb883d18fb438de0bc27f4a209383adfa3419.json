@@ -1,0 +1,4 @@
+{
+ "summary": "* Modularize filesystem support.  Filesystems such as btrfs and   reiserfs now have separate modules that are conditional on   boot.supportedFilesystems and boot.initrd.supportedFilesystems.   By default, these include the filesystems specified in the fsType   attribute in fileSystems.  Ext2/3/4 support is currently   unconditional.",
+ "timestamp": "1331303878"
+}

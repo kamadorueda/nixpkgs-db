@@ -1,0 +1,35 @@
+{
+ "7.1": {
+  "meta": {
+   "description": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
+   "homepage": "http://www.hpl.hp.com/personal/Hans_Boehm/gc/",
+   "license": "http://www.hpl.hp.com/personal/Hans_Boehm/gc/license.txt",
+   "long_description": "The Boehm-Demers-Weiser conservative garbage collector can be used as a\ngarbage collecting replacement for C malloc or C++ new.  It allows you\nto allocate memory basically as you normally would, without explicitly\ndeallocating memory that is no longer useful.  The collector\nautomatically recycles memory when it determines that it can no longer\nbe otherwise accessed.\n\nThe collector is also used by a number of programming language\nimplementations that either use C as intermediate code, want to\nfacilitate easier interoperation with C libraries, or just prefer the\nsimple collector interface.\n\nAlternatively, the garbage collector may be used as a leak detector for\nC or C++ programs, though that is not its primary goal.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "boehm-gc",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "031edc450906f0d8ba6d1ca817bc210133edb265",
+   "1620eb2311bc56d93a1174b921da064ed37b4ac2"
+  ]
+ }
+}

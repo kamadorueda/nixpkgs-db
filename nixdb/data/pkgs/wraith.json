@@ -1,0 +1,71 @@
+{
+ "1.4.6": {
+  "meta": {
+   "description": "An IRC channel management bot written purely in C/C++",
+   "homepage": "http://wraith.botpack.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Wraith is an IRC channel management bot written purely in C/C++. It has\nbeen in development since late 2003. It is based on Eggdrop 1.6.12 but has\nsince evolved into something much different at its core. TCL and loadable\nmodules are currently not supported.\n\nMaintainer's Notes:\nCopy the binary out of the store before running it with the -C option to\nconfigure it. See https://github.com/wraith/wraith/wiki/GettingStarted .\n\nThe binary will not run when moved onto non-NixOS systems; use patchelf\nto fix its runtime dependenices.\n",
+   "maintainers": [
+    "Eric Litak <elitak@gmail.com>"
+   ],
+   "name": "wraith",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/networking/irc/wraith/default.nix:27"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "69348badb8658df11b48c54b2f3e028a883b311c"
+  ]
+ },
+ "1.4.7": {
+  "meta": {
+   "description": "An IRC channel management bot written purely in C/C++",
+   "homepage": "http://wraith.botpack.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Wraith is an IRC channel management bot written purely in C/C++. It has\nbeen in development since late 2003. It is based on Eggdrop 1.6.12 but has\nsince evolved into something much different at its core. TCL and loadable\nmodules are currently not supported.\n\nMaintainer's Notes:\nCopy the binary out of the store before running it with the -C option to\nconfigure it. See https://github.com/wraith/wraith/wiki/GettingStarted .\n\nThe binary will not run when moved onto non-NixOS systems; use patchelf\nto fix its runtime dependenices.\n",
+   "maintainers": [
+    {
+     "email": "elitak@gmail.com",
+     "github": "elitak",
+     "name": "Eric Litak"
+    }
+   ],
+   "name": "wraith",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/irc/wraith/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

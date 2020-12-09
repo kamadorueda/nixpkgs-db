@@ -1,0 +1,53 @@
+{
+ "0.22": {
+  "meta": {
+   "description": "File::Type uses magic numbers (typically at the start of a file) to determine the MIME type of that file.",
+   "homepage": "",
+   "license": [
+    {
+     "fullName": "Artistic License 1.0",
+     "shortName": "artistic1",
+     "spdxId": "Artistic-1.0",
+     "url": "http://spdx.org/licenses/Artistic-1.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v1.0 or later",
+     "shortName": "gpl1Plus",
+     "spdxId": "GPL-1.0+",
+     "url": "http://spdx.org/licenses/GPL-1.0+.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "perl-File-Type",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/perl-packages.nix:6293"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

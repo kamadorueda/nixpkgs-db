@@ -1,0 +1,121 @@
+{
+ "4.2.2.GA": {
+  "meta": {
+   "description": "JBoss, Open Source J2EE application server",
+   "homepage": "http://www.jboss.org/",
+   "license": "GPL/LGPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "jboss",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "605b62da110bd550dcc8ae2e5490714e0acef10a"
+  ]
+ },
+ "5.1.0.GA": {
+  "meta": {
+   "description": "JBoss, Open Source J2EE application server",
+   "homepage": "http://www.jboss.org/",
+   "license": "GPL/LGPL",
+   "long_description": "",
+   "maintainers": [
+    "Sander van der Burg <s.vanderburg@tudelft.nl>"
+   ],
+   "name": "jboss",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "61129e1ee9a37d75f2f26c8eb5de1c984766a461"
+  ]
+ },
+ "7.1.1.Final": {
+  "meta": {
+   "description": "Open Source J2EE application server",
+   "homepage": "http://www.jboss.org/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "jboss-as",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/servers/http/jboss/default.nix:21"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "0.4": {
+  "meta": {
+   "description": "A tool to query, enable and disable wireless devices",
+   "homepage": "http://wireless.kernel.org/en/users/Documentation/rfkill",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <e.dolstra@tudelft.nl>"
+   ],
+   "name": "rfkill",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "0.5": {
+  "meta": {
+   "description": "A tool to query, enable and disable wireless devices",
+   "homepage": "http://wireless.kernel.org/en/users/Documentation/rfkill",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "rfkill",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/rfkill/default.nix:15"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ }
+}

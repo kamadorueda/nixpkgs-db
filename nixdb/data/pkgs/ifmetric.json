@@ -1,0 +1,42 @@
+{
+ "0.3": {
+  "meta": {
+   "description": "Tool for setting IP interface metrics",
+   "homepage": "http://0pointer.de/lennart/projects/ifmetric",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "ifmetric is a Linux tool for setting the metrics of all IPv4 routes\nattached to a given network interface at once. This may be used to change\nthe priority of routing IPv4 traffic over the interface. Lower metrics\ncorrelate with higher priorities.\n",
+   "maintainers": [
+    {
+     "email": "anna328p@gmail.com",
+     "github": "anna328p",
+     "githubId": 9790772,
+     "name": "Anna"
+    }
+   ],
+   "name": "ifmetric",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/ifmetric/default.nix:24"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

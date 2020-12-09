@@ -1,0 +1,111 @@
+{
+ "2.0.2": {
+  "meta": {
+   "description": "A nice bitmap font, readable even at small sizes",
+   "homepage": "https://github.com/lucy/tewi-font",
+   "license": {
+    "fullName": "GNU General Public License with a font exception",
+    "url": "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+   },
+   "long_description": "Tewi is a bitmap font, readable even at very small font sizes. This is\nparticularily useful while programming, to fit a lot of code on your\nscreen.\n",
+   "maintainers": [
+    {
+     "email": "fro_ozen@gmx.de",
+     "github": "froozen",
+     "githubId": 1943632,
+     "name": "fro_ozen"
+    }
+   ],
+   "name": "tewi-font",
+   "platforms": null,
+   "position": "pkgs/data/fonts/tewi/default.nix:52"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "2015-06-07": {
+  "meta": {
+   "description": "A nice bitmap font, readable even at small sizes",
+   "homepage": "https://github.com/lucy/tewi-font",
+   "license": {
+    "fullName": "GNU General Public License with a font exception",
+    "url": "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+   },
+   "long_description": "Tewi is a bitmap font, readable even at very small font sizes. This is\nparticularily useful while programming, to fit a lot of code on your\nscreen.\n",
+   "maintainers": [
+    {
+     "email": "fro_ozen@gmx.de",
+     "github": "froozen",
+     "name": "fro_ozen"
+    }
+   ],
+   "name": "tewi-font",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/fonts/tewi/default.nix:37"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ }
+}

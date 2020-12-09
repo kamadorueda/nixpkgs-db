@@ -1,0 +1,4 @@
+{
+ "summary": "* Doh!  Since r15200, modules-closure.sh generated an empty set of   modules for the initial ramdisk if there were no additional kernel   module packages (such as the NVIDIA driver or AUFS), leading to a   kernel panic in the initrd.  This was because in that case modprobe   would print paths referring to the kernel path rather than the   module aggregation path, and then `sed \"s^$kernel^$out^\"' would   silently fail.  Fixed.",
+ "timestamp": "1241015524"
+}

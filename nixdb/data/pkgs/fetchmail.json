@@ -1,0 +1,615 @@
+{
+ "6.3.20": {
+  "meta": {
+   "description": "a full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "http://www.fetchmail.info/",
+   "license": null,
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux",
+    "i686-darwin",
+    "powerpc-darwin",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "powerpc-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "6.3.26": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "http://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "6.3.8": {
+  "meta": {
+   "description": "",
+   "homepage": "http://www.fetchmail.info",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "fetchmail",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "5d62c65d6e085481a36c857e8b86f88d80b1c565"
+  ]
+ },
+ "6.4.12": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "a7e81dcde9def253c871a5885bc5f3c8ba5ac244"
+  ]
+ },
+ "6.4.13": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "036cec187c1f079566c456d390c97c1deb412b42",
+   "231ca64ed9d1b7cdde6dbcfe05c0c696b4bc873c"
+  ]
+ },
+ "6.4.14": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "00f7db841a144fe187779d542356df0cc691d391",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "6.4.2": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "6.4.3": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "6.4.4": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "03f116eaa037ce30670da482f12006d24c49206e"
+  ]
+ },
+ "6.4.5": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "224e56bc6e27b60fdcab1e652f0751189a0cd68b"
+  ]
+ },
+ "6.4.6": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "6a380c4ea227df1213bcf33c3384b45810ed3056"
+  ]
+ },
+ "6.4.8": {
+  "meta": {
+   "description": "A full-featured remote-mail retrieval and forwarding utility",
+   "homepage": "https://www.fetchmail.info/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "A full-featured, robust, well-documented remote-mail retrieval and\nforwarding utility intended to be used over on-demand TCP/IP links\n(such as SLIP or PPP connections). It supports every remote-mail\nprotocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP,\nall flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and\nIPSEC.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "fetchmail",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/misc/fetchmail/default.nix:21"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ }
+}

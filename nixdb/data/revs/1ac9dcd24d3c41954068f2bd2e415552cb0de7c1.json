@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix eval-release.nix by testing whether all attributes of a   derivation evaluate inside the tryEval.  This catches cases such as   aufs2-util, which fails due to an assertion in its dependency aufs2. * Explicitly blacklist \"xbursttools\" because it gives some   evaluation error in cross-OpenSSL.  No idea why, probably due to   some pass-through attribute.",
+ "timestamp": "1282221430"
+}

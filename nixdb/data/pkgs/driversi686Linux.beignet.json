@@ -1,0 +1,123 @@
+{
+ "1.3.1": {
+  "meta": {
+   "description": "OpenCL Library for Intel Ivy Bridge and newer GPUs",
+   "homepage": "https://cgit.freedesktop.org/beignet/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+"
+   },
+   "long_description": "The package provides an open source implementation of the OpenCL specification for Intel GPUs. \nIt supports the Intel OpenCL runtime library and compiler. \n",
+   "maintainers": [
+    "Artur E. Ruuge <artuuge@gmail.com>"
+   ],
+   "name": "beignet",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/beignet/default.nix:102"
+  },
+  "revs": [
+   "000b68c22606fc244456e09c92c83663614a96d9",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.3.2": {
+  "meta": {
+   "description": "OpenCL Library for Intel Ivy Bridge and newer GPUs",
+   "homepage": "https://cgit.freedesktop.org/beignet/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "The package provides an open source implementation of the OpenCL specification for Intel GPUs. \nIt supports the Intel OpenCL runtime library and compiler. \n",
+   "maintainers": [
+    {
+     "email": "artuuge@gmail.com",
+     "github": "artuuge",
+     "name": "Artur E. Ruuge"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    }
+   ],
+   "name": "beignet",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/beignet/default.nix:102"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2018.08.20": {
+  "meta": {
+   "description": "OpenCL Library for Intel Ivy Bridge and newer GPUs",
+   "homepage": "https://cgit.freedesktop.org/beignet/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "The package provides an open source implementation of the OpenCL specification for Intel GPUs.\nIt supports the Intel OpenCL runtime library and compiler.\n",
+   "maintainers": [
+    {
+     "email": "artuuge@gmail.com",
+     "github": "artuuge",
+     "githubId": 10285250,
+     "name": "Artur E. Ruuge"
+    },
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "githubId": 3248,
+     "name": "zimbatm"
+    }
+   ],
+   "name": "beignet-unstable",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/beignet/default.nix:105"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

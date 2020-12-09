@@ -1,0 +1,41 @@
+{
+ "1.0.2.0": {
+  "meta": {
+   "description": "Convert .wav files into sound files for Lego NXT brick",
+   "homepage": "http://bricxcc.sourceforge.net/",
+   "license": {
+    "fullName": "Mozilla Public License 1.1",
+    "shortName": "mpl11",
+    "spdxId": "MPL-1.1",
+    "url": "http://spdx.org/licenses/MPL-1.1.html"
+   },
+   "long_description": "wavrsocvt is a command-line utility which can be used from a\nterminal window or script to convert .wav files into sound\nfiles for the NXT brick (.rso files). It can also convert the\nother direction (i.e., .rso -> .wav). It can produce RSO files\nwith a sample rate between 2000 and 16000 (the min/max range of\nsupported sample rates in the standard NXT firmware).\nYou can then upload these with e.g. nxt-python.\n",
+   "maintainers": [
+    {
+     "email": "ml.software@leenaa.rs",
+     "github": "leenaars",
+     "name": "Michiel Leenaars"
+    }
+   ],
+   "name": "wavrsocvt",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/audio/wavrsocvt/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

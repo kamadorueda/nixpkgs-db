@@ -1,0 +1,65 @@
+{
+ "1.0.0.rc15": {
+  "meta": {
+   "description": "Old-style RAID configuration utility.",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Michael Raskin <7c6f434c@mail.ru>"
+   ],
+   "name": "dmraid",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "1.0.0.rc16": {
+  "meta": {
+   "description": "Old-style RAID configuration utility",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Old RAID configuration utility (still under development, though).\nIt is fully compatible with modern kernels and mdadm recognizes\nits volumes. May be needed for rescuing an older system or nuking\nthe metadata when reformatting.\n",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "dmraid",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/dmraid/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

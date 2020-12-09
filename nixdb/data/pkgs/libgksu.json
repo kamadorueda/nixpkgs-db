@@ -1,0 +1,41 @@
+{
+ "2.0.12": {
+  "meta": {
+   "description": "A library for integration of su into applications",
+   "homepage": "https://www.nongnu.org/gksu/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "This library comes from the gksu program. It provides a simple API\nto use su and sudo in programs that need to execute tasks as other\nuser.  It provides X authentication facilities for running\nprograms in an X session.\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "libgksu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libgksu/default.nix:75"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,731 @@
+{
+ "0.10.0": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Jonathan Glines <auntieNeo@gmail.com>",
+    "Eric Sagnes <eric.sagnes@gmail.com>"
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "0.10.1": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntie",
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "0.11.3": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntie",
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "0.13.0": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntie",
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.6.9": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Jonathan Glines <auntieNeo@gmail.com>"
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "0.8.1": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Jonathan Glines <auntieNeo@gmail.com>"
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:33"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "0.9.0": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Jonathan Glines <auntieNeo@gmail.com>",
+    "Eric Sagnes <eric.sagnes@gmail.com>"
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:33"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "3ba3d8d8cbec36605095d3a30ff6b82902af289c"
+  ]
+ },
+ "1.1.0": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntie",
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.1.4": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntie",
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:41"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "2.0.0": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "githubId": 367880,
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:47"
+  },
+  "revs": [
+   "004443143fb020a01f1c734bff59bb8815ac183c",
+   "296987361b1b6f7a77712749ec42f32fea3782e0"
+  ]
+ },
+ "2.0.1": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "githubId": 367880,
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:47"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "919d3ea2a0c19d2bed0afb5d71636b7c0237637b"
+  ]
+ },
+ "2.0.2": {
+  "meta": {
+   "description": "Manage complex tmux sessions easily",
+   "homepage": "https://github.com/tmuxinator/tmuxinator",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "eric.sagnes@gmail.com",
+     "github": "ericsagnes",
+     "githubId": 367880,
+     "name": "Eric Sagnes"
+    }
+   ],
+   "name": "tmuxinator",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/tools/misc/tmuxinator/default.nix:47"
+  },
+  "revs": [
+   "121cff0565dc22122e33d5b4c0f89603beb209c8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

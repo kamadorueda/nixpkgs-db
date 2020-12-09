@@ -1,0 +1,160 @@
+{
+ "52.8.0esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:162"
+  },
+  "revs": [
+   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "52.8.1esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:164"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "62d21f251194ba93541239adc22afd0fb4f38f71"
+  ]
+ },
+ "52.9.0esr": {
+  "meta": {
+   "description": "A web browser built from Firefox Extended Support Release source tree (with plugins: )",
+   "homepage": "http://www.mozilla.com/en-US/firefox/",
+   "license": {
+    "fullName": "Mozilla Public License 2.0",
+    "shortName": "mpl20",
+    "spdxId": "MPL-2.0",
+    "url": "http://spdx.org/licenses/MPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "andreas@rammhold.de",
+     "github": "andir",
+     "name": "Andreas Rammhold"
+    }
+   ],
+   "name": "firefox",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/wrapper.nix:176"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

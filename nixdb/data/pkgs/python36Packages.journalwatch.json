@@ -1,0 +1,51 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "journalwatch is a tool to find error messages in the systemd journal.",
+   "homepage": "https://github.com/The-Compiler/journalwatch",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "projects+nixos@florianjacob.de",
+     "github": "florianjacob",
+     "name": "Florian Jacob"
+    }
+   ],
+   "name": "python3.6-journalwatch",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/system/journalwatch/default.nix:38"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

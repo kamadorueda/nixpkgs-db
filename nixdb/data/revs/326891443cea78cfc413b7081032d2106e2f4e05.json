@@ -1,0 +1,4 @@
+{
+ "summary": "* dhcpcd: Don't use the \"persistent\" option.  With it, dhcpcd won't   delete routes and addresses when it quits.  This causes those routes   and addresses to stick around forever, since dhcpcd won't delete   them when it runs next (even if it acquires a new lease on the same   interface).  This is bad; in particular the stale (default) routes   can break networking.",
+ "timestamp": "1332536432"
+}

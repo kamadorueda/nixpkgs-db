@@ -1,0 +1,312 @@
+{
+ "2.40.0": {
+  "meta": {
+   "description": "C++ interface to the Pango text rendering library",
+   "homepage": "http://www.pango.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2",
+     "spdxId": "LGPL-2.0",
+     "url": "http://spdx.org/licenses/LGPL-2.0"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1"
+    }
+   ],
+   "long_description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization.  Pango can be used anywhere\nthat text layout is needed, though most of the work on Pango so\nfar has been done in the context of the GTK+ widget toolkit.\nPango forms the core of text and font handling for GTK+-2.x.\n",
+   "maintainers": [
+    "Jason O'Conal <jason@oconal.id.au>",
+    "Michael Raskin <7c6f434c@mail.ru>"
+   ],
+   "name": "pangomm",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/pangomm/default.nix:21"
+  },
+  "revs": [
+   "001d314e874e7fcf819847f88051346684d22e32",
+   "5ae18574fcea525861e721fb6cb510630a3ad1ec"
+  ]
+ },
+ "2.40.1": {
+  "meta": {
+   "description": "C++ interface to the Pango text rendering library",
+   "homepage": "https://www.pango.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2",
+     "spdxId": "LGPL-2.0",
+     "url": "http://spdx.org/licenses/LGPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    }
+   ],
+   "long_description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization.  Pango can be used anywhere\nthat text layout is needed, though most of the work on Pango so\nfar has been done in the context of the GTK+ widget toolkit.\nPango forms the core of text and font handling for GTK+-2.x.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "pangomm",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/pangomm/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "2.42.0": {
+  "meta": {
+   "description": "C++ interface to the Pango text rendering library",
+   "homepage": "https://www.pango.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2",
+     "spdxId": "LGPL-2.0-only",
+     "url": "http://spdx.org/licenses/LGPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization.  Pango can be used anywhere\nthat text layout is needed, though most of the work on Pango so\nfar has been done in the context of the GTK+ widget toolkit.\nPango forms the core of text and font handling for GTK+-2.x.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "pangomm",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/pangomm/default.nix:29"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "2.42.1": {
+  "meta": {
+   "description": "C++ interface to the Pango text rendering library",
+   "homepage": "https://www.pango.org/",
+   "license": [
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2Only",
+     "spdxId": "LGPL-2.0-only",
+     "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization.  Pango can be used anywhere\nthat text layout is needed, though most of the work on Pango so\nfar has been done in the context of the GTK widget toolkit.\nPango forms the core of text and font handling for GTK.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "githubId": 265084,
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "githubId": 1891350,
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "pangomm",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/pangomm/default.nix:29"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

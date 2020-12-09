@@ -1,0 +1,22 @@
+{
+ "1.7.5": {
+  "meta": {
+   "description": "Enlightenment's data encode/decode and storage library",
+   "homepage": "http://enlightenment.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause"
+   },
+   "long_description": "Enlightenment's EET is a tiny library designed to write an\narbitary set of chunks of data to a file and optionally compress\neach chunk (very much like a zip file) and allow fast\nrandom-access reading of the file later on. EET files are\nperfect for storing data that is written once (or rarely) and\nread many times, especially when the program does not want to\nhave to read all the data in at once.\n\nUse this library when you need to pack C structure and you want\nto retrieve it quickly with as few as possible memory use. You\ncan also use it to serialize data quickly and exchange them\nbetween two program over ipc or network link.\n",
+   "maintainers": [],
+   "name": "eet",
+   "platforms": null,
+   "position": "pkgs/desktops/e17/eet/default.nix:11"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ }
+}

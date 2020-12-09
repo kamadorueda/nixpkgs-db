@@ -1,0 +1,51 @@
+{
+ "1.0.post1": {
+  "meta": {
+   "description": "Backports of new features in Python\u2019s weakref module",
+   "homepage": "",
+   "license": {
+    "fullName": "Python Software Foundation License version 2",
+    "shortName": "psfl",
+    "spdxId": "Python-2.0",
+    "url": "http://spdx.org/licenses/Python-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jeanphilippe.bernardy@gmail.com",
+     "github": "jyp",
+     "name": "Jean-Philippe Bernardy"
+    }
+   ],
+   "name": "python3.7-backports.weakref",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/backports_weakref/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "7.1.2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "libutil-netbsd",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/bsd/netbsd/default.nix:13"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "8585bd87a01a3de0f2ee17bc7f28b84481013c7e"
+  ]
+ },
+ "8.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "netbsd-libutil",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/bsd/netbsd/default.nix:31"
+  },
+  "revs": [
+   "5deee7672c675e5dc1ea631b28deed72af8ae2f5",
+   "5deee7672c675e5dc1ea631b28deed72af8ae2f5"
+  ]
+ }
+}

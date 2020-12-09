@@ -1,0 +1,107 @@
+{
+ "0.2": {
+  "meta": {
+   "description": "A lua library/'class' that implements a FIFO",
+   "homepage": "https://github.com/daurnimator/fifo.lua",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "vcunat@gmail.com",
+     "github": "vcunat",
+     "name": "Vladim\u00edr \u010cun\u00e1t"
+    }
+   ],
+   "name": "lua5.3-fifo",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/top-level/lua-packages.nix:180"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.2-0": {
+  "meta": {
+   "description": "A lua library/'class' that implements a FIFO",
+   "homepage": "https://github.com/daurnimator/fifo.lua",
+   "license": {
+    "fullName": "MIT/X11"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.3-fifo",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:107"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

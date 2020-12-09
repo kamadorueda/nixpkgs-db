@@ -1,0 +1,18 @@
+{
+ "1.25.1": {
+  "meta": {
+   "description": "Resque is a Redis-backed queueing system.",
+   "homepage": "http://github.com/defunkt/resque",
+   "license": null,
+   "long_description": "Resque is a Redis-backed Ruby library for creating background jobs,\nplacing those jobs on multiple queues, and processing them later.\n\nBackground jobs can be any Ruby class or module that responds to\nperform. Your existing classes can easily be converted to background\njobs or you can create new classes specifically to do work. Or, you\ncan do both.\n\nResque is heavily inspired by DelayedJob (which rocks) and is\ncomprised of three parts:\n\n* A Ruby library for creating, querying, and processing jobs\n* A Rake task for starting a worker which processes jobs\n* A Sinatra app for monitoring queues, jobs, and workers.\n",
+   "maintainers": [],
+   "name": "ruby-resque",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/ruby/generated.nix:1991"
+  },
+  "revs": [
+   "0008a4b6c467977469b9b3bdec15fcc580204145",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ }
+}

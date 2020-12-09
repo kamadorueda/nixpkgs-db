@@ -1,0 +1,110 @@
+{
+ "0.10.5": {
+  "meta": {
+   "description": "An esoteric programming language",
+   "homepage": "http://lolcode.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "LOLCODE is a funny esoteric  programming language, a bit Pascal-like,\nwhose keywords are LOLspeak.\n",
+   "maintainers": [
+    "Anderson Torres <torres.anderson.85@gmail.com>"
+   ],
+   "name": "lolcode",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/lolcode/default.nix:21"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "0.11.2": {
+  "meta": {
+   "description": "An esoteric programming language",
+   "homepage": "http://lolcode.org",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "LOLCODE is a funny esoteric  programming language, a bit Pascal-like,\nwhose keywords are LOLspeak.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "lolcode",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/lolcode/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,725 @@
+{
+ "2020-04-25": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils-devils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:119"
+  },
+  "revs": [
+   "1059fdf1433bc4964faaa2010bfde54d8c8c687f",
+   "1059fdf1433bc4964faaa2010bfde54d8c8c687f"
+  ]
+ },
+ "2020-05-06": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils-devils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:119"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "2020-05-14": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:119"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "2020-07-21": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:120"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "71816f100e8ea64add1870d0cc22c7f780db1d03"
+  ]
+ },
+ "2020-08-22": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:120"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "2020-10-09": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:246"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "a7e81dcde9def253c871a5885bc5f3c8ba5ac244"
+  ]
+ },
+ "2020-11-07": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:245"
+  },
+  "revs": [
+   "0c6e5e15f8c952f0b2844cead019868e93aedb19",
+   "919d3ea2a0c19d2bed0afb5d71636b7c0237637b"
+  ]
+ },
+ "2020-12-01": {
+  "meta": {
+   "description": "Open Source EDA suite, development build, without 3D models",
+   "homepage": "https://www.kicad-pcb.org/",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "KiCad is an open source software suite for Electronic Design Automation.\nThe Programs handle Schematic Capture, and PCB Layout with Gerber output.\n",
+   "maintainers": [
+    {
+     "email": "evils.devils@protonmail.com",
+     "github": "evils",
+     "githubId": 30512529,
+     "name": "Evils"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "githubId": 10439709,
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "kicad-unstable-small",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/applications/science/electronics/kicad/default.nix:245"
+  },
+  "revs": [
+   "14a7df6cf1de78a560ad03098882ec8e63886d8e",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

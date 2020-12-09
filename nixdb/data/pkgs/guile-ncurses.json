@@ -1,0 +1,88 @@
+{
+ "1.7": {
+  "meta": {
+   "description": "Scheme interface to the NCurses libraries",
+   "homepage": "https://www.gnu.org/software/guile-ncurses/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0+",
+    "url": "http://spdx.org/licenses/LGPL-3.0+.html"
+   },
+   "long_description": "GNU Guile-Ncurses is a library for the Guile Scheme interpreter that\nprovides functions for creating text user interfaces.  The text user\ninterface functionality is built on the ncurses libraries: curses, form,\npanel, and menu.\n",
+   "maintainers": [
+    {
+     "email": "elisp.vim@gmail.com",
+     "github": "vyp",
+     "name": "vyp"
+    }
+   ],
+   "name": "guile-ncurses",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/guile-modules/guile-ncurses/default.nix:32"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

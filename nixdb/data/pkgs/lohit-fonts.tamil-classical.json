@@ -1,0 +1,116 @@
+{
+ "2.5.3": {
+  "meta": {
+   "description": "",
+   "homepage": "https://fedorahosted.org/lohit/",
+   "license": {
+    "fullName": "SIL Open Font License 1.1",
+    "shortName": "ofl",
+    "spdxId": "OFL-1.1",
+    "url": "http://spdx.org/licenses/OFL-1.1"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Mathnerd314 <mathnerd314.gph+hs@gmail.com>",
+    "Thomas Tuegel <ttuegel@gmail.com>"
+   ],
+   "name": "lohit-tamil-classical",
+   "platforms": null,
+   "position": "pkgs/data/fonts/lohit-fonts/default.nix:27"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "2.5.4": {
+  "meta": {
+   "description": "Free and open source fonts for Indian languages (Classical Tamil)",
+   "homepage": "https://pagure.io/lohit",
+   "license": {
+    "fullName": "SIL Open Font License 1.1",
+    "shortName": "ofl",
+    "spdxId": "OFL-1.1",
+    "url": "http://spdx.org/licenses/OFL-1.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mathnerd314.gph+hs@gmail.com",
+     "github": "mathnerd314",
+     "name": "Mathnerd314"
+    },
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "lohit-tamil-classical",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/fonts/lohit-fonts/default.nix:48"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

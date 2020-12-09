@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing a problem of nscd on (only) armv5tel (soft-float). It gets linked to libgcc_s (shared lib) unless doing the trick I thought feasible of telling 'configure' that the linker does not support \"as-needed\". I found this reading their 'configure' script.",
+ "timestamp": "1291328595"
+}

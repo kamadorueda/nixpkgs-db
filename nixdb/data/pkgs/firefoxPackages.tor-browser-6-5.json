@@ -1,0 +1,26 @@
+{
+ "6.5.2": {
+  "meta": {
+   "description": "A web browser built from TorBrowser source tree",
+   "homepage": "https://www.torproject.org/projects/torbrowser.html",
+   "license": null,
+   "long_description": "This is a version of TorBrowser with bundle-related patches\nreverted.\n\nI.e. it's a variant of Firefox with less fingerprinting and\nsome isolation features you can't get with any extensions.\n\nOr, alternatively, a variant of TorBrowser that works like any\nother UNIX program and doesn't expect you to run it from a\nbundle.\n\nIt will use your default Firefox profile if you're not careful\neven! Be careful!\n\nIt will clash with firefox binary if you install both. But its\nnot a problem since you should run browsers in separate\nusers/VMs anyway.\n\nCreate new profile by starting it as\n\n$ firefox -ProfileManager\n\nand then configure it to use your tor instance.\n",
+   "maintainers": [],
+   "name": "tor-browser-unwrapped",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:70"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ }
+}

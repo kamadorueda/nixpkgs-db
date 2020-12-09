@@ -1,0 +1,41 @@
+{
+ "1.1.11": {
+  "meta": {
+   "description": "A library to parse and evaluate symbolic expressions input as text",
+   "homepage": "https://www.gnu.org/software/libmatheval/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "GNU libmatheval is a library (callable from C and Fortran) to parse and evaluate symbolic\nexpressions input as text. It supports expressions in any number of variables of arbitrary\nnames, decimal and symbolic constants, basic unary and binary operators, and elementary\nmathematical functions. In addition to parsing and evaluation, libmatheval can also compute\nsymbolic derivatives and output expressions to strings.\n",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "libmatheval",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libmatheval/default.nix:32"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "0.6.2": {
+  "meta": {
+   "description": "A simple framework for building readers for GNU Guile",
+   "homepage": "https://www.nongnu.org/guile-reader/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0+",
+    "url": "http://spdx.org/licenses/LGPL-3.0+.html"
+   },
+   "long_description": "Guile-Reader is a simple framework for building readers for GNU\nGuile.\n\nThe idea is to make it easy to build procedures that extend\nGuile's read procedure. Readers supporting various syntax\nvariants can easily be written, possibly by re-using existing\n\"token readers\" of a standard Scheme readers. For example, it\nis used to implement Skribilo's R5RS-derived document syntax.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "guile-reader",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/guile-modules/guile-reader/default.nix:30"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "0.6.3": {
+  "meta": {
+   "description": "A simple framework for building readers for GNU Guile",
+   "homepage": "https://www.nongnu.org/guile-reader/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "Guile-Reader is a simple framework for building readers for GNU\nGuile.\n\nThe idea is to make it easy to build procedures that extend\nGuile's read procedure. Readers supporting various syntax\nvariants can easily be written, possibly by re-using existing\n\"token readers\" of a standard Scheme readers. For example, it\nis used to implement Skribilo's R5RS-derived document syntax.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "guile-reader",
+   "platforms": [
+    "aarch64-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux"
+   ],
+   "position": "pkgs/development/guile-modules/guile-reader/default.nix:23"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

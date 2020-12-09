@@ -1,0 +1,126 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "Documentation production system for software manuals",
+   "homepage": "http://www.chiark.greenend.org.uk/~sgtatham/halibut/",
+   "license": "free",
+   "long_description": "",
+   "maintainers": [],
+   "name": "halibut",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "1.1": {
+  "meta": {
+   "description": "Documentation production system for software manuals",
+   "homepage": "http://www.chiark.greenend.org.uk/~sgtatham/halibut/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Pascal Wittmann <mail@pascal-wittmann.de>"
+   ],
+   "name": "halibut",
+   "platforms": null,
+   "position": "pkgs/tools/typesetting/halibut/default.nix:28"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "1.2": {
+  "meta": {
+   "description": "Documentation production system for software manuals",
+   "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/halibut/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@pascal-wittmann.de",
+     "github": "pSub",
+     "name": "Pascal Wittmann"
+    }
+   ],
+   "name": "halibut",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/typesetting/halibut/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

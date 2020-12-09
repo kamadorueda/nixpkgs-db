@@ -1,0 +1,51 @@
+{
+ "0.1.5": {
+  "meta": {
+   "description": "A python library that extends setuptools for binary extensions",
+   "homepage": "https://github.com/getsentry/milksnake",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@beyermatthias.de",
+     "github": "matthiasbeyer",
+     "name": "Matthias Beyer"
+    }
+   ],
+   "name": "python3.6-milksnake",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/milksnake/default.nix:21"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

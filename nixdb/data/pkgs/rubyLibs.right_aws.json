@@ -1,0 +1,34 @@
+{
+ "3.0.5": {
+  "meta": {
+   "description": "The RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.",
+   "homepage": "",
+   "license": null,
+   "long_description": "== DESCRIPTION:\n\nThe RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.\nThese gems have been used in production by RightScale since late 2006 and are being maintained to track enhancements made by Amazon.\nThe RightScale AWS gems comprise:\n\n- RightAws::Ec2 -- interface to Amazon EC2 (Elastic Compute Cloud) and the\n  associated EBS (Elastic Block Store)\n- RightAws::S3 and RightAws::S3Interface -- interface to Amazon S3 (Simple Storage Service)\n- RightAws::Sqs and RightAws::SqsInterface -- interface to first-generation Amazon SQS (Simple Queue Service) (API version 2007-05-01)\n- RightAws::SqsGen2 and RightAws::SqsGen2Interface -- interface to second-generation Amazon SQS (Simple Queue Service) (API version 2008-01-01)\n- RightAws::SdbInterface and RightAws::ActiveSdb -- interface to Amazon SDB (SimpleDB)\n- RightAws::AcfInterface -- interface to Amazon CloudFront, a content distribution service\n\n== FEATURES:\n\n- Full programmmatic access to EC2, EBS, S3, SQS, SDB, and CloudFront.\n- Complete error handling: all operations check for errors and report complete\n  error information by raising an AwsError.\n- Persistent HTTP connections with robust network-level retry layer using\n  RightHttpConnection).  This includes socket timeouts and retries.\n- Robust HTTP-level retry layer.  Certain (user-adjustable) HTTP errors returned\n  by Amazon's services are classified as temporary errors.\n  These errors are automaticallly retried using exponentially increasing intervals.\n  The number of retries is user-configurable.\n- Fast REXML-based parsing of responses (as fast as a pure Ruby solution allows).\n- Uses libxml (if available) for faster response parsing.\n- Support for large S3 list operations.  Buckets and key subfolders containing\n  many (&gt; 1000) keys are listed in entirety.  Operations based on list (like\n  bucket clear) work on arbitrary numbers of keys.\n- Support for streaming GETs from S3, and streaming PUTs to S3 if the data source is a file.\n- Support for single-threaded usage, multithreaded usage, as well as usage with multiple\n  AWS accounts.\n- Support for both first- and second-generation SQS (API versions 2007-05-01\n  and 2008-01-01).  These versions of SQS are not compatible.\n- Support for signature versions 0 and 1 on SQS, SDB, and EC2.\n- Interoperability with any cloud running Eucalyptus (http://eucalyptus.cs.ucsb.edu)\n- Test suite (requires AWS account to do \"live\" testing).\n",
+   "maintainers": [],
+   "name": "ruby-right_aws",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000fddd10e079f147769f686e5661bd6d7c1db5a",
+   "9555f3ba068f2deeb433ac7989775f8e2c3494a1"
+  ]
+ },
+ "3.1.0": {
+  "meta": {
+   "description": "The RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.",
+   "homepage": "",
+   "license": null,
+   "long_description": "== DESCRIPTION:\n\nThe RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.\nThese gems have been used in production by RightScale since late 2006 and are being maintained to track enhancements made by Amazon.\nThe RightScale AWS gems comprise:\n\n- RightAws::Ec2 -- interface to Amazon EC2 (Elastic Compute Cloud) and the\n  associated EBS (Elastic Block Store)\n- RightAws::S3 and RightAws::S3Interface -- interface to Amazon S3 (Simple Storage Service)\n- RightAws::Sqs and RightAws::SqsInterface -- interface to first-generation Amazon SQS (Simple Queue Service) (API version 2007-05-01)\n- RightAws::SqsGen2 and RightAws::SqsGen2Interface -- interface to second-generation Amazon SQS (Simple Queue Service) (API version 2008-01-01)\n- RightAws::SdbInterface and RightAws::ActiveSdb -- interface to Amazon SDB (SimpleDB)\n- RightAws::AcfInterface -- interface to Amazon CloudFront, a content distribution service\n\n== FEATURES:\n\n- Full programmmatic access to EC2, EBS, S3, SQS, SDB, and CloudFront.\n- Complete error handling: all operations check for errors and report complete\n  error information by raising an AwsError.\n- Persistent HTTP connections with robust network-level retry layer using\n  RightHttpConnection).  This includes socket timeouts and retries.\n- Robust HTTP-level retry layer.  Certain (user-adjustable) HTTP errors returned\n  by Amazon's services are classified as temporary errors.\n  These errors are automaticallly retried using exponentially increasing intervals.\n  The number of retries is user-configurable.\n- Fast REXML-based parsing of responses (as fast as a pure Ruby solution allows).\n- Uses libxml (if available) for faster response parsing.\n- Support for large S3 list operations.  Buckets and key subfolders containing\n  many (&gt; 1000) keys are listed in entirety.  Operations based on list (like\n  bucket clear) work on arbitrary numbers of keys.\n- Support for streaming GETs from S3, and streaming PUTs to S3 if the data source is a file.\n- Support for single-threaded usage, multithreaded usage, as well as usage with multiple\n  AWS accounts.\n- Support for both first- and second-generation SQS (API versions 2007-05-01\n  and 2008-01-01).  These versions of SQS are not compatible.\n- Support for signature versions 0 and 1 on SQS, SDB, and EC2.\n- Interoperability with any cloud running Eucalyptus (http://eucalyptus.cs.ucsb.edu)\n- Test suite (requires AWS account to do \"live\" testing).\n",
+   "maintainers": [],
+   "name": "ruby-right_aws",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/ruby/generated.nix:1485"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ }
+}

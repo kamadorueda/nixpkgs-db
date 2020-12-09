@@ -1,0 +1,101 @@
+{
+ "0.8": {
+  "meta": {
+   "description": "Freedesktop reference sound theme",
+   "homepage": "http://freedesktop.org/wiki/Specifications/sound-theme-spec",
+   "license": [
+    {
+     "fullName": "Creative Commons Attribution 3.0",
+     "shortName": "cc-by-30",
+     "spdxId": "CC-BY-3.0",
+     "url": "http://spdx.org/licenses/CC-BY-3.0.html"
+    },
+    {
+     "fullName": "Creative Commons Attribution Share Alike 2.5",
+     "shortName": "cc-by-sa-25",
+     "spdxId": "CC-BY-SA-2.5",
+     "url": "http://spdx.org/licenses/CC-BY-SA-2.5.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0+",
+     "url": "http://spdx.org/licenses/GPL-2.0+.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "sound-theme-freedesktop",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/misc/sound-theme-freedesktop/default.nix:15"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

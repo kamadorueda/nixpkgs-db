@@ -1,0 +1,81 @@
+{
+ "0.18.0": {
+  "meta": {
+   "description": "Library that generates loops for scanning polyhedra",
+   "homepage": "http://www.cloog.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "CLooG is a free software library to generate code for scanning\nZ-polyhedra.  That is, it finds a code (e.g., in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.\nCLooG has been originally written to solve the code generation problem\nfor optimizing compilers based on the polytope model.  Nevertheless it\nis used now in various area e.g., to build control automata for\nhigh-level synthesis or to find the best polynomial approximation of a\nfunction.  CLooG may help in any situation where scanning polyhedra\nmatters.  While the user has full control on generated code quality,\nCLooG is designed to avoid control overhead and to produce a very\neffective code.\n",
+   "maintainers": [],
+   "name": "cloog",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/cloog/0.18.0.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

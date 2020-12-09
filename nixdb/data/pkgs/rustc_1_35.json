@@ -1,0 +1,79 @@
+{
+ "1.35.0": {
+  "meta": {
+   "description": "A safe, concurrent, practical language",
+   "homepage": "https://www.rust-lang.org/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "georges.dubus@compiletoi.net",
+     "github": "madjar",
+     "name": "Georges Dubus"
+    },
+    {
+     "email": "charles@cstrahan.com",
+     "github": "cstrahan",
+     "name": "Charles Strahan"
+    },
+    {
+     "email": "rcorreia@wizy.org",
+     "github": "wizeman",
+     "name": "Ricardo M. Correia"
+    },
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "ryan.havvy@gmail.com",
+     "github": "havvy",
+     "name": "Ryan Scheel"
+    }
+   ],
+   "name": "rustc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/compilers/rust-1_35/rustc.nix:169"
+  },
+  "revs": [
+   "01b30bb99f3bd68b190d59ad637393233ddd4b96",
+   "27aaaa5ba6923104a23bae75d323dc975390195e"
+  ]
+ }
+}

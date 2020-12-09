@@ -1,0 +1,81 @@
+{
+ "3.0.4": {
+  "meta": {
+   "description": "Perfect hash function generator",
+   "homepage": "https://www.gnu.org/software/gperf/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "GNU gperf is a perfect hash function generator.  For a given\nlist of strings, it produces a hash function and hash table, in\nform of C or C++ code, for looking up a value depending on the\ninput string.  The hash function is perfect, which means that\nthe hash table has no collisions, and the hash table lookup\nneeds a single string comparison only.\n\nGNU gperf is highly customizable.  There are options for\ngenerating C or C++ code, for emitting switch statements or\nnested ifs instead of a hash table, and for tuning the algorithm\nemployed by gperf.\n",
+   "maintainers": [],
+   "name": "gperf",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/gperf/3.0.x.nix:12"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

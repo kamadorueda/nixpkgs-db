@@ -1,0 +1,81 @@
+{
+ "0.8.1": {
+  "meta": {
+   "description": "Isolated test runner with Docker",
+   "homepage": "http://zimbatm.github.io/cide/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "",
+   "maintainers": [
+    "zimbatm <zimbatm@zimbatm.com>"
+   ],
+   "name": "cide",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/continuous-integration/cide/default.nix:26"
+  },
+  "revs": [
+   "00d32bb99ffc3b0080d0c320653a6ceadb6750f4",
+   "8615f026a48cbf3f1c37b30e9b70bba6af013a12"
+  ]
+ },
+ "0.9.0": {
+  "meta": {
+   "description": "Isolated test runner with Docker",
+   "homepage": "http://zimbatm.github.io/cide/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    }
+   ],
+   "name": "cide",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/continuous-integration/cide/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

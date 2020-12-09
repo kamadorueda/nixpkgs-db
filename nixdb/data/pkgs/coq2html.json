@@ -1,0 +1,87 @@
+{
+ "20170720": {
+  "meta": {
+   "description": "coq2html is an HTML documentation generator for Coq source files",
+   "homepage": "https://github.com/xavierleroy/coq2html",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "coq2html is an HTML documentation generator for Coq source files. It is\nan alternative to the standard coqdoc documentation generator\ndistributed along with Coq. The major feature of coq2html is its ability\nto fold proof scripts: in the generated HTML, proof scripts are\ninitially hidden, but can be revealed one by one by clicking on the\n\"Proof\" keyword.\n",
+   "maintainers": [
+    {
+     "email": "johnw@newartisans.com",
+     "github": "jwiegley",
+     "name": "John Wiegley"
+    }
+   ],
+   "name": "coq2html",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/logic/coq2html/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "0.7.0": {
+  "meta": {
+   "description": "Dynamic Tracing Tools for Linux",
+   "homepage": "https://iovisor.github.io/bcc/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "r.dahlen@gmail.com",
+     "github": "ragnard",
+     "name": "Ragnar Dahlen"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "bcc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/bcc/default.nix:73"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "3c3ac19c43ef1b8b7459f9da1d0d5bd8fcc42fda"
+  ]
+ },
+ "0.8.0": {
+  "meta": {
+   "description": "Dynamic Tracing Tools for Linux",
+   "homepage": "https://iovisor.github.io/bcc/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "r.dahlen@gmail.com",
+     "github": "ragnard",
+     "name": "Ragnar Dahlen"
+    },
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "bcc",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/bcc/default.nix:73"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ }
+}

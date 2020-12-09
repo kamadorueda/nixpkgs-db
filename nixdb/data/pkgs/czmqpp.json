@@ -1,0 +1,51 @@
+{
+ "1.2.0": {
+  "meta": {
+   "description": "C++ wrapper for czmq. Aims to be minimal, simple and consistent",
+   "homepage": "https://github.com/zeromq/czmqpp",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0",
+    "url": "http://spdx.org/licenses/LGPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ch.martin@gmail.com",
+     "github": "chris-martin",
+     "name": "Chris Martin"
+    }
+   ],
+   "name": "czmqpp",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/czmqpp/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

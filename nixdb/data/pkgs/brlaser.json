@@ -1,0 +1,121 @@
+{
+ "4": {
+  "meta": {
+   "description": "A CUPS driver for Brother laser printers",
+   "homepage": "https://github.com/pdewacht/brlaser",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Although most Brother printers support a standard printer language such as PCL or PostScript, not all do. If you have a monochrome Brother laser printer (or multi-function device) and the other open source drivers don't work, this one might help.\n\nThis driver is known to work with these printers:\n\n    Brother DCP-1510\n    Brother DCP-7030\n    Brother DCP-7040\n    Brother DCP-7055\n    Brother DCP-7055W\n    Brother DCP-7065DN\n    Brother HL-L2300D\n    Brother MFC-7360N\n",
+   "maintainers": [
+    {
+     "email": "stekke@airmail.cc",
+     "github": "StijnDW",
+     "name": "Stijn DW"
+    }
+   ],
+   "name": "brlaser",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/misc/cups/drivers/brlaser/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "5": {
+  "meta": {
+   "description": "A CUPS driver for Brother laser printers",
+   "homepage": "https://github.com/pdewacht/brlaser",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Although most Brother printers support a standard printer language such as PCL or PostScript, not all do. If you have a monochrome Brother laser printer (or multi-function device) and the other open source drivers don't work, this one might help.\n\nThis driver is known to work with these printers:\n\n    Brother DCP-1510\n    Brother DCP-1602\n    Brother DCP-7030\n    Brother DCP-7040\n    Brother DCP-7055\n    Brother DCP-7055W\n    Brother DCP-7060D\n    Brother DCP-7065DN\n    Brother DCP-7080\n    Brother DCP-L2500D\n    Brother DCP-L2540DW\n    Brother HL-1110 series\n    Brother HL-1200 series\n    Brother HL-L2300D series\n    Brother HL-L2320D series\n    Brother HL-L2340D series\n    Brother HL-L2360D series\n    Brother MFC-1910W\n    Brother MFC-7240\n    Brother MFC-7360N\n    Brother MFC-7365DN\n    Brother MFC-7840W\n    Brother MFC-L2710DW\n    Lenovo M7605D\n",
+   "maintainers": [
+    {
+     "email": "stekke@airmail.cc",
+     "github": "StijnDW",
+     "githubId": 1751956,
+     "name": "Stijn DW"
+    }
+   ],
+   "name": "brlaser",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/cups/drivers/brlaser/default.nix:20"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "6": {
+  "meta": {
+   "description": "A CUPS driver for Brother laser printers",
+   "homepage": "https://github.com/pdewacht/brlaser",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Although most Brother printers support a standard printer language such as PCL or PostScript, not all do. If you have a monochrome Brother laser printer (or multi-function device) and the other open source drivers don't work, this one might help.\n\nThis driver is known to work with these printers:\n\n    Brother DCP-1510\n    Brother DCP-1602\n    Brother DCP-7030\n    Brother DCP-7040\n    Brother DCP-7055\n    Brother DCP-7055W\n    Brother DCP-7060D\n    Brother DCP-7065DN\n    Brother DCP-7080\n    Brother DCP-L2500D\n    Brother DCP-L2520D\n    Brother DCP-L2540DW\n    Brother HL-1110\n    Brother HL-1200\n    Brother HL-2030\n    Brother HL-2140\n    Brother HL-2220\n    Brother HL-2270DW\n    Brother HL-5030\n    Brother HL-L2300D\n    Brother HL-L2320D\n    Brother HL-L2340D\n    Brother HL-L2360D\n    Brother MFC-1910W\n    Brother MFC-7240\n    Brother MFC-7360N\n    Brother MFC-7365DN\n    Brother MFC-7840W\n    Brother MFC-L2710DW\n    Lenovo M7605D\n",
+   "maintainers": [
+    {
+     "email": "stekke@airmail.cc",
+     "github": "StijnDW",
+     "githubId": 1751956,
+     "name": "Stijn DW"
+    }
+   ],
+   "name": "brlaser",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/misc/cups/drivers/brlaser/default.nix:20"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

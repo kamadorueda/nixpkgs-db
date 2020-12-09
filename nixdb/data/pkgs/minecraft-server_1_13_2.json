@@ -1,0 +1,96 @@
+{
+ "1.13.2": {
+  "meta": {
+   "description": "Minecraft Server",
+   "homepage": "https://minecraft.net",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    },
+    {
+     "email": "tomberek@gmail.com",
+     "github": "tomberek",
+     "name": "Thomas Bereknyei"
+    },
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "minecraft-server",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/games/minecraft-server/default.nix:30"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

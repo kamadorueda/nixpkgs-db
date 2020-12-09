@@ -1,0 +1,71 @@
+{
+ "0.19": {
+  "meta": {
+   "description": "General-purpose software audio FSK modem",
+   "homepage": "http://www.whence.com/minimodem/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "Minimodem is a command-line program which decodes (or generates) audio\nmodem tones at any specified baud rate, using various framing protocols. It\nacts a general-purpose software FSK modem, and includes support for various\nstandard FSK protocols such as Bell103, Bell202, RTTY, NOAA SAME, and\nCaller-ID.\n",
+   "maintainers": [
+    "Ricky Elrod <ricky@elrod.me>"
+   ],
+   "name": "minimodem",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/audio/minimodem/default.nix:16"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "0.24-1": {
+  "meta": {
+   "description": "General-purpose software audio FSK modem",
+   "homepage": "http://www.whence.com/minimodem/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "Minimodem is a command-line program which decodes (or generates) audio\nmodem tones at any specified baud rate, using various framing protocols. It\nacts a general-purpose software FSK modem, and includes support for various\nstandard FSK protocols such as Bell103, Bell202, RTTY, NOAA SAME, and\nCaller-ID.\n",
+   "maintainers": [
+    {
+     "email": "ricky@elrod.me",
+     "github": "relrod",
+     "name": "Ricky Elrod"
+    }
+   ],
+   "name": "minimodem",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/minimodem/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

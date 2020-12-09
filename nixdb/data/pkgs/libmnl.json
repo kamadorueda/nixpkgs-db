@@ -1,0 +1,63 @@
+{
+ "1.0.3": {
+  "meta": {
+   "description": "minimalistic user-space library oriented to Netlink developers",
+   "homepage": "http://netfilter.org/projects/libmnl/index.html",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "libmnl is a minimalistic user-space library oriented to Netlink developers.\nThere are a lot of common tasks in parsing, validating, constructing of both the Netlink\nheader and TLVs that are repetitive and easy to get wrong.\nThis library aims to provide simple helpers that allows you to re-use code and to avoid\nre-inventing the wheel.\n",
+   "maintainers": [],
+   "name": "libmnl",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/libraries/libmnl/default.nix:12"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "1.0.4": {
+  "meta": {
+   "description": "Minimalistic user-space library oriented to Netlink developers",
+   "homepage": "https://netfilter.org/projects/libmnl/index.html",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "libmnl is a minimalistic user-space library oriented to Netlink developers.\nThere are a lot of common tasks in parsing, validating, constructing of both the Netlink\nheader and TLVs that are repetitive and easy to get wrong.\nThis library aims to provide simple helpers that allows you to re-use code and to avoid\nre-inventing the wheel.\n",
+   "maintainers": [],
+   "name": "libmnl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libmnl/default.nix:12"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

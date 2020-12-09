@@ -1,0 +1,35 @@
+{
+ "0.2.8": {
+  "meta": {
+   "description": "Our Own Terminal Emulation Library",
+   "homepage": "http://rote.sourceforge.net/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "ROTE is a simple C library for VT102 terminal emulation. It allows the\nprogrammer to set up virtual 'screens' and send them data. The virtual\nscreens will emulate the behavior of a VT102 terminal, interpreting\nescape sequences, control characters and such. The library supports\nncurses as well so that you may render the virtual screen to the real\nscreen when you need to.\n",
+   "maintainers": [],
+   "name": "rote",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/rote/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

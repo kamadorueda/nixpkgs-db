@@ -1,0 +1,41 @@
+{
+ "2007-04-18": {
+  "meta": {
+   "description": "Pair with SIXAXIS controllers over USB",
+   "homepage": "http://www.pabr.org/sixlinux/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "This command-line utility searches USB buses for SIXAXIS controllers and tells them to connect to a new Bluetooth master.\n",
+   "maintainers": [
+    {
+     "email": "tom@tsmeets.nl",
+     "github": "tomsmeets",
+     "name": "Tom Smeets"
+    }
+   ],
+   "name": "sixpair",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/sixpair/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "23.4": {
+  "meta": {
+   "description": "Chess program developed by Dr. Robert M. Hyatt",
+   "homepage": "http://www.craftychess.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    "John Wiegley <johnw@newartisans.com>"
+   ],
+   "name": "crafty",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/games/crafty/default.nix:662"
+  },
+  "revs": [
+   "082b0ee2a14b111c26108ecafab86d1e73992c85",
+   "a4df29aee3a7d4a3955f42e64b9a4a0bb5c6585f"
+  ]
+ },
+ "25.0.1": {
+  "meta": {
+   "description": "Chess program developed by Dr. Robert M. Hyatt",
+   "homepage": "http://www.craftychess.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "johnw@newartisans.com",
+     "github": "jwiegley",
+     "name": "John Wiegley"
+    }
+   ],
+   "name": "crafty",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/games/crafty/default.nix:68"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

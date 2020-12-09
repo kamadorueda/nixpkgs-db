@@ -1,0 +1,4 @@
+{
+ "summary": "* libiodbc: don't pass all of Nixpkgs to the package.  There is no   reason why this shouldn't work, but it breaks NixOS evaluation on   x86_64-linux with weird segfaults and assertion failures, probably   due to a bug in the evaluator or the ATerm library.",
+ "timestamp": "1270551052"
+}

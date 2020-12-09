@@ -1,0 +1,206 @@
+{
+ "2.1.0-pre": {
+  "meta": {
+   "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+   "homepage": "https://github.com/rebar/rebar",
+   "license": null,
+   "long_description": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "rebar",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "00081d1873148a8ec642d5c912d04875c4ee4a66",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "2.2.0": {
+  "meta": {
+   "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+   "homepage": "https://github.com/rebar/rebar",
+   "license": null,
+   "long_description": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "rebar",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/rebar/default.nix:25"
+  },
+  "revs": [
+   "0008a4b6c467977469b9b3bdec15fcc580204145",
+   "2f4517697eb0882a5047faad3f8f42483f4d417e"
+  ]
+ },
+ "2.3.0": {
+  "meta": {
+   "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+   "homepage": "https://github.com/rebar/rebar",
+   "license": null,
+   "long_description": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "rebar",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/rebar/default.nix:25"
+  },
+  "revs": [
+   "002d33b6ccdc90628799406c19b15648ca7e8349",
+   "632ccf8bc6ef36a132cc0eb39eff052838db6113"
+  ]
+ },
+ "2.5.1": {
+  "meta": {
+   "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+   "homepage": "https://github.com/rebar/rebar",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "rebar",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/build-managers/rebar/default.nix:25"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2.6.4": {
+  "meta": {
+   "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+   "homepage": "https://github.com/rebar/rebar",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+   "maintainers": [],
+   "name": "rebar",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/rebar/default.nix:26"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

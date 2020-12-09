@@ -1,0 +1,49 @@
+{
+ "2018-09-23": {
+  "meta": {
+   "description": "A system emulator for the RISC-V and x86 architectures",
+   "homepage": "https://bellard.org/tinyemu/",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    },
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    }
+   ],
+   "long_description": "TinyEMU is a system emulator for the RISC-V and x86 architectures. Its purpose is to be small and simple while being complete.",
+   "maintainers": [
+    {
+     "email": "jhhuh.note@gmail.com",
+     "github": "jhhuh",
+     "name": "Ji-Haeng Huh"
+    }
+   ],
+   "name": "tinyemu",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/tinyemu/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

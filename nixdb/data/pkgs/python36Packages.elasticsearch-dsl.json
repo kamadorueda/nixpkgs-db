@@ -1,0 +1,51 @@
+{
+ "6.2.1": {
+  "meta": {
+   "description": "High level Python client for Elasticsearch",
+   "homepage": "https://github.com/elasticsearch/elasticsearch-dsl-py",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "Elasticsearch DSL is a high-level library whose aim is to help with\nwriting and running queries against Elasticsearch. It is built on top of\nthe official low-level client (elasticsearch-py).\n",
+   "maintainers": [
+    {
+     "email": "didier@devroye.name",
+     "github": "desiderius",
+     "name": "Didier J. Devroye"
+    }
+   ],
+   "name": "python3.6-elasticsearch-dsl",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/elasticsearch-dsl/default.nix:29"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

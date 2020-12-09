@@ -1,0 +1,51 @@
+{
+ "0.5.0": {
+  "meta": {
+   "description": "A thin Cython-based wrapper on top of libsystemd, focused on exposing the dbus API via sd-bus in an automated and easy to consume way.",
+   "homepage": "https://github.com/facebookincubator/pystemd/",
+   "license": {
+    "fullName": "BSD Zero Clause License",
+    "shortName": "bsd0",
+    "spdxId": "0BSD",
+    "url": "http://spdx.org/licenses/0BSD.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flokli@flokli.de",
+     "github": "flokli",
+     "name": "Florian Klink"
+    }
+   ],
+   "name": "python3.6-pystemd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pystemd/default.nix:18"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

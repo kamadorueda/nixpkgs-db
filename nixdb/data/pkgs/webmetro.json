@@ -1,0 +1,33 @@
+{
+ "20180426": {
+  "meta": {
+   "description": "Simple relay server for broadcasting a WebM stream",
+   "homepage": "",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "Webmetro is a simple relay server for broadcasting a WebM stream\nfrom one uploader to many downloaders, via HTTP.\nThe initialization segment is remembered, so that viewers can join\nmid-stream.  Cluster timestamps are rewritten to be monotonic, so multiple\n(compatibly-encoded) webm files can be chained together without\nclients needing to reconnect.\n",
+   "maintainers": [
+    {
+     "email": "ml.software@leenaa.rs",
+     "github": "leenaars",
+     "name": "Michiel Leenaars"
+    }
+   ],
+   "name": "webmetro-unstable",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/webmetro/default.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

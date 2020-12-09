@@ -1,0 +1,764 @@
+{
+ "0.9.1": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:26"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "0.9.10": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:25"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "0.9.11": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:25"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "0.9.13": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:25"
+  },
+  "revs": [
+   "0007c0f3026f5a54d910eab2fb2b2f61ac069521",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "0.9.5": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:28"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "1b099f9d6c21734359215aeeead2576187e81a8e"
+  ]
+ },
+ "0.9.7": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:28"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "46d3cf2c1b45951753c059fc8a1d8c4e6c736785"
+  ]
+ },
+ "0.9.8": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:25"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "701ddad4ce8e56795f7ccd2f34e387b9071e74a7"
+  ]
+ },
+ "0.9.9": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "githubId": 2280539,
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    },
+    {
+     "email": "ivan@ludios.org",
+     "github": "ivan",
+     "githubId": 4458,
+     "name": "Ivan Kozik"
+    }
+   ],
+   "name": "cargo-outdated",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:25"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "2019-04-13": {
+  "meta": {
+   "description": "A cargo subcommand for displaying when Rust dependencies are out of date",
+   "homepage": "https://github.com/kbknapp/cargo-outdated",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    },
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nilsen.sondre@gmail.com",
+     "github": "sondr3",
+     "keys": [
+      {
+       "fingerprint": "0EC3 FA89 EFBA B421 F82E  40B0 2567 6BCB FFAD 76B1",
+       "longkeyid": "ed25519/0x25676BCBFFAD76B1"
+      }
+     ],
+     "name": "Sondre Nilsen"
+    }
+   ],
+   "name": "cargo-outdated-unstable",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/tools/package-management/cargo-outdated/default.nix:23"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

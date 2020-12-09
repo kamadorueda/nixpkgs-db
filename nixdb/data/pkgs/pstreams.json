@@ -1,0 +1,73 @@
+{
+ "1.0.1": {
+  "meta": {
+   "description": "POSIX Process Control in C++",
+   "homepage": "http://pstreams.sourceforge.net/",
+   "license": {
+    "fullName": "Boost Software License 1.0",
+    "shortName": "boost",
+    "spdxId": "BSL-1.0",
+    "url": "https://spdx.org/licenses/BSL-1.0.html"
+   },
+   "long_description": "PStreams allows you to run another program from your C++ application and\nto transfer data between the two programs similar to shell pipelines.\n\nIn the simplest case, a PStreams class is like a C++ wrapper for the\nPOSIX.2 functions popen(3) and pclose(3), using C++ iostreams instead of\nC's stdio library.\n",
+   "maintainers": [
+    {
+     "email": "me@arthur.li",
+     "github": "arthurl",
+     "githubId": 3965744,
+     "name": "Arthur Lee"
+    }
+   ],
+   "name": "PStreams",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/libraries/pstreams/default.nix:25"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

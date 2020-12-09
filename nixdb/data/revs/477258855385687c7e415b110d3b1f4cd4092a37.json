@@ -1,0 +1,4 @@
+{
+ "summary": "Disabling libxcrypt on armv5tel-linux (it does not build trivially). As a consequence, we will end up having MD5 passwords in passwd. pam_unix will fallback to md5 if the requested hash algorithm is not available in crypt.",
+ "timestamp": "1275653589"
+}

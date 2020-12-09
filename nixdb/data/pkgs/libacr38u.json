@@ -1,0 +1,87 @@
+{
+ "1.7.11": {
+  "meta": {
+   "description": "ACR38U smartcard reader driver for pcsclite",
+   "homepage": "https://www.acs.com.hk",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "A PC/SC IFD handler implementation for the ACS ACR38U\nsmartcard readers. This driver is for the non-CCID version only.\n\nThis package is needed to communicate with the ACR38U smartcard readers through\nthe PC/SC Lite resource manager (pcscd).\n\nIt can be enabled in /etc/nixos/configuration.nix by adding:\n  services.pcscd.enable = true;\n  services.pcscd.plugins = [ libacr38u ];\n\nThe package is based on the debian package libacr38u.\n",
+   "maintainers": [
+    {
+     "email": "bert.moens@gmail.com",
+     "github": "berce",
+     "name": "Bert Moens"
+    }
+   ],
+   "name": "libacr38u",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/libacr38u/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

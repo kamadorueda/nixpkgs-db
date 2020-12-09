@@ -1,0 +1,35 @@
+{
+ "3.1.0": {
+  "meta": {
+   "description": "Binary differential compression in VCDIFF (RFC 3284) format",
+   "homepage": "http://xdelta.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "xdelta is a command line program for delta encoding, which generates two\nfile differences. This is similar to diff and patch, but it is targeted\nfor binary files and does not generate human readable output.\n",
+   "maintainers": [],
+   "name": "xdelta",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/compression/xdelta/unstable.nix:55"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

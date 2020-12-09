@@ -1,0 +1,93 @@
+{
+ "2.4.15": {
+  "meta": {
+   "description": "Personal and small-business financial-accounting application",
+   "homepage": "http://www.gnucash.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "GnuCash is personal and small-business financial-accounting software,\nfreely licensed under the GNU GPL and available for GNU/Linux, BSD,\nSolaris, macOS and Microsoft Windows.\n\nDesigned to be easy to use, yet powerful and flexible, GnuCash allows\nyou to track bank accounts, stocks, income and expenses.  As quick and\nintuitive to use as a checkbook register, it is based on professional\naccounting principles to ensure balanced books and accurate reports.\n",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "name": "Peter Simons"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "gnucash",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/office/gnucash/2.4.nix:71"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ }
+}

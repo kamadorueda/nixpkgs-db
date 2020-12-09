@@ -1,0 +1,78 @@
+{
+ "1.0.14": {
+  "meta": {
+   "description": "Python library for building powerful interactive command lines",
+   "homepage": "https://github.com/jonathanslenders/python-prompt-toolkit",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "prompt_toolkit could be a replacement for readline, but it can be\nmuch more than that. It is cross-platform, everything that you build\nwith it should run fine on both Unix and Windows systems. Also ships\nwith a nice interactive Python shell (called ptpython) built on top.\n",
+   "maintainers": [
+    "Tobias Geerinckx-Rice <tobias.geerinckx.rice@gmail.com>",
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "python3.6-prompt_toolkit",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/top-level/python-packages.nix:18256"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "63e363f374a88efcc666df574b6fd019411c2a55"
+  ]
+ },
+ "1.0.15": {
+  "meta": {
+   "description": "Python library for building powerful interactive command lines",
+   "homepage": "https://github.com/jonathanslenders/python-prompt-toolkit",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "prompt_toolkit could be a replacement for readline, but it can be\nmuch more than that. It is cross-platform, everything that you build\nwith it should run fine on both Unix and Windows systems. Also ships\nwith a nice interactive Python shell (called ptpython) built on top.\n",
+   "maintainers": [],
+   "name": "python3.6-prompt_toolkit",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/prompt_toolkit/default.nix:29"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

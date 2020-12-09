@@ -1,0 +1,35 @@
+{
+ "0.97": {
+  "meta": {
+   "description": "Small printer daemon passing jobs directly to the printer",
+   "homepage": "http://p910nd.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "p910nd is a small printer daemon intended for diskless platforms that\ndoes not spool to disk but passes the job directly to the printer.\nNormally a lpr daemon on a spooling host connects to it with a TCP\nconnection on port 910n (where n=0, 1, or 2 for lp0, 1 and 2\nrespectively). p910nd is particularly useful for diskless platforms.\nCommon Unix Printing System (CUPS) supports this protocol, it's called\nthe AppSocket protocol and has the scheme socket://. LPRng also supports\nthis protocol and the syntax is lp=remotehost%9100 in /etc/printcap.\n",
+   "maintainers": [],
+   "name": "p910nd",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/p910nd/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "1.1": {
+  "meta": {
+   "description": "A network library for client/server games with dedicated servers",
+   "homepage": "https://github.com/networkprotocol/yojimbo",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "yojimbo is a network library for client/server games with dedicated servers.\nIt's designed around the networking requirements of competitive multiplayer games like first person shooters.\nAs such it provides a time critical networking layer on top of UDP, with a client/server architecture supporting up to 64 players per-dedicated server instance.\n",
+   "maintainers": [
+    {
+     "email": "pgpatrickgordon@gmail.com",
+     "github": "paddygord",
+     "name": "Patrick Gordon"
+    }
+   ],
+   "name": "yojimbo",
+   "platforms": [
+    {
+     "cpu": {
+      "_type": "cpu-type",
+      "bits": 64,
+      "family": "x86",
+      "name": "x86_64",
+      "significantByte": {
+       "_type": "significant-byte",
+       "name": "littleEndian"
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/yojimbo/default.nix:32"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

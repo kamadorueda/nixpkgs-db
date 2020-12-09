@@ -1,0 +1,41 @@
+{
+ "1.3.12": {
+  "meta": {
+   "description": "Media Changer Tools",
+   "homepage": "https://sourceforge.net/projects/mtx/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "The mtx command controls single or multi-drive SCSI media changers such as\ntape changers, autoloaders, tape libraries, or optical media jukeboxes. It\ncan also be used with media changers that use the 'ATTACHED' API, presuming\nthat they properly report the MChanger bit as required by the SCSI T-10 SMC\nspecification.\n",
+   "maintainers": [
+    {
+     "email": "red@infect.me",
+     "github": "redvers",
+     "name": "Redvers Davies"
+    }
+   ],
+   "name": "mtx",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/backup/mtx/default.nix:14"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

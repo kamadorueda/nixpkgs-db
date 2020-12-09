@@ -1,0 +1,87 @@
+{
+ "0.0.19.1": {
+  "meta": {
+   "description": "An app to send/receive SMS, make USSD requests, control mobile data usage and more",
+   "homepage": "https://linuxonly.ru/page/modem-manager-gui",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "A simple GTK+ based GUI compatible with Modem manager, Wader and oFono\nsystem services able to control EDGE/3G/4G broadband modem specific\nfunctions. You can check balance of your SIM card, send or receive SMS\nmessages, control mobile traffic consumption and more.\n",
+   "maintainers": [
+    {
+     "email": "ales.guzik@gmail.com",
+     "github": "alesguzik",
+     "name": "Ales Huzik"
+    }
+   ],
+   "name": "modem-manager-gui",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/modem-manager-gui/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "0.0.20": {
+  "meta": {
+   "description": "An app to send/receive SMS, make USSD requests, control mobile data usage and more",
+   "homepage": "https://linuxonly.ru/page/modem-manager-gui",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "A simple GTK based GUI compatible with Modem manager, Wader and oFono\nsystem services able to control EDGE/3G/4G broadband modem specific\nfunctions. You can check balance of your SIM card, send or receive SMS\nmessages, control mobile traffic consumption and more.\n",
+   "maintainers": [
+    {
+     "email": "ales.guzik@gmail.com",
+     "github": "alesguzik",
+     "githubId": 209175,
+     "name": "Ales Huzik"
+    },
+    {
+     "email": "lightningstrikeiv@gmail.com",
+     "github": "galagora",
+     "githubId": 45048741,
+     "name": "Alwanga Oyango"
+    }
+   ],
+   "name": "modem-manager-gui",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/modem-manager-gui/default.nix:53"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

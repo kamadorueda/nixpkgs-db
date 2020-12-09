@@ -1,0 +1,41 @@
+{
+ "0.3": {
+  "meta": {
+   "description": "Tools to manipulate Android OTA archives",
+   "homepage": "https://github.com/erfanoabdi/imgpatchtools",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "This package is useful for Android development. In particular, it can be\nused to extract ext4 /system image from Android distribution ZIP archives\nsuch as those distributed by LineageOS and Replicant, via BlockImageUpdate\nutility. It also includes other, related, but arguably more advanced tools\nfor OTA manipulation.\n",
+   "maintainers": [
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "name": "Yegor Timoshenko"
+    }
+   ],
+   "name": "imgpatchtools",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/imgpatchtools/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

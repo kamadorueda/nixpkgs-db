@@ -1,0 +1,82 @@
+{
+ "1.2.1": {
+  "meta": {
+   "description": "GRUB 2.0 extended with TCG (TPM) support for integrity measured boot process (trusted boot)",
+   "homepage": "https://github.com/Sirrix-AG/TrustedGRUB2",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "trustedGRUB2",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/grub/trusted.nix:98"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

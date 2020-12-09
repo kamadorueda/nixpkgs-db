@@ -1,0 +1,87 @@
+{
+ "6.4.2": {
+  "meta": {
+   "description": "",
+   "homepage": "https://sourceforge.net/projects/polyclipping",
+   "license": {
+    "fullName": "Boost Software License 1.0",
+    "shortName": "boost",
+    "spdxId": "BSL-1.0",
+    "url": "http://spdx.org/licenses/BSL-1.0.html"
+   },
+   "long_description": "The Clipper library performs line & polygon clipping - intersection, union, difference & exclusive-or,\nand line & polygon offsetting. The library is based on Vatti's clipping algorithm.\n",
+   "maintainers": [
+    {
+     "email": "matthewtpickering@gmail.com",
+     "github": "mpickering",
+     "name": "Matthew Pickering"
+    }
+   ],
+   "name": "Clipper",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/clipper/default.nix:4"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

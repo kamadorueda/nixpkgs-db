@@ -1,0 +1,230 @@
+{
+ "1.2.15.3": {
+  "meta": {
+   "description": "Runtime library to control radio transceivers and receivers",
+   "homepage": "http://hamlib.sourceforge.net",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0+",
+     "url": "http://spdx.org/licenses/GPL-2.0+"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 or later",
+     "shortName": "lgpl2Plus",
+     "spdxId": "LGPL-2.0+",
+     "url": "http://spdx.org/licenses/LGPL-2.0+"
+    }
+   ],
+   "long_description": "Hamlib provides a standardized programming interface that applications\ncan use to send the appropriate commands to a radio.\n\nAlso included in the package is a simple radio control program 'rigctl',\nwhich lets one control a radio transceiver or receiver, either from\ncommand line interface or in a text-oriented interactive interface.\n",
+   "maintainers": [
+    "Ricky Elrod <ricky@elrod.me>"
+   ],
+   "name": "hamlib",
+   "platforms": null,
+   "position": "pkgs/development/libraries/hamlib/default.nix:21"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "3.2": {
+  "meta": {
+   "description": "Runtime library to control radio transceivers and receivers",
+   "homepage": "http://hamlib.sourceforge.net",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0+",
+     "url": "http://spdx.org/licenses/GPL-2.0+.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 or later",
+     "shortName": "lgpl2Plus",
+     "spdxId": "LGPL-2.0+",
+     "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+    }
+   ],
+   "long_description": "Hamlib provides a standardized programming interface that applications\ncan use to send the appropriate commands to a radio.\n\nAlso included in the package is a simple radio control program 'rigctl',\nwhich lets one control a radio transceiver or receiver, either from\ncommand line interface or in a text-oriented interactive interface.\n",
+   "maintainers": [
+    {
+     "email": "ricky@elrod.me",
+     "github": "relrod",
+     "name": "Ricky Elrod"
+    }
+   ],
+   "name": "hamlib",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/hamlib/default.nix:21"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "3.3": {
+  "meta": {
+   "description": "Runtime library to control radio transceivers and receivers",
+   "homepage": "http://hamlib.sourceforge.net",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0+",
+     "url": "http://spdx.org/licenses/GPL-2.0+.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 or later",
+     "shortName": "lgpl2Plus",
+     "spdxId": "LGPL-2.0+",
+     "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+    }
+   ],
+   "long_description": "Hamlib provides a standardized programming interface that applications\ncan use to send the appropriate commands to a radio.\n\nAlso included in the package is a simple radio control program 'rigctl',\nwhich lets one control a radio transceiver or receiver, either from\ncommand line interface or in a text-oriented interactive interface.\n",
+   "maintainers": [
+    {
+     "email": "ricky@elrod.me",
+     "github": "relrod",
+     "name": "Ricky Elrod"
+    }
+   ],
+   "name": "hamlib",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/hamlib/default.nix:21"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

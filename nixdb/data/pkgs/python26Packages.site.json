@@ -1,0 +1,18 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "Enable processing of pth files anywhere in PYTHONPATH",
+   "homepage": "",
+   "license": null,
+   "long_description": "This file is normally created by easy_install / distutils in\nsite-packages and overrides python's default site.py. It adds\nall parts of PYTHONPATH as site directories, which means pth\nfiles are processed in them. We remove the normally created\nsite.py's and package it separately instead as it would cause\ncollisions.\n\nFor each module we have a pth file listing the module and all\nits dependencies and we include python-site into the\nPYTHONPATH of wrapped python programs so they can find their\ndependencies.\n",
+   "maintainers": [],
+   "name": "site",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "013c915777d2c0580a11cbfee902e1d8676da9c1",
+   "833023d85a2d0c6fd8eed7f6be5be6c247c8bbc3"
+  ]
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "1.7": {
+  "meta": {
+   "description": "GNU Time, a tool that runs programs and summarizes the system resources they use",
+   "homepage": "http://www.gnu.org/software/time/",
+   "license": "GPLv2+",
+   "long_description": "The `time' command runs another program, then displays\ninformation about the resources used by that program, collected\nby the system while the program was running.  You can select\nwhich information is reported and the format in which it is\nshown, or have `time' save the information in a file instead of\ndisplaying it on the screen.\n\nThe resources that `time' can report on fall into the general\ncategories of time, memory, and I/O and IPC calls.  Some systems\ndo not provide much information about program resource use;\n`time' reports unavailable information as zero values.\n",
+   "maintainers": [],
+   "name": "time",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.8": {
+  "meta": {
+   "description": "Tool that runs programs and summarizes the system resources they use",
+   "homepage": "http://www.gnu.org/software/time/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+"
+   },
+   "long_description": "The `time' command runs another program, then displays\ninformation about the resources used by that program, collected\nby the system while the program was running.  You can select\nwhich information is reported and the format in which it is\nshown, or have `time' save the information in a file instead of\ndisplaying it on the screen.\n\nThe resources that `time' can report on fall into the general\ncategories of time, memory, and I/O and IPC calls.  Some systems\ndo not provide much information about program resource use;\n`time' reports unavailable information as zero values.\n",
+   "maintainers": [],
+   "name": "time",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/misc/time/default.nix:13"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.9": {
+  "meta": {
+   "description": "Tool that runs programs and summarizes the system resources they use",
+   "homepage": "https://www.gnu.org/software/time/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "The `time' command runs another program, then displays\ninformation about the resources used by that program, collected\nby the system while the program was running.  You can select\nwhich information is reported and the format in which it is\nshown, or have `time' save the information in a file instead of\ndisplaying it on the screen.\n\nThe resources that `time' can report on fall into the general\ncategories of time, memory, and I/O and IPC calls.  Some systems\ndo not provide much information about program resource use;\n`time' reports unavailable information as zero values.\n",
+   "maintainers": [],
+   "name": "time",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/misc/time/default.nix:13"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

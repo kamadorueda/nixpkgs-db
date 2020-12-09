@@ -1,0 +1,108 @@
+{
+ "6.33.0": {
+  "meta": {
+   "description": "Generic OCaml Makefile for GNU Make",
+   "homepage": "http://www.ocaml.info/home/ocaml_sources.html",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "ocaml-make",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "007bb142bd421d9244cffe009e9ff570ac1554b1",
+   "1cd24d18a302e3aac40a33c6deebfddd5e3443c1"
+  ]
+ },
+ "6.36.0": {
+  "meta": {
+   "description": "Generic OCaml Makefile for GNU Make",
+   "homepage": "http://www.ocaml.info/home/ocaml_sources.html",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "ocaml-make",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "049c38a9a292376d9c99628015d1adc609ac347e"
+  ]
+ },
+ "6.37.0": {
+  "meta": {
+   "description": "Generic OCaml Makefile for GNU Make",
+   "homepage": "http://www.ocaml.info/home/ocaml_sources.html",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "ocaml-make",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/ocamlmake/default.nix:25"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

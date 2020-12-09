@@ -1,0 +1,42 @@
+{
+ "0.5.3": {
+  "meta": {
+   "description": "A build system that uses ptrace to handle dependencies automatically\n",
+   "homepage": "https://physics.oregonstate.edu/~roundyd/fac",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Fac is a general-purpose build system inspired by make that utilizes\nptrace to ensure that all dependences are enumerated and that all\nsource files are added to a (git) repo. An important feature of fac\nis that it automatically handles dependencies, rather than either\ncomplaining about them or giving an incorrect build. Currently, fac\nonly runs on linux systems, but on those systems it is incredibly\neasy to use!\n",
+   "maintainers": [
+    {
+     "email": "dpercy@dpercy.dev",
+     "github": "dpercy",
+     "githubId": 349909,
+     "name": "David Percy"
+    }
+   ],
+   "name": "fac-build",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/build-managers/fac/default.nix:33"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

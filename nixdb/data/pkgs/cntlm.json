@@ -1,0 +1,82 @@
+{
+ "0.35.1": {
+  "meta": {
+   "description": "Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy",
+   "homepage": "http://cntlm.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License version 2 only",
+    "shortName": "GPLv2",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Joachim Schiele <js@lastlog.de>"
+   ],
+   "name": "cntlm",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "0.92.3": {
+  "meta": {
+   "description": "NTLM/NTLMv2 authenticating HTTP proxy",
+   "homepage": "http://cntlm.sourceforge.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "js@lastlog.de",
+     "github": "qknight",
+     "name": "Joachim Schiele"
+    },
+    {
+     "email": "markus@wotringer.de",
+     "name": "Markus Wotringer"
+    },
+    {
+     "email": "m@cdagostino.io",
+     "github": "carlosdagos",
+     "name": "Carlos D'Agostino"
+    }
+   ],
+   "name": "cntlm",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/cntlm/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

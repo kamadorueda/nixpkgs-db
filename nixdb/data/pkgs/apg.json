@@ -1,0 +1,115 @@
+{
+ "2.2.3": {
+  "meta": {
+   "description": "Tools for random password generation",
+   "homepage": "http://www.adel.nursat.kz/apg/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": " APG (Automated Password Generator) is the tool set for random\n password generation.\n\n Standalone version\n\n   Generates some random words of required type and prints them\n   to standard output.\n\n Network version\n\n   APG server: When client's request is arrived generates some\n   random words of predefined type and send them to client over\n   the network (according to RFC0972).\n\n   APG client: Sends the password generation request to the APG\n   server, wait for generated Passwords arrival and then prints\n   them to the standard output.\n\nAdvantages\n\n  * Built-in ANSI X9.17 RNG (Random Number Generator) (CAST/SHA1)\n  * Built-in password quality checking system (it has support for\n    Bloom filter for faster access)\n  * Two Password Generation Algorithms:\n      1. Pronounceable Password Generation Algorithm (according to\n         NIST FIPS 181)\n      2. Random Character Password Generation Algorithm with 35\n         configurable modes of operation\n  * Configurable password length parameters\n  * Configurable amount of generated passwords\n  * Ability to initialize RNG with user string\n  * Support for /dev/random\n  * Ability to crypt() generated passwords and print them as\n    additional output\n  * Special parameters to use APG in script\n  * Ability to log password generation requests for network version\n  * Ability to control APG service access using tcpd\n  * Ability to use password generation service from any type of box\n    (Mac, WinXX, etc.) that connected to network\n  * Ability to enforce remote users to use only allowed type of\n    password generation\n",
+   "maintainers": [
+    "Alexander Tsamutali <astsmtl@yandex.ru>"
+   ],
+   "name": "apg",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/tools/security/apg/default.nix:15"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "2.3.0b": {
+  "meta": {
+   "description": "Tools for random password generation",
+   "homepage": "http://www.adel.nursat.kz/apg/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": " APG (Automated Password Generator) is the tool set for random\n password generation.\n\n Standalone version\n\n   Generates some random words of required type and prints them\n   to standard output.\n\n Network version\n\n   APG server: When client's request is arrived generates some\n   random words of predefined type and send them to client over\n   the network (according to RFC0972).\n\n   APG client: Sends the password generation request to the APG\n   server, wait for generated Passwords arrival and then prints\n   them to the standard output.\n\nAdvantages\n\n  * Built-in ANSI X9.17 RNG (Random Number Generator) (CAST/SHA1)\n  * Built-in password quality checking system (it has support for\n    Bloom filter for faster access)\n  * Two Password Generation Algorithms:\n      1. Pronounceable Password Generation Algorithm (according to\n         NIST FIPS 181)\n      2. Random Character Password Generation Algorithm with 35\n         configurable modes of operation\n  * Configurable password length parameters\n  * Configurable amount of generated passwords\n  * Ability to initialize RNG with user string\n  * Support for /dev/random\n  * Ability to crypt() generated passwords and print them as\n    additional output\n  * Special parameters to use APG in script\n  * Ability to log password generation requests for network version\n  * Ability to control APG service access using tcpd\n  * Ability to use password generation service from any type of box\n    (Mac, WinXX, etc.) that connected to network\n  * Ability to enforce remote users to use only allowed type of\n    password generation\n",
+   "maintainers": [
+    {
+     "email": "astsmtl@yandex.ru",
+     "github": "astsmtl",
+     "name": "Alexander Tsamutali"
+    }
+   ],
+   "name": "apg",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/tools/security/apg/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

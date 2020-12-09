@@ -1,0 +1,81 @@
+{
+ "6.2": {
+  "meta": {
+   "description": "Library for interactive line editing",
+   "homepage": "https://savannah.gnu.org/projects/readline/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "The GNU Readline library provides a set of functions for use by\napplications that allow users to edit command lines as they are\ntyped in.  Both Emacs and vi editing modes are available.  The\nReadline library includes additional functions to maintain a\nlist of previously-entered command lines, to recall and perhaps\nreedit those lines, and perform csh-like history expansion on\nprevious commands.\n\nThe history facilities are also placed into a separate library,\nthe History library, as part of the build process.  The History\nlibrary may be used without Readline in applications which\ndesire its capabilities.\n",
+   "maintainers": [],
+   "name": "readline",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/readline/6.2.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "0.2.9": {
+  "meta": {
+   "description": "Checks the syntax of Postgresql SQL files",
+   "homepage": "http://github.com/markdrago/pgsanity",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "PgSanity checks the syntax of Postgresql SQL files by\ntaking a file that has a list of bare SQL in it, \nmaking that file look like a C file with embedded SQL, \nrun it through ecpg and \nlet ecpg report on the syntax errors of the SQL.\n",
+   "maintainers": [
+    {
+     "email": "ashijit007@gmail.com",
+     "github": "nalbyuites",
+     "name": "Ashijit Pramanik"
+    }
+   ],
+   "name": "python3.7-pgsanity",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pgsanity/default.nix:24"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

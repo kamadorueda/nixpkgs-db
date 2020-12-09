@@ -1,0 +1,85 @@
+{
+ "2.92": {
+  "meta": {
+   "description": "A monospace bitmap font aimed at programmers",
+   "homepage": "https://www.donationcoder.com/Software/Jibz/Dina/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "Dina is a monospace bitmap font, primarily aimed at programmers. It is\nrelatively compact to allow a lot of code on screen, while (hopefully)\nclear enough to remain readable even at high resolutions.\n",
+   "maintainers": [
+    {
+     "email": "pavan.rikhi@gmail.com",
+     "github": "prikhi",
+     "name": "Pavan Rikhi"
+    }
+   ],
+   "name": "dina-font-pcf",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/data/fonts/dina-pcf/default.nix:53"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

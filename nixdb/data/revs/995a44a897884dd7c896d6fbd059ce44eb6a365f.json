@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix a race condition in mountall: the USR1 signal handler must be   installed before we daemonise, otherwise another job might send   USR1 to mountall before the handler is installed, killing it.",
+ "timestamp": "1332239111"
+}

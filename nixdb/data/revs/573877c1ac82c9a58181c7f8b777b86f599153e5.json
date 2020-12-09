@@ -1,0 +1,4 @@
+{
+ "summary": "* Use boot.kernelModules everywhere instead of explicit calls to   modprobe. * Move the implementation of boot.kernelModules from the udev job to   the activation script.  This prevents races with the udev job. * Drop references to the \"capability\" kernel module, which no longer   exists.",
+ "timestamp": "1332005177"
+}

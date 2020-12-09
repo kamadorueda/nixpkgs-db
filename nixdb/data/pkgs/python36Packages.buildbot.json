@@ -1,0 +1,56 @@
+{
+ "1.4.0": {
+  "meta": {
+   "description": "Buildbot is an open-source continuous integration framework for automating software build, test, and release processes",
+   "homepage": "http://buildbot.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nando@hex7.com",
+     "github": "nand0p",
+     "name": "Fernando Jose Pando"
+    },
+    {
+     "email": "ryan.t.sydnor@gmail.com",
+     "github": "ryansydnor",
+     "name": "Ryan Sydnor"
+    }
+   ],
+   "name": "python3.6-buildbot",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/buildbot/default.nix:89"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "3633b3271dfc644acc63b062feb4f95e88054c42"
+  ]
+ }
+}

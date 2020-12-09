@@ -1,0 +1,51 @@
+{
+ "0.1.5": {
+  "meta": {
+   "description": "Use requests to talk HTTP via a UNIX domain socket",
+   "homepage": "https://github.com/msabramo/requests-unixsocket",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "sbaugh@catern.com",
+     "github": "catern",
+     "name": "Spencer Baugh"
+    }
+   ],
+   "name": "python3.6-requests-unixsocket",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/requests-unixsocket/default.nix:23"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

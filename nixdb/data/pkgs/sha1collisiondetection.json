@@ -1,0 +1,72 @@
+{
+ "1.0.1": {
+  "meta": {
+   "description": "Library and command line tool to detect SHA-1 collision",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT"
+   },
+   "long_description": "This library and command line tool were designed as near drop-in\nreplacements for common SHA-1 libraries and sha1sum. They will\ncompute the SHA-1 hash of any given file and additionally will\ndetect cryptanalytic collision attacks against SHA-1 present in\neach file. It is very fast and takes less than twice the amount\nof time as regular SHA-1.\n",
+   "maintainers": [
+    "Michiel Leenaars <ml.software@leenaa.rs>"
+   ],
+   "name": "sha1collisiondetection",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/tools/security/sha1collisiondetection/default.nix:22"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "1.0.3": {
+  "meta": {
+   "description": "Library and command line tool to detect SHA-1 collision",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "This library and command line tool were designed as near drop-in\nreplacements for common SHA-1 libraries and sha1sum. They will\ncompute the SHA-1 hash of any given file and additionally will\ndetect cryptanalytic collision attacks against SHA-1 present in\neach file. It is very fast and takes less than twice the amount\nof time as regular SHA-1.\n",
+   "maintainers": [
+    {
+     "email": "ml.software@leenaa.rs",
+     "github": "leenaars",
+     "name": "Michiel Leenaars"
+    }
+   ],
+   "name": "sha1collisiondetection",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/tools/security/sha1collisiondetection/default.nix:21"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

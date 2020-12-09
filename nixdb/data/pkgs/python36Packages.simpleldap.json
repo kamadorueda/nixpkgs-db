@@ -1,0 +1,51 @@
+{
+ "0.8": {
+  "meta": {
+   "description": "A module that makes simple LDAP usage simple",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "A small wrapper around the python-ldap library that provides a more\nPythonic interface for LDAP server connections, LDAP objects, and the\ncommon get and search operations.\n",
+   "maintainers": [
+    {
+     "email": "layus.on@gmail.com",
+     "github": "layus",
+     "name": "Guillaume Maudoux"
+    }
+   ],
+   "name": "python3.6-simpleldap",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/python-packages.nix:12845"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

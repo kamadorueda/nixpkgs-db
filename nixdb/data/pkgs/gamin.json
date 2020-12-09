@@ -1,0 +1,93 @@
+{
+ "0.1.10": {
+  "meta": {
+   "description": "A file and directory monitoring system",
+   "homepage": "https://people.gnome.org/~veillard/gamin/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    }
+   ],
+   "name": "gamin",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/gamin/default.nix:31"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ }
+}

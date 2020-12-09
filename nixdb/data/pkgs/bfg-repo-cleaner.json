@@ -1,0 +1,87 @@
+{
+ "1.13.0": {
+  "meta": {
+   "description": "Removes large or troublesome blobs in a git repository like git-filter-branch does, but faster",
+   "homepage": "https://rtyley.github.io/bfg-repo-cleaner/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "The BFG is a simpler, faster alternative to git-filter-branch for\ncleansing bad data out of your Git repository history, in particular removing\ncrazy big files and removing passwords, credentials, and other private data.\n\nThe git-filter-branch command is enormously powerful and can do things\nthat the BFG can't - but the BFG is much better for the tasks above, because\nit's faster (10-720x), simpler (dedicated to just removing things), and\nbeautiful (can use Scala instead of bash to script customizations).\n",
+   "maintainers": [
+    {
+     "email": "mail@changlinli.com",
+     "github": "changlinli",
+     "name": "Changlin Li"
+    }
+   ],
+   "name": "bfg-repo-cleaner",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/version-management/git-and-tools/bfg-repo-cleaner/default.nix:32"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

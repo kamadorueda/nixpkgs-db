@@ -1,0 +1,88 @@
+{
+ "5.1": {
+  "meta": {
+   "description": "Torch is a machine-learning library",
+   "homepage": "http://torch.ch",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "Torch is the main package in [Torch7](http://torch.ch) where data\nstructures for multi-dimensional tensors and mathematical operations\nover these are defined. Additionally, it provides many utilities for\naccessing files, serializing objects of arbitrary types and other\nuseful utilities.\n",
+   "maintainers": [
+    {
+     "email": "grrwlf@gmail.com",
+     "github": "grwlf",
+     "name": "Sergey Mironov"
+    }
+   ],
+   "name": "torch",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/science/machine-learning/torch/torch-distro.nix:164"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

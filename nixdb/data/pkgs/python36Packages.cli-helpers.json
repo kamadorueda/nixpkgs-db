@@ -1,0 +1,51 @@
+{
+ "1.0.2": {
+  "meta": {
+   "description": "Python helpers for common CLI tasks",
+   "homepage": "https://cli-helpers.readthedocs.io/en/stable/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "CLI Helpers is a Python package that makes it easy to perform common\ntasks when building command-line apps. It's a helper library for\ncommand-line interfaces.\n\nLibraries like Click and Python Prompt Toolkit are amazing tools that\nhelp you create quality apps. CLI Helpers complements these libraries by\nwrapping up common tasks in simple interfaces.\n\nCLI Helpers is not focused on your app's design pattern or framework --\nyou can use it on its own or in combination with other libraries. It's\nlightweight and easy to extend.\n\nWhat's included in CLI Helpers?\n\n- Prettyprinting of tabular data with custom pre-processing\n- [in progress] config file reading/writing\n\nRead the documentation at http://cli-helpers.rtfd.io\n",
+   "maintainers": [
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "python3.6-cli_helpers",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/cli-helpers/default.nix:34"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

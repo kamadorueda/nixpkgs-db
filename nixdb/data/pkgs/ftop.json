@@ -1,0 +1,35 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "Show progress of open files and file systems",
+   "homepage": "https://code.google.com/archive/p/ftop/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "ftop is to files what top is to processes. The progress of all open files\nand file systems can be monitored. If run as a regular user, the set of\nopen files will be limited to those in that user's processes (which is\ngenerally all that is of interest to the user).\nAs with top, the items are displayed in order from most to least active.\n",
+   "maintainers": [],
+   "name": "ftop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/ftop/default.nix:25"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "2.0.3": {
+  "meta": {
+   "description": "Qt installer framework",
+   "homepage": "http://www.qt.io",
+   "license": [
+    {
+     "fullName": "GNU Free Documentation License v1.3",
+     "shortName": "fdl13",
+     "spdxId": "GFDL-1.3",
+     "url": "http://spdx.org/licenses/GFDL-1.3.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v3.0 only",
+     "shortName": "lgpl3",
+     "spdxId": "LGPL-3.0",
+     "url": "http://spdx.org/licenses/LGPL-3.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [],
+   "name": "qtinstaller",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/qtinstaller/default.nix:43"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

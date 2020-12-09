@@ -1,0 +1,95 @@
+{
+ "11.01": {
+  "meta": {
+   "description": "ExifTool, a tool to read, write and edit EXIF meta information",
+   "homepage": "https://www.sno.phy.queensu.ca/~phil/exiftool/",
+   "license": [
+    {
+     "fullName": "GNU General Public License v1.0 or later",
+     "shortName": "gpl1Plus",
+     "spdxId": "GPL-1.0+",
+     "url": "http://spdx.org/licenses/GPL-1.0+.html"
+    },
+    {
+     "fullName": "Artistic License 2.0",
+     "shortName": "artistic2",
+     "spdxId": "Artistic-2.0",
+     "url": "http://spdx.org/licenses/Artistic-2.0.html"
+    }
+   ],
+   "long_description": "ExifTool is a platform-independent Perl library plus a command-line\napplication for reading, writing and editing meta information in\nimage, audio and video files.  ExifTool supports many different types\nof metadata including EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC\nProfile, Photoshop IRB, FlashPix, AFCP and ID3, as well as the maker\nnotes of many digital cameras by Canon, Casio, FujiFilm, HP,\nJVC/Victor, Kodak, Leaf, Minolta/Konica-Minolta, Nikon,\nOlympus/Epson, Panasonic/Leica, Pentax/Asahi, Ricoh, Sanyo,\nSigma/Foveon and Sony.\n",
+   "maintainers": [
+    {
+     "email": "kiloreux@gmail.com",
+     "github": "kiloreux",
+     "name": "Kiloreux Emperex"
+    }
+   ],
+   "name": "perl5.24.4-Image-ExifTool",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "lib/attrsets.nix:335"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

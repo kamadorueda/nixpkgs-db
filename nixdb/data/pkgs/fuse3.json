@@ -1,0 +1,954 @@
+{
+ "3.1.1": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Michael Weiss <dev.primeos@gmail.com>"
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:68"
+  },
+  "revs": [
+   "00b4e2646cb07611944645d219bfe1202d34e20c",
+   "2da5e958dddf8a47df38ca60d42df35f4d8f67f2"
+  ]
+ },
+ "3.10.0": {
+  "meta": {
+   "description": "Library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:87"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "3.10.1": {
+  "meta": {
+   "description": "Library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:87"
+  },
+  "revs": [
+   "101c5a96ad5df1b1b0d74b0a0f6d071d5a296873",
+   "a1b23037101c4c327d9e9bfd44ce6c2f2546a5db"
+  ]
+ },
+ "3.2.0": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Michael Weiss <dev.primeos@gmail.com>"
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:80"
+  },
+  "revs": [
+   "00078afb1f6c383405fa4bef9646d575f70b092f",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "3.2.1": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Michael Weiss <dev.primeos@gmail.com>"
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:77"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "4d6e4b96526ef09aa57fb42b75eefe90408dac6e"
+  ]
+ },
+ "3.2.2": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:81"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "479f6960d8d7a48c34bf413019068bcc8822f836"
+  ]
+ },
+ "3.2.3": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:78"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "3.2.4": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:73"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "289390b8d49282fdcb8c04c981b216ace246f790"
+  ]
+ },
+ "3.2.5": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:73"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "3.2.6": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:82"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "3.3.0": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0",
+     "url": "http://spdx.org/licenses/GPL-2.0.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1",
+     "url": "http://spdx.org/licenses/LGPL-2.1.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:82"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "3.4.1": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:82"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "3.4.2": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:82"
+  },
+  "revs": [
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f",
+   "a162a721a9dd2c1060b2878383455702130d81fa"
+  ]
+ },
+ "3.5.0": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:82"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "3.6.1": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:84"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "86e3208ca31bc3dcddc412c59eae2e42107abcec"
+  ]
+ },
+ "3.6.2": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:87"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "3.9.0": {
+  "meta": {
+   "description": "Kernel module and library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:88"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "3.9.1": {
+  "meta": {
+   "description": "Library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21",
+     "spdxId": "LGPL-2.1-only",
+     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:87"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "6a380c4ea227df1213bcf33c3384b45810ed3056"
+  ]
+ },
+ "3.9.2": {
+  "meta": {
+   "description": "Library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:87"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "3.9.4": {
+  "meta": {
+   "description": "Library that allows filesystems to be implemented in user space",
+   "homepage": "https://github.com/libfuse/libfuse",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Lesser General Public License v2.1 only",
+     "shortName": "lgpl21Only",
+     "spdxId": "LGPL-2.1-only",
+     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+    }
+   ],
+   "long_description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "fuse",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/fuse/common.nix:91"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ }
+}

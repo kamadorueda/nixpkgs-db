@@ -1,0 +1,51 @@
+{
+ "1.8": {
+  "meta": {
+   "description": "Scalable Python framework for cluster administration",
+   "homepage": "https://cea-hpc.github.io/clustershell",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "alexander.vorobiev@gmail.com",
+     "github": "alexvorobiev",
+     "name": "Alex Vorobiev"
+    }
+   ],
+   "name": "python3.6-ClusterShell",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/clustershell/default.nix:84"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

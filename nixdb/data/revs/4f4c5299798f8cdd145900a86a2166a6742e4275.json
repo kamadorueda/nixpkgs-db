@@ -1,0 +1,4 @@
+{
+ "summary": "Stage 1 improvements: * Load scsi_wait_scan after all other kernel modules to ensure that   all SCSI device nodes have been created. * Increase the timeout for the appearance of the root device to 20   seconds. * Do a \"udevadm settle\" just after the root device has appeared to   make sure that udev isn't accessing the device anymore (hopefully).   On EC2 (Xen), I've seen fsck on the root fail randomly with \"device   in use\" errors.",
+ "timestamp": "1333722043"
+}

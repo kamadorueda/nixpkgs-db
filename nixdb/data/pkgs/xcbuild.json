@@ -1,0 +1,116 @@
+{
+ "0.1.2-pre": {
+  "meta": {
+   "description": "Xcode-compatible build tool",
+   "homepage": "https://github.com/facebook/xcbuild",
+   "license": [
+    {
+     "fullName": "BSD 2-clause \"Simplified\" License",
+     "shortName": "bsd2",
+     "spdxId": "BSD-2-Clause",
+     "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pumpkingod@gmail.com",
+     "github": "copumpkin",
+     "name": "Dan Peebles"
+    },
+    {
+     "email": "mjbauer95@gmail.com",
+     "github": "matthewbauer",
+     "name": "Matthew Bauer"
+    }
+   ],
+   "name": "xcodebuild",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/xcbuild/default.nix:61"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "49f8a592": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "xcbuild",
+   "platforms": null,
+   "position": "pkgs/development/tools/xcbuild/default.nix:18"
+  },
+  "revs": [
+   "0018599a26747abc03457cf67c8cbc5d351661a3",
+   "18188947fa36358fac213245d41206edf2c3c7e7"
+  ]
+ }
+}

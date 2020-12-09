@@ -1,0 +1,697 @@
+{
+ "0.1.0.0": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:99152"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.10": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:113003"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "0.10.1": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:114123"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "6a380c4ea227df1213bcf33c3384b45810ed3056"
+  ]
+ },
+ "0.10.2": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:114061"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "0.10.3": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:115947"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "0.8": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:111561"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "2019.02.22-git": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:100137"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "b33e1ac83fc9254898b8fadb6a936a2e215ab8a8"
+  ]
+ },
+ "20190307-git": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:103704"
+  },
+  "revs": [
+   "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "20190625-git": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "x86_64-windows",
+    "i686-windows"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:106932"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+  ]
+ },
+ "20190814-git": {
+  "meta": {
+   "description": "Cabal package script generator for Travis-CI",
+   "homepage": "https://hackage.haskell.org/package/haskell-ci",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "simons@cryp.to",
+     "github": "peti",
+     "githubId": 28323,
+     "name": "Peter Simons"
+    }
+   ],
+   "name": "haskell-ci",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "x86_64-windows",
+    "i686-windows"
+   ],
+   "position": "pkgs/development/haskell-modules/hackage-packages.nix:107301"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ }
+}

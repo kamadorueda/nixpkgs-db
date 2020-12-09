@@ -1,0 +1,101 @@
+{
+ "0.20.0": {
+  "meta": {
+   "description": "A tracepoint-based system tracing tool for Linux (with clients for other OSes)",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "sysdig",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/sysdig/default.nix:53"
+  },
+  "revs": [
+   "00e6e395d38ba8a4d6c23ed61aba2b5594b6c1b4",
+   "2f2c44c79289d9956ef00c255900939070bad358"
+  ]
+ },
+ "0.21.0": {
+  "meta": {
+   "description": "A tracepoint-based system tracing tool for Linux (with clients for other OSes)",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "sysdig",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/sysdig/default.nix:53"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ }
+}

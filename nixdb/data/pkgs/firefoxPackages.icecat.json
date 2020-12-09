@@ -1,0 +1,89 @@
+{
+ "60.3.0-gnu1": {
+  "meta": {
+   "description": "The GNU version of the Firefox web browser",
+   "homepage": "https://www.gnu.org/software/gnuzilla/",
+   "license": [
+    {
+     "fullName": "Mozilla Public License 2.0",
+     "shortName": "mpl20",
+     "spdxId": "MPL-2.0",
+     "url": "http://spdx.org/licenses/MPL-2.0.html"
+    },
+    {
+     "fullName": "GNU General Public License v3.0 or later",
+     "shortName": "gpl3Plus",
+     "spdxId": "GPL-3.0-or-later",
+     "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+    }
+   ],
+   "long_description": "GNUzilla is the GNU version of the Mozilla suite, and GNU\nIceCat is the GNU version of the Firefox web browser.\n\nNotable differences from mainline Firefox:\n\n- entirely free software, no non-free plugins, addons,\n  artwork,\n- no telemetry, no \"studies\",\n- sane privacy and security defaults (for instance, unlike\n  Firefox, IceCat does _zero_ network requests on startup by\n  default, which means that with IceCat you won't need to\n  unplug your Ethernet cable each time you want to create a\n  new browser profile without announcing that action to a\n  bunch of data-hungry corporations),\n- all essential privacy and security settings can be\n  configured directly from the main screen,\n- optional first party isolation (like TorBrowser),\n- comes with HTTPS Everywhere (like TorBrowser), Tor Browser\n  Button (like TorBrowser Bundle), LibreJS, and SpyBlock\n  plugins out of the box.\n\nThis package can be installed together with Firefox and\nTorBrowser, it will use distinct binary names and profile\ndirectories.\n",
+   "maintainers": [],
+   "name": "icecat-unwrapped",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/browsers/firefox/packages.nix:101"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

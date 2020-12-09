@@ -1,0 +1,100 @@
+{
+ "2.1.1": {
+  "meta": {
+   "description": "Native Python SSHv2 protocol library",
+   "homepage": "https://github.com/paramiko/paramiko/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "This is a library for making SSH2 connections (client or server).\nEmphasis is on using SSH2 as an alternative to SSL for making secure\nconnections between python scripts. All major ciphers and hash methods\nare supported. SFTP client and server mode are both supported too.\n",
+   "maintainers": [
+    {
+     "email": "aszlig@nix.build",
+     "github": "aszlig",
+     "name": "aszlig"
+    }
+   ],
+   "name": "python3.6-paramiko",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/python-packages.nix:9579"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "2.4.2": {
+  "meta": {
+   "description": "Native Python SSHv2 protocol library",
+   "homepage": "https://github.com/paramiko/paramiko/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "This is a library for making SSH2 connections (client or server).\nEmphasis is on using SSH2 as an alternative to SSL for making secure\nconnections between python scripts. All major ciphers and hash methods\nare supported. SFTP client and server mode are both supported too.\n",
+   "maintainers": [
+    {
+     "email": "aszlig@nix.build",
+     "github": "aszlig",
+     "name": "aszlig"
+    }
+   ],
+   "name": "python3.6-paramiko",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/paramiko/default.nix:37"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "3633b3271dfc644acc63b062feb4f95e88054c42"
+  ]
+ }
+}

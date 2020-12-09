@@ -1,0 +1,187 @@
+{
+ "1.0.1": {
+  "meta": {
+   "description": "Lightweight library to simplify and generalize unit tests for C",
+   "homepage": "https://cmocka.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "There are a variety of C unit testing frameworks available however\n        many of them are fairly complex and require the latest compiler\n        technology.  Some development requires the use of old compilers which\n        makes it difficult to use some unit testing frameworks. In addition\n        many unit testing frameworks assume the code being tested is an\n        application or module that is targeted to the same platform that will\n        ultimately execute the test.  Because of this assumption many\n        frameworks require the inclusion of standard C library headers in the\n        code module being tested which may collide with the custom or\n        incomplete implementation of the C library utilized by the code under\n        test.\n\n        Cmocka only requires a test application is linked with the standard C\n        library which minimizes conflicts with standard C library headers.\n        Also, CMocka tries to avoid the use of some of the newer features of\n        C compilers.\n\n        This results in CMocka being a relatively small library that can be\n        used to test a variety of exotic code. If a developer wishes to\n        simply test an application with the latest compiler then other unit\n        testing frameworks may be preferable.\n\n        This is the successor of Google's Cmockery.",
+   "maintainers": [
+    "Louis Taylor <louis@kragniz.eu>"
+   ],
+   "name": "cmocka",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/cmocka/default.nix:15"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.1.1": {
+  "meta": {
+   "description": "Lightweight library to simplify and generalize unit tests for C",
+   "homepage": "https://cmocka.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "There are a variety of C unit testing frameworks available however\n        many of them are fairly complex and require the latest compiler\n        technology.  Some development requires the use of old compilers which\n        makes it difficult to use some unit testing frameworks. In addition\n        many unit testing frameworks assume the code being tested is an\n        application or module that is targeted to the same platform that will\n        ultimately execute the test.  Because of this assumption many\n        frameworks require the inclusion of standard C library headers in the\n        code module being tested which may collide with the custom or\n        incomplete implementation of the C library utilized by the code under\n        test.\n\n        Cmocka only requires a test application is linked with the standard C\n        library which minimizes conflicts with standard C library headers.\n        Also, CMocka tries to avoid the use of some of the newer features of\n        C compilers.\n\n        This results in CMocka being a relatively small library that can be\n        used to test a variety of exotic code. If a developer wishes to\n        simply test an application with the latest compiler then other unit\n        testing frameworks may be preferable.\n\n        This is the successor of Google's Cmockery.",
+   "maintainers": [
+    {
+     "email": "louis@kragniz.eu",
+     "github": "kragniz",
+     "name": "Louis Taylor"
+    },
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "cmocka",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/cmocka/default.nix:16"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.1.3": {
+  "meta": {
+   "description": "Lightweight library to simplify and generalize unit tests for C",
+   "homepage": "https://cmocka.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "There are a variety of C unit testing frameworks available however\n        many of them are fairly complex and require the latest compiler\n        technology.  Some development requires the use of old compilers which\n        makes it difficult to use some unit testing frameworks. In addition\n        many unit testing frameworks assume the code being tested is an\n        application or module that is targeted to the same platform that will\n        ultimately execute the test.  Because of this assumption many\n        frameworks require the inclusion of standard C library headers in the\n        code module being tested which may collide with the custom or\n        incomplete implementation of the C library utilized by the code under\n        test.\n\n        Cmocka only requires a test application is linked with the standard C\n        library which minimizes conflicts with standard C library headers.\n        Also, CMocka tries to avoid the use of some of the newer features of\n        C compilers.\n\n        This results in CMocka being a relatively small library that can be\n        used to test a variety of exotic code. If a developer wishes to\n        simply test an application with the latest compiler then other unit\n        testing frameworks may be preferable.\n\n        This is the successor of Google's Cmockery.",
+   "maintainers": [
+    {
+     "email": "louis@kragniz.eu",
+     "github": "kragniz",
+     "name": "Louis Taylor"
+    },
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "cmocka",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/cmocka/default.nix:16"
+  },
+  "revs": [
+   "009719383cbd606297e021ceda4396f503c5805a",
+   "4c0837bffbf33abdfa93466764ef439c3cf41249"
+  ]
+ },
+ "1.1.5": {
+  "meta": {
+   "description": "Lightweight library to simplify and generalize unit tests for C",
+   "homepage": "https://cmocka.org/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "There are a variety of C unit testing frameworks available however\n        many of them are fairly complex and require the latest compiler\n        technology.  Some development requires the use of old compilers which\n        makes it difficult to use some unit testing frameworks. In addition\n        many unit testing frameworks assume the code being tested is an\n        application or module that is targeted to the same platform that will\n        ultimately execute the test.  Because of this assumption many\n        frameworks require the inclusion of standard C library headers in the\n        code module being tested which may collide with the custom or\n        incomplete implementation of the C library utilized by the code under\n        test.\n\n        Cmocka only requires a test application is linked with the standard C\n        library which minimizes conflicts with standard C library headers.\n        Also, CMocka tries to avoid the use of some of the newer features of\n        C compilers.\n\n        This results in CMocka being a relatively small library that can be\n        used to test a variety of exotic code. If a developer wishes to\n        simply test an application with the latest compiler then other unit\n        testing frameworks may be preferable.\n\n        This is the successor of Google's Cmockery.",
+   "maintainers": [
+    {
+     "email": "louis@kragniz.eu",
+     "github": "kragniz",
+     "githubId": 735008,
+     "name": "Louis Taylor"
+    },
+    {
+     "email": "rasen.dubi@gmail.com",
+     "github": "rasendubi",
+     "githubId": 1366419,
+     "name": "Alexey Shmalko"
+    }
+   ],
+   "name": "cmocka",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/libraries/cmocka/default.nix:16"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

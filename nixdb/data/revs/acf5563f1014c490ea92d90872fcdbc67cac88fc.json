@@ -1,0 +1,4 @@
+{
+ "summary": "* Reduce the installed size of mysql from 80 MB to 17 MB by leaving   out some less important stuff, such as the statically linked   embedded binaries and some test data.  This is important because   mysql is currently a dependency of lots of other packages, such as   Qt.  Of course, the real fix would be to split off the mysql client   libraries into a separate package.",
+ "timestamp": "1238803358"
+}

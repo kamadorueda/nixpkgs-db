@@ -1,0 +1,18 @@
+{
+ "1.2.2": {
+  "meta": {
+   "description": "Hitimes is a fast, high resolution timer library for recording performance metrics.  It uses the appropriate low method calls for each system to get the highest granularity time increments possible.",
+   "homepage": "http://github.com/copiousfreetime/hitimes",
+   "license": null,
+   "long_description": "Hitimes is a fast, high resolution timer library for recording performance metrics.  It uses the appropriate low method calls for each system to get the highest granularity time increments possible.   It currently supports any of the following systems: * any system with the POSIX call `clock_gettime()` * Mac OS X * Windows * JRuby Using Hitimes can be faster than using a series of `Time.new` calls, and it will have a much higher granularity. It is definitely faster than using `Process.times`.",
+   "maintainers": [],
+   "name": "ruby-hitimes",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/ruby/generated.nix:958"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "19f0b18b992a9495c20d11ab096cbe6a29eb148f"
+  ]
+ }
+}

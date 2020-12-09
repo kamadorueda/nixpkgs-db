@@ -1,0 +1,87 @@
+{
+ "4.2_2015-02-22": {
+  "meta": {
+   "description": "Language & tool for relational models",
+   "homepage": "http://alloytools.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Alloy is a language for describing structures and a tool for exploring\nthem. An Alloy model is a collection of constraints that describes a set\nof structures, e.g. all the possible security configurations of a web\napplication, or all the possible topologies of a switching network. The\nAlloy Analyzer is a solver that takes the constraints of a model and\nfinds structures that satisfy them. Structures are displayed graphically,\nand their appearance can be customized for the domain at hand.\n",
+   "maintainers": [
+    {
+     "email": "amin@aminb.org",
+     "github": "aminb",
+     "name": "Amin Bandali"
+    }
+   ],
+   "name": "alloy4",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/alloy/default.nix:34"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "5.1.0": {
+  "meta": {
+   "description": "Language & tool for relational models",
+   "homepage": "http://alloytools.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Alloy is a language for describing structures and a tool for exploring\nthem. An Alloy model is a collection of constraints that describes a set\nof structures, e.g. all the possible security configurations of a web\napplication, or all the possible topologies of a switching network. The\nAlloy Analyzer is a solver that takes the constraints of a model and\nfinds structures that satisfy them. Structures are displayed graphically,\nand their appearance can be customized for the domain at hand.\n",
+   "maintainers": [
+    {
+     "email": "bandali@gnu.org",
+     "github": "notbandali",
+     "githubId": 1254858,
+     "keys": [
+      {
+       "fingerprint": "BE62 7373 8E61 6D6D 1B3A  08E8 A21A 0202 4881 6103",
+       "longkeyid": "rsa4096/0xA21A020248816103"
+      }
+     ],
+     "name": "Amin Bandali"
+    }
+   ],
+   "name": "alloy5",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/tools/alloy/default.nix:34"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

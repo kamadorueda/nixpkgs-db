@@ -1,0 +1,241 @@
+{
+ "3.4.4": {
+  "meta": {
+   "description": "A C library for encoding data in a QR Code symbol",
+   "homepage": "https://fukuchi.org/works/qrencode/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+"
+   },
+   "long_description": "Libqrencode is a C library for encoding data in a QR Code symbol,\na kind of 2D symbology that can be scanned by handy terminals\nsuch as a mobile phone with CCD.\n",
+   "maintainers": [
+    "Adolfo E. Garc\u00eda Castro <adolfo.garcia.cr@gmail.com>"
+   ],
+   "name": "libqrencode",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/libraries/libqrencode/default.nix:23"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "4.0.0": {
+  "meta": {
+   "description": "A C library for encoding data in a QR Code symbol",
+   "homepage": "https://fukuchi.org/works/qrencode/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Libqrencode is a C library for encoding data in a QR Code symbol,\na kind of 2D symbology that can be scanned by handy terminals\nsuch as a mobile phone with CCD.\n",
+   "maintainers": [
+    {
+     "email": "adolfo.garcia.cr@gmail.com",
+     "github": "adolfogc",
+     "name": "Adolfo E. Garc\u00eda Castro"
+    }
+   ],
+   "name": "libqrencode",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libqrencode/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "4.0.2": {
+  "meta": {
+   "description": "C library for encoding data in a QR Code symbol",
+   "homepage": "https://fukuchi.org/works/qrencode/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "http://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "Libqrencode is a C library for encoding data in a QR Code symbol,\na kind of 2D symbology that can be scanned by handy terminals\nsuch as a mobile phone with CCD.\n",
+   "maintainers": [
+    {
+     "email": "adolfo.garcia.cr@gmail.com",
+     "github": "adolfogc",
+     "name": "Adolfo E. Garc\u00eda Castro"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "name": "Yegor Timoshenko"
+    }
+   ],
+   "name": "qrencode",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/qrencode/default.nix:35"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "4.1.1": {
+  "meta": {
+   "description": "C library for encoding data in a QR Code symbol",
+   "homepage": "https://fukuchi.org/works/qrencode/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "Libqrencode is a C library for encoding data in a QR Code symbol,\na kind of 2D symbology that can be scanned by handy terminals\nsuch as a mobile phone with CCD.\n",
+   "maintainers": [
+    {
+     "email": "adolfo.garcia.cr@gmail.com",
+     "github": "adolfogc",
+     "githubId": 1250775,
+     "name": "Adolfo E. Garc\u00eda Castro"
+    },
+    {
+     "email": "yegortimoshenko@riseup.net",
+     "github": "yegortimoshenko",
+     "githubId": 1643293,
+     "name": "Yegor Timoshenko"
+    }
+   ],
+   "name": "qrencode",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/development/libraries/qrencode/default.nix:35"
+  },
+  "revs": [
+   "019c3bb417153a2b80f483891f7f0981f6d327a8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

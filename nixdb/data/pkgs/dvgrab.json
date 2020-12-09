@@ -1,0 +1,106 @@
+{
+ "2016-05-16": {
+  "meta": {
+   "description": "Receive and store audio & video over IEEE1394",
+   "homepage": "http://kinodv.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "dvgrab receives audio and video data from a digital camcorder via an\nIEEE1394 (widely known as FireWire) or USB link and stores them into\none of several file formats. It features autosplit of long video\nsequences, and supports saving the data as raw frames, AVI type 1,\nAVI type 2, Quicktime DV, a series of JPEG stills or MPEG2-TS.\n",
+   "maintainers": [],
+   "name": "dvgrab",
+   "platforms": [
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "gnu"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "soft",
+      "name": "gnueabi"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "float": "hard",
+      "name": "gnueabihf"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/video/dvgrab/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "3.5": {
+  "meta": {
+   "description": "dvgrab, receive and store audio & video over IEEE1394",
+   "homepage": "http://kinodv.org/",
+   "license": "GPLv2+",
+   "long_description": "dvgrab receives audio and video data from a digital camcorder via an\n        IEEE1394 (widely known as FireWire) or USB link and stores them into\n        one of several file formats. It features autosplit of long video\n        sequences, and supports saving the data as raw frames, AVI type 1,\n        AVI type 2, Quicktime DV, a series of JPEG stills or MPEG2-TS.\n",
+   "maintainers": [
+    "Ludovic Court\u00e8s <ludo@gnu.org>"
+   ],
+   "name": "dvgrab",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ }
+}

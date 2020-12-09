@@ -1,0 +1,41 @@
+{
+ "2.16.4": {
+  "meta": {
+   "description": "GNOME bindings for GNU Guile",
+   "homepage": "https://www.gnu.org/software/guile-gnome/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "GNU guile-gnome brings the power of Scheme to your graphical application.\nguile-gnome modules support the entire Gnome library stack: from Pango to\nGnomeCanvas, Gtk+ to GStreamer, Glade to GtkSourceView, you will find in\nguile-gnome a comprehensive environment for developing modern\napplications.\n",
+   "maintainers": [
+    {
+     "email": "elisp.vim@gmail.com",
+     "github": "vyp",
+     "name": "vyp"
+    }
+   ],
+   "name": "guile-gnome-platform",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/guile-modules/guile-gnome/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Making the addCoverageInformation stdenv adapter better in the sense that it does not override NIX_CFLAGS_COMPILE anymore in the mkDerivation parameter attributes. This way, apacheHttpd can be built properly with coverage information. An indication of this problem came from the nixos tests.subversion failure.",
+ "timestamp": "1291126252"
+}

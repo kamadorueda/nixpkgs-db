@@ -1,0 +1,31 @@
+{
+ "2.2.2": {
+  "meta": {
+   "description": "Official development kit by Oracle for programming for the Java Card platform",
+   "homepage": "http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "This Java Card SDK is the official SDK made available by Oracle for programming for the Java Card platform.\n\nInstructions for usage:\n\nFirst, compile your '.java' (NixOS-specific: you should not need to set the class path -- if you need, it's a bug):\n    javacardc -source 1.5 -target 1.5 [MyJavaFile].java\nThen, test with 'jcwde' (NixOS-specific: you can change the java version used to run jcwde with eg. JAVA=jdb):\n    CLASSPATH=. jcwde [MyJcwdeConfig].app & sleep 1 && apdutool [MyApdus].apdu\nFinally, convert the '.class' file into a '.cap':\n    converter -applet [AppletAID] [MyApplet] [myPackage] [PackageAID] [Version]\nFor more details, please refer to the documentation by Oracle\n",
+   "maintainers": [
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "name": "Leo Gaspard"
+    }
+   ],
+   "name": "javacard-devkit",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/javacard-devkit/default.nix:51"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

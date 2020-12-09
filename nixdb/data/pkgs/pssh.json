@@ -1,0 +1,51 @@
+{
+ "2.3.1": {
+  "meta": {
+   "description": "Parallel SSH Tools",
+   "homepage": "https://github.com/lilydjwg/pssh",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "PSSH provides parallel versions of OpenSSH and related tools,\nincluding pssh, pscp, prsync, pnuke and pslurp.\n",
+   "maintainers": [
+    {
+     "email": "ch.martin@gmail.com",
+     "github": "chris-martin",
+     "name": "Chris Martin"
+    }
+   ],
+   "name": "pssh",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/tools/networking/pssh/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

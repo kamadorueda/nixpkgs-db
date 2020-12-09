@@ -1,0 +1,42 @@
+{
+ "2.52": {
+  "meta": {
+   "description": "Interpreter for Infocom and other Z-Machine games (SDL interface)",
+   "homepage": "https://davidgriffith.gitlab.io/frotz/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Frotz is a Z-Machine interpreter. The Z-machine is a virtual machine\ndesigned by Infocom to run all of their text adventures. It went through\nmultiple revisions during the lifetime of the company, and two further\nrevisions (V7 and V8) were created by Graham Nelson after the company's\ndemise. The specification is now quite well documented; this version of\nFrotz supports version 1.0.\n\nThis version of Frotz fully supports all these versions of the Z-Machine\nincluding the graphical version 6. Graphics and sound are created through\nthe use of the SDL libraries. AIFF sound effects and music in MOD and OGG\nformats are supported when packaged in Blorb container files or optionally\nfrom individual files.\n",
+   "maintainers": [
+    {
+     "email": "ddelabru@redhat.com",
+     "github": "ddelabru",
+     "githubId": 39909293,
+     "name": "Dominic Delabruere"
+    }
+   ],
+   "name": "sfrotz",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/sfrotz/default.nix:47"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "0.20.0": {
+  "meta": {
+   "description": "A tracepoint-based system tracing tool for Linux (with clients for other OSes)",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "sysdig",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "macho"
+      },
+      "families": {},
+      "name": "darwin"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/sysdig/default.nix:53"
+  },
+  "revs": [
+   "000c7800a1030a61677b64e9edb1670d3d940194",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "0.21.0": {
+  "meta": {
+   "description": "A tracepoint-based system tracing tool for Linux (with clients for other OSes)",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "sysdig",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/sysdig/default.nix:53"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "0.22.1": {
+  "meta": {
+   "description": "A tracepoint-based system tracing tool for Linux (with clients for other OSes)",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "sysdig",
+   "platforms": [
+    "x86_64-linux",
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/sysdig/default.nix:53"
+  },
+  "revs": [
+   "002ae44fa1ef54363a1f16974117dc7f87136549",
+   "4688f4078fa655fa3e56a8a4b2591fb195a7eceb"
+  ]
+ }
+}

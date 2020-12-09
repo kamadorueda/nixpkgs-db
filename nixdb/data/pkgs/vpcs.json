@@ -1,0 +1,41 @@
+{
+ "0.8": {
+  "meta": {
+   "description": "Virtual PC simulator",
+   "homepage": "https://sourceforge.net/projects/vpcs/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "The VPCS can simulate up to 9 PCs. You can ping/traceroute them, or\nping/traceroute the other hosts/routers from the VPCS when you study the\nCisco routers in the dynamips.\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "vpcs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/virtualization/vpcs/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

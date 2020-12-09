@@ -1,0 +1,51 @@
+{
+ "0.6.0": {
+  "meta": {
+   "description": "Repo2docker: Turn code repositories into Jupyter enabled Docker Images",
+   "homepage": "https://repo2docker.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+    "shortName": "bsdOriginal",
+    "spdxId": "BSD-4-Clause",
+    "url": "http://spdx.org/licenses/BSD-4-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "chris.ostrouchov@gmail.com",
+     "github": "costrouc",
+     "name": "Chris Ostrouchov"
+    }
+   ],
+   "name": "python3.6-jupyter-repo2docker",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/jupyter-repo2docker/default.nix:36"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "3633b3271dfc644acc63b062feb4f95e88054c42"
+  ]
+ }
+}

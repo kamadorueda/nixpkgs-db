@@ -1,0 +1,388 @@
+{
+ "1.1.10": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:51"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "5fe5be3d8690f9cb89ec34c829862572994fb216"
+  ]
+ },
+ "1.1.13": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:39"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "1.1.15": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:40"
+  },
+  "revs": [
+   "00222dbb0efd3234b471207aa329025cf38d7d8b",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "1.1.19": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:40"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "5f10cd5e0b1a3d0e610fb3f059f1aa15cbea52ca"
+  ]
+ },
+ "1.1.22": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:40"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "1.1.24": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:40"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "1.1.26": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Crossover LeftRight x8 - Frequenzweiche LeftRight x8\n- Crossover MidSide x8 - Frequenzweiche MidSide x8\n- Crossover Mono x8 - Frequenzweiche Mono x8\n- Crossover Stereo x8 - Frequenzweiche Stereo x8\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Loudness Compensator Mono - Lautst\u00e4rke Kompensator Mono\n- Loudness Compensator Stereo - Lautst\u00e4rke Kompensator Stereo\n- Multiband Expander LeftRight x8 - Multi-band Expander LeftRight x8\n- Multiband Expander MidSide x8 - Multi-band Expander MidSide x8\n- Multiband Expander Mono x8 - Multi-band Expander Mono x8\n- Multiband Expander Stereo x8 - Multi-band Expander Stereo x8\n- Multiband Gate LeftRight x8 - Multi-band Gate LeftRight x8\n- Multiband Gate MidSide x8 - Multi-band Gate MidSide x8\n- Multiband Gate Mono x8 - Multi-band Gate Mono x8\n- Multiband Gate Stereo x8 - Multi-band Gate Stereo x8\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Profiler Stereo - Profiler Stereo\n- Room Builder Mono - Raumbaumeister Mono\n- Room Builder Stereo - Raumbaumeister Stereo\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Expander LeftRight x8 - Sidechain Multi-band Expander LeftRight x8\n- Sidechain Multiband Expander MidSide x8 - Sidechain Multi-band Expander MidSide x8\n- Sidechain Multiband Expander Mono x8 - Sidechain Multi-band Expander Mono x8\n- Sidechain Multiband Expander Stereo x8 - Sidechain Multi-band Expander Stereo x8\n- Sidechain Multiband Gate LeftRight x8 - Sidechain Multi-band Gate LeftRight x8\n- Sidechain Multiband Gate MidSide x8 - Sidechain Multi-band Gate MidSide x8\n- Sidechain Multiband Gate Mono x8 - Sidechain Multi-band Gate Mono x8\n- Sidechain Multiband Gate Stereo x8 - Sidechain Multi-band Gate Stereo x8\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Surge Filter Mono - Sprungfilter Mono\n- Surge Filter Stereo - Sprungfilter Stereo\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:40"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "1.1.4": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "http://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:52"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.1.5": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "http://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:52"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.1.9": {
+  "meta": {
+   "description": "Collection of open-source audio plugins",
+   "homepage": "https://lsp-plug.in",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "Compatible with follwing formats:\n\n- LADSPA - set of plugins for Linux Audio Developer's Simple Plugin API\n- LV2 - set of plugins and UIs for Linux Audio Developer's Simple Plugin API (LADSPA) version 2\n- LinuxVST - set of plugins and UIs for Steinberg's VST 2.4 format ported on GNU/Linux Platform\n- JACK - Standalone versions for JACK Audio connection Kit with UI\n\nContains the following plugins:\n\n- Limiter Mono - Begrenzer Mono\n- Limiter Stereo - Begrenzer Stereo\n- Dynamic Processor LeftRight - Dynamikprozessor LeftRight\n- Dynamic Processor MidSide - Dynamikprozessor MidSide\n- Dynamic Processor Mono - Dynamikprozessor Mono\n- Dynamic Processor Stereo - Dynamikprozessor Stereo\n- Expander LeftRight - Expander LeftRight\n- Expander MidSide - Expander MidSide\n- Expander Mono - Expander Mono\n- Expander Stereo - Expander Stereo\n- Gate LeftRight - Gate LeftRight\n- Gate MidSide - Gate MidSide\n- Gate Mono - Gate Mono\n- Gate Stereo - Gate Stereo\n- Graphic Equalizer x16 LeftRight - Grafischer Entzerrer x16 LeftRight\n- Graphic Equalizer x16 MidSide - Grafischer Entzerrer x16 MidSide\n- Graphic Equalizer x16 Mono - Grafischer Entzerrer x16 Mono\n- Graphic Equalizer x16 Stereo - Grafischer Entzerrer x16 Stereo\n- Graphic Equalizer x32 LeftRight - Grafischer Entzerrer x32 LeftRight\n- Graphic Equalizer x32 MidSide - Grafischer Entzerrer x32 MidSide\n- Graphic Equalizer x32 Mono - Grafischer Entzerrer x32 Mono\n- Graphic Equalizer x32 Stereo - Grafischer Entzerrer x32 Stereo\n- Impulse Responses Mono - Impulsantworten Mono\n- Impulse Responses Stereo - Impulsantworten Stereo\n- Impulse Reverb Mono - Impulsnachhall Mono\n- Impulse Reverb Stereo - Impulsnachhall Stereo\n- Sampler Mono - Klangerzeuger Mono\n- Sampler Stereo - Klangerzeuger Stereo\n- Compressor LeftRight - Kompressor LeftRight\n- Compressor MidSide - Kompressor MidSide\n- Compressor Mono - Kompressor Mono\n- Compressor Stereo - Kompressor Stereo\n- Latency Meter - Latenzmessger\u00e4t\n- Multiband Compressor LeftRight x8 - Multi-band Kompressor LeftRight x8\n- Multiband Compressor MidSide x8 - Multi-band Kompressor MidSide x8\n- Multiband Compressor Mono x8 - Multi-band Kompressor Mono x8\n- Multiband Compressor Stereo x8 - Multi-band Kompressor Stereo x8\n- Oscillator Mono - Oszillator Mono\n- Parametric Equalizer x16 LeftRight - Parametrischer Entzerrer x16 LeftRight\n- Parametric Equalizer x16 MidSide - Parametrischer Entzerrer x16 MidSide\n- Parametric Equalizer x16 Mono - Parametrischer Entzerrer x16 Mono\n- Parametric Equalizer x16 Stereo - Parametrischer Entzerrer x16 Stereo\n- Parametric Equalizer x32 LeftRight - Parametrischer Entzerrer x32 LeftRight\n- Parametric Equalizer x32 MidSide - Parametrischer Entzerrer x32 MidSide\n- Parametric Equalizer x32 Mono - Parametrischer Entzerrer x32 Mono\n- Parametric Equalizer x32 Stereo - Parametrischer Entzerrer x32 Stereo\n- Phase Detector - Phasendetektor\n- Profiler Mono - Profiler Mono\n- Multi-Sampler x12 DirectOut - Schlagzeug x12 Direktausgabe\n- Multi-Sampler x12 Stereo - Schlagzeug x12 Stereo\n- Multi-Sampler x24 DirectOut - Schlagzeug x24 Direktausgabe\n- Multi-Sampler x24 Stereo - Schlagzeug x24 Stereo\n- Multi-Sampler x48 DirectOut - Schlagzeug x48 Direktausgabe\n- Multi-Sampler x48 Stereo - Schlagzeug x48 Stereo\n- Sidechain Multiband Compressor LeftRight x8 - Sidechain Multi-band Kompressor LeftRight x8\n- Sidechain Multiband Compressor MidSide x8 - Sidechain Multi-band Kompressor MidSide x8\n- Sidechain Multiband Compressor Mono x8 - Sidechain Multi-band Kompressor Mono x8\n- Sidechain Multiband Compressor Stereo x8 - Sidechain Multi-band Kompressor Stereo x8\n- Sidechain Limiter Mono - Sidechain-Begrenzer Mono\n- Sidechain Limiter Stereo - Sidechain-Begrenzer Stereo\n- Sidechain Dynamic Processor LeftRight - Sidechain-Dynamikprozessor LeftRight\n- Sidechain Dynamic Processor MidSide - Sidechain-Dynamikprozessor MidSide\n- Sidechain Dynamic Processor Mono - Sidechain-Dynamikprozessor Mono\n- Sidechain Dynamic Processor Stereo - Sidechain-Dynamikprozessor Stereo\n- Sidechain Expander LeftRight - Sidechain-Expander LeftRight\n- Sidechain Expander MidSide - Sidechain-Expander MidSide\n- Sidechain Expander Mono - Sidechain-Expander Mono\n- Sidechain Expander Stereo - Sidechain-Expander Stereo\n- Sidechain Gate LeftRight - Sidechain-Gate LeftRight\n- Sidechain Gate MidSide - Sidechain-Gate MidSide\n- Sidechain Gate Mono - Sidechain-Gate Mono\n- Sidechain Gate Stereo - Sidechain-Gate Stereo\n- Sidechain Compressor LeftRight - Sidechain-Kompressor LeftRight\n- Sidechain Compressor MidSide - Sidechain-Kompressor MidSide\n- Sidechain Compressor Mono - Sidechain-Kompressor Mono\n- Sidechain Compressor Stereo - Sidechain-Kompressor Stereo\n- Slapback Delay Mono - Slapback-Delay Mono\n- Slapback Delay Stereo - Slapback-Delay Stereo\n- Spectrum Analyzer x1 - Spektrumanalysator x1\n- Spectrum Analyzer x12 - Spektrumanalysator x12\n- Spectrum Analyzer x16 - Spektrumanalysator x16\n- Spectrum Analyzer x2 - Spektrumanalysator x2\n- Spectrum Analyzer x4 - Spektrumanalysator x4\n- Spectrum Analyzer x8 - Spektrumanalysator x8\n- Trigger MIDI Mono - Triggersensor MIDI Mono\n- Trigger MIDI Stereo - Triggersensor MIDI Stereo\n- Trigger Mono - Triggersensor Mono\n- Trigger Stereo - Triggersensor Stereo\n- Delay Compensator Mono - Verz\u00f6gerungsausgleicher Mono\n- Delay Compensator Stereo - Verz\u00f6gerungsausgleicher Stereo\n- Delay Compensator x2 Stereo - Verz\u00f6gerungsausgleicher x2 Stereo\n",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "lsp-plugins",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/lsp-plugins/default.nix:52"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ }
+}

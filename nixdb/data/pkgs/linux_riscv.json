@@ -1,0 +1,107 @@
+{
+ "4.16-rc1": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:236"
+  },
+  "revs": [
+   "0022708d6d369527aa4ff5da07806203c21533d5",
+   "8c5da2713cda9e31197e1cd9f4fba20bc32fc239"
+  ]
+ },
+ "4.16-rc2": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:236"
+  },
+  "revs": [
+   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "4.16-rc6": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "0.C": {
+  "meta": {
+   "description": "A free, post apocalyptic, zombie infested rogue-like",
+   "homepage": "https://cataclysmdda.org/",
+   "license": {
+    "fullName": "Creative Commons Attribution Share Alike 3.0",
+    "shortName": "cc-by-sa-30",
+    "spdxId": "CC-BY-SA-3.0",
+    "url": "http://spdx.org/licenses/CC-BY-SA-3.0.html"
+   },
+   "long_description": "Cataclysm: Dark Days Ahead is a roguelike set in a post-apocalyptic world.\nSurviving is difficult: you have been thrown, ill-equipped, into a\nlandscape now riddled with monstrosities of which flesh eating zombies are\nneither the strangest nor the deadliest.\n\nYet with care and a little luck, many things are possible. You may try to\neke out an existence in the forests silently executing threats and\nproviding sustenance with your longbow. You can ride into town in a\njerry-rigged vehicle, all guns blazing, to settle matters in a fug of\nsmoke from your molotovs. You could take a more measured approach and\nconstruct an impregnable fortress, surrounded by traps to protect you from\nthe horrors without. The longer you survive, the more skilled and adapted\nyou will get and the better equipped and armed to deal with the threats\nyou are presented with.\n\nIn the course of your ordeal there will be opportunities and temptations\nto improve or change your very nature. There are tales of survivors fitted\nwith extraordinary cybernetics giving great power and stories too of\ngravely mutated survivors who, warped by their ingestion of exotic\nsubstances or radiation, now more closely resemble insects, birds or fish\nthan their original form.\n",
+   "maintainers": [
+    {
+     "email": "m.nacamura@gmail.com",
+     "github": "mnacamura",
+     "name": "Mitsuhiro Nakamura"
+    },
+    {
+     "email": "svenkeidel@gmail.com",
+     "github": "svenkeidel",
+     "name": "Sven Keidel"
+    }
+   ],
+   "name": "cataclysm-dda",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/games/cataclysm-dda/common.nix:36"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.D": {
+  "meta": {
+   "description": "A free, post apocalyptic, zombie infested rogue-like",
+   "homepage": "https://cataclysmdda.org/",
+   "license": {
+    "fullName": "Creative Commons Attribution Share Alike 3.0",
+    "shortName": "cc-by-sa-30",
+    "spdxId": "CC-BY-SA-3.0",
+    "url": "http://spdx.org/licenses/CC-BY-SA-3.0.html"
+   },
+   "long_description": "Cataclysm: Dark Days Ahead is a roguelike set in a post-apocalyptic world.\nSurviving is difficult: you have been thrown, ill-equipped, into a\nlandscape now riddled with monstrosities of which flesh eating zombies are\nneither the strangest nor the deadliest.\n\nYet with care and a little luck, many things are possible. You may try to\neke out an existence in the forests silently executing threats and\nproviding sustenance with your longbow. You can ride into town in a\njerry-rigged vehicle, all guns blazing, to settle matters in a fug of\nsmoke from your molotovs. You could take a more measured approach and\nconstruct an impregnable fortress, surrounded by traps to protect you from\nthe horrors without. The longer you survive, the more skilled and adapted\nyou will get and the better equipped and armed to deal with the threats\nyou are presented with.\n\nIn the course of your ordeal there will be opportunities and temptations\nto improve or change your very nature. There are tales of survivors fitted\nwith extraordinary cybernetics giving great power and stories too of\ngravely mutated survivors who, warped by their ingestion of exotic\nsubstances or radiation, now more closely resemble insects, birds or fish\nthan their original form.\n",
+   "maintainers": [
+    {
+     "email": "m.nacamura@gmail.com",
+     "github": "mnacamura",
+     "githubId": 45770,
+     "name": "Mitsuhiro Nakamura"
+    },
+    {
+     "email": "svenkeidel@gmail.com",
+     "github": "svenkeidel",
+     "githubId": 266500,
+     "name": "Sven Keidel"
+    }
+   ],
+   "name": "cataclysm-dda",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/cataclysm-dda/common.nix:48"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "0.E": {
+  "meta": {
+   "description": "A free, post apocalyptic, zombie infested rogue-like",
+   "homepage": "https://cataclysmdda.org/",
+   "license": {
+    "fullName": "Creative Commons Attribution Share Alike 3.0",
+    "shortName": "cc-by-sa-30",
+    "spdxId": "CC-BY-SA-3.0",
+    "url": "https://spdx.org/licenses/CC-BY-SA-3.0.html"
+   },
+   "long_description": "Cataclysm: Dark Days Ahead is a roguelike set in a post-apocalyptic world.\nSurviving is difficult: you have been thrown, ill-equipped, into a\nlandscape now riddled with monstrosities of which flesh eating zombies are\nneither the strangest nor the deadliest.\n\nYet with care and a little luck, many things are possible. You may try to\neke out an existence in the forests silently executing threats and\nproviding sustenance with your longbow. You can ride into town in a\njerry-rigged vehicle, all guns blazing, to settle matters in a fug of\nsmoke from your molotovs. You could take a more measured approach and\nconstruct an impregnable fortress, surrounded by traps to protect you from\nthe horrors without. The longer you survive, the more skilled and adapted\nyou will get and the better equipped and armed to deal with the threats\nyou are presented with.\n\nIn the course of your ordeal there will be opportunities and temptations\nto improve or change your very nature. There are tales of survivors fitted\nwith extraordinary cybernetics giving great power and stories too of\ngravely mutated survivors who, warped by their ingestion of exotic\nsubstances or radiation, now more closely resemble insects, birds or fish\nthan their original form.\n",
+   "maintainers": [
+    {
+     "email": "m.nacamura@gmail.com",
+     "github": "mnacamura",
+     "githubId": 45770,
+     "name": "Mitsuhiro Nakamura"
+    },
+    {
+     "email": "svenkeidel@gmail.com",
+     "github": "svenkeidel",
+     "githubId": 266500,
+     "name": "Sven Keidel"
+    }
+   ],
+   "name": "cataclysm-dda",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/cataclysm-dda/common.nix:48"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "0.E-2": {
+  "meta": {
+   "description": "A free, post apocalyptic, zombie infested rogue-like",
+   "homepage": "https://cataclysmdda.org/",
+   "license": {
+    "fullName": "Creative Commons Attribution Share Alike 3.0",
+    "shortName": "cc-by-sa-30",
+    "spdxId": "CC-BY-SA-3.0",
+    "url": "https://spdx.org/licenses/CC-BY-SA-3.0.html"
+   },
+   "long_description": "Cataclysm: Dark Days Ahead is a roguelike set in a post-apocalyptic world.\nSurviving is difficult: you have been thrown, ill-equipped, into a\nlandscape now riddled with monstrosities of which flesh eating zombies are\nneither the strangest nor the deadliest.\n\nYet with care and a little luck, many things are possible. You may try to\neke out an existence in the forests silently executing threats and\nproviding sustenance with your longbow. You can ride into town in a\njerry-rigged vehicle, all guns blazing, to settle matters in a fug of\nsmoke from your molotovs. You could take a more measured approach and\nconstruct an impregnable fortress, surrounded by traps to protect you from\nthe horrors without. The longer you survive, the more skilled and adapted\nyou will get and the better equipped and armed to deal with the threats\nyou are presented with.\n\nIn the course of your ordeal there will be opportunities and temptations\nto improve or change your very nature. There are tales of survivors fitted\nwith extraordinary cybernetics giving great power and stories too of\ngravely mutated survivors who, warped by their ingestion of exotic\nsubstances or radiation, now more closely resemble insects, birds or fish\nthan their original form.\n",
+   "maintainers": [
+    {
+     "email": "m.nacamura@gmail.com",
+     "github": "mnacamura",
+     "githubId": 45770,
+     "name": "Mitsuhiro Nakamura"
+    },
+    {
+     "email": "svenkeidel@gmail.com",
+     "github": "svenkeidel",
+     "githubId": 266500,
+     "name": "Sven Keidel"
+    }
+   ],
+   "name": "cataclysm-dda",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/games/cataclysm-dda/common.nix:48"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "2.8.4": {
+  "meta": {
+   "description": "Compiler of OCaml bytecode to Javascript. It makes it possible to run Ocaml programs in a Web browser",
+   "homepage": "http://ocsigen.org/js_of_ocaml/",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "florent.becker@ens-lyon.org",
+     "github": "FlorentBecker",
+     "name": "Florent Becker"
+    }
+   ],
+   "name": "js_of_ocaml",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/ocaml/js_of_ocaml/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ }
+}

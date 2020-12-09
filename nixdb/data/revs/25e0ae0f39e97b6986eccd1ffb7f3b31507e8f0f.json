@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix building Perl on FreeBSD.  Its configure script was looking for   libraries in /usr/local/lib, but the linker doesn't look there by   default, so linking against libgdbm failed.  So don't look in   /usr/local/lib.",
+ "timestamp": "1327077736"
+}

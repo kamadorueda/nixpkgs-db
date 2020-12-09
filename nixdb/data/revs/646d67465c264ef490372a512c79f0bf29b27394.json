@@ -1,0 +1,4 @@
+{
+ "summary": "* Upstart stupidly doesn't kill post-start scripts if we do \"stop   JOB\", but it does kill the job's main process.  So if the post-start   script if waiting for the job's main process to reach some state, it   may hang forever.  Thus, the post-start script should monitor   whether its job has been requested to stop and exit in that case.",
+ "timestamp": "1331933091"
+}

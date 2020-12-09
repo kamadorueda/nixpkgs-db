@@ -1,0 +1,51 @@
+{
+ "1.0.2": {
+  "meta": {
+   "description": "Serves as a complement to the Python standard library by providing a suite of tools to solve many common problems",
+   "homepage": "https://github.com/materialsvirtuallab/monty",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "\n      Monty implements supplementary useful functions for Python that are not part of the \n      standard library. Examples include useful utilities like transparent support for zipped files, useful design \n      patterns such as singleton and cached_class, and many more.\n    ",
+   "maintainers": [
+    {
+     "email": "iuns@outlook.fr",
+     "github": "Assassinkin",
+     "name": "Psyanticy"
+    }
+   ],
+   "name": "python3.6-monty",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/monty/default.nix:27"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ }
+}

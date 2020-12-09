@@ -1,0 +1,53 @@
+{
+ "5.2.8": {
+  "meta": {
+   "description": "Python bindings for FoundationDB",
+   "homepage": "https://www.foundationdb.org",
+   "license": [
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "python3.7-foundationdb",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/servers/foundationdb/python.nix:18"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

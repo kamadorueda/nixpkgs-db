@@ -1,0 +1,30 @@
+{
+ "1.1.9": {
+  "meta": {
+   "description": "Self-contained, serverless, zero-conf, transactional NoSQL DB library",
+   "homepage": "https://unqlite.org/",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "UnQLite is a in-process software library which implements a\nself-contained, serverless, zero-configuration, transactional NoSQL\ndatabase engine. UnQLite is a document store database similar to MongoDB,\nRedis, CouchDB etc. as well a standard Key/Value store similar to\nBerkeleyDB, LevelDB, etc.\n\nUnQLite is an embedded NoSQL (Key/Value store and Document-store) database\nengine. Unlike most other NoSQL databases, UnQLite does not have a\nseparate server process. UnQLite reads and writes directly to ordinary\ndisk files. A complete database with multiple collections, is contained in\na single disk file. The database file format is cross-platform, you can\nfreely copy a database between 32-bit and 64-bit systems or between\nbig-endian and little-endian architectures.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "unqlite",
+   "platforms": null,
+   "position": "pkgs/development/libraries/unqlite/default.nix:20"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

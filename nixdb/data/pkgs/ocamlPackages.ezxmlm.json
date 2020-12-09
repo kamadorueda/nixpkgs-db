@@ -1,0 +1,51 @@
+{
+ "1.0.2": {
+  "meta": {
+   "description": "Combinators to use with xmlm for parsing and selection",
+   "homepage": "https://github.com/avsm/ezxmlm",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "An \"easy\" interface on top of the xmlm library. This version provides\nmore convenient (but far less flexible) input and output functions\nthat go to and from [string] values. This avoids the need to write signal\ncode, which is useful for quick scripts that manipulate XML.\n\nMore advanced users should go straight to the Xmlm library and use it\ndirectly, rather than be saddled with the Ezxmlm interface. Since the\ntypes in this library are more specific than Xmlm, it should interoperate\njust fine with it if you decide to switch over.\n",
+   "maintainers": [
+    {
+     "email": "m@cdagostino.io",
+     "github": "carlosdagos",
+     "name": "Carlos D'Agostino"
+    }
+   ],
+   "name": "ocaml4.06.1-ezxmlm",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/ezxmlm/default.nix:17"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,585 @@
+{
+ "0.2.0": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:36"
+  },
+  "revs": [
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "0.2.1": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:33"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "0.3.0": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:33"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "0.3.1": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:33"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "950ac2bc8fa13a7557d931123c24c93418662a2d"
+  ]
+ },
+ "0.3.2": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:33"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "6a380c4ea227df1213bcf33c3384b45810ed3056"
+  ]
+ },
+ "0.3.3": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:19"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "510be033e9de19d012f535ba4c3aa7c6665af6d6"
+  ]
+ },
+ "0.3.4": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:27"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "0.4.0-alpha": {
+  "meta": {
+   "description": "The fastest and safest AV1 encoder",
+   "homepage": "https://github.com/xiph/rav1e",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "rav1e is an AV1 video encoder. It is designed to eventually cover all use\ncases, though in its current form it is most suitable for cases where\nlibaom (the reference encoder) is too slow.\nFeatures: https://github.com/xiph/rav1e#features\n",
+   "maintainers": [
+    {
+     "email": "dev.primeos@gmail.com",
+     "github": "primeos",
+     "githubId": 7537109,
+     "keys": [
+      {
+       "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+       "longkeyid": "ed25519/0x130826A6C2A389FD"
+      },
+      {
+       "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+       "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+      }
+     ],
+     "name": "Michael Weiss"
+    }
+   ],
+   "name": "rav1e",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/video/rav1e/default.nix:41"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "0.3.2": {
+  "meta": {
+   "description": "Recover / undelete files from ext3 or ext4 partitions",
+   "homepage": "http://ext4magic.sourceforge.net/ext4magic_en.html",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "ext4magic can recover/undelete files from ext3 or ext4 partitions\nby retrieving file-information from the filesystem journal.\n\nIf the information in the journal are sufficient, ext4magic can\nrecover the most file types, with original filename, owner and group,\nfile mode bits and also the old atime/mtime stamps. \n\nIt's much more effective and works much better than extundelete.\n",
+   "maintainers": [
+    {
+     "email": "rk@simple-is-better.org",
+     "github": "rkoe",
+     "name": "Roland Koebler"
+    }
+   ],
+   "name": "ext4magic",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/filesystems/ext4magic/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

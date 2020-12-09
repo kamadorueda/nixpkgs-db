@@ -1,0 +1,51 @@
+{
+ "0.2.2": {
+  "meta": {
+   "description": "Allows to `from nixpkgs import` stuff in interactive Python sessions",
+   "homepage": "http://github.com/t184256/nixpkgs-python-importer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "monk@unboiled.info",
+     "github": "t184256",
+     "name": "Alexander Sosedkin"
+    }
+   ],
+   "name": "python3.6-nixpkgs",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/nixpkgs/default.nix:23"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "4f43e5fe886374ec918da4bf494710cd58c4adf7"
+  ]
+ }
+}

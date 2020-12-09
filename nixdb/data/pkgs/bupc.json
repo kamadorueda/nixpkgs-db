@@ -1,0 +1,43 @@
+{
+ "2.22.0": {
+  "meta": {
+   "description": "A compiler for the Berkely Unified Parallel C language",
+   "homepage": "http://upc.lbl.gov/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "Unified Parallel C (UPC) is an extension of the C programming language\ndesigned for high performance computing on large-scale parallel\nmachines.The language provides a uniform programming model for both\nshared and distributed memory hardware. The programmer is presented with\na single shared, partitioned address space, where variables may be\ndirectly read and written by any processor, but each variable is\nphysically associated with a single processor. UPC uses a Single Program\nMultiple Data (SPMD) model of computation in which the amount of\nparallelism is fixed at program startup time, typically with a single\nthread of execution per processor.\n",
+   "maintainers": [
+    {
+     "email": "zimbatm@zimbatm.com",
+     "github": "zimbatm",
+     "name": "zimbatm"
+    }
+   ],
+   "name": "berkeley_upc",
+   "platforms": [
+    [
+     {
+      "kernel": {
+       "_type": "kernel",
+       "execFormat": {
+        "_type": "exec-format",
+        "name": "elf"
+       },
+       "families": {},
+       "name": "linux"
+      }
+     }
+    ]
+   ],
+   "position": "pkgs/development/compilers/bupc/default.nix:22"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "2.0.0a": {
+  "meta": {
+   "description": "A command-line disk partitioning tool",
+   "homepage": "https://www.gnu.org/software/fdisk/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "GNU fdisk provides alternatives to util-linux fdisk and util-linux\ncfdisk.  It uses GNU Parted.\n",
+   "maintainers": [],
+   "name": "gnufdisk",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/tools/system/fdisk/default.nix:16"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

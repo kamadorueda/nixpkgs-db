@@ -1,0 +1,82 @@
+{
+ "0.3.3": {
+  "meta": {
+   "description": "Xhyve driver for docker-machine.",
+   "homepage": "https://github.com/zchee/docker-machine-driver-xhyve",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "theopompos@gmail.com",
+     "github": "periklis",
+     "name": "Periklis Tsirakidis"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "docker-machine-xhyve",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/cluster/docker-machine/xhyve.nix:22"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "0.4.0": {
+  "meta": {
+   "description": "Xhyve driver for docker-machine.",
+   "homepage": "https://github.com/machine-drivers/docker-machine-driver-xhyve",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "theopompos@gmail.com",
+     "github": "periklis",
+     "githubId": 152312,
+     "name": "Periklis Tsirakidis"
+    }
+   ],
+   "name": "docker-machine-xhyve",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/networking/cluster/docker-machine/xhyve.nix:34"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

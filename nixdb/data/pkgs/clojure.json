@@ -1,0 +1,1343 @@
+{
+ "1.10.0.403": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "047def418ee726a43b46bce6d93f26e2dd705cb4"
+  ]
+ },
+ "1.10.0.411": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "1.10.0.442": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.10.1.462": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-darwin",
+    "i686-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "0033313ebf6b595e24032f2798797a470311977b",
+   "363ba3f40371f5c016aecf07bf62f3a33f755f29"
+  ]
+ },
+ "1.10.1.466": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+  ]
+ },
+ "1.10.1.469": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "1.10.1.492": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "1.10.1.507": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:41"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "030e2ce817c8e83824fb897843ff70a15c131b96"
+  ]
+ },
+ "1.10.1.547": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:44"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "3b6ef967f3ff3f9c86ac0b406f2b1513f7b56c5c"
+  ]
+ },
+ "1.10.1.590": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:44"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "990e2f210b95549e441cbaef91fe3787a264ea35"
+  ]
+ },
+ "1.10.1.645": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:45"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "2e73a9ab84cd1ac84465dbd8b290ca3517d3c1d5"
+  ]
+ },
+ "1.10.1.727": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "https://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "jl@lafuente.me",
+     "github": "jlesquembre",
+     "githubId": 1058504,
+     "name": "Jos\u00e9 Luis Lafuente"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:45"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ },
+ "1.2.1": {
+  "meta": {
+   "description": "a Lisp dialect for the JVM",
+   "homepage": "http://clojure.org/",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [],
+   "name": "clojure",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "304facbf3b763b18113d5f12e4b3c8c3866a2dea"
+  ]
+ },
+ "1.4.0": {
+  "meta": {
+   "description": "a Lisp dialect for the JVM",
+   "homepage": "http://clojure.org/",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [],
+   "name": "clojure",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "1.5.1": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "http://clojure.org/",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://opensource.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [],
+   "name": "clojure",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/clojure/default.nix:24"
+  },
+  "revs": [
+   "0008a4b6c467977469b9b3bdec15fcc580204145",
+   "632ccf8bc6ef36a132cc0eb39eff052838db6113"
+  ]
+ },
+ "1.6.0": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "http://clojure.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "clojure",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/clojure/default.nix:24"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "1.7.0": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "http://clojure.org/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "clojure",
+   "platforms": null,
+   "position": "pkgs/development/interpreters/clojure/default.nix:24"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "1.8.0": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:24"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "1.9.0.273": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:26"
+  },
+  "revs": [
+   "007cd5262f12a9883cbac44c4f894d3469966f7e",
+   "a7ed44ccadfcf1bd54d0197fbc87b6c1b0bcef7b"
+  ]
+ },
+ "1.9.0.326": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    "Moritz Ulrich <moritz@tarn-vedra.de>"
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:26"
+  },
+  "revs": [
+   "017154391b4a2a4e418640d3a7677274fe981dc9",
+   "91622a24aa6235cd3b83d77adddc2ff231714c7a"
+  ]
+ },
+ "1.9.0.329": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:29"
+  },
+  "revs": [
+   "0008b5c2324b7dfc9420bdec9c8068f0755bf54f",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.9.0.358": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:29"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "092deb9cf8378a0950574d714a60d7767da0fda1"
+  ]
+ },
+ "1.9.0.375": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:29"
+  },
+  "revs": [
+   "004111c27e11684d6945f82124110c5f17c1bf01",
+   "479f6960d8d7a48c34bf413019068bcc8822f836"
+  ]
+ },
+ "1.9.0.381": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "hurd"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "1.9.0.391": {
+  "meta": {
+   "description": "A Lisp dialect for the JVM",
+   "homepage": "https://clojure.org/",
+   "license": {
+    "fullName": "Eclipse Public License 1.0",
+    "shortName": "epl10",
+    "spdxId": "EPL-1.0",
+    "url": "http://spdx.org/licenses/EPL-1.0.html"
+   },
+   "long_description": "Clojure is a dynamic programming language that targets the Java\nVirtual Machine. It is designed to be a general-purpose language,\ncombining the approachability and interactive development of a\nscripting language with an efficient and robust infrastructure for\nmultithreaded programming. Clojure is a compiled language - it\ncompiles directly to JVM bytecode, yet remains completely\ndynamic. Every feature supported by Clojure is supported at\nruntime. Clojure provides easy access to the Java frameworks, with\noptional type hints and type inference, to ensure that calls to Java\ncan avoid reflection.\n\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data\nphilosophy and a powerful macro system. Clojure is predominantly a\nfunctional programming language, and features a rich set of immutable,\npersistent data structures. When mutable state is needed, Clojure\noffers a software transactional memory system and reactive Agent\nsystem that ensure clean, correct, multithreaded designs.\n",
+   "maintainers": [
+    {
+     "email": "moritz@tarn-vedra.de",
+     "github": "the-kenny",
+     "name": "Moritz Ulrich"
+    }
+   ],
+   "name": "clojure",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/interpreters/clojure/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ }
+}

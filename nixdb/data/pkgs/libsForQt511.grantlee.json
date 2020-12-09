@@ -1,0 +1,87 @@
+{
+ "5.1.0": {
+  "meta": {
+   "description": "Qt5 port of Django template system",
+   "homepage": "http://gitorious.org/grantlee",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "Grantlee is a plugin based String Template system written using the Qt\nframework. The goals of the project are to make it easier for application\ndevelopers to separate the structure of documents from the data they\ncontain, opening the door for theming.\n\nThe syntax is intended to follow the syntax of the Django template system,\nand the design of Django is reused in Grantlee.",
+   "maintainers": [
+    {
+     "email": "ttuegel@mailbox.org",
+     "github": "ttuegel",
+     "name": "Thomas Tuegel"
+    }
+   ],
+   "name": "grantlee",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/grantlee/5/default.nix:37"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

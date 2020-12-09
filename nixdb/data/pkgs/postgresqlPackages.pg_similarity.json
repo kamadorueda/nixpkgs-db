@@ -1,0 +1,41 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "pg_similarity is an extension to support similarity queries on PostgreSQL. The implementation\nis tightly integrated in the RDBMS in the sense that it defines operators so instead of the traditional\noperators (= and <>) you can use ~~~ and ~!~ (any of these operators represents a similarity function).\n",
+   "homepage": "",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "name": "Danylo Hlynskyi"
+    }
+   ],
+   "name": "pg_similarity",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/servers/sql/postgresql/ext/pg_similarity.nix:22"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ }
+}

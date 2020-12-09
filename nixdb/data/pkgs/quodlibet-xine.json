@@ -1,0 +1,311 @@
+{
+ "3.9.1": {
+  "meta": {
+   "description": "GTK+-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "Quod Libet is a GTK+-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    "Jonas H\u00f6rsch <jonas@chaoflow.net>",
+    "Sauyon Lee <s@uyon.co>",
+    "Florian Friesdorf <flo@chaoflow.net>"
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:40"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "4.0.2": {
+  "meta": {
+   "description": "GTK+-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Quod Libet is a GTK+-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    {
+     "email": "jonas@chaoflow.net",
+     "github": "coroa",
+     "name": "Jonas H\u00f6rsch"
+    },
+    {
+     "email": "s@uyon.co",
+     "github": "sauyon",
+     "name": "Sauyon Lee"
+    }
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:55"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "8a999d15ebfb929a5f5fc5b08be6a23848f29710"
+  ]
+ },
+ "4.1.0": {
+  "meta": {
+   "description": "GTK+-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Quod Libet is a GTK+-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    {
+     "email": "jonas@chaoflow.net",
+     "github": "coroa",
+     "name": "Jonas H\u00f6rsch"
+    },
+    {
+     "email": "s@uyon.co",
+     "github": "sauyon",
+     "name": "Sauyon Lee"
+    }
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:55"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "4.2.0": {
+  "meta": {
+   "description": "GTK+-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Quod Libet is a GTK+-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    {
+     "email": "jonas@chaoflow.net",
+     "github": "coroa",
+     "name": "Jonas H\u00f6rsch"
+    },
+    {
+     "email": "s@uyon.co",
+     "github": "sauyon",
+     "name": "Sauyon Lee"
+    }
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:55"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "4.2.1": {
+  "meta": {
+   "description": "GTK+-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Quod Libet is a GTK+-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    {
+     "email": "jonas@chaoflow.net",
+     "github": "coroa",
+     "name": "Jonas H\u00f6rsch"
+    },
+    {
+     "email": "s@uyon.co",
+     "github": "sauyon",
+     "name": "Sauyon Lee"
+    }
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:49"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "101c5a96ad5df1b1b0d74b0a0f6d071d5a296873"
+  ]
+ },
+ "4.3.0": {
+  "meta": {
+   "description": "GTK-based audio player written in Python, using the Mutagen tagging library",
+   "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "Quod Libet is a GTK-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+   "maintainers": [
+    {
+     "email": "jonas@chaoflow.net",
+     "github": "coroa",
+     "githubId": 2552981,
+     "name": "Jonas H\u00f6rsch"
+    },
+    {
+     "email": "ppbogdan@gmail.com",
+     "github": "pbogdan",
+     "githubId": 157610,
+     "name": "Piotr Bogdan"
+    }
+   ],
+   "name": "quodlibet-xine",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/audio/quodlibet/default.nix:71"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

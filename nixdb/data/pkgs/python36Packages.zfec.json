@@ -1,0 +1,45 @@
+{
+ "1.4.24": {
+  "meta": {
+   "description": "Zfec, a fast erasure codec which can be used with the command-line, C, Python, or Haskell",
+   "homepage": "http://allmydata.org/trac/zfec",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0+",
+    "url": "http://spdx.org/licenses/GPL-2.0+.html"
+   },
+   "long_description": "Fast, portable, programmable erasure coding a.k.a. \"forward\nerror correction\": the generation of redundant blocks of\ninformation such that if some blocks are lost then the\noriginal data can be recovered from the remaining blocks. The\nzfec package includes command-line tools, C API, Python API,\nand Haskell API.\n",
+   "maintainers": [],
+   "name": "python3.6-zfec",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/top-level/python-packages.nix:15248"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ }
+}

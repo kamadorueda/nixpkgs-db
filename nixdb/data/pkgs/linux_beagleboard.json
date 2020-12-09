@@ -1,0 +1,103 @@
+{
+ "4.14.12-ti-r23": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:238"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "4.9.59-ti-r73": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:205"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "a2e40f72547a888066698a41fa54ca4c675aaad0"
+  ]
+ },
+ "4.9.61-ti-r76": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, p9-fixes, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Austin Seipp <aseipp@pobox.com>"
+   ],
+   "name": "linux",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:218"
+  },
+  "revs": [
+   "0017479abbe15c7d472b8c7563e5353608e67e5d",
+   "9fad70f1de9918ad6a280fe8ac243173b0329789"
+  ]
+ }
+}

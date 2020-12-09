@@ -1,0 +1,51 @@
+{
+ "0.8.4": {
+  "meta": {
+   "description": "A tool to read the contents of ISO7816 smart cards",
+   "homepage": "https://github.com/L1L1/cardpeek",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hi@liclac.eu",
+     "github": "liclac",
+     "name": "embr"
+    }
+   ],
+   "name": "cardpeek",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/applications/misc/cardpeek/default.nix:23"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "1.1.4": {
+  "meta": {
+   "description": "A console-based network monitoring utility (fork of iptraf)",
+   "homepage": "https://fedorahosted.org/iptraf-ng/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "IPTraf-ng is a console-based network monitoring utility. IPTraf-ng\ngathers data like TCP connection packet and byte counts, interface\nstatistics and activity indicators, TCP/UDP traffic breakdowns, and LAN\nstation packet and byte counts. IPTraf-ng features include an IP traffic\nmonitor which shows TCP flag information, packet and byte counts, ICMP\ndetails, OSPF packet types, and oversized IP packet warnings; interface\nstatistics showing IP, TCP, UDP, ICMP, non-IP and other IP packet counts,\nIP checksum errors, interface activity and packet size counts; a TCP and\nUDP service monitor showing counts of incoming and outgoing packets for\ncommon TCP and UDP application ports, a LAN statistics module that\ndiscovers active hosts and displays statistics about their activity; TCP,\nUDP and other protocol display filters so you can view just the traffic\nyou want; logging; support for Ethernet, FDDI, ISDN, SLIP, PPP, and\nloopback interfaces; and utilization of the built-in raw socket interface\nof the Linux kernel, so it can be used on a wide variety of supported\nnetwork cards.\n",
+   "maintainers": [
+    {
+     "email": "\"^\"@regexmail.net",
+     "github": "devhell",
+     "name": "devhell"
+    }
+   ],
+   "name": "iptraf-ng",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/networking/iptraf-ng/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

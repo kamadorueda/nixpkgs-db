@@ -1,0 +1,100 @@
+{
+ "3.12.0": {
+  "meta": {
+   "description": "Framework for managing passwords and other secrets",
+   "homepage": "https://wiki.gnome.org/Projects/GnomeKeyring",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 or later",
+     "shortName": "gpl2Plus",
+     "spdxId": "GPL-2.0+",
+     "url": "http://spdx.org/licenses/GPL-2.0+.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 or later",
+     "shortName": "lgpl2Plus",
+     "spdxId": "LGPL-2.0+",
+     "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+    }
+   ],
+   "long_description": "gnome-keyring is a program that keeps password and other secrets for\nusers. The library libgnome-keyring is used by applications to integrate\nwith the gnome-keyring system.\n",
+   "maintainers": [
+    {
+     "email": "jason@oconal.id.au",
+     "github": "lovek323",
+     "name": "Jason O'Conal"
+    },
+    {
+     "email": "7c6f434c@mail.ru",
+     "github": "7c6f434c",
+     "name": "Michael Raskin"
+    }
+   ],
+   "name": "libgnome-keyring",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/gnome-3/core/libgnome-keyring/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

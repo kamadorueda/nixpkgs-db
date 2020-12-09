@@ -1,0 +1,4 @@
+{
+ "summary": "* Use rpaths to ensure that executable and dynamic libraries are automatically linked   against the right dynamic libraries.  set-env.sh add the right linker flags to the   NIX_LDFLAGS environment variable, which is passed by gcc-wrapper to the linker.   (In many cases these flags could just be passed through LDFLAGS to configure   scripts; however, in many other cases this doesn't work properly.)  --This line, and those below, will be ignored--",
+ "timestamp": "1059426903"
+}

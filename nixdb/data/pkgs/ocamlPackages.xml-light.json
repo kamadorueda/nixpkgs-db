@@ -1,0 +1,51 @@
+{
+ "2.4": {
+  "meta": {
+   "description": "Minimal Xml parser and printer for OCaml",
+   "homepage": "http://tech.motion-twin.com/xmllight.html",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1",
+    "url": "http://spdx.org/licenses/LGPL-2.1.html"
+   },
+   "long_description": "Xml-Light provides functions to parse an XML document into an OCaml\ndata structure, work with it, and print it back to an XML\ndocument. It support also DTD parsing and checking, and is\nentirely written in OCaml, hence it does not require additional C\nlibrary.\n",
+   "maintainers": [
+    {
+     "email": "malaquias@gmail.com",
+     "github": "romildo",
+     "name": "Jos\u00e9 Romildo Malaquias"
+    }
+   ],
+   "name": "ocaml-xml-light",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/ocaml-modules/xml-light/default.nix:30"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}

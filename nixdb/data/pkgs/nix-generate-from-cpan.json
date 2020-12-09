@@ -1,0 +1,124 @@
+{
+ "1": {
+  "meta": {
+   "description": "Utility to generate a Nix expression for a Perl package from CPAN",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>"
+   ],
+   "name": "nix-generate-from-cpan",
+   "platforms": null,
+   "position": "maintainers/scripts/nix-generate-from-cpan.nix:20"
+  },
+  "revs": [
+   "000162daed5e6a854d1e034409002aee80e6d8ac",
+   "71f92bc8a386bcd05f74d56113fd2f408145ad7e"
+  ]
+ },
+ "2": {
+  "meta": {
+   "description": "Utility to generate a Nix expression for a Perl package from CPAN",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Eelco Dolstra <eelco.dolstra@logicblox.com>",
+    "Robert Helgesson <robert@rycee.net>"
+   ],
+   "name": "nix-generate-from-cpan",
+   "platforms": null,
+   "position": "maintainers/scripts/nix-generate-from-cpan.nix:22"
+  },
+  "revs": [
+   "00078e317e63d1d934806efd62f56e48150a4f64",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "3": {
+  "meta": {
+   "description": "Utility to generate a Nix expression for a Perl package from CPAN",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "eelco.dolstra@logicblox.com",
+     "github": "edolstra",
+     "name": "Eelco Dolstra"
+    },
+    {
+     "email": "robert@rycee.net",
+     "github": "rycee",
+     "name": "Robert Helgesson"
+    }
+   ],
+   "name": "nix-generate-from-cpan",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "bsd": {
+        "_type": "exec-format",
+        "name": "bsd"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "solaris"
+     }
+    },
+    {
+     "abi": {
+      "_type": "abi",
+      "name": "cygnus"
+     },
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "pe"
+      },
+      "families": {},
+      "name": "windows"
+     }
+    }
+   ],
+   "position": "maintainers/scripts/nix-generate-from-cpan.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "5101b357ec30c1ac4a9273b379e631f841af9fa3"
+  ]
+ }
+}
